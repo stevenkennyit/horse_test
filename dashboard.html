@@ -160,6 +160,12 @@
       <div id="chart-prob"></div>
     </section>
     <section class="card">
+      <h2>Calibration</h2>
+      <p class="desc">Every ranked pick, grouped by the chance the agent gave it: average stated chance vs how often those picks actually won. Bars level means the chances can be trusted.</p>
+      <div class="legend"><span><i style="background:var(--series-1)"></i>Stated chance (average)</span><span><i style="background:var(--series-2)"></i>Actual win rate</span></div>
+      <div id="chart-cal"></div>
+    </section>
+    <section class="card">
       <h2>Reasoning grade</h2>
       <p class="desc">Judged on whether the reasoning was true and checked, not on the result.</p>
       <div id="chart-grade"></div>
@@ -371,6 +377,55 @@
     el.innerHTML = s; bindTips(el);
   }
 
+  // ---- calibration (stated chance vs actual win rate, by band) ----
+  const BANDS = [[0, 0.1], [0.1, 0.2], [0.2, 0.3], [0.3, 0.4], [0.4, 0.5], [0.5, 1.01]];
+  function renderCal(races) {
+    const picks = races.filter((r) => r.status === "settled").flatMap((r) =>
+      r.picks.filter((p) => p.prob != null).map((p) => ({ r, p, won: String(p.finish) === "1" })));
+    const el = $("chart-cal");
+    if (!picks.length) { el.innerHTML = '<p class="muted">No settled picks.</p>'; return; }
+    const rows = BANDS.map(([lo, hi]) => {
+      const ps = picks.filter((d) => d.p.prob >= lo && d.p.prob < hi);
+      return {
+        ps, key: hi > 1 ? `${lo * 100}%+` : `${lo * 100}–${hi * 100}%`,
+        stated: ps.length ? ps.reduce((a, d) => a + d.p.prob, 0) / ps.length : null,
+        actual: ps.length ? ps.filter((d) => d.won).length / ps.length : null
+      };
+    });
+    const W = Math.max(320, el.clientWidth || 520), H = 230, m = { t: 18, r: 8, b: 44, l: 40 };
+    const iw = W - m.l - m.r, ih = H - m.t - m.b;
+    const mx = niceMax(Math.max(...rows.map((d) => Math.max(d.stated || 0, d.actual || 0)), 0.1));
+    const y = (v) => m.t + ih - (v / mx) * ih;
+    const band = iw / rows.length, bw = Math.min(16, band * 0.32), gap = 2;
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Calibration: stated chance vs actual win rate">`;
+    for (let k = 0; k <= 4; k++) {
+      const v = (mx / 4) * k;
+      s += `<line x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}" stroke="${k === 0 ? "var(--axis)" : "var(--grid)"}" stroke-width="1"/>`;
+      s += `<text class="tick" x="${m.l - 6}" y="${y(v) + 4}" text-anchor="end">${Math.round(v * 100)}%</text>`;
+    }
+    rows.forEach((d, i) => {
+      const cx = m.l + band * i + band / 2;
+      if (d.ps.length) {
+        s += `<path d="${barPath(cx - bw - gap / 2, y(0), bw, y(d.stated))}" fill="var(--series-1)"/>`;
+        if (d.actual > 0) s += `<path d="${barPath(cx + gap / 2, y(0), bw, y(d.actual))}" fill="var(--series-2)"/>`;
+      }
+      s += `<text class="tick" x="${cx}" y="${H - 26}" text-anchor="middle">${d.key}</text>`;
+      s += `<text class="tick" x="${cx}" y="${H - 12}" text-anchor="middle">n=${d.ps.length}</text>`;
+      const tipHtml = `<b>Rated ${d.key}: ${d.ps.length} pick${d.ps.length === 1 ? "" : "s"}</b>` + (d.ps.length
+        ? `Average stated ${pct(d.stated)} · won ${d.ps.filter((x) => x.won).length} (${pct(d.actual)})<br>` +
+          d.ps.map((x) => `${esc(x.r.time)} ${esc(x.p.horse)} ${pct(x.p.prob)} → ${esc(x.p.finish)}`).join("<br>")
+        : "none");
+      s += `<rect class="hit" x="${m.l + band * i}" y="${m.t}" width="${band}" height="${ih}" data-tip="${esc(tipHtml)}"/>`;
+    });
+    s += "</svg>";
+    const exp = picks.reduce((a, d) => a + d.p.prob, 0), act = picks.filter((d) => d.won).length;
+    const top = picks.filter((d) => d.p.rank === 1);
+    const texp = top.reduce((a, d) => a + d.p.prob, 0), tact = top.filter((d) => d.won).length;
+    s += `<p class="note">All ${picks.length} ranked picks: ${exp.toFixed(1)} winners expected from the stated chances, ${act} actual. ` +
+      `Top picks: ${texp.toFixed(1)} expected, ${tact} actual. Small samples swing widely; read this once there are 50+ races.</p>`;
+    el.innerHTML = s; bindTips(el);
+  }
+
   // ---- grade distribution (status colours with icon + label) ----
   const GRADES = [
     { k: "held", label: "Held", icon: "✓", color: "var(--good)" },
@@ -458,6 +513,7 @@
     renderTiles(races, meetings);
     renderPL(races);
     renderProb(races);
+    renderCal(races);
     renderGrades(races);
     renderErrors(races);
     renderTables(races, meetings);
