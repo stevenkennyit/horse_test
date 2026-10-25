@@ -25,13 +25,13 @@
           going: "Standard to Slow", runners: 9, source: "full", status: "pending",
           picks: [
             { rank: 1, horse: "Divine Symmetry", prob: 0.38, finish: "-" },
-            { rank: 2, horse: "Imperial Ballet", prob: 0.35, finish: "-" },
-            { rank: 3, horse: "Al Mandoos", prob: 0.14, finish: "-" },
-            { rank: 4, horse: "Virtue King", prob: 0.04, finish: "-" }
+            { rank: 2, horse: "Imperial Ballet", prob: 0.37, finish: "-" },
+            { rank: 3, horse: "Al Mandoos", prob: 0.10, finish: "-" },
+            { rank: 4, horse: "Virtue King", prob: 0.05, finish: "-" }
           ],
           winner: null,
           grade: "pending", errors: [],
-          notes: "Top two level on collateral (Talking Bear) and ratings; Divine Symmetry preferred on franked form, 2lb receipt and stall 1. No bet at 17:14 prices (value lines 13/8 and 15/8)."
+          notes: "Updated 17:35 25 Oct. Top two level on exact Talking Bear margins; Divine Symmetry narrowly preferred on RP figures (75 v 72, +2lb) and a strong frank (Grow Old With Me RPR 88 next time). Own Kempton 7f novice count: draw neutral, held-up horses rarely win (his only run was held up). bin Suroor newcomers 0/11 since May."
         }
       ]
     }

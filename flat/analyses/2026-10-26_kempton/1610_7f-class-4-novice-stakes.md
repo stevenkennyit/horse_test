@@ -163,3 +163,115 @@ Rest: Crack O'Nine 3%, Anncanya 3%, Secret Message 1%, Irish Spring 1%, Heart Th
 - https://www.racingpost.com/racecards/1079/kempton-aw/2026-10-26/929591 (card, conditions, going)
 - Sporting Life results: Southwell 941597, Newbury 876064, Newcastle 939219, Kempton 942527, 931419, 937428, 934960, Brighton 940575, Lingfield 935190, 934788, Newmarket 928269, Wolverhampton 941778, York 942809, Windsor 934633
 - Sporting Life profiles of all 9 runners, plus Cloud Forest, Big Money, All You Can Be, Hozam, Talking Bear, Weffaag, Grow Old With Me, Savernake, Khafar, Sunday Girl, Glow, Running Hot, Caraway
+
+## Update 17:35 (Sun 25 Oct, about 22½ hours before the off): data gaps filled
+
+**Format change.** From 17:33 today the playbooks are picks-only: no bets, stakes or price checks, and the market is not an input. The prices, value lines and bets in the original analysis above are kept only as the record of what was said then; this update supersedes them. The revised ranking below uses no price information.
+
+Non-runners and headgear re-checked at 17:32 GMT on the Sporting Life card: **no change**, all 9 declared. Going still Standard to Slow (Racing Post). Clocks went back this morning, so the 16:10 off is GMT. Sporting Life result times for summer races are UTC, an hour behind the Racing Post's BST times; the race IDs and results matched.
+
+### Racing Post results read (time against standard, cumulative margins, RPR/TS)
+
+| Race | Slow by | Key horses (beaten, cumulative) | RPR / TS |
+|---|---|---|---|
+| Southwell 7f14y nov, 3 Oct | **2.11s** (matches my derived figure) | Cloud Forest won; Imperial Ballet **4¾L** (not ~4.6); Secret Message 8¼L; Talking Bear 8¼L (shd) | Cloud Forest 87/56; Imperial Ballet **72/44**; Secret Message 62/34; Talking Bear 61/33 |
+| Newcastle 7f14y mdn, 19 Sep | **6.32s** | Weffaag won; Divine Symmetry nk; Grow Old With Me 1L; Talking Bear 4L | Weffaag 77/22; Divine Symmetry **75/21**; Grow Old With Me 74/20; Talking Bear 64/11 |
+| Newbury 6f fillies' mdn, 28 Aug 2025 (turf, Good) | 3.30s | Imperial Ballet won by 3½L | Column read ambiguous: Imperial Ballet about 80 (RPR) / 47 (TS); Khafar 68/36 |
+| Kempton 7f nov, 26 Aug 26 | 3.09s | Kaindy (OR 84) won; Talking Bear 5¾L | Talking Bear 64/18 |
+| Wolverhampton 7f36y hcp, 5 Oct (Grow Old With Me's next run) | **0.37s** | Grow Old With Me dead-heated off OR 78 | **88/68** |
+| Kempton 1m nov, 9 Oct | 0.62s | Virtue King 10¼L; Heart Throb 33¼L | Virtue King 60/43; Heart Throb 5/– |
+| Kempton 1m nov, 5 Aug | 2.19s | Virtue King 25¾L (11th) | Columns ambiguous; low |
+| Kempton 1m mdn, 9 Sep | 2.14s | Secret Message 11¼L (last) | 45/27 |
+| Brighton 6f210y mdn, 28 Sep | 4.15s | Irish Spring 18¾L (4 ran) | 27/– |
+| Lingfield 1m1y nov, 27 Aug | 1.34s | Irish Spring 16L | 39/31 |
+| Lingfield 1m2f rnov, 25 Aug | 4.52s | Anncanya 10L | Columns ambiguous; low |
+| Newmarket 1m nov, 17 Jul | 5.18s | Anncanya 21¾L (last of 6) | 19 |
+| Market Rasen bumper, 5 Jul (Sporting Life) | – | Secret Message 9th of 11, beaten about 31L, for Attwater | – |
+
+What changes:
+- **Racing Post's own figures put Divine Symmetry slightly ahead.** Last-run RPRs: Divine Symmetry 75 at 9-7, Imperial Ballet 72 at 9-7. Divine Symmetry gets 2lb today, so 77 against 72 at today's weights. Imperial Ballet's best figure (about 80, from the 2025 Newbury maiden) is the only figure that matches him; the column read is ambiguous.
+- **Talking Bear yardstick, now on exact margins** (verified): Divine Symmetry beat him by 4L at level weights (≈ 8lb); Imperial Ballet by 3½L (8¼ − 4¾) while giving 2lb (≈ 9lb). She gives Divine Symmetry 2lb today, so **Divine Symmetry is about 1lb better: still level within the margins.** Talking Bear's RPR was 61–64 in all three runs, so he is a steady yardstick.
+- **Divine Symmetry's frank is stronger than first recorded** (verified): Grow Old With Me, ¾L behind him while carrying 3lb more (4yo v 3yo), dead-heated next time in a properly run handicap (0.37s slow) with an RPR of 88, 14 above his Newcastle figure. The Newcastle race was run 6.32s slow, so its figures probably understate the principals.
+- The card's RPR column (Divine Symmetry 82, Imperial Ballet 77) is not a race figure: Racing Post adjusts it on a basis it doesn't show. I've used the result-page figures above instead.
+
+### Kempton 7f novice/maiden draw and pace (own count from Sporting Life results, 25 Oct 2024 – 24 Oct 2026)
+
+92 races, 916 runners. Running style classified from each runner's in-running comment (first position named; 45 runners unclassified). A spot check of 30 classifications found them correct.
+
+| Measure | All 92 races | 8–11 runners (55 races) | 3yo+ races (40) |
+|---|---|---|---|
+| Stalls 1–3 win % | 10.9% | 11.8% | 10.2% |
+| Stalls 4–6 | 11.7% | 12.1% | 13.3% |
+| Stalls 7–9 | 7.9% | 8.1% | 12.4% |
+| Stalls 10+ | 9.2% | 11.1% | 2.8% |
+| Widest-drawn runner | 11/92 wins | 5/55 (fair share ≈ 6) | 5/40 |
+| Led | 26/99 (26%) | 12/60 (20%) | 14/45 (31%) |
+| Prominent | 40/239 (17%) | 25/135 (19%) | 16/102 (16%) |
+| Mid-division | 11/207 (5%) | 6/113 (5%) | 2/92 (2%) |
+| Held up / rear | 10/326 (3%) | 9/182 (5%) | 7/130 (5%) |
+| Newcomers (approx.) | 14/227 (6%) | 7/112 (6%) | 4/61 (7%) |
+
+- **Draw: neutral to a slight low edge in this race type.** In 8–11 runner fields, stall 9 (Imperial Ballet) is no real disadvantage: the widest stall won about its fair share. I'm downgrading stall 1 for Divine Symmetry from "tiebreaker" to **neutral**. This replaces the handicap figure I leaned on before.
+- **Pace: strong edge for horses that lead or race prominently.** Part of that is ability (good horses travel well). As a rough control for ability, the starting-price favourite in each past race shows it too: those that led or raced prominently won 35 of 64, against 7 of 24 ridden mid-division or held up. That is a historical check on the course pattern, not a market input for this race. Treat it as a real course effect.
+- Newcomer counts are approximate: run lists are truncated at 6, so 207 runners couldn't be classed.
+
+### Pace map (from every runner's in-running comments; none of the 7 raced horses has led in any run, verified by reading all 15 comments)
+
+| Likely position | Runners |
+|---|---|
+| Prominent / handy | Virtue King (handy 9 Oct; slowly away 5 Aug), Imperial Ballet (tracked leaders at Newbury; mid-division at Southwell), Secret Message (chased leaders 9 Sep; mid-division 3 Oct) |
+| Held up | **Divine Symmetry** (held up in touch, keen, dropped to rear), Heart Throb (dwelt, keen, rear), Anncanya (slowly away ×2), Irish Spring (slowly away / rear ×2) |
+| Unknown | Al Mandoos, Crack O'Nine (debutants) |
+
+No confirmed front-runner, so a modest pace is likely. **This is the main new point against Divine Symmetry:** his only run was held up and keen in a slowly run race, and held-up horses rarely win these. From stall 1 he can get a position on the rail if Shoemark wants one, but that is asserted. Imperial Ballet has shown she can track the pace; Oisin Murphy rides Kempton at 24% (below).
+
+### Connections (own count from Sporting Life results; Kempton, 2 years, all races)
+
+| | Kempton runs | Wins | Win % | Novice/maiden runs–wins | Newcomers runs–wins | Recent form |
+|---|---|---|---|---|---|---|
+| A M Balding | 243 | 38 | 16% | 130–22 | 35–3 | 7 wins from 49 in last 14 days (14%) |
+| H Palmer | 72 | 10 | 14% | 28–4 | 4–2 | 1 from 23 in last 14 days; 5 from 50 since 3 Oct. Won the 9 Oct Kempton 1m novice (Thornthwaite) |
+| S bin Suroor | 16 | 3 | 19% | 8–0 | 2–0 | 1 from 8 in last 14 days |
+| Mrs A J Perrett | 49 | 5 | 10% | 14–1 | 5–0 | – |
+| M J Attwater | 83 | 6 | 7% | 16–0 | 3–0 | – |
+| Others (Carroll, Chapple-Hyam, Littmoden, Jewell) | – | 0–9 | 0–6% | – | – | – |
+| Oisin Murphy | 249 | 60 | **24%** | 100–27 | 27–3 | – |
+| K Shoemark | 136 | 24 | 18% | 53–10 | 14–0 | – |
+| Ray Dawson | 60 | 7 | 12% | 23–3 | 4–0 | – |
+| R Havlin | 149 | 16 | 11% | 52–9 | – | – |
+| Callum Hutchinson | 94 | 5 | 5% | 45–3 | – | Rides **without a claim** (Racing Post results show none at 9-7) |
+
+**bin Suroor newcomers** (his last 50 runners, 9 May – 19 Oct 2026, each horse's career checked): **0 wins from 11 debutants**: two 2nds (Soft Landing, Distant Moon), the rest 4th or worse, including 9th of 10 in a Kempton 7f novice and 4th of 8 in a Kempton 1m novice. Cloud Forest, who beat Imperial Ballet, was 6th on his debut. On this record bin Suroor's newcomers usually need the run, which supports rule E. **Al Mandoos down from 14% to 10%.** His dam Wadi (JPN, by Pyro) has two Japanese winners at 5f–1m.
+
+### Other gaps closed
+- **Crack O'Nine:** no headgear on the Sporting Life card or his Racing Post profile (11 Apr 2023 bay gelding, Twilight Son – Aunt Minnie). The "b g1" on the Racing Post card is the colour/sex column ("b g") plus an unexplained "1". Treated as no headgear.
+- **Jockey claims:** none for any runner (Sporting Life card; Racing Post results list claims, such as Slater 7lb and Dawes 5lb, but none for Hutchinson, Shoemark or Havlin). The "1" before three jockeys' names on the Racing Post card is not a claim.
+- **Imperial Ballet's pedigree:** Blue Point (avg 7f) out of a Makfi (9.6f) mare. 7f should be within range on pedigree, which softens, but doesn't remove, the doubt from her fading at Southwell (first run after 13 months).
+
+### Revised picks (supersede the table above; recorded before the off)
+
+| Rank | Horse | Win prob | Fair price | Confidence | Change |
+|---|---|---|---|---|---|
+| 1 | **Divine Symmetry** | 38% | 13/8 | Low | Unchanged. Racing Post figures and the stronger frank up; draw edge removed; pace doubt added |
+| 2 | **Imperial Ballet** | 37% | 17/10 | Low | Up from 35%. Draw no longer a negative; pace profile and Murphy fit the course pattern |
+| 3 | Al Mandoos | 10% | 9/1 | Low | Down from 14%: bin Suroor newcomers 0 from 11 |
+| 4 (danger) | Virtue King | 5% | 19/1 | Low | Up from 4%: likeliest to be handy in a slow pace |
+
+Rest: Crack O'Nine 3%, Anncanya 3%, Secret Message 2%, Irish Spring 1%, Heart Throb 1%.
+
+**Strongest case against the top pick, restated:** on course pace data a held-up horse wins these about 1 time in 20. Divine Symmetry has only ever been held up, and was keen. If Shoemark rides him the same way in a slow pace, Imperial Ballet, sitting handier under Murphy, is the likelier winner. The gap between them is a point of probability, not a real margin.
+
+### Bets
+
+None. Under the picks-only rule the agent doesn't recommend bets, stakes or bet types; the user decides. The fair prices above are the agent's own view of each horse's chance.
+
+### Still unverified
+- A published pace map or At The Races draw label (At The Races and Timeform both returned errors or 403).
+- Whether Shoemark will ride Divine Symmetry handier (no stable comment found).
+- Racing Post rating columns for the Newbury 2025, Kempton 5 Aug and Lingfield 25 Aug results were ambiguous in the fetch.
+- Newcomer classification in my course count is approximate (truncated run lists).
+
+### Sources added
+- Racing Post results: /results/394/southwell-aw/2026-10-03/927751; /results/1353/newcastle-aw/2026-09-19/926886; /results/36/newbury/2025-08-28/902245; /results/1079/kempton-aw/2026-08-26/925906, /2026-10-09/928640, /2026-08-05/924252, /2026-09-09/926839; /results/513/wolverhampton-aw/2026-10-05/928615; /results/7/brighton/2026-09-28/927583; /results/393/lingfield-aw/2026-08-27/926034, /2026-08-25/925689; /results/174/newmarket-july/2026-07-17/923184
+- Racing Post profiles: Al Mandoos (9942026), Crack O'Nine (10014272), Imperial Ballet (7865994), Divine Symmetry (9849979)
+- Sporting Life API: racecards by date and race results for all 946 Kempton races, 25 Oct 2024 – 24 Oct 2026 (92 at 7f novice/maiden); trainer profiles 199 (bin Suroor), 434 (Palmer), 3209 (Balding); Market Rasen result 926045
