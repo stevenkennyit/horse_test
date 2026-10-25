@@ -1,8 +1,8 @@
-# AGENTS.md: Race Analysis (v2, 24 Oct 2026)
+# AGENTS.md: Race Analysis (v2)
 
 Instructions for analysing a UK/Irish flat race. Work through every step in order. Build an independent view from the data first; tipster opinion is the last input, not the first.
 
-v2 adds lessons from the 24 Oct 2026 Southwell evening (19:30, 20:00, 20:30): what the data-gathering got wrong, and what the results showed about the reasoning. See "Post-race review" for the method and that night's review.
+v2 adds lessons from reviewed race nights: what the data-gathering got wrong, and what the results showed about the reasoning. See "Post-race review" for the method.
 
 ---
 
@@ -32,7 +32,7 @@ Three factors carry the most weight in every analysis:
 
 Ratings (RPR, Topspeed), draw, connections and market are secondary. Use them to support or challenge the core picture, not to override it.
 
-**Head-to-heads are the strongest single evidence when they repeat.** When the same horses have met in several races and the weight-adjusted results agree, trust that over any single time figure or rating. (24 Oct 2026: Edmond Halley's head-to-heads over Mount Ruapehu, Piperstown and Papa Don't Preach all held in the result; the top pick, chosen on one fast time from another course, finished 5th.)
+**Head-to-heads are the strongest single evidence when they repeat.** When the same horses have met in several races and the weight-adjusted results agree, trust that over any single time figure or rating. Repeated head-to-heads have held in results where a top pick chosen on one fast time from another course has not.
 
 ## Every runner, in full
 
@@ -48,11 +48,11 @@ Every statement in a summary, grid or rationale is a factual claim. Most analyti
 
 - **Write rationale from the data, never from your conclusion.** Before stating why a horse is ranked where it is, re-read that runner's recorded data. The rationale must be derived from the table in front of you, not reconstructed from memory of the ranking you already chose. If the justification came to mind before you re-checked the data, check it before writing it.
 
-- **Superlatives require a full-field scan.** "Only," "best," "fastest," "most consistent," "highest figure," "the sole X" — each is falsified by a single counter-example. Never write one without scanning every runner's data to confirm it. If you have not checked all of them, do not use the word; say "one of the …" or name the specific comparison instead. (24 Oct 2026: a "best time" claim had to become "joint-best" when a second runner's figure came within 0.02s.)
+- **Superlatives require a full-field scan.** "Only," "best," "fastest," "most consistent," "highest figure," "the sole X" — each is falsified by a single counter-example. Never write one without scanning every runner's data to confirm it. If you have not checked all of them, do not use the word; say "one of the …" or name the specific comparison instead. A "best time" can turn out to be joint-best when a second runner's figure is within a few hundredths.
 
 - **State figures at the precision you actually hold.** If a rating shows as 73 on one source and 75 on another, write "73–75," not "75." Do not round up confidence. Where today's weight or mark depends on the exact figure, the imprecision matters — flag it rather than paper over it.
 
-- **Count, don't estimate.** Losing runs, runs since a win, places in the last six: count them from the run list. (24 Oct 2026: "12 runs without a win" was 9 when counted.)
+- **Count, don't estimate.** Losing runs, runs since a win, places in the last six: count them from the run list. An estimated "12 runs without a win" has turned out to be 9 when counted.
 
 - **Grade every claim: verified / asserted / not found.**
   - *Verified* — confirmed at source this session.
@@ -94,7 +94,7 @@ Read the form literally. Do not accept a tipster's summary.
 - at today's distance (within about half a furlong)
 - at both (course and distance)
 
-Record position, field size and beaten distance for each. A placing at today's track is a positive signal that form figures can hide. If a card shows a C/D/CD marker you cannot match to a run, keep looking (another site, an older run) before writing "not found" — 24 Oct 2026, a "CD" marker that looked unsupported turned out to be a nursery win a year earlier.
+Record position, field size and beaten distance for each. A placing at today's track is a positive signal that form figures can hide. If a card shows a C/D/CD marker you cannot match to a run, keep looking (another site, an older run) before writing "not found" — a "CD" marker that looks unsupported can be a nursery win a year or more earlier.
 
 **"At the trip" means within about half a furlong.** A win at an adjacent distance is "at a similar trip" — state the actual distance run, do not blur it to match today's. (A 1m3f win is not "at the trip" for a 1m4f race.)
 
@@ -103,7 +103,7 @@ Flag:
 - Beaten favourites — and how often. A horse beaten as favourite repeatedly is a placer the market keeps overrating (it can still win; see Post-race review)
 - Big-priced horses beaten a long way
 - Declining form trends
-- **Trip changes.** A horse whose placed form is all at a different trip from today's carries a real doubt. (24 Oct 2026: Crystal Dark's two 2nds were both over 7f; dropped to 6f he only ran on late and finished 3rd as top pick.)
+- **Trip changes.** A horse whose placed form is all at a different trip from today's carries a real doubt. A horse whose placed runs were all over 7f, dropped to 6f, can only run on late when it is too late.
 
 ## Step 3: Weight change (core factor)
 
@@ -120,8 +120,8 @@ Compare what each horse carried in its key past runs with what it carries today.
    - Example: A beat B by 1 length over 6f (2.5lb). A now carries 3lb more relative to B than last time. On the weights, B should now finish about level with A or slightly ahead.
    - Check the claim basis is the same on both sides of the comparison (same source, both before or both after claims).
 4. **Same logic against the winner of the key run.** A horse beaten 1¾ lengths over 6f (about 4lb) that is now 2lb higher is still about 6lb behind that winner on that day's figures, unless it has improved.
-5. **Collateral form.** Where two runners have not met but have both met a third horse, chain the comparison through it (24 Oct 2026: Apex Star linked Due Date and Dr Ali; Sharadd and Our Son Oscar linked Al Arraab and World Star — the chain's direction was right in the result). Mark collateral comparisons as asserted, and weaker than direct meetings.
-6. **A mark below recent winning marks is a signal, not a selection.** It only helps if the horse is running to form now. (24 Oct 2026: Due Date was 1–8lb below an autumn hat-trick's marks but had won none of his 9 runs since; Mount Ruapehu was 6–8lb below three course wins but unplaced in six runs since. Neither won.)
+5. **Collateral form.** Where two runners have not met but have both met a third horse, chain the comparison through it. Mark collateral comparisons as asserted, and weaker than direct meetings.
+6. **A mark below recent winning marks is a signal, not a selection.** It only helps if the horse is running to form now. A horse several pounds below old winning marks but without a win or place in its runs since is not well handicapped in practice.
 7. **Flag:**
    - Horses well in at today's weights: carrying less than in a run where they ran well
    - Horses carrying significantly more than in their best run (5lb+)
@@ -141,7 +141,7 @@ Finishing times matter more than Topspeed, which is unreliable.
    - Class
    - Race type: novice and maiden races are often slowly run, so their times understate ability
 6. **Read the gap.** A horse consistently faster than its rivals in similar races is a strong signal. At Class 5–6 level, 0.5–1 second (2½–5 lengths) is meaningful.
-7. **One figure is not a pattern.** A single fast time — especially from a different course — is noisy in both directions. 24 Oct 2026: Red Hat Eagle's one Kempton figure was the best in the field and he finished 2nd at 7/1 (under-ranked); Due Date's one Wolverhampton figure was joint-best and he finished 5th as top pick (over-ranked). Rank on repeated figures and head-to-heads; use a lone figure to move a horse up or down a place, not to make it top pick.
+7. **One figure is not a pattern.** A single fast time — especially from a different course — is noisy in both directions. A lone best-in-field figure from another course has led both to under-ranking (a 7/1 shot that ran 2nd) and to over-ranking (a top pick that ran 5th). Rank on repeated figures and head-to-heads; use a lone figure to move a horse up or down a place, not to make it top pick.
 
 **Note on low-grade staying races.** Class 5–6 races at 1m4f+ are routinely run many seconds slow of standard, so raw and standard-adjusted times separate runners poorly. At this grade, weight the beaten distances, how the horse was beaten, and consistency at the trip over the clock — and say so rather than pretending the time is informative.
 
@@ -161,7 +161,7 @@ Then judge consistency **in similar conditions** (same surface, similar distance
 
 How to use it:
 - **Consistent and fast on time:** strong win candidate
-- **Consistent but modest times:** place candidate; good for each-way or forecasts. Do not promote a "consistent but modest" placer to top win pick on consistency alone — that profile is each-way, not win. **Do not rank such a horse above a rival with clearly better times and a falling mark** (24 Oct 2026: Shaw Park, consistent but 3.9–4.4s slow, was ranked above Red Hat Eagle; Red Hat Eagle finished 2nd, Shaw Park 4th and out of the places).
+- **Consistent but modest times:** place candidate; good for each-way or forecasts. Do not promote a "consistent but modest" placer to top win pick on consistency alone — that profile is each-way, not win. **Do not rank such a horse above a rival with clearly better times and a falling mark** (a consistent horse running 4s slow has been beaten out of the places by a rival with better times and a falling mark).
 - **Inconsistent with one big figure:** treat the big figure with caution; it may not be repeated
 - **Lightly raced (3 runs or fewer):** consistency can't be judged; mark as uncertain
 
@@ -171,7 +171,7 @@ Compare each horse's best RPR and Topspeed with its actual results, times and co
 
 **A rating is reliable only in proportion to how it was earned.** A figure earned **in contention** — won, or beaten narrowly in a competitive field — is trustworthy. The same figure earned **finishing well beaten** is a false signal. Apply this test consistently: do not trust a high figure from one horse while dismissing it from another unless the *manner* of the run justifies the difference, and state the test when you use it.
 
-**But "beaten narrowly" only counts if the race was strong.** In lightly raced 2yo form, an OR/RPR from a narrow defeat by an ordinary horse can rate below a heavier defeat by a high-class one. 24 Oct 2026: Crystal Dark (OR 81) and Flick Of An Eye (OR 82) were rated well above Al Arraab (RPR 65, beaten 6L on debut). Al Arraab's conqueror Sharadd was unbeaten and won again at York; Al Arraab won.
+**But "beaten narrowly" only counts if the race was strong.** In lightly raced 2yo form, an OR/RPR from a narrow defeat by an ordinary horse can rate below a heavier defeat by a high-class one. Two 2yos rated OR 81–82 from narrow defeats have been beaten by a horse rated 65 whose 6-length debut defeat came against an unbeaten horse that went on to win again.
 
 ## Step 7: Frank the form
 
@@ -181,7 +181,7 @@ For every runner's key recent run, find out what the winner and the other placed
 
 **Weigh the quality of the conqueror, not just the margin.** A 6-length defeat by a horse that goes on to win well in better company can be stronger form than a ¾-length defeat by a horse with ordinary form. Look at what the winner did before and after: Listed/Group entries and runs, wins in better races, the margin of later wins.
 
-**"Franked" requires a confirmed follow-up result.** If you looked and found no subsequent win by the principals, say "no frank found," not "unfranked" — the first is what you know, the second claims more than you checked. Field size alone does not frank a race: a 13-runner maiden can still be weak until the form is confirmed. A frank or a prior win from a search snippet is not confirmed until the result page is read (24 Oct 2026: a snippet said Charted Course won at Haydock; the result showed 2nd).
+**"Franked" requires a confirmed follow-up result.** If you looked and found no subsequent win by the principals, say "no frank found," not "unfranked" — the first is what you know, the second claims more than you checked. Field size alone does not frank a race: a 13-runner maiden can still be weak until the form is confirmed. A frank or a prior win from a search snippet is not confirmed until the result page is read (a snippet has reported a win where the result page showed 2nd).
 
 ## Step 8: Today's weight against rivals
 
@@ -191,14 +191,12 @@ For ratings and times, add 1 point (or about 0.025 seconds over 6f) per lb each 
 
 Use course- and distance-specific data only. Bias at one track says nothing about another.
 - Map every runner's draw against the data for this course and distance.
-- Map likely running styles: who leads, who races prominently, who is held up. Check each runner's in-running comments, not just the card's label — a horse can change style (24 Oct 2026: Edmond Halley, held up in recent runs, made all from the widest draw and won).
+- Map likely running styles: who leads, who races prominently, who is held up. Check each runner's in-running comments, not just the card's label — a horse can change style (a horse held up in recent runs can make all from the widest draw).
 - **Report a mixed or weak bias as neutral.** When course data conflicts or says the effect is negligible, say so. Do not upgrade a non-negative draw into a positive. Where sources disagree, note the disagreement rather than quoting the one that suits the selection.
 - Examples:
   - Kempton 7f, 8+ runner handicaps: low draws best; stall 9 or higher makes winning clearly harder, and the bias strengthens in 12+ runner fields. A low draw with early pace is the ideal profile. (Geegeez, 2016–2021 data.)
   - Wolverhampton 6f, 8+ runner handicaps: stalls 1–4 win 10.7% against 5.1% for stalls 10–13, though neither group is profitable to back blind; front-runners and prominent racers clearly outperform hold-up horses. (Geegeez, 2017–Aug 2022 data.)
   - York 1m, 8+ runner handicaps: stalls 1–6 win 11.7% against 3.6% for stalls 7+. (Previously mislabelled here as Kempton 7f.)
-  - Southwell Tapeta 7f: Geegeez found no front-runner edge in a small sample (32 handicaps) and only a weak middle-draw preference across the course; At The Races rated draw advantage "None" on 24 Oct 2026. Treat as neutral.
-  - Southwell Tapeta 6f: Geegeez says front-runners have "a good edge", weaker than at 5f (41 races); no 6f draw breakdown found. At The Races rated draw advantage "None" on 24 Oct 2026; winner that night was drawn widest.
 
 Treat a weak bias as a tiebreaker, not a deciding factor. Note the date range of any bias figure: draw biases can weaken or reverse over time.
 
@@ -207,14 +205,14 @@ Treat a weak bias as a tiebreaker, not a deciding factor. Note the date range of
 - Why is this jockey on this horse? A top jockey on a big-priced horse means more than an apprentice.
 - Use course-specific trainer and jockey strike rates rather than national averages. The hot-form superscript on a racecard is a short-run meeting figure, not a course strike rate — do not let it carry more weight than it deserves. The unlabelled percentage beside a trainer on Racing Post cards is not a course strike rate either.
 - Judge first-time headgear by who trains the horse: a methodical trainer (e.g. Prescott) means more than a random one.
-- For 2yo maidens and novices specifically: the race pattern favours well-bred newcomers from powerful yards over exposed horses already beaten in weak races — but only when the exposed form is weak. When an exposed runner has strong, franked form, proven ability beats unraced potential (24 Oct 2026: the two debutants finished 4th and 6th; the first three all had run before). Note which yards' debutants typically need the run (they improve next time) versus those ready first time out.
+- For 2yo maidens and novices specifically: the race pattern favours well-bred newcomers from powerful yards over exposed horses already beaten in weak races — but only when the exposed form is weak. When an exposed runner has strong, franked form, proven ability beats unraced potential. Note which yards' debutants typically need the run (they improve next time) versus those ready first time out.
 
 ## Step 11: Market (secondary)
 
 Use price movement as information only. Heavy backing usually means connections are confident; a drift suggests the opposite. Do not let price decide the ranking.
 
 - Note the timestamp on every price used. Forecast prices are not market prices.
-- **A big late gamble with no form support is a risk to name, not a reason to rank.** 24 Oct 2026: Mehmar, first run for a new stable after 94 days, was backed from 12/1–14/1 to 13/8 favourite with form that did not support it; he finished 2nd by a short head. Keeping him out of the ranking was consistent with the rules; naming him as the main risk was right.
+- **A big late gamble with no form support is a risk to name, not a reason to rank.** A horse backed from 12/1 to 13/8 favourite on its first run for a new stable after a long break, with form that did not support it, is best kept out of the ranking and named as the main risk.
 - A drift on a selection (e.g. forecast 7/1–8/1 to 16/1–18/1) is a signal to re-check its case, not proof it is wrong.
 
 ## Step 12: Summary grid
@@ -233,7 +231,7 @@ For each selection, actively look for what's wrong with it:
 - Is the case resting on an unverified claim or a single big figure?
 - Layoff, step up in class, higher weight than in its best runs, declining form?
 - Any "false narrative" (e.g. "two wins in a row" when the last run was actually a 5th)?
-- **Is the main doubt a specific, recurring pattern in the form?** A trip change, fading late, missing the start, keenness — if the in-running comments show it more than once, it is likely to recur. Do not make that horse top pick unless the case for it clearly outweighs the doubt. 24 Oct 2026: all three specific doubts recorded before the races happened in the races (Crystal Dark's trip, Due Date's finishing, Flick Of An Eye's starts).
+- **Is the main doubt a specific, recurring pattern in the form?** A trip change, fading late, missing the start, keenness — if the in-running comments show it more than once, it is likely to recur. Do not make that horse top pick unless the case for it clearly outweighs the doubt. Specific doubts recorded before the off (a trip change, fading late, slow starts) have tended to recur in the race.
 
 List everything you couldn't verify.
 
@@ -242,7 +240,7 @@ List everything you couldn't verify.
 - One top pick, two backups, one danger.
 - Bet type follows confidence:
   - Win single when one horse is clearly best on weight, times and consistency
-  - Forecast when two horses stand clear of the rest — on the evidence, not on ratings alone (24 Oct 2026: a reverse forecast on the two highest-rated 2yos lost to an unrated horse with franked form)
+  - Forecast when two horses stand clear of the rest — on the evidence, not on ratings alone
   - Each-way for consistent horses without a strong win figure
 - **Set a value line before the off** (the price below which the bet isn't worth it) and say whether the available price is above it. A winner backed below its value line was still a poor bet.
 - State place terms when recommending each-way (usual UK handicap terms: 5–7 runners 2 places at 1/4; 8–11 runners 3 places at 1/5; 12–15 runners 3 places at 1/4; 16+ runners 4 places at 1/4). A 4th in a 14-runner handicap loses an each-way bet.
@@ -254,7 +252,7 @@ Every analysed race is saved **before the off**, so the result can be judged lat
 
 **1. The write-up** — one Markdown file per race:
 `flat/analyses/<YYYY-MM-DD>_<course>/<HHMM>_<race-slug>.md`
-(e.g. `flat/analyses/2026-10-24_southwell/1930_7f-class-5-handicap.md`). Create the meeting folder if it doesn't exist.
+(e.g. `flat/analyses/2026-11-02_kempton/1930_7f-class-5-handicap.md`). Create the meeting folder if it doesn't exist.
 
 Required contents, in this order:
 - **Header:** date, course, off time, race name, race type (handicap / novice / maiden / conditions, class), distance, going or surface, field size, draw, non-runners, each-way place terms.
@@ -314,18 +312,6 @@ Once results are published, judge the reasoning, not the result.
 5. **Turn each judgement error into a rule** and add it to the relevant step above.
 6. **Update the record.** In `flat/data/results.js`, for each race set: `finish` for every pick (the official position, or `UR` / `PU` / `RR` (refused to race) / `DSQ`; never a summary such as "U/P" or "unplaced"); `winner` as `{ horse, sp, agentProb }` (`agentProb` is the probability stated for the winner before the off, or `null` if it wasn't rated); `status: "settled"`, plus `provisional: true` if the result isn't weighed in yet; `returned` for every bet; `grade` (`held` / `mixed` / `failed`); `errors` (codes from `errorTypes`, adding a new code there for a new type of error); and a one-line `notes`. Add any data errors to the meeting's `dataErrors`. Append a `## Result` section to each race's write-up. Then open `dashboard.html` to check the figures.
 
-### Review: Southwell, 24 Oct 2026
-
-| Race | Top pick | Result | Every winner in my top 3? | Main judgement error |
-|---|---|---|---|---|
-| 19:30 7f Cl5 hcp | Anthropologist | **Won** (4/1F; below my 5/1 value line) | Yes | Ranked Shaw Park (consistent, modest times) above Red Hat Eagle (best time, falling mark): Red Hat Eagle 2nd, Shaw Park 4th, out of the places |
-| 20:00 6f 2yo novice | Crystal Dark | 3rd | Yes (Al Arraab, my 3rd pick) | Trusted OR 81–82 from narrow defeats over franked form (Al Arraab, beaten 6L by the unbeaten Sharadd); underweighted Crystal Dark's 7f→6f doubt |
-| 20:30 6f Cl6 hcp | Due Date | 5th | Yes (Edmond Halley, my 2nd pick) | Top pick rested on one Wolverhampton time and a mark below old wins; his recorded doubt (fading late) recurred. Edmond Halley's repeated head-to-heads all held |
-
-Bets: 19:30 Anthropologist each-way won, Shaw Park each-way lost; 20:00 reverse forecast lost (straight forecast Al Arraab–Flick Of An Eye paid £10.22); 20:30 Edmond Halley each-way won, Uncle Sam place won, Due Date each-way lost.
-
-What held: weight-adjusted head-to-heads (Anthropologist over Finn Ironside; Edmond Halley over three rivals), "proven form beats newcomers" in the 2yo race, caution on inconsistent horses with one big figure (Packetofbiscuits 7th), and treating the Mehmar gamble as a risk rather than a ranking input.
-
 ---
 
 ## Data sources
@@ -336,7 +322,7 @@ Re-tested 23 Oct 2026 by opening a real page from each site; notes updated 24 Oc
 |---|---|---|
 | **Sky Sports horse profiles** (skysports.com/racing/form-profiles) | A horse's full career: date, position, field size, winner, beaten distance, weight, OR, jockey, course, distance, going, class, SP | Best for run history, weight carried and franking when found; on 24 Oct 2026 searches often failed to surface the profile. No times |
 | **Racing Post results pages** | Full finishing order, draw, beaten distances (and cumulative), weight, OR, Topspeed, RPR, winning time **and time against standard** ("slow by 6.55s"), jockey claims | **Loads fully. The most reliable source on 24 Oct 2026.** Best for standard-adjusted times and for settling conflicts. Meeting results pages list race IDs; build `/results/<course id>/<course>/<date>/<race id>`. New results can 404 for a while after the race |
-| **Sporting Life results pages** | Full finishing order, beaten distances, draw, SP, winning time, in-running comments | **Loads fully; results appear within minutes.** Traps: age and weight run together ("49-9" = 4yo carrying 9-9); **weights are listed before the jockey's claim**; margins can be misprinted (Al Arraab's 6L showed as 1) |
+| **Sporting Life results pages** | Full finishing order, beaten distances, draw, SP, winning time, in-running comments | **Loads fully; results appear within minutes.** Traps: age and weight run together ("49-9" = 4yo carrying 9-9); **weights are listed before the jockey's claim**; margins can be misprinted (a 6L defeat has shown as 1) |
 | **Sporting Life horse profiles** | Full run list with date, finish/ran, headgear, OR, SP, course, distance, going, class, weight, jockey and result links | **Loads fully.** Best backup for run history. OR/SP columns sometimes run together — check against results |
 | **Sporting Life racecards** | Runners, odds, comments, verdict, profile links | Loads. Race IDs run in sequence through a meeting |
 | **At The Races racecards** (attheraces.com/racecard/<course>/<date>/<time>) | Draw, OR, course/distance record, verdicts, Expert View, market movers, odds with timestamp, draw advantage label | **Loads, but very long** — read the second half with an offset. Good backup for winning times |
@@ -348,7 +334,7 @@ Re-tested 23 Oct 2026 by opening a real page from each site; notes updated 24 Oc
 | At The Races course guides | Course record times | Records only, not standard times |
 | Geegeez course articles | Draw and pace bias by course and distance; trainer and jockey course stats | Text loads, but most tables are images. Only figures written in the prose are usable. Samples date from 2016–2022 |
 | HorseRacing.net | Odds comparison, tipster aggregation, short comments | Loads via search |
-| Equidia (equidia.fr) | Backup form strings | Partial data; last resort (did confirm Captain Parma's missing course win on 24 Oct 2026) |
+| Equidia (equidia.fr) | Backup form strings | Partial data; last resort (has confirmed a course win missing from other sources) |
 | gg.co.uk horse/trainer form | Full run lists with in-running comments and pedigree notes | Often blocks automated fetches (403); use the search snippet only as a pointer |
 | BHA / Weatherbys, Timeform | Official ratings; paid ratings | Partial (Timeform horse-form page loads some data) |
 
@@ -368,19 +354,13 @@ Racing Post result pages show each winning time as seconds slow or fast against 
 As a backup, keep a running log of winning times (course, distance, going, class, date) from every result pulled, and use the median for each course and distance once 10+ races are logged.
 
 Standard times derived from Racing Post results (winning time minus "slow by"), each confirmed by two or more results on 24 Oct 2026:
-- Southwell 6f16y: 1m11.90s
-- Southwell 7f14y: 1m24.90s
 - Wolverhampton 6f20y: 1m11.90s
 - Newcastle 6f: 1m10.70s
 - Newcastle 7f14y: 1m24.00s
 - Kempton 7f: 1m24.20s
 
-Night-to-night variation is large (Southwell 7f Class 5 winners ran 1.6s–4.3s slow across Sep–Oct 2026). Compare within a race first; across nights, and especially across courses, treat figures as weak.
+Night-to-night variation is large: winners of the same class over the same course and distance have ranged from 1.6s to 4.3s slow within two months. Low-grade staying races on all-weather tracks can run many seconds slow of standard, so treat their times as near-uninformative. Compare within a race first; across nights, and especially across courses, treat figures as weak.
 
-Logged Southwell benchmarks (Tapeta, Standard), for context when no published standard loads:
-- 5f (4f214y) Class 4/5: winning times cluster ~57.5–59.2s; a Class 4 on 8 Oct 2026 ran 57.50s.
-- 1m4f14y Class 6: run many seconds slow of standard (e.g. 2m40.97s, "slow by 8.57s") — treat times as near-uninformative at this grade.
-- 24 Oct 2026 results: 7f14y Class 5 hcp 1m28.03s (3.13s slow); 6f16y 2yo novice 1m15.93s (4.03s slow); 6f16y Class 6 hcp 1m15.55s (3.65s slow).
 
 ### Late-task verification checkpoint
 Verification discipline decays as a task lengthens: result pages get re-opened early, then later claims get written from memory. Counter this deliberately. For any deliverable produced after the research phase — summary grids, rationale tables, final selections — re-open the source data and check each factual claim against it before sending. The crisper and more quotable a claim, the more it needs this check.
@@ -393,13 +373,13 @@ Verification discipline decays as a task lengthens: result pages get re-opened e
 - General web searches on horse names return large amounts of irrelevant Wikipedia/newspaper noise; go straight to the known racing domains (skysports, racingpost, sportinglife, racingtv, attheraces) and ignore the rest.
 - **Sporting Life result weights are listed before the jockey's claim.** Confirmed 24 Oct 2026: the gap in listed weight matched the gap in official rating, and Racing Post showed the actual weight carried (e.g. 8-9 with a 5lb claim where Sporting Life listed 9-0). Take the claim off before any weight comparison.
 - **Racing Post card weights are also listed before claims.** Check every runner's claim on the card, not just the selections. Galway, 25 Oct 2026 (jumps): a 7lb claim for four raced fillies was missed until a late revision; one of them won. The same trap applies on the Flat.
-- **Sporting Life margins can be misprinted.** Al Arraab (Haydock, 3 Sep 2026) showed as "beaten 1" on Sporting Life; Racing Post and the race report both said 6 lengths. Check key margins against the Racing Post result.
-- **Search snippets are not results.** A snippet said Charted Course won at Haydock; the Racing Post result showed 2nd. Never franks or form claims from a snippet — open the result page.
+- **Sporting Life margins can be misprinted.** One defeat showed as "beaten 1" on Sporting Life where Racing Post and the race report both said 6 lengths. Check key margins against the Racing Post result.
+- **Search snippets are not results.** A snippet has reported a win where the Racing Post result showed 2nd. Never franks or form claims from a snippet — open the result page.
 - **Racing Post card codes** (the fetch tool sometimes merges them with days-since-run): p1 = first-time cheekpieces, h1 = first-time hood, w1 = first run after a breathing operation, g1 = first run since being gelded, BF = beaten favourite last time, C/D/CD = course/distance/course-and-distance winner. The card's unlabelled percentage beside a trainer is not a course strike rate.
 - **Sporting Life racecard IDs run in sequence through a meeting** (e.g. 945178, 945179, 945180 for consecutive races), so the next race's URL can be guessed.
 - **At The Races Smart Stats loads intermittently** and gave nothing on later attempts. Pull it early in the session. Its "hot form" table covers the last month across all courses, not the course itself.
 - **Racing TV, gg.co.uk and At The Races horse-form pages often return empty or blocked.** Racing Post results pages and Sporting Life profiles/results were reliable.
-- **Every crisp claim needs re-checking before it goes out.** On 24 Oct 2026, checking caught five errors that would otherwise have been sent: a missed course-and-distance win (Captain Parma), a misprinted margin (Al Arraab), a false win from a snippet (Charted Course), a misread headgear code (Edmond Halley) and a miscounted losing run (Due Date, 9 runs, not 12).
+- **Every crisp claim needs re-checking before it goes out.** On one night, checking caught five errors that would otherwise have been sent: a missed course-and-distance win, a misprinted margin, a false win from a snippet, a misread headgear code and a miscounted losing run (9 runs, not 12).
 
 ---
 
@@ -416,10 +396,10 @@ Verification discipline decays as a task lengthens: result pages get re-opened e
 - Rounding a qualitative flourish up from what the data supports: a neutral draw stated as "helpful," an adjacent trip stated as "at the trip," a faded horse stated as "Class 2-calibre," "no frank found" stated as "unfranked"
 - Verification discipline decaying late in a long analysis, exactly when claims become crisp and quotable
 - Treating a correct selection as proof the process was sound, when the reasoning rested on an unverified assumption
-- **Letting consistency outrank clearly better times** (Shaw Park over Red Hat Eagle, 24 Oct 2026)
-- **Making a top pick from a single time figure at another course** (Due Date, 24 Oct 2026)
-- **Trusting 2yo ratings from narrow defeats over franked form from a heavier defeat** (Crystal Dark and Flick Of An Eye over Al Arraab, 24 Oct 2026)
-- **Recording a specific doubt and then ranking as if it weren't there** (Crystal Dark's trip, Due Date's finishing, 24 Oct 2026)
+- **Letting consistency outrank clearly better times**
+- **Making a top pick from a single time figure at another course**
+- **Trusting 2yo ratings from narrow defeats over franked form from a heavier defeat**
+- **Recording a specific doubt and then ranking as if it weren't there**
 - **Estimating counts instead of counting** ("12 runs without a win" was 9)
 
 ## Known strengths
@@ -427,5 +407,5 @@ Verification discipline decays as a task lengthens: result pages get re-opened e
 - Spotting false favourites
 - Recognising trainer patterns
 - Sharpening the analysis through challenge
-- Weight-adjusted head-to-heads (held in all three races on 24 Oct 2026)
+- Weight-adjusted head-to-heads
 - Treating a late market gamble as a risk rather than a ranking input
