@@ -153,8 +153,8 @@
 
   <div class="grid2">
     <section class="card">
-      <h2>Level-stakes profit and loss by race</h2>
-      <p class="desc">A fixed 1pt win bet on each of the top two picks at starting price. A consistent yardstick, not a bet recommendation.</p>
+      <h2>Pick score by race</h2>
+      <p class="desc">Top two picks: a winner earns its odds, a placer a fifth of them, anything else −1. Bigger-priced winners score more.</p>
       <div class="legend"><span><i style="background:var(--pos)"></i>Profit</span><span><i style="background:var(--neg)"></i>Loss</span></div>
       <div id="chart-pl"></div>
     </section>
@@ -195,6 +195,7 @@
   <footer>
     Data: <code>jumps/data/results.js</code> and <code>flat/data/results.js</code>. Add each new meeting to the right file; the dashboard recalculates on reload.
     "Placed" uses standard each-way places: 2 for 5–7 runners, 3 for 8+, 4 for handicaps of 16+, winner only under 5.
+    Pick score (top two picks, at SP): a winner earns its odds (5/1 → +5), a placer a fifth of them (a quarter in 5–7 runner races and handicaps of 12+), anything else −1.
     Profit figures assume 1pt to win on each pick at its starting price (SP); fair price = 1 ÷ the agent's win chance.
   </footer>
 </div>
@@ -243,6 +244,17 @@
   // each-way places by field size (UK/IRE standard terms): <5 none, 5-7 two, 8+ three, 16+ handicap four
   const placesFor = (r) => r.runners < 5 ? 1 : r.runners < 8 ? 2 : (r.runners >= 16 && /handicap/i.test(r.name)) ? 4 : 3;
   const isPlaced = (r, p) => { const n = parseInt(p.finish, 10); return n >= 1 && n <= placesFor(r); };
+  // pick score: winner earns its odds, placer a fraction of them, anything else -1 (rewards correctly rated outsiders)
+  const placeFrac = (r) => r.runners < 5 ? 0 : (r.runners < 8 || (r.runners >= 12 && /handicap/i.test(r.name))) ? 1 / 4 : 1 / 5;
+  const pickScore = (r, p) => {
+    if (!p || !p.sp || p.finish === "-") return null;
+    const odds = toDec(p.sp) - 1;
+    return String(p.finish) === "1" ? odds : isPlaced(r, p) ? odds * placeFrac(r) : -1;
+  };
+  const raceScore = (r) => {
+    const s = r.picks.slice(0, 2).map((p) => pickScore(r, p)).filter((x) => x != null);
+    return s.length ? s.reduce((a, x) => a + x, 0) : null;
+  };
 
   // ---- filters ----
   const fm = $("f-meeting");
@@ -306,6 +318,9 @@
       return { pl: pls.reduce((a, x) => a + x, 0), n: pls.length };
     };
     const l1 = lvl(0), l2 = lvl(1);
+    const sc = (rank) => settled.reduce((a, r) => a + (pickScore(r, r.picks[rank]) || 0), 0);
+    const s1 = sc(0), s2 = sc(1), stot = s1 + s2;
+    const fmt = (x) => (x > 0 ? "+" : "") + x.toFixed(1);
     const plTile = (label, l) => ({ label, value: `<span class="${l.pl >= 0 ? "pos-text" : "neg-text"}">${pts(l.pl)}</span>`,
       detail: `${l.n ? pct(l.pl / l.n) : "–"} return on ${l.n}pt` });
     const pending = races.filter((r) => r.status === "pending").length;
@@ -316,6 +331,8 @@
       { label: "Top pick placed", value: n ? pct(topPlaced / n) : "–", detail: `${topPlaced} of ${n} races` },
       { label: "Second pick won", value: n ? pct(secondWon / n) : "–", detail: `${secondWon} of ${n} races` },
       { label: "Second pick placed", value: n ? pct(secondPlaced / n) : "–", detail: `${secondPlaced} of ${n} races` },
+      { label: "Pick score", value: `<span class="${stot >= 0 ? "pos-text" : "neg-text"}">${fmt(stot)}</span>`,
+        detail: `top pick ${fmt(s1)} · second ${fmt(s2)}` },
       plTile("Profit: top pick", l1),
       plTile("Profit: second pick", l2)
     ];
@@ -325,9 +342,10 @@
   // ---- P/L chart (sign by diverging pair, labels on every bar: few bars) ----
   function renderPL(races) {
     const rows = races.filter((r) => r.status === "settled").map((r) => {
-      const pls = r.picks.slice(0, 2).map(levelPL).filter((x) => x != null);
-      return { key: (races.some((x) => x.meeting !== r.meeting) ? r.meeting.date.slice(5) + " " : "") + r.time, r, pl: pls.reduce((a, x) => a + x, 0), s: pls.length };
+      const sc = raceScore(r);
+      return { key: r.time, r, pl: sc || 0, s: sc != null };
     }).filter((d) => d.s);
+    if (new Set(rows.map((d) => d.r.meeting)).size > 1) rows.forEach((d) => { d.key = d.r.meeting.date.slice(5) + " " + d.key; });
     const el = $("chart-pl");
     if (!rows.length) { el.innerHTML = '<p class="muted">No settled races.</p>'; return; }
     const W = Math.max(320, el.clientWidth || 520), H = 230, m = { t: 18, r: 8, b: 30, l: 40 };
@@ -335,7 +353,7 @@
     const mx = niceMax(Math.max(...rows.map((d) => Math.abs(d.pl)), 0.5) * 1.15); // headroom for bar labels
     const y = (v) => m.t + ih / 2 - (v / mx) * (ih / 2);
     const band = iw / rows.length, bw = Math.min(28, band * 0.6);
-    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Paper profit and loss by race">`;
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Pick score by race">`;
     [-mx, -mx / 2, 0, mx / 2, mx].forEach((v) => {
       s += `<line x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}" stroke="${v === 0 ? "var(--axis)" : "var(--grid)"}" stroke-width="1"/>`;
       s += `<text class="tick" x="${m.l - 6}" y="${y(v) + 4}" text-anchor="end">${v > 0 ? "+" : ""}${+v.toFixed(2)}</text>`;
@@ -347,7 +365,7 @@
       const ly = d.pl >= 0 ? y(d.pl) - 5 : y(d.pl) + 13;
       s += `<text class="lbl" x="${cx}" y="${ly}" text-anchor="middle">${d.pl > 0 ? "+" : ""}${d.pl.toFixed(2)}</text>`;
       s += `<text class="tick" x="${cx}" y="${H - 10}" text-anchor="middle">${esc(d.key)}</text>`;
-      const tipHtml = `<b>${esc(d.r.time)} ${esc(d.r.meeting.course)}</b>P/L ${pts(d.pl)} on ${d.s}pt<br>${d.r.picks.slice(0, 2).map((p) => `${esc(p.horse)}: ${esc(p.finish)} at ${esc(p.sp || "SP n/a")}`).join("<br>")}`;
+      const tipHtml = `<b>${esc(d.r.time)} ${esc(d.r.meeting.course)}</b>Score ${d.pl > 0 ? "+" : ""}${d.pl.toFixed(2)}<br>${d.r.picks.slice(0, 2).map((p) => { const ps = pickScore(d.r, p); return `${esc(p.horse)}: ${esc(p.finish)} at ${esc(p.sp || "SP n/a")} → ${ps == null ? "–" : (ps > 0 ? "+" : "") + ps.toFixed(2)}`; }).join("<br>")}`;
       s += `<rect class="hit" x="${m.l + band * i}" y="${m.t}" width="${band}" height="${ih}" data-tip="${esc(tipHtml)}"/>`;
     });
     s += "</svg>";
@@ -500,7 +518,7 @@
   }
   function renderTables(races, meetings) {
     const multi = new Set(races.map((r) => r.meeting)).size > 1;
-    let h = `<thead><tr>${multi ? "<th>Date</th>" : ""}<th>Time</th><th>Race</th><th>1st pick</th><th class="num">Chance</th><th class="num">Fin</th><th>2nd pick</th><th class="num">Chance</th><th class="num">Fin</th><th>Winner (SP)</th><th>Grade</th><th>Errors</th><th>Notes</th></tr></thead><tbody>`;
+    let h = `<thead><tr>${multi ? "<th>Date</th>" : ""}<th>Time</th><th>Race</th><th>1st pick</th><th class="num">Chance</th><th class="num">Fin</th><th>2nd pick</th><th class="num">Chance</th><th class="num">Fin</th><th>Winner (SP)</th><th class="num">Score</th><th>Grade</th><th>Errors</th><th>Notes</th></tr></thead><tbody>`;
     races.forEach((r) => {
       const a = r.picks[0] || {}, b = r.picks[1] || {};
       h += `<tr>${multi ? `<td>${esc(r.meeting.date)}</td>` : ""}<td class="num">${esc(r.time)}</td>
@@ -508,6 +526,7 @@
         <td>${esc(a.horse || "–")}<div class="muted">fair ${fairPrice(a.prob)}${a.sp ? " · SP " + esc(a.sp) : ""}</div></td><td class="num">${pct(a.prob)}</td><td class="num">${a.finish ? finishCell(a) : "–"}</td>
         <td>${esc(b.horse || "–")}<div class="muted">fair ${fairPrice(b.prob)}${b.sp ? " · SP " + esc(b.sp) : ""}</div></td><td class="num">${pct(b.prob)}</td><td class="num">${b.finish ? finishCell(b) : "–"}</td>
         <td>${r.winner ? esc(r.winner.horse) + ` <span class="muted">(${esc(r.winner.sp)})</span>` : '<span class="muted">pending</span>'}</td>
+        <td class="num">${(() => { const sc = raceScore(r); return sc == null ? '<span class="muted">–</span>' : `<span class="${sc >= 0 ? "pos-text" : "neg-text"}">${sc > 0 ? "+" : ""}${sc.toFixed(2)}</span>`; })()}</td>
         <td>${chip(r.grade)}</td>
         <td>${(r.errors || []).map((e) => `<span class="tag" title="${esc((DATA.errorTypes || {})[e] || "")}">${esc(e)}</span>`).join("") || '<span class="muted">–</span>'}</td>
         <td class="note">${esc(r.notes)}</td></tr>`;

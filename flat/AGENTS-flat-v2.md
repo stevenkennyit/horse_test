@@ -244,6 +244,21 @@ The agent's job ends at the ranking. It does not recommend bets, stakes or bet t
 - **Give each pick a confidence** (low / medium / high) and the key reason it is ranked where it is.
 - **Two horses clear of the rest only on ratings is not enough** — the evidence (head-to-heads, franked form) must separate them.
 
+### How picks are scored
+
+After the race, each of the top two picks earns points from its starting price (SP). The agent never sees the SP before the off; this is how its ranking is judged.
+
+| Pick's result | Points | Examples |
+|---|---|---|
+| Wins | the odds | 10/11 → +0.9; 5/1 → +5; 16/1 → +16 |
+| Places (each-way places for the field size) | a fifth of the odds (a quarter in 5–7 runner races and handicaps of 12+) | 4/7 placed → +0.1; 10/1 placed → +2 |
+| Anything else | −1 | — |
+
+So a pick the whole market already fancies earns little even when right, and a correctly rated outsider earns a lot. A loser costs 1 point at any price, so promoting an outsider without evidence loses points: the score rewards finding horses that others underrate, not guessing.
+
+- **Outsider check (required).** Before ranking, write one line for every runner outside the provisional top four with the best evidence-based case for it: a form line hidden by a bad run, a weight or mark drop, a change of trip, ground, course or headgear, a pace setup that suits, a stable pattern. Promote any horse whose case beats a pick. Record the check in the write-up.
+- **Don't rank on the obvious signals alone.** Top official rating, best recent form figures and the biggest stable or jockey are what the market prices hardest. A pick resting only on them can win and still score little; each pick's reason must name evidence beyond them.
+
 ## Step 15: Record the analysis
 
 Every analysed race is saved **before the off**, so the result can be judged later against what was actually said and the performance dashboard stays complete. All paths are relative to the project root `C:\Users\steven\Desktop\horse_agent`.
@@ -256,6 +271,7 @@ Required contents, in this order:
 - **Header:** date, course, off time, race name, race type (handicap / novice / maiden / conditions, class), distance, going or surface, field size, draw, non-runners.
 - **Analysis source:** `full` (the agent's own analysis) or `verified` (user-supplied picks checked by the agent).
 - **Summary grid** (Step 12) for every runner.
+- **Outsider check** (Step 14): one line for every runner outside the provisional top four.
 - **Picks:** two or three ranked picks (and a danger if one stands out), each with the agent's win probability, fair price and confidence (low / medium / high).
 - **Rationale and the strongest case against** each pick, with key claims tagged verified / asserted / not found.
 - **Unverified items** — everything that could not be checked.
@@ -293,7 +309,8 @@ Before any final selection, grid or rationale goes out, run these against the da
 6. For each pick: have I written the strongest case it is wrong, and does it still stand?
 7. Is any pick ranked on a single time figure from another course? Is its main doubt a recurring pattern?
 8. Have I counted (not estimated) every run count I quote?
-9. Is the write-up saved under `flat/analyses/…` and the race added to `flat/data/results.js` with `status: "pending"` (Step 15)?
+9. Have I written the outsider check, and does each pick's reason rest on more than rating, form figures and stable?
+10. Is the write-up saved under `flat/analyses/…` and the race added to `flat/data/results.js` with `status: "pending"` (Step 15)?
 
 ---
 

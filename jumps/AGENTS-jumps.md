@@ -246,6 +246,21 @@ The agent's job ends at the ranking. It does not recommend bets, stakes or bet t
 - **Unraced horses in bumpers need evidence, not a price tag.** An unraced horse may not be top pick, or be rated above about 30%, over raced rivals unless it has a weight-adjusted edge on them, claims included. Purchase price, pedigree and jockey booking are not evidence on their own. If every contender is unraced, mark confidence low. *(Added after Galway 25 Oct 2026: unraced Moscovite (40%) finished last in the 16:30 bumper; raced fillies getting 7lb filled 1st, 3rd, 4th and 5th.)*
 - **Note likely non-runners** (ground-dependent withdrawals are common over jumps) and how each would change the ranking.
 
+### How picks are scored
+
+After the race, each of the top two picks earns points from its starting price (SP). The agent never sees the SP before the off; this is how its ranking is judged.
+
+| Pick's result | Points | Examples |
+|---|---|---|
+| Wins | the odds | 10/11 → +0.9; 5/1 → +5; 16/1 → +16 |
+| Places (each-way places for the field size) | a fifth of the odds (a quarter in 5–7 runner races and handicaps of 12+) | 4/7 placed → +0.1; 10/1 placed → +2 |
+| Anything else | −1 | — |
+
+So a pick the whole market already fancies earns little even when right, and a correctly rated outsider earns a lot. A loser costs 1 point at any price, so promoting an outsider without evidence loses points: the score rewards finding horses that others underrate, not guessing.
+
+- **Outsider check (required).** Before ranking, write one line for every runner outside the provisional top four with the best evidence-based case for it: a form line hidden by a bad run, a weight or mark drop, a change of trip, ground, course or headgear, a pace setup that suits, a stable pattern. Promote any horse whose case beats a pick. Record the check in the write-up.
+- **Don't rank on the obvious signals alone.** Top official rating, best recent form figures and the biggest stable or jockey are what the market prices hardest. A pick resting only on them can win and still score little; each pick's reason must name evidence beyond them.
+
 ## Step 16: Record the analysis
 
 Every analysed race is saved **before the off**, so the result can be judged later against what was actually said and the performance dashboard stays complete. All paths are relative to the project root `C:\Users\steven\Desktop\horse_agent`.
@@ -258,6 +273,7 @@ Required contents, in this order:
 - **Header:** date, course, off time, race name, code and type (hurdle / chase / NH flat), distance, going (with source and time checked), field size, non-runners.
 - **Analysis source:** `full` (the agent's own analysis) or `verified` (user-supplied picks checked by the agent).
 - **Summary grid** (Step 13) for every runner.
+- **Outsider check** (Step 15): one line for every runner outside the provisional top four.
 - **Picks:** two or three ranked picks (and a danger if one stands out), each with the agent's win probability, fair price and confidence (low / medium / high).
 - **Rationale and the strongest case against** each pick, with key claims tagged verified / asserted / not found.
 - **Unverified items** — everything that could not be checked.
@@ -295,7 +311,8 @@ Before any final selection, grid or rationale goes out, run these against the da
 8. Have I confirmed the horse stays the trip on today's ground, not just at the distance on different going?
 9. Is any pick ranked on a finishing time? (It should not be the deciding factor over jumps.)
 10. Have I counted (not estimated) every completion, fall and losing-run count I quote?
-11. Is the write-up saved under `jumps/analyses/…` and the race added to `jumps/data/results.js` with `status: "pending"` (Step 16)?
+11. Have I written the outsider check, and does each pick's reason rest on more than rating, form figures and stable?
+12. Is the write-up saved under `jumps/analyses/…` and the race added to `jumps/data/results.js` with `status: "pending"` (Step 16)?
 
 ---
 

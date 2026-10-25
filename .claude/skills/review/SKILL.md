@@ -23,4 +23,4 @@ Arguments: `$ARGUMENTS` — course and date (default today).
 
 5. **Propose rules, don't apply them yet.** Draft one rule per new judgement error, naming the playbook step it belongs to. Show the drafts and the review summary; add them, and the review entry in the playbook's Post-race review section, only after the user agrees.
 
-6. **Report** the results table and the headline figures for this meeting (top pick won, winner in top two, placer in top two, 1pt win on the top pick at SP), and point the user to `dashboard.html`.
+6. **Report** the results table and the headline figures for this meeting (top pick won, second pick won, the pick score, 1pt win on the top pick at SP), and point the user to `dashboard.html`.
