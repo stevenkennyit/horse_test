@@ -30,7 +30,7 @@ Three factors carry the most weight in every analysis:
 2. **Finishing times**: the horse's actual times in similar races, adjusted for weight.
 3. **Consistency**: how reliably the horse runs to its level across recent runs.
 
-Ratings (RPR, Topspeed), draw, connections and market are secondary. Use them to support or challenge the core picture, not to override it.
+Ratings (RPR, Topspeed), draw and connections are secondary. **Prices and market moves are not inputs** — the agent ranks on the race data alone and does not fetch or quote odds. Use them to support or challenge the core picture, not to override it.
 
 **Head-to-heads are the strongest single evidence when they repeat.** When the same horses have met in several races and the weight-adjusted results agree, trust that over any single time figure or rating. Repeated head-to-heads have held in results where a top pick chosen on one fast time from another course has not.
 
@@ -100,7 +100,7 @@ Record position, field size and beaten distance for each. A placing at today's t
 
 Flag:
 - Layoffs over 30 days
-- Beaten favourites — and how often. A horse beaten as favourite repeatedly is a placer the market keeps overrating (it can still win; see Post-race review)
+- Beaten favourites — and how often. A horse beaten as favourite repeatedly is often a placer rather than a winner (it can still win)
 - Big-priced horses beaten a long way
 - Declining form trends
 - **Trip changes.** A horse whose placed form is all at a different trip from today's carries a real doubt. A horse whose placed runs were all over 7f, dropped to 6f, can only run on late when it is too late.
@@ -161,7 +161,7 @@ Then judge consistency **in similar conditions** (same surface, similar distance
 
 How to use it:
 - **Consistent and fast on time:** strong win candidate
-- **Consistent but modest times:** place candidate; good for each-way or forecasts. Do not promote a "consistent but modest" placer to top win pick on consistency alone — that profile is each-way, not win. **Do not rank such a horse above a rival with clearly better times and a falling mark** (a consistent horse running 4s slow has been beaten out of the places by a rival with better times and a falling mark).
+- **Consistent but modest times:** place candidate. Do not promote a "consistent but modest" placer to top win pick on consistency alone — that profile places more than it wins. **Do not rank such a horse above a rival with clearly better times and a falling mark** (a consistent horse running 4s slow has been beaten out of the places by a rival with better times and a falling mark).
 - **Inconsistent with one big figure:** treat the big figure with caution; it may not be repeated
 - **Lightly raced (3 runs or fewer):** consistency can't be judged; mark as uncertain
 
@@ -207,13 +207,13 @@ Treat a weak bias as a tiebreaker, not a deciding factor. Note the date range of
 - Judge first-time headgear by who trains the horse: a methodical trainer (e.g. Prescott) means more than a random one.
 - For 2yo maidens and novices specifically: the race pattern favours well-bred newcomers from powerful yards over exposed horses already beaten in weak races — but only when the exposed form is weak. When an exposed runner has strong, franked form, proven ability beats unraced potential. Note which yards' debutants typically need the run (they improve next time) versus those ready first time out.
 
-## Step 11: Market (secondary)
+## Step 11: Non-runners and going
 
-Use price movement as information only. Heavy backing usually means connections are confident; a drift suggests the opposite. Do not let price decide the ranking.
+Prices are not used (see Core factors). Instead, close to the off:
 
-- Note the timestamp on every price used. Forecast prices are not market prices.
-- **A big late gamble with no form support is a risk to name, not a reason to rank.** A horse backed from 12/1 to 13/8 favourite on its first run for a new stable after a long break, with form that did not support it, is best kept out of the ranking and named as the main risk.
-- A drift on a selection (e.g. forecast 7/1–8/1 to 16/1–18/1) is a signal to re-check its case, not proof it is wrong.
+- Re-check non-runners and re-rank if one changes the pace or the weights picture.
+- Re-check the going or surface report; note any change from the card and which runners it helps or hurts.
+- Record any change as a dated `## Update HH:MM` section (Step 15).
 
 ## Step 12: Summary grid
 
@@ -235,16 +235,14 @@ For each selection, actively look for what's wrong with it:
 
 List everything you couldn't verify.
 
-## Step 14: Rank and choose the bet
+## Step 14: Rank the picks
 
-- One top pick, two backups, one danger.
-- Bet type follows confidence:
-  - Win single when one horse is clearly best on weight, times and consistency
-  - Forecast when two horses stand clear of the rest — on the evidence, not on ratings alone
-  - Each-way for consistent horses without a strong win figure
-- **Set a value line before the off** (the price below which the bet isn't worth it) and say whether the available price is above it. A winner backed below its value line was still a poor bet.
-- State place terms when recommending each-way (usual UK handicap terms: 5–7 runners 2 places at 1/4; 8–11 runners 3 places at 1/5; 12–15 runners 3 places at 1/4; 16+ runners 4 places at 1/4). A 4th in a 14-runner handicap loses an each-way bet.
-- Do not stack several low-confidence win-picks into a single win multiple and present it as value; if the selections are each-way quality, say the multiple should be each-way (or not placed at all).
+The agent's job ends at the ranking. It does not recommend bets, stakes or bet types, and does not check prices; the user decides how to bet.
+
+- **Two or three ranked picks.** Name a danger as well if one stands out.
+- **Give each pick a win probability** (0–1) built from the evidence, and the fair price it implies (fair decimal odds = 1 ÷ probability; e.g. 40% → 6/4). The picks' chances plus the rest of the field must add up to about 100%.
+- **Give each pick a confidence** (low / medium / high) and the key reason it is ranked where it is.
+- **Two horses clear of the rest only on ratings is not enough** — the evidence (head-to-heads, franked form) must separate them.
 
 ## Step 15: Record the analysis
 
@@ -255,16 +253,15 @@ Every analysed race is saved **before the off**, so the result can be judged lat
 (e.g. `flat/analyses/2026-11-02_kempton/1930_7f-class-5-handicap.md`). Create the meeting folder if it doesn't exist.
 
 Required contents, in this order:
-- **Header:** date, course, off time, race name, race type (handicap / novice / maiden / conditions, class), distance, going or surface, field size, draw, non-runners, each-way place terms.
+- **Header:** date, course, off time, race name, race type (handicap / novice / maiden / conditions, class), distance, going or surface, field size, draw, non-runners.
 - **Analysis source:** `full` (the agent's own analysis) or `verified` (user-supplied picks checked by the agent).
 - **Summary grid** (Step 12) for every runner.
-- **Picks:** top pick, two backups and danger, each with the agent's win probability, fair price, best price with the time it was checked, and confidence (low / medium / high).
+- **Picks:** two or three ranked picks (and a danger if one stands out), each with the agent's win probability, fair price and confidence (low / medium / high).
 - **Rationale and the strongest case against** each pick, with key claims tagged verified / asserted / not found.
-- **Recommended bets:** bet type, stake in points, price condition (e.g. "only at 5/1+"), place terms.
 - **Unverified items** — everything that could not be checked.
 - **Sources:** the URLs relied on.
 
-If the analysis changes before the off (non-runners, going, market), **append** a dated `## Update HH:MM` section rather than overwriting. The record must show what was said before the race.
+If the analysis changes before the off (non-runners, going), **append** a dated `## Update HH:MM` section rather than overwriting. The record must show what was said before the race.
 
 **2. The results data** — add the race to `flat/data/results.js` (same schema as jumps; the field notes are in the header comment of `jumps/data/results.js`). Use the existing meeting object for the date and course, or add one.
 
@@ -272,14 +269,13 @@ If the analysis changes before the off (non-runners, going, market), **append** 
 |---|---|
 | Meeting | `date`, `course`, `country`, `code: "flat"`, `playbook: "flat/AGENTS-flat-v2.md"`, `going`, `dataErrors: []` |
 | Race | `time`, `name`, `type`, `distance`, `going`, `runners`, `source`, `status: "pending"`, `grade: "pending"`, `errors: []`, `notes`, `winner: null` |
-| Each pick | `rank`, `horse`, `prob` (0–1), `price` (fractional, as quoted), `finish: "-"` |
-| Each bet | `bet` (plain description), `stake` (points; 0 for a conditional bet that wasn't triggered), `returned: null` |
+| Each pick | `rank`, `horse`, `prob` (0–1), `finish: "-"` |
 
 The dashboard reads the first two picks for its "top pick" and "winner in top two" figures, so list picks in rank order; backups and the danger go in as ranks 3 and 4.
 
-**Do not edit picks, probabilities or prices after the off.** Only the result fields change after the race (see Post-race review, step 6).
+**Do not edit picks or probabilities after the off.** Only the result fields change after the race (see Post-race review, step 6).
 
-**Units:** stakes and returns in points; probabilities 0–1; prices as fractional strings exactly as quoted.
+**Units:** probabilities 0–1; starting prices (added at review) as fractional strings exactly as returned, e.g. `"5/2"`, `"Evens"`.
 
 ---
 
@@ -308,9 +304,9 @@ Once results are published, judge the reasoning, not the result.
 3. **Separate the two kinds of error:**
    - *Data errors* — a figure, margin, headgear code or count was wrong at source or misread.
    - *Judgement errors* — the data was right but weighted wrongly (e.g. consistency over times, rating over franking, a single figure over repeated head-to-heads).
-4. **Name what held and what failed in each race**, including correct calls that lost (a sound each-way that finished 4th) and wrong calls that won (a winner at a price below the value line, or one that won despite a real doubt).
+4. **Name what held and what failed in each race**, including correct calls that lost (a sound pick beaten narrowly or badly drawn) and wrong calls that won (one that won despite a real doubt, or for a reason the analysis didn't give).
 5. **Turn each judgement error into a rule** and add it to the relevant step above.
-6. **Update the record.** In `flat/data/results.js`, for each race set: `finish` for every pick (the official position, or `UR` / `PU` / `RR` (refused to race) / `DSQ`; never a summary such as "U/P" or "unplaced"); `winner` as `{ horse, sp, agentProb }` (`agentProb` is the probability stated for the winner before the off, or `null` if it wasn't rated); `status: "settled"`, plus `provisional: true` if the result isn't weighed in yet; `returned` for every bet; `grade` (`held` / `mixed` / `failed`); `errors` (codes from `errorTypes`, adding a new code there for a new type of error); and a one-line `notes`. Add any data errors to the meeting's `dataErrors`. Append a `## Result` section to each race's write-up. Then open `dashboard.html` to check the figures.
+6. **Update the record.** In `flat/data/results.js`, for each race set: `finish` and `sp` (starting price) for every pick (finish = the official position, or `UR` / `PU` / `RR` (refused to race) / `DSQ`; never a summary such as "U/P" or "unplaced"); `winner` as `{ horse, sp, agentProb }` (`agentProb` is the probability stated for the winner before the off, or `null` if it wasn't rated); `status: "settled"`, plus `provisional: true` if the result isn't weighed in yet; `grade` (`held` / `mixed` / `failed`); `errors` (codes from `errorTypes`, adding a new code there for a new type of error); and a one-line `notes`. Add any data errors to the meeting's `dataErrors`. Append a `## Result` section to each race's write-up. Then open `dashboard.html` to check the figures.
 
 ---
 
@@ -339,7 +335,7 @@ Re-tested 23 Oct 2026 by opening a real page from each site; notes updated 24 Oc
 | BHA / Weatherbys, Timeform | Official ratings; paid ratings | Partial (Timeform horse-form page loads some data) |
 
 ### Data-gathering routine
-1. **Racecard:** Racing Post race page and Sporting Life racecard; At The Races card for draw advantage, course/distance records and timestamped odds.
+1. **Racecard:** Racing Post race page and Sporting Life racecard; At The Races card for draw advantage and course/distance records. Ignore the odds.
 2. **Run history and weights:** Sporting Life profile (or Sky Sports). Record result link paths for each run.
 3. **Finishing times:** open the Racing Post result first (time against standard, cumulative beaten distances, OR, claims), then Sporting Life for in-running comments.
 4. **Franking:** profile of the key run's winner, then the result page of its next run.
@@ -367,7 +363,6 @@ Verification discipline decays as a task lengthens: result pages get re-opened e
 
 ### Lessons on gathering data
 - Searching by horse name alone often fails when the name is a common phrase (e.g. "Time And Effort"). Add the trainer, course and "nursery" or "handicap".
-- Note the timestamp on any odds used.
 - Check every statistic against its source before relying on it. A York 1m draw figure sat in this guide labelled as Kempton 7f until 23 Oct 2026.
 - Allow 30+ minutes before the off for the full routine.
 - General web searches on horse names return large amounts of irrelevant Wikipedia/newspaper noise; go straight to the known racing domains (skysports, racingpost, sportinglife, racingtv, attheraces) and ignore the rest.
@@ -408,4 +403,3 @@ Verification discipline decays as a task lengthens: result pages get re-opened e
 - Recognising trainer patterns
 - Sharpening the analysis through challenge
 - Weight-adjusted head-to-heads
-- Treating a late market gamble as a risk rather than a ranking input

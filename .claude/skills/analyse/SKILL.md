@@ -1,6 +1,6 @@
 ---
 name: analyse
-description: Analyse a UK or Irish horse race, or a whole card, using the right playbook (jumps or flat); save the write-up and log the picks before the off. Use when the user asks to analyse, preview or pick a race or meeting, e.g. "/analyse Galway 14:50" or "/analyse Kempton".
+description: Analyse a UK or Irish horse race, or a whole card, using the right playbook (jumps or flat); save the write-up and log the ranked picks before the off. Use when the user asks to analyse, preview or pick a race or meeting, e.g. "/analyse Galway 14:50" or "/analyse Kempton".
 argument-hint: <course> [HH:MM] [YYYY-MM-DD]
 ---
 
@@ -20,6 +20,6 @@ Arguments: `$ARGUMENTS` — course, optional off time, optional date (default to
    - The write-up file is required, not optional: a results entry without its write-up is an incomplete record. Before committing, check that every race added to the results file has its write-up on disk, and commit both together.
    - If the race is already recorded (a re-run or "recheck"), append a `## Update HH:MM` section and update the data entry — only before the off.
 
-5. **Reply** with a compact table per race: 1st and 2nd pick, win chance, fair price, best price with the time checked, confidence, the key reason, and the bet (each-way only at 5/1+). Then outsiders worth a look and anything unverified.
+5. **Reply** with a compact table per race: 2–3 ranked picks, each with win chance, fair price, confidence and the key reason. Then a danger or outsider worth noting, and anything unverified. No bets, stakes or prices.
 
-6. **Close** by reminding the user that they place the bets, and offer a price, non-runner and going re-check closer to the off.
+6. **Close** by offering a non-runner and going re-check closer to the off.

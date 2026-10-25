@@ -1,16 +1,19 @@
 // AI agent picks and results: JUMPS. One object per meeting.
 // Loaded by ../../dashboard.html alongside flat/data/results.js; each file adds its meetings to window.AGENT_DATA.
 // Add a new meeting object to `meetings` after each race day; set `status: "pending"` until the result is in.
+// The agent ranks picks only; it does not recommend bets or check prices. The user decides how to bet.
 //
 // Field notes
-//   picks[].prob      agent's stated win probability (0-1) at analysis time
-//   picks[].price     best price seen at analysis time (fractional)
-//   picks[].finish    official finishing position, or "F", "PU", "UR", "-" for pending
+//   picks[].prob      agent's stated win probability (0-1) at analysis time (fair price = 1/prob, shown by the dashboard)
+//   picks[].finish    official finishing position, or "F", "PU", "UR", "BD", "R"; "-" while pending
+//   picks[].sp        starting price (fractional, e.g. "5/2", "Evens"), added at review from the result page
 //   winner.agentProb  probability the agent stated for the eventual winner; null if the winner was not rated
 //   grade             "held" | "mixed" | "failed" | "pending" - judged on the reasoning, not the result
 //   errors            judgement-error codes from `errorTypes`
-//   bets[]            paper bets as recommended on the final slip; stake/returned in points
 //   source            "full" = full agent analysis; "verified" = user-supplied picks checked by the agent
+//
+// Legacy fields (25 Oct 2026 Galway only; no longer recorded): picks[].price = best price seen at analysis time;
+//   bets[] = paper bets from the old recommended bet slip (stake/returned in points). The dashboard ignores both.
 
 (function (data) {
   const D = (window.AGENT_DATA = window.AGENT_DATA || { errorTypes: {}, meetings: [] });
@@ -21,7 +24,7 @@
     A: "Early-career ground runs held against an improved horse",
     B: "Recorded jumping doubt overridden by price",
     C: "Keen-goer made top pick in a weak pace",
-    D: "Forecasts in a 10+ runner handicap",
+    D: "Forecasts in a 10+ runner handicap (retired: bets no longer recommended)",
     E: "Unraced newcomer rated above raced rivals on price, pedigree or booking"
   },
   meetings: [
@@ -46,8 +49,8 @@
           time: "12:32", name: "Gerry Coyme Memorial EBF Beginners Chase", type: "chase", distance: "2m6f111y",
           going: "Soft to Heavy", runners: 6, source: "verified", status: "settled",
           picks: [
-            { rank: 1, horse: "Chart Topper", prob: 0.50, price: "10/11", finish: "1" },
-            { rank: 2, horse: "Da Capo Glory", prob: 0.22, price: "9/2", finish: "5" }
+            { rank: 1, horse: "Chart Topper", prob: 0.50, price: "10/11", finish: "1", sp: "10/11" },
+            { rank: 2, horse: "Da Capo Glory", prob: 0.22, price: "9/2", finish: "5", sp: "7/2" }
           ],
           winner: { horse: "Chart Topper", sp: "10/11", agentProb: 0.50 },
           grade: "held", errors: [],
@@ -61,8 +64,8 @@
           time: "13:07", name: "COLM QUINN BMW Handicap Chase", type: "chase", distance: "2m6f111y",
           going: "Soft to Heavy", runners: 10, source: "verified", status: "settled",
           picks: [
-            { rank: 1, horse: "Crecora Hills", prob: 0.22, price: "7/1", finish: "F" },
-            { rank: 2, horse: "Only For Our Man", prob: 0.15, price: "5/1", finish: "3" }
+            { rank: 1, horse: "Crecora Hills", prob: 0.22, price: "7/1", finish: "F", sp: "3/1" },
+            { rank: 2, horse: "Only For Our Man", prob: 0.15, price: "5/1", finish: "3", sp: "11/2" }
           ],
           winner: { horse: "Illtakehimmyself", sp: "7/2", agentProb: null },
           grade: "mixed", errors: ["A", "D"],
@@ -77,8 +80,8 @@
           time: "13:42", name: "Brasserie On The Corner Handicap Chase", type: "chase", distance: "2m2f54y",
           going: "Soft to Heavy", runners: 13, source: "verified", status: "settled",
           picks: [
-            { rank: 1, horse: "Dearg Mor", prob: 0.20, price: "10/3", finish: "3" },
-            { rank: 2, horse: "Harty Cup", prob: 0.17, price: "7/1", finish: "PU" }
+            { rank: 1, horse: "Dearg Mor", prob: 0.20, price: "10/3", finish: "3", sp: "15/8" },
+            { rank: 2, horse: "Harty Cup", prob: 0.17, price: "7/1", finish: "PU", sp: "10/1" }
           ],
           winner: { horse: "Lanzhou", sp: "16/1", agentProb: null },
           grade: "failed", errors: ["B", "D"],
@@ -92,8 +95,8 @@
           time: "14:17", name: "COLM QUINN BMW Mares Maiden Hurdle", type: "hurdle", distance: "2m11y",
           going: "Soft", runners: 8, source: "full", status: "settled",
           picks: [
-            { rank: 1, horse: "Light Up The Dark", prob: 0.50, price: "10/11", finish: "2" },
-            { rank: 2, horse: "Simply Natural", prob: 0.30, price: "15/8", finish: "1" }
+            { rank: 1, horse: "Light Up The Dark", prob: 0.50, price: "10/11", finish: "2", sp: "4/7" },
+            { rank: 2, horse: "Simply Natural", prob: 0.30, price: "15/8", finish: "1", sp: "5/2" }
           ],
           winner: { horse: "Simply Natural", sp: "5/2", agentProb: 0.30 },
           grade: "held", errors: [],
@@ -108,8 +111,8 @@
           time: "14:50", name: "Medical Technology Ireland Expo Handicap Hurdle", type: "hurdle", distance: "2m11y",
           going: "Soft", runners: 8, source: "full", status: "settled",
           picks: [
-            { rank: 1, horse: "Inthenickoftime", prob: 0.29, price: "11/4", finish: "5" },
-            { rank: 2, horse: "Shellrunforbriggs", prob: 0.20, price: "7/2", finish: "2" }
+            { rank: 1, horse: "Inthenickoftime", prob: 0.29, price: "11/4", finish: "5", sp: "5/2" },
+            { rank: 2, horse: "Shellrunforbriggs", prob: 0.20, price: "7/2", finish: "2", sp: "4/1" }
           ],
           winner: { horse: "Castleheath", sp: "3/1", agentProb: 0.18 },
           grade: "mixed", errors: ["A"],
@@ -123,8 +126,8 @@
           time: "15:20", name: "Supermac's Rated Novice Hurdle", type: "hurdle", distance: "2m4f156y",
           going: "Soft", runners: 5, source: "full", status: "settled",
           picks: [
-            { rank: 1, horse: "Fly Away Home", prob: 0.32, price: "6/1", finish: "5" },
-            { rank: 2, horse: "Ole Ole", prob: 0.31, price: "4/1", finish: "1" }
+            { rank: 1, horse: "Fly Away Home", prob: 0.32, price: "6/1", finish: "5", sp: "11/2" },
+            { rank: 2, horse: "Ole Ole", prob: 0.31, price: "4/1", finish: "1", sp: "11/4" }
           ],
           winner: { horse: "Ole Ole", sp: "11/4", agentProb: 0.31 },
           grade: "mixed", errors: ["A", "C"],
@@ -139,8 +142,8 @@
           time: "15:56", name: "Glenlo Abbey Hotel & Estate Maiden Hurdle", type: "hurdle", distance: "2m5f100y",
           going: "Soft", runners: 12, source: "full", status: "settled",
           picks: [
-            { rank: 1, horse: "Bulgaden Castle", prob: 0.45, price: "5/6", finish: "5" },
-            { rank: 2, horse: "Doctor Elvis", prob: 0.25, price: "7/2", finish: "2" }
+            { rank: 1, horse: "Bulgaden Castle", prob: 0.45, price: "5/6", finish: "5", sp: "Evens" },
+            { rank: 2, horse: "Doctor Elvis", prob: 0.25, price: "7/2", finish: "2", sp: "3/1" }
           ],
           winner: { horse: "Always Scoring", sp: "25/1", agentProb: null },
           grade: "mixed", errors: [],
@@ -153,9 +156,9 @@
           time: "16:30", name: "Tom Dempsey Flooring 4yo Fillies Pro/Am Flat Race", type: "bumper", distance: "2m11y",
           going: "Soft", runners: 6, source: "full", status: "settled", provisional: true,
           picks: [
-            { rank: 1, horse: "Moscovite", prob: 0.40, price: "11/10", finish: "6" },
-            { rank: 2, horse: "Va La Vie", prob: 0.22, price: "10/3", finish: "2" },
-            { rank: 3, horse: "Mozart's Song", prob: 0.14, price: "8/1", finish: "3" }
+            { rank: 1, horse: "Moscovite", prob: 0.40, price: "11/10", finish: "6", sp: "4/6" },
+            { rank: 2, horse: "Va La Vie", prob: 0.22, price: "10/3", finish: "2", sp: "4/1" },
+            { rank: 3, horse: "Mozart's Song", prob: 0.14, price: "8/1", finish: "3", sp: "11/1" }
           ],
           winner: { horse: "Bluebell Breeze", sp: "13/2", agentProb: null },
           grade: "failed", errors: ["E"],

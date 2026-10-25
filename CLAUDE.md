@@ -8,7 +8,7 @@ Race analysis for UK and Irish racing. The playbooks hold the method; this file 
 |---|---|
 | `jumps/AGENTS-jumps.md` | Playbook for hurdles, chases and NH flat races (bumpers) |
 | `flat/AGENTS-flat-v2.md` | Playbook for Flat racing (turf and all-weather) |
-| `jumps/data/results.js`, `flat/data/results.js` | Picks, probabilities, bets and results per meeting (schema in the jumps file's header) |
+| `jumps/data/results.js`, `flat/data/results.js` | Picks, probabilities and results per meeting (schema in the jumps file's header) |
 | `jumps/analyses/`, `flat/analyses/` | One Markdown write-up per race: `<YYYY-MM-DD>_<course>/<HHMM>_<race-slug>.md` |
 | `dashboard.html` | Performance dashboard; reads both results files. Open it directly from the folder |
 
@@ -22,16 +22,15 @@ Read the chosen playbook **in full** before analysing, including its Post-race r
 
 ## Commands
 
-- `/analyse <course> [HH:MM] [date]` — analyse one race or a whole card, save the write-up and log the picks before the off.
-- `/review <course> [date]` — pull results, judge the reasoning, update the data and write-ups, propose new playbook rules.
+- `/analyse <course> [HH:MM] [date]` — analyse one race or a whole card, save the write-up and log the ranked picks before the off.
+- `/review <course> [date]` — pull results and starting prices, judge the reasoning, update the data and write-ups, propose new playbook rules.
 
 ## Standing rules
 
-- **The user places all bets.** Never log in to a bookmaker, enter account details or place a bet.
+- **Picks only, no bets.** The agent ranks 2–3 picks with win probabilities; the user decides whether and how to bet. Don't recommend bets, stakes or bet types, and don't fetch or quote prices before the off — the market is not an input. Never log in to a bookmaker, enter account details or place a bet.
 - **Check the clock first.** Racing times are local (Ireland/UK). Say how long is left to the off, and flag any race that has already run.
-- **Re-check prices, non-runners and going close to the off,** and quote the time each price was checked.
-- **Record before the off; never change picks, probabilities or prices after it.** Late changes before the off go in as a dated `## Update HH:MM` section and an updated data entry.
-- **Each-way bets only at 5/1 or bigger.** Below 5/1, back to win or not at all.
+- **Re-check non-runners and going close to the off,** and quote the time they were checked.
+- **Record before the off; never change picks or probabilities after it.** Late changes before the off go in as a dated `## Update HH:MM` section and an updated data entry.
 - **Jockey claims change weights.** Check whether listed weights are before or after claims (Racing Post card weights are before claims) and account for the difference between runners.
 - **Judge on reasoning, not results.** A winner on a wrong reason is still an error; a sound pick that loses is not.
 
@@ -48,11 +47,11 @@ This folder is the GitHub repository `stevenkennyit/horse_test`. Cloud sessions 
 
 - **Sporting Life** pages embed their data as JSON in the `__NEXT_DATA__` script tag: racecards, horse profiles (full career) and result pages. This is the most reliable source and works with plain fetches.
 - Run histories embedded in result pages are truncated and include later runs; use the horse's profile for full history and for days since its last run.
-- **Racing Post** racecards give live best prices; the free form view shows only 5 runs.
+- **Racing Post** racecards' free form view shows only 5 runs.
 - **At The Races** (`m.attheraces.com`) has pace maps, verdicts and Smart Stats; Smart Stats may show a bot check first.
 - The Sporting Life going page lists several days; read the row under today's date.
 
 ## Answer style
 
-- Lead with the verdict: top two picks, chance, fair price, best price with time checked, confidence and the bet.
+- Lead with the verdict: 2–3 ranked picks, each with win chance, fair price, confidence and the key reason.
 - Use compact tables; tag key claims verified / asserted / not found; list what couldn't be verified.

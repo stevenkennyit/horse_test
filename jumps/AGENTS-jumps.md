@@ -31,7 +31,7 @@ The flat playbook's core trio is weight / times / consistency. Over jumps, **jum
 3. **Weight change / well-handicapped**: what the horse carried in its key past runs versus today, and whether it is running off a lenient or outdated mark.
 4. **Consistency**: how reliably the horse runs to its level — and completes — across recent runs.
 
-Finishing times, ratings (RPR, Topspeed), connections and market are secondary. Use them to support or challenge the core picture, not to override it. **The draw is not a factor over jumps** — see Step 9.
+Finishing times, ratings (RPR, Topspeed) and connections are secondary. **Prices and market moves are not inputs** — the agent ranks on the race data alone and does not fetch or quote odds. Use them to support or challenge the core picture, not to override it. **The draw is not a factor over jumps** — see Step 9.
 
 **Head-to-heads are the strongest single evidence when they repeat.** When the same horses have met in several races and the weight-adjusted results agree, trust that over any single time figure or rating. This is *more* true over jumps than on the flat, because jumps times are so noisy — repeated meetings on the track are the cleanest signal you have.
 
@@ -160,7 +160,7 @@ Measure how reliably each horse runs to its level — and gets round — over it
 
 Judge consistency **in similar conditions** (same code, similar trip, class and going). How to use it:
 - **Consistent, sound-jumping and well-handicapped:** strong win candidate.
-- **Consistent but modest / exposed:** place candidate; each-way or forecasts. Do not promote a consistent placer to top win pick on consistency alone, and do not rank it above a well-handicapped, progressive rival.
+- **Consistent but modest / exposed:** place candidate. Do not promote a consistent placer to top win pick on consistency alone, and do not rank it above a well-handicapped, progressive rival.
 - **One big figure, otherwise erratic or a poor jumper:** treat the big figure with caution.
 - **Lightly raced (3 runs or fewer):** consistency can't be judged — but over jumps a lightly raced, progressive novice is often the *positive* unknown, not a negative. Mark as uncertain and lean on trainer, pedigree and the manner of the runs.
 
@@ -232,23 +232,19 @@ For each selection, actively look for what's wrong with it:
 - Layoff, step up in class, higher weight than in its best runs, declining form?
 - Any "false narrative" (e.g. "course specialist" on one win; "won last time" when it was a weak race)?
 - **Is the main doubt a specific, recurring pattern in the form?** A jumping error under pressure, fading out of contention, not staying, or an unsuitable trip — if the in-running comments show it more than once, it is likely to recur. Do not make that horse top pick unless the case for it clearly outweighs the doubt.
-- **A recorded jumping doubt cannot be overridden by price.** If a pick is a chase debutant, or its trainer's chase debutants have a win/completion record under 25% in the sample checked, a big price alone does not make it a win selection — at most a small each-way bet, and only within the each-way threshold in Step 15. *(Added after Galway 25 Oct 2026: Harty Cup was backed at 7/1 on value despite his trainer's 0/3 chase-debut record; "not fluent" twice and pulled up.)*
+- **A recorded jumping doubt caps the pick.** If a pick is a chase debutant, or its trainer's chase debutants have a win/completion record under 25% in the sample checked, it cannot be top pick, and its win chance must reflect the doubt. *(Added after Galway 25 Oct 2026: Harty Cup was made a pick on value despite his trainer's 0/3 chase-debut record; "not fluent" twice and pulled up.)*
 
 List everything you couldn't verify.
 
-## Step 15: Rank and choose the bet
+## Step 15: Rank the picks
 
-- One top pick, two backups, one danger.
-- Bet type follows confidence:
-  - Win single when one horse is clearly best on jumping, stamina/ground, handicap and consistency.
-  - Forecast when two horses stand clear of the rest on the evidence.
-  - Each-way for consistent, sound-jumping horses without a standout win case — jumps fields and non-finishers make each-way often the sounder play.
-- **Each-way threshold: 5/1 and above.** Each-way bets are acceptable at 5/1 or bigger. Below 5/1 the place part rarely pays for itself — bet to win or not at all.
-- **Big handicaps (10+ runners): back the value horse win or each-way, not forecasts.** Straight or reverse forecasts and tricasts across two or three picks in an open handicap cost the most stake for the least return. Keep forecasts for races where two horses stand clear on the evidence. *(Added after Galway 25 Oct 2026: dual forecasts in the 13:07, 13:42 and 14:50 handicaps all lost.)*
-- **Unraced horses in bumpers need evidence, not a price tag.** An unraced horse may not be top pick, or be rated above about 30%, over raced rivals unless it has a weight-adjusted edge on them, claims included. Purchase price, pedigree, jockey booking and market support are not evidence on their own. If every contender is unraced, mark confidence low and stake no more than 0.25pt. *(Added after Galway 25 Oct 2026: unraced Moscovite (40%, 4/6) finished last in the 16:30 bumper; raced fillies getting 7lb filled 1st, 3rd, 4th and 5th.)*
-- **Set a value line before the off** and say whether the available price is above it. A winner backed below its value line was still a poor bet.
-- State place terms when recommending each-way (usual UK handicap terms: 5–7 runners 2 places at 1/4; 8–11 runners 3 places at 1/5; 12–15 runners 3 places at 1/4; 16+ runners 4 places at 1/4; note the extra places and special terms common in big-field jumps handicaps). Account for likely **non-runners** (ground-dependent withdrawals are common over jumps) and the Rule 4 that follows.
-- Do not stack several low-confidence win-picks into a single win multiple and present it as value; if the selections are each-way quality, say so.
+The agent's job ends at the ranking. It does not recommend bets, stakes or bet types, and does not check prices; the user decides how to bet.
+
+- **Two or three ranked picks.** Name a danger as well if one stands out.
+- **Give each pick a win probability** (0–1) built from the evidence, and the fair price it implies (fair decimal odds = 1 ÷ probability; e.g. 40% → 6/4). The probabilities across the field should be realistic: the picks' chances plus the rest of the field must add up to about 100%.
+- **Give each pick a confidence** (low / medium / high) and the key reason it is ranked where it is.
+- **Unraced horses in bumpers need evidence, not a price tag.** An unraced horse may not be top pick, or be rated above about 30%, over raced rivals unless it has a weight-adjusted edge on them, claims included. Purchase price, pedigree and jockey booking are not evidence on their own. If every contender is unraced, mark confidence low. *(Added after Galway 25 Oct 2026: unraced Moscovite (40%) finished last in the 16:30 bumper; raced fillies getting 7lb filled 1st, 3rd, 4th and 5th.)*
+- **Note likely non-runners** (ground-dependent withdrawals are common over jumps) and how each would change the ranking.
 
 ## Step 16: Record the analysis
 
@@ -259,16 +255,15 @@ Every analysed race is saved **before the off**, so the result can be judged lat
 (e.g. `jumps/analyses/2026-10-25_galway/1520_supermacs-rated-novice-hurdle.md`). Create the meeting folder if it doesn't exist.
 
 Required contents, in this order:
-- **Header:** date, course, off time, race name, code and type (hurdle / chase / NH flat), distance, going (with source and time checked), field size, non-runners, each-way place terms.
+- **Header:** date, course, off time, race name, code and type (hurdle / chase / NH flat), distance, going (with source and time checked), field size, non-runners.
 - **Analysis source:** `full` (the agent's own analysis) or `verified` (user-supplied picks checked by the agent).
 - **Summary grid** (Step 13) for every runner.
-- **Picks:** top pick, second pick and danger, each with the agent's win probability, fair price, best price with the time it was checked, and confidence (low / medium / high).
+- **Picks:** two or three ranked picks (and a danger if one stands out), each with the agent's win probability, fair price and confidence (low / medium / high).
 - **Rationale and the strongest case against** each pick, with key claims tagged verified / asserted / not found.
-- **Recommended bets:** bet type, stake in points, price condition (e.g. "only at 5/1+"), place terms.
 - **Unverified items** — everything that could not be checked.
 - **Sources:** the URLs relied on.
 
-If the analysis changes before the off (going, non-runners, market), **append** a dated `## Update HH:MM` section rather than overwriting. The record must show what was said before the race.
+If the analysis changes before the off (going, non-runners), **append** a dated `## Update HH:MM` section rather than overwriting. The record must show what was said before the race.
 
 **2. The results data** — add the race to `jumps/data/results.js` (the field notes and schema are in that file's header comment). Use the existing meeting object for the date and course, or add one.
 
@@ -276,12 +271,11 @@ If the analysis changes before the off (going, non-runners, market), **append** 
 |---|---|
 | Meeting | `date`, `course`, `country`, `code: "jumps"`, `playbook: "jumps/AGENTS-jumps.md"`, `going`, `dataErrors: []` |
 | Race | `time`, `name`, `type`, `distance`, `going`, `runners`, `source`, `status: "pending"`, `grade: "pending"`, `errors: []`, `notes`, `winner: null` |
-| Each pick | `rank`, `horse`, `prob` (0–1), `price` (fractional, as quoted), `finish: "-"` |
-| Each bet | `bet` (plain description), `stake` (points; 0 for a conditional bet that wasn't triggered), `returned: null` |
+| Each pick | `rank`, `horse`, `prob` (0–1), `finish: "-"` |
 
-**Do not edit picks, probabilities or prices after the off.** Only the result fields change after the race (see Post-race review, step 6).
+**Do not edit picks or probabilities after the off.** Only the result fields change after the race (see Post-race review, step 6).
 
-**Units:** stakes and returns in points; probabilities 0–1; prices as fractional strings exactly as quoted.
+**Units:** probabilities 0–1; starting prices (added at review) as fractional strings exactly as returned, e.g. `"5/2"`, `"Evens"`.
 
 ---
 
@@ -313,9 +307,9 @@ Once results are published, judge the reasoning, not the result.
    - *Data errors* — a figure, margin, going, headgear code, jumping record or count was wrong at source or misread.
    - *Judgement errors* — the data was right but weighted wrongly (consistency over handicap, rating over franking, a time over a head-to-head, or underweighting a jumping/stamina/ground doubt).
    - *Jumps-specific errors* — (a) **mis-weighting jumping risk**: backing a known sketchy jumper, or writing off a sound jumper after a freak fall or brought-down; (b) **mis-reading a non-completion**: treating a P/F/U as ability form when it was ground, trip or luck, or vice versa; (c) **a ground or non-runner swing** that changed the race.
-4. **Name what held and what failed in each race**, including correct calls that lost (a sound each-way beaten by a faller) and wrong calls that won (a winner below the value line, or one that won despite a real doubt).
+4. **Name what held and what failed in each race**, including correct calls that lost (a sound pick brought down or beaten by a faller) and wrong calls that won (one that won despite a real doubt, or for a reason the analysis didn't give).
 5. **Turn each judgement error into a rule** and add it to the relevant step above.
-6. **Update the record.** In `jumps/data/results.js`, for each race set: `finish` for every pick (position, or `F` / `PU` / `UR` / `BD` / `R`); `winner` as `{ horse, sp, agentProb }` (`agentProb` is the probability stated for the winner before the off, or `null` if it wasn't rated); `status: "settled"`, plus `provisional: true` if the result isn't weighed in or the in-running comments aren't published yet; `returned` for every bet; `grade` (`held` / `mixed` / `failed`); `errors` (codes from `errorTypes`, adding a new code there for a new type of error); and a one-line `notes`. Add any data errors to the meeting's `dataErrors`. Append a `## Result` section to each race's write-up. Then open `dashboard.html` to check the figures.
+6. **Update the record.** In `jumps/data/results.js`, for each race set: `finish` and `sp` (starting price) for every pick (finish = position, or `F` / `PU` / `UR` / `BD` / `R`); `winner` as `{ horse, sp, agentProb }` (`agentProb` is the probability stated for the winner before the off, or `null` if it wasn't rated); `status: "settled"`, plus `provisional: true` if the result isn't weighed in or the in-running comments aren't published yet; `grade` (`held` / `mixed` / `failed`); `errors` (codes from `errorTypes`, adding a new code there for a new type of error); and a one-line `notes`. Add any data errors to the meeting's `dataErrors`. Append a `## Result` section to each race's write-up. Then open `dashboard.html` to check the figures.
 
 ### Review 1: Galway, Sunday 25 October 2026 (12:32–15:20)
 
@@ -343,7 +337,7 @@ Winner came from our top two in 3 of 6 races; our 1st pick won once. The Placepo
 - A. Early-career ground runs held against improved horses → Step 4, item 6.
 - B. A recorded jumping doubt overridden by price → Step 14.
 - C. A keen-going top pick in a weak pace → Step 9.
-- D. Dual forecasts in 10+ runner handicaps → Step 15.
+- D. Dual forecasts in 10+ runner handicaps → Step 15. *(Retired 25 Oct 2026: the agent no longer recommends bets.)*
 
 **What held:** class over an unproven-ground question (Chart Topper); dam's racing record as stamina evidence (Ole Ole); refusing odds-on with an unresolved doubt (Light Up The Dark); downgrades of Nine Graces, Mount Frisco, Folly Master and Holly's Thunder. **Correct call that lost:** Crecora Hills (value, market agreed, fell early).
 
@@ -390,7 +384,7 @@ Carried over from the flat playbook, with jumps-specific additions. Pages can on
 | BHA / Weatherbys, Timeform | Official ratings; paid ratings | Partial |
 
 ### Data-gathering routine
-1. **Racecard:** Racing Post race page and Sporting Life racecard; At The Races card for course/distance records, track character and timestamped odds.
+1. **Racecard:** Racing Post race page and Sporting Life racecard; At The Races card for course/distance records and track character. Ignore the odds.
 2. **Run history, weights, jumping:** Sporting Life profile (or Sky Sports); record result link paths for each run.
 3. **Jumping & in-running:** open each key Racing Post result and read the jumping/in-running comment; log any fluency figure.
 4. **Stamina & ground:** build each horse's trip-and-going record from the run list.
@@ -439,7 +433,7 @@ Verification discipline decays as a task lengthens. For any deliverable produced
 - **Importing a draw bias — there isn't one over jumps**
 - **Estimating completions, falls and losing runs instead of counting them**
 - **Holding early-career ground runs against a horse that has since improved** (Galway, 25 Oct 2026)
-- **Letting a big price override a recorded jumping or temperament doubt** (Galway, 25 Oct 2026)
+- **Letting value or a big price override a recorded jumping or temperament doubt** (Galway, 25 Oct 2026)
 - **Rating unraced bumper horses on purchase price, pedigree or booking over raced rivals getting weight** (Galway, 25 Oct 2026)
 
 ## Known strengths
@@ -447,5 +441,4 @@ Verification discipline decays as a task lengthens. For any deliverable produced
 - Spotting well-handicapped, progressive novices and second-season chasers
 - Recognising trainer patterns and seasonal intent
 - Matching horse profile to course character and pace
-- Treating a late market gamble as a risk rather than a ranking input
 - Reading the manner of a non-completion rather than the bare figure
