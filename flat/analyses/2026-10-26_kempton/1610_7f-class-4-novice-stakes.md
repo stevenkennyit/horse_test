@@ -275,3 +275,51 @@ None. Under the picks-only rule the agent doesn't recommend bets, stakes or bet 
 - Racing Post results: /results/394/southwell-aw/2026-10-03/927751; /results/1353/newcastle-aw/2026-09-19/926886; /results/36/newbury/2025-08-28/902245; /results/1079/kempton-aw/2026-08-26/925906, /2026-10-09/928640, /2026-08-05/924252, /2026-09-09/926839; /results/513/wolverhampton-aw/2026-10-05/928615; /results/7/brighton/2026-09-28/927583; /results/393/lingfield-aw/2026-08-27/926034, /2026-08-25/925689; /results/174/newmarket-july/2026-07-17/923184
 - Racing Post profiles: Al Mandoos (9942026), Crack O'Nine (10014272), Imperial Ballet (7865994), Divine Symmetry (9849979)
 - Sporting Life API: racecards by date and race results for all 946 Kempton races, 25 Oct 2024 – 24 Oct 2026 (92 at 7f novice/maiden); trainer profiles 199 (bin Suroor), 434 (Palmer), 3209 (Balding); Market Rasen result 926045
+
+## Update 17:50 (Sun 25 Oct): full audit, picks confirmed
+
+Every claim above was re-checked at source: Sporting Life card (re-fetched 17:42: 9 runners, no deductions or stewards' notes, no tips article, no previous running of the race), all saved Sporting Life result pages and profiles, and the three Racing Post results the ranking rests on (Southwell 927751, Newcastle 926886, Wolverhampton 928615, re-opened 17:45; every figure matched). The course statistics were recomputed under one consistent filter.
+
+### Data errors found and corrected (my own; the sources were right)
+
+| # | Where | Said | Correct |
+|---|---|---|---|
+| 1 | Update 17:35, Talking Bear yardstick (and my chat reply) | Divine Symmetry "beat him by 4L (≈ 8lb)", so "about 1lb better" | Talking Bear was 4L behind the **winner**; Divine Symmetry was a nk behind, so **≈ 3¾L (≈ 7.5lb)**. Net: Divine Symmetry about **½lb** better at today's weights. Still level |
+| 2 | Original, rating route | Imperial Ballet "ran to about 80" (via Hozam's OR 79) | Racing Post rated Hozam and Imperial Ballet both **72** that day: Hozam ran 7lb below his mark. Using his OR overstated her run; the Racing Post figure (72) governs |
+| 3 | Original and 17:35, Grow Old With Me | "carried 3lb more" (implying an edge for Divine Symmetry) | The 3lb was the race's weight-for-age allowance, so they met on **level terms**. Racing Post: Divine Symmetry 75, Grow Old With Me 74. Frank unchanged |
+| 4 | 17:35, pace map | "none of the 7 raced horses has led in any run … all 15 comments" | **13** comments (counted). Imperial Ballet **did lead, 2f out**, when winning at Newbury. Correct claim: none has **made the running or led early** |
+| 5 | 17:35, course stats | "A spot check of 30 classifications found them correct" | That check was on the first, cruder labels. Re-done on the refined labels (30 sampled): 1 clear error ("held up in mid-division" labelled rear), 2 borderline, and the unclassified group holds some prominent runners. The lead/prominent v mid/rear contrast stands |
+| 6 | 17:35, 3yo+ column | Draw figures from a 39-race filter | Recomputed on the stated 40 races: stalls 1–3 11/111 (9.9%), 4–6 15/107 (14.0%), 7–9 12/97 (12.4%), 10+ 2/72 (2.8%); widest stall **6/40 (fair share 4.9)**. Newcomers 4/61 unchanged. Conclusion unchanged: stall 9 is no handicap here |
+| 7 | Original grid, Virtue King | Weight "level" | 9-4 → 9-5, **+1lb** |
+| 8 | Original grid, Irish Spring | C/D "–" | One run at about 7f: Brighton 6f210y, 4th of 4, beaten 18¾L |
+| 9 | Original, Step 2 flags | Layoffs not flagged | **Divine Symmetry 37 days** and **Anncanya 62 days** off (over 30); Imperial Ballet 23 days, now second run after a 13-month break. Not a doubt for Divine Symmetry at 37 days, but it should have been flagged |
+| 10 | 17:35, connections | Havlin and Hutchinson newcomers "–" | Havlin 10–2, Hutchinson 8–1 (Kempton, approx.) |
+| 11 | Original | Weffaag and Cloud Forest headgear not noted | Weffaag "w1t" at Newcastle (first run after a wind operation, tongue tie); Cloud Forest first-time cheekpieces at Southwell. Context only |
+
+Not previously recorded: **Timeform** (via the Sporting Life card) gives Divine Symmetry 5 stars, Imperial Ballet 4, Al Mandoos 3, and orders them 1-2-3. That's third-party opinion, used last and not in the ranking. Divine Symmetry is a **late foal (30 Apr 2023)**; Imperial Ballet 27 Mar.
+
+### Selections, re-derived from the corrected data
+
+| Evidence (all verified at source) | Divine Symmetry | Imperial Ballet | Edge |
+|---|---|---|---|
+| Margin over Talking Bear, at today's weights | +3¾L at level weights ≈ 7.5lb | +3½L giving 2lb ≈ 9lb, less the 2lb she gives today ≈ 7lb | Level (½lb, DS) |
+| Topspeed over Talking Bear in the same race | +10 (21 v 11) | +11 (44 v 33) | Level |
+| Racing Post figure, last run | 75 at 9-7 → 77 at today's weights | 72 at 9-7 | DS +5 |
+| Best figure / mark | 75 (one run) | about 80 at two (column ambiguous); OR 83 | IB upside if she returns to 2yo form |
+| Frank | Grow Old With Me RPR 88 next time; Weffaag flopped | None found (Southwell principals unraced since) | DS |
+| Pace (course: lead 31%, prominent 16%, mid 2%, held up 5% in 3yo+ races) | Held up and keen on his only run | Tracked leaders once (Newbury), mid-division once | IB |
+| Second-run improvement | Debut to second run | Second run after 13 months; faded late last time | Both expected |
+| Draw | Stall 1 | Stall 9: neutral on course data | None |
+
+Strongest case against each, unchanged after the corrections: **Divine Symmetry** has never shown he can win a strongly run race, and was held up in a slowly run one (6.32s slow), which is the profile the course punishes. **Imperial Ballet** has run to 72 since her break, below her 77-equivalent rival, and faded late at 7f.
+
+**Picks confirmed, unchanged:**
+
+| Rank | Horse | Win prob | Fair price | Confidence |
+|---|---|---|---|---|
+| 1 | Divine Symmetry | 38% | 13/8 | Low |
+| 2 | Imperial Ballet | 37% | 17/10 | Low |
+| 3 | Al Mandoos | 10% | 9/1 | Low |
+| Danger | Virtue King | 5% | 19/1 | Low |
+
+The corrections cut both ways and roughly cancel: error 2 weakens Imperial Ballet's rating case, while errors 1 and 3 weaken Divine Symmetry's yardstick and frank edges. None changes a ranking input by more than about 1lb net. The order still rests on Divine Symmetry's figures and frank against Imperial Ballet's pace profile: a one-point call.
