@@ -323,3 +323,59 @@ Strongest case against each, unchanged after the corrections: **Divine Symmetry*
 | Danger | Virtue King | 5% | 19/1 | Low |
 
 The corrections cut both ways and roughly cancel: error 2 weakens Imperial Ballet's rating case, while errors 1 and 3 weaken Divine Symmetry's yardstick and frank edges. None changes a ranking input by more than about 1lb net. The order still rests on Divine Symmetry's figures and frank against Imperial Ballet's pace profile: a one-point call.
+
+## Update 18:06 (Sun 25 Oct, about 22 hours before the off): remaining gaps filled
+
+**Non-runners and going checked 18:05 GMT:** all 9 declared (Sporting Life card, 17:42); going **Standard to Slow** on the Sporting Life going page's 26 Oct row (Kempton, Polytrack), matching Racing Post.
+
+### 1. Pace: re-tested on what is known before the race (corrects the 17:35 framing)
+
+The 17:35 figures (held-up horses win about 5%) classed each runner by how it ran **in** that race, which is only known afterwards and is partly a result of ability. The fair test classes each runner by how it ran **last time**. I fetched full Sporting Life careers for all 874 horses in the 92 races (0 failures):
+
+| Style last time | All 92 races | 3yo+ races (40) |
+|---|---|---|
+| Prominent | 31/148 (20.9%) | 15/82 (18.3%) |
+| Led | 5/40 (12.5%) | 3/28 (10.7%) |
+| Mid-division | 9/104 (8.7%) | 6/54 (11.1%) |
+| Held up / rear | 20/198 (10.1%) | 7/89 (7.9%) |
+| Runners 2nd on their only previous run and held up that day | 3/9 won | 0/4 won |
+
+- **The doubt over Divine Symmetry is real but about half as strong as stated at 17:35.** Horses held up last time win about 8–10%, against 18–21% for those prominent last time. Imperial Ballet was mid-division last time (11%) and prominent at Newbury.
+- The "2nd on only run" samples are too small to use (4–9 runners).
+- "Held-up horses win about 1 time in 20" in the 17:35 and 17:50 sections is therefore withdrawn as a claim about Divine Symmetry's chance.
+
+### 2. Newcomers: exact counts (replace the approximate ones)
+
+| Experience | All 92 races | 3yo+ races |
+|---|---|---|
+| Newcomer | 22/380 (5.8%) | **5/108 (4.6%)** |
+| 1 run | 33/263 (12.5%) | 10/121 (8.3%) |
+| 2–3 runs | 32/242 (13.2%) | 20/134 (14.9%) |
+| 4+ runs | 5/31 (16.1%) | 5/24 (20.8%) |
+
+This supports Al Mandoos at 10% only because of who trains him, and bin Suroor's newcomers are 0 from 11 this season. Crack O'Nine (3%) is in line with the 4.6% base rate.
+
+### 3. Racing Post rating columns resolved
+
+Racing Post rows run OR, TS, RPR, MR; the earlier fetches had misaligned the summary block. Raw rows read at 18:10:
+- **Imperial Ballet, Newbury 2025: RPR 80, TS 47 (verified).** Khafar 68/36. At today's weights her best (80) would beat Divine Symmetry's best (75 + 2lb = 77) by 3; her latest (72) is 5 behind.
+- Virtue King, Kempton 5 Aug: RPR 36, TS 24; winner Najidi Storm RPR 99.
+- Anncanya, Lingfield 25 Aug: RPR 44, TS 14.
+
+### 4. Not found
+- Published pace map, At The Races draw label, Smart Stats: At The Races 403 on desktop, mobile and the Smart Stats endpoint; Racing TV and Sky Sports return no card data; Timeform 403.
+- Stable comments on how Divine Symmetry will be ridden: none found.
+- Produce records of the dams Heavens Open (Divine Symmetry) and Osipova (Imperial Ballet): none found.
+
+### Picks after this update
+
+| Rank | Horse | Win prob | Fair price | Confidence | Change |
+|---|---|---|---|---|---|
+| 1 | **Divine Symmetry** | 39% | 8/5 | Low | Up 1 point: the pace doubt is smaller than stated |
+| 2 | **Imperial Ballet** | 36% | 7/4 | Low | Down 1 point. Her 80 is now verified, but was already counted as "about 80" |
+| 3 | Al Mandoos | 10% | 9/1 | Low | Unchanged |
+| Danger | Virtue King | 5% | 19/1 | Low | Unchanged |
+
+Rest unchanged: Crack O'Nine 3%, Anncanya 3%, Secret Message 2%, Irish Spring 1%, Heart Throb 1% (total 100%).
+
+**What would change it:** a non-runner among the top two; or a going change, though Polytrack rarely changes. The ranking is still a near coin-flip. Imperial Ballet wins it if she gets back to her 2yo figure (80); Divine Symmetry wins it if he repeats his debut (75) with normal second-run improvement and isn't stuck at the back in a slow pace.
