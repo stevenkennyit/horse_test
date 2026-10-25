@@ -1,0 +1,9 @@
+# OS and editor clutter
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+~$*
+
+# Local Claude Code settings (per machine)
+.claude/settings.local.json
