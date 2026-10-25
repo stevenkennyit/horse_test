@@ -83,7 +83,7 @@ Today's weights: Imperial Ballet 9-7 gives Divine Symmetry 2lb (9-5).
 
 ## Times
 
-- Kempton 7f standard 1m24.20s (playbook). Southwell 7f14y 1m24.90s; Newcastle 7f14y 1m24.00s.
+- Standard times: Kempton 7f 1m24.20s and Newcastle 7f14y 1m24.00s (playbook); Southwell 7f14y 1m24.90s (derived from Racing Post results on 24 Oct 2026, since removed from the playbook).
 - Southwell 3 Oct: 1m27.01s = 2.11s slow; Imperial Ballet ~+0.85s → **~3.0s slow**.
 - Newcastle 19 Sep: 1m30.32s = 6.32s slow, a 6-runner race with several keen horses; **slowly run, time uninformative** for Divine Symmetry.
 - Talking Bear at Kempton 7f (26 Aug): Kaindy 1m27.29s = 3.09s slow (Standard/Slow).
