@@ -21,7 +21,8 @@
     A: "Early-career ground runs held against an improved horse",
     B: "Recorded jumping doubt overridden by price",
     C: "Keen-goer made top pick in a weak pace",
-    D: "Forecasts in a 10+ runner handicap"
+    D: "Forecasts in a 10+ runner handicap",
+    E: "Unraced newcomer rated above raced rivals on price, pedigree or booking"
   },
   meetings: [
     {
@@ -36,7 +37,9 @@
         "Sporting Life last_ran_days field unreliable; gaps recomputed from full profiles",
         "Result-page previous_results truncated; made horses look like debutants",
         "Heavy-ground filter matched 'Soft in places' inside yielding descriptions",
-        "Racing Post profile row (2024 hurdle fall) not in Sporting Life record; discarded"
+        "Racing Post profile row (2024 hurdle fall) not in Sporting Life record; discarded",
+        "16:30: first analysis missed the 7lb claims for four raced fillies (Racing Post card weights are before claims); caught and revised at 16:22",
+        "15:56: Bulgaden Castle logged as 'U/P' (unplaced) from the provisional result; official finish 5th"
       ],
       races: [
         {
@@ -134,32 +137,32 @@
         },
         {
           time: "15:56", name: "Glenlo Abbey Hotel & Estate Maiden Hurdle", type: "hurdle", distance: "2m5f100y",
-          going: "Soft", runners: 12, source: "full", status: "settled", provisional: true,
+          going: "Soft", runners: 12, source: "full", status: "settled",
           picks: [
-            { rank: 1, horse: "Bulgaden Castle", prob: 0.45, price: "5/6", finish: "U/P" },
+            { rank: 1, horse: "Bulgaden Castle", prob: 0.45, price: "5/6", finish: "5" },
             { rank: 2, horse: "Doctor Elvis", prob: 0.25, price: "7/2", finish: "2" }
           ],
           winner: { horse: "Always Scoring", sp: "25/1", agentProb: null },
           grade: "mixed", errors: [],
-          notes: "Refusing Bulgaden Castle at odds-on held (trainer's 150+ day returners 0/60; unplaced at Evens). Winner Always Scoring (25/1) was dismissed. Result taken before in-running comments were published.",
+          notes: "Refusing Bulgaden Castle at odds-on held: 5th of 10 finishers at Evens, keen early, mistake at the last, no extra (trainer's 150+ day returners 0/60). Doctor Elvis led, rallied, beaten 1 3/4L. Winner Always Scoring (25/1) stayed on from the rear stepping up in trip; dismissed, not rated.",
           bets: [
             { bet: "Doctor Elvis win @ 7/2", stake: 0.5, returned: 0 }
           ]
         },
         {
           time: "16:30", name: "Tom Dempsey Flooring 4yo Fillies Pro/Am Flat Race", type: "bumper", distance: "2m11y",
-          going: "Soft", runners: 6, source: "full", status: "pending",
+          going: "Soft", runners: 6, source: "full", status: "settled", provisional: true,
           picks: [
-            { rank: 1, horse: "Moscovite", prob: 0.40, price: "11/10", finish: "-" },
-            { rank: 2, horse: "Va La Vie", prob: 0.22, price: "10/3", finish: "-" },
-            { rank: 3, horse: "Mozart's Song", prob: 0.14, price: "8/1", finish: "-" }
+            { rank: 1, horse: "Moscovite", prob: 0.40, price: "11/10", finish: "6" },
+            { rank: 2, horse: "Va La Vie", prob: 0.22, price: "10/3", finish: "2" },
+            { rank: 3, horse: "Mozart's Song", prob: 0.14, price: "8/1", finish: "3" }
           ],
-          winner: null,
-          grade: "pending", errors: [],
-          notes: "Revised 16:22 after challenge: missed that four raced/claiming-ridden fillies get 7lb from Moscovite and Va La Vie; Mozart's Song's run was not C&D (2m160y vs 2m11y). Three unraced fillies; low confidence.",
+          winner: { horse: "Bluebell Breeze", sp: "13/2", agentProb: null },
+          grade: "failed", errors: ["E"],
+          notes: "Unraced Moscovite (EUR260k, 40%) beaten 21L in last at 4/6; unraced Va La Vie 2nd, beaten 3L. Winner Bluebell Breeze was one of the raced fillies getting 7lb from both (claim missed until the 16:22 revision); raced 7lb-claimers filled 1st, 3rd, 4th and 5th. In-running comments not yet published.",
           bets: [
-            { bet: "Va La Vie win (only at 3/1+) — withdrawn at 16:22, now below revised fair price", stake: 0, returned: null },
-            { bet: "Mozart's Song each-way @ 8/1 (0.25pt e/w, 2 places at 1/4)", stake: 0.5, returned: null }
+            { bet: "Va La Vie win (only at 3/1+) — withdrawn at 16:22, now below revised fair price", stake: 0, returned: 0 },
+            { bet: "Mozart's Song each-way @ 8/1 (0.25pt e/w, 2 places at 1/4)", stake: 0.5, returned: 0 }
           ]
         }
       ]
