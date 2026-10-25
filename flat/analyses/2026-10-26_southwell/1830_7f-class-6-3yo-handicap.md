@@ -255,3 +255,91 @@ Course trainer and jockey strike rates were not pulled (At The Races Smart Stats
 - Sporting Life racecard: https://www.sportinglife.com/racing/racecards/2026-10-26/southwell/racecard/945384/x
 - Racing Post racecard: https://www.racingpost.com/racecards/394/southwell-aw/2026-10-26/929601
 - Sporting Life result pages for every run in the tables (https://www.sportinglife.com/racing/results/<date>/x/<race id>/x), race ids 943176, 940407, 931227, 926601, 922376, 916521, 943589, 928277, 924685, 921193, 926845, 922198, 918717, 913897, 943588, 940740, 929071, 922217, 916245, 892907, 921189, 917613, 880461, 876767, 874907, 872930, 940584, 938101, 934632, 932244, 928869, 902076, 941792, 939387, 929696, 926093, 922200, 919445, 942990, 941141, 938576, 902513, 899214, 896265, 921746, 919972, 913257, 891832, 888532, 886755, 934976, 930176, 923197, 917503, 913900, 888198, 938811, 933401, 927649, 926062, 923005, 928738, 923800, 919796, 915587, 913273, 900741
+
+## Update 20:26 (20:26 Sun 25 Oct)
+
+Data gaps filled. Picks and probabilities below replace the ones above; the original analysis is kept unchanged above.
+
+**Re-checked at 20:26 Sun 25 Oct:** no non-runners (Racing Post card, all 12 declared still listed; Sporting Life shows 12 runners); going Standard (Sporting Life meeting summary).
+
+### What changed
+
+Re-ranked. Southwell 7f draw is neutral on the larger sample (211 races with 8+ runners: low third 10.7%, mid 9.7%, high 9.3% winners), so the small mark against the high-drawn picks is removed. Sonbelievable up from 18% to 20%: his C&D 3rd is franked (the winner Distillate has won since). Able Astra up to 2nd (12% to 13%; Clive Cox runners place 60% of the time here). Leia Antilles drops to 3rd (14% to 12%): Henry Candy is 0 from 10 and Nicola Currie 1 from 32 at Southwell, and her Kempton form has no frank found. Demetris Mouflon up to 8% (her Leicester 2nd is franked by the winner and 3rd); Neat And Tidy down to 9%, Twilight Dawn down to 5% (trainer 0 from 18 here).
+
+### Revised picks
+
+| Rank | Horse | Win chance | Fair price | Confidence | Key reason | Strongest case against |
+|---|---|---|---|---|---|---|
+| 1 | Sonbelievable | 20% | 4/1 (5.00) | low | C&D 3rd beaten 1.25L on his handicap debut, franked by the winner, 1lb lower now, and quicker than Able Astra's division carrying more weight. | That race was run 3s slow of the course median and he has only 4 runs. |
+| 2 | Able Astra | 13% | 13/2 (7.69) | low | C&D 3rd beaten 2.75L 11 days ago, 1lb lower now; Cox runners place 60% of the time at Southwell. | Slower than Sonbelievable on the same night; 0 wins from 6; no frank found. |
+| 3 | Leia Antilles | 12% | 15/2 (8.33) | low | Kempton 7f 2nd beaten 2L off 45, a better time figure than either C&D 3rd, and only 1lb higher. | Trainer 0 from 10 and rider 1 from 32 at Southwell; 0 wins from 9; no frank found. |
+
+Rest of the field: Thestral 11%, Neat And Tidy 9%, Demetris Mouflon 8%, Twilight Dawn 5%, Whazzimo 5%, Mariselle 5%, Savvi Row 5%, Yesnia 4%, Honey Dale 3%. Total about 100%.
+
+### Draw and pace at Southwell 7f (larger sample)
+
+Sporting Life result pages for every Southwell AW race between 2024-10-28 and 2026-10-24 (1134 races, all read this session). Races with 8+ runners at this trip: 211.
+
+| Draw third | Win rate |
+|---|---|
+| Low | 10.7% (68/638) |
+| Middle | 9.7% (68/704) |
+| High | 9.3% (76/816) |
+
+| Position in the race (from the in-running comment) | Win rate |
+|---|---|
+| Led | 17.3% (46/266) |
+| Prominent | 10.4% (50/483) |
+| Midfield | 8.9% (54/607) |
+| Held up / rear | 7.7% (62/802) |
+
+The draw is neutral: the thirds differ by no more than about 3 percentage points. The pace split uses where each horse raced in that race, so it partly reflects which horse was best on the day; read it as "front-runners are not disadvantaged here" rather than as a clean bias. **Verified** (own count).
+
+### Connections: Southwell AW record, 2024-10-28 to 2026-10-24 (own count from the same result pages)
+
+| Horse | Trainer | Trainer record | Jockey | Jockey record |
+|---|---|---|---|---|
+| Thestral | A W Carroll | 20/202 (10%), placed 34% | Marco Ghiani | 18/151 (12%), placed 38% |
+| Sonbelievable | J Parr | 6/45 (13%), placed 29% | Tom Marquand | 4/51 (8%), placed 37% |
+| Whazzimo | R M H Cowell | 8/54 (15%), placed 41% | Jonny Peate | 4/91 (4%), placed 19% |
+| Able Astra | C G Cox | 5/42 (12%), placed 60% | Callum Rodriguez | 15/104 (14%), placed 52% |
+| Demetris Mouflon | B R Millman | 2/38 (5%), placed 21% | Jason Watson | 21/126 (17%), placed 41% |
+| Neat And Tidy | D Wingrove | 0/5 (0%), placed 0% | Charlie Tucker | 0/7 (0%), placed 43% |
+| Leia Antilles | H Candy | 0/10 (0%), placed 10% | Nicola Currie | 1/32 (3%), placed 19% |
+| Savvi Row | B R Millman | 2/38 (5%), placed 21% | George Wood | 13/122 (11%), placed 33% |
+| Yesnia | D Carroll | 13/85 (15%), placed 32% | Zak Wheatley | 10/95 (11%), placed 27% |
+| Twilight Dawn | S Whitaker | 0/18 (0%), placed 0% | J Mitchell | 22/148 (15%), placed 43% |
+| Mariselle | Adam Kirby | 3/20 (15%), placed 35% | Taryn Langley | 1/49 (2%), placed 24% |
+| Honey Dale | Charlie Clover | 5/23 (22%), placed 43% | Billy Loughnane | 31/200 (16%), placed 49% |
+
+These are course records only, without odds, so they don't adjust for how fancied each runner was. They are used as tiebreakers, not as primary evidence (Step 10).
+
+### Franks: key run and last run for every raced runner
+
+For each run, the first three home (other than the runner) were looked up on their Sporting Life profiles and every run since was read. "Franked" = one of them has won since.
+
+| Horse | Run | Date / course | Pos | Verdict | What the first three have done since (pos/ran, class) |
+|---|---|---|---|---|---|
+| Thestral | key | 2026-06-15 Wetherby 1m | 3/13 | franked: Celtic Chariot (4th) has won since | 1. Thornaby Annie: 6/18 C6, 8/10 C5, 6/13 C5, 7/7 C5, 2/8 C5, 7/8 C5; 2. Inferno: 3/7 C6; 4. Celtic Chariot: 7/10 C5, 6/11 C5, 10/13 C5, 6/7 C5, 1/4 C5, 1/7 C6 |
+| Thestral | last | 2026-10-13 Wolverhampton 1m 142y | 7/10 | partly franked: Palliser placed since; no winner since | 1. Coxy's Star: not run since; 2. Palliser: 2/10 C6; 3. Meritocratic: not run since |
+| Sonbelievable | key and last | 2026-10-15 Southwell 7f 14y | 3/11 | franked: Distillate (winner) has won since | 1. Distillate: 1/9 C6; 2. Based: not run since; 4. Mickey Mongoose: not run since |
+| Whazzimo | key | 2026-04-25 Southwell 6f 16y | 5/13 | franked: Luna Celeste (2nd) has won since; Sandy Craic (3rd) has won since | 1. Zarinca: 4/13 C6, 6/7 C4, 7/11 C5, 4/11 C5, 5/7 C5, 6/8 C5; 2. Luna Celeste: 3/5 C3, 3/10 C2, 1/5 C3, 1/5 C4, 2/6 C4, 1/10 C5; 3. Sandy Craic: 1/12 C5, 2/12 C5, 3/5 C4, 5/10 C5, 3/6 C5, 2/7 C5, 2/9 C5, 1/10 C5, 5/10 C5, 5/20 C4, 2/11 C5 |
+| Whazzimo | last | 2026-07-06 Lingfield 1m 1y | 9/10 | franked: Fallacious Promise (winner) has won since; Henfield (2nd) has won since | 1. Fallacious Promise: 6/7 C4, 1/6 C6, 1/14 C5, 2/13 C6; 2. Henfield: 13/13 C6, 5/13 C6, 2/9 C6, 4/7 C6, 1/9 C6; 3. Athenian Spirit: 9/10 C6, 7/10 C6 |
+| Able Astra | key and last | 2026-10-15 Southwell 7f 14y | 3/13 | no frank found (none of the first three has run since) | 1. Midnight's Dream: not run since; 2. Little Beck Annie: not run since; 4. Barry The Worm: not run since |
+| Demetris Mouflon | key and last | 2026-06-08 Leicester 7f | 2/13 | franked: Shes Got The Blues (winner) has won since; Shark Two One (3rd) has won since | 1. Shes Got The Blues: 3/12 C5, 1/10 C6, 3/11 C6, 1/9 C6, 3/6 C6, 3/5 C6, 1/10 C6; 3. Shark Two One: 7/10 C6, 1/14 C6, 6/9 C6; 4. Bungle Bay: 8/11 C6, 3/9 C6 |
+| Neat And Tidy | key | 2026-08-10 Windsor 1m 31y | 5/10 | partly franked: My Old Mate placed since; Torbados placed since; Creciente placed since; no winner since | 1. My Old Mate: 2/10 C5, 2/5 C5, 3/7 C6; 2. Torbados: 3/11 C6, 2/12 C6, 4/6 C6; 3. Creciente: 3/10 C6, 8/9 C6 |
+| Neat And Tidy | last | 2026-09-28 Wolverhampton 7f 36y | 7/11 | not franked: 2 of the first three ran since without placing | 1. Aspire To Glory: 9/9 C6, 6/9 C6; 2. Sanditon: 7/9 C6; 3. Tilsworth Max: not run since |
+| Leia Antilles | key and last | 2026-10-05 Kempton 7f | 2/10 | no frank found (none of the first three has run since) | 1. Ridger: not run since; 3. Creciente: not run since; 3. Poetic Grace: not run since |
+| Savvi Row | key and last | 2026-10-12 Kempton 6f | 5/7 | no frank found (none of the first three has run since) | 1. One Of The Boys: not run since; 2. Amorist: not run since; 3. Oceti: not run since |
+| Yesnia | key | 2025-11-07 Dundalk 7f | 8/12 | franked: Prevalence (winner) has won since; Liberation Date (3rd) has won since | 1. Prevalence: 1/12, 12/12 C1, 1/20, 10/12, 3/12; 2. Astronomically: 2/8, 7/10, 5/8, 2/14, 2/13, 2/14; 3. Liberation Date: 1/12, 6/9, 3/16, 8/20, 6/12, 9/9, 1/12 |
+| Yesnia | last | 2026-06-11 Nottingham 6f 18y | 8/9 | franked: Rambuso Creek (winner) has won since | 1. Rambuso Creek: 7/9 C6, 1/9 C6, 4/14 C6, 5/9 C6; 2. Timebar: 8/13 C6, 7/13 C6, 2/13 C6; 3. She's A Goldigger: 8/10 C6, 7/11 C6, 10/13 C6 |
+| Twilight Dawn | key | 2026-06-19 Redcar 7f | 3/10 | franked: Only Dream Big (winner) has won since | 1. Only Dream Big: 6/10 C6, 7/10 C5, 2/10 C5, 5/8 C6, 3/7 C6, 6/7 C5, 5/11 C4, 5/6 C5, 1/7 C6; 2. Hey Havana: 8/9 C6, 11/12 C6, 8/9 C5, 3/9 C6, 4/9 C6, 2/7 C6, 5/10 C6; 4. Secret Testimony: 15/15 C6, 6/8 C6 |
+| Twilight Dawn | last | 2026-08-26 Catterick 7f 6y | 10/13 | partly franked: Lanarra placed since; Ridgemaster placed since; no winner since | 1. Lanarra: 2/8 C6, 2/12 C6, 3/12 C6; 2. Ridgemaster: 10/12 C6, 2/16 C6; 3. Without Delay: 5/10 C6 |
+| Mariselle | key | 2026-06-18 Lingfield 6f | 4/8 | franked: Rumble Ruby (winner) has won since | 1. Rumble Ruby: 9/10 C5, 7/11 C4, 3/6 C5, 1/10 C5, 4/7 C5; 2. Heddon Street: 13/17, 17/20; 3. Muchacho: 5/8 C4, 4/4 C5 |
+| Mariselle | last | 2026-10-15 Southwell 7f 14y | 7/13 | no frank found (none of the first three has run since) | 1. Midnight's Dream: not run since; 2. Little Beck Annie: not run since; 3. Able Astra: not run since |
+| Honey Dale | key | 2026-05-29 Down Royal 7f | 5/14 | franked: Meriden (winner) has won since; Dervo Annie (2nd) has won since | 1. Meriden: 4/10 C1, 1/11 C1, 7/9 C1, 6/14 C1, 2/9 C1, 1/10 C1, 1/11, 1/12, 1/18; 2. Dervo Annie: 9/14, 10/14, 11/18, 8/19, 7/15, 6/8, 2/18, 5/11, 1/16; 3. Fontaine Khaled: 11/14, 12/19, 5/14, 7/15 |
+| Honey Dale | last | 2026-07-17 Killarney 2m 1f | RUNNER/12 | franked: Minella Buoy (2nd) has won since | 1. Cite Florale: not run since; 2. Minella Buoy: 1/7 C4, 3/11, 10/16, 2/11, 2/13; 3. Private Larry: 6/10 |
+
+### Still unverified
+
+- Prices: not fetched or used (the market is not an input).

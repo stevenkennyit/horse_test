@@ -208,3 +208,84 @@ Course trainer and jockey strike rates were not pulled (At The Races Smart Stats
 - Sporting Life racecard: https://www.sportinglife.com/racing/racecards/2026-10-26/southwell/racecard/945387/x
 - Racing Post racecard: https://www.racingpost.com/racecards/394/southwell-aw/2026-10-26/929600
 - Sporting Life result pages for every run in the tables (https://www.sportinglife.com/racing/results/<date>/x/<race id>/x), race ids 942803, 938289, 936883, 933223, 930239, 922391, 943000, 936923, 929543, 924695, 919787, 914126, 941598, 938998, 936021, 932086, 923455, 917325, 936882, 924399, 922198, 940734, 936669, 920719, 911554, 940752, 936898, 932976, 932621, 929699, 923005, 931645, 925296, 922390, 918085, 913902, 912516, 941969, 939574, 937242, 931819, 924403, 921941, 943171, 939410, 925802, 922979, 915072, 911891
+
+## Update 20:26 (20:26 Sun 25 Oct)
+
+Data gaps filled. Picks and probabilities below replace the ones above; the original analysis is kept unchanged above.
+
+**Re-checked at 20:26 Sun 25 Oct:** no non-runners (Racing Post card, all 9 declared still listed; Sporting Life shows 9 runners); going Standard (Sporting Life meeting summary).
+
+### What changed
+
+Same order. Wording corrected: Horace Wallace's C&D 2nd is **partly franked**, not franked: the winner New Image placed 3rd off 83 next time, having won over C&D the week before. His Wolverhampton win is franked (the 4th has won since). Horace Wallace down from 27% to 26% (Fahey 9% and Egan 7% at Southwell). Overbudget down from 18% to 17%: her latest C&D win is not franked. Riley Rocks up from 10% to 11% (Dylan Cunha 13 from 66, 20%, here). Cosmic Clarets stays at 12%: his Newcastle 2nd is franked (Pivotal Terms and Taaklam have won since), but the Dixon yard is 4% here.
+
+### Revised picks
+
+| Rank | Horse | Win chance | Fair price | Confidence | Key reason | Strongest case against |
+|---|---|---|---|---|---|---|
+| 1 | Horace Wallace | 26% | 11/4 (3.85) | medium | Three AW 6f figures (+8, +15, +16) earned in contention, his Wolverhampton win franked and his C&D 2nd partly franked; only 2lb higher. | Up 9lb since 1 Sep; has not won off a mark above 69; trainer and jockey under 10% at Southwell. |
+| 2 | Overbudget | 17% | 5/1 (5.88) | low | Won both her last two over C&D and carries 8-13 off a 4lb higher mark. | Her winning figures (+5, +13) are below Horace Wallace's, the latest win is not franked, and her earlier turf form was poor. |
+| 3 | Cosmic Clarets | 12% | 15/2 (8.33) | low | Two fast AW 6f figures (+15, +25) earned finishing 2nd, the Newcastle one franked, and a falling mark with 8-10 to carry. | 0 wins from 12 (5 places); the Dixon yard is 4% at Southwell. |
+
+Rest of the field: Riley Rocks 11%, Kinnalargy 9%, Rumble Ruby 8%, Hallandale Beach 7%, Tip Foster 5%, Dark Angel Light 5%. Total about 100%.
+
+### Draw and pace at Southwell 6f (larger sample)
+
+Sporting Life result pages for every Southwell AW race between 2024-10-28 and 2026-10-24 (1134 races, all read this session). Races with 8+ runners at this trip: 181.
+
+| Draw third | Win rate |
+|---|---|
+| Low | 8.4% (47/557) |
+| Middle | 8.9% (54/606) |
+| High | 11.0% (80/727) |
+
+| Position in the race (from the in-running comment) | Win rate |
+|---|---|
+| Led | 16.7% (39/233) |
+| Prominent | 10.8% (47/437) |
+| Midfield | 9.1% (44/484) |
+| Held up / rear | 6.9% (51/736) |
+
+The draw is neutral: the thirds differ by no more than about 3 percentage points. The pace split uses where each horse raced in that race, so it partly reflects which horse was best on the day; read it as "front-runners are not disadvantaged here" rather than as a clean bias. **Verified** (own count).
+
+### Connections: Southwell AW record, 2024-10-28 to 2026-10-24 (own count from the same result pages)
+
+| Horse | Trainer | Trainer record | Jockey | Jockey record |
+|---|---|---|---|---|
+| Riley Rocks | Dylan Cunha | 13/66 (20%), placed 42% | Marco Ghiani | 18/151 (12%), placed 38% |
+| Kinnalargy | D O'Meara | 7/92 (8%), placed 43% | Tom Marquand | 4/51 (8%), placed 37% |
+| Horace Wallace | R A Fahey | 17/181 (9%), placed 32% | J F Egan | 2/27 (7%), placed 19% |
+| Dark Angel Light | Miss J A Camacho | 8/85 (9%), placed 24% | Jason Watson | 21/126 (17%), placed 41% |
+| Tip Foster | T D Barron | 3/30 (10%), placed 40% | Callum Rodriguez | 15/104 (14%), placed 52% |
+| Rumble Ruby | Lemos Souza | 2/29 (7%), placed 21% | George Wood | 13/122 (11%), placed 33% |
+| Hallandale Beach | K P De Foy | 10/54 (19%), placed 48% | Billy Loughnane | 31/200 (16%), placed 49% |
+| Overbudget | M Appleby | 25/233 (11%), placed 34% | A Mullen | 9/56 (16%), placed 27% |
+| Cosmic Clarets | S Dixon | 11/251 (4%), placed 18% | K T O'Neill | 15/214 (7%), placed 31% |
+
+These are course records only, without odds, so they don't adjust for how fancied each runner was. They are used as tiebreakers, not as primary evidence (Step 10).
+
+### Franks: key run and last run for every raced runner
+
+For each run, the first three home (other than the runner) were looked up on their Sporting Life profiles and every run since was read. "Franked" = one of them has won since.
+
+| Horse | Run | Date / course | Pos | Verdict | What the first three have done since (pos/ran, class) |
+|---|---|---|---|---|---|
+| Riley Rocks | key and last | 2026-10-10 Southwell 6f 16y | 1/8 | no frank found (none of the first three has run since) | 2. Eightthreeone: not run since; 3. Jesse Luc: not run since; 4. Cool Doc Boy: not run since |
+| Kinnalargy | key and last | 2026-10-12 Newcastle 6f | 5/12 | not franked: 1 of the first three ran since without placing | 1. Juan Les Pins: not run since; 2. Brazen Idol: 7/13 C5; 3. Wreck It Ryley: not run since |
+| Horace Wallace | key | 2026-09-18 Wolverhampton 6f 20y | 1/10 | franked: Acclaimed Freedom (4th) has won since | 2. Come On Over: 6/9 C4, 2/13 C5; 3. Obsidian Verse: not run since; 4. Acclaimed Freedom: 1/11 C5 |
+| Horace Wallace | last | 2026-10-03 Southwell 6f 16y | 2/13 | partly franked: New Image placed since; no winner since | 1. New Image: 3/9 C4; 3. Kats Bob: 4/11 C5; 4. Lazzar: not run since |
+| Dark Angel Light | key | 2026-06-26 Doncaster 6f 2y | 1/8 | franked: Regional Rock (2nd) has won since | 2. Regional Rock: 1/14 C4, 4/7 C3, 3/13 C3; 3. Sand Sea: not run since; 4. Auradue: 8/11 C6, 7/10 C6 |
+| Dark Angel Light | last | 2026-09-05 Newcastle 6f | 7/7 | not franked: 3 of the first three ran since without placing | 1. Lady Kodiac: 4/9 C4; 2. Ormolulu: 7/12 C5, 9/10 C5, 9/13 C5; 3. Anaisa: 11/12 C4, 4/14 C4 |
+| Tip Foster | key | 2026-06-05 Thirsk 7f | 1/10 | franked: Indefensible (2nd) has won since | 2. Indefensible: 6/9 C4, 2/9 C5, 4/5 C4, 1/9 C5, 3/8 C4, 1/6 C5, 3/4 C4, 3/9 C5, 5/9 C4; 3. Big Shot Veto: not run since; 4. Leelawadee: 11/11 C5, 17/19 C6, 7/7 C6, 2/4 C5 |
+| Tip Foster | last | 2026-09-29 Ayr 7f 50y | 10/10 | franked: Quest For Fun (2nd) has won since; Stanage (3rd) has won since | 1. One Night Thunder: 6/10 C5; 2. Quest For Fun: 1/13 C4, 4/10 C4, 4/20 C4; 3. Stanage: 5/12 C4, 1/10 C5 |
+| Rumble Ruby | key | 2026-08-14 Yarmouth 5f 42y | 3/6 | partly franked: Always Perfect placed since; Zoustar Dreams placed since; no winner since | 1. Always Perfect: 2/9 C5; 2. Creative Queen: 5/6 C4, 6/11 C4; 4. Zoustar Dreams: 5/7 C5, 2/9 C5, 3/10 C5, 6/7 C5 |
+| Rumble Ruby | last | 2026-09-29 Bath 5f 160y | 9/10 | partly franked: Silver Wraith placed since; no winner since | 1. Silver Wraith: 2/8 C5; 2. Control Room: not run since; 3. Distant Rumble: 5/12 C4 |
+| Hallandale Beach | key | 2026-06-27 Chepstow 6f 16y | 1/6 | franked: Ken Brulee (3rd) has won since | 2. Pimentel: 7/8 C6, 3/6 C6; 3. Ken Brulee: 8/9 C6, 10/13 C6, 5/8 C6, 1/8 C6, 6/6 C6; 4. Corniche Girl: not run since |
+| Hallandale Beach | last | 2026-08-06 Chepstow 6f 16y | 3/4 | franked: Eightthreeone (4th) has won since | 1. Red Snapper: 6/7 C5, 2/12 C5; 2. Pull The Rug: 4/6 C5, 4/10 C5, 5/10 C5, 10/12 C5, 4/6 C5; 4. Eightthreeone: 2/8 C6, 1/9 C6, 3/12 C5, 4/7 C5 |
+| Overbudget | key and last | 2026-10-06 Southwell 6f 16y | 1/10 | not franked: 1 of the first three ran since without placing | 2. Black Orchid: 4/7 C4; 3. Fantasy Obsessor: not run since; 4. Keldeo: not run since |
+| Cosmic Clarets | key | 2026-04-13 Newcastle 6f | 2/13 | franked: Pivotal Terms (winner) has won since; Taaklam (3rd) has won since | 1. Pivotal Terms: 1/12 C6, 7/9 C6, 4/13 C6, 10/12 C5, 5/5 C6, 2/6 C6, 6/9 C6, 4/7 C5; 3. Taaklam: 5/10 C5, 7/15 C5, 9/12 C6, 1/12 C6, 6/13 C6, 7/12 C5, 5/5 C6, 2/11 C6; 4. Full Gas: 8/8 C6, 7/10 C6, 2/11 C5 |
+| Cosmic Clarets | last | 2026-10-13 Wolverhampton 7f 36y | 5/6 | no frank found (none of the first three has run since) | 1. Royal County Glory: not run since; 2. Supreme Dancer: not run since; 3. Light The Night Up: not run since |
+
+### Still unverified
+
+- Prices: not fetched or used (the market is not an input).

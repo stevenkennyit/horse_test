@@ -233,3 +233,90 @@ Course trainer and jockey strike rates were not pulled (At The Races Smart Stats
 - Sporting Life racecard: https://www.sportinglife.com/racing/racecards/2026-10-26/southwell/racecard/946102/x
 - Racing Post racecard: https://www.racingpost.com/racecards/394/southwell-aw/2026-10-26/929602
 - Sporting Life result pages for every run in the tables (https://www.sportinglife.com/racing/results/<date>/x/<race id>/x), race ids 940916, 937243, 928074, 926418, 921520, 915371, 945342, 941599, 938420, 937438, 932076, 929514, 914251, 902313, 898996, 896846, 894964, 893872, 941848, 936215, 934977, 933227, 930639, 940742, 939574, 939096, 936021, 934014, 931424, 944221, 941774, 938115, 936214, 933592, 926601, 943588, 933957, 930176, 921746, 917608, 862485, 938423, 936456, 933277, 941970, 927096, 925345, 922379, 920120, 900448, 919462, 918082, 913670, 905256, 883792
+
+## Update 20:26 (20:26 Sun 25 Oct)
+
+Data gaps filled. Picks and probabilities below replace the ones above; the original analysis is kept unchanged above.
+
+**Re-checked at 20:26 Sun 25 Oct:** no non-runners (Racing Post card, all 10 declared still listed; Sporting Life shows 10 runners); going Standard (Sporting Life meeting summary).
+
+### What changed
+
+Small changes, same order. Stash The Cash eased from 21% to 19%: his rider Taryn Langley is 1 from 49 at Southwell AW in two years, and his 28 Apr C&D form is not franked (the two horses that have run since have not placed). Midnight Lir up from 14% to 15%: his key Thirsk run is franked (the winner Sunlit Sea has won since). Bishop's Glory up from 10% to 11%. Leaders win 21.7% of 8+ runner 5f races here against 7.2% for those held up, which suits the front-running Fancy Dancer, Stash The Cash and Tomarlo.
+
+### Revised picks
+
+| Rank | Horse | Win chance | Fair price | Confidence | Key reason | Strongest case against |
+|---|---|---|---|---|---|---|
+| 1 | Stash The Cash | 19% | 9/2 (5.26) | low | Best C&D record (2 close 2nds in 4 runs, figures -5/-6 at about today's weight), beat Bishop's Glory over C&D and is now 2lb better off; races up with the pace, which wins most often here. | 181 days off, new yard, and his rider is 1 from 49 at Southwell; his April C&D form is not franked. |
+| 2 | Fancy Dancer | 18% | 9/2 (5.56) | low | Three 2nds at 5f in her last 6, races prominently, and a 5lb claim makes her 12lb better off with Tomarlo than when 4L behind him. | Beaten 8.75L last time; neither of her key runs is franked; trainer 0 from 8 at Southwell; first-time blinkers. |
+| 3 | Midnight Lir | 15% | 11/2 (6.67) | low | C&D 6th beaten 2.25L when denied a clear run, his key Thirsk run is franked, and his mark has fallen to 54. | No place in his last 6, 2 wins from 37, and his rider is 0 from 15 at Southwell. |
+| Danger | Tomarlo | 13% | 13/2 (7.69) | low | Made all at Wolverhampton in July; the winner of his last race has won again; first-time cheekpieces. | Beaten 5.65L off this mark over C&D last time; trainer 4 from 54 and rider 0 from 19 at Southwell. |
+
+Rest of the field: Bishop's Glory 11%, Timebar 7%, Mister Moet 5%, Beautiful Rumour 5%, Ten Cuidado 4%, Lil Wade 3%. Total about 100%.
+
+### Draw and pace at Southwell 5f (larger sample)
+
+Sporting Life result pages for every Southwell AW race between 2024-10-28 and 2026-10-24 (1134 races, all read this session). Races with 8+ runners at this trip: 104.
+
+| Draw third | Win rate |
+|---|---|
+| Low | 11.7% (36/307) |
+| Middle | 8.3% (28/337) |
+| High | 10.4% (41/395) |
+
+| Position in the race (from the in-running comment) | Win rate |
+|---|---|
+| Led | 21.7% (30/138) |
+| Prominent | 10.9% (31/284) |
+| Midfield | 6.9% (13/188) |
+| Held up / rear | 7.2% (31/429) |
+
+The draw is neutral: the thirds differ by no more than about 3 percentage points. The pace split uses where each horse raced in that race, so it partly reflects which horse was best on the day; read it as "front-runners are not disadvantaged here" rather than as a clean bias. **Verified** (own count).
+
+### Connections: Southwell AW record, 2024-10-28 to 2026-10-24 (own count from the same result pages)
+
+| Horse | Trainer | Trainer record | Jockey | Jockey record |
+|---|---|---|---|---|
+| Tomarlo | J Candlish | 4/54 (7%), placed 22% | Luke Catton | 0/19 (0%), placed 37% |
+| Midnight Lir | M Dods | 13/87 (15%), placed 31% | Rhys Elliott | 0/15 (0%), placed 13% |
+| Stash The Cash | Adam Kirby | 3/20 (15%), placed 35% | Taryn Langley | 1/49 (2%), placed 24% |
+| Fancy Dancer | Hayley Burton | 0/8 (0%), placed 0% | Donagh Murphy | 2/16 (13%), placed 31% |
+| Mister Moet | S Dixon | 11/251 (4%), placed 18% | Mikkel Mortensen | 0/27 (0%), placed 19% |
+| Ten Cuidado | M D I Usher | 4/40 (10%), placed 23% | Rose Dawes | 3/15 (20%), placed 33% |
+| Timebar | S R Bowring | 3/60 (5%), placed 23% | Laura Coughlan | 1/15 (7%), placed 33% |
+| Beautiful Rumour | S Dixon | 11/251 (4%), placed 18% | Christian Howarth | 0/27 (0%), placed 11% |
+| Bishop's Glory | Joey Ramsden | 2/73 (3%), placed 32% | Alex Jary | 3/74 (4%), placed 16% |
+| Lil Wade | S Dixon | 11/251 (4%), placed 18% | Charlie Tucker | 0/7 (0%), placed 43% |
+
+These are course records only, without odds, so they don't adjust for how fancied each runner was. They are used as tiebreakers, not as primary evidence (Step 10).
+
+### Franks: key run and last run for every raced runner
+
+For each run, the first three home (other than the runner) were looked up on their Sporting Life profiles and every run since was read. "Franked" = one of them has won since.
+
+| Horse | Run | Date / course | Pos | Verdict | What the first three have done since (pos/ran, class) |
+|---|---|---|---|---|---|
+| Tomarlo | key | 2026-05-05 Wolverhampton 5f 21y | 4/8 | franked: Trust Sergei (2nd) has won since | 1. Black Cab: 8/11 C6, 5/10 C6; 2. Trust Sergei: 9/11 C6, 5/10 C6, 1/12 C6, 2/11 C5, 4/9 C5, 9/11 C6, 3/10 C5, 1/12 C6; 3. Vault Of Heaven: null/13 C6 |
+| Tomarlo | last | 2026-09-26 Southwell 4f 214y | 6/9 | franked: Mimime (winner) has won since | 1. Mimime: 1/11 C6; 2. Let's Go Hugo: not run since; 3. Hellcat: 8/11 C6 |
+| Midnight Lir | key | 2026-07-24 Thirsk 5f | 4/9 | franked: Sunlit Sea (winner) has won since | 1. Sunlit Sea: 3/6 C5, 1/7 C5, 3/9 C5, 2/6 C5; 2. So Grateful: 7/7 C6, 4/11 C6, 8/10 C6, 2/7 C6; 3. Irish Dancer: 7/11 C5 |
+| Midnight Lir | last | 2026-10-22 Southwell 4f 215y | 6/11 | no frank found (none of the first three has run since) | 1. Mimime: not run since; 2. Fletcher's Flight: not run since; 3. One For Harvey: not run since |
+| Stash The Cash | key and last | 2026-04-28 Southwell 4f 214y | 2/8 | not franked: 2 of the first three ran since without placing | 1. Man On A Mission: 7/10 C5, 9/11 C6; 3. Nad Alshiba Snow: 9/14 C6, 5/8 C6, 4/6 C6, 5/8 C6, 5/7 C6, 10/11 C6, 5/13 C6; 4. The Carligation: not run since |
+| Fancy Dancer | key | 2026-09-02 Bath 5f 10y | 2/8 | not franked: 2 of the first three ran since without placing | 1. Recon Mission: 14/14 C6, 6/13 C6; 3. Symbol of Hope: 8/13 C6; 4. Coolagh Magic: not run since |
+| Fancy Dancer | last | 2026-10-02 Wolverhampton 5f 21y | 9/11 | not franked: 2 of the first three ran since without placing | 1. Sheik Yerbouti: 11/11 C6; 2. Honour Your Dreams: 5/9 C6; 3. Phoenix Beach: not run since |
+| Mister Moet | key | 2026-08-05 Brighton 5f 215y | 4/5 | franked: Cape Toronada (winner) has won since | 1. Cape Toronada: 2/13 C5, 1/9 C6; 2. Beach Partee: 10/12 C6, 3/9 C6, 2/9 C6, 4/12 C6, 3/6 C5, 3/9 C6, 8/11 C6; 3. Havana Jag: 4/6 C5 |
+| Mister Moet | last | 2026-09-29 Wolverhampton 6f 20y | 11/11 | franked: Go Lockers Go (winner) has won since | 1. Go Lockers Go: 7/10 C5, 1/9 C6; 2. Methgal: 2/7 C5, 3/13 C5; 3. Molly Mac: 5/6 C5 |
+| Ten Cuidado | key | 2026-09-02 Bath 5f 160y | 3/9 | partly franked: Honour Your Dreams placed since; no winner since | 1. Geemann: 10/11 C6, 8/17 C2; 2. Honour Your Dreams: 5/9 C6, 2/11 C6, 6/17 C2; 4. Sisters In The Sky: 8/11 C6, 7/17 C2 |
+| Ten Cuidado | last | 2026-10-19 Wolverhampton 6f 20y | 13/13 | not franked: 1 of the first three ran since without placing | 1. Macarone: not run since; 2. A Lott Of Kane: not run since; 3. My Mate Kev: 5/7 C5 |
+| Timebar | key | 2025-06-12 Nottingham 6f 18y | 2/8 | franked: Golden Prosperity (winner) has won since; Korroor (3rd) has won since | 1. Golden Prosperity: 7/14 C6, 3/10 C6, 4/8 C6, 10/16 C6, 7/13 C6, 2/9 C6, 7/9 C6, 3/10 C6, 3/18 C6, 4/10 C6, 5/9 C6, 12/12 C6, 6/11 C6, 10/14 C6, 16/17 C6, 1/12 C6, 6/7 C6, 6/8 C6, 3/5 C6, 2/12 C6, 1/10 C6, 2/11 C6, 4/9 C6, 15/18 C6, 5/10 C6; 3. Korroor: 11/12 C6, 7/9 C6, 5/12 C6, 4/8 C6, 3/10 C6, 6/12 C6, 10/14 C6, 1/14 C6, 10/11 C6, 4/14 C6, 6/12 C6, 10/18 C6; 4. Enderman: not run since |
+| Timebar | last | 2026-10-15 Southwell 7f 14y | 8/13 | no frank found (none of the first three has run since) | 1. Midnight's Dream: not run since; 2. Little Beck Annie: not run since; 3. Able Astra: not run since |
+| Beautiful Rumour | key | 2026-09-03 Southwell 4f 215y | 4/6 | franked: Elyam (winner) has won since | 1. Elyam: 1/10 C4; 2. Black Orchid: 4/7 C4, 2/10 C5; 3. Atomik: not run since |
+| Beautiful Rumour | last | 2026-10-19 Wolverhampton 6f 20y | 9/13 | not franked: 1 of the first three ran since without placing | 1. Macarone: not run since; 2. A Lott Of Kane: not run since; 3. My Mate Kev: 5/7 C5 |
+| Bishop's Glory | key | 2026-01-29 Chelmsford City 6f | 3/7 | partly franked: Tommytwohoots placed since; no winner since | 1. Up The Monk: 7/7 C6, 10/18 C6, 7/7 C6, 8/11 C6, 4/10 C6, 6/12 C6; 2. Tommytwohoots: 7/10 C6, 12/17 C6, 4/12 C6, 2/11 C6; 4. Under Curfew: 6/7 C5, 6/11 C6, 4/11 C6 |
+| Bishop's Glory | last | 2026-10-06 Southwell 4f 214y | 7/11 | partly franked: Kohana Girl placed since; no winner since | 1. Popular Dream: 5/11 C6; 2. Crypto Quest: 4/11 C6, 10/10 C6; 3. Kohana Girl: 3/6 C4 |
+| Lil Wade | key | 2025-10-11 Wolverhampton 6f 20y | 5/8 | franked: Vince Lombardi (winner) has won since; Good Earth (2nd) has won since; Sioux Warrior (3rd) has won since | 1. Vince Lombardi: 9/10 C5, 7/10 C4, 10/11 C5, 1/9 C5, 5/8 C5, 2/12 C5, 2/11 C5, 1/12 C6; 2. Good Earth: 5/13 C5, 1/10 C5, 4/9 C5, 6/10 C5, 5/10 C5, 18/19 C4, 2/7 C5, 4/9 C4, 5/6 C5, 1/11 C5, 4/9 C6, 1/9 C6, 6/10 C5, 8/11 C6, 1/9 C6, 4/11 C6, 8/9 C6, 3/8 C5; 3. Sioux Warrior: 10/17 C2, 5/7 C6, 1/5 C6, 3/7 C6, 3/12 C6, 2/9 C6, 5/12 C6, 6/8 C6, 5/11 C6, 7/9 C6, 10/14 C6, 3/12 C6 |
+| Lil Wade | last | 2026-10-22 Southwell 4f 215y | 9/11 | no frank found (none of the first three has run since) | 1. Mimime: not run since; 2. Fletcher's Flight: not run since; 3. One For Harvey: not run since |
+
+### Still unverified
+
+- Prices: not fetched or used (the market is not an input).

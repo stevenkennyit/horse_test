@@ -150,3 +150,75 @@ Course trainer and jockey strike rates were not pulled (At The Races Smart Stats
 - Sporting Life racecard: https://www.sportinglife.com/racing/racecards/2026-10-26/southwell/racecard/945382/x
 - Racing Post racecard: https://www.racingpost.com/racecards/394/southwell-aw/2026-10-26/929595
 - Sporting Life result pages for every run in the tables (https://www.sportinglife.com/racing/results/<date>/x/<race id>/x), race ids 942385, 939980, 937807, 933801, 927306, 924683, 935359, 930039, 926599, 890403, 942182, 924860, 921765, 939399, 923470, 912510, 937072
+
+## Update 20:26 (20:26 Sun 25 Oct)
+
+Data gaps filled. Picks and probabilities below replace the ones above; the original analysis is kept unchanged above.
+
+**Re-checked at 20:26 Sun 25 Oct:** no non-runners (Racing Post card, all 6 declared still listed; Sporting Life shows 6 runners); going Standard (Sporting Life meeting summary).
+
+### What changed
+
+Same order, closer. Peace Belle down from 42% to 40% and Yamnah up from 32% to 34%. Gosden runners win 26% (17 from 66) at Southwell AW against 7% (4 from 54) for Candlish. Over 1m3f here, horses leading during the race win 18.1% against 6.8% for those held up, which counts against the slow-starting Peace Belle if the pace is steady. Neither key run is franked: Yamnah's Kempton race has had one of its first three run since without placing; from Peace Belle's last race, the winner Brilliant Star has placed since.
+
+### Revised picks
+
+| Rank | Horse | Win chance | Fair price | Confidence | Key reason | Strongest case against |
+|---|---|---|---|---|---|---|
+| 1 | Peace Belle | 40% | 6/4 (2.50) | medium | Rated 96 from placings in Listed and Group staying races, about 14lb clear of the rated 3yos even after giving 5lb. | Drops to 1m3f, where she has been beaten twice; slowly away in 2 of her last 3, and held-up horses win 6.8% over this trip here. |
+| 2 | Yamnah | 34% | 2/1 (2.94) | medium | Beaten 1.5L at Kempton over almost the same trip (best near-trip AW figure here), 7L clear of Hatta Romance, and Gosden runners win 26% at Southwell. | Two runs and no win; her Kempton form is not franked. |
+| 3 | Cracking Beauty | 12% | 15/2 (8.33) | low | Nose 2nd off 72 in a 1m4f handicap and 3rd at Kempton over this sort of trip. | OR 74, about 22lb below Peace Belle; 59 days off; trainer 1 from 18 here. |
+
+Rest of the field: Hatta Romance 8%, Tempestra 4%, Littleferry 2%. Total about 100%.
+
+### Draw and pace at Southwell 1m3f (larger sample)
+
+Sporting Life result pages for every Southwell AW race between 2024-10-28 and 2026-10-24 (1134 races, all read this session). Races with 8+ runners at this trip: 57.
+
+| Draw third | Win rate |
+|---|---|
+| Low | 11.3% (18/160) |
+| Middle | 11.5% (22/191) |
+| High | 7.4% (17/230) |
+
+| Position in the race (from the in-running comment) | Win rate |
+|---|---|
+| Led | 18.1% (15/83) |
+| Prominent | 10.0% (12/120) |
+| Midfield | 9.4% (16/171) |
+| Held up / rear | 6.8% (14/207) |
+
+The draw is neutral: the thirds differ by no more than about 3 percentage points. The pace split uses where each horse raced in that race, so it partly reflects which horse was best on the day; read it as "front-runners are not disadvantaged here" rather than as a clean bias. **Verified** (own count).
+
+### Connections: Southwell AW record, 2024-10-28 to 2026-10-24 (own count from the same result pages)
+
+| Horse | Trainer | Trainer record | Jockey | Jockey record |
+|---|---|---|---|---|
+| Peace Belle | J Candlish | 4/54 (7%), placed 22% | George Wood | 13/122 (11%), placed 33% |
+| Cracking Beauty | R A Teal | 1/18 (6%), placed 28% | Marco Ghiani | 18/151 (12%), placed 38% |
+| Hatta Romance | M D I Usher | 4/40 (10%), placed 23% | Tyler Heard | 2/43 (5%), placed 16% |
+| Littleferry | John Berry | 2/8 (25%), placed 38% | Nicola Currie | 1/32 (3%), placed 19% |
+| Tempestra | W J Haggas | 8/58 (14%), placed 45% | Tom Marquand | 4/51 (8%), placed 37% |
+| Yamnah | J & T Gosden | 17/66 (26%), placed 62% | Billy Loughnane | 31/200 (16%), placed 49% |
+
+These are course records only, without odds, so they don't adjust for how fancied each runner was. They are used as tiebreakers, not as primary evidence (Step 10).
+
+### Franks: key run and last run for every raced runner
+
+For each run, the first three home (other than the runner) were looked up on their Sporting Life profiles and every run since was read. "Franked" = one of them has won since.
+
+| Horse | Run | Date / course | Pos | Verdict | What the first three have done since (pos/ran, class) |
+|---|---|---|---|---|---|
+| Peace Belle | key | 2026-08-19 Carlisle 1m 3f 39y | 2/3 | partly franked: Green Area placed since; no winner since | 1. Green Area: 9/9 C4, 3/7 C4; 3. Lazy In Red: 5/6 C4, 10/12 C3 |
+| Peace Belle | last | 2026-10-08 Bath 1m 6f | 5/12 | partly franked: Brilliant Star placed since; no winner since | 1. Brilliant Star: 3/13 C1; 2. Littlecote: not run since; 3. Little Dorrit: 4/13 C1 |
+| Cracking Beauty | key | 2026-07-08 Kempton 1m 2f 219y | 3/12 | partly franked: Kashooda placed since; no winner since | 1. Alshera: not run since; 2. Kashooda: 3/13 C3; 4. Blue Hill: 7/8 C5, 5/14 C6, 5/9 C3 |
+| Cracking Beauty | last | 2026-08-28 Goodwood 1m 3f 218y | 2/6 | partly franked: Glenna placed since; no winner since | 1. Kelly Burn: 8/10 C1; 3. Glenna: 2/9 C5, 7/8 C4; 4. Ammoony: not run since |
+| Hatta Romance | key | 2026-06-25 Nottingham 1m 2f 50y | 2/3 | partly franked: Food For Thought placed since; no winner since | 1. Food For Thought: 5/10 C3, 7/9 C4, 5/14 C2, 2/4 C4, 2/5 C4; 3. Velvet Vega: not run since |
+| Hatta Romance | last | 2026-10-07 Kempton 1m 2f 219y | 7/8 | not franked: 1 of the first three ran since without placing | 1. Queen Of Scotland: 5/8 C4; 2. Yamnah: not run since; 3. Marquetry: not run since |
+| Littleferry | key and last | 2026-09-21 Leicester 1m 2f | 7/7 | partly franked: Ella Beach placed since; Allaire placed since; no winner since | 1. Ella Beach: 3/7 C3; 2. Summer In Paris: 6/7 C3; 3. Allaire: 3/7 C3 |
+| Tempestra | key and last | 2026-04-17 Newbury 1m 2f | 10/14 | partly franked: I'm The One placed since; Allaire placed since; Take A View placed since; no winner since | 1. I'm The One: 2/5 C3, 2/5 C1; 2. Allaire: 3/7 C3, 3/7 C3, 6/6 C1; 3. Take A View: 10/10 C5, 3/5 C2, 4/11 C3 |
+| Yamnah | key and last | 2026-10-07 Kempton 1m 2f 219y | 2/8 | not franked: 1 of the first three ran since without placing | 1. Queen Of Scotland: 5/8 C4; 3. Marquetry: not run since; 4. Saaffya: not run since |
+
+### Still unverified
+
+- Prices: not fetched or used (the market is not an input).

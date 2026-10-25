@@ -206,3 +206,86 @@ Course trainer and jockey strike rates were not pulled (At The Races Smart Stats
 - Sporting Life racecard: https://www.sportinglife.com/racing/racecards/2026-10-26/southwell/racecard/945383/x
 - Racing Post racecard: https://www.racingpost.com/racecards/394/southwell-aw/2026-10-26/929599
 - Sporting Life result pages for every run in the tables (https://www.sportinglife.com/racing/results/<date>/x/<race id>/x), race ids 941447, 938282, 932036, 917575, 912911, 892406, 938400, 929722, 926976, 923484, 920742, 918573, 943172, 880244, 876150, 937431, 932068, 924385, 921554, 942427, 932086, 930226, 921956, 918564, 944214, 938604, 936039, 932243, 927818, 926050, 934013, 928246, 923783, 918553, 912000, 893239, 934436, 931229, 925068, 941167, 938804, 935836, 930232, 899716, 897919
+
+## Update 20:26 (20:26 Sun 25 Oct)
+
+Data gaps filled. Picks and probabilities below replace the ones above; the original analysis is kept unchanged above.
+
+**Re-checked at 20:26 Sun 25 Oct:** no non-runners (Racing Post card, all 9 declared still listed; Sporting Life shows 9 runners); going Standard (Sporting Life meeting summary).
+
+### What changed
+
+Yimmna moves up to 2nd (15% to 18%): her Kempton 3rd is strongly franked, with the winner Enchanted Queen and runner-up Noozhaa both winning since. Mo Anam Chara drops to 3rd (16% to 14%); her Thirsk win is only partly franked (Real Jack has placed since). Toastmaster up from 11% to 12% (his Doncaster win is franked by the 2nd and 3rd); Starlight Sami down to 7%, Mr Keble down to 4%. Sterling Fortune stays top at 26%: James Tate is 20 from 86 (23%) at Southwell AW, and front-runners win 16.7% of 1m races here, but her 6L win is not franked yet (one of the first three has run since without placing).
+
+### Revised picks
+
+| Rank | Horse | Win chance | Fair price | Confidence | Key reason | Strongest case against |
+|---|---|---|---|---|---|---|
+| 1 | Sterling Fortune | 26% | 11/4 (3.85) | medium | Won by 6L over C&D last week (about 10lb) in a good time, so the 6lb penalty still leaves her ahead; she makes the running, which wins most often here, for a 23% course trainer. | One big run after a tailed-off effort, not franked, now up in class on 7 days' rest; her earlier level was about 68-70. |
+| 2 | Yimmna | 18% | 9/2 (5.56) | low | Haggas handicap debutant; her Kempton 3rd is the best AW figure earned in contention here and is strongly franked (1st and 2nd have both won since). | Four runs and no win, mark dropped from 76 to 73, only one run at 1m, and Marquand is 4 from 51 at Southwell. |
+| 3 | Mo Anam Chara | 14% | 6/1 (7.14) | low | Placed in 4 of her last 6, a 7f winner off 67 and a 1m AW 2nd at Dundalk. | 7lb above her last winning mark, beaten 4.5L off this mark last time, and her win is only partly franked. |
+
+Rest of the field: Toastmaster 12%, Galba 11%, Starlight Sami 7%, New Bay Star 5%, Mr Keble 4%, Vincenzo Bellini 3%. Total about 100%.
+
+### Draw and pace at Southwell 1m (larger sample)
+
+Sporting Life result pages for every Southwell AW race between 2024-10-28 and 2026-10-24 (1134 races, all read this session). Races with 8+ runners at this trip: 207.
+
+| Draw third | Win rate |
+|---|---|
+| Low | 9.7% (60/620) |
+| Middle | 8.8% (61/692) |
+| High | 10.3% (86/838) |
+
+| Position in the race (from the in-running comment) | Win rate |
+|---|---|
+| Led | 16.7% (48/288) |
+| Prominent | 9.5% (40/423) |
+| Midfield | 9.7% (55/566) |
+| Held up / rear | 7.3% (64/873) |
+
+The draw is neutral: the thirds differ by no more than about 3 percentage points. The pace split uses where each horse raced in that race, so it partly reflects which horse was best on the day; read it as "front-runners are not disadvantaged here" rather than as a clean bias. **Verified** (own count).
+
+### Connections: Southwell AW record, 2024-10-28 to 2026-10-24 (own count from the same result pages)
+
+| Horse | Trainer | Trainer record | Jockey | Jockey record |
+|---|---|---|---|---|
+| Mo Anam Chara | G A Harker | 0/3 (0%), placed 0% | A Mullen | 9/56 (16%), placed 27% |
+| Toastmaster | M Herrington | 37/202 (18%), placed 38% | Billy Loughnane | 31/200 (16%), placed 49% |
+| Mr Keble | Oli Rix | 1/4 (25%), placed 75% | Jonny Peate | 4/91 (4%), placed 19% |
+| Yimmna | W J Haggas | 8/58 (14%), placed 45% | Tom Marquand | 4/51 (8%), placed 37% |
+| Galba | K Frost | 8/107 (7%), placed 19% | J Mitchell | 22/148 (15%), placed 43% |
+| Sterling Fortune | J Tate | 20/86 (23%), placed 49% | George Wood | 13/122 (11%), placed 33% |
+| Starlight Sami | D J Coakley | 1/4 (25%), placed 75% | George Bass | 2/15 (13%), placed 33% |
+| Vincenzo Bellini | D M Loughnane | 2/52 (4%), placed 29% | Hope Regan | 0/1 (0%), placed 0% |
+| New Bay Star | M Appleby | 25/233 (11%), placed 34% | Jason Watson | 21/126 (17%), placed 41% |
+
+These are course records only, without odds, so they don't adjust for how fancied each runner was. They are used as tiebreakers, not as primary evidence (Step 10).
+
+### Franks: key run and last run for every raced runner
+
+For each run, the first three home (other than the runner) were looked up on their Sporting Life profiles and every run since was read. "Franked" = one of them has won since.
+
+| Horse | Run | Date / course | Pos | Verdict | What the first three have done since (pos/ran, class) |
+|---|---|---|---|---|---|
+| Mo Anam Chara | key | 2026-09-14 Thirsk 7f | 1/10 | partly franked: Real Jack placed since; no winner since | 2. Showtown: 7/13 C6, 4/11 C6; 3. Soca Star: 5/10 C6; 4. Real Jack: 2/11 C6 |
+| Mo Anam Chara | last | 2026-09-30 Catterick 7f 6y | 5/9 | partly franked: Vince Le Prince placed since; no winner since | 1. Vince Le Prince: 2/9 C4; 2. Indefensible: 6/9 C4; 3. Fools Rush In: 10/10 C6 |
+| Toastmaster | key | 2026-06-20 Doncaster 7f 6y | 1/13 | franked: Flight Control (2nd) has won since; Three Non Blondes (3rd) has won since | 2. Flight Control: 10/17 C3, 2/14 C2, 4/14 C2, 1/12 C4, 3/11 C4; 3. Three Non Blondes: 12/12 C4, 7/7 C4, 1/4 C4, 7/11 C4; 4. Cotai Eye Joe: 9/10 C4 |
+| Toastmaster | last | 2026-09-15 Yarmouth 7f 3y | 9/9 | franked: Percy's Star (2nd) has won since | 1. Archer's Grace: not run since; 2. Percy's Star: 1/15 C4; 3. Galba: 4/13 C5 |
+| Mr Keble | key and last | 2026-10-13 Wolverhampton 7f 36y | 5/9 | no frank found (none of the first three has run since) | 1. Soft Landing: not run since; 2. Paname: not run since; 3. Blue Point Gold: not run since |
+| Yimmna | key and last | 2026-09-09 Kempton 7f | 3/7 | franked: Enchanted Queen (winner) has won since; Noozhaa (2nd) has won since | 1. Enchanted Queen: 1/4 C4; 2. Noozhaa: 1/6 C4; 4. Pointed: 3/8 C4, 3/8 C4 |
+| Galba | key | 2026-08-08 Haydock 6f 212y | 3/8 | franked: Horace Wallace (4th) has won since | 1. Norcross Brow: 10/18 C4, 3/9 C4, 2/6 C5; 2. Crafty Blue: 5/10 C5, 5/12 C5, 2/6 C4; 4. Horace Wallace: 2/13 C5, 1/10 C5, 1/8 C6 |
+| Galba | last | 2026-10-05 Pontefract 1m 6y | 4/13 | not franked: 1 of the first three ran since without placing | 1. Selection: not run since; 2. Mount King: not run since; 3. Always Blue: 4/9 C5 |
+| Sterling Fortune | key | 2026-07-15 Yarmouth 7f 3y | 3/5 | franked: Rogue Exile (2nd) has won since; Starship Lily (4th) has won since | 1. Splash: 11/13 C5, 5/9 C5, 6/7 C5; 2. Rogue Exile: 7/7 C5, 7/7 C5, 1/5 C5; 4. Starship Lily: 1/6 C4, 2/4 C4 |
+| Sterling Fortune | last | 2026-10-19 Southwell 1m 13y | 1/14 | not franked: 1 of the first three ran since without placing | 2. Aurelune: not run since; 3. Ballybunion: 8/10 C6; 4. Alembic: not run since |
+| Starlight Sami | key | 2026-04-14 Lingfield 7f 1y | 3/10 | franked: Victory Ace (winner) has won since; Mighty Vega (2nd) has won since; Legacy Rock (4th) has won since | 1. Victory Ace: 2/14 C2, 1/9 C4, 1/8 C4, 1/14 C4, 5/14 C4, 6/7 C2, 2/9 C5; 2. Mighty Vega: 5/9 C4, 7/13 C5, 12/13 C4, 3/7 C4, 1/7 C5, 2/11 C5; 4. Legacy Rock: 11/13 C5, 6/10 C5, 6/7 C5, 6/6 C5, 2/7 C6, 1/10 C5, 1/8 C5 |
+| Starlight Sami | last | 2026-08-20 Lingfield 7f 1y | 9/11 | franked: Powder Monkey (winner) has won since | 1. Powder Monkey: 6/12 C4, 3/11 C4, 1/12 C5; 2. Red Hat Eagle: 2/14 C5, 5/11 C5, 3/12 C5; 3. The Bitter Moose: 17/18 C4, 6/12 C5, 8/11 C4 |
+| Vincenzo Bellini | key | 2026-06-30 Ffos Las 1m | 5/8 | partly franked: Impierious placed since; no winner since | 1. Dark Whisper: 5/9 C4, 12/14 C2; 2. Lean D'aislingean: 12/19 C4, 13/14 C2; 3. Impierious: 6/13 C4, 7/12 C3, 3/7 C4 |
+| Vincenzo Bellini | last | 2026-08-19 Kempton 7f | 7/9 | franked: Withtearsinmyeyes (2nd) has won since | 1. Merry: 12/12 C4, 2/9 C4; 2. Withtearsinmyeyes: 9/11 C4, 1/10 C4, 1/5 C4; 3. River Nile: 3/4 C4, 4/6 C4, 3/4 C3 |
+| New Bay Star | key | 2026-09-17 Yarmouth 1m 3y | 10/14 | not franked: 3 of the first three ran since without placing | 1. Guest House: 5/11 C4; 2. Packetofbiscuits: 7/14 C5, 13/20 C4, 6/12 C5; 3. Born A Rebel: 8/13 C5, 10/12 C5 |
+| New Bay Star | last | 2026-10-01 Nottingham 1m 2f 50y | 7/14 | not franked: 2 of the first three ran since without placing | 1. Pleasant Man: not run since; 2. Celestias Comet: 9/11 C5; 3. Crimson Rambler: 6/15 C6 |
+
+### Still unverified
+
+- Sterling Fortune's reassessed mark: Racing Post's card and profile show no new official rating after her 19 Oct win. Its future-rating figure (-6) is consistent with her base mark of 65 against the 71 she runs off with the penalty, i.e. no reassessment published yet. **Asserted**, not confirmed with the BHA.
+- Prices: not fetched or used (the market is not an input).

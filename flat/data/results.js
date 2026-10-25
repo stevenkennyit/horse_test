@@ -78,176 +78,176 @@
         {
           time: "16:30", name: "All-Weather Championship Is Back Apprentice Handicap (Div 1)", type: "handicap", distance: "4f214y",
           going: "Standard", runners: 10, source: "full", status: "pending",
-          writeup: "flat/analyses/2026-10-26_southwell/1630_5f-class-6-apprentice-handicap-div-1.md", updated: "19:53 Sun 25 Oct",
+          writeup: "flat/analyses/2026-10-26_southwell/1630_5f-class-6-apprentice-handicap-div-1.md", updated: "20:26 Sun 25 Oct",
           picks: [
-            { rank: 1, horse: "Stash The Cash", prob: 0.21, finish: "-", confidence: "low",
-              reason: "Best C&D record (2 close 2nds in 4 runs, figures -5/-6 at about today's weight) and beat Bishop's Glory over C&D, now 2lb better off.",
-              against: "181 days off and first run for a new yard; his other two C&D runs this year were 6th, beaten 5.1L and 9.7L." },
+            { rank: 1, horse: "Stash The Cash", prob: 0.19, finish: "-", confidence: "low",
+              reason: "Best C&D record (2 close 2nds in 4 runs, figures -5/-6 at about today's weight), beat Bishop's Glory over C&D and is now 2lb better off; races up with the pace, which wins most often here.",
+              against: "181 days off, new yard, and his rider is 1 from 49 at Southwell; his April C&D form is not franked." },
             { rank: 2, horse: "Fancy Dancer", prob: 0.18, finish: "-", confidence: "low",
-              reason: "Three 2nds at 5f in her last 6, and a 5lb claim puts her on 9-0, 12lb better off with Tomarlo than when 4L behind him.",
-              against: "Beaten 8.75L last time; her AW 5f figures (-25, -12) are modest and she has never run at Southwell; first-time blinkers unproven." },
-            { rank: 3, horse: "Midnight Lir", prob: 0.14, finish: "-", confidence: "low",
-              reason: "C&D 6th beaten 2.25L when denied a clear run, turf 5f figures of +1 to +9 off higher marks, and his mark has fallen to 54.",
-              against: "No place in his last 6 and 2 wins from 37; a recurring non-winner." },
+              reason: "Three 2nds at 5f in her last 6, races prominently, and a 5lb claim makes her 12lb better off with Tomarlo than when 4L behind him.",
+              against: "Beaten 8.75L last time; neither of her key runs is franked; trainer 0 from 8 at Southwell; first-time blinkers." },
+            { rank: 3, horse: "Midnight Lir", prob: 0.15, finish: "-", confidence: "low",
+              reason: "C&D 6th beaten 2.25L when denied a clear run, his key Thirsk run is franked, and his mark has fallen to 54.",
+              against: "No place in his last 6, 2 wins from 37, and his rider is 0 from 15 at Southwell." },
             { rank: 4, horse: "Tomarlo", prob: 0.13, finish: "-", confidence: "low", danger: true,
-              reason: "Made all to win at Wolverhampton in July; first-time cheekpieces and a front-running style on a sharp 5f.",
-              against: "Still on the mark he was beaten 5.65L off over C&D last time." }
+              reason: "Made all at Wolverhampton in July; the winner of his last race has won again; first-time cheekpieces.",
+              against: "Beaten 5.65L off this mark over C&D last time; trainer 4 from 54 and rider 0 from 19 at Southwell." }
           ],
           winner: null,
           grade: "pending", errors: [],
-          notes: "Written 19:53 Sun 25 Oct. Weak Class 6 sprint. Nobody has a clearly better time figure: the near-trip AW figures earned in contention range only from -25 to -1 (Beautiful Rumour's +2 came when beaten 12L), so course-and-distance form, the head-to-head and consistency separate them. Rest: Bishop's Glory 10%, Timebar 7%, Mister Moet 5%, Beautiful Rumour 5%, Ten Cuidado 4%, Lil Wade 3%."
+          notes: "Updated 20:26 Sun 25 Oct: franks for every runner, Southwell draw/pace (1134 races) and course trainer/jockey records added. Small changes, same order. Stash The Cash eased from 21% to 19%: his rider Taryn Langley is 1 from 49 at Southwell AW in two years, and his 28 Apr C&D form is not franked (the two horses that have run since have not placed). Midnight Lir up from 14% to 15%: his key Thirsk run is franked (the winner Sunlit Sea has won since). Bishop's Glory up from 10% to 11%. Leaders win 21.7% of 8+ runner 5f races here against 7.2% for those held up, which suits the front-running Fancy Dancer, Stash The Cash and Tomarlo. Rest: Bishop's Glory 11%, Timebar 7%, Mister Moet 5%, Beautiful Rumour 5%, Ten Cuidado 4%, Lil Wade 3%."
         },
         {
           time: "17:00", name: "All-Weather Championship Is Back Apprentice Handicap (Div 2)", type: "handicap", distance: "4f214y",
           going: "Standard", runners: 9, source: "full", status: "pending",
-          writeup: "flat/analyses/2026-10-26_southwell/1700_5f-class-6-apprentice-handicap-div-2.md", updated: "19:53 Sun 25 Oct",
+          writeup: "flat/analyses/2026-10-26_southwell/1700_5f-class-6-apprentice-handicap-div-2.md", updated: "20:26 Sun 25 Oct",
           picks: [
-            { rank: 1, horse: "Pivotal Terms", prob: 0.22, finish: "-", confidence: "low",
-              reason: "Won at Southwell last time and her 7lb claim offsets the 2lb rise; already 7L clear of Beach Partee on that run.",
-              against: "Drops from 6f to 5f; three of her four 5f runs this year were beaten 5.5L or more, and she is keen and held up." },
-            { rank: 2, horse: "Kipp Kelly", prob: 0.20, finish: "-", confidence: "low",
-              reason: "Most consistent 5f AW form in the race: 5 of his last 6 within 2L, including a win off 47 and a 2nd off 50 (today's mark).",
-              against: "216 days off; consistent but modest figures (-10 to +2), a placer profile with 1 win from 28." },
-            { rank: 3, horse: "Beach Partee", prob: 0.17, finish: "-", confidence: "low",
-              reason: "Placed in 4 of his last 6 at 5f-6f, including a C&D 4th (figure -3).",
-              against: "Beaten 7.1L by Pivotal Terms 9 days ago, and only 4lb better off now." }
+            { rank: 1, horse: "Pivotal Terms", prob: 0.24, finish: "-", confidence: "low",
+              reason: "Won at Southwell last time, her 7lb claim offsets the 2lb rise, she was 7L clear of Beach Partee, and her trainer is 18% here.",
+              against: "Drops from 6f to 5f, where three of her four runs this year were beaten 5.5L+; keen and held up, and hold-up horses win 7% of 5f races here." },
+            { rank: 2, horse: "Kipp Kelly", prob: 0.19, finish: "-", confidence: "low",
+              reason: "Most consistent 5f AW form in the race: 5 of his last 6 within 2L, including a win off 47 and a 2nd off today's mark.",
+              against: "216 days off, a placer profile (1 win from 28), and trainer and rider are both about 4% at Southwell." },
+            { rank: 3, horse: "Beach Partee", prob: 0.16, finish: "-", confidence: "low",
+              reason: "Placed in 4 of his last 6, including a C&D 4th; his Brighton 2nd is franked (the winner has won since).",
+              against: "Beaten 7.1L by Pivotal Terms 9 days ago; Dixon yard 4% and his rider 0 from 27 at Southwell." }
           ],
           winner: null,
           grade: "pending", errors: [],
-          notes: "Written 19:53 Sun 25 Oct. Another weak Class 6 sprint. Pivotal Terms is the only runner who won last time (Southwell 6f). Kipp Kelly has the most consistent 5f AW form in the race but returns from a long break. Rest: Bridget's Baby 12%, Anglesey Lad 7%, Coast 6%, Great Success 6%, Auradue 5%, Petes Diamond 5%."
+          notes: "Updated 20:26 Sun 25 Oct: franks for every runner, Southwell draw/pace (1134 races) and course trainer/jockey records added. Same order. Pivotal Terms up from 22% to 24%: trainer Iain Jardine is 12 from 66 (18%) at Southwell AW. Kipp Kelly down from 20% to 19% (trainer 5 from 112, rider 3 from 74 here). Beach Partee down from 17% to 16%: his key Brighton run is franked, but the Dixon yard is 11 from 251 (4%) here and his rider is 0 from 27. Pivotal Terms' winning form: no frank found (none of the first three has run since). Rest: Bridget's Baby 12%, Anglesey Lad 7%, Coast 6%, Great Success 6%, Auradue 5%, Petes Diamond 5%."
         },
         {
           time: "17:30", name: "AWC Finals Day At Newcastle 26th March Maiden Fillies' Stakes (GBB/GBBPlus Race)", type: "maiden", distance: "1m3f23y",
           going: "Standard", runners: 6, source: "full", status: "pending",
-          writeup: "flat/analyses/2026-10-26_southwell/1730_1m3f-class-3-maiden-fillies-stakes.md", updated: "19:53 Sun 25 Oct",
+          writeup: "flat/analyses/2026-10-26_southwell/1730_1m3f-class-3-maiden-fillies-stakes.md", updated: "20:26 Sun 25 Oct",
           picks: [
-            { rank: 1, horse: "Peace Belle", prob: 0.42, finish: "-", confidence: "medium",
+            { rank: 1, horse: "Peace Belle", prob: 0.40, finish: "-", confidence: "medium",
               reason: "Rated 96 from placings in Listed and Group staying races, about 14lb clear of the rated 3yos even after giving 5lb.",
-              against: "Drops to 1m3f, where she has been beaten twice; slowly away in 2 of her last 3, a doubt in a small, possibly tactical race." },
-            { rank: 2, horse: "Yamnah", prob: 0.32, finish: "-", confidence: "medium",
-              reason: "Beaten 1.5L at Kempton over almost the same trip, the best near-trip AW figure in the race, and 7L clear of Hatta Romance.",
-              against: "Two runs, no win; her RPR 84 is still well short of Peace Belle's level." },
+              against: "Drops to 1m3f, where she has been beaten twice; slowly away in 2 of her last 3, and held-up horses win 6.8% over this trip here." },
+            { rank: 2, horse: "Yamnah", prob: 0.34, finish: "-", confidence: "medium",
+              reason: "Beaten 1.5L at Kempton over almost the same trip (best near-trip AW figure here), 7L clear of Hatta Romance, and Gosden runners win 26% at Southwell.",
+              against: "Two runs and no win; her Kempton form is not franked." },
             { rank: 3, horse: "Cracking Beauty", prob: 0.12, finish: "-", confidence: "low",
               reason: "Nose 2nd off 72 in a 1m4f handicap and 3rd at Kempton over this sort of trip.",
-              against: "OR 74 sets her about 22lb below Peace Belle on ratings; 59 days off." }
+              against: "OR 74, about 22lb below Peace Belle; 59 days off; trainer 1 from 18 here." }
           ],
           winner: null,
           grade: "pending", errors: [],
-          notes: "Written 19:53 Sun 25 Oct. Six-runner fillies' maiden. Peace Belle is rated 96 from placings in Listed and Group staying races but drops from 1m6f-2m+ to 1m3f. Yamnah has the best near-trip AW run in the race. Rest: Hatta Romance 8%, Tempestra 4%, Littleferry 2%."
+          notes: "Updated 20:26 Sun 25 Oct: franks for every runner, Southwell draw/pace (1134 races) and course trainer/jockey records added. Same order, closer. Peace Belle down from 42% to 40% and Yamnah up from 32% to 34%. Gosden runners win 26% (17 from 66) at Southwell AW against 7% (4 from 54) for Candlish. Over 1m3f here, horses leading during the race win 18.1% against 6.8% for those held up, which counts against the slow-starting Peace Belle if the pace is steady. Neither key run is franked: Yamnah's Kempton race has had one of its first three run since without placing; from Peace Belle's last race, the winner Brilliant Star has placed since. Rest: Hatta Romance 8%, Tempestra 4%, Littleferry 2%."
         },
         {
           time: "18:00", name: "Midnite Ain't Your Grandads Bookie Handicap", type: "handicap", distance: "1m13y",
           going: "Standard", runners: 9, source: "full", status: "pending",
-          writeup: "flat/analyses/2026-10-26_southwell/1800_1m-class-5-3yo-handicap.md", updated: "19:53 Sun 25 Oct",
+          writeup: "flat/analyses/2026-10-26_southwell/1800_1m-class-5-3yo-handicap.md", updated: "20:26 Sun 25 Oct",
           picks: [
             { rank: 1, horse: "Sterling Fortune", prob: 0.26, finish: "-", confidence: "medium",
-              reason: "Won by 6L over C&D last week (about 10lb) in a good time, so the 6lb penalty still leaves her ahead on that form; she makes the running.",
-              against: "One big run after a tailed-off effort, now up from Class 5 to a deeper race on 7 days' rest; her earlier level was about 68-70." },
-            { rank: 2, horse: "Mo Anam Chara", prob: 0.16, finish: "-", confidence: "low",
+              reason: "Won by 6L over C&D last week (about 10lb) in a good time, so the 6lb penalty still leaves her ahead; she makes the running, which wins most often here, for a 23% course trainer.",
+              against: "One big run after a tailed-off effort, not franked, now up in class on 7 days' rest; her earlier level was about 68-70." },
+            { rank: 2, horse: "Yimmna", prob: 0.18, finish: "-", confidence: "low",
+              reason: "Haggas handicap debutant; her Kempton 3rd is the best AW figure earned in contention here and is strongly franked (1st and 2nd have both won since).",
+              against: "Four runs and no win, mark dropped from 76 to 73, only one run at 1m, and Marquand is 4 from 51 at Southwell." },
+            { rank: 3, horse: "Mo Anam Chara", prob: 0.14, finish: "-", confidence: "low",
               reason: "Placed in 4 of her last 6, a 7f winner off 67 and a 1m AW 2nd at Dundalk.",
-              against: "Now 7lb above her last winning mark and beaten 4.5L off this mark last time." },
-            { rank: 3, horse: "Yimmna", prob: 0.15, finish: "-", confidence: "low",
-              reason: "Haggas handicap debutant whose Kempton 3rd is the best AW figure earned in contention in the race.",
-              against: "Four runs and no win, mark dropped from 76 to 73, and only one run at 1m." }
+              against: "7lb above her last winning mark, beaten 4.5L off this mark last time, and her win is only partly franked." }
           ],
           winner: null,
           grade: "pending", errors: [],
-          notes: "Written 19:53 Sun 25 Oct. Sterling Fortune won easily over C&D a week ago and runs under a 6lb penalty. Most of the rest are exposed handicappers rated 69-74 with modest figures. Rest: Galba 12%, Toastmaster 11%, Starlight Sami 7%, New Bay Star 5%, Mr Keble 5%, Vincenzo Bellini 3%."
+          notes: "Updated 20:26 Sun 25 Oct: franks for every runner, Southwell draw/pace (1134 races) and course trainer/jockey records added. Yimmna moves up to 2nd (15% to 18%): her Kempton 3rd is strongly franked, with the winner Enchanted Queen and runner-up Noozhaa both winning since. Mo Anam Chara drops to 3rd (16% to 14%); her Thirsk win is only partly franked (Real Jack has placed since). Toastmaster up from 11% to 12% (his Doncaster win is franked by the 2nd and 3rd); Starlight Sami down to 7%, Mr Keble down to 4%. Sterling Fortune stays top at 26%: James Tate is 20 from 86 (23%) at Southwell AW, and front-runners win 16.7% of 1m races here, but her 6L win is not franked yet (one of the first three has run since without placing). Rest: Toastmaster 12%, Galba 11%, Starlight Sami 7%, New Bay Star 5%, Mr Keble 4%, Vincenzo Bellini 3%."
         },
         {
           time: "18:30", name: "Midnite Are Upping The Betting Game Handicap", type: "handicap", distance: "7f14y",
           going: "Standard", runners: 12, source: "full", status: "pending",
-          writeup: "flat/analyses/2026-10-26_southwell/1830_7f-class-6-3yo-handicap.md", updated: "19:53 Sun 25 Oct",
+          writeup: "flat/analyses/2026-10-26_southwell/1830_7f-class-6-3yo-handicap.md", updated: "20:26 Sun 25 Oct",
           picks: [
-            { rank: 1, horse: "Sonbelievable", prob: 0.18, finish: "-", confidence: "low",
-              reason: "C&D 3rd beaten 1.25L on his handicap debut, 1lb lower now, and quicker than Able Astra's division carrying more weight.",
-              against: "That race was run 3s slow of the course median, he has only 4 runs, and he is drawn 10 of 12." },
-            { rank: 2, horse: "Leia Antilles", prob: 0.14, finish: "-", confidence: "low",
+            { rank: 1, horse: "Sonbelievable", prob: 0.20, finish: "-", confidence: "low",
+              reason: "C&D 3rd beaten 1.25L on his handicap debut, franked by the winner, 1lb lower now, and quicker than Able Astra's division carrying more weight.",
+              against: "That race was run 3s slow of the course median and he has only 4 runs." },
+            { rank: 2, horse: "Able Astra", prob: 0.13, finish: "-", confidence: "low",
+              reason: "C&D 3rd beaten 2.75L 11 days ago, 1lb lower now; Cox runners place 60% of the time at Southwell.",
+              against: "Slower than Sonbelievable on the same night; 0 wins from 6; no frank found." },
+            { rank: 3, horse: "Leia Antilles", prob: 0.12, finish: "-", confidence: "low",
               reason: "Kempton 7f 2nd beaten 2L off 45, a better time figure than either C&D 3rd, and only 1lb higher.",
-              against: "Drawn 11 and her other recent runs were well beaten; 0 wins from 9." },
-            { rank: 3, horse: "Able Astra", prob: 0.12, finish: "-", confidence: "low",
-              reason: "C&D 3rd beaten 2.75L 11 days ago, 1lb lower now.",
-              against: "Slower than Sonbelievable on the same night; 0 wins from 6." }
+              against: "Trainer 0 from 10 and rider 1 from 32 at Southwell; 0 wins from 9; no frank found." }
           ],
           winner: null,
           grade: "pending", errors: [],
-          notes: "Written 19:53 Sun 25 Oct. Weak 12-runner 3yo handicap. Nobody has won more than once; the best recent form is two C&D 3rds run 15 Oct in divisions of the same race, both in slow times. Rest: Thestral 11%, Neat And Tidy 10%, Demetris Mouflon 7%, Twilight Dawn 6%, Whazzimo 5%, Mariselle 5%, Savvi Row 5%, Yesnia 4%, Honey Dale 3%."
+          notes: "Updated 20:26 Sun 25 Oct: franks for every runner, Southwell draw/pace (1134 races) and course trainer/jockey records added. Re-ranked. Southwell 7f draw is neutral on the larger sample (211 races with 8+ runners: low third 10.7%, mid 9.7%, high 9.3% winners), so the small mark against the high-drawn picks is removed. Sonbelievable up from 18% to 20%: his C&D 3rd is franked (the winner Distillate has won since). Able Astra up to 2nd (12% to 13%; Clive Cox runners place 60% of the time here). Leia Antilles drops to 3rd (14% to 12%): Henry Candy is 0 from 10 and Nicola Currie 1 from 32 at Southwell, and her Kempton form has no frank found. Demetris Mouflon up to 8% (her Leicester 2nd is franked by the winner and 3rd); Neat And Tidy down to 9%, Twilight Dawn down to 5% (trainer 0 from 18 here). Rest: Thestral 11%, Neat And Tidy 9%, Demetris Mouflon 8%, Twilight Dawn 5%, Whazzimo 5%, Mariselle 5%, Savvi Row 5%, Yesnia 4%, Honey Dale 3%."
         },
         {
           time: "19:00", name: "Midnite A Next Generation Betting App Novice Stakes (GBB Race)", type: "novice", distance: "6f16y",
           going: "Standard", runners: 10, source: "full", status: "pending",
-          writeup: "flat/analyses/2026-10-26_southwell/1900_6f-class-4-novice-stakes.md", updated: "19:53 Sun 25 Oct",
+          writeup: "flat/analyses/2026-10-26_southwell/1900_6f-class-4-novice-stakes.md", updated: "20:26 Sun 25 Oct",
           picks: [
-            { rank: 1, horse: "Big Money", prob: 0.38, finish: "-", confidence: "medium",
+            { rank: 1, horse: "Big Money", prob: 0.36, finish: "-", confidence: "medium",
               reason: "Course 2nd beaten 3.75L by an 83-rated winner, ahead of a 79-rated horse: the best exposed form here (about 76-79).",
-              against: "Drops from 7f to 6f after both his runs at 7f; the form is not yet franked." },
-            { rank: 2, horse: "Darkwing", prob: 0.15, finish: "-", confidence: "low",
-              reason: "RPR 77 from her two 2025 runs and a 5lb fillies' allowance.",
-              against: "370 days off and a new yard; never closer than 4.3L." },
+              against: "Drops from 7f to 6f after both runs at 7f; no frank found yet." },
+            { rank: 2, horse: "Darkwing", prob: 0.17, finish: "-", confidence: "low",
+              reason: "RPR 77 from two 2025 runs, both now franked by later winners, and a 5lb fillies' allowance.",
+              against: "370 days off and a new yard (O'Meara 7 from 92 here); never closer than 4.3L." },
             { rank: 3, horse: "Valor's Call", prob: 0.13, finish: "-", confidence: "low",
-              reason: "Expensive Night of Thunder newcomer from a sprinting family.",
+              reason: "Night Of Thunder newcomer (pedigree confirmed on Racing Post) for George Scott, 6 from 40 at Southwell.",
               against: "Unraced (rule E: pedigree is not evidence); first-time hood." }
           ],
           winner: null,
           grade: "pending", errors: [],
-          notes: "Written 19:53 Sun 25 Oct. Big Money's course 2nd behind an 83-rated winner is the best form on offer. Three unraced newcomers, plus a filly from a good family returning after a year. Rest: Court Alert 12%, Prosewriter 8%, Nando Tornado 6%, Flag Of Nations 3%, Katie Louise 2%, Manjaros Express 1.5%, Aurora's Doublesix 1.5%."
+          notes: "Updated 20:26 Sun 25 Oct: franks for every runner, Southwell draw/pace (1134 races) and course trainer/jockey records added. Same order. Darkwing up from 15% to 17%: both her 2025 runs are franked (the Newbury winner Calendar Girl and 3rd Box Clever have won since, and the Yarmouth 3rd Fractional has won since). Big Money down from 38% to 36%: his Southwell 2nd has no frank found (neither Cloud Forest nor Hozam has run since). Court Alert down to 11% (Eve Johnson Houghton 2 from 44 here); Prosewriter up to 9% (Archie Watson runners place 49% of the time here). Newcomers' sires and dams confirmed on the Racing Post card: Valor's Call (Night Of Thunder - Evolica), Prosewriter (St Mark's Basilica - Rime A Rien), Nando Tornado (Nando Parrado - Miami Breeze). Sale prices still come only from the Sporting Life comment. Rest: Court Alert 11%, Prosewriter 9%, Nando Tornado 6%, Flag Of Nations 3%, Katie Louise 2%, Manjaros Express 1.5%, Aurora's Doublesix 1.5%."
         },
         {
           time: "19:30", name: "AWC Season 14 Has Begun Fillies' Handicap", type: "handicap", distance: "6f16y",
           going: "Standard", runners: 11, source: "full", status: "pending",
-          writeup: "flat/analyses/2026-10-26_southwell/1930_6f-class-4-fillies-handicap.md", updated: "19:53 Sun 25 Oct",
+          writeup: "flat/analyses/2026-10-26_southwell/1930_6f-class-4-fillies-handicap.md", updated: "20:26 Sun 25 Oct",
           picks: [
-            { rank: 1, horse: "Fantasy Obsessor", prob: 0.20, finish: "-", confidence: "low",
+            { rank: 1, horse: "Fantasy Obsessor", prob: 0.19, finish: "-", confidence: "low",
               reason: "Two C&D runs in contention give the best repeated figures in the field (+17, +24), and she carries 7-10lb less than in either.",
-              against: "Steps up from Class 5 to Class 4; no win in her last 6 (a recurring 2nd/3rd), and Overbudget beat her last time." },
+              against: "Up from Class 5 to Class 4, no win in her last 6, not franked, and Overbudget beat her last time." },
             { rank: 2, horse: "Lady Roxby", prob: 0.14, finish: "-", confidence: "low",
-              reason: "Most consistent 6f filly here (4 of 6 within 2L, three 2nds), with form in better races.",
-              against: "Carries 9-12, and on the weights Powdering is now level with her; 2 wins from 20." },
-            { rank: 3, horse: "Angel Love", prob: 0.13, finish: "-", confidence: "low",
-              reason: "AW 6f winner last time (Newcastle, fig +6) and placed in 4 of her last 6.",
-              against: "Up 2lb, and beaten 4.5L and 6.2L in her two other AW handicaps this year." }
+              reason: "Most consistent 6f filly here (4 of 6 within 2L, three 2nds), with form in better races, for an 18% course trainer.",
+              against: "Carries 9-12, Powdering is level with her on the weights, and her Yarmouth 2nd is not franked." },
+            { rank: 3, horse: "Angel Love", prob: 0.12, finish: "-", confidence: "low",
+              reason: "AW 6f winner last time (Newcastle, fig +6) and placed in 4 of her last 6; trainer 19% at Southwell.",
+              against: "Up 2lb, beaten 4.5L and 6.2L in her other AW handicaps this year, her win is not franked, and her rider is 1 from 32 here." }
           ],
           winner: null,
           grade: "pending", errors: [],
-          notes: "Written 19:53 Sun 25 Oct. Competitive fillies' handicap. Fantasy Obsessor has the best repeated figures at today's weights, from two C&D runs in contention. The more highly rated fillies carry 9-8 to 9-13. Rest: Courageous Sioux 11%, Handle With Care 10%, Powdering 8%, Encore 8%, Lunar Melody 6%, Arabian Leopard 5%, Zooella 3%, Anaisa 2%."
+          notes: "Updated 20:26 Sun 25 Oct: franks for every runner, Southwell draw/pace (1134 races) and course trainer/jockey records added. Same order. Fantasy Obsessor down from 20% to 19% and Angel Love down from 13% to 12%: neither key run is franked (Fantasy Obsessor's 31 Aug conqueror Classy Clarets has placed since; Angel Love's Newcastle win has had one of the first three run since without placing), and Nicola Currie is 1 from 32 at Southwell. Handle With Care up from 10% to 11% (her Lingfield race is franked; Botti 17% here). Arabian Leopard up from 5% to 6% (both her key runs are franked). Lady Roxby stays at 14%: Herrington runners win 18% here, but her Yarmouth 2nd is not franked. Rest: Handle With Care 11%, Courageous Sioux 11%, Powdering 8%, Encore 8%, Arabian Leopard 6%, Lunar Melody 6%, Zooella 3%, Anaisa 2%."
         },
         {
           time: "20:00", name: "Midnite: Built For 2026 Not 2006 Handicap", type: "handicap", distance: "6f16y",
           going: "Standard", runners: 9, source: "full", status: "pending",
-          writeup: "flat/analyses/2026-10-26_southwell/2000_6f-class-5-3yo-handicap.md", updated: "19:53 Sun 25 Oct",
+          writeup: "flat/analyses/2026-10-26_southwell/2000_6f-class-5-3yo-handicap.md", updated: "20:26 Sun 25 Oct",
           picks: [
-            { rank: 1, horse: "Horace Wallace", prob: 0.27, finish: "-", confidence: "medium",
-              reason: "Three AW 6f figures (+8, +15, +16) all earned in contention, including a franked C&D 2nd, and he is only 2lb higher.",
-              against: "Up 9lb since 1 Sep; has not won off a mark above 69." },
-            { rank: 2, horse: "Overbudget", prob: 0.18, finish: "-", confidence: "low",
+            { rank: 1, horse: "Horace Wallace", prob: 0.26, finish: "-", confidence: "medium",
+              reason: "Three AW 6f figures (+8, +15, +16) earned in contention, his Wolverhampton win franked and his C&D 2nd partly franked; only 2lb higher.",
+              against: "Up 9lb since 1 Sep; has not won off a mark above 69; trainer and jockey under 10% at Southwell." },
+            { rank: 2, horse: "Overbudget", prob: 0.17, finish: "-", confidence: "low",
               reason: "Won both her last two over C&D and carries 8-13 off a 4lb higher mark.",
-              against: "Her winning figures (+5, +13) are below Horace Wallace's, and her earlier turf form was poor." },
+              against: "Her winning figures (+5, +13) are below Horace Wallace's, the latest win is not franked, and her earlier turf form was poor." },
             { rank: 3, horse: "Cosmic Clarets", prob: 0.12, finish: "-", confidence: "low",
-              reason: "Two fast AW 6f figures (+15, +25) earned finishing 2nd, and a falling mark with 8-10 to carry.",
-              against: "0 wins from 12 (5 places); a recurring placer." }
+              reason: "Two fast AW 6f figures (+15, +25) earned finishing 2nd, the Newcastle one franked, and a falling mark with 8-10 to carry.",
+              against: "0 wins from 12 (5 places); the Dixon yard is 4% at Southwell." }
           ],
           winner: null,
           grade: "pending", errors: [],
-          notes: "Written 19:53 Sun 25 Oct. Horace Wallace has three fast AW 6f figures, all earned in contention, and has only gone up 2lb. Overbudget is a dual C&D winner on a low weight. Rest: Riley Rocks 10%, Kinnalargy 9%, Rumble Ruby 8%, Hallandale Beach 7%, Tip Foster 5%, Dark Angel Light 4%."
+          notes: "Updated 20:26 Sun 25 Oct: franks for every runner, Southwell draw/pace (1134 races) and course trainer/jockey records added. Same order. Wording corrected: Horace Wallace's C&D 2nd is partly franked, not franked: the winner New Image placed 3rd off 83 next time, having won over C&D the week before. His Wolverhampton win is franked (the 4th has won since). Horace Wallace down from 27% to 26% (Fahey 9% and Egan 7% at Southwell). Overbudget down from 18% to 17%: her latest C&D win is not franked. Riley Rocks up from 10% to 11% (Dylan Cunha 13 from 66, 20%, here). Cosmic Clarets stays at 12%: his Newcastle 2nd is franked (Pivotal Terms and Taaklam have won since), but the Dixon yard is 4% here. Rest: Riley Rocks 11%, Kinnalargy 9%, Rumble Ruby 8%, Hallandale Beach 7%, Tip Foster 5%, Dark Angel Light 5%."
         },
         {
           time: "20:30", name: "AW Trials Day - Lingfield 2nd Jan 2027 Handicap (GBBPlus Race)", type: "handicap", distance: "2m102y",
           going: "Standard", runners: 6, source: "full", status: "pending",
-          writeup: "flat/analyses/2026-10-26_southwell/2030_2m-class-4-handicap.md", updated: "19:53 Sun 25 Oct",
+          writeup: "flat/analyses/2026-10-26_southwell/2030_2m-class-4-handicap.md", updated: "20:26 Sun 25 Oct",
           picks: [
-            { rank: 1, horse: "Benvoy", prob: 0.33, finish: "-", confidence: "medium",
+            { rank: 1, horse: "Benvoy", prob: 0.32, finish: "-", confidence: "medium",
               reason: "Both AW staying runs in contention (won Kempton 2m cosily, 2nd beaten 1L at Lingfield 2m); only 5lb higher.",
-              against: "Up 5lb for a cosy win and untried at Southwell; his hurdles form this year includes two pulled-up runs." },
-            { rank: 2, horse: "Tarbat Ness", prob: 0.22, finish: "-", confidence: "low",
-              reason: "Placed in 5 of his last 6 at the trip, including two 2nds off today's mark of 72.",
-              against: "A placer: 6 wins from 50 and beaten in his last four." },
+              against: "Up 5lb, untried at Southwell, held up (hold-up horses win 6.6% over 2m here), no frank found, and two pulled-up hurdle runs this year." },
+            { rank: 2, horse: "Tarbat Ness", prob: 0.21, finish: "-", confidence: "low",
+              reason: "Placed in 5 of his last 6 at about 2m, including two 2nds off today's mark of 72.",
+              against: "A placer (6 wins from 50) and his Ripon 2nd is not franked." },
             { rank: 3, horse: "Vaguely Royal", prob: 0.15, finish: "-", confidence: "low",
               reason: "Won at York 2m off 69 in July and stays well.",
               against: "Beaten 7L+ three times since, and no AW run in his last 6." }
           ],
           winner: null,
           grade: "pending", errors: [],
-          notes: "Written 19:53 Sun 25 Oct. Six-runner staying handicap. Per the playbook, times at 2m on AW separate little, so this leans on beaten distances and consistency at the trip. Benvoy's two AW staying runs (a win and a 2nd) are the best recent form. Rest: Charging Thunder 14%, Solar Pass 11%, Shadow Dance 5%."
+          notes: "Updated 20:26 Sun 25 Oct: franks for every runner, Southwell draw/pace (1134 races) and course trainer/jockey records added. Same order. Benvoy down from 33% to 32%: his Kempton win has no frank found, and Jo Davis has had no Southwell AW runners in two years. Tarbat Ness down from 22% to 21%: his Ripon 2nd is not franked. Solar Pass up from 11% to 13%: her Goodwood 2nd is franked (the winner Arc Zoosve has won since); Balding 14% here. Draw is neutral at 2m on the larger sample (25 races, 8+ runners); leaders win 16.7%, which suits Solar Pass (prominent in most recent runs) more than the held-up Benvoy; Tarbat Ness and Charging Thunder have raced both handily and held up. Rest: Charging Thunder 14%, Solar Pass 13%, Shadow Dance 5%."
         }
       ]
     }

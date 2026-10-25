@@ -214,3 +214,86 @@ Course trainer and jockey strike rates were not pulled (At The Races Smart Stats
 - Sporting Life racecard: https://www.sportinglife.com/racing/racecards/2026-10-26/southwell/racecard/945381/x
 - Racing Post racecard: https://www.racingpost.com/racecards/394/southwell-aw/2026-10-26/932078
 - Sporting Life result pages for every run in the tables (https://www.sportinglife.com/racing/results/<date>/x/<race id>/x), race ids 934977, 923007, 921187, 916245, 870768, 866127, 944024, 936202, 932254, 930635, 924182, 920119, 941956, 940574, 938811, 936022, 934637, 908681, 907485, 906945, 904324, 902658, 901919, 943775, 935841, 933278, 926094, 924897, 922395, 943589, 929729, 924399, 917346, 915076, 938113, 931429, 927813, 926395, 925079, 922197, 916710, 912201, 861985, 860561, 856436, 925345, 920835, 917613, 913917, 911903, 899546
+
+## Update 20:26 (20:26 Sun 25 Oct)
+
+Data gaps filled. Picks and probabilities below replace the ones above; the original analysis is kept unchanged above.
+
+**Re-checked at 20:26 Sun 25 Oct:** no non-runners (Racing Post card, all 9 declared still listed; Sporting Life shows 9 runners); going Standard (Sporting Life meeting summary).
+
+### What changed
+
+Same order. Pivotal Terms up from 22% to 24%: trainer Iain Jardine is 12 from 66 (18%) at Southwell AW. Kipp Kelly down from 20% to 19% (trainer 5 from 112, rider 3 from 74 here). Beach Partee down from 17% to 16%: his key Brighton run is franked, but the Dixon yard is 11 from 251 (4%) here and his rider is 0 from 27. Pivotal Terms' winning form: no frank found (none of the first three has run since).
+
+### Revised picks
+
+| Rank | Horse | Win chance | Fair price | Confidence | Key reason | Strongest case against |
+|---|---|---|---|---|---|---|
+| 1 | Pivotal Terms | 24% | 3/1 (4.17) | low | Won at Southwell last time, her 7lb claim offsets the 2lb rise, she was 7L clear of Beach Partee, and her trainer is 18% here. | Drops from 6f to 5f, where three of her four runs this year were beaten 5.5L+; keen and held up, and hold-up horses win 7% of 5f races here. |
+| 2 | Kipp Kelly | 19% | 9/2 (5.26) | low | Most consistent 5f AW form in the race: 5 of his last 6 within 2L, including a win off 47 and a 2nd off today's mark. | 216 days off, a placer profile (1 win from 28), and trainer and rider are both about 4% at Southwell. |
+| 3 | Beach Partee | 16% | 5/1 (6.25) | low | Placed in 4 of his last 6, including a C&D 4th; his Brighton 2nd is franked (the winner has won since). | Beaten 7.1L by Pivotal Terms 9 days ago; Dixon yard 4% and his rider 0 from 27 at Southwell. |
+
+Rest of the field: Bridget's Baby 12%, Anglesey Lad 7%, Coast 6%, Great Success 6%, Auradue 5%, Petes Diamond 5%. Total about 100%.
+
+### Draw and pace at Southwell 5f (larger sample)
+
+Sporting Life result pages for every Southwell AW race between 2024-10-28 and 2026-10-24 (1134 races, all read this session). Races with 8+ runners at this trip: 104.
+
+| Draw third | Win rate |
+|---|---|
+| Low | 11.7% (36/307) |
+| Middle | 8.3% (28/337) |
+| High | 10.4% (41/395) |
+
+| Position in the race (from the in-running comment) | Win rate |
+|---|---|
+| Led | 21.7% (30/138) |
+| Prominent | 10.9% (31/284) |
+| Midfield | 6.9% (13/188) |
+| Held up / rear | 7.2% (31/429) |
+
+The draw is neutral: the thirds differ by no more than about 3 percentage points. The pace split uses where each horse raced in that race, so it partly reflects which horse was best on the day; read it as "front-runners are not disadvantaged here" rather than as a clean bias. **Verified** (own count).
+
+### Connections: Southwell AW record, 2024-10-28 to 2026-10-24 (own count from the same result pages)
+
+| Horse | Trainer | Trainer record | Jockey | Jockey record |
+|---|---|---|---|---|
+| Bridget's Baby | A W Carroll | 20/202 (10%), placed 34% | Myla Coppins | 1/8 (13%), placed 25% |
+| Pivotal Terms | I Jardine | 12/66 (18%), placed 35% | Cara Tuke | 2/5 (40%), placed 40% |
+| Beach Partee | S Dixon | 11/251 (4%), placed 18% | Christian Howarth | 0/27 (0%), placed 11% |
+| Kipp Kelly | D Shaw | 5/112 (4%), placed 15% | Alex Jary | 3/74 (4%), placed 16% |
+| Great Success | S Dixon | 11/251 (4%), placed 18% | Mikkel Mortensen | 0/27 (0%), placed 19% |
+| Auradue | S R Bowring | 3/60 (5%), placed 23% | Donagh Murphy | 2/16 (13%), placed 31% |
+| Coast | S Dixon | 11/251 (4%), placed 18% | Laura Coughlan | 1/15 (7%), placed 33% |
+| Anglesey Lad | S Dixon | 11/251 (4%), placed 18% | Charlie Tucker | 0/7 (0%), placed 43% |
+| Petes Diamond | Joey Ramsden | 2/73 (3%), placed 32% | Taryn Langley | 1/49 (2%), placed 24% |
+
+These are course records only, without odds, so they don't adjust for how fancied each runner was. They are used as tiebreakers, not as primary evidence (Step 10).
+
+### Franks: key run and last run for every raced runner
+
+For each run, the first three home (other than the runner) were looked up on their Sporting Life profiles and every run since was read. "Franked" = one of them has won since.
+
+| Horse | Run | Date / course | Pos | Verdict | What the first three have done since (pos/ran, class) |
+|---|---|---|---|---|---|
+| Bridget's Baby | key | 2026-06-18 Lingfield 4f 217y | 1/4 | franked: Ken Brulee (4th) has won since | 2. Kodi K: 6/6 C6, 5/7 C6, 6/7 C6; 3. Lesley Buckley: 9/16 C6, 7/11 C6, 9/11 C6; 4. Ken Brulee: 8/9 C6, 10/13 C6, 5/8 C6, 1/8 C6, 6/6 C6, 3/6 C6 |
+| Bridget's Baby | last | 2026-08-26 Wolverhampton 5f 21y | 6/6 | partly franked: Fancy Dancer placed since; Sub Thirteen placed since; no winner since | 1. Sixcor: 11/14 C6, 5/8 C6, 6/11 C6; 2. Fancy Dancer: 9/11 C6, 2/8 C6; 3. Sub Thirteen: 7/14 C6, 4/11 C6, 3/17 C2 |
+| Pivotal Terms | key and last | 2026-10-17 Southwell 6f 17y | 1/12 | no frank found (none of the first three has run since) | 2. Black Missile: not run since; 3. King Cherry: not run since; 4. Persian Gate: not run since |
+| Beach Partee | key | 2026-09-28 Brighton 5f 60y | 2/9 | franked: Roman Spring (winner) has won since | 1. Roman Spring: 1/9 C6, 6/9 C5; 3. Bated Breeze: 2/9 C6; 4. Diamond Dreamer: not run since |
+| Beach Partee | last | 2026-10-17 Southwell 6f 17y | 10/12 | no frank found (none of the first three has run since) | 1. Pivotal Terms: not run since; 2. Black Missile: not run since; 3. King Cherry: not run since |
+| Kipp Kelly | key | 2026-02-13 Wolverhampton 5f 21y | 1/7 | partly franked: Colors Of Freedom placed since; Isla Bella placed since; no winner since | 2. Colors Of Freedom: 5/11 C6, 7/8 C6, 4/13 C6, 3/11 C6, 4/9 C6, 3/7 C6, 5/9 C6; 3. Isla Bella: 5/9 C6, 5/9 C6, 5/7 C6, 6/8 C6, 3/9 C6, 11/14 C6, 5/9 C6, 9/13 C6, 2/9 C6, 7/9 C6, 8/10 C6, 4/8 C6; 4. My Genghis: 7/9 C6 |
+| Kipp Kelly | last | 2026-03-24 Wolverhampton 5f 21y | 5/9 | franked: Kento (winner) has won since; Henery Hawk (3rd) has won since | 1. Kento: 3/6 C5, 7/16 C2, 2/6 C6, 3/5 C6, 3/13 C6, 2/8 C5, 1/9 C6, 5/8 C6, 3/9 C6; 2. Isla Bella: 5/9 C6, 5/9 C6, 5/7 C6, 6/8 C6, 3/9 C6, 11/14 C6, 5/9 C6, 9/13 C6; 3. Henery Hawk: 4/9 C6, 2/8 C6, 7/13 C6, 3/8 C6, 5/8 C6, 3/13 C6, 10/12 C5, 3/6 C5, 1/9 C6, 6/9 C6 |
+| Great Success | key | 2026-06-15 Carlisle 5f 182y | 5/8 | franked: April Diamond (2nd) has won since | 1. Little Beck Annie: 2/13 C6, 2/11 C6, 5/8 C6, 5/13 C6; 2. April Diamond: 7/7 C6, 1/10 C6, 6/7 C6, 13/13 C6; 3. Stormy Pearl: 5/12 C6, 11/16 C6, 3/16 C6, 3/9 C6, 13/18 C6 |
+| Great Success | last | 2026-10-16 Newcastle 5f | 5/10 | no frank found (none of the first three has run since) | 1. Tommie's Angel: not run since; 2. Zuffolo: not run since; 3. Shatin Venture: not run since |
+| Auradue | key | 2026-06-26 Doncaster 6f 2y | 4/8 | franked: Regional Rock (2nd) has won since | 1. Dark Angel Light: 7/7 C4; 2. Regional Rock: 1/14 C4, 4/7 C3, 3/13 C3; 3. Sand Sea: not run since |
+| Auradue | last | 2026-10-15 Southwell 7f 14y | 8/11 | franked: Distillate (winner) has won since | 1. Distillate: 1/9 C6; 2. Based: not run since; 3. Sonbelievable: not run since |
+| Coast | key | 2026-07-07 Brighton 5f 215y | 3/11 | partly franked: Bated Breeze placed since; Barnsnape Boy placed since; no winner since | 1. Bated Breeze: 2/9 C6, 3/9 C6, 3/11 C6, 13/16 C2, 4/7 C6; 2. Valsharah: 6/6 C6, 4/9 C6; 4. Barnsnape Boy: 3/10 C6, 7/8 C6, 8/12 C6 |
+| Coast | last | 2026-09-13 Bath 5f 160y | 11/17 | not franked: 3 of the first three ran since without placing | 1. Rinky Tinky Tinky: 4/14 C6; 2. Legendsoftheland: 4/9 C6, 8/10 C5; 3. Sub Thirteen: 7/14 C6, 4/11 C6 |
+| Anglesey Lad | key | 2025-05-08 Brighton 5f 60y | 4/7 | franked: Port Hedland (winner) has won since | 1. Port Hedland: 4/8 C6, 6/8 C6, 8/16 C2, 8/8 C6, 5/6 C6, 8/11 C6, 1/9 C6, 6/13 C6, 9/13 C6, 7/8 C6, 5/9 C6, 7/11 C6, 4/7 C6, 3/9 C6, 7/7 C6, 8/12 C6, 8/13 C2, 7/9 C6, 6/8 C6, 6/10 C6, 8/9 C6; 2. Victors Dream: 11/13 C6, 6/7 C6, 4/9 C6, 6/8 C6; 3. Bankrupt: 8/9 C6, 5/8 C6 |
+| Anglesey Lad | last | 2026-09-28 Brighton 5f 60y | 9/9 | franked: Roman Spring (winner) has won since | 1. Roman Spring: 1/9 C6, 6/9 C5; 2. Beach Partee: 10/12 C6, 3/9 C6; 3. Bated Breeze: 2/9 C6 |
+| Petes Diamond | key | 2026-04-26 Nottingham 6f 18y | 7/15 | partly franked: Tickettothestars placed since; Mademoiselle Belle placed since; no winner since | 1. Tickettothestars: 6/6 C6, 6/11 C6, 2/13 C6, 4/9 C6; 2. Mademoiselle Belle: 12/12 C6, 12/12 C6, 8/8 C6, 9/11 C6, 3/6 C6, 6/9 C6; 3. In Denial: 5/6 C6, 10/13 C6 |
+| Petes Diamond | last | 2026-07-01 Thirsk 6f | 17/18 | franked: Barmyblade (winner) has won since | 1. Barmyblade: 8/12 C6, 2/5 C6, 7/9 C6, 4/8 C6, 1/7 C6, 10/10 C6; 2. Indy's Angel: 2/10 C6, 11/16 C6, 3/7 C6, 7/11 C6, 2/9 C6; 3. Golden Prosperity: 7/14 C6, 3/10 C6, 4/8 C6, 10/16 C6, 7/13 C6, 2/9 C6, 7/9 C6, 3/10 C6 |
+
+### Still unverified
+
+- Prices: not fetched or used (the market is not an input).

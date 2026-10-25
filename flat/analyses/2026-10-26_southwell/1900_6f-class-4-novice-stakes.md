@@ -178,3 +178,83 @@ Course trainer and jockey strike rates were not pulled (At The Races Smart Stats
 - Sporting Life racecard: https://www.sportinglife.com/racing/racecards/2026-10-26/southwell/racecard/945385/x
 - Racing Post racecard: https://www.racingpost.com/racecards/394/southwell-aw/2026-10-26/929596
 - Sporting Life result pages for every run in the tables (https://www.sportinglife.com/racing/results/<date>/x/<race id>/x), race ids 941597, 891266, 940742, 937243, 933385, 929070, 926062, 923490, 938423, 943588, 941328, 940133, 937235, 936440, 934972, 885385, 869878, 942990
+
+## Update 20:26 (20:26 Sun 25 Oct)
+
+Data gaps filled. Picks and probabilities below replace the ones above; the original analysis is kept unchanged above.
+
+**Re-checked at 20:26 Sun 25 Oct:** no non-runners (Racing Post card, all 10 declared still listed; Sporting Life shows 10 runners); going Standard (Sporting Life meeting summary).
+
+### What changed
+
+Same order. Darkwing up from 15% to 17%: both her 2025 runs are franked (the Newbury winner Calendar Girl and 3rd Box Clever have won since, and the Yarmouth 3rd Fractional has won since). Big Money down from 38% to 36%: his Southwell 2nd has no frank found (neither Cloud Forest nor Hozam has run since). Court Alert down to 11% (Eve Johnson Houghton 2 from 44 here); Prosewriter up to 9% (Archie Watson runners place 49% of the time here). Newcomers' sires and dams confirmed on the Racing Post card: Valor's Call (Night Of Thunder - Evolica), Prosewriter (St Mark's Basilica - Rime A Rien), Nando Tornado (Nando Parrado - Miami Breeze). Sale prices still come only from the Sporting Life comment.
+
+### Revised picks
+
+| Rank | Horse | Win chance | Fair price | Confidence | Key reason | Strongest case against |
+|---|---|---|---|---|---|---|
+| 1 | Big Money | 36% | 7/4 (2.78) | medium | Course 2nd beaten 3.75L by an 83-rated winner, ahead of a 79-rated horse: the best exposed form here (about 76-79). | Drops from 7f to 6f after both runs at 7f; no frank found yet. |
+| 2 | Darkwing | 17% | 5/1 (5.88) | low | RPR 77 from two 2025 runs, both now franked by later winners, and a 5lb fillies' allowance. | 370 days off and a new yard (O'Meara 7 from 92 here); never closer than 4.3L. |
+| 3 | Valor's Call | 13% | 13/2 (7.69) | low | Night Of Thunder newcomer (pedigree confirmed on Racing Post) for George Scott, 6 from 40 at Southwell. | Unraced (rule E: pedigree is not evidence); first-time hood. |
+
+Rest of the field: Court Alert 11%, Prosewriter 9%, Nando Tornado 6%, Flag Of Nations 3%, Katie Louise 2%, Manjaros Express 1.5%, Aurora's Doublesix 1.5%. Total about 100%.
+
+### Draw and pace at Southwell 6f (larger sample)
+
+Sporting Life result pages for every Southwell AW race between 2024-10-28 and 2026-10-24 (1134 races, all read this session). Races with 8+ runners at this trip: 181.
+
+| Draw third | Win rate |
+|---|---|
+| Low | 8.4% (47/557) |
+| Middle | 8.9% (54/606) |
+| High | 11.0% (80/727) |
+
+| Position in the race (from the in-running comment) | Win rate |
+|---|---|
+| Led | 16.7% (39/233) |
+| Prominent | 10.8% (47/437) |
+| Midfield | 9.1% (44/484) |
+| Held up / rear | 6.9% (51/736) |
+
+The draw is neutral: the thirds differ by no more than about 3 percentage points. The pace split uses where each horse raced in that race, so it partly reflects which horse was best on the day; read it as "front-runners are not disadvantaged here" rather than as a clean bias. **Verified** (own count).
+
+### Connections: Southwell AW record, 2024-10-28 to 2026-10-24 (own count from the same result pages)
+
+| Horse | Trainer | Trainer record | Jockey | Jockey record |
+|---|---|---|---|---|
+| Big Money | M Appleby | 25/233 (11%), placed 34% | Tom Marquand | 4/51 (8%), placed 37% |
+| Court Alert | Eve Johnson Houghton | 2/44 (5%), placed 39% | Oliver Carmichael | 2/13 (15%), placed 23% |
+| Flag Of Nations | W Muir & C Grassick | 6/52 (12%), placed 29% | Marco Ghiani | 18/151 (12%), placed 38% |
+| Manjaros Express | Martin Dunne | 7/54 (13%), placed 28% | Alice Bond | 1/8 (13%), placed 13% |
+| Nando Tornado | T D Barron | 3/30 (10%), placed 40% | A Mullen | 9/56 (16%), placed 27% |
+| Prosewriter | A Watson | 9/82 (11%), placed 49% | Billy Loughnane | 31/200 (16%), placed 49% |
+| Valor's Call | George Scott | 6/40 (15%), placed 40% | George Wood | 13/122 (11%), placed 33% |
+| Aurora's Doublesix | B Rothwell | 2/16 (13%), placed 13% | K T O'Neill | 15/214 (7%), placed 31% |
+| Darkwing | D O'Meara | 7/92 (8%), placed 43% | Callum Rodriguez | 15/104 (14%), placed 52% |
+| Katie Louise | Martin Dunne | 7/54 (13%), placed 28% | Taryn Langley | 1/49 (2%), placed 24% |
+
+These are course records only, without odds, so they don't adjust for how fancied each runner was. They are used as tiebreakers, not as primary evidence (Step 10).
+
+### Franks: key run and last run for every raced runner
+
+For each run, the first three home (other than the runner) were looked up on their Sporting Life profiles and every run since was read. "Franked" = one of them has won since.
+
+| Horse | Run | Date / course | Pos | Verdict | What the first three have done since (pos/ran, class) |
+|---|---|---|---|---|---|
+| Big Money | key and last | 2026-10-03 Southwell 7f 14y | 2/11 | no frank found (none of the first three has run since) | 1. Cloud Forest: not run since; 3. All You Can Be: not run since; 4. Hozam: not run since |
+| Court Alert | key | 2026-07-22 Leicester 5f | 2/4 | not franked: 2 of the first three ran since without placing | 1. Star Velocity: not run since; 3. El Ghuwah: 10/12 C6, 4/9 C4; 4. Red Legs: 12/12 C6, 9/9 C6 |
+| Court Alert | last | 2026-09-29 Wolverhampton 6f 20y | 7/11 | franked: Go Lockers Go (winner) has won since | 1. Go Lockers Go: 7/10 C5, 1/9 C6; 2. Methgal: 2/7 C5, 3/13 C5; 3. Molly Mac: 5/6 C5 |
+| Flag Of Nations | key and last | 2026-09-15 Wolverhampton 6f 20y | 8/12 | franked: Inkberrow (2nd) has won since | 1. Not That Guy: 5/12 C4; 2. Inkberrow: 1/7 C4, 1/7 C4; 3. Ennoble: 2/6 C4 |
+| Manjaros Express | key and last | 2026-10-03 Southwell 7f 14y | 11/11 | no frank found (none of the first three has run since) | 1. Cloud Forest: not run since; 2. Big Money: not run since; 3. All You Can Be: not run since |
+| Aurora's Doublesix | key | 2026-08-26 Catterick 7f 6y | 5/8 | partly franked: Soca Star placed since; no winner since | 1. Lady Gormire: 7/10 C5, 13/13 C5; 2. Soca Star: 5/10 C6, 3/10 C5; 3. Moonlight Melody: 16/18 C5, 4/7 C4, 6/13 C5 |
+| Aurora's Doublesix | last | 2026-10-15 Southwell 7f 14y | 13/13 | no frank found (none of the first three has run since) | 1. Midnight's Dream: not run since; 2. Little Beck Annie: not run since; 3. Able Astra: not run since |
+| Darkwing | key | 2025-07-24 Newbury 7f | 5/9 | franked: Calendar Girl (winner) has won since; Box Clever (3rd) has won since | 1. Calendar Girl: 4/7 C1, 6/10 C1, 1/10 C1, 1/10 C1, 1/21 C2, 2/8 C4; 2. Sydney Rock: 6/10 C4, 2/5 C4, 2/6 C5, 2/7 C5, 6/6 C5, 7/7 C5, 10/10 C5, 2/12 C4, 2/9 C5; 3. Box Clever: 9/9 C4, 7/7 C5, 1/8 C5, 3/8 C5, 10/12 C5, 9/10 C5, 2/10 C5, 3/6 C5, 4/6 C5, 1/8 C2 |
+| Darkwing | last | 2025-10-21 Yarmouth 1m 3y | 5/10 | franked: Fractional (3rd) has won since | 1. Ottoman Empress: not run since; 2. Ladykirk: 3/8 C4, 8/8 C4, 2/5 C3, 5/6 C3, 5/10 C3; 3. Fractional: 1/9 C5, 3/5 C4, 3/7 C4, 2/3 C4, 5/6 C1 |
+| Katie Louise | key and last | 2026-10-12 Kempton 6f | 7/7 | no frank found (none of the first three has run since) | 1. One Of The Boys: not run since; 2. Amorist: not run since; 3. Oceti: not run since |
+
+Unraced (nothing to frank): Nando Tornado, Prosewriter, Valor's Call.
+
+### Still unverified
+
+- Newcomers' sale prices (Sporting Life card comment only; pedigrees now confirmed on Racing Post).
+- Prices: not fetched or used (the market is not an input).

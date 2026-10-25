@@ -168,3 +168,77 @@ Course trainer and jockey strike rates were not pulled (At The Races Smart Stats
 - Sporting Life racecard: https://www.sportinglife.com/racing/racecards/2026-10-26/southwell/racecard/945388/x
 - Racing Post racecard: https://www.racingpost.com/racecards/394/southwell-aw/2026-10-26/929597
 - Sporting Life result pages for every run in the tables (https://www.sportinglife.com/racing/results/<date>/x/<race id>/x), race ids 943174, 938806, 930604, 928541, 924713, 919274, 940395, 936924, 931222, 910598, 903980, 900283, 942185, 933589, 912361, 906041, 897235, 894959, 940915, 936436, 932983, 929539, 926074, 922080, 934645, 941333, 934780, 927301, 919959, 942792, 939758, 924681, 922207, 919762, 915092
+
+## Update 20:26 (20:26 Sun 25 Oct)
+
+Data gaps filled. Picks and probabilities below replace the ones above; the original analysis is kept unchanged above.
+
+**Re-checked at 20:26 Sun 25 Oct:** no non-runners (Racing Post card, all 6 declared still listed; Sporting Life shows 6 runners); going Standard (Sporting Life meeting summary).
+
+### What changed
+
+Same order. Benvoy down from 33% to 32%: his Kempton win has no frank found, and Jo Davis has had no Southwell AW runners in two years. Tarbat Ness down from 22% to 21%: his Ripon 2nd is not franked. Solar Pass up from 11% to 13%: her Goodwood 2nd is franked (the winner Arc Zoosve has won since); Balding 14% here. Draw is neutral at 2m on the larger sample (25 races, 8+ runners); leaders win 16.7%, which suits Solar Pass (prominent in most recent runs) more than the held-up Benvoy; Tarbat Ness and Charging Thunder have raced both handily and held up.
+
+### Revised picks
+
+| Rank | Horse | Win chance | Fair price | Confidence | Key reason | Strongest case against |
+|---|---|---|---|---|---|---|
+| 1 | Benvoy | 32% | 2/1 (3.13) | medium | Both AW staying runs in contention (won Kempton 2m cosily, 2nd beaten 1L at Lingfield 2m); only 5lb higher. | Up 5lb, untried at Southwell, held up (hold-up horses win 6.6% over 2m here), no frank found, and two pulled-up hurdle runs this year. |
+| 2 | Tarbat Ness | 21% | 4/1 (4.76) | low | Placed in 5 of his last 6 at about 2m, including two 2nds off today's mark of 72. | A placer (6 wins from 50) and his Ripon 2nd is not franked. |
+| 3 | Vaguely Royal | 15% | 11/2 (6.67) | low | Won at York 2m off 69 in July and stays well. | Beaten 7L+ three times since, and no AW run in his last 6. |
+
+Rest of the field: Charging Thunder 14%, Solar Pass 13%, Shadow Dance 5%. Total about 100%.
+
+### Draw and pace at Southwell 2m (larger sample)
+
+Sporting Life result pages for every Southwell AW race between 2024-10-28 and 2026-10-24 (1134 races, all read this session). Races with 8+ runners at this trip: 25.
+
+| Draw third | Win rate |
+|---|---|
+| Low | 11.0% (8/73) |
+| Middle | 7.6% (6/79) |
+| High | 12.1% (11/91) |
+
+| Position in the race (from the in-running comment) | Win rate |
+|---|---|
+| Led | 16.7% (7/42) |
+| Prominent | 11.1% (6/54) |
+| Midfield | 10.7% (6/56) |
+| Held up / rear | 6.6% (6/91) |
+
+The draw is neutral: the thirds differ by no more than about 3 percentage points. The pace split uses where each horse raced in that race, so it partly reflects which horse was best on the day; read it as "front-runners are not disadvantaged here" rather than as a clean bias. **Verified** (own count).
+
+### Connections: Southwell AW record, 2024-10-28 to 2026-10-24 (own count from the same result pages)
+
+| Horse | Trainer | Trainer record | Jockey | Jockey record |
+|---|---|---|---|---|
+| Charging Thunder | James Owen | 33/218 (15%), placed 44% | Christian Howarth | 0/27 (0%), placed 11% |
+| Shadow Dance | R Menzies | 6/53 (11%), placed 25% | Rhys Elliott | 0/15 (0%), placed 13% |
+| Benvoy | Miss J S Davis | no runs | Tom Marquand | 4/51 (8%), placed 37% |
+| Tarbat Ness | John Berry | 2/8 (25%), placed 38% | Gina Mangan | 5/33 (15%), placed 27% |
+| Vaguely Royal | Ian Williams | 18/160 (11%), placed 31% | Billy Loughnane | 31/200 (16%), placed 49% |
+| Solar Pass | A M Balding | 26/180 (14%), placed 45% | Jason Watson | 21/126 (17%), placed 41% |
+
+These are course records only, without odds, so they don't adjust for how fancied each runner was. They are used as tiebreakers, not as primary evidence (Step 10).
+
+### Franks: key run and last run for every raced runner
+
+For each run, the first three home (other than the runner) were looked up on their Sporting Life profiles and every run since was read. "Franked" = one of them has won since.
+
+| Horse | Run | Date / course | Pos | Verdict | What the first three have done since (pos/ran, class) |
+|---|---|---|---|---|---|
+| Charging Thunder | key | 2026-06-27 Newcastle 2m 56y | 11/20 | franked: Sax Appeal (3rd) has won since | 1. Believitanducan: 2/10 C4, 3/12 C4; 2. Haveyoumissedme: 2/12 C3, 8/11 C4, 4/13 C4; 3. Sax Appeal: 11/14 C2, 28/29 C2, 1/5 C4, 4/7 C4, 3/5 C3 |
+| Charging Thunder | last | 2026-10-13 Wolverhampton 1m 5f 219y | 3/7 | no frank found (none of the first three has run since) | 1. Zachary Hickes: not run since; 2. Son Of Man: not run since; 4. Ottoman: not run since |
+| Shadow Dance | key | 2026-09-06 York 2m 56y | 7/12 | not franked: 3 of the first three ran since without placing | 1. Moon Chime: null/17 C1; 2. High Fibre: 4/29 C2; 3. Pinatique: 9/10 C1 |
+| Shadow Dance | last | 2026-09-26 Haydock 1m 6f | 5/9 | not franked: 2 of the first three ran since without placing | 1. Yaa Min: 5/5 C3; 2. Trojan Sun: 10/10 C4; 3. Sharp Move: not run since |
+| Benvoy | key and last | 2026-10-07 Kempton 1m 7f 218y | 1/9 | no frank found (none of the first three has run since) | 2. Gemmari: not run since; 3. Autumn's Breeze: not run since; 4. Now The Eagle: not run since |
+| Tarbat Ness | key and last | 2026-09-26 Ripon 2m | 2/5 | not franked: 2 of the first three ran since without placing | 1. Sax Appeal: 11/14 C2, 28/29 C2; 3. Zimmerman: 9/10 C4; 4. Talismans Time: not run since |
+| Vaguely Royal | key | 2026-07-24 York 2m 56y | 1/13 | franked: Newport (4th) has won since | 2. Queen Roslyn: 7/12 C6, 2/12 C5, 5/5 C3; 3. Furhaan: 3/5 C6, 2/7 C6, 3/10 C5, 9/12 C4, 4/9 C4; 4. Newport: 4/7 C6, 4/12 C6, 10/12 C4, 5/9 C4, 1/9 C6 |
+| Vaguely Royal | last | 2026-10-10 Newmarket 2m 2f | 13/29 | no frank found (none of the first three has run since) | 1. Alphonse Le Grande: not run since; 2. Sea Lantern: not run since; 3. Dawn Rising: not run since |
+| Solar Pass | key | 2026-05-02 Goodwood 2m | 2/7 | franked: Arc Zoosve (winner) has won since | 1. Arc Zoosve: 7/14 C2, 12/12 C4, 20/20 C2, 1/6 C5; 3. St Mawes: 4/10 C4, 3/9 C4, 6/15 C2, 2/5 C3; 4. Percy Shelley: 15/29 C2, 2/6 C3, 4/12 C4, 2/5 C4, 6/11 C3, 6/9 C4, 2/11 C2 |
+| Solar Pass | last | 2026-10-11 Goodwood 2m | 11/12 | no frank found (none of the first three has run since) | 1. Division Day: not run since; 2. Mr Freedom: not run since; 3. Rogue Empire: not run since |
+
+### Still unverified
+
+- Benvoy's Lingfield run at 11-0 (an amateur or apprentice race, per the result page), read literally.
+- Prices: not fetched or used (the market is not an input).

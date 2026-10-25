@@ -240,3 +240,91 @@ Course trainer and jockey strike rates were not pulled (At The Races Smart Stats
 - Sporting Life racecard: https://www.sportinglife.com/racing/racecards/2026-10-26/southwell/racecard/945386/x
 - Racing Post racecard: https://www.racingpost.com/racecards/394/southwell-aw/2026-10-26/929598
 - Sporting Life result pages for every run in the tables (https://www.sportinglife.com/racing/results/<date>/x/<race id>/x), race ids 880908, 874903, 870604, 868753, 855910, 860432, 944197, 939977, 938405, 936898, 929507, 921967, 941152, 930638, 921563, 915619, 891064, 880699, 934182, 928273, 934024, 929512, 927466, 894446, 939573, 916523, 910406, 901736, 898841, 896271, 939575, 926062, 852848, 940540, 930239, 917508, 913901, 876628, 941438, 938417, 936882, 936032, 933268, 929543, 944022, 938275, 934633, 879032, 941969, 935840, 926561, 924410, 923016
+
+## Update 20:26 (20:26 Sun 25 Oct)
+
+Data gaps filled. Picks and probabilities below replace the ones above; the original analysis is kept unchanged above.
+
+**Re-checked at 20:26 Sun 25 Oct:** no non-runners (Racing Post card, all 11 declared still listed; Sporting Life shows 11 runners); going Standard (Sporting Life meeting summary).
+
+### What changed
+
+Same order. Fantasy Obsessor down from 20% to 19% and Angel Love down from 13% to 12%: neither key run is franked (Fantasy Obsessor's 31 Aug conqueror Classy Clarets has placed since; Angel Love's Newcastle win has had one of the first three run since without placing), and Nicola Currie is 1 from 32 at Southwell. Handle With Care up from 10% to 11% (her Lingfield race is franked; Botti 17% here). Arabian Leopard up from 5% to 6% (both her key runs are franked). Lady Roxby stays at 14%: Herrington runners win 18% here, but her Yarmouth 2nd is not franked.
+
+### Revised picks
+
+| Rank | Horse | Win chance | Fair price | Confidence | Key reason | Strongest case against |
+|---|---|---|---|---|---|---|
+| 1 | Fantasy Obsessor | 19% | 9/2 (5.26) | low | Two C&D runs in contention give the best repeated figures in the field (+17, +24), and she carries 7-10lb less than in either. | Up from Class 5 to Class 4, no win in her last 6, not franked, and Overbudget beat her last time. |
+| 2 | Lady Roxby | 14% | 6/1 (7.14) | low | Most consistent 6f filly here (4 of 6 within 2L, three 2nds), with form in better races, for an 18% course trainer. | Carries 9-12, Powdering is level with her on the weights, and her Yarmouth 2nd is not franked. |
+| 3 | Angel Love | 12% | 15/2 (8.33) | low | AW 6f winner last time (Newcastle, fig +6) and placed in 4 of her last 6; trainer 19% at Southwell. | Up 2lb, beaten 4.5L and 6.2L in her other AW handicaps this year, her win is not franked, and her rider is 1 from 32 here. |
+
+Rest of the field: Handle With Care 11%, Courageous Sioux 11%, Powdering 8%, Encore 8%, Arabian Leopard 6%, Lunar Melody 6%, Zooella 3%, Anaisa 2%. Total about 100%.
+
+### Draw and pace at Southwell 6f (larger sample)
+
+Sporting Life result pages for every Southwell AW race between 2024-10-28 and 2026-10-24 (1134 races, all read this session). Races with 8+ runners at this trip: 181.
+
+| Draw third | Win rate |
+|---|---|
+| Low | 8.4% (47/557) |
+| Middle | 8.9% (54/606) |
+| High | 11.0% (80/727) |
+
+| Position in the race (from the in-running comment) | Win rate |
+|---|---|
+| Led | 16.7% (39/233) |
+| Prominent | 10.8% (47/437) |
+| Midfield | 9.1% (44/484) |
+| Held up / rear | 6.9% (51/736) |
+
+The draw is neutral: the thirds differ by no more than about 3 percentage points. The pace split uses where each horse raced in that race, so it partly reflects which horse was best on the day; read it as "front-runners are not disadvantaged here" rather than as a clean bias. **Verified** (own count).
+
+### Connections: Southwell AW record, 2024-10-28 to 2026-10-24 (own count from the same result pages)
+
+| Horse | Trainer | Trainer record | Jockey | Jockey record |
+|---|---|---|---|---|
+| Arabian Leopard | D M Simcock | 14/90 (16%), placed 43% | George Wood | 13/122 (11%), placed 33% |
+| Lady Roxby | M Herrington | 37/202 (18%), placed 38% | J Mitchell | 22/148 (15%), placed 43% |
+| Angel Love | K P De Foy | 10/54 (19%), placed 48% | Nicola Currie | 1/32 (3%), placed 19% |
+| Powdering | M Herrington | 37/202 (18%), placed 38% | Charlie Tucker | 0/7 (0%), placed 43% |
+| Zooella | R M Beckett | 18/71 (25%), placed 63% | Jason Watson | 21/126 (17%), placed 41% |
+| Handle With Care | M Botti | 16/93 (17%), placed 45% | Marco Ghiani | 18/151 (12%), placed 38% |
+| Courageous Sioux | C G Cox | 5/42 (12%), placed 60% | Billy Loughnane | 31/200 (16%), placed 49% |
+| Lunar Melody | R A Fahey | 17/181 (9%), placed 32% | Callum Rodriguez | 15/104 (14%), placed 52% |
+| Anaisa | T D Easterby | 12/120 (10%), placed 32% | D Fentiman | 1/32 (3%), placed 25% |
+| Encore | W J Haggas | 8/58 (14%), placed 45% | Tom Marquand | 4/51 (8%), placed 37% |
+| Fantasy Obsessor | M Appleby | 25/233 (11%), placed 34% | A Mullen | 9/56 (16%), placed 27% |
+
+These are course records only, without odds, so they don't adjust for how fancied each runner was. They are used as tiebreakers, not as primary evidence (Step 10).
+
+### Franks: key run and last run for every raced runner
+
+For each run, the first three home (other than the runner) were looked up on their Sporting Life profiles and every run since was read. "Franked" = one of them has won since.
+
+| Horse | Run | Date / course | Pos | Verdict | What the first three have done since (pos/ran, class) |
+|---|---|---|---|---|---|
+| Arabian Leopard | key | 2025-07-29 Goodwood 6f | 3/13 | franked: Dubai Treasure (winner) has won since; Under The Twilight (2nd) has won since; Powdering (4th) has won since | 1. Dubai Treasure: 5/13 C1, 3/7, 3/6, 8/9, 1/13 C1, 8/9 C1; 2. Under The Twilight: 11/14 C4, 8/9 C4, 1/8 C4, 2/26 C4, 1/12 C4, 4/9 C5, 4/9 C3, 2/7 C4, 6/16 C4, 8/14 C4, 7/12 C4, 17/18 C3, 10/12 C4, 4/7 C4, 3/8 C4; 4. Powdering: 5/10 C3, 9/10 C2, 7/9 C3, 3/11 C4, 7/8 C4, 3/8 C3, 1/7 C4, 14/15 C1, 6/9 C3, 3/11 C3, 3/8 C4, 11/11 C2, 2/11 C2, 9/12 C4, 6/7 C4, 6/8 C2, 4/9 C4, 3/11 C2, 21/25 C2, 1/9 C4, 5/7 C4 |
+| Arabian Leopard | last | 2025-09-25 Newmarket 6f | 1/11 | franked: Powdering (3rd) has won since; Cinque Verde (4th) has won since | 2. Lady Roxby: 2/10 C3, 4/10 C2, 2/9 C3, 2/11 C4, 9/9 C4, 7/12 C2, 7/15 C1, 7/11 C3, 3/7 C4; 3. Powdering: 5/10 C3, 9/10 C2, 7/9 C3, 3/11 C4, 7/8 C4, 3/8 C3, 1/7 C4, 14/15 C1, 6/9 C3, 3/11 C3, 3/8 C4, 11/11 C2, 2/11 C2, 9/12 C4, 6/7 C4, 6/8 C2, 4/9 C4; 4. Cinque Verde: 9/10 C2, 16/20 C3, 8/10 C1, 1/11 C3, 8/9 C3 |
+| Lady Roxby | key | 2026-09-15 Yarmouth 6f 3y | 2/9 | not franked: 3 of the first three ran since without placing | 1. Space Bear: 8/11 C2, 4/16 C1; 3. Zighy: 7/9 C4; 4. Tarot: 7/9 C4 |
+| Lady Roxby | last | 2026-10-19 Pontefract 6f | 2/10 | no frank found (none of the first three has run since) | 1. Dandy Magic: not run since; 3. Homestrait: not run since; 4. Ghisa: not run since |
+| Angel Love | key and last | 2026-10-01 Newcastle 6f | 1/9 | not franked: 1 of the first three ran since without placing | 2. Mae Amor: 6/11 C5, 6/12 C5; 3. Society Kiss: not run since; 4. Lady Kodiac: not run since |
+| Powdering | key | 2026-07-17 Newmarket 6f | 3/8 | franked: Sing The Blues (winner) has won since; Angel Shared (4th) has won since | 1. Sing The Blues: 7/10 C3, 5/13 C1, 6/10 C1, 1/20 C3; 2. Shallow: 6/11 C4, 2/8 C4, 19/20 C3; 4. Angel Shared: 22/24 C2, 4/9 C2, 1/8 C4, 9/20 C3 |
+| Powdering | last | 2026-10-19 Pontefract 6f | 5/10 | no frank found (none of the first three has run since) | 1. Dandy Magic: not run since; 2. Lady Roxby: not run since; 3. Homestrait: not run since |
+| Zooella | key | 2026-07-24 Thirsk 6f | 1/8 | franked: Miss Rainbow (4th) has won since | 2. Canaria Queen: 7/14 C6, 13/14 C4, 4/5 C5, 5/9 C5, 2/8 C4, 2/11 C5, 8/12 C4; 3. Love Alive: 10/12 C6, 7/11 C6, 9/9 C6, 5/5 C6; 4. Miss Rainbow: 3/9 C6, 8/9 C6, 1/8 C6 |
+| Zooella | last | 2026-09-24 Newmarket 6f | 5/10 | partly franked: Woohoo placed since; no winner since | 1. Zooming: not run since; 2. Eternal Sunshine: 9/10 C2, 10/12 C2; 3. Woohoo: 2/10 C3 |
+| Handle With Care | key | 2026-04-03 Lingfield 7f 1y | 7/12 | franked: Cool Molly (winner) has won since; Bella Bisbee (2nd) has won since | 1. Cool Molly: 5/5 C4, 2/6 C4, 3/8 C4, 8/8 C3, 6/12 C2, 15/17 C2, 3/12 C2, 1/7 C5; 2. Bella Bisbee: 6/12 C4, 6/13 C5, 6/8 C5, 3/12 C5, 8/9 C4, 2/8 C5, 10/10 C4, 5/7 C5, 1/12 C5, 3/8 C5, 4/7 C5, 6/9 C4, 5/9 C5, 1/11 C5; 3. Madame De Sevigne: 4/6 C5, 14/15 C4, 9/10 C4, 7/14 C4, 8/13 C4 |
+| Handle With Care | last | 2026-09-22 Southwell 7f 14y | 3/12 | partly franked: Chantelle placed since; no winner since | 1. Town Queen: 5/9 C4; 2. Chantelle: 3/12 C4, 4/11 C4; 4. Afraj: not run since |
+| Courageous Sioux | key and last | 2026-09-22 Southwell 4f 214y | 1/7 | partly franked: Goyard placed since; Hanney Girl placed since; no winner since | 2. Goyard: 3/7 C5; 3. Hanney Girl: 3/10 C5, 5/12 C4; 4. Managing Director: not run since |
+| Lunar Melody | key | 2026-04-25 Doncaster 7f 6y | 2/10 | franked: Venetian Gold (4th) has won since | 1. Proposal: 2/5 C3, 2/6 C3, 5/14 C3, 4/8 C4; 3. Tahalel: 14/15 C4, 2/10 C2; 4. Venetian Gold: 2/7 C4, 1/14 C5 |
+| Lunar Melody | last | 2026-09-26 Southwell 6f 17y | 5/13 | franked: New Image (winner) has won since | 1. New Image: 3/9 C4, 1/13 C5; 2. Come On Over: 6/9 C4; 3. Alfa Duplicate: not run since |
+| Anaisa | key | 2026-09-05 Newcastle 6f | 3/7 | not franked: 3 of the first three ran since without placing | 1. Lady Kodiac: 4/9 C4; 2. Ormolulu: 7/12 C5, 9/10 C5, 9/13 C5; 4. Maldevious: 4/6 C5 |
+| Anaisa | last | 2026-09-30 Musselburgh 5f 1y | 11/12 | not franked: 1 of the first three ran since without placing | 1. Lipsink: not run since; 2. Mo Of Cairo: 4/12 C4, 4/13 C4; 3. Wen Moon: not run since |
+| Encore | key | 2026-09-14 Kempton 6f | 1/8 | partly franked: March Of Time placed since; Astronette placed since; no winner since | 2. March Of Time: 2/6 C4, 8/10 C6; 3. Missmisfortune: 4/9 C4, 5/10 C4; 4. Astronette: 2/8 C4 |
+| Encore | last | 2026-10-17 Southwell 7f 15y | 2/9 | not franked: 1 of the first three ran since without placing | 1. Native Honey: not run since; 3. Shaw Park: 4/14 C5; 4. Always Blue: not run since |
+| Fantasy Obsessor | key | 2026-08-31 Southwell 6f 16y | 2/12 | partly franked: Classy Clarets placed since; no winner since | 1. Classy Clarets: 3/9 C4; 3. Hectic: 7/12 C6, 7/9 C5; 4. Baba Reza: 5/9 C5 |
+| Fantasy Obsessor | last | 2026-10-06 Southwell 6f 16y | 3/10 | not franked: 1 of the first three ran since without placing | 1. Overbudget: not run since; 2. Black Orchid: 4/7 C4; 4. Keldeo: not run since |
+
+### Still unverified
+
+- Prices: not fetched or used (the market is not an input).
