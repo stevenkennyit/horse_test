@@ -230,6 +230,9 @@
   const pct = (x, dp = 0) => x == null ? "–" : (x * 100).toFixed(dp) + "%";
   const pts = (x) => (x > 0 ? "+" : "") + x.toFixed(2) + "pt";
   const isTop3 = (f) => /^[123]$/.test(String(f));
+  // each-way places by field size (UK/IRE standard terms): <5 none, 5-7 two, 8+ three, 16+ handicap four
+  const placesFor = (r) => r.runners < 5 ? 1 : r.runners < 8 ? 2 : (r.runners >= 16 && /handicap/i.test(r.name)) ? 4 : 3;
+  const isPlaced = (r, p) => { const n = parseInt(p.finish, 10); return n >= 1 && n <= placesFor(r); };
 
   // ---- filters ----
   const fm = $("f-meeting");
@@ -286,6 +289,7 @@
     const n = settled.length;
     const topWon = settled.filter((r) => r.picks[0] && String(r.picks[0].finish) === "1").length;
     const inTop2 = settled.filter((r) => r.winner && r.picks.slice(0, 2).some((p) => p.horse === r.winner.horse)).length;
+    const placeTop2 = settled.filter((r) => r.picks.slice(0, 2).some((p) => isPlaced(r, p))).length;
     const top3 = settled.filter((r) => r.picks[0] && isTop3(r.picks[0].finish)).length;
     let staked = 0, ret = 0;
     settled.forEach((r) => r.bets.forEach((b) => { if (b.returned != null) { staked += b.stake; ret += b.returned; } }));
@@ -296,6 +300,7 @@
       { label: "Races settled", value: n, detail: pending ? `${pending} pending` : "none pending" },
       { label: "Top pick won", value: n ? pct(topWon / n) : "–", detail: `${topWon} of ${n}` },
       { label: "Winner in top two", value: n ? pct(inTop2 / n) : "–", detail: `${inTop2} of ${n}` },
+      { label: "Placer in top two", value: n ? pct(placeTop2 / n) : "–", detail: `${placeTop2} of ${n} · each-way places by field size` },
       { label: "Top pick finished top 3", value: n ? pct(top3 / n) : "–", detail: `${top3} of ${n}` },
       { label: "Paper P/L", value: `<span class="${pl >= 0 ? "pos-text" : "neg-text"}">${pts(pl)}</span>`,
         detail: `staked ${staked.toFixed(2)}pt, ROI ${staked ? pct(pl / staked) : "–"}` }
