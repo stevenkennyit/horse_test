@@ -189,7 +189,7 @@
 
   <footer>
     Data: <code>jumps/data/results.js</code> and <code>flat/data/results.js</code>. Add each new meeting to the right file; the dashboard recalculates on reload.
-    "Top 2" means either of the top two picks. "Placed" uses standard each-way places: 2 for 5–7 runners, 3 for 8+, 4 for handicaps of 16+, winner only under 5.
+    "Placed" uses standard each-way places: 2 for 5–7 runners, 3 for 8+, 4 for handicaps of 16+, winner only under 5.
     Profit figures assume 1pt to win on each pick at its starting price (SP); fair price = 1 ÷ the agent's win chance.
   </footer>
 </div>
@@ -293,8 +293,8 @@
     const settled = races.filter((r) => r.status === "settled");
     const n = settled.length;
     const topWon = settled.filter((r) => r.picks[0] && String(r.picks[0].finish) === "1").length;
-    const inTop2 = settled.filter((r) => r.winner && r.picks.slice(0, 2).some((p) => p.horse === r.winner.horse)).length;
-    const placeTop2 = settled.filter((r) => r.picks.slice(0, 2).some((p) => isPlaced(r, p))).length;
+    const secondWon = settled.filter((r) => r.picks[1] && String(r.picks[1].finish) === "1").length;
+    const secondPlaced = settled.filter((r) => r.picks[1] && isPlaced(r, r.picks[1])).length;
     const topPlaced = settled.filter((r) => r.picks[0] && isPlaced(r, r.picks[0])).length;
     const lvl = (rank) => {
       const pls = settled.map((r) => levelPL(r.picks[rank])).filter((x) => x != null);
@@ -309,10 +309,10 @@
       { label: "Races", value: n, detail: pending ? `${pending} still to run` : "all results in" },
       { label: "Top pick won", value: n ? pct(topWon / n) : "–", detail: `${topWon} of ${n} races` },
       { label: "Top pick placed", value: n ? pct(topPlaced / n) : "–", detail: `${topPlaced} of ${n} races` },
-      { label: "Top 2 won", value: n ? pct(inTop2 / n) : "–", detail: `${inTop2} of ${n} races` },
-      { label: "Top 2 placed", value: n ? pct(placeTop2 / n) : "–", detail: `${placeTop2} of ${n} races` },
+      { label: "Second pick won", value: n ? pct(secondWon / n) : "–", detail: `${secondWon} of ${n} races` },
+      { label: "Second pick placed", value: n ? pct(secondPlaced / n) : "–", detail: `${secondPlaced} of ${n} races` },
       plTile("Profit: top pick", l1),
-      plTile("Profit: 2nd pick", l2)
+      plTile("Profit: second pick", l2)
     ];
     $("tiles").innerHTML = tiles.map((t) => `<div class="tile"><div class="label">${t.label}</div><div class="value">${t.value}</div><div class="detail">${t.detail}</div></div>`).join("");
   }
