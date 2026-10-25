@@ -7,6 +7,9 @@
 //   picks[].prob      agent's stated win probability (0-1) at analysis time (fair price = 1/prob, shown by the dashboard)
 //   picks[].finish    official finishing position, or "F", "PU", "UR", "BD", "R"; "-" while pending
 //   picks[].sp        starting price (fractional, e.g. "5/2", "Evens"), added at review from the result page
+//   picks[].confidence, .reason, .against   "low"|"medium"|"high"; one-line case for and against (shown on upcoming.html)
+//   picks[].danger    true for a horse named as the danger rather than a ranked pick
+//   writeup, updated  race write-up path; when the picks were last checked (e.g. "17:50 Sun 25 Oct")
 //   winner.agentProb  probability the agent stated for the eventual winner; null if the winner was not rated
 //   grade             "held" | "mixed" | "failed" | "pending" - judged on the reasoning, not the result
 //   errors            judgement-error codes from `errorTypes`

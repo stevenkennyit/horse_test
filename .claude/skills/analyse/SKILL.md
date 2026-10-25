@@ -16,7 +16,7 @@ Arguments: `$ARGUMENTS` — course, optional off time, optional date (default to
 
 4. **Record before the off** (the playbook's "Record the analysis" step):
    - Write `<code>/analyses/<YYYY-MM-DD>_<course>/<HHMM>_<race-slug>.md` with all required sections.
-   - Add the race to `<code>/data/results.js` with `status: "pending"`, creating the meeting object if needed.
+   - Add the race to `<code>/data/results.js` with `status: "pending"`, creating the meeting object if needed. Fill `writeup`, `updated`, and each pick's `confidence`, `reason` and `against`: `upcoming.html` shows them for review before the off.
    - The write-up file is required, not optional: a results entry without its write-up is an incomplete record. Before committing, check that every race added to the results file has its write-up on disk, and commit both together.
    - If the race is already recorded (a re-run or "recheck"), append a `## Update HH:MM` section and update the data entry — only before the off.
 

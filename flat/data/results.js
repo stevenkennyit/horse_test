@@ -23,11 +23,20 @@
         {
           time: "16:10", name: "Unibet's New VAR Goal Guarantee Novice Stakes (GBB Race)", type: "novice", distance: "7f",
           going: "Standard to Slow", runners: 9, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-26_kempton/1610_7f-class-4-novice-stakes.md", updated: "17:50 Sun 25 Oct",
           picks: [
-            { rank: 1, horse: "Divine Symmetry", prob: 0.38, finish: "-" },
-            { rank: 2, horse: "Imperial Ballet", prob: 0.37, finish: "-" },
-            { rank: 3, horse: "Al Mandoos", prob: 0.10, finish: "-" },
-            { rank: 4, horse: "Virtue King", prob: 0.05, finish: "-" }
+            { rank: 1, horse: "Divine Symmetry", prob: 0.38, finish: "-", confidence: "low",
+              reason: "Better Racing Post figure at today's weights (77 v 72) and a strong frank: the 3rd from his debut won next time.",
+              against: "One run only, held up and keen in a slowly run race; held-up horses rarely win this course and trip." },
+            { rank: 2, horse: "Imperial Ballet", prob: 0.37, finish: "-", confidence: "low",
+              reason: "Highest mark in the field (OR 83), the only previous winner, and a better pace profile (has tracked the leaders).",
+              against: "Has run to 72 since her 13-month break, gives 2lb, and faded late in her only run at 7f." },
+            { rank: 3, horse: "Al Mandoos", prob: 0.10, finish: "-", confidence: "low",
+              reason: "Unraced Godolphin newcomer; ranked behind the raced pair under rule E (no price or pedigree upgrades).",
+              against: "No form at all; an unraced 3yo this late in the year has often had problems." },
+            { rank: 4, horse: "Virtue King", prob: 0.05, finish: "-", confidence: "low", danger: true,
+              reason: "First-time cheekpieces, dropping from 1m to 7f, and raced handily last time.",
+              against: "Still 10 lengths or more behind Class 4 novice winners." }
           ],
           winner: null,
           grade: "pending", errors: [],

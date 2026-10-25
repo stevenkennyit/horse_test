@@ -270,8 +270,10 @@ If the analysis changes before the off (going, non-runners), **append** a dated 
 | Level | Required fields before the off |
 |---|---|
 | Meeting | `date`, `course`, `country`, `code: "jumps"`, `playbook: "jumps/AGENTS-jumps.md"`, `going`, `dataErrors: []` |
-| Race | `time`, `name`, `type`, `distance`, `going`, `runners`, `source`, `status: "pending"`, `grade: "pending"`, `errors: []`, `notes`, `winner: null` |
-| Each pick | `rank`, `horse`, `prob` (0–1), `finish: "-"` |
+| Race | `time`, `name`, `type`, `distance`, `going`, `runners`, `source`, `status: "pending"`, `grade: "pending"`, `errors: []`, `notes`, `winner: null`, `writeup` (path to the write-up, e.g. `"jumps/analyses/2026-10-26_kempton/1610_7f-class-4-novice-stakes.md"`), `updated` (when the picks were last checked, e.g. `"17:50 Sun 25 Oct"`) |
+| Each pick | `rank`, `horse`, `prob` (0–1), `finish: "-"`, `confidence` (`"low"` / `"medium"` / `"high"`), `reason` (one line: why it is ranked here), `against` (one line: the strongest case against); add `danger: true` for a horse named as the danger rather than a ranked pick |
+
+`upcoming.html` shows every pending race from these fields, so keep `reason`, `against` and `updated` current with each `## Update HH:MM`.
 
 **Do not edit picks or probabilities after the off.** Only the result fields change after the race (see Post-race review, step 6).
 

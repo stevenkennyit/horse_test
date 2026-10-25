@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Still to Run</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7;
+    --surface: #fcfcfb;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --axis: #c3c2b7;
+    --border: rgba(11,11,11,0.10);
+    --series-1: #2a78d6;
+    --good: #0ca30c;
+    --warning: #fab219;
+    --critical: #d03b3b;
+    --chip-bg: #f0efec;
+    --track: #ecebe6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --page: #0d0d0d;
+      --surface: #1a1a19;
+      --text-primary: #f0efec;
+      --text-secondary: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --axis: #383835;
+      --border: rgba(255,255,255,0.10);
+      --series-1: #3987e5;
+      --chip-bg: #2c2c2a;
+      --track: #262624;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #0d0d0d;
+    --surface: #1a1a19;
+    --text-primary: #f0efec;
+    --text-secondary: #c3c2b7;
+    --muted: #898781;
+    --grid: #2c2c2a;
+    --axis: #383835;
+    --border: rgba(255,255,255,0.10);
+    --series-1: #3987e5;
+    --chip-bg: #2c2c2a;
+    --track: #262624;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--page); color: var(--text-primary);
+    font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 24px 16px 48px; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; justify-content: space-between; }
+  h1 { font-size: 22px; margin: 0; font-weight: 650; }
+  .sub { color: var(--text-secondary); margin: 4px 0 0; }
+  .nav { display: flex; gap: 16px; margin-top: 10px; font-size: 13px; }
+  .nav a { color: var(--series-1); text-decoration: none; }
+  .nav a:hover { text-decoration: underline; }
+  .nav [aria-current] { font-weight: 650; }
+  button {
+    font: inherit; color: var(--text-primary); background: var(--surface);
+    border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; cursor: pointer;
+  }
+  button:hover { border-color: var(--axis); }
+  .clock { color: var(--muted); font-size: 12px; margin: 16px 0 8px; font-variant-numeric: tabular-nums; }
+  h2.day { font-size: 15px; font-weight: 650; margin: 24px 0 8px; color: var(--text-secondary); }
+  .race {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 16px; margin-bottom: 12px;
+  }
+  .race.off { opacity: 0.72; }
+  .race-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 12px; align-items: baseline; }
+  .race-title { font-size: 16px; font-weight: 650; }
+  .race-title .t { font-variant-numeric: tabular-nums; margin-right: 6px; }
+  .race-name { color: var(--text-secondary); margin-top: 2px; }
+  .meta { color: var(--muted); font-size: 12px; margin-top: 4px; }
+  .chip {
+    display: inline-flex; gap: 6px; align-items: center; padding: 3px 10px; border-radius: 999px;
+    background: var(--chip-bg); font-size: 12px; white-space: nowrap; font-variant-numeric: tabular-nums;
+  }
+  .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .picks { margin-top: 12px; display: grid; gap: 10px; }
+  .pick { display: grid; grid-template-columns: 64px 1fr; gap: 4px 12px; padding-top: 10px; border-top: 1px solid var(--grid); }
+  .rank { color: var(--muted); font-size: 12px; padding-top: 2px; }
+  .rank b { display: block; color: var(--text-primary); font-size: 18px; font-weight: 650; line-height: 1.1; }
+  .pick-top { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; }
+  .horse { font-weight: 650; font-size: 15px; }
+  .stat { color: var(--text-secondary); font-size: 13px; font-variant-numeric: tabular-nums; }
+  .stat b { color: var(--text-primary); font-weight: 600; }
+  .bar { height: 6px; border-radius: 3px; background: var(--track); margin: 6px 0 4px; max-width: 320px; }
+  .bar i { display: block; height: 100%; border-radius: 3px; background: var(--series-1); }
+  .why { font-size: 13px; margin: 2px 0 0; }
+  .why span { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; margin-right: 6px; }
+  .notes { color: var(--text-secondary); font-size: 13px; margin: 12px 0 0; padding-top: 10px; border-top: 1px solid var(--grid); }
+  .links { margin-top: 8px; font-size: 13px; }
+  .links a { color: var(--series-1); text-decoration: none; }
+  .links a:hover { text-decoration: underline; }
+  .empty { background: var(--surface); border: 1px dashed var(--axis); border-radius: 12px; padding: 24px 16px; color: var(--text-secondary); margin-top: 16px; }
+  .empty code { font-size: 12px; }
+  footer { color: var(--muted); font-size: 12px; margin-top: 24px; }
+  code { font-size: 12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Still to Run</h1>
+      <p class="sub">The agent's picks for races that haven't been reviewed yet. Check them before the off.</p>
+      <nav class="nav"><a href="dashboard.html">Performance</a><span aria-current="page">Still to run</span></nav>
+    </div>
+    <button id="theme" type="button" aria-label="Toggle light or dark theme">Theme</button>
+  </header>
+
+  <p class="clock" id="clock"></p>
+  <main id="races"></main>
+
+  <footer>
+    Data: <code>jumps/data/results.js</code> and <code>flat/data/results.js</code> (races with <code>status: "pending"</code>).
+    Off times are UK/Irish local time. Fair price = 1 ÷ the agent's win chance. Picks are not betting advice.
+  </footer>
+</div>
+
+<script src="jumps/data/results.js"></script>
+<script src="flat/data/results.js"></script>
+<script>
+(function () {
+  const DATA = window.AGENT_DATA || { meetings: [] };
+  const REPO = "https://github.com/stevenkennyit/horse_test/blob/main/";
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  // ---- theme toggle (shared key with the dashboard) ----
+  const root = document.documentElement;
+  try { const t = localStorage.getItem("ha-theme"); if (t) root.setAttribute("data-theme", t); } catch (e) {}
+  $("theme").addEventListener("click", () => {
+    const dark = root.getAttribute("data-theme") ? root.getAttribute("data-theme") === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+    const next = dark ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("ha-theme", next); } catch (e) {}
+  });
+
+  // ---- helpers ----
+  const toDec = (frac) => {
+    if (/^evs?$|^evens$/i.test(frac)) return 2;
+    const m = String(frac).match(/(\d+)\s*\/\s*(\d+)/);
+    return m ? 1 + (+m[1]) / (+m[2]) : null;
+  };
+  const FRACS = ["1/5","2/9","1/4","2/7","1/3","4/11","2/5","4/9","1/2","8/15","4/7","8/13","4/6","8/11","4/5","5/6","10/11","Evens","11/10","6/5","5/4","11/8","6/4","13/8","7/4","15/8","2/1","9/4","5/2","11/4","3/1","10/3","7/2","4/1","9/2","5/1","11/2","6/1","13/2","7/1","15/2","8/1","9/1","10/1","11/1","12/1","14/1","16/1","20/1","25/1","33/1","40/1","50/1","66/1","100/1"];
+  const fairPrice = (p) => {
+    if (!p) return "–";
+    const d = 1 / p;
+    return FRACS.reduce((best, f) => Math.abs(toDec(f) - d) < Math.abs(toDec(best) - d) ? f : best, FRACS[0]);
+  };
+  const pct = (x) => x == null ? "–" : Math.round(x * 100) + "%";
+  const cap = (s) => s ? s.charAt(0).toUpperCase() + s.slice(1) : "";
+
+  // Off time (UK/Irish local, Europe/London rules) → epoch ms
+  const LONDON = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/London", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" });
+  function offTime(date, time) {
+    const [y, mo, d] = date.split("-").map(Number), [h, mi] = time.split(":").map(Number);
+    const guess = Date.UTC(y, mo - 1, d, h, mi);
+    const p = Object.fromEntries(LONDON.formatToParts(new Date(guess)).map((x) => [x.type, x.value]));
+    const asLocal = Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour, +p.minute);
+    return guess - (asLocal - guess);
+  }
+  function countdown(ms) {
+    if (ms <= 0) return null;
+    const m = Math.floor(ms / 60000), d = Math.floor(m / 1440), h = Math.floor((m % 1440) / 60), mm = m % 60;
+    return d ? `${d}d ${h}h` : h ? `${h}h ${mm}m` : `${mm}m`;
+  }
+  const dayLabel = (date) => new Date(date + "T12:00:00Z").toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" });
+
+  function races() {
+    const out = [];
+    DATA.meetings.forEach((m) => m.races.forEach((r) => {
+      if (r.status === "pending") out.push({ ...r, meeting: m, off: offTime(m.date, r.time) });
+    }));
+    return out.sort((a, b) => a.off - b.off);
+  }
+
+  function pickHtml(p) {
+    const label = p.danger ? "Danger" : `Pick ${p.rank}`;
+    return `<div class="pick">
+      <div class="rank">${p.danger ? "<b>!</b>" : `<b>${esc(p.rank)}</b>`}${label}</div>
+      <div>
+        <div class="pick-top">
+          <span class="horse">${esc(p.horse)}</span>
+          <span class="stat">Chance <b>${pct(p.prob)}</b></span>
+          <span class="stat">Fair price <b>${fairPrice(p.prob)}</b></span>
+          ${p.confidence ? `<span class="stat">Confidence <b>${esc(cap(p.confidence))}</b></span>` : ""}
+        </div>
+        <div class="bar" role="img" aria-label="Win chance ${pct(p.prob)}"><i style="width:${Math.min(100, (p.prob || 0) * 100)}%"></i></div>
+        ${p.reason ? `<p class="why"><span>Why</span>${esc(p.reason)}</p>` : ""}
+        ${p.against ? `<p class="why"><span>Against</span>${esc(p.against)}</p>` : ""}
+      </div>
+    </div>`;
+  }
+
+  function render() {
+    const now = Date.now(), list = races();
+    $("clock").textContent = "UK/Irish time now: " + new Date(now).toLocaleString("en-GB", { timeZone: "Europe/London", weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) + " · updates every 30 seconds";
+    if (!list.length) {
+      $("races").innerHTML = `<div class="empty">No races still to run. Use <code>/analyse &lt;course&gt;</code> to add one.</div>`;
+      return;
+    }
+    let html = "", lastDay = "";
+    list.forEach((r) => {
+      const m = r.meeting;
+      if (m.date !== lastDay) { html += `<h2 class="day">${esc(dayLabel(m.date))}</h2>`; lastDay = m.date; }
+      const left = countdown(r.off - now);
+      const chip = left
+        ? `<span class="chip"><span class="dot" style="background:${r.off - now < 3600000 ? "var(--warning)" : "var(--good)"}"></span>Off in ${left}</span>`
+        : `<span class="chip"><span class="dot" style="background:var(--axis)"></span>Off · awaiting review</span>`;
+      const meta = [cap(r.type), r.distance, r.going, r.runners ? r.runners + " runners" : "", r.source === "verified" ? "your picks, checked" : "", r.updated ? "picks checked " + r.updated : ""].filter(Boolean);
+      const picks = [...r.picks].sort((a, b) => (a.danger ? 1 : 0) - (b.danger ? 1 : 0) || a.rank - b.rank);
+      const shown = picks.reduce((a, p) => a + (p.prob || 0), 0);
+      html += `<article class="race${left ? "" : " off"}">
+        <div class="race-head">
+          <div>
+            <div class="race-title"><span class="t">${esc(r.time)}</span>${esc(m.course)}</div>
+            <div class="race-name">${esc(r.name)}</div>
+          </div>
+          ${chip}
+        </div>
+        <div class="meta">${meta.map(esc).join(" · ")}</div>
+        <div class="picks">${picks.map(pickHtml).join("")}</div>
+        <p class="meta">These horses: ${pct(shown)} of the agent's chances; the rest of the field: ${pct(Math.max(0, 1 - shown))}.</p>
+        ${r.notes ? `<p class="notes">${esc(r.notes)}</p>` : ""}
+        ${r.writeup ? `<div class="links"><a href="${REPO + r.writeup.split("/").map(encodeURIComponent).join("/")}" target="_blank" rel="noopener">Full write-up</a></div>` : ""}
+      </article>`;
+    });
+    $("races").innerHTML = html;
+  }
+  render();
+  setInterval(render, 30000);
+})();
+</script>
+</body>
+</html>
