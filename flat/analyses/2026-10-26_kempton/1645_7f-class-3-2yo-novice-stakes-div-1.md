@@ -189,3 +189,166 @@ The rest: King Gamrah 8%, India's Ridge 7%, Sequoiadendron 6%, St Peter's Cross 
 - Sporting Life result pages: /racing/results/2026-10-07/kempton/942180, 2026-08-19/kempton/933807, 2026-10-01/salisbury/941156, 2026-09-18/newbury/938984, 2026-10-02/ascot/941325, 2026-06-01/lingfield/919952, 2026-09-25/newmarket/940112, 2026-10-01/salisbury/941733
 - Sporting Life horse profiles: all 6 raced runners, plus Twelve Bars, Lancaster Tower, Fenaroli, Byzantine, Sonic Angel, Liberty's Hall, Give Hand, Perfect Heir, Hoshi, Meticulously, Gold Army, Adatta, Mrair, Final Objective, Pink Larkspur, Learning, Ibtekar, Sole Ambition, Oakford, Gran Dia
 - Kempton 7f novice/maiden draw, pace, newcomer and connections counts: `1610_7f-class-4-novice-stakes.md` in this folder (Updates 17:35 and 18:06)
+
+## Update 19:45 (Sun 25 Oct, about 21 hours before the off): gaps filled, full audit, picks confirmed
+
+**Non-runners and going checked 19:40 GMT:** all 10 declared (Sporting Life card). Going **Standard to Slow** (Sporting Life going page, 26 Oct row for Kempton, Polytrack; Racing Post card). Weights, jockeys and headgear unchanged; Sporting Life lists St Peter's Cross at 9-7 before Kavanagh's 3lb claim.
+
+### New data built this session
+
+- **Every Kempton race for two years** (25 Oct 2024 – 25 Oct 2026): 946 Sporting Life result pages, read from the daily results index.
+- **Full Sporting Life careers for all 1,350 horses** that ran in a Kempton 2yo race in that time, so "newcomer" and "style last time" are exact rather than taken from the truncated run lists on result pages.
+- Base for this race type: **52 Kempton 7f 2yo novices and maidens** (30 Oct 2024 – 21 Oct 2026), all on Standard to Slow.
+
+### Errors found in the 19:15 write-up (mine; the sources were right)
+
+| # | 19:15 claim | Correct | Effect |
+|---|---|---|---|
+| 1 | "Lewis Edmunds switches onto Red Wizard": the stable jockey choosing him was a mild positive | Charlton has **only one runner** in this race, so there was no choice to make. Withdrawn | Red Wizard loses a soft plus |
+| 2 | Idealise is a "half-brother to 5f winner Commendation" | Commendation (Showcasing – Praised) is a **filly**, so a half-sister. Her only win was a **Class 5 5f handicap off 63**, and she is now rated 46 (Sporting Life profile, 19 runs). "Dam a half-sister to Chaldean" is **not verified**: Chaldean's dam is Suelita, and no source linked Praised to her | The pedigree case for Idealise is weaker than stated |
+| 3 | Balding's Kempton newcomers 3 from 35 | Full count, every Kempton 2yo race over 2 years: **4 from 48 (8%)**. Nationally his 7 most recent 2yo debutants (since 10 Oct) won 1 (Chariots Of Fire, Kempton 1m, 21 Oct) | Unchanged in substance |
+| 4 | Red Wizard ≈1.8s faster than Stytch over C&D | Raw gap 1.8s. Adjusted for each night's track speed (the median deviation of the other races on the card), the gap is **≈1.3s, about 7 lengths** (below) | Red Wizard's time edge is smaller but still clear |
+| 5 | "all 9 comments for the 6 raced runners read" | The 6 raced runners have **8** runs between them | Count corrected |
+
+All other figures in the 19:15 write-up were re-checked against the saved result pages and profiles: margins (every cumulative distance recalculated), weights, draws, ORs of Lancaster Tower (85), Byzantine (86), Sole Ambition (90), Gold Army (79), Does Mary Know (77), Give Hand (76, 75), Learning (85) and Oakford (90), and Final Objective's record (maiden win, Gimcrack 2nd, Flying Childers win, OR107). All confirmed.
+
+### Times: my own standard (replaces the 1m24.20s older-horse standard for this race)
+
+- 52 Kempton 7f 2yo novices and maidens, all Standard to Slow: median winning time **1m27.03s** (fastest 1m25.43s, slowest 1m29.87s).
+- Each race is compared with the median for its distance, class and age group; the night's track speed is the median of the same comparison for every other race on the card.
+
+| Run | Winner's time | vs median | Night's other races | Adjusted winner | + beaten distance | **Own adjusted figure** |
+|---|---|---|---|---|---|---|
+| Red Wizard, 07 Oct | 1m26.79s | −0.88s | −0.50s (7 races) | −0.38s | +0.68s (4.0L) | **+0.30s** |
+| Stytch, 19 Aug | 1m27.26s | −0.41s | +0.07s (5 races) | −0.48s | +2.04s (12.0L) | **+1.56s** |
+
+- Red Wizard ran to within about 2 lengths of a typical winner of this race (median adjusted winner −0.03s; quartiles −0.48s to +0.64s over 48 races with a measurable night). Stytch's C&D debut was about 9 lengths off it. Both races were themselves a little faster than usual.
+- One run each. The order agrees with the collateral form, so it moves the ranking only as far as that form does.
+
+### Kempton 7f 2yo novices and maidens: draw, pace, experience (52 races, exact)
+
+| Measure | Wins / runs |
+|---|---|
+| Draw 1–3 (8–12 runners, 47 races) | 16/132 (12.1%) |
+| Draw 4–6 | 14/136 (10.3%) |
+| Draw 7–9 | 6/131 (4.6%) |
+| Draw 10+ | 11/77 (14.3%) |
+| **Prominent or led last time** | **19/89 (21.3%)** |
+| Mid-division last time | 3/49 (6.1%) |
+| **Held up / rear last time** | **13/114 (11.4%)** |
+| Newcomers | 17/272 (6.3%), 67 placed |
+| 1 previous run | 23/142 (16.2%) |
+| 2–3 previous runs | 12/108 (11.1%) |
+
+- **Draw: neutral.** Stalls 7–9 look weak, but stall 10+ is the best group and the pattern isn't smooth, so it reads as noise at this sample size (6 wins). Not used, except to note it doesn't help Rattenbury (7), Boy's Slipper (8) or Clink (9).
+- **Pace** confirms the 16:10 count in the 2yo-only data. Style was classed from the first position named in each comment; a spot-check of 20 found one borderline call ("off the pace in mid-division" classed as rear). Red Wizard (prominent) sits in the 21% group; Stytch (held up twice) in the 11% group.
+- **Experience:** horses having their second run win most often (16.2%). That covers India's Ridge, Rattenbury, Clink and Boy's Slipper as well as the top two's rivals. Red Wizard and Stytch are on their third run (11.1% group).
+
+### Connections at Kempton (2 years, all runs; Sporting Life results)
+
+| | All races | 2yo races | 2yo newcomers |
+|---|---|---|---|
+| **Harry Charlton** (Red Wizard) | 9/75 (12%) | **0/28**, 10 placed (5 seconds) | 0/11 |
+| A King (Stytch) | 11/79 (14%) | 0/14, 4 placed | 0/8 |
+| A M Balding (Idealise) | 38/243 (16%) | 11/81 (14%) | 4/48 |
+| C Hills (Rattenbury) | 6/88 (7%) | 0/24, 11 placed | 0/7 |
+| J Tate (King Gamrah) | 7/59 (12%) | 0/8, 3 placed | 0/3 |
+| R Hannon (India's Ridge, Sequoiadendron) | 14/183 (8%) | 8/51 (16%) | 2/18 |
+| L A Dace (St Peter's Cross) | 5/34 (15%) | 0/2 | 0/1 |
+| H Candy (Boy's Slipper) | 1/23 | 1/7 | 0/3 |
+| H Main (Clink) | 3/32 | 1/7 | 0/3 |
+
+| Jockey | All races | 2yo races |
+|---|---|---|
+| Oisin Murphy | 60/249 (24%) | 11/65 (17%); newcomers 3/29 |
+| Rossa Ryan | 39/232 (17%) | 10/53 (19%) |
+| K Shoemark | 24/136 (18%) | 6/36 (17%); newcomers 3/21 |
+| D Egan | 16/116 (14%) | 5/25 (20%) |
+| **Lewis Edmunds** | 21/153 (14%) | **0/27** |
+| Rob Hornby | 15/196 (8%) | 5/44 (11%) |
+| L Morris | 22/268 (8%) | **0/45**; newcomers 0/12 |
+| Callum Shepherd | 5/113 (4%) | 1/15 |
+| Callum Hutchinson | 5/94 (5%) | 1/21 |
+| Ryan Kavanagh | 4/41 (10%) | 1/2 |
+
+**Recent national form** (each trainer's last 50 runners on Sporting Life; 2yo debuts and second runs found by checking every horse's full career):
+
+| Trainer | Window | 2yo runs | 2yo debuts | Second career runs |
+|---|---|---|---|---|
+| **J Tate** | 4 Sep – 24 Oct | 6/30 won | **3/7 won, 5 placed** (Woodvale, Marhaba Athmani, Galileo Star) | 2/5 |
+| A M Balding | 10 – 24 Oct | 5/32 | 1/7 | 1/8, 6 placed |
+| Harry Charlton | 12 Sep – 22 Oct | 4/27 | 0/8 | 2/6 |
+| A King | 29 Aug – 24 Oct | 2/17 | 0/2 | 1/6 |
+| C Hills | 14 Sep – 24 Oct | 2/16 | 0/2 | 0/3 |
+| R Hannon | 7 – 24 Oct | 3/23 | none in window | 0/4 |
+| H Candy | 25 Jul – 22 Oct | 3/14 | 0/3 | 2/3 |
+| H Main | 27 Jul – 22 Oct | 0/20 | 0/9 | 0/7 |
+| L A Dace | 7 May – 14 Oct | 0/3 | 0/1 | – |
+
+- **Charlton's 0 from 28 with 2yos at Kempton is a real point against Red Wizard.** Ten of the 28 placed, so they run well without winning. Nationally his 2yos are 4 from 27 recently, so the yard isn't out of form. Lewis Edmunds's 0 from 27 is mostly the same horses. I treat it as a modest negative, not a pattern that rules him out: by chance alone, a 10% yard goes 0 from 28 about 5% of the time.
+- **Tate's newcomers are winning** (3 from 7 since 4 Sep), which lifts King Gamrah. Against that, Luke Morris is 0 from 45 on 2yos at Kempton.
+
+### Pedigrees (sire, dam and damsire verified on Sporting Life profiles)
+
+| Horse | Sire – Dam (damsire) | Notes |
+|---|---|---|
+| Idealise | Frankel – Praised (Pivotal), Cheveley Park Stud, foaled 17 Feb | Dam's only runner found: Commendation (Showcasing), C5 5f handicap winner off 63. Chaldean link not verified |
+| King Gamrah | Naval Crown – Queen Gamrah (Toronado), owner Jaber Abdullah, foaled 24 Feb | Dam's record ("2yo 7f/1m winner, half-sister to Peacock") **not verified**: no source found |
+| Sequoiadendron | Golden Pal – Zazzy Zazzy Dazzle (Union Rags), foaled 29 Jan | Golden Pal was a turf sprinter (asserted); "$35,000 yearling" and the dam's 8.5f win **not verified** |
+| St Peter's Cross | Land Force – Stylistik (Sakhee's Secret), foaled 21 Apr | Dam's record **not verified** |
+| Red Wizard | No Nay Never – Suphala (Frankel) | – |
+| Stytch | Too Darn Hot – Shimmering (Lope De Vega) | – |
+| Rattenbury | Blackbeard – Campion (Exceed And Excel) | Blackbeard was a 2yo sprinter (asserted); 7f is new |
+| India's Ridge | Kingman – Maid In India (Bated Breath) | – |
+| Clink | Dark Angel – Liberamente (Tagula) | – |
+| Boy's Slipper | Without Parole – Intricate (Showcasing), gelding | – |
+
+### Outsiders, in full
+
+**Rattenbury (danger).** His debut race (Lingfield, 1 Jun, Class 2) is the strongest in the field on what followed: Final Objective (2nd) went on to win the Flying Childers (G1, OR107); Mrair (1st) ran in the Coventry; **Rogue Imperial** (3rd, 6.0L ahead of Rattenbury) has won twice since, rated 78; **Storm Blade** (4th, 4.0L ahead) is rated 81. At 6f (≈2.5lb a length), that puts Rattenbury at **about 63–66 on debut**, at level weights (asserted, collateral). Horses on their second run win 16% of these, the best group, and a 147-day break after a green debut can bring a big step up. **Against:** slowly away and in rear on his only run; up from 6f to 7f by a sprinting sire; C Hills 0 from 24 with 2yos at Kempton (11 placed); stall 7; 63–66 is still about 10lb below Red Wizard's collateral level. **10%.**
+
+**King Gamrah.** Tate's 2yo newcomers are 3 from 7 since 4 Sep, and 5 of the 7 placed. Owner Jaber Abdullah. Naval Crown (a 6f Group 1 winner) out of a Toronado mare should suit 7f (asserted). **Against:** newcomers win 6.3% of these; Luke Morris is 0 from 45 on 2yos at Kempton; widest stall (10), which is neutral on the count. **10%,** level with Rattenbury but behind him because Rattenbury has form.
+
+**India's Ridge.** Last of 5 in a Class 2 fillies' novice at Ascot (good to firm), beaten 9.85L. She was 8.6L behind Learning (OR85), which is about 68, or about 73 in colt terms with the 5lb fillies' allowance. But she lost her place over 3f out and lost touch, so under Step 6 that figure was earned out of contention and is treated as about 65–68 all in. Second run (16% group), handy in her only run (21% group). Kingman filly. **Against:** Callum Shepherd 5 from 113 at Kempton; Hannon's second-time-outs 0 from 4 recently; none of the Ascot field has run since, so no frank. **7%.**
+
+**Sequoiadendron.** Hannon newcomer, the oldest in the field (29 Jan foal), with Shoemark (18% at Kempton; 3 from 21 on newcomers). Gets 5lb as a filly. **Against:** her sire was a sprinter, she starts at 7f, Hannon's Kempton newcomers are 2 from 18, and the stable's first jockey choice between the two fillies is unknown. **6%.**
+
+**Boy's Slipper.** 11th of 12 at Salisbury over 1m on good to soft, beaten 18.77L. That race was strong: the winner Gran Dia was 2nd in the Futurity Trophy (G1) on 24 Oct, and Somerton (OR82) was 4th. Being 13.77L behind Somerton is about 58 (asserted). Gelding, second run, down to 7f; Candy's second-time-outs are 2 from 3 recently. **Against:** held up and never involved; Hutchinson 5 from 94 at Kempton; the form needs 15–20lb of improvement. **4%.**
+
+**St Peter's Cross.** Dace newcomer (0 from 3 with 2yos this season; 0 from 1 debut) with a 3lb claimer, so he carries 9-4. Land Force colt, April foal. **3%.**
+
+**Clink.** 13th of 14, beaten 15.15L, slowly away, in a Newmarket confined maiden. The winner (Sole Ambition) and runner-up (Twelve Bars) have both done well since, but Clink was 14.65L behind Twelve Bars, who beat Red Wizard 4L. Heather Main's 2yos are 0 from 20 recently (0 from 9 debuts, 0 from 7 second runs). David Egan (20% on 2yos at Kempton) is the only plus. **2%.**
+
+### Red Wizard and Stytch: what changed
+
+- **Red Wizard.** Newbury debut, 9th of 15: 6.1L behind Al Widyan (Balding, OR78) and 10.1L behind War Chest (OR76) at 6f, about 51–63. Kempton second run: about 76–78 by collateral (Lancaster Tower 85, Byzantine 86), so a steep rise. His own adjusted time (+0.30s against a typical winner) is close to winning standard for these. Last time he was drawn in stall 10 (8 ran after two non-runners) and still raced on the pace, chasing the winner. **Against, added:** Charlton 0 from 28 and Edmunds 0 from 27 on 2yos at Kempton; no "stable jockey choice" plus (error 1).
+- **Stytch.** Kempton debut: **Algaihabane, 7th, half a length behind him, won next time** at Sandown (Class 3), and Perfect Heir (4th) was 2nd at Ayr. That is a frank of sorts, but Stytch was 12L back. Salisbury collateral (~74–75) stands. Adjusted C&D time +1.56s, about 7 lengths behind Red Wizard's. **Against, added:** A King 0 from 14 with 2yos at Kempton; held-up horses 11.4% in this 2yo-only sample.
+
+### Picks confirmed (order unchanged; probabilities revised)
+
+| Rank | Horse | Win chance | Fair price | Confidence | Change from 19:15 |
+|---|---|---|---|---|---|
+| 1 | **Red Wizard** | **27%** | 3.70 (about 11/4) | low | −1: Charlton/Edmunds 0 from 28/27 at Kempton with 2yos; time edge cut from 1.8s to 1.3s |
+| 2 | **Stytch** | **17%** | 5.88 (about 5/1) | low | unchanged: debut-race frank offsets the wider time gap |
+| 3 | **Idealise** | **14%** | 7.14 (about 6/1) | low | −2: pedigree weaker than stated (Commendation a 63-rated filly; Chaldean link unverified) |
+| Danger | **Rattenbury** | **10%** | 10.0 (9/1) | low | +2: collateral 63–66 from a strong debut race; second-run horses win 16% |
+
+The rest: King Gamrah 10% (+2, Tate's newcomers), India's Ridge 7%, Sequoiadendron 6%, Boy's Slipper 4% (+1), St Peter's Cross 3% (−1), Clink 2% (−1). Total 100%.
+
+- **Why the order stands.** Red Wizard has the best evidence on all three core factors that apply in a novice race: franked collateral form (two since-rated 85–86 horses within 3.5L), the best time over course and distance even after the night adjustment, and an improving pattern. He also races prominently, the profile that wins these. Stytch is the only other runner with collateral form in the mid-70s, and his doubt (keen, held up) recurs. Idealise is ranked on yard and jockey, not form, and the pedigree is weaker than first stated. Rattenbury and King Gamrah are close behind.
+- **The strongest case against Red Wizard** is now his connections' record at the course combined with his form ceiling: he has never finished within 4 lengths. A 27% chance in a 10-runner race with four debutants already reflects that.
+
+### Still unverified
+
+- Racing Post time-against-standard figures (results pages redirect; not indexed by search). Replaced by my own standard and night adjustment above.
+- Which run each Racing Post RPR/TS came from (no Racing Post profile reachable).
+- The dams' racing records for King Gamrah, Sequoiadendron and St Peter's Cross; the Praised–Chaldean link.
+- At The Races card, draw label, pace map and Smart Stats: 403 on desktop and mobile again at 19:40.
+- Collateral levels remain chains through later ratings: **asserted**.
+
+### Sources added
+
+- Sporting Life daily results index, 25 Oct 2024 – 25 Oct 2026 (`/racing/results/<date>`), and all 946 Kempton result pages from it.
+- Sporting Life horse profiles for 1,350 Kempton 2yo runners plus 282 horses from trainer lists; Commendation (`/racing/profiles/horse/1155940`).
+- Sporting Life trainer profiles (last 50 runners): Candy 2790, Main 210, Balding 3209, Tate 1848, Hills 378, Charlton 36155, Dace 3328, King 111, Hannon 216.
+- Sporting Life going page (`/racing/going`), 19:40.
