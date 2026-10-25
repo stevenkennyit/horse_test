@@ -245,6 +245,7 @@ List everything you couldn't verify.
   - Each-way for consistent, sound-jumping horses without a standout win case — jumps fields and non-finishers make each-way often the sounder play.
 - **Each-way threshold: 5/1 and above.** Each-way bets are acceptable at 5/1 or bigger. Below 5/1 the place part rarely pays for itself — bet to win or not at all.
 - **Big handicaps (10+ runners): back the value horse win or each-way, not forecasts.** Straight or reverse forecasts and tricasts across two or three picks in an open handicap cost the most stake for the least return. Keep forecasts for races where two horses stand clear on the evidence. *(Added after Galway 25 Oct 2026: dual forecasts in the 13:07, 13:42 and 14:50 handicaps all lost.)*
+- **Unraced horses in bumpers need evidence, not a price tag.** An unraced horse may not be top pick, or be rated above about 30%, over raced rivals unless it has a weight-adjusted edge on them, claims included. Purchase price, pedigree, jockey booking and market support are not evidence on their own. If every contender is unraced, mark confidence low and stake no more than 0.25pt. *(Added after Galway 25 Oct 2026: unraced Moscovite (40%, 4/6) finished last in the 16:30 bumper; raced fillies getting 7lb filled 1st, 3rd, 4th and 5th.)*
 - **Set a value line before the off** and say whether the available price is above it. A winner backed below its value line was still a poor bet.
 - State place terms when recommending each-way (usual UK handicap terms: 5–7 runners 2 places at 1/4; 8–11 runners 3 places at 1/5; 12–15 runners 3 places at 1/4; 16+ runners 4 places at 1/4; note the extra places and special terms common in big-field jumps handicaps). Account for likely **non-runners** (ground-dependent withdrawals are common over jumps) and the Rule 4 that follows.
 - Do not stack several low-confidence win-picks into a single win multiple and present it as value; if the selections are each-way quality, say so.
@@ -346,6 +347,25 @@ Winner came from our top two in 3 of 6 races; our 1st pick won once. The Placepo
 
 **What held:** class over an unproven-ground question (Chart Topper); dam's racing record as stamina evidence (Ole Ole); refusing odds-on with an unresolved doubt (Light Up The Dark); downgrades of Nine Graces, Mount Frisco, Folly Master and Holly's Thunder. **Correct call that lost:** Crecora Hills (value, market agreed, fell early).
 
+### Review 2: Galway, Sunday 25 October 2026 (15:56–16:30)
+
+| Race | 1st pick | Result | 2nd pick | Result | Winner (SP) | Reasoning held? |
+|---|---|---|---|---|---|---|
+| 15:56 Maiden Hurdle | Bulgaden Castle | 5th, btn about 7L, keen early, mistake last, no extra (Evens F) | Doctor Elvis | 2nd, btn 1¾L, led and rallied (3/1) | Always Scoring (25/1), from the rear stepping up in trip | Mixed: refusing odds-on held (trainer's 150+ day returners 0/60); winner not rated |
+| 16:30 4yo Fillies Pro/Am Flat Race | Moscovite | 6th of 6, btn 21L behind the 5th (4/6F) | Va La Vie | 2nd, btn 3L (4/1) | Bluebell Breeze (13/2), raced, 7lb claimer | Failed. **Judgement error E:** two unraced fillies ranked over raced rivals getting 7lb, on price, pedigree and booking. In-running comments not yet published (provisional) |
+
+Whole meeting: our 1st pick won 1 of 8; the winner came from our top two in 3 of 8. Paper bets: 9.75pt staked, 5pt returned (−4.75pt). Mozart's Song (3rd pick, e/w) finished 3rd of 6, outside the 2 places.
+
+**Data errors:**
+- 16:30: the first analysis missed the 7lb claims for four raced fillies (Racing Post card weights are before claims); caught and revised at 16:22.
+- 15:56: Bulgaden Castle logged as "U/P" from the provisional result; official finish 5th. Log the official position, never a summary.
+- No race write-ups were saved for the meeting, so the reviews could only be judged against the results data.
+
+**Judgement error → rule added:**
+- E. Unraced newcomer rated above raced rivals on price, pedigree or booking → Step 15.
+
+**What held:** refusing a second odds-on favourite with an unresolved doubt (Bulgaden Castle); Doctor Elvis's run to form after a break. **Wrong call:** the bumper ranking.
+
 ---
 
 ## Data sources
@@ -420,6 +440,7 @@ Verification discipline decays as a task lengthens. For any deliverable produced
 - **Estimating completions, falls and losing runs instead of counting them**
 - **Holding early-career ground runs against a horse that has since improved** (Galway, 25 Oct 2026)
 - **Letting a big price override a recorded jumping or temperament doubt** (Galway, 25 Oct 2026)
+- **Rating unraced bumper horses on purchase price, pedigree or booking over raced rivals getting weight** (Galway, 25 Oct 2026)
 
 ## Known strengths
 - Weight-adjusted head-to-heads (the cleanest signal over jumps)
