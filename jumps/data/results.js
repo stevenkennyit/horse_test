@@ -243,6 +243,27 @@
           ]
         },
         {
+          time: "15:20", name: "W.B. Gavin & Co. Handicap Hurdle", type: "hurdle", distance: "2m5f200y",
+          going: "Soft", runners: 14, source: "full", status: "pending", grade: "pending", errors: [],
+          notes: "Open 14-runner soft handicap; picks plus danger 0.50. Prophet's Corner (front-runner, off 115 after claim) the closest outsider. One Big Boum's blinkers, worn for his 24L Fairyhouse win, are left off.",
+          winner: null,
+          writeup: "jumps/analyses/2026-10-26_galway/1520_wb-gavin-handicap-hurdle.md", updated: "08:00 Mon 26 Oct",
+          picks: [
+            { rank: 1, horse: "Stumptown", prob: 0.16, finish: "-", confidence: "medium",
+              reason: "Hurdle mark 127 against chase form worth about 145 (3rd off 147 at Cheltenham, beaten 1.7L giving the winner 17lb) and a 5L win off 142 on heavy; won twice after long breaks; Cromwell 6/26 over jumps this month.",
+              against: "No hurdle run since 2022 (off 117), may lack hurdle speed at 2m5f, could be a cross-country prep, 229 days off." },
+            { rank: 2, horse: "Open Secret", prob: 0.13, finish: "-", confidence: "low",
+              reason: "Best three hurdle runs all on soft or soft-heavy, including a 0.75L G3 2nd worth about 130 against a mark of 127; completed all 7 hurdle starts and had a Flat run 28 days ago.",
+              against: "Beaten 16.6L and 26.5L in his only two handicaps; longest trip yet." },
+            { rank: 3, horse: "One Big Boum", prob: 0.12, finish: "-", confidence: "low",
+              reason: "All four hurdle wins on soft or heavy, including a 24L heavy-ground win at Fairyhouse; likely leader.",
+              against: "Blinkers off (reason not found) after winning in them; up 21lb since January; untested beyond 2m4f50y at this level." },
+            { rank: 4, horse: "Teed Up", prob: 0.09, finish: "-", confidence: "low", danger: true,
+              reason: "Six Galway wins, the most in the field; August Galway 3rd franked by Castleheath winning here yesterday; off 114 after the claim.",
+              against: "Beaten 64L and 66L on both soft/heavy hurdle runs this year." }
+          ]
+        },
+        {
           time: "15:55", name: "COLM QUINN BMW Handicap Hurdle (0-100)", type: "hurdle", distance: "3m",
           going: "Soft", runners: 20, source: "full", status: "pending", grade: "pending", errors: [],
           notes: "20-runner 0-100 handicap on soft, wide open (picks 0.38 combined). Reserve Good World (R21) would carry 11-7. More rain helps Roc My Haarth and Imperial Tune.",
