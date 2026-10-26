@@ -258,6 +258,10 @@ So a pick the whole market already fancies earns little even when right, and a c
 
 - **Outsider check (required).** Before ranking, write one line for every runner outside the provisional top four with the best evidence-based case for it: a form line hidden by a bad run, a weight or mark drop, a change of trip, ground, course or headgear, a pace setup that suits, a stable pattern. Promote any horse whose case beats a pick. Record the check in the write-up.
 - **Don't rank on the obvious signals alone.** Top official rating, best recent form figures and the biggest stable or jockey are what the market prices hardest. A pick resting only on them can win and still score little; each pick's reason must name evidence beyond them.
+- **Calibrate the top pick's win chance to field size and race type, not to class.** How concentrated the field's win probabilities can realistically be depends on race structure, not on how good the horses are:
+  - *Small fields and non-handicaps concentrate it.* In 4–6 runner races, and in maidens, conditions and pattern races, a clear standout can fairly hold 40%+ of the win chance.
+  - *Big, competitive handicaps dilute it.* Weight is set to bunch the field, so in 12+ runner handicaps (and especially 16+) no runner — however well it rates — should carry a very high win chance; a realistic top-pick ceiling is about 25–30%, with more probability spread across the field. This is the structural reason the outsider check matters most in these races.
+  - *Class is only a weak, confounded proxy.* Higher-class Flat favourites win marginally more often than low-grade ones (roughly 36% vs 31% in post-2020 samples), but largely because top races are more often small-field non-handicaps. Do not downgrade the top pick merely because the race is low grade — read the field size and whether it is a handicap, which do the real work. *(Added 26 Oct 2026 from aggregated favourite-strike-rate studies — field size swings favourite win rates by ~15 points, handicaps run well below non-handicaps; figures are secondary, not BHA primary.)*
 
 ## Step 15: Record the analysis
 
@@ -415,6 +419,7 @@ Verification discipline decays as a task lengthens: result pages get re-opened e
 - **Trusting 2yo ratings from narrow defeats over franked form from a heavier defeat**
 - **Recording a specific doubt and then ranking as if it weren't there**
 - **Estimating counts instead of counting** ("12 runs without a win" was 9)
+- **Over-concentrating win probability on a standout in a big-field handicap** — field size and handicap status, not class, decide how reliable the top pick is (26 Oct 2026)
 
 ## Known strengths
 - Applying draw bias where the data is strong

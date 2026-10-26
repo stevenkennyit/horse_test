@@ -260,6 +260,10 @@ So a pick the whole market already fancies earns little even when right, and a c
 
 - **Outsider check (required).** Before ranking, write one line for every runner outside the provisional top four with the best evidence-based case for it: a form line hidden by a bad run, a weight or mark drop, a change of trip, ground, course or headgear, a pace setup that suits, a stable pattern. Promote any horse whose case beats a pick. Record the check in the write-up.
 - **Don't rank on the obvious signals alone.** Top official rating, best recent form figures and the biggest stable or jockey are what the market prices hardest. A pick resting only on them can win and still score little; each pick's reason must name evidence beyond them.
+- **Calibrate the top pick's win chance to field size and race type, not to class.** How concentrated the field's win probabilities can realistically be depends on race structure and completion risk, not on how good the horses are:
+  - *Small fields and non-handicaps concentrate it.* In 4–7 runner races, and in novice, Graded or maiden events, a clear standout can hold the most chance — but jumping risk still caps it: a faller or a surprise is always in play, so even a strong top pick rarely deserves more than about 45–50%.
+  - *Big, competitive handicaps dilute it.* Weight bunches the field and the chance of a non-completion among the leaders rises, so in 12+ runner handicap chases and hurdles (especially 16+) a realistic top-pick ceiling is about 25%, with more probability spread across the field. This is the structural reason the outsider check matters most in these races.
+  - *Class is not a reliable lever over jumps.* The weak class/favourite-reliability link that holds on the Flat is thin and even reverses in the jumps samples checked, so do not downgrade a top pick just because the race is low grade. Field size, handicap status and completion risk do the real work. *(Added 26 Oct 2026 from aggregated favourite-strike-rate studies — field size swings favourite win rates by ~15 points; the jumps class data is thin and mixed; figures are secondary, not BHA primary.)*
 
 ## Step 16: Record the analysis
 
@@ -454,6 +458,7 @@ Verification discipline decays as a task lengthens. For any deliverable produced
 - **Holding early-career ground runs against a horse that has since improved** (Galway, 25 Oct 2026)
 - **Letting value or a big price override a recorded jumping or temperament doubt** (Galway, 25 Oct 2026)
 - **Rating unraced bumper horses on purchase price, pedigree or booking over raced rivals getting weight** (Galway, 25 Oct 2026)
+- **Over-concentrating win probability on a standout in a big-field handicap** — field size and completion risk, not class, decide how reliable the top pick is (26 Oct 2026)
 
 ## Known strengths
 - Weight-adjusted head-to-heads (the cleanest signal over jumps)
