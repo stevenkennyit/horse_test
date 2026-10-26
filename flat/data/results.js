@@ -23,7 +23,7 @@
         {
           time: "16:10", name: "Unibet's New VAR Goal Guarantee Novice Stakes (GBB Race)", type: "novice", distance: "7f",
           going: "Standard to Slow", runners: 9, source: "full", status: "pending",
-          writeup: "flat/analyses/2026-10-26_kempton/1610_7f-class-4-novice-stakes.md", updated: "18:06 Sun 25 Oct",
+          writeup: "flat/analyses/2026-10-26_kempton/1610_7f-class-4-novice-stakes.md", updated: "07:35 Mon 26 Oct",
           picks: [
             { rank: 1, horse: "Divine Symmetry", prob: 0.39, finish: "-", confidence: "low",
               reason: "Better Racing Post figure at today's weights (77 v 72) and a strong frank: the 3rd from his debut won next time.",
@@ -45,7 +45,7 @@
         {
           time: "16:45", name: "Unibet More Extra Place Races EBF Novice Stakes (GBB Race) (Div I)", type: "novice", distance: "7f",
           going: "Standard to Slow", runners: 10, source: "full", status: "pending",
-          writeup: "flat/analyses/2026-10-26_kempton/1645_7f-class-3-2yo-novice-stakes-div-1.md", updated: "19:45 Sun 25 Oct",
+          writeup: "flat/analyses/2026-10-26_kempton/1645_7f-class-3-2yo-novice-stakes-div-1.md", updated: "07:35 Mon 26 Oct",
           picks: [
             { rank: 1, horse: "Red Wizard", prob: 0.27, finish: "-", confidence: "low",
               reason: "Best course form (5th of 8 over C&D, 4L, chasing the winner), about 1.3s faster than Stytch over C&D after adjusting for each night, and franked: the 2nd and 4th have both run 2nd since (OR85, OR86).",
@@ -63,6 +63,148 @@
           winner: null,
           grade: "pending", errors: [],
           notes: "Updated 19:45 25 Oct after a full audit (5 errors of my own corrected) and new counts from 946 Kempton races. Order unchanged. Red Wizard: franked collateral 76-78, adjusted C&D time +0.30s v typical winner (Stytch +1.56s), but Charlton 0/28 with 2yos at Kempton. Idealise: pedigree weaker than first stated. Rest: King Gamrah 10% (Tate debuts 3/7), India's Ridge 7%, Sequoiadendron 6%, Boy's Slipper 4%, St Peter's Cross 3%, Clink 2%."
+        },
+        {
+          time: "17:15", name: "Unibet More Extra Place Races EBF Novice Stakes (GBB Race) (Div 2)", type: "novice", distance: "7f",
+          going: "Standard to Slow", runners: 9, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-26_kempton/1715_7f-class-3-2yo-novice-stakes-div-2.md", updated: "07:35 Mon 26 Oct",
+          picks: [
+            { rank: 1, horse: "Showmaster", prob: 0.41, finish: "-", confidence: "medium",
+              reason: "2.5L behind Kamaal (rated 87-91) on debut, about 82 on collateral and a time figure about 20lb better than any other raced runner; sat in touch, the style that wins these.",
+              against: "One run, on soft turf, and nothing from that race has run since; Cox 1 from 20 with 2yos at Kempton; four newcomers from paying yards." },
+            { rank: 2, horse: "Raslan", prob: 0.10, finish: "-", confidence: "low",
+              reason: "Second-best collateral (about 57-61), now with Boughey (2yos 5 from 24 here) and Murphy; raced handy both times and improved from 11.85L to 5.8L beaten.",
+              against: "About 20lb to find with Showmaster; up to 7f, first run on Polytrack, 60 days off, beaten favourite on debut, no frank found." },
+            { rank: 3, horse: "Le Drakkar", prob: 0.10, finish: "-", confidence: "low",
+              reason: "Most expensive newcomer (185,000 euros), dam a 1m winner from a useful family; Egan rides.",
+              against: "No form; de Foy 2yos 2 from 18 here; first-time tongue tie on a debutant; Easy Evening has an equal claim." }
+          ],
+          winner: null,
+          grade: "pending", errors: [],
+          notes: "Written 20:50 25 Oct; re-checked 07:35 26 Oct, no non-runners. Showmaster's form is in the 80s, the rest well below; newcomers win about 6-8% of these and held-up horses won 3 of 203 Kempton 7f 2yo novices. Rest: Easy Evening 10%, Ala Et Prece 7%, Sashimono 7%, Punto Di Blu 6%, Green Tundra 5%, Turbo Charger 4%."
+        },
+        {
+          time: "17:45", name: "Unibet 40,000+ Live Streamed Events Handicap", type: "handicap", distance: "7f",
+          going: "Standard to Slow", runners: 12, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-26_kempton/1745_7f-class-4-handicap.md", updated: "07:35 Mon 26 Oct",
+          picks: [
+            { rank: 1, horse: "I'm Workin On It", prob: 0.18, finish: "-", confidence: "low",
+              reason: "Best weight-adjusted Kempton figures in the race and they repeat (17.2, 14.6, 11.3); head-to-heads put him about 4-5lb ahead of Port Road and Blue Prince; drops to Class 4 at 7f, where he has won 4 times here.",
+              against: "Top weight on his highest mark and no win off higher than 81; quiet stable (Millman 1 from 20 here in six months); best figures came at 1m." },
+            { rank: 2, horse: "Siwa Oasis", prob: 0.16, finish: "-", confidence: "low",
+              reason: "Progressive 3yo, 7f form 2-1-1 including a cosy C&D handicap win; races handy from stall 6; Egan 11 from 55 here.",
+              against: "Up 5lb for one handicap win with no frank yet; Blue Prince about level on the weights; Kempton figure (6.1) well below the top pick's." },
+            { rank: 3, horse: "Rogue Messiah", prob: 0.13, finish: "-", confidence: "low",
+              reason: "All-weather form 2-1-2, including a C&D 2nd off 85 staying on; best stall (1); his flops came on fast turf.",
+              against: "2lb higher than for a defeat by a horse that has not run since; Luke Morris 3 from 65 here; needs the gaps from mid-division." },
+            { rank: 4, horse: "Caviar Cowboy", prob: 0.11, finish: "-", confidence: "low", danger: true,
+              reason: "Beaten half a length over C&D off today's mark by Lord Britain, since rated 100: the best-franked run in the race.",
+              against: "Unplaced in three runs since, 61 days off, gelded since, stall 9." }
+          ],
+          winner: null,
+          grade: "pending", errors: [],
+          notes: "Written 21:25 25 Oct. Update 07:35 26 Oct: Dr Strangelove (1%, stall 14) now a non-runner as well as Tavana, 12 run; picks unchanged. Lunario's 7lb claim taken off (carries 8-7). Rest: Blue Prince 9%, Pinatubo's Legacy 8%, Weffaag 8%, Wild Nature 5%, Lunario 4%, Port Road 4%, Aigeas 2%, City Cyclone 2%."
+        },
+        {
+          time: "18:15", name: "Bet 20 Pound Get 20 Pound With Unibet Novice Stakes (GBB/GBBPlus Race)", type: "novice", distance: "1m3f219y",
+          going: "Standard to Slow", runners: 9, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-26_kempton/1815_1m4f-class-3-novice-stakes.md", updated: "07:35 Mon 26 Oct",
+          picks: [
+            { rank: 1, horse: "Maldives", prob: 0.30, finish: "-", confidence: "low",
+              reason: "Ran to her mark of 80 on her handicap debut and the form is franked three times since; drops 11lb to novice weights and holds the highest rating at today's weight (about 76).",
+              against: "Never run beyond 1m2f or on Polytrack; best figure on soft turf; heavy defeats in Group/Listed company; de Foy 4 from 58 at Kempton." },
+            { rank: 2, horse: "Liam Mera Kai", prob: 0.22, finish: "-", confidence: "low",
+              reason: "Proven stayer on an artificial surface: beaten a short head over 1m3f at Southwell, 6.5L clear of the rest; hurdles winner rated 111; stall 1, races handy.",
+              against: "Hung and was caught late last time; loses his 5lb claim, so carries 2-3lb more; time figure well below Maldives's; Greatrex Flat runners 4 from 40 here." },
+            { rank: 3, horse: "Sailor Song", prob: 0.16, finish: "-", confidence: "low",
+              reason: "Best form on paper (RPR 86-88, 1.5L behind Al Azd, now rated 92) and races handy.",
+              against: "184 days off, first run for Loughnane after leaving Godolphin, beaten 17.45L last time; the 88 came with a 7lb claim; widest stall." }
+          ],
+          winner: null,
+          grade: "pending", errors: [],
+          notes: "Written 21:45 25 Oct; re-checked 07:35 26 Oct, no non-runners. Pete's Sake's 5lb claim taken off. Only 19 Kempton 1m4f non-handicaps in the draw/pace count, so treated as weak. Rest: Flagbearer 12%, Allaire 11%, Bintnaseefa 3%, Pete's Sake 2%, Perzaaneh 2%, Katana 2%."
+        },
+        {
+          time: "18:45", name: "Try Unibet's New Racing Bet Builder Handicap", type: "handicap", distance: "1m",
+          going: "Standard to Slow", runners: 13, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-26_kempton/1845_1m-class-4-handicap.md", updated: "07:35 Mon 26 Oct",
+          picks: [
+            { rank: 1, horse: "Fight Your Corner", prob: 0.18, finish: "-", confidence: "medium",
+              reason: "Best-franked form in the race and over C&D: the 3rd, 4th (London Mile final) and 5th from his 0.3L 2nd have all won since; 1lb lower today; two matching Kempton figures; stall 3.",
+              against: "68 days off; Tate 0 from 16 at Kempton in six months; beaten 4.15L as favourite off this mark; his times are below Uniting's and Gilet's best." },
+            { rank: 2, horse: "Uniting", prob: 0.14, finish: "-", confidence: "low",
+              reason: "Best time figure in the field (neck 2nd in the Southwell Mile Series final at today's weight) and a C&D win; Kavanagh's 3lb claim; stall 1.",
+              against: "202 days off, first run for Luke Dace, first-time hood; 3lb higher; Southwell race only partly franked; held up there." },
+            { rank: 3, horse: "Breathe Easy", prob: 0.10, finish: "-", confidence: "low",
+              reason: "Unexposed (4 runs, 2 wins), Balding and Murphy (20% over 1m here), stall 2, races with the pace.",
+              against: "240 days off; handicap win was a 4-runner race with a weak time; the case is mostly yard, jockey and draw." }
+          ],
+          winner: null,
+          grade: "pending", errors: [],
+          notes: "Written 22:15 25 Oct; re-checked 07:35 26 Oct, Musical Angel still the only non-runner. Uniting's 3lb claim taken off (carries 9-5). Rest: Fallacious Promise 9%, Loblolly 9%, Gilet 8%, Drifts Away 8%, Bold Suitor 6%, Bubbles Wonky 5%, Studious 4%, Crossbar 4%, Get Outta Here 3%, Warning Sign 2%."
+        },
+        {
+          time: "19:15", name: "Try Unibet's Superboosts Handicap", type: "handicap", distance: "1m2f219y",
+          going: "Standard to Slow", runners: 13, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-26_kempton/1915_1m2f-class-6-handicap.md", updated: "07:35 Mon 26 Oct",
+          picks: [
+            { rank: 1, horse: "Ataturk", prob: 0.15, finish: "-", confidence: "low",
+              reason: "Most consistent at this level (0.05L 2nd, 2.3L 4th, 0.2L 2nd in Class 6 at 1m2f-1m4f); the 4th came behind Aravalli and Captain Cairney, both winners since.",
+              against: "Stall 13: stalls 10+ have won 2 of 101 over this C&D; 0 from 6, beaten at 4/5; Morrison 0 from 14 at Kempton in six months." },
+            { rank: 2, horse: "Uzincso", prob: 0.12, finish: "-", confidence: "low",
+              reason: "Kempton specialist on his lowest mark (55, from 61 in April), stall 3; C&D 3rd off 59 in June; Butler 7 from 28 at this trip here.",
+              against: "Aged 10, 4 wins from 50; weakened as favourite on 9 Sep and beaten 8.75L on 23 Sep; the mark is falling because the form is." },
+            { rank: 3, horse: "Kathleen Mary", prob: 0.11, finish: "-", confidence: "low",
+              reason: "Kept on from the rear at Leicester about 3lb behind Ataturk; 18lb lower than July 2025; stall 4; Murphy 22% at this trip here.",
+              against: "0 from 11, unplaced in her last six; the booking is the main positive, an obvious signal." },
+            { rank: 4, horse: "Baron Wagstaff", prob: 0.10, finish: "-", confidence: "low", danger: true,
+              reason: "Neck 2nd over 1m4f at Wolverhampton off 54 last time; stall 2.",
+              against: "Held up (wins 7.7% here), up 3lb, trainer 0 from 11 here." }
+          ],
+          winner: null,
+          grade: "pending", errors: [],
+          notes: "Written 22:45 25 Oct; re-checked 07:35 26 Oct, Tales Old As Time still the only non-runner. Strong C&D draw effect (stalls 10+ 2 from 101) counts against the top pick; weak race. Rest: Katalyst 9%, Fizzy Bear 8%, Brave Leader 8%, Heart Sign 8%, Somethingintheair 7%, Boogie Inthejungle 3%, Indian Mary 3%, Open To Offers 3%, Golden Caviar 3%."
+        },
+        {
+          time: "19:45", name: "Unibet Supports Safer Gambling Handicap", type: "handicap", distance: "6f",
+          going: "Standard to Slow", runners: 12, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-26_kempton/1945_6f-class-6-handicap.md", updated: "07:35 Mon 26 Oct",
+          picks: [
+            { rank: 1, horse: "Roy Lane", prob: 0.20, finish: "-", confidence: "low",
+              reason: "C&D 2nd of 12 off today's mark, franked (the 3rd won next time, the winner raised 7lb); first run for Fanshawe then; only 1lb more today; stall 2.",
+              against: "A maiden with one good run; his time figure is behind Southbank's, Tie Fighter's and Diamond Dreamer's best; races midfield; 42 days off." },
+            { rank: 2, horse: "Southbank", prob: 0.11, finish: "-", confidence: "low",
+              reason: "C&D winner off 54 now on 49, his lowest mark in two years; carries 6-11lb less than in his best spring runs, the best time figures in the field.",
+              against: "Last two runs poor (13th of 17, then 10th of 11 here, 'found nil'); a low mark only helps if he is running to form; trainer 4 from 46 here." },
+            { rank: 3, horse: "Preferred", prob: 0.10, finish: "-", confidence: "low",
+              reason: "Stall 1 and a front-runner where the leader wins a quarter of these; few low-drawn rivals have early speed; Rossa Ryan 29% over 6f here; mark down 5lb.",
+              against: "Maiden after 5 runs with weak figures; weakened after leading at Southwell; Tate 0 from 16 here; hood left off." }
+          ],
+          winner: null,
+          grade: "pending", errors: [],
+          notes: "Written 23:10 25 Oct; re-checked 07:35 26 Oct, no non-runners. Leaders win about 25% of Kempton 6f handicaps (114 races). Rest: Everydaysasaturday 10%, Diamond Dreamer 9%, Express Train 8%, Tie Fighter 8%, Stapleford Park 6%, Wild Act 6%, Esplanade 5%, Nezeeh 4%, Addictive 3%."
+        },
+        {
+          time: "20:15", name: "Bet At racingtv.com Handicap", type: "handicap", distance: "1m7f218y",
+          going: "Standard to Slow", runners: 12, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-26_kempton/2015_2m-class-6-handicap.md", updated: "07:35 Mon 26 Oct",
+          picks: [
+            { rank: 1, horse: "Ada Rose", prob: 0.16, finish: "-", confidence: "low",
+              reason: "Two close 2nds in her only runs at 2m, only 1lb higher; the Newcastle race is franked (Niffler won over C&D next time, the 3rd won next time); races handy; Egan 11 from 55 here.",
+              against: "1 win from 9; both 2nds in small fields (4 and 6 runners); 51 days off; the collateral edge over Shopaholic runs through a chain of races." },
+            { rank: 2, horse: "La Trinite", prob: 0.14, finish: "-", confidence: "low",
+              reason: "Won at Bath 7 days ago by 3.75L, and carries 11lb less than that day (it was an amateur riders' race); about 4.5lb ahead of Femme Fatale on their Lingfield meeting.",
+              against: "5lb penalty puts her above the mark she won off; Bath good to soft is a different test; keen early; other recent runs ordinary." },
+            { rank: 3, horse: "Shopaholic", prob: 0.13, finish: "-", confidence: "low",
+              reason: "Best-franked win in the race (Niffler, her 2nd at Wolverhampton, won over C&D next time); Murphy 6 from 20 at 2m here.",
+              against: "Top weight after a 4lb rise, stall 12, 4th of 5 last time and tailed off before that; behind Ada Rose through Niffler; first-time cheekpieces." },
+            { rank: 4, horse: "Noble Grace", prob: 0.12, finish: "-", confidence: "low", danger: true,
+              reason: "Won two of her last four, the latest over 2m2f, staying on strongly.",
+              against: "Up 3lb; only Kempton run a 33.8L novice defeat; the race she won had six runners." }
+          ],
+          winner: null,
+          grade: "pending", errors: [],
+          notes: "Written 23:40 25 Oct; re-checked 07:35 26 Oct, no non-runners. La Trinite's 5lb penalty and Public Enemy's 3lb claim accounted for. Low-grade 2m: times near-uninformative, ranked on beaten distances and franks. Rest: State Express 10%, Femme Fatale 8%, Further Measure 7%, Make It Up 6%, Electric Gambler 6%, Letmebetheboss 3%, Public Enemy 3%, No Ordinary Joe 2%."
         }
       ]
     },

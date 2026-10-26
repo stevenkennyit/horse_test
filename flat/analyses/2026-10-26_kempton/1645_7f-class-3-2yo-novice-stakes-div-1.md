@@ -352,3 +352,7 @@ The rest: King Gamrah 10% (+2, Tate's newcomers), India's Ridge 7%, Sequoiadendr
 - Sporting Life horse profiles for 1,350 Kempton 2yo runners plus 282 horses from trainer lists; Commendation (`/racing/profiles/horse/1155940`).
 - Sporting Life trainer profiles (last 50 runners): Candy 2790, Main 210, Balding 3209, Tate 1848, Hills 378, Charlton 36155, Dace 3328, King 111, Hannon 216.
 - Sporting Life going page (`/racing/going`), 19:40.
+
+## Update 07:35 Mon 26 Oct
+
+Re-checked on the Sporting Life card at 07:35 GMT. No non-runners; jockeys and draws as written. Going still Standard to Slow. Picks and probabilities unchanged. Racing Post card not re-read this morning.

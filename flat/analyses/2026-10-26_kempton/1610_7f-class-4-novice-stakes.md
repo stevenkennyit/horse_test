@@ -379,3 +379,7 @@ Racing Post rows run OR, TS, RPR, MR; the earlier fetches had misaligned the sum
 Rest unchanged: Crack O'Nine 3%, Anncanya 3%, Secret Message 2%, Irish Spring 1%, Heart Throb 1% (total 100%).
 
 **What would change it:** a non-runner among the top two; or a going change, though Polytrack rarely changes. The ranking is still a near coin-flip. Imperial Ballet wins it if she gets back to her 2yo figure (80); Divine Symmetry wins it if he repeats his debut (75) with normal second-run improvement and isn't stuck at the back in a slow pace.
+
+## Update 07:35 Mon 26 Oct
+
+Re-checked on the Sporting Life card at 07:35 GMT. No non-runners; jockeys and draws as written. Going still Standard to Slow. Picks and probabilities unchanged. Racing Post card not re-read this morning.
