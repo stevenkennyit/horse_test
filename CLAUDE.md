@@ -11,6 +11,7 @@ Race analysis for UK and Irish racing. The playbooks hold the method; this file 
 | `jumps/data/results.js`, `flat/data/results.js` | Picks, probabilities and results per meeting (schema in the jumps file's header) |
 | `jumps/analyses/`, `flat/analyses/` | One Markdown write-up per race: `<YYYY-MM-DD>_<course>/<HHMM>_<race-slug>.md` |
 | `dashboard.html` | Performance dashboard; reads both results files. Open it directly from the folder |
+| `.claude/agents/race-analyst.md` | Subagent `/analyse` spawns per race: deep-dives one race in a fresh context and writes its write-up |
 | `upcoming.html` | Races still to run: the agent's picks, chances and reasons, for review before the off |
 
 ## Which playbook
