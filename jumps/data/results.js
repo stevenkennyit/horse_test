@@ -222,6 +222,27 @@
           ]
         },
         {
+          time: "14:12", name: "Connolly's RED MILLS Irish EBF Auction & Median Maiden Hurdle", type: "hurdle", distance: "2m90y",
+          going: "Soft", runners: 11, source: "full", status: "pending", grade: "pending", errors: [],
+          notes: "Gap-fill pass (Update 07:58) put Give It A Crack top (0.21 -> 0.26) over Coolishael (0.28 -> 0.24) after her heavy-ground point 2nd was verified; Missouri Snow replaced Jury Time as the danger. Five hurdle debutants.",
+          winner: null,
+          writeup: "jumps/analyses/2026-10-26_galway/1412_irish-ebf-auction-median-maiden-hurdle.md", updated: "07:58 Mon 26 Oct",
+          picks: [
+            { rank: 1, horse: "Give It A Crack", prob: 0.26, finish: "-", confidence: "medium",
+              reason: "About level with Coolishael at today's weights on the Listowel head-to-head (beaten 5L, 5lb better off now); 2nd on heavy over 3m in a mares' point; De Bromhead 9 NH wins from 34.",
+              against: "One hurdle run only, 5lb claimer replaces O'Keeffe, ATR noted mistakes and greenness at Listowel, no frank for that race." },
+            { rank: 2, horse: "Coolishael", prob: 0.24, finish: "-", confidence: "medium",
+              reason: "Deepest Rules form: gave the Listowel winner 16lb and was beaten 1L; beaten 8.5L at level weights by Lizzie Twigg (since Listed winner, 127-128); three clean hurdle rounds.",
+              against: "No soft or heavy form found in any code, still a maiden (beaten at 8/15 at Ballinrobe), 'no extra' in 2 of 3 hurdle runs, yard 1 NH win from 29." },
+            { rank: 3, horse: "If You Believe", prob: 0.19, finish: "-", confidence: "low",
+              reason: "Proven on soft: Clonmel 4th carrying 6lb more than the first two is worth about the low 110s; Cromwell and Donoghue won twice here yesterday.",
+              against: "Off 354 days for an unknown reason; Cromwell's 300+ day returners in the sample unplaced; not fluent twice in his only hurdle run." },
+            { rank: 4, horse: "Missouri Snow", prob: 0.10, finish: "-", confidence: "low", danger: true,
+              reason: "Point winner on soft to heavy, bumper winner and Listed 3rd; gets 12lb from the geldings and races prominently.",
+              against: "Hurdle debut, and beaten 15L in the Listed bumper." }
+          ]
+        },
+        {
           time: "15:55", name: "COLM QUINN BMW Handicap Hurdle (0-100)", type: "hurdle", distance: "3m",
           going: "Soft", runners: 20, source: "full", status: "pending", grade: "pending", errors: [],
           notes: "20-runner 0-100 handicap on soft, wide open (picks 0.38 combined). Reserve Good World (R21) would carry 11-7. More rain helps Roc My Haarth and Imperial Tune.",
@@ -240,6 +261,24 @@
             { rank: 4, horse: "Grace Faraday", prob: 0.08, finish: "-", confidence: "low", danger: true,
               reason: "Best course form: won this race last year, won here 7 Sep, 2nd here 6 Oct.",
               against: "0 from 9 in soft/heavy hurdle handicaps and on a career-high 100." }
+          ]
+        },
+        {
+          time: "16:32", name: "Electric Galway (C & G) (Pro/Am) INH Flat Race", type: "bumper", distance: "2m90y",
+          going: "Soft", runners: 9, source: "full", status: "pending", grade: "pending", errors: [],
+          notes: "Six of nine carry 11-3 with 7lb claims; Evans Wishes, Here's Jim and Marble Hill carry 11-10. Three unraced (Here's Jim capped by rule E). If heavy is declared, Todo Bien moves to top (about 0.28) and Ballyadam Star 2nd (about 0.22).",
+          winner: null,
+          writeup: "jumps/analyses/2026-10-26_galway/1632_electric-galway-pro-am-flat-race.md", updated: "08:10 Mon 26 Oct",
+          picks: [
+            { rank: 1, horse: "Ballyadam Star", prob: 0.26, finish: "-", confidence: "medium",
+              reason: "5th of 18 in the Punchestown festival 4yo bumper, beaten about 6L (3L behind Teofil, who has won 3 since); keeps his 7lb claim and gets 7lb from Marble Hill.",
+              against: "Never run on soft, Flat dam line, the Punchestown race was slowly run and Galway's 2f uphill finish tests stamina; off 181 days." },
+            { rank: 2, horse: "Todo Bien", prob: 0.25, finish: "-", confidence: "low",
+              reason: "Only runner with soft or heavy form: 3rd at Naas, 2 1/4L behind Apache Peak (later Listed 3rd); races prominently, Elliott 20% in bumpers, carries 11-3.",
+              against: "'No extra' late in both runs, best run in a 5-runner race, off 175 days." },
+            { rank: 3, horse: "Marble Hill", prob: 0.19, finish: "-", confidence: "low",
+              reason: "Beaten 1 1/4L by Gillane (since won a 17-runner maiden hurdle) and 6L clear of the 3rd; French jumps pedigree, Cromwell in form.",
+              against: "Carries 11-10 with no claim, 13lb more than at Bellewstown, giving 7lb to both picks above; never run on soft; off 191 days." }
           ]
         }
       ]
