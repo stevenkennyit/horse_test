@@ -243,6 +243,27 @@
           ]
         },
         {
+          time: "14:45", name: "Corrib Oil Maiden Hurdle", type: "hurdle", distance: "2m90y",
+          going: "Soft", runners: 19, source: "full", status: "pending", grade: "pending", errors: [],
+          notes: "Fergy Five NR; reserve What About Max has no rider and is withdrawn automatically if none is named by 11:00 (re-check). Gap-fill pass cut Boycetown 0.42 -> 0.36 for hurdle debut in a 19-runner soft field (Cromwell hurdle debutants 0 from 11 in the sample).",
+          winner: null,
+          writeup: "jumps/analyses/2026-10-26_galway/1445_corrib-oil-maiden-hurdle.md", updated: "07:59 Mon 26 Oct",
+          picks: [
+            { rank: 1, horse: "Boycetown", prob: 0.36, finish: "-", confidence: "medium",
+              reason: "About a stone clear on form: 4th in the Cheltenham Champion Bumper and 3rd beaten 2.5L in the Punchestown G1; proven on soft to heavy; completed a 3m point; prominent style suits the course.",
+              against: "Hurdle debut in a 19-runner field on soft; Cromwell hurdle debutants 0 from 11 in the sample; ran green and hung right in bumpers; 180 days off." },
+            { rank: 2, horse: "Thinkitdontjinxit", prob: 0.15, finish: "-", confidence: "low",
+              reason: "Won his 3m point on soft by 8L, 2nd beaten 1.5L on soft at Thurles; was withdrawn at Limerick for the ground, so here for it; can lead.",
+              against: "About a stone below Boycetown, beaten 52.5L last time, Elliott debutants 0 from 6 in the sample." },
+            { rank: 3, horse: "King Idaho", prob: 0.09, finish: "-", confidence: "low",
+              reason: "6th, beaten about 8.5L, in a strongly franked heavy-ground Naas bumper (2nd Simply Natural won here yesterday; 3rd now rated 118); Byrnes yard in form.",
+              against: "One run, 315 days off, hurdle debut, held up against a front-running bias." },
+            { rank: 4, horse: "This Songisforyou", prob: 0.07, finish: "-", confidence: "low", danger: true,
+              reason: "Flat 96-100 class and fit.",
+              against: "Jumping errors in 3 of 3 hurdle runs." }
+          ]
+        },
+        {
           time: "15:20", name: "W.B. Gavin & Co. Handicap Hurdle", type: "hurdle", distance: "2m5f200y",
           going: "Soft", runners: 14, source: "full", status: "pending", grade: "pending", errors: [],
           notes: "Open 14-runner soft handicap; picks plus danger 0.50. Prophet's Corner (front-runner, off 115 after claim) the closest outsider. One Big Boum's blinkers, worn for his 24L Fairyhouse win, are left off.",
