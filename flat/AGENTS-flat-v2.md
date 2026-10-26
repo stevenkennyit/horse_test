@@ -328,7 +328,7 @@ Once results are published, judge the reasoning, not the result.
    - *Data errors* — a figure, margin, headgear code or count was wrong at source or misread.
    - *Judgement errors* — the data was right but weighted wrongly (e.g. consistency over times, rating over franking, a single figure over repeated head-to-heads).
 4. **Name what held and what failed in each race**, including correct calls that lost (a sound pick beaten narrowly or badly drawn) and wrong calls that won (one that won despite a real doubt, or for a reason the analysis didn't give).
-5. **Turn each judgement error into a rule** and add it to the relevant step above.
+5. **Turn each judgement error into a rule** and add it to the relevant step above. Then **log the change in `data/changelog.js`** (date, scope, title, detail) so the dashboard's "Playbook changes" can track its effect on performance.
 6. **Update the record.** In `flat/data/results.js`, for each race set: `finish` and `sp` (starting price) for every pick (finish = the official position, or `UR` / `PU` / `RR` (refused to race) / `DSQ`; never a summary such as "U/P" or "unplaced"); `winner` as `{ horse, sp, agentProb }` (`agentProb` is the probability stated for the winner before the off, or `null` if it wasn't rated); `status: "settled"`, plus `provisional: true` if the result isn't weighed in yet; `grade` (`held` / `mixed` / `failed`); `errors` (codes from `errorTypes`, adding a new code there for a new type of error); and a one-line `notes`. Add any data errors to the meeting's `dataErrors`. Append a `## Result` section to each race's write-up. Then open `dashboard.html` to check the figures.
 
 ---

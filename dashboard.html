@@ -182,6 +182,12 @@
     </section>
   </div>
 
+  <section class="card" style="margin-top:12px" id="changelog-card">
+    <h2>Playbook changes</h2>
+    <p class="desc">Dated rule changes, newest first, with settled-race performance before and after each — to spot whether a change moved results. Uses all meetings, ignoring the filters above. Read the before/after once each side has a handful of races; small samples swing widely.</p>
+    <div class="table-wrap"><table id="changelog"></table></div>
+  </section>
+
   <section class="card" style="margin-top:12px">
     <h2>Race by race</h2>
     <p class="desc">Top two picks with the agent's stated chance and where they finished.</p>
@@ -193,7 +199,7 @@
   </section>
 
   <footer>
-    Data: <code>jumps/data/results.js</code> and <code>flat/data/results.js</code>. Add each new meeting to the right file; the dashboard recalculates on reload.
+    Data: <code>jumps/data/results.js</code> and <code>flat/data/results.js</code>. Add each new meeting to the right file; the dashboard recalculates on reload. Playbook rule changes are logged in <code>data/changelog.js</code> and tracked under "Playbook changes".
     "Placed" uses standard each-way places: 2 for 5–7 runners, 3 for 8+, 4 for handicaps of 16+, winner only under 5.
     Pick score (top two picks, at SP): a winner earns its odds (5/1 → +5), a placer a fifth of them (a quarter in 5–7 runner races and handicaps of 12+), anything else −1.
     Profit figures assume 1pt to win on each pick at its starting price (SP); fair price = 1 ÷ the agent's win chance.
@@ -203,6 +209,7 @@
 
 <script src="jumps/data/results.js"></script>
 <script src="flat/data/results.js"></script>
+<script src="data/changelog.js"></script>
 <script>
 (function () {
   const DATA = window.AGENT_DATA || { meetings: [], errorTypes: {} };
@@ -537,6 +544,46 @@
     $("data-errors").innerHTML = errs.length ? `<ul class="plain">${errs.map((e) => `<li>${esc(e)}</li>`).join("")}</ul>` : '<p class="muted">None recorded.</p>';
   }
 
+  // ---- playbook changelog (rule changes vs performance, to catch a dip) ----
+  const CHANGES = (window.AGENT_CHANGELOG || []).slice().sort((a, b) => b.date.localeCompare(a.date));
+  function scopeChip(scope) {
+    const map = { both: "Both codes", flat: "Flat", jumps: "Jumps" };
+    const color = scope === "jumps" ? "var(--series-2)" : scope === "flat" ? "var(--series-1)" : "var(--muted)";
+    return `<span class="chip"><span class="dot" style="background:${color}"></span>${map[scope] || esc(scope)}</span>`;
+  }
+  function perfOf(rs) {
+    const scored = rs.map(raceScore).filter((x) => x != null);
+    const n = scored.length, total = scored.reduce((a, x) => a + x, 0);
+    const withTop = rs.filter((r) => r.picks[0] && r.picks[0].finish !== "-");
+    const topWon = withTop.filter((r) => String(r.picks[0].finish) === "1").length;
+    return { avg: n ? total / n : null, winRate: withTop.length ? topWon / withTop.length : null, settled: rs.length };
+  }
+  function perfCell(p) {
+    if (!p.settled) return '<span class="muted">no settled races yet</span>';
+    const score = p.avg == null ? "–" : `${p.avg > 0 ? "+" : ""}${p.avg.toFixed(2)}/race`;
+    const wr = p.winRate == null ? "" : ` · top won ${pct(p.winRate)}`;
+    return `${p.settled} race${p.settled === 1 ? "" : "s"} · ${score}${wr}`;
+  }
+  function renderChangelog() {
+    const el = $("changelog");
+    if (!CHANGES.length) { $("changelog-card").style.display = "none"; return; }
+    const allSettled = DATA.meetings.flatMap((m) => m.races.filter((r) => r.status === "settled").map((r) => ({ ...r, meeting: m })));
+    let h = `<thead><tr><th>Date</th><th>Scope</th><th>Change</th><th>Before</th><th>After</th><th class="num">Δ avg score</th></tr></thead><tbody>`;
+    CHANGES.forEach((c) => {
+      const inScope = allSettled.filter((r) => c.scope === "both" || r.meeting.code === c.scope);
+      const before = perfOf(inScope.filter((r) => r.meeting.date < c.date));
+      const after = perfOf(inScope.filter((r) => r.meeting.date >= c.date));
+      const delta = (before.avg != null && after.avg != null) ? after.avg - before.avg : null;
+      const deltaCell = delta == null ? '<span class="muted">–</span>'
+        : `<span class="${delta >= 0 ? "pos-text" : "neg-text"}">${delta > 0 ? "+" : ""}${delta.toFixed(2)}</span>`;
+      h += `<tr><td class="num">${esc(c.date)}</td><td>${scopeChip(c.scope)}</td>
+        <td><strong>${esc(c.title)}</strong><div class="muted">${esc(c.detail)}</div></td>
+        <td class="note">${perfCell(before)}</td><td class="note">${perfCell(after)}</td>
+        <td class="num">${deltaCell}</td></tr>`;
+    });
+    el.innerHTML = h + "</tbody>";
+  }
+
   function render() {
     const races = selectedRaces(), meetings = selectedMeetings();
     renderTiles(races, meetings);
@@ -546,6 +593,7 @@
     renderGrades(races);
     renderErrors(races);
     renderTables(races, meetings);
+    renderChangelog();
   }
   let t; addEventListener("resize", () => { clearTimeout(t); t = setTimeout(render, 120); });
   matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
