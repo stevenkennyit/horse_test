@@ -291,3 +291,18 @@ Rest of the field: Midfield Magic 0.06, No Loose Ends 0.05 (weak point form now 
 - https://news.williamhill.com/horse-racing/gavin-cromwell/2026-27-season-preview/
 - https://www.sportinglife.com/racing/results/2025-10-25/galway/886388/x (last year's race)
 - IHRB reserve rules: https://www.theirishfield.ie/amp/news/latest-news/news-rules-on-reserves-tweaked-270308
+
+## Result
+
+Reviewed 26 Oct 2026 (17:50). Going: Soft to Heavy. 20 ran (Fergy Five NR). Source: Racing Post result page (932032); no in-running comments on the free page. Winning time 4m15.10s.
+
+| Rank | Horse | Finish | Btn | SP | Reasoning held? |
+|---|---|---|---|---|---|
+| 2 | Thinkitdontjinxit | **1st** | – | 3/1 | Yes |
+| 1 | Boycetown | 3rd (dead-heat) | ~12½L | 10/11 F | Downgrade right |
+| 3 | King Idaho | 13th | – | 14/1 | – |
+| 4 (danger) | This Songisforyou | 10th | – | 9/1 | – |
+
+2nd Touch The Clouds (5/1); Boycetown dead-heated 3rd with Louis Winthorpe (15/2).
+
+**Held.** The gap-fill decision to cut Boycetown (0.42 → 0.36) for making his hurdle debut in a 19/20-runner soft field — against the bare "stone clear on bumper form" reading — was right: the odds-on favourite could only dead-heat for 3rd, beaten about 12½L. Thinkitdontjinxit's case (won his 3m point on soft, can lead, withdrawn at Limerick for the ground so here specifically for it) delivered a clear-cut win by 11L. Winner was the 2nd pick (agentProb 0.15), at 3/1 — the single biggest scoring pick of the day.

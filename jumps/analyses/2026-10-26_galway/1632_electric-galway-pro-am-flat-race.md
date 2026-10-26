@@ -161,3 +161,19 @@ Patrick Mullins rides for Barry J Fitzgerald, a mainly-Flat yard (14-118 on the 
 - RP trainer profiles: /profile/trainer/18145 (Elliott), /5716 (O'Brien), /17836 (Cromwell), /18383 (Conheady), /19629 (McNiff), /13084 (Gilligan), /13164 (Madden), /36164 (Fitzgerald), /39555 (Mulligan)
 - Course: https://en.wikipedia.org/wiki/Ballybrit_Racecourse ; https://racenight.me.uk/racecourse-irish/Galway_racecourse.htm ; Geegeez https://www.geegeez.co.uk/galway-racecourse/ (403, via search summary)
 - Galway 25 Oct 2026 bumper: https://www.sportinglife.com/racing/results/2026-10-25/galway/945374/x ; last year's race: https://www.sportinglife.com/racing/results/2025-10-25/galway/886392/x
+
+## Result
+
+Reviewed 26 Oct 2026 (17:50). Going: Soft to Heavy. 7 ran (Throwmedownsomthin and **Todo Bien** both withdrawn, unsuitable ground). Source: Racing Post result page (932036); no in-running comments on the free page.
+
+| Rank | Horse | Finish | Btn | SP | Reasoning held? |
+|---|---|---|---|---|---|
+| 1 | Ballyadam Star | 5th of 7 | ~18L | 11/8 F | Flopped |
+| 2 | Todo Bien | NR (ground) | – | – | Void |
+| 3 | Marble Hill | 3rd | ~6L | 2/1 | Placed |
+
+Winner **Rockonfamouslee** (16/1), 2nd Here's Jim (5/1, ½L), beating our picks.
+
+**Mixed.** Two things to separate. (1) The probabilities were not badly wrong: we tempered the favourite below the market (Ballyadam Star 0.26 vs an SP implying ~42%) and priced the winner close to its SP — Rockonfamouslee was named "the strongest outsider" in the check and given 0.06 (≈ 15/1) before being cut on its yard's 0-from-40 bumper record and the absence of a frank. (2) The ranking still failed on the day: Todo Bien, the field's **only proven soft/heavy runner** and our would-be top pick on Heavy, was a ground-driven non-runner, which removed the race's form anchor — and an unproven-on-soft favourite was left on top and ran 5th of 7. The point stayer we had flagged for exactly the soft-ground / uphill-finish test then won.
+
+**Lesson (proposed rule F, pending):** when the sole runner with proven soft/heavy form is withdrawn for the ground, do not leave an unproven-on-soft favourite on top — re-rate towards runners with proven stamina/soft credentials (here, the staying point horse), and widen the field's probabilities. This is a ground-driven non-runner swing (jumps-specific error type c). Winner rated (agentProb 0.06).

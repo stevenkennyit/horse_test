@@ -203,3 +203,18 @@ Revised in place before the race was recorded. The changes:
 - RP D marker: reconciled to the 2m7f55y chase win.
 - Going re-checked 07:54: Soft, no non-runners.
 - **Picks unchanged.** Fair prices are now fractional.
+
+## Result
+
+Reviewed 26 Oct 2026 (17:50). Going: Soft to Heavy. 19 ran (Clash Gold and Good World NR). Source: Racing Post result page (932035); no in-running comments on the free page.
+
+| Rank | Horse | Finish | Btn | SP | Reasoning held? |
+|---|---|---|---|---|---|
+| 1 | Moonshine Girl | **1st** | – | 12/1 | Yes |
+| 2 | Roc My Haarth | 4th (placed) | – | 4/1 | Placed |
+| 3 | Lake Okeechobee | 6th | – | 10/1 | – |
+| 4 (danger) | Grace Faraday | PU | – | 13/2 | Doubt held |
+
+2nd Shotgun Jack (7/1), 3rd Laligurash (7/1). Ridden by Miss J Townend.
+
+**Held — strongly.** The top pick won at 12/1 in a 19-runner 0–100 handicap — the hardest race type to call and the one the outsider check matters most in. We rated Moonshine Girl 0.16 against an SP implying ~7.7%, so she was a genuinely underrated top pick, and the progressive-profile (75 in May to 93) plus a 12L course-and-distance win carried her through. The 2nd pick, Roc My Haarth, placed 4th in a field paying four places. Danger Grace Faraday pulled up: the "0 from 9 in soft/heavy hurdle handicaps, career-high mark" doubt held. Winner was the top pick (agentProb 0.16).

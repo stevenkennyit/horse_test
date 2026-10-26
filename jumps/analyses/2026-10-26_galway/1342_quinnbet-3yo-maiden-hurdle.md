@@ -284,3 +284,17 @@ Rest (0.29): Borora Aura 0.07, Fits Perfect 0.06, Plug In Hybrid 0.06, Dunmore 0
 - https://www.ihrb.ie/daily-enquiries/bellewstown%2030th%20september%202026
 - https://www.ihrb.ie/daily-enquiries/ballinrobe%2011th%20september%202026
 - https://www.sportinglife.com/racing/results/2026-10-25/galway/945368/x and /945371/x, /945372/x, /945373/x
+
+## Result
+
+Reviewed 26 Oct 2026 (17:50). Going: Soft to Heavy. 10 ran. Source: Racing Post result page (932030); no in-running comments on the free page.
+
+| Rank | Horse | Finish | Btn | SP | Reasoning held? |
+|---|---|---|---|---|---|
+| 1 | Sharkeyboy | **1st** | – | 8/13 F | Yes |
+| 2 | Green Soul | 5th | well btn | 11/4 | Soft-stamina doubt held |
+| 3 | Wills History | 9th | tailed off | 66/1 | Correctly low |
+
+Others: 2nd Fits Perfect (11/2); 3rd Borora Aura (22/1), the front-runner we flagged in notes as the soft/heavy outsider; Plug In Hybrid unseated.
+
+**Held.** The hurdle-debut doubt on Sharkeyboy was correctly overridden by his joint-best flat form and the Mullins debutant strike rate, and he won as favourite. Green Soul's stamina-on-soft question (best flat form at 5.5f–1m) held — he finished a well-beaten 5th. The notes flag on Borora Aura (front-runner, soft/heavy) was good: he ran 3rd at 22/1. Winner was the top pick (agentProb 0.38).

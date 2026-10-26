@@ -138,3 +138,16 @@ None at 07:54 (Sporting Life card re-checked). More rain helps On Your Way (best
 
 **Pick change:** Karl Des Tourelles moves to 1st (0.26 → 0.30) and Coral River drops to 2nd (0.28 → 0.23). Coral River's freshness doubt is now quantified (his trainer is 1/23 after 150+ days off), and the confirmed long uphill run-in on testing ground favours Karl Des Tourelles's proven 3m stamina over Coral River's best of 2m4f. On Your Way (0.12 → 0.13) is supported by Byrnes's 2/10 after 300+ days off. King's Bucks (0.12 → 0.13) is supported by de Bromhead's debutant completion record. County Final (0.08 → 0.06) is downgraded on his trainer's numbers. Late-task checkpoint re-run: every figure in the rationale was re-read from runs.txt, res.txt and frank.txt and the trainer-stat outputs. "Only previous chase winner" holds (the others' chase records: Karl 0 from 5, Maidenstreetprince 0 from 14, On Your Way 0 from 1, the other three are debutants). "No F/U/P in 16 / 17 runs" holds for Coral River and Karl Des Tourelles (Begorra Man also has none, in 5 runs, so I claim no superlative there).
 
+## Result
+
+Reviewed 26 Oct 2026 (17:50). Going: Heavy. 7 ran. Source: Racing Post result page (932033); free page carries no in-running comments.
+
+| Rank | Horse | Finish | Btn | SP | Reasoning held? |
+|---|---|---|---|---|---|
+| 1 | Karl Des Tourelles | **1st** | – | Evens F | Yes |
+| 4 (danger) | King's Bucks | 2nd | 2¼L | 4/1 | Danger call good |
+| 3 | On Your Way | 3rd | 6L | 25/1 | Over-delivered |
+| 2 | Coral River | 4th | 7¾L | 13/2 | Freshness doubt held |
+
+**Held.** The gap-fill swap that promoted Karl Des Tourelles over Coral River — on his superior 3m stamina for a long uphill run-in on testing ground, against Coral River's 179-day freshness doubt (trainer 1/23 after 150+ days) — was vindicated: Karl won at even money and Coral River (4th) ran below him. Danger King's Bucks ran into 2nd on chase debut. Winner was the top pick (agentProb 0.30).
+

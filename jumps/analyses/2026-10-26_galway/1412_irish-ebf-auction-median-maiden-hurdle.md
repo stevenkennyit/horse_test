@@ -250,3 +250,18 @@ Rest: Jury Time 0.07, Ellis Redding 0.05, Fun Daddy 0.025, The Bosses Order 0.02
 - https://www.racingpost.com/results/336/oldcastle/2026-03-29/916892 (Oldcastle 29 Mar 2026 going, snippet only)
 - https://www.theirishfield.ie/amp/racing/news/point-to-point-dromahane-plain-sailing-for-golden-current-899186 (For My Lady point)
 - https://www.sportinglife.com/racing/results/2026-10-25/galway/945367/x and https://www.sportinglife.com/racing/results/2026-10-25/galway/945371/x (Cromwell winners)
+
+## Result
+
+Reviewed 26 Oct 2026 (17:50). Going: Soft to Heavy. 10 ran (Fun Daddy NR). Source: Racing Post result page (932031); no in-running comments on the free page.
+
+| Rank | Horse | Finish | Btn | SP | Reasoning held? |
+|---|---|---|---|---|---|
+| 3 | If You Believe | **1st** | – | 11/4 | Yes — proven soft |
+| 2 | Coolishael | 2nd | – | 2/1 F | Placed |
+| 4 (danger) | Missouri Snow | 3rd | 6½L | 7/1 | Danger good |
+| 1 | Give It A Crack | 4th | 10L | 3/1 | Mis-ranked top |
+
+For My Lady fell.
+
+**Mixed.** All four of our named runners filled the first four places, which validates the shortlist, but the internal order was wrong. The gap-fill pass had promoted Give It A Crack over Coolishael on a verified heavy-ground point 2nd; in the event Coolishael (2nd) finished ahead of Give It A Crack (4th), so that swap was backwards. The winner was our 3rd pick, If You Believe, whose case rested on proven soft form (Clonmel 4th) — the day's recurring winning theme — and we had under-ranked it (0.19) chiefly on a 354-day layoff and Cromwell's cold long-returner sample, both of which the result overrode. Winner rated (agentProb 0.19).

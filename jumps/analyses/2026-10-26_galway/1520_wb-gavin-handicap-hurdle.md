@@ -269,3 +269,18 @@ Going and runners unchanged since the 07:53 check: hurdles soft, 14 runners, no 
 | Danger | Teed Up | 0.09 | 10/1 | low |
 
 Rest of the field is unchanged from the probabilities above (total 1.00).
+
+## Result
+
+Reviewed 26 Oct 2026 (17:50). Going: Soft to Heavy. 12 ran (Mystic Malina and Open Secret both withdrawn, unsuitable ground). Source: Racing Post result page (932034); no in-running comments on the free page.
+
+| Rank | Horse | Finish | Btn | SP | Reasoning held? |
+|---|---|---|---|---|---|
+| 1 | Stumptown | **1st** | – | 7/1 | Yes |
+| 2 | Open Secret | NR (ground) | – | – | Void |
+| 3 | One Big Boum | 9th | – | 22/1 | Blinkers-off doubt held |
+| 4 (danger) | Teed Up | 4th | – | 7/2 F | – |
+
+2nd Balko d'Ange (8/1), 3rd Prophet's Corner (14/1), the outsider flagged in notes.
+
+**Held — strongly.** The top pick won at 7/1, exactly the correctly-rated-outsider the scoring rewards: we had Stumptown at 0.16 against an SP implying ~12.5%. The reasoning — a hurdle mark of 127 set against chase form worth ~145, a 5L heavy-ground win off 142, and a record of winning after long breaks — held in full. Our 2nd pick Open Secret was one of two ground-driven withdrawals. One Big Boum (3rd pick) ran below par with the blinkers left off, as the "against" flagged. Winner was the top pick (agentProb 0.16).
