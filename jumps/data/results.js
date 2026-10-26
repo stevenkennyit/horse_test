@@ -172,6 +172,35 @@
           ]
         }
       ]
+    },
+    {
+      date: "2026-10-26",
+      course: "Galway",
+      country: "IRE",
+      code: "jumps",
+      playbook: "jumps/AGENTS-jumps.md",
+      going: "Hurdles soft; chase course soft to heavy (rain; Tuesday listed heavy)",
+      dataErrors: [],
+      races: [
+        {
+          time: "13:42", name: "QuinnBet 3-Y-O Maiden Hurdle", type: "hurdle", distance: "2m90y",
+          going: "Soft", runners: 10, source: "full", status: "pending", grade: "pending", errors: [],
+          notes: "Four hurdle debutants on soft; ground expected to worsen. Borora Aura (front-runner, won on soft to heavy, carries 10-0) the outsider if it turns heavy.",
+          winner: null,
+          writeup: "jumps/analyses/2026-10-26_galway/1342_quinnbet-3yo-maiden-hurdle.md", updated: "07:54 Mon 26 Oct",
+          picks: [
+            { rank: 1, horse: "Sharkeyboy", prob: 0.38, finish: "-", confidence: "medium",
+              reason: "Flat OR 84-88, joint-best in the field; neck 2nd over 1m4f at Galway and beat Hello Garda (now hurdle OR 103) 13L; Mullins hurdling debutants 36%.",
+              against: "Hurdle debut, never raced on soft, 0 from 6 on the flat and headed late in two narrow defeats." },
+            { rank: 2, horse: "Green Soul", prob: 0.24, finish: "-", confidence: "medium",
+              reason: "Clean hurdle round when 4th at Cork after 379 days off, staying on; top RPR/TS on the card; has run on soft.",
+              against: "Cork form unfranked; best flat form at 5.5f-1m, so 2m on soft up Galway's climb is a stamina question." },
+            { rank: 3, horse: "Wills History", prob: 0.09, finish: "-", confidence: "low",
+              reason: "Collateral puts him 5-12lb behind Green Soul at level weights and he gets 7lb today; no jumping error on debut.",
+              against: "Faded from 2 out on his only start, unexplained NR at Cork on 11 Oct, inexperienced 7lb claimer." }
+          ]
+        }
+      ]
     }
   ]
 });
