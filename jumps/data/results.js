@@ -183,6 +183,27 @@
       dataErrors: [],
       races: [
         {
+          time: "13:12", name: "SANSERV Rated Novice Chase", type: "chase", distance: "2m2f54y",
+          going: "Soft to Heavy", runners: 7, source: "full", status: "pending", grade: "pending", errors: [],
+          notes: "Gap-fill pass swapped the top two (Coral River 0.28 -> 0.23; Karl Des Tourelles 0.26 -> 0.30) after O'Sullivan's 150+ day returners came out 1 from 23. Three chase debutants; no clear pace.",
+          winner: null,
+          writeup: "jumps/analyses/2026-10-26_galway/1312_sanserv-rated-novice-chase.md", updated: "08:00 Mon 26 Oct",
+          picks: [
+            { rank: 1, horse: "Karl Des Tourelles", prob: 0.30, finish: "-", confidence: "low",
+              reason: "Best chase figure in the field: 2 3/4L 2nd to Road To Home (138) over course and distance 20 days ago, 10L ahead of Chart Topper (won here by 17L yesterday); fit, stays 3m on testing ground, 4lb better off than Coral River.",
+              against: "1 win in 17 starts; found little after leading or challenging in 4 races; jumping safe but slow at times." },
+            { rank: 2, horse: "Coral River", prob: 0.23, finish: "-", confidence: "low",
+              reason: "Only previous chase winner (Clonmel rated novice), placed twice on heavy in Punchestown rated novices with the Dec 2nd franked; 5 of 5 chase completions.",
+              against: "179 days off (trainer 1 from 23 after 150+ days), 4lb penalty, unproven past 2m4f on testing ground." },
+            { rank: 3, horse: "On Your Way", prob: 0.13, finish: "-", confidence: "low",
+              reason: "Chase debut on heavy: 3/4L behind He's Gorgeous and 3/4L ahead of Moudan (won 3 of 7 since, last off 130); gets the same 7lb claim again (carries 10-12).",
+              against: "328 days off, keen and held up in a race with no clear pace, has unseated and fallen over hurdles, amateur rider over fences." },
+            { rank: 4, horse: "King's Bucks", prob: 0.13, finish: "-", confidence: "low", danger: true,
+              reason: "3rd in the Grade 2 Hyde behind a later Grade 1 winner, verified point winner; de Bromhead chase debutants 4 from 17, all completed.",
+              against: "Chase debut, and last two runs poor (pulled up in a Grade 1, then beaten 13L at even money)." }
+          ]
+        },
+        {
           time: "13:42", name: "QuinnBet 3-Y-O Maiden Hurdle", type: "hurdle", distance: "2m90y",
           going: "Soft", runners: 10, source: "full", status: "pending", grade: "pending", errors: [],
           notes: "Four hurdle debutants on soft; ground expected to worsen. Borora Aura (front-runner, won on soft to heavy, carries 10-0) the outsider if it turns heavy.",
