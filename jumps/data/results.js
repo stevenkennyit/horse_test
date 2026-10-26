@@ -199,6 +199,27 @@
               reason: "Collateral puts him 5-12lb behind Green Soul at level weights and he gets 7lb today; no jumping error on debut.",
               against: "Faded from 2 out on his only start, unexplained NR at Cork on 11 Oct, inexperienced 7lb claimer." }
           ]
+        },
+        {
+          time: "15:55", name: "COLM QUINN BMW Handicap Hurdle (0-100)", type: "hurdle", distance: "3m",
+          going: "Soft", runners: 20, source: "full", status: "pending", grade: "pending", errors: [],
+          notes: "20-runner 0-100 handicap on soft, wide open (picks 0.38 combined). Reserve Good World (R21) would carry 11-7. More rain helps Roc My Haarth and Imperial Tune.",
+          winner: null,
+          writeup: "jumps/analyses/2026-10-26_galway/1555_colm-quinn-bmw-handicap-hurdle.md", updated: "07:55 Mon 26 Oct",
+          picks: [
+            { rank: 1, horse: "Moonshine Girl", prob: 0.16, finish: "-", confidence: "medium",
+              reason: "Progressive (75 in May to 93); won over course and distance by 12L on 7 Sep (2nd won next time) and about 1lb better off with Grace Faraday than when 1/2L behind her on 6 Oct.",
+              against: "Career-high mark, true 3m on soft unproven, first-time visor replaces the blinkers she won in, 1 win from 20 over hurdles." },
+            { rank: 2, horse: "Roc My Haarth", prob: 0.13, finish: "-", confidence: "low",
+              reason: "Best soft/heavy staying form among those rated 90+: 2nd over 3m on heavy at Limerick (beat Grace Faraday 18.5L), races prominently.",
+              against: "0 from 15 over hurdles, last two runs poor, beaten 37L and 18L on heavy before and has unseated." },
+            { rank: 3, horse: "Lake Okeechobee", prob: 0.09, finish: "-", confidence: "low",
+              reason: "Carries 10-1 after a 5lb claim; improving (3rd at Listowel staying on) and completed all 9 starts.",
+              against: "Maiden, never beyond 2m6f, needs a personal best; yard 1 win in its last 50 runs." },
+            { rank: 4, horse: "Grace Faraday", prob: 0.08, finish: "-", confidence: "low", danger: true,
+              reason: "Best course form: won this race last year, won here 7 Sep, 2nd here 6 Oct.",
+              against: "0 from 9 in soft/heavy hurdle handicaps and on a career-high 100." }
+          ]
         }
       ]
     }
