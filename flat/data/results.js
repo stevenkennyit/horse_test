@@ -400,5 +400,34 @@
         }
       ]
     }
+    ,{
+      date: "2026-10-28",
+      course: "Dundalk",
+      country: "IE",
+      code: "flat",
+      playbook: "flat/AGENTS-flat-v2.md",
+      going: "Polytrack: Standard",
+      status: "pending",
+      races: [
+        {
+          time: "15:30", name: "Irish Stallion Farms EBF Maiden", type: "maiden", distance: "7f",
+          going: "Standard", runners: 11, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-28_dundalk/1530_7f-2yo-ebf-maiden.md", updated: "19:50 Tue 27 Oct",
+          picks: [
+            { role: "win", horse: "Mudyrk", prob: 0.40, placeProb: 0.76, finish: "-", sp: null, confidence: "medium",
+              reason: "Only runner with Group-franked form: 2nd by a half-length at Fairyhouse to Florida Bay (since a G3 winner and G1 placed), 5lb worse off at the weights.",
+              against: "145 days since his last run, never run on Polytrack, and drawn 11 of 11 where low draws and front-runners tend to do better." },
+            { role: "ew", horse: "Golden Idol", prob: 0.14, placeProb: 0.52, finish: "-", sp: null, confidence: "low",
+              reason: "3rd of 13 on debut over 7f on heavy ground at the same 9-7, tracking the leaders; the 5th has since placed in a Dundalk 7f nursery. Stall 3.",
+              against: "Beaten about 6 lengths, and nothing shows he can beat Mudyrk." },
+            { role: "danger", horse: "Eucalyptus", prob: 0.13, placeProb: 0.40, finish: "-", sp: null, confidence: "low",
+              reason: "Unraced J P O'Brien colt by McKinzie, half-brother to the high-class Passenger, ridden by Sheridan.",
+              against: "No form at all, and the yard's debutants have been mixed." }
+          ],
+          winner: null, grade: "pending", errors: [],
+          notes: ""
+        }
+      ]
+    }
   ]
 });

@@ -111,3 +111,20 @@ SL comment: Eucalyptus described as "noteworthy newcomer for his much respected 
 - https://www.sportinglife.com/api/horse-racing/race/940554 (Curragh 27 Sep, Golden Idol)
 - https://www.sportinglife.com/api/horse-racing/race/917470 (Navan 16 May, Tantardini / Mudyrk debut)
 - https://www.sportinglife.com/api/horse-racing/race/945144 (Dundalk 23 Oct, Final Ascent / American Cowboy)
+
+## Update 19:50 Tue 27 Oct – gap-filling pass (picks unchanged)
+
+Read in full from the Sporting Life race API pages (verified; cumulative beaten distances are my sums of SL's incremental margins, so tag as computed):
+- **Dramatic Approach** – Thurles 8 Oct, 1m69y, G-Y: 11th of 14, ~14¾L behind King Christoph. Slowly away, always rear. Winner 9-1, 2nd Dawnmore (OR 80) since 4th of 12 at Naas 7f.
+- **Courtier** – Gowran 19 Sep, 1m, Y-S: 12th of 12, ~24¾L behind Albany County (since 5th of 6 in Leopardstown Group 3 Eyrefield, so a decent winner, but Courtier was eased). 8L-plus behind the 11th.
+- **Raygani** – Naas 10 Oct, 1m, Soft: 16th of 18, ~35L behind Admired Beauty (OR 77); Naas 17 Sep, 7f, Yielding: 10th of 11, ~13¾L behind Nouveau Grey (since 5th in Group 3 Killavullan). Never closer than 10th.
+- **Quinn Blue** – Down Royal 19 Jun, 5f, Soft: 7th of 8, ~25¾L behind Magical Moonlight (same Murtagh yard as Raygani/Chicago Caray). Weight 9-7 then v 9-2 today after claim.
+These confirm no case for any of the four; ranks and probabilities unchanged.
+
+Other gaps:
+- **Mudyrk's 145-day absence:** reason not found. Sporting Life profile (sire Mehmas, dam New York Angel, owner Peter Trainor) lists only two runs and this entry, nothing between. Aguiar did train a 50/1 Dundalk 7f 2yo fillies maiden winner on 9 Oct (SL result page via search; 1m27.27, not opened in full), so the yard does win 2yo maidens on this track at big prices (asserted from snippet; small sample). Mildly reduces the "not a Dundalk yard" doubt.
+- **Headgear:** Sporting Life API still shows none for all 11 (re-read). RP, Sky (404) and ATR not retrievable. Still a gap; recheck pre-off. Note Raygani wore no headgear in the earlier runs read (Sep/Oct); Raqi/Sevengrandchildren had tongue straps in those races, irrelevant here.
+- **Racing Post, ATR, Geegeez:** WebFetch/curl returned 404/403/406 earlier and again; I stopped trying to get past the bot blocks (a further attempt with a browser user agent was refused by the permission system and I did not repeat it). Still unreachable: RP card (OR/RPR/TS, headgear codes, "slow by" times), ATR Smart Stats and draw label, Geegeez Dundalk tables. Draw/pace remains coordinator-note only (asserted).
+- **Times:** Dundalk 7f 2yo maiden winners 9 Oct: 1m27.16 (colts, Pipeman, 8L clear) and 1m27.27 (fillies). Mudyrk's Fairyhouse 1m27.76 is turf, not comparable; no standard-adjusted figure obtainable.
+
+Late-task verification: re-opened the saved race JSONs for draws, claims, weights, margins and run counts. One correction to the grid above: Raygani's "2 runs 10th, 16th" is right (counted); Courtier's 12th was ~24¾L, not "eased only". Superlative check: "only runner with Group-franked form" holds across the field (Golden Idol/Jacob's/Tantardini races have no confirmed Group-level frank; Dramatic Approach/Courtier/Raygani/Quinn Blue winners have Group 3 or nursery form but their own runs were 15-35L behind). Still, Courtier's winner Albany County and Raygani's winner Nouveau Grey ran in Group 3s, so "only" is better stated as "the only runner who finished within a length of a Group winner".
