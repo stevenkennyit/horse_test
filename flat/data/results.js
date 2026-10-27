@@ -428,6 +428,24 @@
           notes: ""
         },
         {
+          time: "15:00", name: "Irishinjuredjockeys.com Fillies Maiden", type: "maiden", distance: "7f",
+          going: "Standard", runners: 14, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-28_dundalk/1500_7f-2yo-fillies-maiden.md", updated: "20:10 Tue 27 Oct",
+          picks: [
+            { role: "win", horse: "Nevermindtherain", prob: 0.42, placeProb: 0.78, finish: "-", sp: null, confidence: "medium",
+              reason: "Rated 93 against 82 for the next best, with form franked by later Group results (Leopardstown Gr3 3rd behind two later Gr1-placed fillies); carries 8-11 after a 5lb claim from draw 3.",
+              against: "Still a maiden after 7 runs and headed late in her better efforts; never run on Polytrack or at Dundalk." },
+            { role: "ew", horse: "Golden Alibi", prob: 0.13, placeProb: 0.43, finish: "-", sp: null, confidence: "low",
+              reason: "Debut Listed 7th, 4.6L behind a winner rated 101, with the 2nd rated 105; the best raw form here bar the top pick, and likely to improve.",
+              against: "Sprint-bred filly stepping up from 6f, held up from stall 15 on a track that favours low draws and front-runners; barrier-trial win unverified." },
+            { role: "danger", horse: "Sonic Sabiha", prob: 0.10, placeProb: 0.36, finish: "-", sp: null, confidence: "low",
+              reason: "2nd by a neck over C&D on 9 Oct with a rising run of form, no claim, and the best draw (stall 1).",
+              against: "That race was slow (3.57s slower than standard) and unfranked, she is 5lb higher today, and she dwelt in 3 of 4 runs." }
+          ],
+          winner: null, grade: "pending", errors: [],
+          notes: ""
+        },
+        {
           time: "15:30", name: "Irish Stallion Farms EBF Maiden", type: "maiden", distance: "7f",
           going: "Standard", runners: 11, source: "full", status: "pending",
           writeup: "flat/analyses/2026-10-28_dundalk/1530_7f-2yo-ebf-maiden.md", updated: "19:50 Tue 27 Oct",

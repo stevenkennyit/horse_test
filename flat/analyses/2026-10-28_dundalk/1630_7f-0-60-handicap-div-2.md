@@ -115,3 +115,24 @@ Rest of the field (all runners sum to 1.00): Jazzy Dancer 0.10, Leannespour 0.08
 - Sporting Life race API (card, draws, claims, verdict): https://www.sportinglife.com/api/horse-racing/race/945748
 - Sporting Life results: https://www.sportinglife.com/racing/results/2026-10-16/dundalk/943978/x (16 Oct Div 1) ; .../2026-10-09/dundalk/942757/x ; .../2026-09-25/dundalk/940363/x ; .../2026-09-18/dundalk/939199/x ; .../2026-08-15/dundalk/933435/x ; .../2026-08-20/leopardstown/933782/x ; .../2026-08-31/roscommon/936009/x ; .../2026-07-25/gowran-park/929879/x ; .../2026-10-19/gowran-park/944365/x
 - Sporting Life profiles: https://www.sportinglife.com/racing/profiles/horse/1123080 (Una Matata), /1195454 (Glen Breeze), /1108262 (Roman Harry), /1037589 (Jazzy Dancer), /1078271 (Expound), /1198622 (Leannespour)
+
+## Update 20:55 Tue 27 Oct (gap-filling pass)
+
+Picks and probabilities unchanged (Una Matata win, Glen Breeze each-way, Roman Harry danger).
+
+**Resolved (verified):**
+- **All Hail's claim:** IrishRacing card (irishracing.com/racecards/Wed-28th-Oct-2026/Dundalk/1630) shows "D W O'Connor" with no allowance, matching the Sporting Life card. No claim; carries 139. The "1" in the Racing Post fetch was a parsing artefact.
+- **Holohan's claim on Glen Breeze:** IrishRacing and Sporting Life both show (5). Result page for 1 Oct Bellewstown (Sporting Life) shows Holohan with 5 on Big Bill, so 5 has applied since at least 1 Oct (he had 7 on 25 Sep). Glen Breeze carries 122.
+- **Roman Harry draw:** 7 on Sporting Life and IrishRacing (two sources); the Racing Post "8" was a fetch misread. Also confirmed from IrishRacing: Glen Breeze draw 2, All Hail 10, Final Boss 8.
+- **Headgear (IrishRacing):** Expound tongue strap + cheekpiece; Final Boss blinkers (4th time); All Hail blinkers (5th time); Shamanka tongue strap (6th) + blinkers first time; Churchill Gale tongue strap (8th) + blinkers first time; Glen Breeze tongue strap + cheekpiece; Jazzy Dancer none today.
+- **Churchill Gale OR:** IrishRacing shows 38 (Racing Post 40 with future OR -2, Sporting Life 40); immaterial.
+- **Past claims read from result pages:** Churchill Gale 15 Sep Punchestown: no claim, 8-12 (124), so today 117 is -7 (as written). Pattyandselma 5 Oct Killarney: no claim, 9-4 (130), today 132 is +2 (as written). Glen Breeze 11 Jul Limerick win (6f150y, Good): 9-0, no claim, J M Sheridan, OR 46 = 126, so today's 122 is -4 (as written). Jazzy Dancer 13 Feb win: 9-6 with Wesley Joyce claiming 3 = 9-3 (129), so today's 127 is -2 (the grid said "130 to 132", corrected here); he beat Distillate by a neck, all out, leading from 1f.
+
+**Franking (Sporting Life result pages, later runs):**
+- 15 Aug Dundalk 1m (Roman Harry 2nd): winner Reponse Finale has since run 4th (Laytown 7f), 2nd (Clonmel), 3rd (Navan) and 3rd (Sligo 2m1f): decent. Movin And Groovin (3rd) was 3rd at Roscommon 12 Oct. Mild positive for Roman Harry.
+- 20 Aug Leopardstown 7f (Shamanka 5th, All Hail 8th): winner Naoi won at Fairyhouse 7f on 21 Sep (1st of 18). Positive for Shamanka's run.
+- 25 Sep Dundalk 1m (Glen Breeze 5th): winner Usuario Amigo not run since; 3rd Storm Eric won at Dundalk 10f on 9 Oct; 2nd Dubai Opulence 7th in Una Matata's 16 Oct race. Mild positive.
+- 18 Sep Dundalk 1m (Leannespour 5th): Starflow won Thurles 8 Oct, Storm Eric won 9 Oct. Positive for that run, but she then regressed.
+- 16 Oct Div 1 (Una Matata 3rd), 9 Oct Div 2: no winner or placed horse has run since from the 16 Oct race (no frank found); 9 Oct 3rd Boston Max was 2nd on 16 Oct. Una's 9 Oct race (7th) ran with winner Send Harry not yet re-run.
+
+**Still unreachable / not found:** ATR Smart Stats (page failed again), Geegeez Dundalk draw stats (403, so pack claim remains asserted), Racing Post result pages and standard times, course trainer/jockey strike rates, the Div I (16:00) result (tomorrow). Going and non-runners to be re-checked tomorrow.

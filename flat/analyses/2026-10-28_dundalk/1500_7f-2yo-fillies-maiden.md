@@ -172,3 +172,32 @@ Rest of the field: Slightly 0.08, Kokoshanelle 0.06, National Debate 0.04, Littl
 - Fairyhouse Listed 21 Sep result: https://www.sportinglife.com/racing/results/2026-09-21/fairyhouse/939533/x
 - Winners' profiles: Alpha (1225551), Isle Of Capri (1229324), Maire Rua (1230450), Haven (1231267), Big Negotiator (1224391) on sportinglife.com/racing/profiles/horse/<id>
 - Geegeez (search summary only): https://www.geegeez.co.uk/dundalk-racecourse/
+
+## Update 20:10 Tue 27 Oct (gap-filling pass)
+
+Card re-fetched from Sporting Life: same 14 runners, same draws, same headgear (only Nevermindtherain in cheekpieces), no non-runners, reserves unchanged. Going still Standard.
+
+**Filled / verified**
+- Racing Post result pages now read (verified): Dundalk 25 Sep 7f fillies maiden (RP race 929159): Haven 1m 26.40s, slow by 2.70s; margins match Sporting Life exactly (Kokoshanelle 6th beaten 6L, Battle Tested 7th 6.75L). Dundalk 9 Oct 7f fillies maiden (RP race 930322): Donner Dancer 1m 27.27s, slow by 3.57s; Sonic Sabiha 2nd beaten a neck at 8-11, winner 8-6 after 5lb claim (RP and SL agree). Both imply a Dundalk 7f standard of about 1m 23.70s (confirmed by two results).
+- So the 9 Oct race was 0.87s slower than the 25 Sep race even though its winner carried 8lb less. RP ratings for the 9 Oct race top out at RPR 69-70 (RP page), a weak race. Sonic Sabiha's own time that day is about 3.6s slow; Kokoshanelle's on 25 Sep is about 3.9s slow (2.70 + 6L at about 0.2s). Adjusting Sonic Sabiha's for +5lb today puts her about level with Kokoshanelle on the clock. Times do not separate the two.
+- Donner Dancer and Ladies Gossip: Sporting Life profiles re-opened, each still has only the one run (9 Oct); no later runs found. That Dundalk form stays unfranked.
+- Coloursofthewind's 25 Sep non-runner status was "cast in box" (RP), not unfitness.
+- In-running comments re-read in full: Leopardstown Gr3 (Nevermindtherain led, 5L clear at halfway, headed early in the final furlong, kept on one pace; winner Alpha jumped awkwardly and was slowly away); Leopardstown maiden (led, headed 1f out, no extra); Cork Listed and Gowran (led or disputed); Blenheim Listed (Golden Alibi towards rear, pushed along 2f out, moderate late headway); Cork 9 Sep and Dundalk 25 Sep (Sonic Sabiha dwelt slightly and towards rear; Kokoshanelle slowly away, kept on well). They match the write-up. NMT is therefore a front-runner who has been headed late in each of her better runs, and wins need her to be better than that field; the margin is wider here.
+
+**Still unreachable (not found)**
+- ATR racecard/Smart Stats (403), Geegeez Dundalk 7f figures (403), no course trainer/jockey stats found. Barrier-trial claims for Golden Alibi and National Debate: web searches found nothing; remain Sporting Life card comments only. RP column parsing for ratings on the 25 Sep page was garbled, so no RPR claims for that race beyond the card figures.
+
+**Pick change (EW and Danger swap; Win unchanged)**
+Reason: the time work shows Sonic Sabiha's C&D 2nd came in a slow, weak race (RPR 69, winner untested since) and she is +5lb today with a recurring slow-start pattern, so her place chance is lower than first stated. Golden Alibi's Listed run (4.6L behind a winner rated 101, Livenka OR 105 2nd) is the stronger raw form among non-NMT runners, which makes it the better each-way proposition on own numbers despite stall 15 and the step up in trip.
+
+| Role | Horse | Win prob | Place prob | Fair price | Confidence |
+|---|---|---|---|---|---|
+| WIN | 9 Nevermindtherain | 0.42 | 0.78 | about 11/8 | medium |
+| EACH-WAY | 5 Golden Alibi | 0.13 | 0.43 | about 6/1 | low |
+| DANGER | 13 Sonic Sabiha | 0.10 | 0.36 | 9/1 | - |
+
+Rest: Slightly 0.08, Kokoshanelle 0.07, National Debate 0.04, Little Miss Muffet 0.04, Coloursofthewind 0.03, Canta Castela 0.02, Shadowbelle 0.02, Bajan Bambi 0.02, Savannah Sun 0.01, Bettercalltheboss 0.01, Unlawfilly 0.01 (total 1.00 with the three).
+
+Case against Golden Alibi (EW): 6f to 7f for a Golden Pal filly (sprint sire), held up from a wide stall 15 where Dundalk favours low draws and front-runners, one run only, and the barrier-trial claim is unverified. Case against the Win unchanged.
+
+Extra sources: https://www.racingpost.com/results/1138/dundalk-aw/2026-09-25/929159 ; https://www.racingpost.com/results/1138/dundalk-aw/2026-10-09/930322
