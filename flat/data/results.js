@@ -462,6 +462,24 @@
           ],
           winner: null, grade: "pending", errors: [],
           notes: ""
+        },
+        {
+          time: "16:30", name: "Christmas Party Nights At Dundalk Stadium Handicap (Div II)", type: "handicap", distance: "7f",
+          going: "Standard", runners: 14, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-28_dundalk/1630_7f-0-60-handicap-div-2.md", updated: "20:55 Tue 27 Oct",
+          picks: [
+            { role: "win", horse: "Una Matata", prob: 0.21, placeProb: 0.50, finish: "-", sp: null, confidence: "medium",
+              reason: "Three Dundalk 7f wins this year, 3rd on 16 Oct at 135 (134 today after a 5lb claim) and beat Jazzy Dancer at level weights; draw 3.",
+              against: "Only one of her last six runs was close, she is 10-12lb below her winning marks, and the 16 Oct form is not franked." },
+            { role: "ew", horse: "Glen Breeze", prob: 0.12, placeProb: 0.36, finish: "-", sp: null, confidence: "low",
+              reason: "Beats Leannespour, Shamanka and Never Mind Me on weight-adjusted head-to-heads; carries 9-1 less a 5lb claim, runs prominently from draw 2.",
+              against: "1 win from 16, laboured last time, rating down from 55 to 47, and only one run at Dundalk 7f (7th of 9)." },
+            { role: "danger", horse: "Roman Harry", prob: 0.10, placeProb: 0.32, finish: "-", sp: null, confidence: "low",
+              reason: "Course-and-distance winner, 4th at Dundalk 7f in March at 141 (5lb more than today) and 2nd over 1m in August.",
+              against: "Erratic, and 48 days since his last run." }
+          ],
+          winner: null, grade: "pending", errors: [],
+          notes: ""
         }
       ]
     }
