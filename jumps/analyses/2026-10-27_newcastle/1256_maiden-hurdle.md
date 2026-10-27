@@ -75,6 +75,25 @@ Field remainder (~33%): Champagne Powder 0.14, Mac's Max 0.09, Captain Ted 0.06,
 
 ---
 
+## Update 12:51 — gap-filling pass (for the record; picks and probabilities UNCHANGED, off at 12:56)
+
+Gap-filling run begun ~09:16 GMT was interrupted by a web-search session limit (reset 12:40) and the race is now about to go off, so this records what was verified. **No change to picks or probabilities** (both remain: 1 Wilde's Legacy 0.37, 2 My Mate Aj 0.30). The new evidence supports, and does not overturn, the order.
+
+**Filled / verified:**
+- **Jockey claims (now verified at source).** Champagne Powder's rider **Leah Noreci claims 7lb** (card field `jockey_claim: 7`; she is a conditional attached to James Moffatt). So Champagne Powder's listed 11-3 becomes an effective **~10-10 carried — about 8lb below the 11-4 pair**, a real weight pull (~8L on the 1lb/length scale). It strengthens her as a place/outsider threat but does not offset her sketchy hurdle jumping ("not fluent", "mistake 2 out"), keenness and failure to get home over 17f — she stays an outsider. **Come On John (Nathan Moscrop): no claim applied on the card** — rides at the listed 11-4.
+- **Wilde's Legacy form franked more fully.** Lingfield win (1/6): runner-up **Makingplansfor** went on to Listed (Cheltenham 9/13) and Grade 2 (Aintree 17/20) bumpers — campaigned at black-type level though still winless (0/4); 3rd Below The Belt is 0/7 over hurdles. Huntingdon win (1/8): the beaten horses remain **winless since** (Solo Eclipse 0/5 o/hurdles, Loch Ness Pineau unraced since, Power Of Silence 0/1) — a weak frank. Champion Bumper (13/21): **strongly franked** — winner The Mourne Rambler was 2nd in a Grade 1 at Punchestown since, runner-up Mets Ta Ceinture is a dual French Group flat winner; Wilde's Legacy beat 8 home including two 4/1 shots (Love Sign D'aunou, Keep Him Company). Net: his overall **level is genuinely useful** (verified), confirming him as a fair top pick — though his two actual wins are only moderately franked, whereas My Mate Aj's single win IS franked by a subsequent Class 4 hurdle winner (Sky Grove). The two stay close; order unchanged.
+- **Pedigree — Wilde's Legacy (verified-ish).** Sire **Poet's Word** = a Group 1 middle-distance (10–12f) flat horse, now a NH sire with early stock in point-to-points and juvenile hurdles — supplies the stamina to stay 2m over hurdles. Supports "stays 2m, should improve for the job."
+
+**Still gaps (not filled; web-search/Smart Stats session-limited and Geegeez/ATR blocked):**
+- My Mate Aj pedigree (Soldier Of Fortune / Flemensfirth) — remains *asserted* (both are well-regarded NH stamina/jumping influences, but not re-confirmed this session).
+- Newcastle course character and pace/front-runner bias — remains *asserted* (Geegeez 403, ATR failed, search limited).
+- Snowden & Pauling strike-rate with bumper→hurdle debutants — not obtained.
+- Going — last confirmed 08:55 GMT (Good, Good to Soft in places); not re-checked nearer the off.
+
+**Would any of this have changed the call?** No. The franking slightly firms up Wilde's Legacy's class credentials and confirms My Mate Aj's win is the better-franked of the two; they remain close co-picks in the recorded order. The one genuinely new fact — Champagne Powder's 7lb claim — makes her a stronger each-way/place outsider but not a top pick given her jumping and stamina doubts.
+
+---
+
 ## Update 12:43 — gap pass cut short
 
 The session hit its rate limit (reset 12:40 UTC), which terminated the gap-filling pass mid-way for this race. Picks are recorded from the first-pass analysis above. The one verified item the gap pass did reach before stopping: **Champagne Powder carries a 7lb conditional claim (Noreci) and Come On John carries no claim** — neither changes the top two. Course character, trainer debutant strike-rates and fuller franking remain as listed under Unverified items.
