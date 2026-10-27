@@ -380,22 +380,22 @@
         {
           time: "14:01", name: "High Gosforth Park Golf Club Handicap Hurdle", type: "hurdle", distance: "2m190y",
           going: "Good (Good to Soft in places)", runners: 10, source: "full", status: "pending", grade: "pending", errors: [],
-          notes: "10-runner Class-5 handicap hurdle; top pick held to 0.26 (field size + completion risk). Non-runner: Alidam. Joshua Thompson's 5lb claim already in National Question's effective weight; Charlie Maggs's claim on Cawthorne Cracker unresolved (assumed none, conservative). GAP PASS CUT SHORT by the session rate limit.",
+          notes: "10-runner Class-5 handicap hurdle; top pick held to ~0.27 (field size + completion risk). Non-runner: Alidam. Gap-fill done: all claims resolved — ONLY Joshua Thompson claims (5lb, already in National Question's effective weight); Maggs/Lynn/Moscrop/Reed carry no claim this week, so Cawthorne Cracker is fairly treated. Direct H2H found: National Question beat Cawthorne Cracker in this race in 2025. Carlisle frank verified (4 next-time-out winners). Going reconfirmed. ATR/Geegeez course+pace stayed bot-blocked.",
           winner: null,
-          writeup: "jumps/analyses/2026-10-27_newcastle/1401_handicap-hurdle.md", updated: "12:48 Tue 27 Oct",
+          writeup: "jumps/analyses/2026-10-27_newcastle/1401_handicap-hurdle.md", updated: "13:01 Tue 27 Oct",
           picks: [
-            { rank: 1, horse: "National Question", prob: 0.26, finish: "-", confidence: "medium",
-              reason: "Won this exact race in 2025 and 2nd in 2024; completes every start (34/34); returns fresh (136 days), the same pattern as last year's fresh win; 5lb claim nets him to ~OR 81.",
-              against: "Rated 13lb higher than last year's win mark (73) and below par on both spring runs; the Carlisle frank is asserted." },
-            { rank: 2, horse: "Cawthorne Cracker", prob: 0.22, finish: "-", confidence: "medium",
-              reason: "In-form and consistent (2nd-1st-2nd last three) over 2m-2m4f on good; placed here (3rd 2024, 5th 2025) at this C&D; last six all completed.",
-              against: "Exposed veteran near his ceiling (won off 79 in Sept, now 84); older record carries 2 falls/2 PUs; Maggs claim unresolved." },
+            { rank: 1, horse: "National Question", prob: 0.27, finish: "-", confidence: "medium",
+              reason: "Won this exact race in 2025 (beating Cawthorne Cracker off a 12lb-lower mark) and 2nd in 2024; completes every start (34/34); returns fresh (136 days), the same pattern as last year's fresh win; the Carlisle win is franked by 4 next-time-out winners; 5lb claim nets him to ~OR 81.",
+              against: "Rated 13lb above last year's winning mark (73) and below par on both spring runs — relies on bouncing back fresh." },
+            { rank: 2, horse: "Cawthorne Cracker", prob: 0.21, finish: "-", confidence: "medium",
+              reason: "In-form and consistent (2nd-1st-2nd last three) over 2m-2m4f on good; placed at this C&D (3rd 2024, 5th 2025); last six all clean; trip and ground ideal.",
+              against: "Exposed veteran near his OR-84 ceiling; carries no claim, so fairly treated rather than well-in; National Question beat him in this race last year." },
             { rank: 3, horse: "Thesoldiersminit", prob: 0.11, finish: "-", confidence: "low",
-              reason: "Progressive 5yo, improved to 4th of 10 off 88 at Worcester three weeks ago; Powell booked; jumps left, less penalised at left-handed Newcastle.",
+              reason: "Progressive 5yo, 4th of 10 off 88 at Worcester three weeks ago; Powell booked; left-jumping less costly at left-handed Newcastle.",
               against: "Winless over hurdles (0/7) with a recurring left-jumping flaw and fades late — a recorded jumping doubt caps him." },
             { rank: 4, horse: "Nobotheratall", prob: 0.08, finish: "-", confidence: "low", danger: true,
-              reason: "Best on official figures (was 2nd in a Class 3 off 110) and 10lb lower now.",
-              against: "Out of form (4-7-9-8 since), top weight 12-0, a confirmed front-runner who weakens — the stiff uphill finish is where a fading leader gets swallowed." }
+              reason: "Best on official figures (2nd in a Class 3 off 110 in June) and 10lb lower now.",
+              against: "Out of form (124798), top weight 12-0, a fading front-runner at a stamina-testing track; quick back in 11 days." }
           ]
         },
         {
