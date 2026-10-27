@@ -150,3 +150,20 @@ Dundalk 1m 3rd/1st/2nd record, a franked August win (3rd and 4th both won next t
 - Sporting Life profiles (example): https://www.sportinglife.com/racing/profiles/horse/1114508 (Moyassr); also /1114510 (Bella Colombia), /1182967 (Glitter And Glory), /1220522 (Coasting)
 - Sporting Life results: .../results/2026-01-30/dundalk/900744/x (Moyassr 1m 38.77 win); .../2026-10-09/dundalk/942757/x and /942756/x (7f divisions); .../2026-08-06/leopardstown/931447/x (Bella Colombia win); .../2026-09-21/fairyhouse/939531/x (Moyassr 2nd)
 - Geegeez Dundalk: https://www.geegeez.co.uk/dundalk-racecourse/ (search summary only)
+
+## Update 21:20 Tue 27 Oct (gap-filling pass)
+
+Picks and probabilities unchanged (Win Moyassr 0.23, Each-Way Glitter And Glory 0.10, Danger Bella Colombia 0.17).
+
+Filled:
+- **Second card source (IrishRacing, read in full):** draws, weights, claims (Rowan 10, Holohan 5, Coen 5, Doherty 10, Khan 7, Harnett 3, Tormey 7, Burns 5), 13 declared, no non-runners, going Standard all match the Racing Post and Sporting Life cards. Headgear: Moyassr tongue strap, Selective Power cheekpieces, Lahore Da King tongue strap, Red Hugh O'Donnell tongue strap + blinkers, John La Bear tongue strap; none on the rest. So Rowan's 10lb claim is now confirmed on three sources (verified). IrishRacing shows Elusive In Mayo OR50 (RP 52 with a 2lb cut to come), Moyassr OR74 against 69 on his last run, and no explicit rating-change note. Moyassr's "Future OR -5" therefore still rests on Racing Post only (asserted).
+- **Gavoo on 9 Oct:** Sporting Life result data marks him NONRUNNER (declared as "Reserve" runner at 8-10). He did not run and was not a non-finisher (verified). His last run is 22 Sep, 9th at Listowel.
+- **New finding (verified from Sporting Life profile):** Moyassr changed stables between 18 Aug and 2 Sep. All his Dundalk wins and his turf runs up to 18 Aug were for P W Flynn; the three 2nds (2 Sep, 10 Sep, 21 Sep) and the 30 Sep 6th were for A McGuinness. The September revival therefore coincides with a stable switch, and today is his first Dundalk run for McGuinness. This supports the revival but means the Dundalk record belongs to a different trainer. My earlier line that McGuinness is "Dundalk-based" is not verified and is withdrawn.
+- **Racing Post standard time:** one Racing Post result (Dundalk 1m, 13 Mar 2026, race 915079) gave 1m 40.80 "slow by 4.80s", so the 1m standard is 1m 36.00 (single result, not the two the playbook wants). On that basis Moyassr's wins are 2.77s (30 Jan), 3.25s (13 Jan) and 3.60s (31 Oct) slow, against my 17-race median of 4.06s slow. Direction of my earlier time claim holds (his wins are faster than the typical Dundalk 1m), but it rests on Sporting Life winning times.
+- Re-read from cached result pages: Bella Colombia's franking (6 Aug 1m1f win; Tachos 3rd won on 20 Aug, Comfort Line 4th won on 16 Aug; Tachos 3rd on 18 Oct), Glitter And Glory's last six (beaten 0.5, 1.0, 2.8, 3.6, 6.5, 4.4L), and Moyassr's profile run list (long AW absence: last AW run 20 Feb, 5th). All figures as in the grid.
+
+Still unreachable:
+- Racing Post result pages for Moyassr's 31 Oct/13 Jan/30 Jan wins and the 9 Oct 7f races: ids cannot be found (results landing page only shows today; searches return no RP ids), so no per-race time against standard.
+- At The Races Smart Stats and course trainer/jockey strike rates.
+- Mile-specific Dundalk draw table (Geegeez tables are images).
+- Moyassr's Future OR -5 from a second source.

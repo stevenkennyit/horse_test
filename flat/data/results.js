@@ -428,6 +428,24 @@
           notes: ""
         },
         {
+          time: "14:30", name: "Halloween Mid-Term Racing At Dundalk Handicap", type: "handicap", distance: "1m",
+          going: "Standard", runners: 13, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-28_dundalk/1430_1m-handicap.md", updated: "21:20 Tue 27 Oct",
+          picks: [
+            { role: "win", horse: "Moyassr", prob: 0.23, placeProb: 0.55, finish: "-", sp: null, confidence: "medium",
+              reason: "Four wins from six Dundalk 1m runs, all faster than a typical Dundalk mile; a 10lb claim leaves him at an effective mark of 64 against 71 when he won in January, and he was 2nd three times in September.",
+              against: "No all-weather run for 8 months, the Racing Post card shows a 5lb cut to his mark pending, the rider is an unproven 10lb claimer, the wins came for his old yard, and he has stall 10." },
+            { role: "ew", horse: "Glitter And Glory", prob: 0.10, placeProb: 0.32, finish: "-", sp: null, confidence: "low",
+              reason: "A 10lb claim takes her effective mark to 59 against 69-74 when 2nd and 3rd over 1m in the summer; Dundalk AW form includes a 7f win and two 1m 3rds.",
+              against: "Beaten by 0.5 to 6.5 lengths in her last six, and the trend is down (9th last time)." },
+            { role: "danger", horse: "Bella Colombia", prob: 0.17, placeProb: 0.45, finish: "-", sp: null, confidence: "low",
+              reason: "Dundalk 1m record of 1 win, 1 second and 1 third from 4 runs; her August win is franked (3rd and 4th both won next time), and she is 5lb better off than for it.",
+              against: "Stall 12, and three lower finishes since her peak." }
+          ],
+          winner: null, grade: "pending", errors: [],
+          notes: ""
+        },
+        {
           time: "15:00", name: "Irishinjuredjockeys.com Fillies Maiden", type: "maiden", distance: "7f",
           going: "Standard", runners: 14, source: "full", status: "pending",
           writeup: "flat/analyses/2026-10-28_dundalk/1500_7f-2yo-fillies-maiden.md", updated: "20:10 Tue 27 Oct",

@@ -137,3 +137,37 @@ Field probabilities (sum about 1.0): Crayons 0.37, Normanton 0.15, Belle 0.14, R
 - https://www.sportinglife.com/racing/results/2026-09-25/dundalk/940362/x (Crayons 25 Sep; Haven's Fillies' Mile run)
 - https://www.racingpost.com/results/1138/dundalk-aw/2026-08-15/926476 (Crayons 15 Aug, time vs standard)
 - https://www.sportinglife.com/racing/results/2026-01-01/x/940554/x (Normanton debut), .../944549/x (Belle Parvenue Navan), .../937407/x (Belle Parvenue Cork), .../938590/x (Let Me Free)
+
+## Update 21:15 Tue 27 Oct - gap-filling pass (picks unchanged)
+Selections and probabilities stand: WIN Crayons In The Sky 0.37 / place 0.70; EACH-WAY Belle Parvenue 0.14 / 0.38; DANGER Normanton 0.15 / 0.42.
+
+**Corrections to the first pass (data errors found)**
+1. **Dundalk 6f time was called "slow"; that was wrong.** Racing Post puts the 15 Aug winning time (1m12.52) at "slow by 1.82s" against its standard (1m10.70), but IrishRacing's course average for the day's going gives 1m13.01 (it says 1m12.52 is 0.49s faster). Two other Dundalk 6f results confirm that average: 25 Sep 1m12.80 "0.21 faster", 25 Sep 1m13.78 "0.76 slower" (both verified, IrishRacing). So Crayons' own 15 Aug time (about 1m12.67) was about 0.35s better than the track average, not a slow race. The RP standard remains single-source and sits about 2.3s below the observed Dundalk average, so I do not rely on it. The "slow time" doubt in the case against is withdrawn.
+2. **Race classes now read from the result pages** (all verified, Sporting Life): Livenka's Blenheim Stakes is **Listed** (2nd, 11 ran; also 4th in the Round Tower Gp 3), not Group 2 as I wrote. Star Of State was 2nd in the Lowther (Gp 2, 19 ran) and then won the Tattersalls Ireland Super Auction Sales Stakes. Alwaysanangel (beat Crayons 1 Jul) was 3rd in the Cheveley Park Stakes (Gp 1), won the Firville Listed, and was 3rd in the Duchess of Cambridge (Gp 2): that strengthens the Crayons form. Haven was 2nd to Musical Times in the Fillies' Mile (Gp 1, 8 ran, Newmarket 9 Oct). Tosca No Candis was 6th in the Darley Fillies Stakes (Gp 3) and 7th in a 1m Gp 3.
+3. **Rayastar**: Sporting Life commentary calls him a gelding; the Racing Post card and IrishRacing list him as a colt ("c"). Unresolved; irrelevant to the pick.
+4. Sporting Life API times are in UTC (SL "17:30" on 25 Sep is the 18:30 Irish race); dates unaffected.
+
+**Weight scale now verified (IrishRacing conditions: "9st 9lbs. Fillies allowed 5lbs", plus sale-price allowances; race limited to yearling purchases at or under €60,000).** Sale prices on the IrishRacing card: Normanton £47,000 (9-9, no allowance); Rayastar £38,000 (9-7, colt); Westminster Waltz €25,000 (9-0); Dragon Scales €25,000 (8-12); Violet Dove €30,000 (8-12); Let Me Free €17,000 (8-10); Step In Style €20,000 (8-10); Guana Dynasty €10,000 (8-8); Belle Parvenue €8,000 (8-8); Cafe Oh Lait €7,000 (8-8); Mirissa Beach €5,000 (8-8, less 5 claim); Legacy Of Stardom €1,000 (8-13, colt, 10lb allowance); Lolapipa €1,000 (8-8, less 5 claim); Crayons In The Sky: no sale price shown, 9-4 = filly allowance only; reserve Lash La Rue €5,500 (8-13). So Belle's 8-8 and the low weights of the cheap fillies reflect purchase price (maximum allowance), not a handicapper's view. Claims confirmed on this second card: Persse (5), Holohan (5) only. Headgear: the only item is Belle Parvenue's first-time tongue strap (RP-independent: IrishRacing and Sporting Life agree).
+
+**Margins cross-checked at a second source (IrishRacing result pages, verified)**
+- Crayons 25 Sep: 2nd 3L, 3rd 1/2L, 4th 1/2L, so about 4L behind Haven; winning time 1m26.40 (0.30s slower than the 7f average). Step In Style 12th, beaten 5.5L by the horse in front (SL showed 5 1/2: agrees); 13 ran.
+- Crayons 8 Jul: 1.5L, 1.25L, 3.75L increments, so 6.5L behind Livenka (the page's own wording "3.75L behind the winner" is the gap to 3rd; increments basis agrees with Sporting Life). 9 ran, one non-runner.
+- Crayons 15 Aug: 0.75L, same order as Racing Post. Step In Style 14th, 2L behind 13th.
+- Dragon Scales 12 Aug Gowran: margins 5L, nk, hd, 7L, 1.5L are real (not misprints); her own time 1m27.35 against winner's 1m25.43 (+1.92s); winner 2.84s faster than the course average. 6th of 16 finishers (3 non-runners, SL showed 19 ran). Her 9 Oct 7f margins (about 14L) are from Sporting Life only.
+- Jul 1 Fairyhouse race and the Navan/Cork/Naas/Curragh margins for Normanton, Belle, Let Me Free are from Sporting Life only (increments basis); the SL pages and profile JSON agree with each other on positions and run counts.
+
+**Franking now confirmed from result pages** (verified, Sporting Life)
+- Belle Parvenue's Cork race (9 Sep): the winner The Scallionator was later 9th in the Blenheim (Listed, BHA mark 99) and 8th in the Naas Auction Series Final (mark 96); Nation Blaze (2nd) then won a 13-runner Curragh 6f maiden (20 Oct, mark 85); Eyeconic (4th) won the Navan 5f maiden she was 5th in. That is a better race than I first credited, though she was still beaten 5.25L by a horse 12lb heavier, i.e. about 10L at level weights (OR 96-99 winner).
+- Let Me Free's Naas race: Diamonds And Dames won the Irish EBF Auction Series Race Final at Naas (11 Oct, 12 ran, mark 85); Dawnmore (2nd) was 4th there. Let Me Free was beaten about 11L, 8lb lighter, so still well behind that form.
+- Normanton's Curragh race: Yellow Sky (5th) 3rd in a Dundalk 7f nursery (mark 72); One Flash 2nd Naas, 6th Curragh 6f maiden; Silk Twist 12th, 12th in nurseries/maidens. Raging Bull (winner) has not run since. No frank found for the first three.
+
+**Profiles read in full (Sporting Life)**: Normanton (1 run, 4th, 9-7, 12/1), Rayastar (no runs), Let Me Free (1 run on SL, plus a Naas 6f barrier trial 26 May, 6th, per IrishRacing), Crayons (4 runs, official mark 90 after 25 Sep on SL, 86 on the RP card: conflict noted, 86-90), Belle Parvenue (2 runs). Run counts match the form strings.
+
+**Pre-send checks re-run.** "Only runner with a Dundalk placing" holds: Dragon Scales (11th) and Step In Style (14th, 12th) are the only other runners with Dundalk runs. "Never finished worse than 4th" holds (2, 4, 2, 4). Case against for Crayons stands without the slow-time point: 0 from 4, the placer profile, and Thorne's cold spell (0-7 in 14 days, Racing Post, not re-checked).
+
+**Still unreachable or unverified**
+- At The Races card and Smart Stats (error), Geegeez (403; draw/pace figures from a search snippet only), Sporting Life trainer pages (404), Racing Post profile form tabs and past result pages (JavaScript shell; only the 15 Aug result page loaded). So no trainer or jockey course records, and no second-source RP standard time.
+- Stable debut/newcomer records (Murphy, Foster, McGuinness, Coleman) rest on Sporting Life commentary only.
+- Going and non-runners to be re-checked on the day.
+
+Additional sources: https://www.irishracing.com/racecards/Wed-28th-Oct-2026/Dundalk/1700 ; https://www.irishracing.com/raceresults/Fri-25th-Sep-2026/Dundalk ; https://www.irishracing.com/raceresults/Fri-25th-Sep-2026/Dundalk/1830 ; https://www.irishracing.com/raceresults/Sat-15th-Aug-2026/Dundalk/1350 ; https://www.irishracing.com/raceresults/Wed-8th-Jul-2026/Fairyhouse ; https://www.irishracing.com/raceresults/Wed-12th-Aug-2026/Gowran-Park/1452 ; Sporting Life result pages 933599, 939533, 927487, 933602, 931626, 940358-linked profiles.
