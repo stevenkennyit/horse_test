@@ -329,6 +329,37 @@
           ]
         }
       ]
+    },
+    {
+      date: "2026-10-27",
+      course: "Newcastle",
+      country: "GB",
+      code: "jumps",
+      playbook: "jumps/AGENTS-jumps.md",
+      going: "Good (Good to Soft in places)",
+      dataErrors: [
+        "Session rate limit (reset 12:40 UTC) cut short the gap-filling pass for every race; picks recorded from the first-pass analyses. ATR course guide + Smart Stats bot-blocked all day."
+      ],
+      races: [
+        {
+          time: "12:56", name: "Border Minstrel Dog Friendly Pub Maiden Hurdle (GBB Race)", type: "hurdle", distance: "2m190y",
+          going: "Good (Good to Soft in places)", runners: 6, source: "full", status: "pending", grade: "pending", errors: [],
+          notes: "Maiden hurdle, no OR. Both principals are hurdle debutants from a bumper background, so ~a third of the book stays with the field. Champagne Powder (7lb claim) and Captain Ted are the only two with hurdle experience. GAP PASS CUT SHORT by the session rate limit.",
+          winner: null,
+          writeup: "jumps/analyses/2026-10-27_newcastle/1256_maiden-hurdle.md", updated: "12:43 Tue 27 Oct",
+          picks: [
+            { rank: 1, horse: "Wilde's Legacy", prob: 0.37, finish: "-", confidence: "medium",
+              reason: "Strongest bumper form (dual winner with Grade 1 Champion Bumper exposure); strong-finishing style suits Newcastle's stiff uphill; in-form Snowden/Sheehan.",
+              against: "Hurdle debut (jumping unproven), 230 days off, the key win only weakly franked." },
+            { rank: 2, horse: "My Mate Aj", prob: 0.30, finish: "-", confidence: "medium",
+              reason: "Won an 11-runner maiden bumper making all; beat Sky Grove who then won a C4 hurdle (franked); likely the lone front-runner = pace edge on the stiff track; jumping-bred.",
+              against: "Hurdle debut, keen-goer, modest Lingfield run, 194 days off." },
+            { rank: 3, horse: "Champagne Powder", prob: 0.14, finish: "-", confidence: "low", danger: true,
+              reason: "Only runner besides Captain Ted with hurdle experience; 4yo weight-for-age pull plus a 7lb claim (Noreci) and first-time hood to help her settle; race-fit to punish raggedness from the two debutants.",
+              against: "Hurdle form is two well-beaten 5ths and she didn't get home over 17f." }
+          ]
+        }
+      ]
     }
   ]
 });
