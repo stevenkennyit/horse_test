@@ -59,7 +59,7 @@ Remaining ~22% across the field: Koa Beau ~8%, Absence Of Ego ~6%, Rip It Up ~4%
 - *Case against:* **228 days off**, and the form is **weakly franked** — winner Port Isaac won that day but then finished 9th of 10 in Class 2; Jetzet (behind him) only placed since. Still a maiden with a single modest run.
 
 **Danger — Cayenne (0.18, low).**
-- *Verified:* N G Richards stable (strong bumper operation, asserted), stable jockey Danny McMenamin booked, highest Timeform rating in the field (5 stars). A genuine "positive unknown."
+- *Verified:* N G Richards (Nicky Richards) has a **strong bumper record** — ~30% strike-rate (24-81) over five seasons per a 2018 SL preview, 25% in bumpers at Ayr per a 2024 SL verdict, and the yard is seasonally stronger in winter (late Oct = start of its better period). Stable jockey Danny McMenamin booked; highest Timeform rating in the field (5 stars). A genuine "positive unknown."
 - *Case against (and Step-15 discipline):* **Unraced** — under the unraced-bumper rule it cannot be top pick or be rated above ~30%, and purchase price/pedigree/booking are not evidence. Its dam is a 10.5f Flat winner (speed/middle-distance), so **stamina for a stiff uphill 2m is unproven**. Rated as a capped danger, deliberately below two horses with franked/recent form, mindful of the Galway 16:30 lesson (unraced Moscovite rated 40% finished last).
 
 ## Stress-test notes
@@ -71,7 +71,7 @@ Remaining ~22% across the field: Koa Beau ~8%, Absence Of Ego ~6%, Rip It Up ~4%
 ## Unverified items (data gaps)
 - **Jockey claims not confirmed at source** — Joe Williamson (Batchelor's Lad, conditional, ~3–5lb likely), Conor Rabbitt (Mystic Marie, conditional), Miss Natasha Cookson (Regal Thunder, amateur). Sporting Life carries no claim field; Racing Post and At The Races were bot-blocked. Effective weights for these three could shift 3–7lb (would most help Batchelor's Lad). **Treated as asserted.**
 - **Irish point-to-point form** (Absence Of Ego 2nd, Regal Thunder 33, Mon Missel 2nd/F) taken from Timeform racecard commentary, **not read at a point result page** — asserted.
-- **Stable records asserted, not independently verified:** N G Richards' bumper strike-rate ("superb"), J R Norton 0-56 in bumpers, John Dawson "Cheltenham winner Friday," Russell & Scudamore "going well."
+- **N G Richards bumper record — verified** (~30% 24-81 over 5 seasons [2018 SL], 25% at Ayr [2024 SL]). Still asserted: J R Norton 0-56 in bumpers, John Dawson "Cheltenham winner Friday," Russell & Scudamore "going well."
 - **Going / GoingStick / rail** — Good (Good to Soft in places) at 09:10 GMT; no GoingStick found; re-check near the off.
 - Newcastle course character (galloping, stiff uphill finish) is from the fact pack/ATR guide — asserted (ATR/Geegeez bot-blocked today).
 

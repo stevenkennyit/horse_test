@@ -454,6 +454,27 @@
               reason: "Mark collapsed 107 to 86; 2nd LTO in cheekpieces (39 days); hot travelling yard.",
               against: "0-8 over fences with chronic jumping errors (a bad mistake nearly every start); must quicken late over fences on a stiff track — exactly his error scenario." }
           ]
+        },
+        {
+          time: "16:01", name: "Breeders' Cup On Sky Sports Racing Open Maiden NH Flat Race (GBB Race)", type: "bumper", distance: "2m190y",
+          going: "Good (Good to Soft in places)", runners: 9, source: "full", status: "pending", grade: "pending", errors: [],
+          notes: "Open maiden bumper, 9 runners, set weights (5yo 11-4 / 4yo 11-3, 1lb WFA). This race's gap-fill pass DID complete after the reset: Richards' bumper record verified, key runs franked, no head-to-heads. Cayenne capped under Step 15 (unraced). Jockey claims for Williamson/Rabbitt/Cookson could not be confirmed (all sources bot-blocked).",
+          winner: null,
+          writeup: "jumps/analyses/2026-10-27_newcastle/1601_open-maiden-nh-flat-race.md", updated: "12:54 Tue 27 Oct",
+          picks: [
+            { rank: 1, horse: "Mon Missel", prob: 0.26, finish: "-", confidence: "medium",
+              reason: "Only race-fit, recent form (3rd of 8 in a 2m Stratford bumper 22 days ago, led and stayed on); the galloping stiffer track suits a horse that wanted a stamina test at sharp Stratford; Snowden/Sheehan.",
+              against: "Beaten at 4/5 and only one-paced; Stratford form unfranked (winner and 2nd not run since)." },
+            { rank: 2, horse: "Always Proud", prob: 0.20, finish: "-", confidence: "medium",
+              reason: "Best bare line — 7th of 20 in a Class-2 Newbury bumper (btn ~8.75L off a light 10-10), now dropping to Class 5; pedigree stays 2m.",
+              against: "220 days off and 'petered out late' at Newbury — a stamina doubt up this stiff hill; the Class-2 line only moderately franked." },
+            { rank: 3, horse: "Batchelor's Lad", prob: 0.14, finish: "-", confidence: "low",
+              reason: "Promising 2nd of 6 on debut at Doncaster (beat the 5/6 favourite); a likely rider's claim would help him against the no-claim rivals.",
+              against: "228 days off, weakly franked (the winner then flopped 9th of 10 in Class 2), still a maiden." },
+            { rank: 4, horse: "Cayenne", prob: 0.18, finish: "-", confidence: "low", danger: true,
+              reason: "N G Richards has a verified strong bumper record (~30%, 24-81) and the yard strengthens in winter; McMenamin booked; top Timeform stars.",
+              against: "Unraced (Step-15 cap: kept below 30% and below two franked rivals); dam a 10.5f Flat winner, so stamina for a stiff 2m is unproven (Galway-Moscovite lesson)." }
+          ]
         }
       ]
     }
