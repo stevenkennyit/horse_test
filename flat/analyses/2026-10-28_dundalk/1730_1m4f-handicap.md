@@ -159,3 +159,17 @@ Re-opened/re-derived this session from the SL JSON before writing: claims and we
 - SL jockey profile Camillus Byrne: https://www.sportinglife.com/racing/profiles/jockey/36800
 - Racing Post card (partial via fetch): https://www.racingpost.com/racecards/1138/dundalk-aw/2026-10-28
 - Geegeez Dundalk (snippet only): https://www.geegeez.co.uk/dundalk-racecourse/
+
+## Update 21:15 Tue 27 Oct (gap-filling pass; picks unchanged)
+
+Filled:
+- **IrishRacing card opened** (irishracing.com/racecards/Wed-28th-Oct-2026/Dundalk/1730; verified): weights, ORs, claims, draws and jockeys all match the SL and RP cards, 17 declared with Palmezzano, Banana Three and Jazz Forever as reserves. Headgear mostly agrees. Two differences from Sporting Life: it lists **Cozone with a cheekpiece** (SL shows none) and Copper Craft with "blinkers, cheekpiece" (SL shows blinkers only). Neither changes the ranking. IrishRacing also says Copper Craft "reportedly prefers fast ground" (asserted by that page, not checked); Standard Polytrack is not fast turf, so treat as a small note. Its price column was not used.
+- **Camillus Byrne:** the SL jockey profile lists exactly one previous ride (10th on Comfort Line, 23 Oct) and today's ride on Dancing Steve. So he is a rider with almost no recorded rides. The doubt on the Win stands and is, if anything, firmer.
+- **Serenity Blue (9 Oct winner):** has not run since; next entry is Dundalk 30 Oct 20:30. The 9 Oct form stays unfranked.
+
+Still unreachable (checked this pass):
+- **Racing Post result pages:** the 16 Oct URL returned 404 and the meeting results page lists no race links. No times against standard for 16 Oct, 9 Oct or 15 Aug. Times stay unused.
+- **Gallo Dell Cielo's OR 62 to 70:** a search found nothing after March 2025 (it confirms his marks of 55 in Nov 2024 and 61 in Mar 2025, consistent with SL). Still unexplained. Both RP and SL cards say 70, so I rely on 70, and I keep his probability at 0.11.
+- **Dancing Steve's yard (A McGuinness) course stats:** ATR and Smart Stats unavailable; not checked.
+
+Re-run of checks: claims and weights agree across three cards; counts unchanged; no pick, probability or rationale changed.

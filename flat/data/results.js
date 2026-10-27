@@ -480,6 +480,24 @@
           ],
           winner: null, grade: "pending", errors: [],
           notes: ""
+        },
+        {
+          time: "17:30", name: "Happy Halloween Handicap", type: "handicap", distance: "1m4f",
+          going: "Standard", runners: 14, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-28_dundalk/1730_1m4f-handicap.md", updated: "21:15 Tue 27 Oct",
+          picks: [
+            { role: "win", horse: "Dancing Steve", prob: 0.15, placeProb: 0.40, finish: "-", sp: null, confidence: "low",
+              reason: "Carries 8-8 (9-4 less a 10lb claim) against 9-6 when 6th, about 3 3/4L behind Enchanted Lady on 16 Oct, so around 12lb better off; his effective rating of 50 is below his last winning mark of 56.",
+              against: "Rider is a very green 10lb claimer (one earlier ride), he fades late, and he is 0 from 10 at Dundalk." },
+            { role: "ew", horse: "Coolnagrattan", prob: 0.12, placeProb: 0.36, finish: "-", sp: null, confidence: "low",
+              reason: "Unexposed 4yo, 3rd over Dundalk 1m4f 19 days ago and 3rd over Roscommon 1m4f in June, with the same 5lb claimer; level with Wandering Rocks on the 9 Oct line.",
+              against: "No win in 6 runs, the 9 Oct form is not franked, and he raced freely both times at Dundalk." },
+            { role: "danger", horse: "Celtic Druid", prob: 0.11, placeProb: 0.34, finish: "-", sp: null, confidence: "low",
+              reason: "Two wins and a 2nd from four course-and-distance runs, carrying 9-1 after a 7lb claim, 3lb lighter than on 16 Oct.",
+              against: "Slow into stride in each of his last three runs, three poor runs in a row, and drawn widest (stall 16)." }
+          ],
+          winner: null, grade: "pending", errors: [],
+          notes: ""
         }
       ]
     }
