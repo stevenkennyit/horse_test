@@ -62,6 +62,40 @@ Remainder: Joie More ~0.09, The Kings Soldier ~0.08 (≈0.17 of the field). Fiel
 - Profiles (full career): /racing/profiles/horse/1123102 (Royal Time), /1204639 (Thereyare), /1076807 (Luminaries), /1124627 (Joie More), /1193333 (The Kings Soldier) on sportinglife.com
 - Royal Time LTO result: https://www.sportinglife.com/racing/results/2026-10-18/sedgefield/944007
 
+## Update 12:53 (gap-filling pass, ~33 min to off)
+
+**Non-runner + field change (checked 12:51 GMT, racecard id 945553 reconfirmed):** **Joie More (7) is now a NON-RUNNER.** Field down to **4 runners**: Royal Time, Thereyare, Luminaries, The Kings Soldier. `number_of_placed_rides` = **1** (win-only place terms in a 4-runner field). Going unchanged: **Good (Good to Soft in places)**, Turf, weather Sunny — confirmed on both the racecard and the Sporting Life going feed (meeting 122220) at 12:51 GMT. No GoingStick/rail figure published. Non-runners now: Wannabe, Wearelongterm, Jet Light, Joie More.
+
+**Jockey claims (gap 1):**
+- **Charlie Maggs (Thereyare)** is a conditional who **still claims** — he rode Luminaries to win a *conditional jockeys'* handicap at Kelso on 4 Oct 2026 (restricted to claimers) [verified, result 941606]. He was a **7lb claimer on 26 Dec 2024** [verified, Racing Post Rowland Meyrick report] and reports had him eased to **5lb** during 2025. Exact Oct-2026 figure **not pinned at source** — most plausibly 3–5lb. Sporting Life card weights are **pre-claim**, so Thereyare's actual carried weight is a few lb below the listed 11-9 (a small handicap bonus not reflected in OR). Does not change his ranking.
+- **J J Murphy-Knight (Royal Time)** — amateur ("Mr"); no claim shown on card. Royal Time's Sedgefield win was also ridden by an amateur (Mr T Walsh) [verified, result 944007].
+
+**Franking (gap 2):**
+- **Thereyare's LTO** (Bangor 2m7f hcap hurdle, 21 Mar, won off OR 85 beating An Buachaill Rua OR90, Mooserwirt OR90, Kastellion OR100) — ridden that day by **C J Todd, not Maggs**. Runner-up An Buachaill Rua ran once since (Ffos Las 12 Apr, unplaced/None of 14); Mooserwirt has **not run since**. So the win is **NOT franked** — the beaten horses have not advertised the form [verified, profiles 1179422 / 1205860]. The in-race form (off 85, beating 90/90/100-rated rivals) still reads okay but is unconfirmed by subsequent results.
+- **Royal Time's Sedgefield win** (9 days ago): beaten horses have not run again in the interval — **too recent to frank** [asserted].
+- **Luminaries' Oct wins**: Southwell (beat East Eagle OR93) and Kelso — beaten horses' later runs not chased; he is well-in on OR regardless. **Not franked** at source.
+
+**Connections — Greenall & Guerriero chase debutants (gap 3):** Powerful yard (≈19% strike rate, 54 winners in a recent season) whose model is to win **handicaps** ("most of ours need handicapping"), and they have landed **chase-debut handicaps before** (e.g. Concetto, 3m handicap chase debut) [verified via reports; exact chase-debut strike rate not retrieved]. So Thereyare's connections are a **positive**, not a trainer red flag — no 0/x chase-debut pattern of the kind that sank Harty Cup. The **Step-14 chase-debut cap still applies** (debutant can't be top pick; win chance reflects the unproven jumping), so he stays 3rd.
+
+**Step-14 caps confirmed (gap 4):**
+- **Luminaries** — recorded 3m chase **pull-up with "not fluent" x3** (Southwell, Nov 2025) [verified, in-running]; the jumping doubt is real, so he is capped **below the clean-jumping Royal Time** (2nd, 0.32), not promoted to favourite despite being well-in and in hot hurdles form.
+- **Thereyare** — chase debutant, capped below top pick (3rd, 0.18).
+
+**ATR Smart Stats / Geegeez (gap 5):** ATR racecard and Smart Stats **still bot-blocked** today; Geegeez course pace/fall-rate not retrieved. Course character (left-handed, galloping, stiff uphill finish, stamina test, no strong pace bias) remains **asserted** from the fact pack. With Joie More out, likely pace features Royal Time (prominent) and Luminaries (handy) — suits a sound-jumping galloper.
+
+**Revised probabilities (4 runners):**
+
+| Rank | Horse | Win prob (was, 5-runner) | Confidence |
+|---|---|---|---|
+| 1 | Royal Time | **0.39** (was 0.36) | medium |
+| 2 | Luminaries | **0.32** (was 0.30) | medium |
+| 3 (danger) | Thereyare | **0.18** (was 0.17) | low-medium |
+| — | The Kings Soldier | **0.11** (was 0.08) | — |
+
+**Picks and order unchanged.** Rationale holds: Royal Time is the only sound jumper in current chase-winning form and a prominent galloper for a stamina track (doubt: back up to a stiff 3m); Luminaries well-in and flying but carries a genuine 3m-chase jumping doubt; Thereyare an unexposed, well-connected chase debutant with staying pedigree but unproven over fences and 220 days off (win unfranked). The Kings Soldier remains an exposed outsider.
+
+**Still unresolved:** Maggs's exact current claim (3–5lb likely); full franking of all three wins; ATR/Geegeez course + pace figures (bot-blocked). None overturns the ranking.
+
 ---
 
 ## Update 12:49 — gap pass cut short

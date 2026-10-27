@@ -361,20 +361,20 @@
         },
         {
           time: "13:26", name: "Mini Golf At High Gosforth Park Novices' Handicap Chase", type: "chase", distance: "3m",
-          going: "Good (Good to Soft in places)", runners: 5, source: "full", status: "pending", grade: "pending", errors: [],
-          notes: "3m novices' handicap chase on a stiff track. Non-runners: Wannabe, Wearelongterm, Jet Light. Charlie Maggs (Thereyare) still claims (rode Luminaries in a conditionals' race LTO) — if it applies, Thereyare carries a few lb less than the listed 11-9. GAP PASS CUT SHORT by the session rate limit.",
+          going: "Good (Good to Soft in places)", runners: 4, source: "full", status: "pending", grade: "pending", errors: [],
+          notes: "3m novices' handicap chase on a stiff track. Non-runners: Wannabe, Wearelongterm, Jet Light, and (from 12:53) Joie More — field down to 4, win-only place terms. Charlie Maggs (Thereyare) is still a claiming conditional (~3-5lb; 7lb in Dec 2024), so Thereyare carries a few lb below the listed 11-9 (bonus, not in the OR). Going reconfirmed Good (GS in places) at 12:53. Gap-fill done: probabilities nudged for the 4-runner field, order unchanged. ATR/Geegeez course+pace stayed bot-blocked.",
           winner: null,
-          writeup: "jumps/analyses/2026-10-27_newcastle/1326_novices-handicap-chase.md", updated: "12:48 Tue 27 Oct",
+          writeup: "jumps/analyses/2026-10-27_newcastle/1326_novices-handicap-chase.md", updated: "12:55 Tue 27 Oct",
           picks: [
-            { rank: 1, horse: "Royal Time", prob: 0.36, finish: "-", confidence: "medium",
-              reason: "Only runner with current chase-winning form and a sound jumping record (10/11 chase completions, the 'U' a hamper); won LTO 9 days ago unpenalised; prominent style suits.",
-              against: "Best at 2m4f-2m7f, one-paced at 3m+; up in trip on a stiff track, amateur rider, top weight." },
-            { rank: 2, horse: "Luminaries", prob: 0.30, finish: "-", confidence: "medium",
-              reason: "Red-hot (won last 2 in blinkers over hurdles), well treated over fences (chase OR 82 vs 89-96 in 2025), proven 3m stayer on good, Newcastle course form.",
-              against: "0-from-4 over fences with 2 PU; his one 3m chase start was a PU, 'not fluent' x3 — a recorded chase-jumping doubt; the surge is over hurdles, not fences." },
-            { rank: 3, horse: "Thereyare", prob: 0.17, finish: "-", confidence: "low", danger: true,
-              reason: "Won LTO (2m7f hurdle), point background, strong staying pedigree (Jet Away), progressive 5yo from a good yard; Maggs's claim may net him below 11-9.",
-              against: "Chase debutant (jumping cap) and 220 days off; unproven at 3m and over fences." }
+            { rank: 1, horse: "Royal Time", prob: 0.39, finish: "-", confidence: "medium",
+              reason: "Only runner with current chase-winning form and a clean jumping record (10/11 chase completions, the 'U' a hamper); won LTO 9 days ago unpenalised; prominent galloper suits the stiff track.",
+              against: "His wins/best are 2m4f-2m7f and his 3m runs are only one-paced — back up to a stiff 3m is the live doubt; amateur rider, top weight." },
+            { rank: 2, horse: "Luminaries", prob: 0.32, finish: "-", confidence: "medium",
+              reason: "Won last 2 (both this month, hurdles, in blinkers), well-in over fences (chase OR 82 vs 89-96 in 2025), proven 3m stayer on good, course form.",
+              against: "Recorded 3m-chase PU, 'not fluent' x3 (Step-14 cap, held below Royal Time); 0/4 over fences; the resurgence is over hurdles." },
+            { rank: 3, horse: "Thereyare", prob: 0.18, finish: "-", confidence: "low", danger: true,
+              reason: "Won LTO (2m7f hurdle), point background, strong staying pedigree, from a strong yard (Greenall & Guerriero ~19%) that lands chase-debut handicaps; Maggs's claim nets him below 11-9.",
+              against: "Chase debutant (jumping cap, not top pick) and 220 days off; the LTO win is unfranked; unproven over fences/3m." }
           ]
         },
         {
@@ -440,9 +440,9 @@
         {
           time: "15:31", name: "attheraces.com/marketmovers Handicap Chase (GBB Race)", type: "chase", distance: "2m4f19y",
           going: "Good (Good to Soft in places)", runners: 6, source: "full", status: "pending", grade: "pending", errors: [],
-          notes: "6-runner Class-4 handicap chase. Non-runners: My Friend Sean, Humble Jumble. Only Aill Dubh carries a claim (Joshua Thompson 5lb, netting him to ~9-11) and he is ~7lb 'out of the handicap'. GAP PASS CUT SHORT by the session rate limit.",
+          notes: "6-runner Class-4 handicap chase. Non-runners: My Friend Sean, Humble Jumble (reconfirmed 12:52). Aill Dubh carries the only claim (Thompson 5lb, to 9-11) but is 7lb out of the handicap — nets to ~OR 77, about 2lb ABOVE his true mark, so NOT well-in. Going reconfirmed Good (GTS in places) 12:52. Gap-fill done (picks unchanged; franking tempered Aill Dubh and clarified Loulou Madrik/Uptown Harry limits). ATR/Geegeez course+pace stayed bot-blocked.",
           winner: null,
-          writeup: "jumps/analyses/2026-10-27_newcastle/1531_handicap-chase.md", updated: "12:48 Tue 27 Oct",
+          writeup: "jumps/analyses/2026-10-27_newcastle/1531_handicap-chase.md", updated: "12:56 Tue 27 Oct",
           picks: [
             { rank: 1, horse: "Empty Nest", prob: 0.34, finish: "-", confidence: "medium",
               reason: "Best course-and-distance form (Newcastle 2m4f19y: 1-2-2-3); no fall/unseat in a 23-run career; now 2-4lb below his C&D winning/placing marks; stable no.1 jockey takes him over the stablemate.",

@@ -99,3 +99,30 @@ Remaining ~0.28 across the field: Uptown Harry ~0.12 (place type, trip/age/weigh
 ## Update 12:49 — gap pass cut short
 
 The session hit its rate limit (reset 12:40 UTC), terminating the gap-filling pass for this race. Picks above are the first-pass analysis, recorded before the off. Items under "Unverified / data gaps" were not re-checked at source, and ATR Smart Stats / Geegeez course and pace data stayed bot-blocked all day. Non-runners and going were last checked in the morning — treat as provisional and re-check nearer the off.
+
+---
+
+## Update 12:53 (gap-filling pass)
+
+**Picks UNCHANGED.** The gap-fill confirmed and refined the original analysis rather than overturning it. Probabilities and ranking stand: 1 Empty Nest 0.34 (medium); 2 Aill Dubh 0.21 (medium); 3 Rule Me In 0.17 (low).
+
+**(1) Racecard re-verified.** The first racecard fetch in the opening pass was a mis-cache (returned a different Newcastle race, 945553/14:31). On this pass I re-fetched race **945557** four times (three stable `?v=` variants plus a non-runner check) — **all four returned the correct race**: 15:31, 2m 4f 19y, going Good (GTS in places), the six runners plus NR My Friend Sean and Humble Jumble. All career/profile data used was drawn from the stable fetches, not the mis-cache. (verified)
+
+**(2) Going + non-runners re-checked at 12:52 GMT.** Card still shows **Good (Good to Soft in places)**; Sporting Life going page row for Newcastle reads the same ("Standard"). Non-runners unchanged: **1 My Friend Sean, 4 Humble Jumble** out; six runners confirmed. No GoingStick/rail figure available (gap). (verified)
+
+**(3) Joshua Thompson's claim and Aill Dubh's handicap — confirmed by arithmetic.** Rebuilt the whole handicap off the top weight (Loulou Madrik 11-13 = 167lb off OR 107, 1lb per 1lb of rating): every runner carries exactly its mark-implied weight **except Aill Dubh**, assigned 10-2 (142lb) when his OR 75 entitles him to 9-9 (135lb) — i.e. **+7lb, 7lb out of the handicap** (verified). The card's `jockey_claim` field = **5** for Joshua Thompson, and Sporting Life lists weights before the claim, so he **carries 9-11 (137lb)** — the lightest in the race. Net effect: after the claim he races as if ~OR 77, about 2lb above his true mark of 75 (so broadly at his level, **not well-in**). (verified)
+
+**(4) Rule Me In — complete 11-run history read in full.** Over fences (0 wins from 8) the jumping errors are recorded in nearly every start: "bad mistake 4 out" (LTO, still rallied to 2nd); "mistake 7th … another mistake 4 out" (Southwell); "not fluent 2nd, untidy 4th" (Southwell); "mistake 6th, slow 10th" (Newbury); "bad mistake 2nd, not fluent 3rd" (Windsor). One 4th (Bangor) was "badly hampered by a faller" — not his error. The pattern is a genuine, recurring jumping doubt, which keeps him at 3rd/low under Steps 5.6 & 14. (verified)
+
+**Franking completed:**
+- **Loulou Madrik** — Carlisle chase 2nd (4 Apr, 3m110y) behind **Big Zouk**, who had won off 96 at Ayr beforehand and off 102 here: a progressive, winning chaser, so the line is **franked and competitive** — but it is at **3m**, as is his only other good chase run. His 2m4f chase ability is unproven; the LTO Hexham 3m run was laboured (mistake 16th). (verified)
+- **Uptown Harry** — Newcastle win (15 Jan, 2m7f91y) off **OR 80** beat **Shadow Chaser** (OR 98, who ran another 2nd next time) and other 98–111 rated rivals: a **strongly franked, well-in win** — but at 2m7f and off a mark now **10lb higher** (90), and he PU'd (good ground) last time at 12yo. The frank doesn't transfer to today's shorter trip and higher weight. Collateral (3m): Loulou Madrik finished ahead of Orkney Blue, who beat Uptown Harry — a mild 3m pointer to Loulou over Uptown Harry, but not at 2m4f. (verified)
+- **Aill Dubh** — Cartmel win (20 Jul, 2m5f34y) off 75 beat **Blazing Court** (OR 78), who has **not progressed** (5th, 10th since), with 99-rated Jack Sprat well beaten in a Class 5. A **weak frank** — his form is genuine (in-form, completing) but against moderate opposition, consistent with him being around, not below, his mark. (verified)
+
+**(5) Pedigree stamina (asserted support; weaker than proven form).**
+- **Balking** — by **Balko** (proven NH sire; sired Grade 1 2m5f winner Balko Des Flos) out of a **Martaline** mare (strong staying/jumps broodmare-sire). Bred to stay 2m4f+ comfortably; his own hurdle form (2m3f–2m4f) agrees, though 3m (well beaten at Haydock) may stretch him. (asserted)
+- **Loulou Madrik** — by French jumps sire **Choeur Du Nord** (himself a 3,000m Auteuil hurdle winner; 11 black-type jumpers) out of an **Esprit Du Nord** mare. A stamina/jumps pedigree; consistent with his own 3m chase form. 2m4f is well within range — the question for him is top weight and whether a sharper 2m4f exposes a lack of toe, not stamina. (asserted)
+
+**(6) ATR Smart Stats and Geegeez — still blocked (remaining gap).** ATR Smart Stats and ATR racecard both return a "Client Challenge" bot page (curl and WebFetch); Geegeez returns HTTP 403 on both. So trainer/jockey Newcastle course strike-rates, first-time-headgear and formal pace-map data **could not be verified**. The pace read (Empty Nest, Aill Dubh and Uptown Harry all prominent/front-running; Rule Me In and Loulou Madrik held up/mid-division) is taken **from the in-running comments**, and the course character (galloping, stiff uphill finish, stamina test) remains **asserted** from the fact pack / ATR course guide.
+
+**Still-open gaps after this pass:** ATR Smart Stats / Geegeez course + pace figures; GoingStick/rail reading; a final going/non-runner re-check right before the off.
