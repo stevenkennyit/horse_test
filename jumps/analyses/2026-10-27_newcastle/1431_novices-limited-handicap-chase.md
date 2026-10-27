@@ -72,3 +72,9 @@ The **only runner with a completed chase start** and proven 3m-ish stamina, drop
 - Result, Hereford 18 Mar 2m3f nov hurdle (id 907846): Silver Hill won
 - Result, Newcastle 3 Mar 2m4f nov hurdle (id 905411): Silver Hill 2nd to Sanilam
 - Jockey claim status: Scottish Racing / Racing Post / Great British Racing press reports (Wadge, England)
+
+---
+
+## Update 12:49 — gap pass cut short
+
+The session hit its rate limit (reset 12:40 UTC), terminating the gap-filling pass for this race. Picks above are the first-pass analysis, recorded before the off. Items under "Unverified / data gaps" were not re-checked at source, and ATR Smart Stats / Geegeez course and pace data stayed bot-blocked all day. Non-runners and going were last checked in the morning — treat as provisional and re-check nearer the off.

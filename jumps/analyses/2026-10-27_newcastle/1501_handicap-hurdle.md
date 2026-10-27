@@ -76,3 +76,9 @@ Remaining field: Max Of Stars ~0.10, Pyramid Place ~0.04. Picks sum 0.73; the re
 - Racecard: https://www.sportinglife.com/racing/racecards/2026-10-27/newcastle/racecard/945556/dogs-welcome-at-the-border-minstrel-pub-handicap-hurdle
 - Today's race API (declarations, claims, going): https://www.sportinglife.com/api/horse-racing/race/945556
 - Past-run detail (positions, beaten distances, winners, franking) via `https://www.sportinglife.com/api/horse-racing/race/<id>` — e.g. 886733 (Fakenham, NoR beat Codetalker), 904900 (Doncaster, NoR PU), 920952 (Uttoxeter, Jentobello 2nd), 944015/941601 (Jentobello Kelso win & Uttoxeter), Roarin' Success & Hunters Spring recent runs.
+
+---
+
+## Update 12:49 — gap pass cut short
+
+The session hit its rate limit (reset 12:40 UTC), terminating the gap-filling pass for this race. Picks above are the first-pass analysis, recorded before the off. Items under "Unverified / data gaps" were not re-checked at source, and ATR Smart Stats / Geegeez course and pace data stayed bot-blocked all day. Non-runners and going were last checked in the morning — treat as provisional and re-check nearer the off.

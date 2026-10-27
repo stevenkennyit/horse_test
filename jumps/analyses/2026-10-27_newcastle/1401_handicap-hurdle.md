@@ -79,3 +79,9 @@ Remaining ~0.33 is spread across the rest: Ms Cindy Kate ~0.08, Paragon ~0.06, B
 - Profiles: https://www.sportinglife.com/api/horse-racing/horse/1055740 (National Question); https://www.sportinglife.com/api/horse-racing/horse/1083819 (Cawthorne Cracker)
 - Result pages (claims / in-running): races 940725 (Cawthorne 2nd, Sedgefield), 938592 (Cawthorne win, Kelso), 908393 (National Question win, Carlisle), 942193 (Thesoldiersminit, Worcester), 943759 (Nobotheratall, Uttoxeter), 944370 (Bouboule, Hexham) — all via https://www.sportinglife.com/api/horse-racing/race/<id>
 - PJA conditional championship (claim context): https://www.thepja.co.uk/championships/conditional-jockeys-championship
+
+---
+
+## Update 12:49 — gap pass cut short
+
+The session hit its rate limit (reset 12:40 UTC), terminating the gap-filling pass for this race. Picks above are the first-pass analysis, recorded before the off. Items under "Unverified / data gaps" were not re-checked at source, and ATR Smart Stats / Geegeez course and pace data stayed bot-blocked all day. Non-runners and going were last checked in the morning — treat as provisional and re-check nearer the off.

@@ -358,6 +358,102 @@
               reason: "Only runner besides Captain Ted with hurdle experience; 4yo weight-for-age pull plus a 7lb claim (Noreci) and first-time hood to help her settle; race-fit to punish raggedness from the two debutants.",
               against: "Hurdle form is two well-beaten 5ths and she didn't get home over 17f." }
           ]
+        },
+        {
+          time: "13:26", name: "Mini Golf At High Gosforth Park Novices' Handicap Chase", type: "chase", distance: "3m",
+          going: "Good (Good to Soft in places)", runners: 5, source: "full", status: "pending", grade: "pending", errors: [],
+          notes: "3m novices' handicap chase on a stiff track. Non-runners: Wannabe, Wearelongterm, Jet Light. Charlie Maggs (Thereyare) still claims (rode Luminaries in a conditionals' race LTO) — if it applies, Thereyare carries a few lb less than the listed 11-9. GAP PASS CUT SHORT by the session rate limit.",
+          winner: null,
+          writeup: "jumps/analyses/2026-10-27_newcastle/1326_novices-handicap-chase.md", updated: "12:48 Tue 27 Oct",
+          picks: [
+            { rank: 1, horse: "Royal Time", prob: 0.36, finish: "-", confidence: "medium",
+              reason: "Only runner with current chase-winning form and a sound jumping record (10/11 chase completions, the 'U' a hamper); won LTO 9 days ago unpenalised; prominent style suits.",
+              against: "Best at 2m4f-2m7f, one-paced at 3m+; up in trip on a stiff track, amateur rider, top weight." },
+            { rank: 2, horse: "Luminaries", prob: 0.30, finish: "-", confidence: "medium",
+              reason: "Red-hot (won last 2 in blinkers over hurdles), well treated over fences (chase OR 82 vs 89-96 in 2025), proven 3m stayer on good, Newcastle course form.",
+              against: "0-from-4 over fences with 2 PU; his one 3m chase start was a PU, 'not fluent' x3 — a recorded chase-jumping doubt; the surge is over hurdles, not fences." },
+            { rank: 3, horse: "Thereyare", prob: 0.17, finish: "-", confidence: "low", danger: true,
+              reason: "Won LTO (2m7f hurdle), point background, strong staying pedigree (Jet Away), progressive 5yo from a good yard; Maggs's claim may net him below 11-9.",
+              against: "Chase debutant (jumping cap) and 220 days off; unproven at 3m and over fences." }
+          ]
+        },
+        {
+          time: "14:01", name: "High Gosforth Park Golf Club Handicap Hurdle", type: "hurdle", distance: "2m190y",
+          going: "Good (Good to Soft in places)", runners: 10, source: "full", status: "pending", grade: "pending", errors: [],
+          notes: "10-runner Class-5 handicap hurdle; top pick held to 0.26 (field size + completion risk). Non-runner: Alidam. Joshua Thompson's 5lb claim already in National Question's effective weight; Charlie Maggs's claim on Cawthorne Cracker unresolved (assumed none, conservative). GAP PASS CUT SHORT by the session rate limit.",
+          winner: null,
+          writeup: "jumps/analyses/2026-10-27_newcastle/1401_handicap-hurdle.md", updated: "12:48 Tue 27 Oct",
+          picks: [
+            { rank: 1, horse: "National Question", prob: 0.26, finish: "-", confidence: "medium",
+              reason: "Won this exact race in 2025 and 2nd in 2024; completes every start (34/34); returns fresh (136 days), the same pattern as last year's fresh win; 5lb claim nets him to ~OR 81.",
+              against: "Rated 13lb higher than last year's win mark (73) and below par on both spring runs; the Carlisle frank is asserted." },
+            { rank: 2, horse: "Cawthorne Cracker", prob: 0.22, finish: "-", confidence: "medium",
+              reason: "In-form and consistent (2nd-1st-2nd last three) over 2m-2m4f on good; placed here (3rd 2024, 5th 2025) at this C&D; last six all completed.",
+              against: "Exposed veteran near his ceiling (won off 79 in Sept, now 84); older record carries 2 falls/2 PUs; Maggs claim unresolved." },
+            { rank: 3, horse: "Thesoldiersminit", prob: 0.11, finish: "-", confidence: "low",
+              reason: "Progressive 5yo, improved to 4th of 10 off 88 at Worcester three weeks ago; Powell booked; jumps left, less penalised at left-handed Newcastle.",
+              against: "Winless over hurdles (0/7) with a recurring left-jumping flaw and fades late — a recorded jumping doubt caps him." },
+            { rank: 4, horse: "Nobotheratall", prob: 0.08, finish: "-", confidence: "low", danger: true,
+              reason: "Best on official figures (was 2nd in a Class 3 off 110) and 10lb lower now.",
+              against: "Out of form (4-7-9-8 since), top weight 12-0, a confirmed front-runner who weakens — the stiff uphill finish is where a fading leader gets swallowed." }
+          ]
+        },
+        {
+          time: "14:31", name: "Sunday Lunch At The Border Minstrel Novices' Limited Handicap Chase (GBB Race)", type: "chase", distance: "3m",
+          going: "Good (Good to Soft in places)", runners: 4, source: "full", status: "pending", grade: "pending", errors: [],
+          notes: "4-runner 3m novices' limited handicap chase; 3 of 4 are chase debutants, so shared jumping/completion risk caps the top pick under 50%. Non-runner: Dunkerque. No jockey claims apply. GAP PASS CUT SHORT by the session rate limit.",
+          winner: null,
+          writeup: "jumps/analyses/2026-10-27_newcastle/1431_novices-limited-handicap-chase.md", updated: "12:48 Tue 27 Oct",
+          picks: [
+            { rank: 1, horse: "Kent De Thaix", prob: 0.37, finish: "-", confidence: "medium",
+              reason: "Proven 3m stamina (won 3m Wetherby beating American Mike (OR135) off 16lb; 6th/15 off 123 at 3m Ayr); point-to-point fence background de-risks the chase debut; wind op + first-time tongue strap.",
+              against: "Fences unproven in public (point background asserted), top weight, 193-day layoff; if Silver Hill jumps he may be the better horse." },
+            { rank: 2, horse: "Silver Hill", prob: 0.33, finish: "-", confidence: "medium",
+              reason: "Most progressive/classy on hurdle form; hot Snowden yard + Sheehan; Newcastle course form (2nd of 12).",
+              against: "Two unproven questions at once — never jumped a fence and never beyond 2m4f (3m asserted) — plus 223 days off and a hold-up style on a stiff galloping track." },
+            { rank: 3, horse: "Sleedagh", prob: 0.17, finish: "-", confidence: "low", danger: true,
+              reason: "The only completed chaser in the field, proven ~3m stamina, dropping to OR 114, fit (33 days); place chance if the debutants jump raggedly.",
+              against: "Winless in 8, one-paced, tailed off on chase debut." }
+          ]
+        },
+        {
+          time: "15:01", name: "Dogs Welcome At The Border Minstrel Pub Handicap Hurdle", type: "hurdle", distance: "2m190y",
+          going: "Good (Good to Soft in places)", runners: 6, source: "full", status: "pending", grade: "pending", errors: [],
+          notes: "6-runner Class-4 handicap hurdle. No jockey claims apply; three mares but no mares' allowance in a handicap. A front-running duel (Max Of Stars, Jentobello) up a stiff uphill 2m favours the staying closers. GAP PASS CUT SHORT by the session rate limit.",
+          winner: null,
+          writeup: "jumps/analyses/2026-10-27_newcastle/1501_handicap-hurdle.md", updated: "12:48 Tue 27 Oct",
+          picks: [
+            { rank: 1, horse: "North Of Richmond", prob: 0.27, finish: "-", confidence: "medium",
+              reason: "Class-3 novice form above a Class 4 off 114 (1lb below last mark); beat Codetalker on hurdle debut; wins fresh (won after a ~10.5-month break before), answering the 242-day layoff; Woods booked.",
+              against: "12-0 top weight up a stiff hill after 8 months; his only handicap start was a PU; part of the 'well-in' rests on an unverified Codetalker mark." },
+            { rank: 2, horse: "Jentobello", prob: 0.25, finish: "-", confidence: "medium",
+              reason: "Most reliable in the race — placed 5 of 6, completed all 6, 2nd in a 10-runner C4 off this mark, won LTO; champion jockey Hughes; the trip drop to a stiff 2m may help him finish.",
+              against: "No run at 2m in his last six — a sharp trip drop, early speed unproven; his recent win was a weak 3-runner race." },
+            { rank: 3, horse: "Roarin' Success", prob: 0.21, finish: "-", confidence: "medium",
+              reason: "In-form, honest, the race's safest completer (6/6); proven at trip, stays and closes to suit a strong-pace stiff 2m; 11lb from top weight; McCain/McMenamin in good order.",
+              against: "Running to her mark not ahead of it, and no Class-4 win — a strong place candidate more than a proven winner." },
+            { rank: 4, horse: "Hunters Spring", prob: 0.13, finish: "-", confidence: "low", danger: true,
+              reason: "Only runner with Newcastle 2m190y form in its last six; bottom weight getting weight from all; better-than-looks last run (3rd of 10, btn 1/2, off 99).",
+              against: "Modest (no win in last six), a jumping unseat in the last six, unproven as a winner at this level." }
+          ]
+        },
+        {
+          time: "15:31", name: "attheraces.com/marketmovers Handicap Chase (GBB Race)", type: "chase", distance: "2m4f19y",
+          going: "Good (Good to Soft in places)", runners: 6, source: "full", status: "pending", grade: "pending", errors: [],
+          notes: "6-runner Class-4 handicap chase. Non-runners: My Friend Sean, Humble Jumble. Only Aill Dubh carries a claim (Joshua Thompson 5lb, netting him to ~9-11) and he is ~7lb 'out of the handicap'. GAP PASS CUT SHORT by the session rate limit.",
+          winner: null,
+          writeup: "jumps/analyses/2026-10-27_newcastle/1531_handicap-chase.md", updated: "12:48 Tue 27 Oct",
+          picks: [
+            { rank: 1, horse: "Empty Nest", prob: 0.34, finish: "-", confidence: "medium",
+              reason: "Best course-and-distance form (Newcastle 2m4f19y: 1-2-2-3); no fall/unseat in a 23-run career; now 2-4lb below his C&D winning/placing marks; stable no.1 jockey takes him over the stablemate.",
+              against: "199 days off and one prior below-par seasonal return — may need the run." },
+            { rank: 2, horse: "Aill Dubh", prob: 0.21, finish: "-", confidence: "medium", danger: true,
+              reason: "In form (2 wins in 2026, 6 straight completions since March), course winner, good ground ideal, stiff stamina track suits; 5lb claim nets him to the lightest weight.",
+              against: "Actually ~7lb out of the handicap (races above his winning marks); trip drop to his sharpest since a winter slump; may duel for the lead." },
+            { rank: 3, horse: "Rule Me In", prob: 0.17, finish: "-", confidence: "low",
+              reason: "Mark collapsed 107 to 86; 2nd LTO in cheekpieces (39 days); hot travelling yard.",
+              against: "0-8 over fences with chronic jumping errors (a bad mistake nearly every start); must quicken late over fences on a stiff track — exactly his error scenario." }
+          ]
         }
       ]
     }

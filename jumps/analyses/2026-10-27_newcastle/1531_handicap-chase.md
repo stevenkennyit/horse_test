@@ -93,3 +93,9 @@ Remaining ~0.28 across the field: Uptown Harry ~0.12 (place type, trip/age/weigh
 - Racecard (race 945557, full field + embedded form/in-running): https://www.sportinglife.com/racing/racecards/2026-10-27/newcastle/racecard/945557/attheracescom-marketmovers-handicap-chase-gbb-race
 - Horse profiles (full career + casualty + in-running): sportinglife.com/racing/profiles/horse/ — Empty Nest 1120962, Aill Dubh 1063718, Rule Me In 1173553, Uptown Harry 919550, Loulou Madrik 1208540, Balking 1135520
 - Franking results (Sporting Life race API): Newton Abbot 18-Sep-26 race 938982 (Rule Me In LTO, winner Mr Mcwhinny 1144436); Newcastle 15-Jan-26 race 898325 (Empty Nest C&D 2nd)
+
+---
+
+## Update 12:49 — gap pass cut short
+
+The session hit its rate limit (reset 12:40 UTC), terminating the gap-filling pass for this race. Picks above are the first-pass analysis, recorded before the off. Items under "Unverified / data gaps" were not re-checked at source, and ATR Smart Stats / Geegeez course and pace data stayed bot-blocked all day. Non-runners and going were last checked in the morning — treat as provisional and re-check nearer the off.

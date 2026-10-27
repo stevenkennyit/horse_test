@@ -61,3 +61,9 @@ Remainder: Joie More ~0.09, The Kings Soldier ~0.08 (≈0.17 of the field). Fiel
 - Racecard JSON (Sporting Life, __NEXT_DATA__): https://www.sportinglife.com/racing/racecards/2026-10-27/newcastle/racecard/945553/mini-golf-at-high-gosforth-park-novices-handicap-chase
 - Profiles (full career): /racing/profiles/horse/1123102 (Royal Time), /1204639 (Thereyare), /1076807 (Luminaries), /1124627 (Joie More), /1193333 (The Kings Soldier) on sportinglife.com
 - Royal Time LTO result: https://www.sportinglife.com/racing/results/2026-10-18/sedgefield/944007
+
+---
+
+## Update 12:49 — gap pass cut short
+
+The session hit its rate limit (reset 12:40 UTC), terminating the gap-filling pass for this race. Picks above are the first-pass analysis, recorded before the off. Items under "Unverified / data gaps" were not re-checked at source, and ATR Smart Stats / Geegeez course and pace data stayed bot-blocked all day. Non-runners and going were last checked in the morning — treat as provisional and re-check nearer the off.
