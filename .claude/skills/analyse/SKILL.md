@@ -1,6 +1,6 @@
 ---
 name: analyse
-description: Analyse a UK or Irish horse race, or a whole card, using the right playbook (jumps or flat); save the write-up and log the ranked picks before the off. Use when the user asks to analyse, preview or pick a race or meeting, e.g. "/analyse Galway 14:50" or "/analyse Kempton".
+description: Analyse a UK or Irish horse race, or a whole card, using the right playbook (jumps or flat); save the write-up and log the Win/Each-Way/Danger selections before the off. Use when the user asks to analyse, preview or pick a race or meeting, e.g. "/analyse Galway 14:50" or "/analyse Kempton".
 argument-hint: <course> [HH:MM] [YYYY-MM-DD]
 ---
 
@@ -36,6 +36,6 @@ You are the **coordinator**: gather the meeting's shared facts, hand each race t
    - Every race in the results file must have its write-up on disk; commit both together and push straight away after each race (see `CLAUDE.md`), so finished races survive while others are still running.
    - If the race is already recorded (a re-run or "recheck"), the race-analyst appends a `## Update HH:MM` section and you update the data entry — only before the off.
 
-8. **Reply** with a compact table per race: 2–3 ranked picks, each with win chance, fair price, confidence and the key reason. Then a danger or outsider worth noting, and anything unverified. No bets, stakes or prices.
+8. **Reply** with a compact table per race: the Win, the Each-Way (if any) and the Danger (if any), each with win chance, place chance, fair price, confidence and the key reason. Then an outsider worth noting and anything unverified. No bets, stakes or prices.
 
 9. **Close** by offering a non-runner and going re-check closer to the off. For a recheck, message the same race-analyst (it keeps that race's context) with the new non-runners and going, and record its `## Update HH:MM`.

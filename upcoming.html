@@ -187,14 +187,21 @@
     return out.sort((a, b) => a.off - b.off);
   }
 
+  // selection roles (current format); fall back to legacy rank/danger for older meetings
+  const roleOf = (p) => p.role || (p.danger ? "danger" : p.rank === 1 ? "win" : p.rank === 2 ? "ew" : (p.rank ? "other" : null));
+  const ROLE = { win: { badge: "W", label: "Win" }, ew: { badge: "E", label: "Each-Way" }, danger: { badge: "!", label: "Danger" } };
+  const ROLE_ORDER = { win: 0, ew: 1, danger: 2, other: 3 };
+
   function pickHtml(p) {
-    const label = p.danger ? "Danger" : `Pick ${p.rank}`;
+    const role = roleOf(p);
+    const m = ROLE[role] || { badge: p.rank ? esc(p.rank) : "–", label: role === "other" ? `Pick ${esc(p.rank)}` : "Selection" };
     return `<div class="pick">
-      <div class="rank">${p.danger ? "<b>!</b>" : `<b>${esc(p.rank)}</b>`}${label}</div>
+      <div class="rank"><b>${m.badge}</b>${m.label}</div>
       <div>
         <div class="pick-top">
           <span class="horse">${esc(p.horse)}</span>
-          <span class="stat">Chance <b>${pct(p.prob)}</b></span>
+          <span class="stat">Win <b>${pct(p.prob)}</b></span>
+          ${p.placeProb != null ? `<span class="stat">Place <b>${pct(p.placeProb)}</b></span>` : ""}
           <span class="stat">Fair price <b>${fairPrice(p.prob)}</b></span>
           ${p.confidence ? `<span class="stat">Confidence <b>${esc(cap(p.confidence))}</b></span>` : ""}
         </div>
@@ -221,7 +228,7 @@
         ? `<span class="chip"><span class="dot" style="background:${r.off - now < 3600000 ? "var(--warning)" : "var(--good)"}"></span>Off in ${left}</span>`
         : `<span class="chip"><span class="dot" style="background:var(--axis)"></span>Off · awaiting review</span>`;
       const meta = [cap(r.type), r.distance, r.going, r.runners ? r.runners + " runners" : "", r.source === "verified" ? "your picks, checked" : "", r.updated ? "picks checked " + r.updated : ""].filter(Boolean);
-      const picks = [...r.picks].sort((a, b) => (a.danger ? 1 : 0) - (b.danger ? 1 : 0) || a.rank - b.rank);
+      const picks = [...r.picks].sort((a, b) => (ROLE_ORDER[roleOf(a)] ?? 3) - (ROLE_ORDER[roleOf(b)] ?? 3) || (a.rank || 9) - (b.rank || 9));
       const shown = picks.reduce((a, p) => a + (p.prob || 0), 0);
       html += `<article class="race${left ? "" : " off"}">
         <div class="race-head">

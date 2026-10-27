@@ -4,11 +4,16 @@
 // The agent ranks picks only; it does not recommend bets or check prices. The user decides how to bet.
 //
 // Field notes
-//   picks[].prob      agent's stated win probability (0-1) at analysis time (fair price = 1/prob, shown by the dashboard)
+//   picks[].role      "win" | "ew" (each-way) | "danger" - the selection's job (current format, since 27 Oct 2026).
+//                     Win = most likely winner (scored as a win bet); EW = best each-way proposition on our own
+//                     numbers (scored as an each-way bet); Danger = chief threat, not staked (coverage only).
+//   picks[].prob      agent's stated WIN probability (0-1) at analysis time (fair price = 1/prob, shown by the dashboard)
+//   picks[].placeProb agent's stated chance (0-1) the horse finishes within the each-way places for the field size
 //   picks[].finish    official finishing position, or "F", "PU", "UR", "BD", "R"; "-" while pending
 //   picks[].sp        starting price (fractional, e.g. "5/2", "Evens"), added at review from the result page
 //   picks[].confidence, .reason, .against   "low"|"medium"|"high"; one-line case for and against (shown on upcoming.html)
-//   picks[].danger    true for a horse named as the danger rather than a ranked pick
+//   picks[].rank      LEGACY ordering (1,2,3) used by meetings before 27 Oct 2026; .danger true marked the danger.
+//                     The dashboard maps legacy rows: rank 1 -> Win, rank 2 -> Each-Way, danger -> Danger.
 //   writeup, updated  race write-up path; when the picks were last checked (e.g. "17:50 Sun 25 Oct")
 //   winner.agentProb  probability the agent stated for the eventual winner; null if the winner was not rated
 //   grade             "held" | "mixed" | "failed" | "pending" - judged on the reasoning, not the result

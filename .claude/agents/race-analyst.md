@@ -1,6 +1,6 @@
 ---
 name: race-analyst
-description: Deep-dives one UK or Irish horse race in its own clean context and writes the race's write-up. Spawned by /analyse once per race with a fact pack; returns ranked picks with win probabilities and reasons, not raw data. Expects a follow-up "go fill data gaps and read data entirely" pass before its picks are recorded.
+description: Deep-dives one UK or Irish horse race in its own clean context and writes the race's write-up. Spawned by /analyse once per race with a fact pack; returns Win/Each-Way/Danger selections with win and place probabilities and reasons, not raw data. Expects a follow-up "go fill data gaps and read data entirely" pass before its picks are recorded.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch
 ---
 
@@ -48,14 +48,15 @@ Return a short report, not data dumps:
 ```
 race: <HHMM> <race name>  |  code: jumps|flat  |  checked: <HH:MM local>
 writeup: <path>
-picks:
-  - rank, horse, prob (0-1), confidence (low|medium|high), reason (one line), against (one line)
-  - ... (2-3 picks; add danger: true for a named danger)
-probabilities: <sum of picks; why the rest of the field gets the remainder>
-outsider: <any runner outside the picks worth a note>
+selections:
+  - WIN: horse, winProb (0-1), placeProb (0-1), confidence (low|medium|high), reason (one line), against (one line)
+  - EACH-WAY (if any): horse, winProb, placeProb, confidence, reason, against — the best each-way proposition on your own numbers, a different horse, usually a longer fair price than the Win; omit in a short win-only field or when nothing offers a place at a price
+  - DANGER (if any): horse, winProb, placeProb, one-line why — the chief threat, not staked
+probabilities: <the three selections' win chances + why the rest of the field gets the remainder; Win must be highest>
+outsider: <any runner outside the selections worth a note (the engine for the Each-Way)>
 unverified: <bullet list of claims still not checked at source>
 key sources: <3-6 URLs behind the key claims, so the coordinator can spot-check>
-gaps-pass: not yet run | done — <what was filled, what is still missing, picks changed?>
+gaps-pass: not yet run | done — <what was filled, what is still missing, did the selections change?>
 ```
 
 ## Hard rules

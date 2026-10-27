@@ -16,5 +16,9 @@
   {
     date: "2026-10-26", scope: "both", title: "Favourite-reliability calibration",
     detail: "Top-pick win probability is calibrated to field size and handicap status, not to class or race code. Clear standouts can hold 40%+ in small fields and non-handicaps; big-field handicaps (12+, especially 16+) cap the top pick near 25-30% with more probability spread across the field. Added to the ranking step of both playbooks."
+  },
+  {
+    date: "2026-10-27", scope: "both", title: "Win / Each-Way / Danger selection format",
+    detail: "Output changed from 2-3 ranked picks + a danger to three named roles: a Win (most likely winner, scored as a win bet), an optional Each-Way (best each-way proposition on our own numbers, scored as an each-way bet), and an optional Danger (chief threat, not staked, coverage only). Every selection now also carries a place probability. Scoring and the dashboard are split by role so win skill and place/value skill are measured separately; legacy meetings map rank 1 -> Win, rank 2 -> Each-Way, danger -> Danger."
   }
 ]);

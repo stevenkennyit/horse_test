@@ -236,34 +236,43 @@ For each selection, actively look for what's wrong with it:
 
 List everything you couldn't verify.
 
-## Step 15: Rank the picks
+## Step 15: Issue the selections — Win, Each-Way, Danger
 
-The agent's job ends at the ranking. It does not recommend bets, stakes or bet types, and does not check prices; the user decides how to bet.
+The agent's job ends at the selections. It does not recommend bets, stakes or bet types, and does not check prices; the user decides how to bet. Issue up to **three named selections, each a different horse**:
 
-- **Two or three ranked picks.** Name a danger as well if one stands out.
-- **Give each pick a win probability** (0–1) built from the evidence, and the fair price it implies (fair decimal odds = 1 ÷ probability; e.g. 40% → 6/4). The probabilities across the field should be realistic: the picks' chances plus the rest of the field must add up to about 100%.
-- **Give each pick a confidence** (low / medium / high) and the key reason it is ranked where it is.
-- **Unraced horses in bumpers need evidence, not a price tag.** An unraced horse may not be top pick, or be rated above about 30%, over raced rivals unless it has a weight-adjusted edge on them, claims included. Purchase price, pedigree and jockey booking are not evidence on their own. If every contender is unraced, mark confidence low. *(Added after Galway 25 Oct 2026: unraced Moscovite (40%) finished last in the 16:30 bumper; raced fillies getting 7lb filled 1st, 3rd, 4th and 5th.)*
-- **Note likely non-runners** (ground-dependent withdrawals are common over jumps) and how each would change the ranking.
+- **WIN (required):** the single most-likely winner.
+- **EACH-WAY (optional):** a different horse to run into a place — the best each-way proposition *on the agent's own numbers*, normally at a longer fair price than the Win. Choose it to maximise each-way expectation (a genuine place chance at a price), **not** as "second-most-likely winner." Omit it when no runner is a worthwhile each-way proposition — a short win-only field (under 5 runners), or nothing with a place chance at a price.
+- **DANGER (optional):** the chief threat to the two above — the one most likely to beat them if they don't deliver. Not a staked selection; it measures whether the shortlist caught the result. Omit it if nothing stands out.
 
-### How picks are scored
+For every selection give:
+- **Win probability** (0–1) and the fair price it implies (fair decimal odds = 1 ÷ win probability; e.g. 40% → 6/4).
+- **Place probability** (0–1): the chance it finishes within today's each-way places (2 for 5–7 runners, 3 for 8+, 4 for handicaps of 16+; win-only under 5). Over jumps, fold completion/jumping risk into it — a sketchy jumper's place chance is lower than its bare form implies.
+- **Confidence** (low / medium / high), the one-line reason, and the one-line case against (for the Win and Each-Way).
 
-After the race, each of the top two picks earns points from its starting price (SP). The agent never sees the SP before the off; this is how its ranking is judged.
+The win probabilities across the field must be realistic: the three selections' win chances plus the rest of the field add up to about 100%. The **Win must hold the highest win probability**; the Each-Way usually has a lower win chance but a place chance strong enough to make it the better each-way call.
 
-| Pick's result | Points | Examples |
-|---|---|---|
-| Wins | the odds | 10/11 → +0.9; 5/1 → +5; 16/1 → +16 |
-| Places (each-way places for the field size) | a fifth of the odds (a quarter in 5–7 runner races and handicaps of 12+) | 4/7 placed → +0.1; 10/1 placed → +2 |
-| Anything else | −1 | — |
+- **Prices and the market are still not inputs.** "Each-way value" here means the agent's own place expectation at a longer fair price, **not** a comparison with bookmakers' odds (never seen before the off). The after-the-race SP reveals whether the Each-Way was genuinely underrated.
+- **Unraced horses in bumpers need evidence, not a price tag.** An unraced horse may not be the Win, or be rated above about 30% win chance, over raced rivals unless it has a weight-adjusted edge on them, claims included. Purchase price, pedigree and jockey booking are not evidence on their own. If every contender is unraced, mark confidence low. *(Added after Galway 25 Oct 2026: unraced Moscovite (40%) finished last in the 16:30 bumper; raced fillies getting 7lb filled 1st, 3rd, 4th and 5th.)*
+- **Note likely non-runners** (ground-dependent withdrawals are common over jumps) and how each would change the selections.
 
-So a pick the whole market already fancies earns little even when right, and a correctly rated outsider earns a lot. A loser costs 1 point at any price, so promoting an outsider without evidence loses points: the score rewards finding horses that others underrate, not guessing.
+### How the selections are scored
 
-- **Outsider check (required).** Before ranking, write one line for every runner outside the provisional top four with the best evidence-based case for it: a form line hidden by a bad run, a weight or mark drop, a change of trip, ground, course or headgear, a pace setup that suits, a stable pattern. Promote any horse whose case beats a pick. Record the check in the write-up.
-- **Don't rank on the obvious signals alone.** Top official rating, best recent form figures and the biggest stable or jockey are what the market prices hardest. A pick resting only on them can win and still score little; each pick's reason must name evidence beyond them.
-- **Calibrate the top pick's win chance to field size and race type, not to class.** How concentrated the field's win probabilities can realistically be depends on race structure and completion risk, not on how good the horses are:
-  - *Small fields and non-handicaps concentrate it.* In 4–7 runner races, and in novice, Graded or maiden events, a clear standout can hold the most chance — but jumping risk still caps it: a faller or a surprise is always in play, so even a strong top pick rarely deserves more than about 45–50%.
-  - *Big, competitive handicaps dilute it.* Weight bunches the field and the chance of a non-completion among the leaders rises, so in 12+ runner handicap chases and hurdles (especially 16+) a realistic top-pick ceiling is about 25%, with more probability spread across the field. This is the structural reason the outsider check matters most in these races.
-  - *Class is not a reliable lever over jumps.* The weak class/favourite-reliability link that holds on the Flat is thin and even reverses in the jumps samples checked, so do not downgrade a top pick just because the race is low grade. Field size, handicap status and completion risk do the real work. *(Added 26 Oct 2026 from aggregated favourite-strike-rate studies — field size swings favourite win rates by ~15 points; the jumps class data is thin and mixed; figures are secondary, not BHA primary.)*
+After the race the Win and Each-Way earn points from the starting price (SP); the agent never sees the SP before the off. The Danger is not staked — it is scored only as coverage (was the winner one of the three?).
+
+| Selection | Scored as (per 1pt staked) |
+|---|---|
+| **Win** | a win bet: wins → +SP odds (10/11 → +0.9; 5/1 → +5; 16/1 → +16); anything else → −1. A Win that only places still loses. |
+| **Each-Way** | an each-way bet (half win / half place): **wins** → half the win odds **plus** the place return; **placed (not win)** → the place return, less the lost win half; **unplaced** → −1. Place fraction: a quarter of the odds in 5–7 runner races and handicaps of 12+, otherwise a fifth; win-only under 5 runners (the Each-Way then scores like a Win). |
+| **Danger** | not staked; counts only toward the "winner in our three" coverage rate. |
+
+So a short-priced Win that obliges earns little, and a correctly-chosen big-priced Each-Way placer earns a lot — the score rewards finding winners and placers the market underrates. The **win skill is measured on the Win, the place/value skill on the Each-Way**; keeping them separate is the point of the two roles.
+
+- **Outsider check (required).** Before choosing, write one line for every runner outside the provisional Win/Each-Way/Danger with the best evidence-based case for it: a form line hidden by a bad run, a weight or mark drop, a change of trip, ground, course or headgear, a pace setup that suits, a stable pattern. Promote any horse whose case beats a selection. This is the main engine for finding the Each-Way; record the check in the write-up.
+- **Don't choose on the obvious signals alone.** Top official rating, best recent form figures and the biggest stable or jockey are what the market prices hardest. A selection resting only on them can win and still score little; each reason must name evidence beyond them.
+- **Calibrate the Win's win chance to field size and race type, not to class.** How concentrated the field's win probabilities can realistically be depends on race structure and completion risk, not on how good the horses are:
+  - *Small fields and non-handicaps concentrate it.* In 4–7 runner races, and in novice, Graded or maiden events, a clear standout can hold the most chance — but jumping risk still caps it: a faller or a surprise is always in play, so even a strong Win rarely deserves more than about 45–50%.
+  - *Big, competitive handicaps dilute it.* Weight bunches the field and the chance of a non-completion among the leaders rises, so in 12+ runner handicap chases and hurdles (especially 16+) a realistic Win ceiling is about 25%, with more probability spread across the field. This is the structural reason the outsider check — and the Each-Way — matter most in these races.
+  - *Class is not a reliable lever over jumps.* The weak class/favourite-reliability link that holds on the Flat is thin and even reverses in the jumps samples checked, so do not downgrade the Win just because the race is low grade. Field size, handicap status and completion risk do the real work. *(Added 26 Oct 2026 from aggregated favourite-strike-rate studies — field size swings favourite win rates by ~15 points; the jumps class data is thin and mixed; figures are secondary, not BHA primary.)*
 
 ## Step 16: Record the analysis
 
@@ -277,9 +286,9 @@ Required contents, in this order:
 - **Header:** date, course, off time, race name, code and type (hurdle / chase / NH flat), distance, going (with source and time checked), field size, non-runners.
 - **Analysis source:** `full` (the agent's own analysis) or `verified` (user-supplied picks checked by the agent).
 - **Summary grid** (Step 13) for every runner.
-- **Outsider check** (Step 15): one line for every runner outside the provisional top four.
-- **Picks:** two or three ranked picks (and a danger if one stands out), each with the agent's win probability, fair price and confidence (low / medium / high).
-- **Rationale and the strongest case against** each pick, with key claims tagged verified / asserted / not found.
+- **Outsider check** (Step 15): one line for every runner outside the provisional selections.
+- **Selections:** the Win, the Each-Way (if any) and the Danger (if any), each a different horse, with win probability, place probability, fair price and confidence (low / medium / high).
+- **Rationale and the strongest case against** the Win and Each-Way, with key claims tagged verified / asserted / not found.
 - **Unverified items** — everything that could not be checked.
 - **Sources:** the URLs relied on.
 
@@ -291,7 +300,7 @@ If the analysis changes before the off (going, non-runners), **append** a dated 
 |---|---|
 | Meeting | `date`, `course`, `country`, `code: "jumps"`, `playbook: "jumps/AGENTS-jumps.md"`, `going`, `dataErrors: []` |
 | Race | `time`, `name`, `type`, `distance`, `going`, `runners`, `source`, `status: "pending"`, `grade: "pending"`, `errors: []`, `notes`, `winner: null`, `writeup` (path to the write-up, e.g. `"jumps/analyses/2026-10-26_kempton/1610_7f-class-4-novice-stakes.md"`), `updated` (when the picks were last checked, e.g. `"17:50 Sun 25 Oct"`) |
-| Each pick | `rank`, `horse`, `prob` (0–1), `finish: "-"`, `confidence` (`"low"` / `"medium"` / `"high"`), `reason` (one line: why it is ranked here), `against` (one line: the strongest case against); add `danger: true` for a horse named as the danger rather than a ranked pick |
+| Each selection | `role` (`"win"` / `"ew"` / `"danger"`), `horse`, `prob` (win probability 0–1), `placeProb` (0–1), `finish: "-"`, `confidence` (`"low"` / `"medium"` / `"high"`), `reason` (one line), `against` (one line; Win and Each-Way only). List the Win first, then the Each-Way, then the Danger. *(Legacy entries use `rank` 1/2/3 + `danger: true` and no `placeProb`; the dashboard still reads those — map rank 1 → Win, rank 2 → Each-Way, danger → Danger.)* |
 
 `upcoming.html` shows every pending race from these fields, so keep `reason`, `against` and `updated` current with each `## Update HH:MM`.
 
@@ -315,8 +324,9 @@ Before any final selection, grid or rationale goes out, run these against the da
 8. Have I confirmed the horse stays the trip on today's ground, not just at the distance on different going?
 9. Is any pick ranked on a finishing time? (It should not be the deciding factor over jumps.)
 10. Have I counted (not estimated) every completion, fall and losing-run count I quote?
-11. Have I written the outsider check, and does each pick's reason rest on more than rating, form figures and stable?
-12. Is the write-up saved under `jumps/analyses/…` and the race added to `jumps/data/results.js` with `status: "pending"` (Step 16)?
+11. Have I written the outsider check, and does each selection's reason rest on more than rating, form figures and stable?
+12. Are the selections issued as Win / Each-Way / Danger (each a different horse, Win the highest win chance), each with a win probability AND a place probability, and is the Each-Way chosen on each-way expectation rather than as a second-favourite?
+13. Is the write-up saved under `jumps/analyses/…` and the race added to `jumps/data/results.js` with `role` on each selection and `status: "pending"` (Step 16)?
 
 ---
 

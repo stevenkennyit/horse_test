@@ -24,7 +24,7 @@ Read the chosen playbook **in full** before analysing, including its Post-race r
 
 ## Commands
 
-- `/analyse <course> [HH:MM] [date]` — analyse one race or a whole card, save the write-up and log the ranked picks before the off.
+- `/analyse <course> [HH:MM] [date]` — analyse one race or a whole card, save the write-up and log the Win/Each-Way/Danger selections before the off.
 - `/review <course> [date]` — pull results and starting prices, judge the reasoning, update the data and write-ups, propose new playbook rules.
 
 ## Standing rules
@@ -56,5 +56,5 @@ This folder is the GitHub repository `stevenkennyit/horse_test`. Cloud sessions 
 
 ## Answer style
 
-- Lead with the verdict: 2–3 ranked picks, each with win chance, fair price, confidence and the key reason.
+- Lead with the verdict: the Win, the Each-Way (if any) and the Danger (if any), each with win chance, place chance, fair price, confidence and the key reason.
 - Use compact tables; tag key claims verified / asserted / not found; list what couldn't be verified.

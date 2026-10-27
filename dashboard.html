@@ -154,7 +154,7 @@
   <div class="grid2">
     <section class="card">
       <h2>Pick score by race</h2>
-      <p class="desc">Top two picks: a winner earns its odds, a placer a fifth of them, anything else −1. Bigger-priced winners score more.</p>
+      <p class="desc">Win (as a win bet) + Each-Way (as an each-way bet) per race, at SP. A winner earns its odds; a Win that only places still loses. Bigger-priced results score more.</p>
       <div class="legend"><span><i style="background:var(--pos)"></i>Profit</span><span><i style="background:var(--neg)"></i>Loss</span></div>
       <div id="chart-pl"></div>
     </section>
@@ -197,7 +197,7 @@
 
   <section class="card" style="margin-top:12px">
     <h2>Race by race</h2>
-    <p class="desc">Top two picks with the agent's stated chance and where they finished.</p>
+    <p class="desc">The Win, Each-Way and Danger selections with the agent's stated win chance, place chance and where they finished.</p>
     <div class="table-wrap"><table id="races"></table></div>
     <details>
       <summary>Data errors caught</summary>
@@ -207,9 +207,9 @@
 
   <footer>
     Data: <code>jumps/data/results.js</code> and <code>flat/data/results.js</code>. Add each new meeting to the right file; the dashboard recalculates on reload. Playbook rule changes are logged in <code>data/changelog.js</code> and tracked under "Playbook changes".
-    "Placed" uses standard each-way places: 2 for 5–7 runners, 3 for 8+, 4 for handicaps of 16+, winner only under 5.
-    Pick score (top two picks, at SP): a winner earns its odds (5/1 → +5), a placer a fifth of them (a quarter in 5–7 runner races and handicaps of 12+), anything else −1.
-    Profit figures assume 1pt to win on each pick at its starting price (SP); fair price = 1 ÷ the agent's win chance.
+    Selections are Win, Each-Way and Danger. "Placed" uses standard each-way places: 2 for 5–7 runners, 3 for 8+, 4 for handicaps of 16+, winner only under 5.
+    Pick score (at SP): the Win is scored as a 1pt win bet (wins → +odds, else −1); the Each-Way as a 1pt each-way bet (half win, half place; place pays a quarter of the odds in 5–7 runner races and handicaps of 12+, otherwise a fifth). The Danger is not staked. Fair price = 1 ÷ the agent's win chance.
+    Legacy meetings (before 27 Oct 2026) had no explicit roles; the dashboard maps their rank 1 → Win, rank 2 → Each-Way, danger → Danger, so their scores are recalculated under the new model.
   </footer>
 </div>
 <div id="tip" role="tooltip"></div>
@@ -258,16 +258,35 @@
   // each-way places by field size (UK/IRE standard terms): <5 none, 5-7 two, 8+ three, 16+ handicap four
   const placesFor = (r) => r.runners < 5 ? 1 : r.runners < 8 ? 2 : (r.runners >= 16 && /handicap/i.test(r.name)) ? 4 : 3;
   const isPlaced = (r, p) => { const n = parseInt(p.finish, 10); return n >= 1 && n <= placesFor(r); };
-  // pick score: winner earns its odds, placer a fraction of them, anything else -1 (rewards correctly rated outsiders)
   const placeFrac = (r) => r.runners < 5 ? 0 : (r.runners < 8 || (r.runners >= 12 && /handicap/i.test(r.name))) ? 1 / 4 : 1 / 5;
-  const pickScore = (r, p) => {
+  // selection roles (current format); fall back to legacy rank/danger for older meetings
+  const roleOf = (p) => p.role || (p.danger ? "danger" : p.rank === 1 ? "win" : p.rank === 2 ? "ew" : null);
+  const byRole = (r, role) => r.picks.find((p) => roleOf(p) === role);
+  const winPick = (r) => byRole(r, "win");
+  const ewPick = (r) => byRole(r, "ew");
+  const dangerPick = (r) => byRole(r, "danger");
+  // Win selection scored as a win bet: wins -> odds, anything else -1
+  const winScore = (r, p) => {
     if (!p || !p.sp || p.finish === "-") return null;
-    const odds = toDec(p.sp) - 1;
-    return String(p.finish) === "1" ? odds : isPlaced(r, p) ? odds * placeFrac(r) : -1;
+    const dec = toDec(p.sp); if (dec == null) return null;
+    return String(p.finish) === "1" ? dec - 1 : -1;
   };
+  // Each-Way scored as an each-way bet (1pt total: half win, half place); win-only fields score it like a win
+  const ewScore = (r, p) => {
+    if (!p || !p.sp || p.finish === "-") return null;
+    const dec = toDec(p.sp); if (dec == null) return null;
+    const odds = dec - 1, pf = placeFrac(r);
+    if (pf === 0) return String(p.finish) === "1" ? odds : -1;
+    const winRet = String(p.finish) === "1" ? 0.5 * (1 + odds) : 0;
+    const placeRet = isPlaced(r, p) ? 0.5 * (1 + odds * pf) : 0;
+    return winRet + placeRet - 1;
+  };
+  // per-selection score by its role (null for danger / unstaked)
+  const scoreOf = (r, p) => { const role = roleOf(p); return role === "win" ? winScore(r, p) : role === "ew" ? ewScore(r, p) : null; };
+  // race score = Win + Each-Way
   const raceScore = (r) => {
-    const s = r.picks.slice(0, 2).map((p) => pickScore(r, p)).filter((x) => x != null);
-    return s.length ? s.reduce((a, x) => a + x, 0) : null;
+    const parts = [winScore(r, winPick(r)), ewScore(r, ewPick(r))].filter((x) => x != null);
+    return parts.length ? parts.reduce((a, x) => a + x, 0) : null;
   };
 
   // ---- filters ----
@@ -323,32 +342,32 @@
   function renderTiles(races, meetings) {
     const settled = races.filter((r) => r.status === "settled");
     const n = settled.length;
-    const topWon = settled.filter((r) => r.picks[0] && String(r.picks[0].finish) === "1").length;
-    const secondWon = settled.filter((r) => r.picks[1] && String(r.picks[1].finish) === "1").length;
-    const secondPlaced = settled.filter((r) => r.picks[1] && isPlaced(r, r.picks[1])).length;
-    const topPlaced = settled.filter((r) => r.picks[0] && isPlaced(r, r.picks[0])).length;
-    const lvl = (rank) => {
-      const pls = settled.map((r) => levelPL(r.picks[rank])).filter((x) => x != null);
-      return { pl: pls.reduce((a, x) => a + x, 0), n: pls.length };
-    };
-    const l1 = lvl(0), l2 = lvl(1);
-    const sc = (rank) => settled.reduce((a, r) => a + (pickScore(r, r.picks[rank]) || 0), 0);
-    const s1 = sc(0), s2 = sc(1), stot = s1 + s2;
+    const winWon = settled.filter((r) => { const p = winPick(r); return p && String(p.finish) === "1"; }).length;
+    const winPlaced = settled.filter((r) => { const p = winPick(r); return p && isPlaced(r, p); }).length;
+    const ewRaces = settled.filter((r) => ewPick(r));
+    const ewPlaced = ewRaces.filter((r) => isPlaced(r, ewPick(r))).length;
+    // coverage: the winner was one of our Win / Each-Way / Danger
+    const recall = settled.filter((r) => r.picks.some((p) => roleOf(p) && String(p.finish) === "1")).length;
+    const sumWin = settled.reduce((a, r) => a + (winScore(r, winPick(r)) || 0), 0);
+    const sumEw = settled.reduce((a, r) => a + (ewScore(r, ewPick(r)) || 0), 0);
+    const nWin = settled.filter((r) => winScore(r, winPick(r)) != null).length;
+    const nEw = settled.filter((r) => ewScore(r, ewPick(r)) != null).length;
+    const stot = sumWin + sumEw;
     const fmt = (x) => (x > 0 ? "+" : "") + x.toFixed(1);
-    const plTile = (label, l) => ({ label, value: `<span class="${l.pl >= 0 ? "pos-text" : "neg-text"}">${pts(l.pl)}</span>`,
-      detail: `${l.n ? pct(l.pl / l.n) : "–"} return on ${l.n}pt` });
+    const col = (x) => x >= 0 ? "pos-text" : "neg-text";
+    const roi = (pl, cnt) => cnt ? (pl / cnt >= 0 ? "+" : "") + Math.round(pl / cnt * 100) + "%" : "–";
     const pending = races.filter((r) => r.status === "pending").length;
 
     const tiles = [
       { label: "Races", value: n, detail: pending ? `${pending} still to run` : "all results in" },
-      { label: "Top pick won", value: n ? pct(topWon / n) : "–", detail: `${topWon} of ${n} races` },
-      { label: "Top pick placed", value: n ? pct(topPlaced / n) : "–", detail: `${topPlaced} of ${n} races` },
-      { label: "Second pick won", value: n ? pct(secondWon / n) : "–", detail: `${secondWon} of ${n} races` },
-      { label: "Second pick placed", value: n ? pct(secondPlaced / n) : "–", detail: `${secondPlaced} of ${n} races` },
-      { label: "Pick score", value: `<span class="${stot >= 0 ? "pos-text" : "neg-text"}">${fmt(stot)}</span>`,
-        detail: `top pick ${fmt(s1)} · second ${fmt(s2)}` },
-      plTile("Profit: top pick", l1),
-      plTile("Profit: second pick", l2)
+      { label: "Win pick won", value: n ? pct(winWon / n) : "–", detail: `${winWon} of ${n} races` },
+      { label: "Win pick placed", value: n ? pct(winPlaced / n) : "–", detail: `${winPlaced} of ${n} races` },
+      { label: "Each-Way placed", value: ewRaces.length ? pct(ewPlaced / ewRaces.length) : "–", detail: `${ewPlaced} of ${ewRaces.length} issued` },
+      { label: "Winner in our three", value: n ? pct(recall / n) : "–", detail: `${recall} of ${n} races` },
+      { label: "Pick score", value: `<span class="${col(stot)}">${fmt(stot)}</span>`,
+        detail: `win ${fmt(sumWin)} · e/w ${fmt(sumEw)}` },
+      { label: "ROI: Win", value: `<span class="${col(sumWin)}">${roi(sumWin, nWin)}</span>`, detail: `${pts(sumWin)} on ${nWin}pt` },
+      { label: "ROI: Each-Way", value: `<span class="${col(sumEw)}">${roi(sumEw, nEw)}</span>`, detail: `${pts(sumEw)} on ${nEw}pt` }
     ];
     $("tiles").innerHTML = tiles.map((t) => `<div class="tile"><div class="label">${t.label}</div><div class="value">${t.value}</div><div class="detail">${t.detail}</div></div>`).join("");
   }
@@ -379,7 +398,8 @@
       const ly = d.pl >= 0 ? y(d.pl) - 5 : y(d.pl) + 13;
       s += `<text class="lbl" x="${cx}" y="${ly}" text-anchor="middle">${d.pl > 0 ? "+" : ""}${d.pl.toFixed(2)}</text>`;
       s += `<text class="tick" x="${cx}" y="${H - 10}" text-anchor="middle">${esc(d.key)}</text>`;
-      const tipHtml = `<b>${esc(d.r.time)} ${esc(d.r.meeting.course)}</b>Score ${d.pl > 0 ? "+" : ""}${d.pl.toFixed(2)}<br>${d.r.picks.slice(0, 2).map((p) => { const ps = pickScore(d.r, p); return `${esc(p.horse)}: ${esc(p.finish)} at ${esc(p.sp || "SP n/a")} → ${ps == null ? "–" : (ps > 0 ? "+" : "") + ps.toFixed(2)}`; }).join("<br>")}`;
+      const sel = [["Win", winPick(d.r)], ["E/W", ewPick(d.r)]].filter((x) => x[1]);
+      const tipHtml = `<b>${esc(d.r.time)} ${esc(d.r.meeting.course)}</b>Score ${d.pl > 0 ? "+" : ""}${d.pl.toFixed(2)}<br>${sel.map(([lab, p]) => { const ps = scoreOf(d.r, p); return `${lab} ${esc(p.horse)}: ${esc(p.finish)} at ${esc(p.sp || "SP n/a")} → ${ps == null ? "–" : (ps > 0 ? "+" : "") + ps.toFixed(2)}`; }).join("<br>")}`;
       s += `<rect class="hit" x="${m.l + band * i}" y="${m.t}" width="${band}" height="${ih}" data-tip="${esc(tipHtml)}"/>`;
     });
     s += "</svg>";
@@ -516,10 +536,10 @@
     });
     s += "</svg>";
     const exp = picks.reduce((a, d) => a + d.p.prob, 0), act = picks.filter((d) => d.won).length;
-    const top = picks.filter((d) => d.p.rank === 1);
+    const top = picks.filter((d) => roleOf(d.p) === "win");
     const texp = top.reduce((a, d) => a + d.p.prob, 0), tact = top.filter((d) => d.won).length;
-    s += `<p class="note">All ${picks.length} ranked picks: ${exp.toFixed(1)} winners expected from the stated chances, ${act} actual. ` +
-      `Top picks: ${texp.toFixed(1)} expected, ${tact} actual. Small samples swing widely; read this once there are 50+ races.</p>`;
+    s += `<p class="note">All ${picks.length} selections: ${exp.toFixed(1)} winners expected from the stated chances, ${act} actual. ` +
+      `Win selections: ${texp.toFixed(1)} expected, ${tact} actual. Small samples swing widely; read this once there are 50+ races.</p>`;
     el.innerHTML = s; bindTips(el);
   }
 
@@ -576,19 +596,25 @@
     const cls = f === "1" ? "pos-text" : (/^(F|PU|UR)$/.test(f) ? "neg-text" : "");
     return `<span class="${cls}">${esc(f)}</span>`;
   }
+  function selCell(r, p) {
+    if (!p) return `<td><span class="muted">–</span></td><td class="num">–</td><td class="num">–</td>`;
+    const sub = `fair ${fairPrice(p.prob)}${p.placeProb != null ? " · pl " + pct(p.placeProb) : ""}${p.sp ? " · SP " + esc(p.sp) : ""}`;
+    return `<td>${esc(p.horse)}<div class="muted">${sub}</div></td><td class="num">${pct(p.prob)}</td><td class="num">${p.finish ? finishCell(p) : "–"}</td>`;
+  }
   function renderTables(races, meetings) {
     const multi = new Set(races.map((r) => r.meeting)).size > 1;
-    let h = `<thead><tr>${multi ? "<th>Date</th>" : ""}<th>Time</th><th>Race</th><th>1st pick</th><th class="num">Chance</th><th class="num">Fin</th><th>2nd pick</th><th class="num">Chance</th><th class="num">Fin</th><th>Winner (SP)</th><th class="num">Score</th><th>Grade</th><th>Errors</th><th>Notes</th></tr></thead><tbody>`;
+    let h = `<thead><tr>${multi ? "<th>Date</th>" : ""}<th>Time</th><th>Race</th><th>Win</th><th class="num">Win%</th><th class="num">Fin</th><th>Each-Way</th><th class="num">Win%</th><th class="num">Fin</th><th>Danger</th><th class="num">Fin</th><th>Winner (SP)</th><th class="num">Score</th><th>Grade</th><th>Errors</th><th>Notes</th></tr></thead><tbody>`;
     races.forEach((r) => {
-      const a = r.picks[0] || {}, b = r.picks[1] || {};
+      const d = dangerPick(r);
       h += `<tr>${multi ? `<td>${esc(r.meeting.date)}</td>` : ""}<td class="num">${esc(r.time)}</td>
         <td>${esc(r.name)}<div class="muted">${esc(r.type)} · ${esc(r.distance)} · ${esc(r.runners)} ran · ${r.source === "verified" ? "user picks, verified" : "full analysis"}${r.provisional ? " · provisional" : ""}</div></td>
-        <td>${esc(a.horse || "–")}<div class="muted">fair ${fairPrice(a.prob)}${a.sp ? " · SP " + esc(a.sp) : ""}</div></td><td class="num">${pct(a.prob)}</td><td class="num">${a.finish ? finishCell(a) : "–"}</td>
-        <td>${esc(b.horse || "–")}<div class="muted">fair ${fairPrice(b.prob)}${b.sp ? " · SP " + esc(b.sp) : ""}</div></td><td class="num">${pct(b.prob)}</td><td class="num">${b.finish ? finishCell(b) : "–"}</td>
+        ${selCell(r, winPick(r))}
+        ${selCell(r, ewPick(r))}
+        <td>${d ? esc(d.horse) : '<span class="muted">–</span>'}</td><td class="num">${d && d.finish ? finishCell(d) : "–"}</td>
         <td>${r.winner ? esc(r.winner.horse) + ` <span class="muted">(${esc(r.winner.sp)})</span>` : '<span class="muted">pending</span>'}</td>
         <td class="num">${(() => { const sc = raceScore(r); return sc == null ? '<span class="muted">–</span>' : `<span class="${sc >= 0 ? "pos-text" : "neg-text"}">${sc > 0 ? "+" : ""}${sc.toFixed(2)}</span>`; })()}</td>
         <td>${chip(r.grade)}</td>
-        <td>${(r.errors || []).map((e) => `<span class="tag" title="${esc((DATA.errorTypes || {})[e] || "")}">${esc(e)}</span>`).join("") || '<span class="muted">–</span>'}</td>
+        <td>${(r.errors || []).map((e2) => `<span class="tag" title="${esc((DATA.errorTypes || {})[e2] || "")}">${esc(e2)}</span>`).join("") || '<span class="muted">–</span>'}</td>
         <td class="note">${esc(r.notes)}</td></tr>`;
     });
     $("races").innerHTML = h + "</tbody>";
