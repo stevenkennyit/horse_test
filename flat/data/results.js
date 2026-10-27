@@ -439,7 +439,7 @@
               reason: "A 10lb claim takes her effective mark to 59 against 69-74 when 2nd and 3rd over 1m in the summer; Dundalk AW form includes a 7f win and two 1m 3rds.",
               against: "Beaten by 0.5 to 6.5 lengths in her last six, and the trend is down (9th last time)." },
             { role: "danger", horse: "Bella Colombia", prob: 0.17, placeProb: 0.45, finish: "-", sp: null, confidence: "low",
-              reason: "Dundalk 1m record of 1 win, 1 second and 1 third from 4 runs; her August win is franked (3rd and 4th both won next time), and she is 5lb better off than for it.",
+              reason: "Dundalk 1m record of 1 win, 1 second and 1 third from 4 runs; her August win is franked (3rd and 4th both won next time), and her effective mark of 65 is only 3lb above that win mark of 62.",
               against: "Stall 12, and three lower finishes since her peak." }
           ],
           winner: null, grade: "pending", errors: [],
