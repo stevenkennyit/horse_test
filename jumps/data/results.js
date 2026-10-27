@@ -419,22 +419,22 @@
         {
           time: "15:01", name: "Dogs Welcome At The Border Minstrel Pub Handicap Hurdle", type: "hurdle", distance: "2m190y",
           going: "Good (Good to Soft in places)", runners: 6, source: "full", status: "pending", grade: "pending", errors: [],
-          notes: "6-runner Class-4 handicap hurdle. No jockey claims apply; three mares but no mares' allowance in a handicap. A front-running duel (Max Of Stars, Jentobello) up a stiff uphill 2m favours the staying closers. GAP PASS CUT SHORT by the session rate limit.",
+          notes: "6-runner Class-4 handicap hurdle. No jockey claims apply; three mares but no mares' allowance in a handicap. Going + non-runners reconfirmed 12:54 (unchanged). Gap-fill done and picks REVISED before the off: Jentobello promoted to top (trip-drop doubt resolved — two 2m bumper wins + a ~2m hurdle debut), North Of Richmond to 2 (Codetalker frank verified). ATR/Geegeez course+pace stayed bot-blocked.",
           winner: null,
-          writeup: "jumps/analyses/2026-10-27_newcastle/1501_handicap-hurdle.md", updated: "12:48 Tue 27 Oct",
+          writeup: "jumps/analyses/2026-10-27_newcastle/1501_handicap-hurdle.md", updated: "12:57 Tue 27 Oct",
           picks: [
-            { rank: 1, horse: "North Of Richmond", prob: 0.27, finish: "-", confidence: "medium",
-              reason: "Class-3 novice form above a Class 4 off 114 (1lb below last mark); beat Codetalker on hurdle debut; wins fresh (won after a ~10.5-month break before), answering the 242-day layoff; Woods booked.",
-              against: "12-0 top weight up a stiff hill after 8 months; his only handicap start was a PU; part of the 'well-in' rests on an unverified Codetalker mark." },
-            { rank: 2, horse: "Jentobello", prob: 0.25, finish: "-", confidence: "medium",
-              reason: "Most reliable in the race — placed 5 of 6, completed all 6, 2nd in a 10-runner C4 off this mark, won LTO; champion jockey Hughes; the trip drop to a stiff 2m may help him finish.",
-              against: "No run at 2m in his last six — a sharp trip drop, early speed unproven; his recent win was a weak 3-runner race." },
-            { rank: 3, horse: "Roarin' Success", prob: 0.21, finish: "-", confidence: "medium",
-              reason: "In-form, honest, the race's safest completer (6/6); proven at trip, stays and closes to suit a strong-pace stiff 2m; 11lb from top weight; McCain/McMenamin in good order.",
-              against: "Running to her mark not ahead of it, and no Class-4 win — a strong place candidate more than a proven winner." },
-            { rank: 4, horse: "Hunters Spring", prob: 0.13, finish: "-", confidence: "low", danger: true,
-              reason: "Only runner with Newcastle 2m190y form in its last six; bottom weight getting weight from all; better-than-looks last run (3rd of 10, btn 1/2, off 99).",
-              against: "Modest (no win in last six), a jumping unseat in the last six, unproven as a winner at this level." }
+            { rank: 1, horse: "Jentobello", prob: 0.32, finish: "-", confidence: "medium",
+              reason: "Most reliable in the race — placed 8 of 9 career, completed all 9, won last time — and now proven around the trip (two 2m bumper wins + a ~2m hurdle debut resolve the trip-drop doubt); B S Hughes.",
+              against: "His last win was only a 3-runner race; giving weight all round." },
+            { rank: 2, horse: "North Of Richmond", prob: 0.23, finish: "-", confidence: "medium",
+              reason: "Well-in on a now-verified Codetalker line (he beat Codetalker on debut; Codetalker has since won a 15-runner C4 off OR120, rated ~124); wins fresh (won hurdle debut after ~10.5 months off), answering the 242-day layoff.",
+              against: "242 days off, 12-0 top weight up a stiff hill, and 0 completed handicap starts — his only handicap run was a PU." },
+            { rank: 3, horse: "Roarin' Success", prob: 0.20, finish: "-", confidence: "medium",
+              reason: "In-form and the race's reliable completer (every start completed); proven at the C&D (2nd over Newcastle 2m190y) and suited by a strong pace as a staying closer.",
+              against: "Exposed placer running to a 103 mark, no Class-4 win." },
+            { rank: 4, horse: "Hunters Spring", prob: 0.14, finish: "-", confidence: "low", danger: true,
+              reason: "Strongest Newcastle course record — a 2m190y bumper winner there plus a placed bumper and a hurdle 4th — and bottom weight getting weight from all.",
+              against: "Winless over hurdles (0/6) and modest overall." }
           ]
         },
         {

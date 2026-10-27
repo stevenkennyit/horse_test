@@ -77,6 +77,35 @@ Remaining field: Max Of Stars ~0.10, Pyramid Place ~0.04. Picks sum 0.73; the re
 - Today's race API (declarations, claims, going): https://www.sportinglife.com/api/horse-racing/race/945556
 - Past-run detail (positions, beaten distances, winners, franking) via `https://www.sportinglife.com/api/horse-racing/race/<id>` — e.g. 886733 (Fakenham, NoR beat Codetalker), 904900 (Doncaster, NoR PU), 920952 (Uttoxeter, Jentobello 2nd), 944015/941601 (Jentobello Kelso win & Uttoxeter), Roarin' Success & Hunters Spring recent runs.
 
+## Update 12:55 (gap-filling pass)
+
+Re-checked going and declarations at **12:54 GMT**: going unchanged — **Good (Good to Soft in places)**; all **6 declared, no non-runners**. Full-career Sporting Life profiles (`/racing/profiles/horse/<ID>`) now read in full for all six runners and for Codetalker. This materially changes two earlier conclusions and **revises the picks** (done before the off). ATR Smart Stats and Geegeez remained unavailable (JS/403), so course character and pace stats stay asserted, built from in-running comments.
+
+### Gaps filled / claims re-checked at source
+- **Codetalker "now ~124" — now substantively verified (upgrades North Of Richmond).** Codetalker (profile id 1201687) has run 8 times (all hurdles, 3 wins) and is clearly progressive: after NoR beat him ¾L on their shared hurdle debut (Fakenham, Oct 25), Codetalker won a maiden off 103, then a Class 4 handicap off 111, then **won a 15-runner Class 4 handicap at Chepstow off OR120 on 9 Oct 2026** [verified: race-by-race profile]. The exact 124 figure is still the card's (post-Chepstow revision, not independently confirmed), but the substance — NoR beat a horse who has since climbed from a maiden mark to OR120+ winning — is **verified**. That is a genuine "well-in" line for NoR off 114.
+- **Jentobello's trip-drop doubt is largely RESOLVED (upgrades him).** His full 9-run career shows he is proven around today's trip, not dropping into the unknown: **two bumper wins at 2m** (Kelso 2m51y, Market Rasen 2m125y) and his **hurdle debut at 1m7f168y (≈2m), 3rd of 8 at 4/5f** [verified]. He has completed all 9 career starts, placed in 8 and won 3. Today's 2m190y is within his proven range. This removes my main reservation about him.
+- **Correction — the "only runner with Newcastle C&D form" superlative was WRONG.** On full careers, **Hunters Spring has the strongest Newcastle 2m190y record**: a **bumper win there** (15 Nov 2024, 2m190y), a bumper 2nd there (15 Mar 2025, 2m190y) and a hurdle 4th there (11 Dec 2025, 2m190y) [verified]. **Roarin' Success also has Newcastle 2m190y form** — 2nd of 12 in a hurdle there (15 Jan 2026, GS, btn 10L, 66/1) [verified]. North Of Richmond, Jentobello, Max Of Stars (NCS only on the Flat) and Pyramid Place have no Newcastle hurdle form.
+- **Exposure corrected.** North Of Richmond (6 career runs) and Jentobello (9) are genuinely lightly raced; but **Max Of Stars has 41 career runs** (28 hurdles, 7 wins; useful in his prime — placed in Class 1/2, OR up to 119), **Roarin' Success 31** (dual-code; 9 hurdle runs, 2 wins, every start completed), **Pyramid Place 48** (a former OR136 Class 2 hurdler whose mark has fallen 136→106 over 18 months while form collapsed — 6th/PU/tailed-off lately) [all verified].
+- **Hunters Spring is winless over hurdles (0/6)** [verified] despite strong Newcastle course affinity — a real cap on her win claim; she placed (3rd/4th) in five of six, bottom weight.
+
+### Revised picks (supersede those above)
+
+| Rank | Horse | Win prob | Fair price | Confidence | One-line |
+|---|---|---|---|---|---|
+| 1 | **Jentobello** | 0.32 | ~2/1 | medium | Most reliable (8/9 placed, 9/9 completed, won last), and now proven at the trip (2m bumper wins); B S Hughes |
+| 2 | **North Of Richmond** | 0.23 | ~7/2 | medium | Well-in on a now-verified Codetalker line, wins fresh; but 242 days off, 12-0 top weight, 0 completed handicap starts (PU last time) |
+| 3 | **Roarin' Success** | 0.20 | ~4/1 | medium | In-form, reliable completer, proven at the C&D (NCS 2nd) and suited by a strong pace; exposed placer off 103 |
+| Danger | **Hunters Spring** | 0.14 | ~6/1 | — | Strongest Newcastle course record (2m190y bumper winner) and bottom weight; but 0/6 over hurdles |
+
+Remaining field: Max Of Stars ~0.08 (capable 41-run veteran but front-runs-and-weakens, wrong profile for a stiff uphill 2m, no win in ~12 months); Pyramid Place ~0.03 (declining 9yo, mark falling but keeps failing to complete). Top-3 sum 0.75; field remainder 0.25.
+
+**Net change vs original:** Jentobello promoted to top (trip doubt resolved); North Of Richmond drops from 1 to 2 (well-in case strengthened by the verified frank, but his handicap-completion risk is unchanged); Roarin' Success and Hunters Spring essentially unchanged. Pace read and ground conclusions unchanged.
+
+### Still gaps
+- **Exact current OR for Codetalker (124)** — the card figure, not independently confirmed; the progression behind it is verified.
+- **ATR Smart Stats / Geegeez** — course fall/pace figures and trainer-jockey course strike rates could not be loaded (JS/403); course character and pace are asserted from in-running comments, not course data.
+- **GoingStick/rail** — not published; going wording re-checked 12:54 GMT.
+
 ---
 
 ## Update 12:49 — gap pass cut short

@@ -78,3 +78,35 @@ The **only runner with a completed chase start** and proven 3m-ish stamina, drop
 ## Update 12:49 — gap pass cut short
 
 The session hit its rate limit (reset 12:40 UTC), terminating the gap-filling pass for this race. Picks above are the first-pass analysis, recorded before the off. Items under "Unverified / data gaps" were not re-checked at source, and ATR Smart Stats / Geegeez course and pace data stayed bot-blocked all day. Non-runners and going were last checked in the morning — treat as provisional and re-check nearer the off.
+
+## Update 12:57 (gap-filling pass)
+
+Full careers, pedigrees and franking now read at source via Sporting Life profiles (`/racing/profiles/horse/<id>`) and result pages. Race id 945555 verified on every fetch. **Re-check 12:56 GMT: going unchanged (Good, Good to Soft in places); still 4 runners (Dunkerque the only non-runner); no new withdrawals.**
+
+**Key correction — Kent De Thaix "point background" is NOT verified (now: not found).** His entire Sporting Life career record is **7 runs, all over hurdles** (0 chase, 0 NH-flat, 0 point); his first run was a GB hurdle at Ayr (Nov 2025). France Galop confirms he is French-bred (Cokoriko x Victoire de Thaix) and was exported to Ireland, but **no point-to-point or French race run could be found at source.** The SL card's "point background suggests he'll take to fences" could not be corroborated. **Consequence:** Kent's chase debut is as unproven in public as Silver Hill's and Rocheval's — the point angle no longer de-risks him. His jumping case now rests only on his sound hurdle record (6 completions from 7; his one pull-up was when outclassed in a Class 1, "not fluent 4th") and his French jumping pedigree (pedigree-asserted, weaker than a point run).
+
+**What the full data confirmed / added:**
+- **Kent De Thaix** — trainer **switched from R Menzies to S England**; both his best runs (the 3m Wetherby win and the Ayr 6th) came **after** the switch, for S England. Today is his first run since a **wind operation** + first-time tongue strap. Beaten distances now confirm his **Ayr run was 6th of 15 beaten under a length off top weight (OR123) on soft — a strong 3m handicap effort.** His Wetherby 3m win is **well franked**: runner-up American Mike (conceding weight, OR135) went on to **win a Class 3 chase and reach OR140**; the Ayr winner Alentejo is a useful OR118+ handicapper. Proven, franked 3m form — verified.
+- **Silver Hill** — full career confirms a **bumper winner** (Market Rasen, cls5) + Sandown bumper 4th, then 2 hurdle wins / 2 seconds; **stamina pedigree (Shirocco, damsire Presenting)** supports the step to 3m (pedigree-asserted, still not proven on track). His Newcastle 2nd is **franked**: winner Sanilam went on to **win a Class 2 and reach OR127**, substantiating Silver Hill's "progressive / ahead of his mark" profile. Still never jumped a fence, never beyond 2m4f, 223 days off.
+- **Sleedagh** — winless in 8 confirmed; his "placings" are often well beaten (Doncaster 3rd of 4 **btn 27l**; Ayr 2nd **btn 12l**), and his chase debut was **last of 5 btn 15l**. Exposed, one-paced, but a completer.
+- **Rocheval** — won his first 3 (bumper + 2 hurdles) then **0-9** with **3 career non-completions**: 2 recent pull-ups plus a **fall when leading and travelling well** (Kelso, Mar 2025). Jumping reliability is a genuine concern switching to fences. Outsider.
+- **Trainer first-time-chaser strike rates** could not be pinned to a number (ATR/Geegeez blocked; RP blocked). Qualitatively: **Snowden** is in strong form (~28–30% SR, "a lot going novice chasing") and **Russell & Scudamore** are a top jumps yard that routinely switches hurdlers to fences successfully; **S England** is a small yard with no debut-chaser data found. **No sub-25% debut record could be confirmed for any of them**, so no Step-14 trainer trigger is established (beyond the chase-debut status itself).
+- **Jockey claims** re-confirmed: none to deduct (England and Wadge out of claim per press; Sheehan and Fox established). Weights stand as listed.
+
+**Step-14 note:** three of the four (Kent, Silver Hill, Rocheval) are chase debutants; only Sleedagh has chased, and he is markedly inferior (winless in 8, tailed off last on his own chase debut), so he cannot reasonably be elevated above the debutants. I apply the rule by **capping the top pick's win chance** (0.35, well below the ~45–50% small-field ceiling) to reflect the shared, unresolved fence-jumping doubt, rather than by promoting an outclassed completer.
+
+**Revised view (picks order unchanged; probabilities narrowed).** Removing Kent's point de-risk and crediting Silver Hill's stronger-than-first-noted franking makes these two **effectively co-picks** — a Silver Hill win would not surprise. Kent is held marginally on top on **proven, franked form at today's 3m trip and a sound hurdle-jumping record**; Silver Hill is the progressive, better-connected, pedigree-for-3m alternative carrying two unproven questions at once.
+
+| Rank | Horse | Win prob (was) | Fair odds | Confidence |
+|---|---|---|---|---|
+| 1 | Kent De Thaix | **0.35** (0.37) | ~15/8 | medium |
+| 2 | Silver Hill | **0.34** (0.33) | ~2/1 | medium |
+| Danger | Sleedagh | **0.18** (0.17) | ~9/2 | — |
+| — | Rocheval | ~0.11 (~0.08) | — | — |
+
+**Remaining unverified after the gap pass:**
+- Kent De Thaix point-to-point/French fence background — searched at source and **not found**; treated as unproven.
+- Exact trainer first-time-chaser completion/strike rates — not found (stats sites blocked).
+- Jockey claim status from press reporting, not a live BHA licence record (card claim = None, consistent).
+- Course character / pace bias figures (stiff uphill finish) — asserted; ATR/Geegeez bot-blocked all day.
+- GoingStick / rail position — not published.
