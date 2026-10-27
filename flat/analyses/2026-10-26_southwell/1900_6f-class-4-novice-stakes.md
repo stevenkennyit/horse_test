@@ -258,3 +258,17 @@ Unraced (nothing to frank): Nando Tornado, Prosewriter, Valor's Call.
 
 - Newcomers' sale prices (Sporting Life card comment only; pedigrees now confirmed on Racing Post).
 - Prices: not fetched or used (the market is not an input).
+
+## Result
+
+Reviewed 27 Oct 2026. Going: Tapeta Standard. 10 ran. Weighed in. Source: Sporting Life result page (945385).
+
+| Rank | Horse | Finish | SP | Reasoning held? |
+|---|---|---|---|---|
+| 1 | Big Money | **2nd** | 8/11 F | Yes — ran to form, caught close home |
+| 2 | Darkwing | 5th | 10/1 | No — made progress, no threat to the front pair |
+| 3 | Valor's Call | 8th | 9/1 | Yes (rule E) — unraced, outpaced from 3f out |
+
+Winner **Prosewriter (10/3)**, agentProb 0.09, a St Mark's Basilica newcomer for Archie Watson.
+
+**Mixed.** Big Money, the best exposed form, ran his race and was only caught near the line by a well-regarded newcomer. Rule E (unraced horses ranked below raced rivals) kept Prosewriter at 9% — one newcomer winning a Class 4 novice is the expected tail of that rule, not a refutation; over a season E protects the score. Our own newcomer (Valor's Call) was outpaced and finished 8th.

@@ -320,3 +320,18 @@ For each run, the first three home (other than the runner) were looked up on the
 ### Still unverified
 
 - Prices: not fetched or used (the market is not an input).
+
+## Result
+
+Reviewed 27 Oct 2026. Going: Tapeta Standard. 10 ran. Weighed in. Source: Sporting Life result page (946102).
+
+| Rank | Horse | Finish | SP | Reasoning held? |
+|---|---|---|---|---|
+| 1 | Stash The Cash | 8th | 5/1 | No — chased, weakened inside the final furlong |
+| 2 | Fancy Dancer | **3rd** | 12/1 | Yes — made headway, stayed on into the frame |
+| 3 | Midnight Lir | **2nd** | 10/3 F | Yes — led, headed 1f out, battled on |
+| 4 (danger) | Tomarlo | 7th | 9/2 | No — short of room, beaten |
+
+Winner **Ten Cuidado (10/1)**, agentProb 0.04. 2nd Midnight Lir (our 3rd pick), 3rd Fancy Dancer (our 2nd pick).
+
+**Mixed.** Picks 2 and 3 filled the places behind an unrated winner. The front-running top pick (Stash The Cash) failed on his first run for a new yard after 181 days off, as the "against" allowed for. The pace read (leaders win 21.7% here) backed three prominent types, but the winner Ten Cuidado, rated just 4%, came from a prominent/midfield position.

@@ -289,3 +289,17 @@ For each run, the first three home (other than the runner) were looked up on the
 
 - Sterling Fortune's reassessed mark: Racing Post's card and profile show no new official rating after her 19 Oct win. Its future-rating figure (-6) is consistent with her base mark of 65 against the 71 she runs off with the penalty, i.e. no reassessment published yet. **Asserted**, not confirmed with the BHA.
 - Prices: not fetched or used (the market is not an input).
+
+## Result
+
+Reviewed 27 Oct 2026. Going: Tapeta Standard. 9 ran. Weighed in. Source: Sporting Life result page (945383).
+
+| Rank | Horse | Finish | SP | Reasoning held? |
+|---|---|---|---|---|
+| 1 | Sterling Fortune | 5th | 10/3 | No — short of room, plugged on |
+| 2 | Yimmna | **2nd** | 11/2 | Yes — led 2f out, headed, kept on |
+| 3 | Mo Anam Chara | **3rd** | 14/1 | Yes — every chance, no extra |
+
+Winner **Toastmaster (13/8 F)**, agentProb 0.12. The first three home were all in our top four by probability.
+
+**Held.** The first three home were Toastmaster (our 12%), Yimmna (2nd pick) and Mo Anam Chara (3rd pick). Only the top pick missed: Sterling Fortune (the 6lb-penalty front-runner, our joint-strongest call of the night) found trouble and faded to 5th on 7 days' rest, as the "up in class, one big run, not franked" doubt allowed for.

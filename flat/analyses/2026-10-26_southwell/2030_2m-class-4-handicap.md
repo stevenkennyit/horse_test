@@ -242,3 +242,17 @@ For each run, the first three home (other than the runner) were looked up on the
 
 - Benvoy's Lingfield run at 11-0 (an amateur or apprentice race, per the result page), read literally.
 - Prices: not fetched or used (the market is not an input).
+
+## Result
+
+Reviewed 27 Oct 2026. Going: Tapeta Standard. 6 ran. Weighed in. Source: Sporting Life result page (945388).
+
+| Rank | Horse | Finish | SP | Reasoning held? |
+|---|---|---|---|---|
+| 1 | Benvoy | 3rd (distant) | 2/1 F | No — held up, never landed a blow |
+| 2 | Tarbat Ness | **1st** | 6/1 | Yes — made all, regained lead, pulled clear |
+| 3 | Vaguely Royal | 4th | 7/2 | No — led early, one pace when headed |
+
+Winner **Tarbat Ness (6/1)**, agentProb 0.21 (our 2nd pick) — a +6 pick.
+
+**Held.** Our 2nd pick won at 6/1. The top-two order was the lesson: our own note said the Southwell 2m pace suited handy types over the held-up Benvoy (hold-up horses win 6.6% here), and that is exactly how it ran — Tarbat Ness made all and Benvoy, held up, could only plug on into a distant 3rd. We identified the pace bias against the top pick but still ranked him top on form/class (candidate rule G: let the pace read reorder the top two).

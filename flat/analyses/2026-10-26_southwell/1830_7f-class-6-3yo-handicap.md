@@ -343,3 +343,17 @@ For each run, the first three home (other than the runner) were looked up on the
 ### Still unverified
 
 - Prices: not fetched or used (the market is not an input).
+
+## Result
+
+Reviewed 27 Oct 2026. Going: Tapeta Standard. 11 ran (Neat And Tidy NR). Weighed in. Source: Sporting Life result page (945384).
+
+| Rank | Horse | Finish | Btn | SP | Reasoning held? |
+|---|---|---|---|---|---|
+| 1 | Sonbelievable | **2nd** | 2¼ | 2/1 F | Yes — progressed, denied a clear run |
+| 2 | Able Astra | **3rd** | 3¼ | 11/2 | Yes — kept on at one pace |
+| 3 | Leia Antilles | 6th | – | 6/1 | No — no impression over 1f out |
+
+Winner **Honey Dale (5/2)**, agentProb 0.03. The frame was Honey Dale, Sonbelievable, Able Astra.
+
+**Mixed — error F.** Both top picks placed, but the winner was a horse we rated 3% and the market rated 5/2 (2nd favourite). Our own summary recorded the live case: her mark dropped 10lb to a career-low 45, a switch to Charlie Clover (5/23, 22%, placed 43%) with Billy Loughnane (16%, placed 49%) booked, and a key Down Royal run franked twice (Meriden and Dervo Annie both winners since). We buried all of it under the bare profile — "0 wins, 0 places from 10, Irish-rated 40-50, last over hurdles" — and left her at 3%. A falling mark + yard switch + franked form is a handicap plot, not a no-hoper. Non-runner Neat And Tidy left the field at 11.

@@ -328,3 +328,17 @@ For each run, the first three home (other than the runner) were looked up on the
 ### Still unverified
 
 - Prices: not fetched or used (the market is not an input).
+
+## Result
+
+Reviewed 27 Oct 2026. Going: Tapeta Standard. 10 ran (Handle With Care NR). Weighed in. Source: Sporting Life result page (945386).
+
+| Rank | Horse | Finish | Btn | SP | Reasoning held? |
+|---|---|---|---|---|---|
+| 1 | Fantasy Obsessor | **3rd** | 2½ | 12/1 | Yes — every chance, kept on |
+| 2 | Lady Roxby | 6th | – | 4/1 | No — plugged on, never nearer |
+| 3 | Angel Love | **2nd** | 1¼ | 12/1 | Yes — led, headed late |
+
+Winner **Zooella (4/1)**, agentProb 0.03. 2nd Angel Love (our 3rd pick), 3rd Fantasy Obsessor (top pick).
+
+**Mixed — error F.** The winner was again a horse we rated 3% while the market made her 4/1 (joint-2nd favourite). Our outsider-check line gave her two July wins off 67, a franked +20 AW figure (her best), and Richard Beckett 18/71 (25%, placed 63%) at Southwell — a case that clearly beat our 3rd pick Angel Love (12%), yet we left her at 3% on "AW figures modest". The outsider check named the right horse and we did not act on it. Picks 1 and 3 placed behind her.

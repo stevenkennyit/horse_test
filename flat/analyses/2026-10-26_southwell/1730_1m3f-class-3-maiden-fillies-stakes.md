@@ -222,3 +222,17 @@ For each run, the first three home (other than the runner) were looked up on the
 ### Still unverified
 
 - Prices: not fetched or used (the market is not an input).
+
+## Result
+
+Reviewed 27 Oct 2026. Going: Tapeta Standard. 6 ran. Weighed in. Source: Sporting Life result page (945382).
+
+| Rank | Horse | Finish | Btn | SP | Reasoning held? |
+|---|---|---|---|---|---|
+| 1 | Peace Belle | 4th | 14 | 11/4 | No — the flagged trip drop told |
+| 2 | Yamnah | **1st** | – | 7/4 F | Yes — led over 1f out, drew clear |
+| 3 | Cracking Beauty | **2nd** | 4 | 9/4 | Yes — chased, led briefly, held |
+
+Winner **Yamnah (7/4)**, agentProb 0.34 (our 2nd pick).
+
+**Held.** Our 2nd and 3rd picks finished 1st and 2nd. The only error was the top-two order: Peace Belle was preferred on class/rating (96, ~14lb clear) despite a clear "against" — a drop to 1m3f where she had been beaten — and she led, was pushed along 3f out and beaten 14L into 4th. When a proven stayer drops in trip into a race it has already lost at that trip, class alone should not keep it top (see candidate rule).

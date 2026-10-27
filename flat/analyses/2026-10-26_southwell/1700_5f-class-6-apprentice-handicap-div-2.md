@@ -297,3 +297,17 @@ For each run, the first three home (other than the runner) were looked up on the
 ### Still unverified
 
 - Prices: not fetched or used (the market is not an input).
+
+## Result
+
+Reviewed 27 Oct 2026. Going: Tapeta Standard. 9 ran. Weighed in. Source: Sporting Life result page (945381).
+
+| Rank | Horse | Finish | SP | Reasoning held? |
+|---|---|---|---|---|
+| 1 | Pivotal Terms | **2nd** | 11/8 F | Part — stayed on but the drop to 5f was the margin |
+| 2 | Kipp Kelly | 6th | 20/1 | No — pulled hard, made no impression |
+| 3 | Beach Partee | 4th | 4/1 | Near — made headway, never nearer |
+
+Winner **Auradue (9/1)**, agentProb 0.05. 2nd Pivotal Terms (top pick), 3rd Bridget's Baby (7/1).
+
+**Mixed.** The top pick ran well to be 2nd — the trip-drop doubt we flagged cost the win rather than the place. The 2nd pick (Kipp Kelly, 216 days off) pulled too hard and faded. Winner Auradue, rated 5%, was our next tier down.

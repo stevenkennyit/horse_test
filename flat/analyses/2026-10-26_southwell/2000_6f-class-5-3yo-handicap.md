@@ -289,3 +289,17 @@ For each run, the first three home (other than the runner) were looked up on the
 ### Still unverified
 
 - Prices: not fetched or used (the market is not an input).
+
+## Result
+
+Reviewed 27 Oct 2026. Going: Tapeta Standard. 8 ran (Hallandale Beach NR). Weighed in. Source: Sporting Life result page (945387).
+
+| Rank | Horse | Finish | Btn | SP | Reasoning held? |
+|---|---|---|---|---|---|
+| 1 | Horace Wallace | 8th (last) | 7 | 15/8 F | Unclear — headed and hampered over 2f out |
+| 2 | Overbudget | **3rd** | 4¾ | 15/2 | Yes — led, held on for 3rd |
+| 3 | Cosmic Clarets | 7th | 2 | 25/1 | Unclear — badly hampered, stumbled |
+
+Winner **Tip Foster (11/1)**, agentProb 0.05. 2nd Riley Rocks (6/4 F, our 11%).
+
+**Mixed.** A scrimmage over 2f out compromised the read: the top pick Horace Wallace was headed and hampered and dropped to last, and the 3rd pick Cosmic Clarets was badly hampered and stumbled. The 2nd pick Overbudget led and held on for 3rd. Winner Tip Foster (5%) and 2nd Riley Rocks came through the trouble. Trouble in running limits what can be concluded about the top pick's merit.
