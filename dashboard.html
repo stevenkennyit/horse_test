@@ -182,6 +182,13 @@
     </section>
   </div>
 
+  <section class="card" style="margin-top:12px">
+    <h2>Score over time</h2>
+    <p class="desc">Running total of the pick score across settled races in date order — the performance trajectory. Respects the filters above; a point per race, hover for the race and the running total.</p>
+    <div class="legend"><span><i style="background:var(--series-1)"></i>Cumulative pick score</span></div>
+    <div id="chart-timeline"></div>
+  </section>
+
   <section class="card" style="margin-top:12px" id="changelog-card">
     <h2>Playbook changes</h2>
     <p class="desc">Dated rule changes, newest first, with settled-race performance before and after each — to spot whether a change moved results. Uses all meetings, ignoring the filters above. Read the before/after once each side has a handful of races; small samples swing widely.</p>
@@ -421,6 +428,52 @@
     el.innerHTML = s; bindTips(el);
   }
 
+  // ---- cumulative pick score over time (line) ----
+  function renderTimeline(races) {
+    const rows = races.filter((r) => r.status === "settled")
+      .map((r) => ({ r, s: raceScore(r) })).filter((d) => d.s != null)
+      .sort((a, b) => (a.r.meeting.date + a.r.time).localeCompare(b.r.meeting.date + b.r.time));
+    const el = $("chart-timeline");
+    if (!rows.length) { el.innerHTML = '<p class="muted">No settled races.</p>'; return; }
+    let run = 0;
+    const data = rows.map((d) => { run += d.s; return { ...d, cum: run }; });
+    const multi = new Set(rows.map((d) => d.r.meeting)).size > 1;
+    const W = Math.max(320, el.clientWidth || 960), H = 240, m = { t: 18, r: 14, b: 40, l: 44 };
+    const iw = W - m.l - m.r, ih = H - m.t - m.b;
+    const lo = Math.min(0, ...data.map((d) => d.cum)), hi = Math.max(0, ...data.map((d) => d.cum));
+    const pad = (hi - lo) * 0.12 || 1;
+    const ylo = lo - (lo < 0 ? pad : 0), yhi = hi + pad;
+    const y = (v) => m.t + ih - ((v - ylo) / (yhi - ylo)) * ih;
+    const x = data.length === 1 ? () => m.l + iw / 2 : (i) => m.l + (iw * i) / (data.length - 1);
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Cumulative pick score over time">`;
+    const steps = 4;
+    for (let k = 0; k <= steps; k++) {
+      const v = ylo + ((yhi - ylo) * k) / steps;
+      const zero = Math.abs(v) < 1e-9;
+      s += `<line x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}" stroke="${zero ? "var(--axis)" : "var(--grid)"}" stroke-width="1"/>`;
+      s += `<text class="tick" x="${m.l - 6}" y="${y(v) + 4}" text-anchor="end">${v > 0 ? "+" : ""}${v.toFixed(1)}</text>`;
+    }
+    if (ylo < 0 && yhi > 0) s += `<line x1="${m.l}" x2="${W - m.r}" y1="${y(0)}" y2="${y(0)}" stroke="var(--axis)" stroke-width="1"/>`;
+    const line = data.map((d, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(d.cum).toFixed(1)}`).join("");
+    s += `<path d="${line}" fill="none" stroke="var(--series-1)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+    const labelEvery = Math.ceil(data.length / 8);
+    data.forEach((d, i) => {
+      const cx = x(i), cy = y(d.cum);
+      s += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="3" fill="var(--series-1)"/>`;
+      if (i % labelEvery === 0 || i === data.length - 1) {
+        const lab = (multi ? d.r.meeting.date.slice(5) + " " : "") + d.r.time;
+        s += `<text class="tick" x="${cx.toFixed(1)}" y="${H - 10}" text-anchor="middle">${esc(lab)}</text>`;
+      }
+      const tipHtml = `<b>${esc(d.r.meeting.date)} ${esc(d.r.time)} ${esc(d.r.meeting.course)}</b>Race score ${d.s > 0 ? "+" : ""}${d.s.toFixed(2)} · running total ${d.cum > 0 ? "+" : ""}${d.cum.toFixed(2)}`;
+      const hw = iw / data.length;
+      s += `<rect class="hit" x="${(cx - hw / 2).toFixed(1)}" y="${m.t}" width="${hw.toFixed(1)}" height="${ih}" data-tip="${esc(tipHtml)}"/>`;
+    });
+    const last = data[data.length - 1];
+    s += `<text class="lbl" x="${x(data.length - 1).toFixed(1)}" y="${(y(last.cum) - 8).toFixed(1)}" text-anchor="end" style="fill:var(--text-primary);font-weight:650">${last.cum > 0 ? "+" : ""}${last.cum.toFixed(2)}pt</text>`;
+    s += "</svg>";
+    el.innerHTML = s; bindTips(el);
+  }
+
   // ---- calibration (stated chance vs actual win rate, by band) ----
   const BANDS = [[0, 0.1], [0.1, 0.2], [0.2, 0.3], [0.3, 0.4], [0.4, 0.5], [0.5, 1.01]];
   function renderCal(races) {
@@ -588,6 +641,7 @@
     const races = selectedRaces(), meetings = selectedMeetings();
     renderTiles(races, meetings);
     renderPL(races);
+    renderTimeline(races);
     renderProb(races);
     renderCal(races);
     renderGrades(races);
