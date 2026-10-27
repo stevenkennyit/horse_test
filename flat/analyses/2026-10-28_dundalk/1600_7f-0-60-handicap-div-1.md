@@ -1,0 +1,101 @@
+# Dundalk 16:00 Wed 28 Oct 2026 — Christmas Party Nights At Dundalk Stadium Handicap (Div I)
+
+- **Date / course / off:** Wed 28 Oct 2026, Dundalk (AW, left-handed), 16:00 Irish time
+- **Race type:** Handicap (3yo+, 0-60), 7f, Polytrack, €10,000
+- **Going / surface:** Standard (RP and Sporting Life going page, checked Tue 27 Oct evening, per coordinator; not re-opened by me)
+- **Field size:** 14 declared (reserve: Pick A Window, OR40). Non-runners: none known at 18:54 Tue 27 Oct. Each-way places used: 3 (handicap, 8-15 runners; 12+ runner handicap place fraction a quarter).
+- **Draws (RP card via coordinator, not verified at source):** Battleforsupremacy 1, Macadam's Rock 2, Jazzit 3, Hot To Foxtrot 4, Auguste Gusteau 5, Pallatine Hills 6, Pocket Jacks 7, Cash On Black 8, Ukiyo 9, Bear Trap 11, Emily's Boy 12, Ocean Echo 13, Fan Club 14, Liamo 15.
+- **Analysis source:** full (own analysis). Written 18:54 Tue 27 Oct; about 21 hours to the off.
+
+## Data situation (read first)
+- The Sporting Life racecard for this race was NOT yet published on Tue evening (the Dundalk 28 Oct meeting showed only the 14:00 race, id 946297). ATR (403), Racing Post (406) and Sky (404) would not load. So the card (weights, ORs, claims, draws, gear letters) is the coordinator's RP card, **asserted, not re-verified**.
+- Every runner's full profile was read from the Sporting Life profile JSON (all 14; reserve too) and the result page behind each of the last 5 runs per runner (win time, finishing order, beaten lengths, winner OR/weight). Beaten lengths were summed from the Sporting Life finish_distance column; some may be misprinted (not cross-checked on Racing Post).
+- Sporting Life profile/result weights are before jockey claims. Claims for today (Holohan 5, Coen 5, McGettigan 5, Harnett 3, Persse 5) are from the coordinator's card, not verified. Claims on the past-run jockeys (e.g. Conor Cusack, Nathan Crosse) were not found, so past-run weights are compared as listed (pre-claim).
+- Weight scale on the card: horses are on about OR+80 to OR+82 lb (Ocean Echo OR60 at 10-0 is the top weight). Jazzit, Hot To Foxtrot, Liamo, Ukiyo, Macadam's Rock, Fan Club, Pallatine Hills and Bear Trap carry about OR+82, i.e. about 2lb above the OR+80 horses (this is the "possible 2lb overweight" flag; asserted from arithmetic on card figures, source of difference not found).
+
+## Course and draw/pace evidence (own sample, verified from result pages)
+I pulled every Dundalk 7f race with 11+ runners from the Sporting Life results (15 races, 26 May – 23 Oct 2026, all Standard).
+- Winners by stall: stalls 1-4: 1 win from 54 runs (top-3 13 of 54); 5-8: 4 wins / 54 (top-3 9); 9-12: 7 wins / 51 (top-3 15); 13+: 3 wins / 39 (top-3 8). Since 1 Aug: stalls 1-4 0 wins from 47, stalls 9-12 6 from 44.
+- This **contradicts the Geegeez 2020-22 note** (low draws better, front-runners massively outperform). In 2026 winners were mostly tracked/mid-division/held-up types: only 1 of the 15 winners made all (Trek Home, 15 Aug); 7 came from mid-division or rear. Wide stalls have won 3 of the last 4 Div races on 9 and 16 Oct (stalls 15, 9, 12) and filled the frame in Oct 9 Div 1 (15, 14, 13). Small sample (15 races): treat as a mild tilt against stalls 1-4 for winning (places not hurt: top-3 24%), not a rule.
+- Pace: likely leaders by in-running history are Cash On Black (led at Navan), Pallatine Hills (led / tracked leader at 1m), Hot To Foxtrot (led early at 1m), Ocean Echo (led at Fairyhouse 7f). Nothing in the field looks a confirmed 7f front-runner; I expect a modest, tactical pace, which helps mid-division closers.
+- Recent 7f winning times on Standard in this sample: 1m25.15 – 1m27.60 (night to night variation about 2.5s). Not used as a standard; compared within the Oct 9/16 meetings only.
+
+## Summary grid
+(wt = card weight, pre-claim; "perf" = my estimate of the mark the horse ran to in its best recent run, from beaten lengths x lb/length (7f 2lb, 6f 2.5lb, 1m 1.75lb) against the winner's weight/OR; approximate, collateral)
+
+| Horse (draw) | Weight change vs key run | Weight-adjusted time / perf vs mark | Consistency (last 5 flat) | C/D form | Form franked? | Draw / pace | Connections | Key doubt |
+|---|---|---|---|---|---|---|---|---|
+| Ocean Echo (13) 3yo OR60 10-0, Holohan 5 => 9-9 | Best run Curragh 6f 22 Aug at 9-7 (OR66): +2lb listed, claim makes -3 actual vs that day; mark now 60 (-6) | Curragh perf about 66 (beaten 6.1L of 27); Killarney 1m soft 5 Oct beaten 21.9L = a flop | 0 places from 9 runs (best 2nd Cork maiden 7f); 5 Oct 10/10 | none at Dundalk; 7f: 8th, 4th, 2nd | no frank found | 13: wide, helped in 2026 sample | M Fahey; tongue-tie on, first-time cheekpieces per card (p1) | 0 from 9; last run awful; first-time gear is a hope |
+| Pallatine Hills (6) 4yo OR58 10-0 | Aug 16 Curragh 1m at 9-6 (OR62, 5th 0.9L): +8lb listed, mark -4 | Perf at 1m about 62; 20 Oct 14/23, 11.9L, led then faded | 0 wins from 17; 1 third; 7 days since run | none; never run 7f or at Dundalk | no frank found | 6; led at 1m so could press the pace | E&P Harty, blinkers | stays 1m+, never run 7f/Dundalk; 0 from 17 |
+| The Bear Trap (11) 5yo OR58 10-0, Coen 5 => 9-9 | Best recent 18 Sep Dundalk 7f 4th at 9-6 (OR61): +3 actual, mark -3 | Sep 18 4th, 4.75L in a fast 1m25.53; perf about 52; last two on soft 11th, 9th (15-20L) | 2 wins from 47; last 3 flat 4,11,9 | 7 Dundalk runs: 1 win (Dec 2024 7f), 2nd, 4th; 11 runs at 7f | winner Mickey The Steel later 3rd in 9 Oct Div 1 (so some franking) | 11, mid-division | A McGuinness, visor | well below top form on soft; mark still 58 |
+| Fan Club GB (14) 4yo OR56 9-12 | 15 Oct Curragh 5f 9-7 OR63 13th (40/1); mark now 56 (-7) | perf poor: 9.3L at 5f (OR63 off 9-7), 9.5L Bellewstown, 11L Laytown | 0 places from 6 | none; 7f maiden 6th Laytown Std (11L, 9 runners) | no | 14: wide | D G Hogan; Chris Hayes booked | never placed in 6; never close |
+| Jazzit (3) 4yo OR55 9-11 | Won 16 Oct Dundalk 7f at 9-7 (OR50): **+4lb, mark +5**; Leopardstown 7f 2nd at 9-7 OR50 | Won by a short head after being held up; time 1m27.60 was the slower of that night's two 7f divisions (Div 1 1m27.04); perf about 51 vs mark 55 | W, 10th (7.6L), 2nd (0.5L), 3rd (2L), 4th (2.8L) in last 5; 12 days since run | 7f Dundalk: 1 from 1 (14 runners) | 2nd Boston Max (3rd on 9 Oct in Div 2 behind Send Harry) and 5th Lady Landhort: no later win found (not searched past 27 Oct) | 3: low draw, closer held up | T G McCourt; James Ryan (rode it last time) | 5lb rise for a short-head win; low draw; Oct 16 time slow |
+| Battleforsupremacy (1) 3yo OR54 9-8, McGettigan 5 => 9-3 | Oct 9 Dundalk 7f 4th at 8-10 listed (OR54): same mark; **+12lb listed / +7lb if Cusack claimed nothing and McGettigan 5 off** (see note) | 4th, 1.85L behind Send Harry (OR73 at 10-3); perf about 56 vs mark 54 (effective 49 with claim, asserted). Feb 27 Dundalk 7f 3rd 1.35L at OR64 (perf about 63) | Dundalk 5 runs: W, 3rd, 4th, 6th, 7th; non-Dundalk: 17/22, 22/27, 11/12 | **7f Dundalk: W (19 Nov 2025 nursery, 14 ran), 3rd, 4th**; 6f 6th, 7th | Oct 9 Div 2: winner Send Harry OR73; 3rd Boston Max went on to be 2nd (short head) to Jazzit; no frank found beyond that | 1: rail; 2026 sample poor for stalls 1-4 wins; tracked leaders on Oct 9 | D McLoughlin; blinkers (not first time); McGettigan claims 5 | stall 1; weight up on listed basis; two bad runs at Cork/Curragh in big fields; claims not verified |
+| Macadam's Rock (2) 8yo OR51 9-7 | Last run 10 Apr Dundalk 7f 6th (5.5L) at 9-13 OR57: -6lb weight, mark -6 | Apr 10 perf about 56 (beaten 5.5L by OR57 winner carrying 8-13); previous two 12th (10.7L, 11.6L) | 4 wins from 43 (all 7f Dundalk); last 3 flat 6,12,12; **200 days off** | **Dundalk 26 runs; 7f C&D wins 4** (Apr 2022, Jan 2023, Jan 2024, Apr 2025), best mark won off 60 | n/a | 2: low | Miss H McLoughlin; J M Sheridan | 200-day layoff, age 8; ran badly after previous long break (12th, 12 Nov 2025 after 184 days) |
+| Cash On Black (8) 3yo OR50 9-4 | 7 Oct Navan 5f180 6th at 9-8 (OR53): -4lb, mark -3 | 7.1L at 5f180y (22 ran); 29 Sep 18th (29.8L) | 0 places from 5 | Dundalk 5f/6f only (12th, 10th, 6th); never run 7f | no | 8; early speed type (led at Navan) | Miss J A Lynch; Rory Cleary | speed horse with stamina question; best 6th/22 |
+| Pocket Jacks (7) 3yo filly OR50 9-4 | Gowran 19 Oct 7f 6th at 8-11 (OR51), Holohan: +7lb listed (claim of the day unknown); mark -1 | Perf about 56-62 collateral on 19 Oct (6.55L behind OR62 winner carrying 9-8) | 2nd (Gowran 7f Jun, 1.25L), 3rd (Curragh 6f, 4.75L), 6th (6.55L) in last 3; 9 days since run | Dundalk: 7th 6f, 9th 7f maiden | no frank found | 7: mid | A Oliver; Gary Carroll takes off the claimant | weight up with no claim; maiden after 6 runs |
+| Hot To Foxtrot (4) 6yo mare OR47 9-3 | 16 Oct Dundalk 7f 6th at 9-6 (OR49): -3lb, mark -2 | 4.15L behind Jazzit (at 1lb diff, 4.15L = 8.3lb) => at Jazzit's weight today (+8lb) mare gets about 0.7L closer; perf about 43 vs mark 47 | 0 wins from 14, 4 thirds; last 5 flat: 6,7,12,3,6 | Dundalk: 4th 6f, 5th 7f, 6th 7f, 7th 1m, 13th 7f | n/a (Jazzit itself won that race) | 4 | J Feane; cheekpieces (6th run in them); Gavin Ryan | 0 wins from 14 |
+| Ukiyo (9) 5yo mare OR47 9-3 | 21 Oct Navan 5f180 18th at 9-7 (OR50): -4lb, mark -3 | 18.75L last; 7f Down Royal soft 8th 7.65L (9-10, OR54) | 1 win from 19; last 5 flat 18,6,4,8,3 | Dundalk 11th 7f, 7th 6f | no | 9 | A Kinirons; Colgan | sprinter, 6 days since a heavy defeat |
+| Liamo (15) 5yo OR42 8-12, Harnett 3 => 8-9 | 16 Oct Dundalk 7f 5th at 9-0 listed (OR43): -2lb listed, mark -1; claim equal if 3 then too | 5th, 2.15L behind OR50 winner carrying 9-7 (7lb more): perf about 44-45 vs mark 42 (about 39 after claim, asserted). Gowran 7f 2nd 0.75L at OR43 (perf about 44) | last 5 flat: 5,13,2,6,6; 1 win from 25 | Dundalk 3 runs: 5th (7f, 14), 11th, 3rd 7f (Oct 2023) | 5th in Oct 16 Div 1; winner Sedro Woolley, 2nd Go Out, 3rd Una Matata (3rd/7th on 9 Oct); no later wins found | 15: widest; mid-division type fits the 2026 wide-draw tilt | B M Walsh; tongue-tie, cheekpieces back on (ran in blinkers on 16 Oct; ran in cheekpieces before) | 1 win from 25; Cork 13th/22 on 9 Sep; 15 is a wide draw |
+| Auguste Gusteau (5) 3yo OR43 8-11, Persse 5 => 8-6 | 24 Jul Cork 6f 13th at 9-1 (OR50): -4lb, mark -7 | 11L at Cork | 0 places from 5; **95 days off** | Dundalk 5f 9th/9, 6f 7th/12 | no | 5 | M A Cahill; Persse claims 5 | never close; 95-day layoff |
+| Emily's Boy (12) 3yo OR40 8-8 | 21 Oct Navan 5f180 9th at 8-12 (OR42): -4lb, mark -2 | 5.5L at 5f180 (21 ran) is its best; 7 Oct 9th (8.9L) | 0 places from 7; 7 days since run | Dundalk 7f 9th/13 maiden, 6f last | no | 12 | T Dowling; Wesley Joyce; cheekpieces | never placed; best is 5f/6f |
+
+Weights ARE listed before claims on SL; the claim arithmetic above uses the coordinator's claims and is asserted.
+
+## Outsider check (every runner outside the picks)
+- **Ocean Echo:** mark 10lb below the 70 it ran off in June (OR60), 5lb claim, first-time cheekpieces + tongue-tie, wide stall 13 in a wide-draw-friendly year, tilts to a trainer with Dundalk winners. Against: 0 from 9, last run beaten 21.9L, no Dundalk run. Real upside; the highest-variance runner. Not promoted: no run in the last 5 within 5L of a winner in handicap company at this mark.
+- **Pallatine Hills:** top-rated (OR58), led at 1m so could dominate a modest pace; but 0 from 17, never at 7f or Dundalk.
+- **The Bear Trap:** 4th of 14 at Dundalk 7f in a fast time on 18 Sep with a 5lb claim today; two soft-ground flops since. Not far off the picks; placed in the Danger conversation.
+- **Fan Club:** top jockey (Hayes) but no sign of form (0 placings in 6, 9L+ beaten each time).
+- **Macadam's Rock:** 4 C&D wins, mark 9lb below his last winning mark. 200 days off and 8yo, and he flopped after the last long break; a first-run-back place at big odds is possible but not a Win/E-W call.
+- **Cash On Black:** speed type that needs to get 7f; never beaten fewer than 6.9L.
+- **Pocket Jacks:** best placer among the 3yos (2nd, 3rd, 6th), 7f placed at Gowran; no Dundalk form; 9-4 with no claim after running at 8-11 listed with a claimant; close to the place picks. Joint-fifth in my win ranking.
+- **Hot To Foxtrot:** 0 from 14 though four thirds and 5 Dundalk runs; beaten 4.15L by Jazzit; on today's weights about 0.7L behind it (by my arithmetic), so a place chance only.
+- **Ukiyo:** last run 18th of 21; sprinter's profile.
+- **Auguste Gusteau:** 95 days off, never close.
+- **Emily's Boy:** never placed in 7; 25/1+ type at best.
+
+## Selections
+
+| Role | Horse | Win prob | Place prob (3 places) | Fair price (win) | Confidence |
+|---|---|---|---|---|---|
+| WIN | Battleforsupremacy | 0.14 | 0.38 | about 6/1 (7.1) | low |
+| EACH-WAY | Liamo | 0.12 | 0.33 | about 7/1 (8.3) | low |
+| DANGER | Jazzit | 0.10 | 0.30 | 9/1 (10) | - |
+
+Rest of the field (win / place): Ocean Echo 0.09 / 0.25, The Bear Trap 0.08 / 0.24, Pocket Jacks 0.08 / 0.26, Hot To Foxtrot 0.07 / 0.25, Pallatine Hills 0.06 / 0.20, Fan Club 0.05 / 0.15, Macadam's Rock 0.05 / 0.17, Ukiyo 0.04 / 0.12, Emily's Boy 0.04 / 0.12, Cash On Black 0.04 / 0.10, Auguste Gusteau 0.04 / 0.12. Win column sums to 1.00; place column to about 3.0. Deliberately flat: a 14-runner 0-60 handicap with no runner showing a clear edge.
+
+## Rationale and strongest case against
+
+**WIN: Battleforsupremacy**
+- Rationale: a Dundalk 7f record of W (14 ran, 19 Nov 2025 nursery), 3rd of 13 (27 Feb, 1.35L at OR64) and 4th of 14 (9 Oct, 1.85L at OR54) (verified, SL profile + result pages). Others with Dundalk 7f form are Macadam's Rock (4 wins, but 200 days off), Bear Trap (1 win, 4th last time at the course) and Jazzit (1 win). His last run is the nearest to today's mark (OR54 then and now) and was run to about 56 by my arithmetic against Send Harry (OR73, 10-3) (asserted: collateral arithmetic). McGettigan's 5lb claim takes the effective mark to about 49 (asserted: claim from the coordinator's card). Collateral line: 3rd that day Boston Max then lost a short head to Jazzit on 16 Oct, so he is on a similar level to Jazzit in a chain, but is ~4lb better off in claim terms (asserted).
+- Against: (1) stalls 1-4 have produced 0 winners from 47 runners since 1 Aug in my 7f sample (wins skew to stalls 9+; places not hurt). (2) Weight: 9-8 listed vs 8-10 on 9 Oct is +12lb listed (the Oct 9 race had a lower weight scale), +7lb after McGettigan's claim if Cusack carried an equal claim (not found) — real load rise. (3) The two runs between were 17th/22 and 22nd/27 (13L+) in big fields away from Dundalk. (4) Claim and draw not verified at source. (5) 1 win from 11.
+
+**EACH-WAY: Liamo**
+- Rationale: lowest-rated runners are carried on a low weight (8-12 listed; 8-9 after Harnett's 3lb, asserted). Last run: 5th of 14 at Dundalk 7f, beaten 2.15L by an OR50 winner that had 7lb more (verified), perf about 44-45 vs mark 42; before that 2nd at Gowran 7f, 0.75L (verified). Cross-division check vs Jazzit: Liamo's own time that night was about 1m27.4 (1m27.04 + 2.15L at 0.17-0.2s per L) against Jazzit's 1m27.60, with Liamo carrying 7lb less (listed); today the gap is 13lb listed (about 16lb after the claim), which by 0.02-0.03s/lb is worth 0.3-0.5s (about 2L); but different divisions, so weak. Stall 15 fits the 2026 wide-draw tilt and he races mid-division (verified in-running); gear: cheekpieces replace blinkers (he wore p+t in 3 of the previous 4, so not first time).
+- Against: 1 win from 25 (and 4 thirds), a modest horse that has been beaten 7L+ in 3 of the last 5 flat runs (13th of 22, 6th of 15, 6th of 13 over 1m); stall 15 is the widest in the field; claims not verified.
+
+**DANGER: Jazzit** — won 12 days ago at the course and trip with 5lb mark rise (OR50 to 55, +4lb weight), won by a short head after a late swoop, so the weight rise is the question. 2nd at 7f Leopardstown (0.5L, 17 runners). Stall 3 in a year where stalls 1-4 have won 1 in 15.
+
+## Stress test / pre-send checks
+- Superlatives: "only Dundalk 7f" removed after the full-field scan (Macadam's Rock 4 C&D wins). Check "lowest-rated runners ... low weight": Emily's Boy (OR40, 8-8), Auguste Gusteau (OR43, 8-11 less 5 claim) and Liamo (OR42) all carry less; Liamo is not the lowest-weighted.
+- Counts: Liamo 1 win from 25; Hot To Foxtrot 0 from 14; Pallatine 0 from 17; Ocean Echo 0 from 9; Macadam's Rock 4 from 43; Jazzit 1 from 17 (all counted from profile stats).
+- The Win is not an "obvious signal" pick (not the top rated, not the last-time winner); it rests on course record, claim and the last run's perf vs mark. Both leaning on collateral arithmetic from one run each, so confidence is low.
+- Liamo trap: "consistent but modest" placers should not be top win pick; he is E-W and not the Win.
+
+## Unverified / data gaps
+- Card details (weights, claims, ORs, draws, gear codes, jockeys) are the coordinator's RP card; SL racecard for the race not yet published (checked 18:54 Tue); ATR, Racing Post, Sky not reachable. Gear letters on the card (tp, b, v, p, tp1) are decoded from RP code conventions and cross-checked only against SL past-run headgear (Ocean Echo has worn a tongue-tie in last two runs; first-time cheekpieces 'p1' not verified; Liamo wore b+t on 16 Oct).
+- Jockey claims (including past-run jockeys Cusack, Crosse, Doherty) not verified; weight comparisons use listed (pre-claim) weights where flagged.
+- ATR Smart Stats (course trainer/jockey records) not obtained; no trainer or jockey strike rates used.
+- Geegeez Dundalk draw/pace article not re-read; I used my own 15-race sample from SL (SL draw numbers may differ from RP stall numbers only if the card re-draws; checked the cloth/draw difference in result pages and used draw_number).
+- Margins are from SL finish_distance columns summed; not checked against Racing Post.
+- No later-race franking beyond what is stated (Send Harry, Boston Max, Sedro Woolley, Go Out, Mickey The Steel results after 27 Oct not applicable; earlier follow-ups only partly looked at).
+- Standard times for Dundalk 7f not derived from Racing Post "slow by"; winning times only from SL.
+- Going Standard per coordinator; not re-checked. Non-runners not yet checkable; recheck near the off.
+
+## Sources
+- https://www.sportinglife.com/racing/profiles/horse/1168313 (Jazzit) and the same pattern /1221696 (Ocean Echo), /1198525 (Battleforsupremacy), /197551 (Bear Trap), /1105261 (Hot To Foxtrot), /1115053 (Liamo), /1188500 (Pick A Window), /1157963 (Pallatine Hills), /1163707 (Fan Club), /1209739 (Cash On Black), /1197090 (Auguste Gusteau), /1207290 (Pocket Jacks), /1157151 (Ukiyo), /1209740 (Emily's Boy), /991448 (Macadam's Rock)
+- https://www.sportinglife.com/racing/results/2026-10-16/dundalk/943979/x (Jazzit's win, Div 2) and /943978 (Div 1, Liamo 5th)
+- https://www.sportinglife.com/racing/results/2026-10-09/dundalk/942757/x (Battleforsupremacy 4th) and /942756 (Div 1)
+- https://www.sportinglife.com/racing/results/2026-09-18/dundalk/939198/x (Bear Trap 4th)
+- https://www.sportinglife.com/racing/results/2025-04-11/dundalk/852400/x (Macadam's Rock C&D win)
