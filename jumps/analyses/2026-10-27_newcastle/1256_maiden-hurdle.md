@@ -97,3 +97,11 @@ Gap-filling run begun ~09:16 GMT was interrupted by a web-search session limit (
 ## Update 12:43 — gap pass cut short
 
 The session hit its rate limit (reset 12:40 UTC), which terminated the gap-filling pass mid-way for this race. Picks are recorded from the first-pass analysis above. The one verified item the gap pass did reach before stopping: **Champagne Powder carries a 7lb conditional claim (Noreci) and Come On John carries no claim** — neither changes the top two. Course character, trainer debutant strike-rates and fuller franking remain as listed under Unverified items.
+
+---
+
+## Result (settled, 17:45 Tue 27 Oct)
+
+**1st Wilde's Legacy (4/7F) · 2nd My Mate Aj (13/8, btn 4.5L) · 3rd Champagne Powder (20/1, btn 0.75L)** · 4th Mac's Max · 5th Captain Ted · 6th Come On John.
+
+**HELD in full.** Our picks 1-2-3 filled the first three places. Wilde's Legacy led 2 out and was pushed out to assert readily — the higher proven level and strong-finishing style on the stiff track delivered, and the hurdle-debut doubt was a non-issue. My Mate Aj (lone leader, as read) kept his place at 2nd. The danger Champagne Powder (7lb claim, first-time hood) ran into 3rd. No error.

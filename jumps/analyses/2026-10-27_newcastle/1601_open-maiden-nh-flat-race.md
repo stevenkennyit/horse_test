@@ -81,3 +81,11 @@ Remaining ~22% across the field: Koa Beau ~8%, Absence Of Ego ~6%, Rip It Up ~4%
 - Result pages used for form/franking: Stratford 941763, Newbury 897773, Doncaster 907111, Kelso 918513, Wetherby 907645, Newcastle(C&D) 911685 (via https://www.sportinglife.com/api/horse-racing/race/<id>)
 - Franking profiles: Port Isaac 1215259, Gypsy Sky 1240898, Persian Art 1240901, You Be Lucky Jean 1213508, Lady Hope 1211820, Madam Speaker 1209345
 - Alt profile view (works): https://www.sportinglife.com/racing/profiles/horse/1240490
+
+---
+
+## Result (settled, 17:45 Tue 27 Oct)
+
+**1st Always Proud (9/4, our 2nd pick) · 2nd Mon Missel (4/1, our top pick, btn a HEAD) · 3rd Rip It Up (7/1) · 4th Batchelor's Lad (22/1) · 5th Cayenne (7/4F, danger)**.
+
+**HELD — strong.** Our 2nd pick Always Proud won on the Class-2-drop angle; our top pick Mon Missel was beaten only a head into 2nd ("just denied in a sustained drive"). 3rd pick Batchelor's Lad 4th. Crucially the **Step-15 unraced cap was vindicated**: the market made the unraced Cayenne the 7/4 favourite, we capped it at 0.18 and below our two raced picks, and it finished 5th behind both — the Galway-Moscovite lesson applied correctly.

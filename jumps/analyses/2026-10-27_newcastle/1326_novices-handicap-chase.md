@@ -101,3 +101,11 @@ Remainder: Joie More ~0.09, The Kings Soldier ~0.08 (≈0.17 of the field). Fiel
 ## Update 12:49 — gap pass cut short
 
 The session hit its rate limit (reset 12:40 UTC), terminating the gap-filling pass for this race. Picks above are the first-pass analysis, recorded before the off. Items under "Unverified / data gaps" were not re-checked at source, and ATR Smart Stats / Geegeez course and pace data stayed bot-blocked all day. Non-runners and going were last checked in the morning — treat as provisional and re-check nearer the off.
+
+---
+
+## Result (settled, 17:45 Tue 27 Oct)
+
+**1st Royal Time (6/4F) · 2nd Luminaries (9/4, btn 1.75L) · 3rd The Kings Soldier (7/1)** · FELL Thereyare (11/4, 10th).
+
+**HELD.** Top two finished 1-2 exactly, probabilities (0.39/0.32) close to the shape of the finish. Royal Time rallied to win — the 3m stamina doubt we flagged was overcome. The chase-debut risk we put on the danger Thereyare materialised literally: he fell at the 10th. The only blemish is a scoring one — a 4-runner win-only field means Luminaries' correct 2nd scores -1.

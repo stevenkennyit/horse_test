@@ -104,3 +104,11 @@ Re-ran the research against source. Going re-confirmed **Good (Good to Soft in p
 ## Update 12:49 — gap pass cut short
 
 The session hit its rate limit (reset 12:40 UTC), terminating the gap-filling pass for this race. Picks above are the first-pass analysis, recorded before the off. Items under "Unverified / data gaps" were not re-checked at source, and ATR Smart Stats / Geegeez course and pace data stayed bot-blocked all day. Non-runners and going were last checked in the morning — treat as provisional and re-check nearer the off.
+
+---
+
+## Result (settled, 17:45 Tue 27 Oct)
+
+**1st Cawthorne Cracker (9/4F) · 2nd Thesoldiersminit (9/2, btn 2.75L) · 3rd Bouboule (8/1)** · 4th Nobotheratall (danger) · ... · **8th National Question (6/1, our top pick, "soon lost touch")**.
+
+**MIXED.** Our 2nd pick Cawthorne Cracker won, 3rd pick Thesoldiersminit 2nd, danger Nobotheratall 4th — three of our four named horses in the first four. But the top pick National Question was tailed off 8th, exactly as its own stated against warned ("13lb above last year's mark, below par on both spring runs"). **Judgement error (code F):** we ranked the stale "won this race fresh last year" pattern above a rival in clearly better current form — and we had Cawthorne, the winner, correctly identified at 2nd. The winner still came from our top two.

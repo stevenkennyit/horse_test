@@ -110,3 +110,11 @@ Full careers, pedigrees and franking now read at source via Sporting Life profil
 - Jockey claim status from press reporting, not a live BHA licence record (card claim = None, consistent).
 - Course character / pace bias figures (stiff uphill finish) — asserted; ATR/Geegeez bot-blocked all day.
 - GoingStick / rail position — not published.
+
+---
+
+## Result (settled, 17:45 Tue 27 Oct)
+
+**1st Sleedagh (9/2, our danger) · 2nd Kent De Thaix (2/1, btn short-head) · 3rd Rocheval (10/3) · 4th Silver Hill (2/1, "lost position 3 out")**.
+
+**MIXED — right reasoning, wrong rank.** Our danger Sleedagh won with the exact case we wrote for it: "the only completed chaser; place/upset chance if the debutants err." The debutants duly erred — Silver Hill lost his position 3 out and finished last. Top pick Kent De Thaix ran a fine race (2nd, beaten a short-head). But both scored picks lost in a win-only 4-runner field. **Learning (proposed rule):** when 3 of 4 runners are chase debutants, the one proven, completing chaser should be promoted toward the top, not left as the danger — the shared debut risk lifts the known quantity.

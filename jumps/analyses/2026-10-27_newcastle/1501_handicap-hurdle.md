@@ -111,3 +111,11 @@ Remaining field: Max Of Stars ~0.08 (capable 41-run veteran but front-runs-and-w
 ## Update 12:49 — gap pass cut short
 
 The session hit its rate limit (reset 12:40 UTC), terminating the gap-filling pass for this race. Picks above are the first-pass analysis, recorded before the off. Items under "Unverified / data gaps" were not re-checked at source, and ATR Smart Stats / Geegeez course and pace data stayed bot-blocked all day. Non-runners and going were last checked in the morning — treat as provisional and re-check nearer the off.
+
+---
+
+## Result (settled, 17:45 Tue 27 Oct)
+
+**1st North Of Richmond (9/4) · 2nd Roarin' Success (3/1, btn 1L) · 3rd Jentobello (13/8F) · 4th Hunters Spring (14/1)**.
+
+**HELD — winner from the top two.** North Of Richmond won on exactly the angle we verified (well-in on the Codetalker line; wins fresh, answering the 242-day layoff). 3rd pick Roarin' Success stayed on into 2nd. **But note:** the pre-off gap-fill switch promoted Jentobello to top and demoted North Of Richmond to 2nd — so the gap-fill moved the eventual winner down. Jentobello (the consistent-but-exposed profile) finished 3rd, led and headed before the last, as the Step-7 "consistent placer, not a proven winner" caution implies. The verified well-handicapped NoR was the better first-pass top pick.

@@ -126,3 +126,11 @@ The session hit its rate limit (reset 12:40 UTC), terminating the gap-filling pa
 **(6) ATR Smart Stats and Geegeez — still blocked (remaining gap).** ATR Smart Stats and ATR racecard both return a "Client Challenge" bot page (curl and WebFetch); Geegeez returns HTTP 403 on both. So trainer/jockey Newcastle course strike-rates, first-time-headgear and formal pace-map data **could not be verified**. The pace read (Empty Nest, Aill Dubh and Uptown Harry all prominent/front-running; Rule Me In and Loulou Madrik held up/mid-division) is taken **from the in-running comments**, and the course character (galloping, stiff uphill finish, stamina test) remains **asserted** from the fact pack / ATR course guide.
 
 **Still-open gaps after this pass:** ATR Smart Stats / Geegeez course + pace figures; GoingStick/rail reading; a final going/non-runner re-check right before the off.
+
+---
+
+## Result (settled, 17:45 Tue 27 Oct)
+
+**1st Rule Me In (11/10F, our opposed 3rd pick) · 2nd Empty Nest (7/1, btn 4.75L) · 3rd Balking (10/1)** · ... · **6th Aill Dubh (8/1, 2nd pick)**.
+
+**MIXED.** Our top pick Empty Nest placed 2nd — the course-and-distance form held — and our gap-fill temper on Aill Dubh ("not well-in, 7lb out of the handicap") was right: he finished last. But the winner, Rule Me In, was the horse we most opposed on jumping grounds ("0-8 over fences, a bad mistake nearly every start"). He travelled well throughout and won as favourite off the collapsed 107→86 mark. The jumping caution was defensible process, but the steep mark drop (and the market making him 11/10F) outweighed it on the day.
