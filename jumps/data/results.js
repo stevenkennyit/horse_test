@@ -401,19 +401,19 @@
         {
           time: "14:31", name: "Sunday Lunch At The Border Minstrel Novices' Limited Handicap Chase (GBB Race)", type: "chase", distance: "3m",
           going: "Good (Good to Soft in places)", runners: 4, source: "full", status: "pending", grade: "pending", errors: [],
-          notes: "4-runner 3m novices' limited handicap chase; 3 of 4 are chase debutants, so shared jumping/completion risk caps the top pick under 50%. Non-runner: Dunkerque. No jockey claims apply. GAP PASS CUT SHORT by the session rate limit.",
+          notes: "4-runner 3m novices' limited handicap chase; all three contenders are chase debutants, so shared fence-jumping risk caps the top pick under 50% (Step 14). Non-runner: Dunkerque. No jockey claims apply. Going + non-runners reconfirmed 12:56 (unchanged). Gap-fill done: Kent's point-to-point fence background could NOT be verified (now treated as unproven, not asserted), so he and Silver Hill are co-picks; key wins franked both ways. ATR/Geegeez course+pace stayed bot-blocked.",
           winner: null,
-          writeup: "jumps/analyses/2026-10-27_newcastle/1431_novices-limited-handicap-chase.md", updated: "12:48 Tue 27 Oct",
+          writeup: "jumps/analyses/2026-10-27_newcastle/1431_novices-limited-handicap-chase.md", updated: "13:00 Tue 27 Oct",
           picks: [
-            { rank: 1, horse: "Kent De Thaix", prob: 0.37, finish: "-", confidence: "medium",
-              reason: "Proven 3m stamina (won 3m Wetherby beating American Mike (OR135) off 16lb; 6th/15 off 123 at 3m Ayr); point-to-point fence background de-risks the chase debut; wind op + first-time tongue strap.",
-              against: "Fences unproven in public (point background asserted), top weight, 193-day layoff; if Silver Hill jumps he may be the better horse." },
-            { rank: 2, horse: "Silver Hill", prob: 0.33, finish: "-", confidence: "medium",
-              reason: "Most progressive/classy on hurdle form; hot Snowden yard + Sheehan; Newcastle course form (2nd of 12).",
-              against: "Two unproven questions at once — never jumped a fence and never beyond 2m4f (3m asserted) — plus 223 days off and a hold-up style on a stiff galloping track." },
-            { rank: 3, horse: "Sleedagh", prob: 0.17, finish: "-", confidence: "low", danger: true,
-              reason: "The only completed chaser in the field, proven ~3m stamina, dropping to OR 114, fit (33 days); place chance if the debutants jump raggedly.",
-              against: "Winless in 8, one-paced, tailed off on chase debut." }
+            { rank: 1, horse: "Kent De Thaix", prob: 0.35, finish: "-", confidence: "medium",
+              reason: "Proven, well-franked 3m handicap form (won 3m Wetherby beating American Mike, who then won a Class-3 chase and reached OR140; 6th of 15 beaten under a length off OR123 on soft at Ayr) and sound hurdle jumping (6/7 completions); improved since joining S England; wind op + first-time tongue strap.",
+              against: "Chase debut unproven (the point-to-point background could not be verified), top weight, 193-day layoff." },
+            { rank: 2, horse: "Silver Hill", prob: 0.34, finish: "-", confidence: "medium",
+              reason: "Progressive and franked (Sanilam, who beat him 1/2L, went on to win in Class 2 and reach OR127); bumper winner with a stamina pedigree (Shirocco/Presenting) for the 3m step; hot Snowden + Sheehan; Newcastle course form.",
+              against: "Never jumped a fence and never raced beyond 2m4f — two unproven questions at once — plus 223 days off and a hold-up style on a stiff galloping track." },
+            { rank: 3, horse: "Sleedagh", prob: 0.18, finish: "-", confidence: "low", danger: true,
+              reason: "The only completed chaser in the field, stays ~3m, dropping to OR 114, fit (33 days); place chance if the debutants err.",
+              against: "Winless in 8, one-paced (placings often well beaten), tailed off last on chase debut." }
           ]
         },
         {
