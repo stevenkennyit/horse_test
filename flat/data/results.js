@@ -410,6 +410,24 @@
       status: "pending",
       races: [
         {
+          time: "14:00", name: "Dundalk Stadium Optional Claiming Race", type: "claimer", distance: "1m",
+          going: "Standard", runners: 12, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-28_dundalk/1400_1m-optional-claiming-race.md", updated: "20:30 Tue 27 Oct",
+          picks: [
+            { role: "win", horse: "Sonoran", prob: 0.25, placeProb: 0.55, finish: "-", sp: null, confidence: "low",
+              reason: "Highest official rating in the field (81 against 74 for Venetian and 72 for Glyndwr and Justenzia), carrying his Navan winning weight of 9-13; his 12th on 9 Oct came after he dwelt.",
+              against: "0 wins from 3 Dundalk starts, 5lb higher on his last run, and an 81-rated horse in a 15k claimer is odd." },
+            { role: "ew", horse: "Venetian", prob: 0.19, placeProb: 0.50, finish: "-", sp: null, confidence: "low",
+              reason: "Dundalk regular (21 runs, 2 wins) and lightest relative to his mark of the top four; 8lb lighter than when 2nd by half a length at 7f in March, with all-weather wins at about 1m.",
+              against: "200 days off with no reason found, blinkers off, and the yard is 7% at Dundalk." },
+            { role: "danger", horse: "Glyndwr", prob: 0.11, placeProb: 0.32, finish: "-", sp: null, confidence: "low",
+              reason: "Two-time Dundalk 1m winner in cheekpieces with a 10lb claimer, about 11lb below his Nov 2025 winning weight.",
+              against: "Three poor runs, rating down from 84 to 72, trainer 0 from 18 this season, and the widest draw." }
+          ],
+          winner: null, grade: "pending", errors: [],
+          notes: ""
+        },
+        {
           time: "15:30", name: "Irish Stallion Farms EBF Maiden", type: "maiden", distance: "7f",
           going: "Standard", runners: 11, source: "full", status: "pending",
           writeup: "flat/analyses/2026-10-28_dundalk/1530_7f-2yo-ebf-maiden.md", updated: "19:50 Tue 27 Oct",
