@@ -223,3 +223,17 @@ The rest: Easy Evening 10%, Ala Et Prece 7%, Sashimono 7%, Punto Di Blu 6%, Gree
 ## Update 07:35 Mon 26 Oct
 
 Re-checked on the Sporting Life card at 07:35 GMT. No non-runners; jockeys and draws as written. Going still Standard to Slow. Picks and probabilities unchanged. Racing Post card not re-read this morning.
+
+## Result
+
+**Top pick won.** Showmaster (1/2f) led over 1f out and held on.
+
+| Pick | Rank | Finish | SP |
+|---|---|---|---|
+| Showmaster | 1 | **1st** | 1/2f |
+| Raslan | 2 | 4th | 7/1 |
+| Le Drakkar | 3 | 6th | 11/1 |
+
+The clear standout on figures won as expected, though the short price means little reward. 2nd pick Raslan led until over 1f out and faded to 4th; the 25/1 Green Tundra ran into 2nd ahead of him. **Grade: held.**
+
+Sources: Sporting Life result page 945404; ratingtheraces fast-results 2026-10-26.

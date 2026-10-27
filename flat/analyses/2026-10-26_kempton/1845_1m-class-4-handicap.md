@@ -229,3 +229,17 @@ The rest: Fallacious Promise 9%, Loblolly 9%, Gilet 8%, Drifts Away 8%, Bold Sui
 ## Update 07:35 Mon 26 Oct
 
 Re-checked on the Sporting Life card at 07:35 GMT. Musical Angel remains the only non-runner (13 run); jockeys and draws as written. Going still Standard to Slow. Picks and probabilities unchanged. Racing Post card not re-read this morning.
+
+## Result
+
+**Top pick won.** Fight Your Corner (4/1) led well inside the final furlong.
+
+| Pick | Rank | Finish | SP |
+|---|---|---|---|
+| Fight Your Corner | 1 | **1st** | 4/1 |
+| Uniting | 2 | 12th | 33/1 |
+| Breathe Easy | 3 | 4th | 10/3f |
+
+The medium-confidence top pick — best-franked C&D form — won at 4/1, beating the 10/3 favourite (my rank 3, 4th). 2nd pick Uniting finished 12th of 13: ranked #2 on best time figure despite 202 days off and a first run for a new yard, when the layoff/stable warning should have outweighed the figure. **Error F** (non-costly, as the top pick won). **Grade: held.**
+
+Sources: Sporting Life result page 945407; ratingtheraces fast-results 2026-10-26.

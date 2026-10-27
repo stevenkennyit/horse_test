@@ -28,7 +28,8 @@
     B: "Recorded jumping doubt overridden by price",
     C: "Keen-goer made top pick in a weak pace",
     D: "Forecasts in a 10+ runner handicap (retired: bets no longer recommended)",
-    E: "Unraced newcomer rated above raced rivals on price, pedigree or booking"
+    E: "Unraced newcomer rated above raced rivals on price, pedigree or booking",
+    F: "A standout figure or low mark ranked above the pick's own stated current-form, layoff or stable-form warning"
   },
   meetings: [
     {

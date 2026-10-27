@@ -220,3 +220,18 @@ The rest: Katalyst 9%, Fizzy Bear 8%, Brave Leader 8%, Heart Sign 8%, Somethingi
 ## Update 07:35 Mon 26 Oct
 
 Re-checked on the Sporting Life card at 07:35 GMT. Tales Old As Time remains the only non-runner (13 run); jockeys and draws as written. Going still Standard to Slow. Picks and probabilities unchanged. Racing Post card not re-read this morning.
+
+## Result
+
+**Top pick was a non-runner.** Ataturk was withdrawn before the off (missed — card last re-checked 07:35). Won by Brave Leader (11/8f), my 8% shortlist runner.
+
+| Pick | Rank | Finish | SP |
+|---|---|---|---|
+| Ataturk | 1 | NR | — |
+| Uzincso | 2 | 9th | 12/1 |
+| Kathleen Mary | 3 | 2nd | 10/3 |
+| Baron Wagstaff | 4 (danger) | 4th | 9/1 |
+
+Rank 3 Kathleen Mary led early and kept on for 2nd; the danger Baron Wagstaff was 4th; 2nd pick Uzincso ran 9th, confirming the falling-form doubt. The process miss was not re-checking non-runners near the 19:15 off (see the meeting `dataErrors`); Ataturk's withdrawal voids the top-pick line. **Grade: mixed.**
+
+Sources: Sporting Life result page 945408; ratingtheraces fast-results 2026-10-26.

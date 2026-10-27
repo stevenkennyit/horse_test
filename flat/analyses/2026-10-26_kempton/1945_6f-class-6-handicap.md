@@ -203,3 +203,17 @@ The rest: Everydaysasaturday 10%, Diamond Dreamer 9%, Express Train 8%, Tie Figh
 ## Update 07:35 Mon 26 Oct
 
 Re-checked on the Sporting Life card at 07:35 GMT. No non-runners; jockeys and draws as written. Going still Standard to Slow. Picks and probabilities unchanged. Racing Post card not re-read this morning.
+
+## Result
+
+**Top pick won.** Roy Lane (1/1f) made headway and led in the final furlong.
+
+| Pick | Rank | Finish | SP |
+|---|---|---|---|
+| Roy Lane | 1 | **1st** | 1/1f |
+| Southbank | 2 | 7th | 18/1 |
+| Preferred | 3 | 2nd | 4/1 |
+
+Top pick correct (franked C&D 2nd), though the short price means little reward. Rank 3 Preferred — the stall-1 front-runner / draw-pace angle — led early and held 2nd at 4/1. 2nd pick Southbank, ranked on his lowest mark and best time figures despite two "found nil" runs, finished 7th; Preferred's draw/pace case was the sounder second. **Error F.** **Grade: held.**
+
+Sources: Sporting Life result page 945409; ratingtheraces fast-results 2026-10-26.

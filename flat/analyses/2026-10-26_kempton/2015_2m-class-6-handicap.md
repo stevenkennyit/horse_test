@@ -213,3 +213,18 @@ The rest: State Express 10%, Femme Fatale 8%, Further Measure 7%, Make It Up 6%,
 ## Update 07:35 Mon 26 Oct
 
 Re-checked on the Sporting Life card at 07:35 GMT. No non-runners; jockeys and draws as written. Going still Standard to Slow. Picks and probabilities unchanged. Racing Post card not re-read this morning.
+
+## Result
+
+**Both scored picks out of the money.** Won by Electric Gambler (4/1), my 6% shortlist runner.
+
+| Pick | Rank | Finish | SP |
+|---|---|---|---|
+| Ada Rose | 1 | 4th | 11/4f |
+| La Trinite | 2 | 7th | 9/1 |
+| Shopaholic | 3 | 12th | 6/1 |
+| Noble Grace | 4 (danger) | 3rd | 11/1 |
+
+Top pick Ada Rose chased the leaders but had no extra, 4th of 12 — just out of the three places. The danger Noble Grace placed 3rd at 11/1. 2nd pick La Trinite 7th, Shopaholic last. The write-up had already flagged this low-grade 2m handicap as near-uninformative on times; no single judgement error, but both scored picks lost. **Grade: failed.**
+
+Sources: Sporting Life result page 945410; ratingtheraces fast-results 2026-10-26.

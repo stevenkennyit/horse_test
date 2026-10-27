@@ -248,3 +248,18 @@ The rest: Blue Prince 9%, Pinatubo's Legacy 8%, Weffaag 8%, Wild Nature 4%, Luna
 ## Update 07:35 Mon 26 Oct
 
 Re-checked on the Sporting Life card at 07:35 GMT. **Dr Strangelove (stall 14) is now a non-runner** as well as Tavana, so **12 run**. I gave him 1%, and he was drawn widest, so he changes neither the pace nor the draw picture for the picks. Jockeys and other draws as written. Going still Standard to Slow. Picks and probabilities unchanged; his 1% goes to the rest of the field (Wild Nature 4% → 5%). Racing Post card not re-read this morning (non-runner verified on one source).
+
+## Result
+
+**2nd pick won; top pick 9th.** Siwa Oasis (rank 2, 2/1f) led over 1f out and held on.
+
+| Pick | Rank | Finish | SP |
+|---|---|---|---|
+| I'm Workin On It | 1 | 9th | 8/1 |
+| Siwa Oasis | 2 | **1st** | 2/1f |
+| Rogue Messiah | 3 | 7th | 8/1 |
+| Caviar Cowboy | 4 (danger) | 6th | 12/1 |
+
+The progressive 3yo won; the top-weight on his highest-ever mark from a quiet stable (Millman 1/20) flopped in 9th. The "against" on I'm Workin On It was right, and he was ranked #1 only on historic weight-adjusted figures — he should have been behind Siwa Oasis. **Error F** (figure/mark over a documented stable/weight warning). **Grade: mixed.**
+
+Sources: Sporting Life result page 945405; ratingtheraces fast-results 2026-10-26.

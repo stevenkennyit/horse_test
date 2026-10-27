@@ -383,3 +383,18 @@ Rest unchanged: Crack O'Nine 3%, Anncanya 3%, Secret Message 2%, Irish Spring 1%
 ## Update 07:35 Mon 26 Oct
 
 Re-checked on the Sporting Life card at 07:35 GMT. No non-runners; jockeys and draws as written. Going still Standard to Slow. Picks and probabilities unchanged. Racing Post card not re-read this morning.
+
+## Result
+
+**2nd pick won.** Imperial Ballet (rank 2, 6/4) beat top pick Divine Symmetry (11/8); danger Virtue King 3rd at 12/1.
+
+| Pick | Rank | Finish | SP |
+|---|---|---|---|
+| Divine Symmetry | 1 | 2nd | 11/8 |
+| Imperial Ballet | 2 | **1st** | 6/4 |
+| Al Mandoos | 3 | 4th* | n/a |
+| Virtue King | 4 (danger) | 3rd | 12/1 |
+
+The top two were correctly isolated from the field and the write-up had already called them level; the only miss was the order. Imperial Ballet — flagged as the only previous winner and only rated runner — was the right one, and the danger placed. *Positions 4th–9th and SPs beyond the first three could not be verified (podium confirmed via ratingtheraces fast-results; see the meeting `dataErrors`). **Grade: held.**
+
+Sources: ratingtheraces fast-results 2026-10-26.

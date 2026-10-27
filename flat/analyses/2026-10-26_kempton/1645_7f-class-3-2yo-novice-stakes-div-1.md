@@ -356,3 +356,18 @@ The rest: King Gamrah 10% (+2, Tate's newcomers), India's Ridge 7%, Sequoiadendr
 ## Update 07:35 Mon 26 Oct
 
 Re-checked on the Sporting Life card at 07:35 GMT. No non-runners; jockeys and draws as written. Going still Standard to Slow. Picks and probabilities unchanged. Racing Post card not re-read this morning.
+
+## Result
+
+**Top pick won; 2nd pick 2nd.** The 1-2 came in exactly as ranked.
+
+| Pick | Rank | Finish | SP |
+|---|---|---|---|
+| Red Wizard | 1 | **1st** | 7/2 |
+| Stytch | 2 | 2nd (nse) | 7/1 |
+| Idealise | 3 | 6th | 1/1f |
+| Rattenbury | 4 (danger) | 5th | 8/1 |
+
+A model result. Red Wizard (best course form, franked collateral, faster C&D time) led over 1f out and held on by a head from Stytch, with the odds-on newcomer Idealise — correctly downgraded to rank 3 under the newcomer rule — outpaced in 6th. **Grade: held.**
+
+Sources: Sporting Life result page 945403; ratingtheraces fast-results 2026-10-26.

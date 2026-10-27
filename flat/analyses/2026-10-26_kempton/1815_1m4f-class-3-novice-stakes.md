@@ -226,3 +226,17 @@ The rest: Flagbearer 12%, Allaire 11%, Bintnaseefa 3%, Pete's Sake 2%, Perzaaneh
 ## Update 07:35 Mon 26 Oct
 
 Re-checked on the Sporting Life card at 07:35 GMT. No non-runners; jockeys and draws as written. Going still Standard to Slow. Picks and probabilities unchanged. Racing Post card not re-read this morning.
+
+## Result
+
+**Top pick placed 3rd; winner just outside the picks.** Flagbearer (Haggas, 4/1) won.
+
+| Pick | Rank | Finish | SP |
+|---|---|---|---|
+| Maldives | 1 | 3rd | 2/1f |
+| Liam Mera Kai | 2 | 5th | 15/8 |
+| Sailor Song | 3 | 6th | 16/1 |
+
+Winner Flagbearer and runner-up Allaire were my next two in the shortlist (12% and 11%). Top pick Maldives led briefly over 2f out, was headed and kept on for a placed 3rd; the untried-on-Polytrack doubt held her back from winning. 2nd pick Liam Mera Kai, the 15/8 favourite, led early and weakened to 5th. No single judgement error — the winner came from just outside the ranked picks. **Grade: mixed.**
+
+Sources: Sporting Life result page 945406; ratingtheraces fast-results 2026-10-26.
