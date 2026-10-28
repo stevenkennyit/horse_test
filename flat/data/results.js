@@ -566,6 +566,85 @@
           notes: "Win Dancing Steve was beaten a neck at 9/1, the claim argument held. Winner Gallo Dell Cielo (11%, 10/3 joint favourite) was the horse we flagged for the best Dundalk record in the field (3 wins from 11) but held back for an unexplained rating rise. Each-Way Coolnagrattan 5th at 3/1, Danger Celtic Druid last. My First Rose was a non-runner and the reserves did not get in (field 13)."
         }
       ]
+    },
+    {
+      date: "2026-10-29",
+      course: "Punchestown",
+      country: "IE",
+      code: "flat",
+      playbook: "flat/AGENTS-flat-v2.md",
+      going: "Turf: Yielding to soft, yielding in places (Sporting Life, checked 18:50 Wed 28 Oct)",
+      dataErrors: [
+        "Racing Post result pages blocked to plain fetches (403/406): no times against standard, RPR or Topspeed for any run; time comparisons are same-card only.",
+        "At The Races Smart Stats behind a bot check (not bypassed): no course trainer/jockey records. No Punchestown 7f draw or pace data found (one earlier Flat meeting on this track, 15 Sep 2026); draw treated as neutral.",
+        "15:05: the analyst saw the Sporting Life verdict after the ranking was built; it was not used."
+      ],
+      races: [
+        {
+          time: "13:05", name: "Irish Stallion Farms EBF Fillies Maiden", type: "maiden", distance: "1m",
+          going: "Yielding to Soft", runners: 9, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-29_punchestown/1305_1m-2yo-ebf-fillies-maiden.md", updated: "18:57 Wed 28 Oct",
+          picks: [
+            { role: "win", horse: "Wunderschon", prob: 0.37, placeProb: 0.70, finish: "-", confidence: "medium",
+              reason: "OR 93, 18lb clear of the only other rated filly; 4th in the Eyrefield Group 3 and 4th in a franked Punchestown fillies' maiden (winner then 2nd in a Group 3, runner-up won next).",
+              against: "Still a maiden after 4 runs, never within 2L of the winner, no finishing kick in 3 of 4 comments, and never raced on soft." },
+            { role: "ew", horse: "Lan De Ghaire", prob: 0.12, placeProb: 0.36, finish: "-", confidence: "low",
+              reason: "May form close to Listed and Group horses (3rd a neck behind later Listed winner Dancing Destiny); her 23.7L flop has an IHRB stewards' excuse (stumbled leaving the stalls).",
+              against: "Off 158 days, never tried at 1m or on soft, and 18lb below Wunderschon on ratings." },
+            { role: "danger", horse: "Petticoat Bay", prob: 0.16, placeProb: 0.44, finish: "-", confidence: "low",
+              reason: "A P O'Brien Frankel filly on her second run, up to 1m, 3rd on soft on debut, and the 5lb claim makes her the lightest at 8-11.",
+              against: "One run, beaten on debut; the step up in trip is untested." }
+          ]
+        },
+        {
+          time: "14:05", name: "Win A Trip To Lapland At Punchestown On Sun 22 November Maiden", type: "maiden", distance: "7f",
+          going: "Yielding to Soft", runners: 11, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-29_punchestown/1405_7f-2yo-maiden.md", updated: "18:56 Wed 28 Oct",
+          picks: [
+            { role: "win", horse: "Nonsense", prob: 0.26, placeProb: 0.60, finish: "-", confidence: "low",
+              reason: "1.75L 2nd of 12 on debut in a Curragh 7f soft maiden behind a 30/100 shot, 1.75L clear of Wo Wo Never (OR 88): the highest central figure here (about 91), on today's trip and ground.",
+              against: "One run at 33/1, the winner has not run since (no frank), headed late, small yard, and stall 10 has unknown effect." },
+            { role: "ew", horse: "Imposing", prob: 0.19, placeProb: 0.50, finish: "-", confidence: "low",
+              reason: "Improved from a 14.75L debut to a 2L 2nd at Leopardstown over 7f; the Critical Reason line puts him about 90-93, and he is the likely leader from stall 3.",
+              against: "Leopardstown looked steadily run, 4lb worse off with the smaller claim, untried on soft, and his course debut was poor." },
+            { role: "danger", horse: "Oklahoma", prob: 0.18, placeProb: 0.48, finish: "-", confidence: "low",
+              reason: "Best peak form in the race: 2.25L 2nd to G1 winner Giant Sequoia and 1L 3rd to City of Dubai; OR 87.",
+              against: "Weakened in each of his last 3 runs, beaten favourite each time, off 37 days, untried on soft." }
+          ]
+        },
+        {
+          time: "14:35", name: "Premiere Weekend Race & Dine Packages From 75 Euros Nursery Handicap", type: "nursery", distance: "7f",
+          going: "Yielding to Soft", runners: 6, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-29_punchestown/1435_7f-2yo-nursery-handicap.md", updated: "18:58 Wed 28 Oct",
+          picks: [
+            { role: "win", horse: "Margot Mae", prob: 0.24, placeProb: 0.45, finish: "-", confidence: "low",
+              reason: "Back to 7f on soft-side ground, the conditions of her best run (1.05L 3rd in June, with Ibelieveicanfly, now rated 98-100, behind her); mark down from 78 to 70 and an easier race than last time.",
+              against: "Four runs since have rated about 63-69, below today's 70, and the June run was not fast on the clock." },
+            { role: "ew", horse: "Gabby Hayes", prob: 0.21, placeProb: 0.40, finish: "-", confidence: "low",
+              reason: "Best repeated clock figures in the field, including 3rd on heavy at the Curragh behind Moon Sand (5th in a Group 3 next time); 3lb below the mark he placed off, on suitable ground.",
+              against: "Beaten 6L+ in all four maidens, 13th of 13 on the all-weather last time, and Miss Cornelia beat him at Galway on worse terms." },
+            { role: "danger", horse: "Wecouldavehaditall", prob: 0.22, placeProb: 0.43, finish: "-", confidence: "low",
+              reason: "1.45L 3rd in the Naas nursery; OR 68 less a 3lb claim is an effective 65, with a first-time hood after pulling hard.",
+              against: "Her three 7f runs were beaten 9-12L and the Naas race was slowly run." }
+          ]
+        },
+        {
+          time: "15:05", name: "Premiere Weekend Two-Day Ticket Just 35 Euros Maiden", type: "maiden", distance: "7f",
+          going: "Yielding to Soft", runners: 12, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-29_punchestown/1505_7f-3yo-plus-maiden.md", updated: "18:58 Wed 28 Oct",
+          picks: [
+            { role: "win", horse: "Spacebound", prob: 0.30, placeProb: 0.60, finish: "-", confidence: "medium",
+              reason: "1/2L 2nd over 7f on soft to heavy at the Curragh to Lewis Carroll (now OR 98, Listed-placed), ahead of Zenford and Listentodwindblow; OR down 83 to 77 and 8lb lighter than last time after the 5lb claim.",
+              against: "0 from 5, twice beaten favourite, headed or 'no extra' late in 4 of 5 runs, and first-time hood." },
+            { role: "ew", horse: "Oracle Of Delphi", prob: 0.14, placeProb: 0.42, finish: "-", confidence: "low",
+              reason: "Improved about 11L to a 1.25L 3rd at Navan on 21 Oct, a head ahead of Elmakaya (OR 77) and 2.6L ahead of Celestial Siren; effectively about 77-83 with the fillies' allowance.",
+              against: "Only 2 runs, Navan form unfranked, the 3rd came at 66/1, beaten 12.7L on her only soft run, drawn 10." },
+            { role: "danger", horse: "Saliba", prob: 0.18, placeProb: 0.48, finish: "-", confidence: "low",
+              reason: "Highest rated (80), 2nds franked by Back Straight (now 90) and Teoest (84), and 2nd over this course in September.",
+              against: "Never run at 7f, and his 1m runs are weaker than his 1m1f-1m2f runs." }
+          ]
+        }
+      ]
     }
   ]
 });
