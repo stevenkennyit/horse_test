@@ -356,8 +356,6 @@
     const winPlaced = settled.filter((r) => { const p = winPick(r); return p && isPlaced(r, p); }).length;
     const ewRaces = settled.filter((r) => ewPick(r));
     const ewPlaced = ewRaces.filter((r) => isPlaced(r, ewPick(r))).length;
-    // coverage: the winner was one of our Win / Each-Way / Danger
-    const recall = settled.filter((r) => r.picks.some((p) => roleOf(p) && String(p.finish) === "1")).length;
     const sumWin = settled.reduce((a, r) => a + (winScore(r, winPick(r)) || 0), 0);
     const sumEw = settled.reduce((a, r) => a + (ewScore(r, ewPick(r)) || 0), 0);
     const nWin = settled.filter((r) => winScore(r, winPick(r)) != null).length;
@@ -375,7 +373,6 @@
         half("Each-Way placed (incl. won)", ewRaces.length ? pct(ewPlaced / ewRaces.length) : "–", `${ewPlaced} of ${ewRaces.length} issued`)}</div>` },
       { label: "Races", value: n, detail: pending ? `${pending} still to run` : "all results in" },
       { label: "Win pick placed", value: n ? pct(winPlaced / n) : "–", detail: `${winPlaced} of ${n} races` },
-      { label: "Winner in our three", value: n ? pct(recall / n) : "–", detail: `${recall} of ${n} races` },
       { label: "Pick score", value: `<span class="${col(stot)}">${fmt(stot)}</span>`,
         detail: `win ${fmt(sumWin)} · e/w ${fmt(sumEw)}` },
       { label: "ROI: Win", value: `<span class="${col(sumWin)}">${roi(sumWin, nWin)}</span>`, detail: `${pts(sumWin)} on ${nWin}pt` },
