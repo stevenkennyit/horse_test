@@ -141,3 +141,8 @@ Re-running the checks on verified weights: Battleforsupremacy's last run came wi
 - Send Harry's claim on 9 Oct not found, so Battleforsupremacy's last-run performance level is a range.
 - Source of the 0-2lb difference between card weights and current OR is inferred, not stated by any source.
 - Going Standard per IR card (28 Oct); no going change or non-runner seen at the time of this check; recheck on the day.
+
+## Update 09:04 Wed 28 Oct (final gap-pass check: non-runners, going, card)
+- Re-pulled the Sporting Life API race page (race 945747) and the IrishRacing card at 09:04. **No non-runners; 14 runners plus reserve Pick A Window (15 declared). Going Standard on both.** Weights, ORs, stalls, jockeys and headgear are identical to the Tuesday pull (diffed in code: no field changed). Picks and probabilities from the Tuesday-night update stand: WIN Liamo 0.13 / place 0.34; EACH-WAY Battleforsupremacy 0.12 / 0.36; DANGER Jazzit 0.10 / 0.30.
+- Racing Post results pages stay unreachable (earlier fetches returned 406 or only collapsed headers; a further retry with browser-style headers was blocked by the permission system and not pursued). So there are no time-against-standard figures and no RP margin cross-check; IrishRacing margins (slightly shorter than SL) were the cross-check. ATR Smart Stats and the Geegeez article remain unread.
+- Pre-send checklist re-run: claims and weights verified from SL API + IR; counts re-counted; each Win/E-W reason rests on evidence beyond rating (verified claims and actual weights, 7f Dundalk runs, stall data from a 15-race sample); strongest case against written for both. Both selections remain low confidence in a 14-runner 0-60 handicap with no clear edge.

@@ -482,6 +482,24 @@
           notes: ""
         },
         {
+          time: "16:00", name: "Christmas Party Nights At Dundalk Stadium Handicap (Div I)", type: "handicap", distance: "7f",
+          going: "Standard", runners: 14, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-28_dundalk/1600_7f-0-60-handicap-div-1.md", updated: "09:04 Wed 28 Oct",
+          picks: [
+            { role: "win", horse: "Liamo", prob: 0.13, placeProb: 0.34, finish: "-", sp: null, confidence: "low",
+              reason: "Three-pound claim verified: 5th, about 2L behind an OR50 winner at Dundalk 7f on 16 Oct and 2lb lighter today, which rates him about 44 against his OR42; stall 15 sits in a band that has done well in 2026, and cheekpieces are back on.",
+              against: "1 win from about 23 flat runs, three of his last five beaten 7L or more, and stall 15 is the widest." },
+            { role: "ew", horse: "Battleforsupremacy", prob: 0.12, placeProb: 0.36, finish: "-", sp: null, confidence: "low",
+              reason: "Dundalk 7f record of a win in Nov 2025, a 3rd and a 4th (1.8L on 9 Oct off the same OR54); a 5lb claimer rides and blinkers go on for the 2nd time.",
+              against: "Carries 12lb more than on 9 Oct off the same mark, and stall 1 (0 winners from 47 stall 1-4 runners since 1 Aug) leaves him tight; he was well beaten in two big fields elsewhere." },
+            { role: "danger", horse: "Jazzit", prob: 0.10, placeProb: 0.30, finish: "-", sp: null, confidence: "low",
+              reason: "Won this course and trip by a short head on 16 Oct, drawn low (stall 3).",
+              against: "Now 4lb heavier and 5 higher in the ratings, and a held-up type." }
+          ],
+          winner: null, grade: "pending", errors: [],
+          notes: ""
+        },
+        {
           time: "16:30", name: "Christmas Party Nights At Dundalk Stadium Handicap (Div II)", type: "handicap", distance: "7f",
           going: "Standard", runners: 14, source: "full", status: "pending",
           writeup: "flat/analyses/2026-10-28_dundalk/1630_7f-0-60-handicap-div-2.md", updated: "20:55 Tue 27 Oct",
@@ -495,6 +513,24 @@
             { role: "danger", horse: "Roman Harry", prob: 0.10, placeProb: 0.32, finish: "-", sp: null, confidence: "low",
               reason: "Course-and-distance winner, 4th at Dundalk 7f in March at 141 (5lb more than today) and 2nd over 1m in August.",
               against: "Erratic, and 48 days since his last run." }
+          ],
+          winner: null, grade: "pending", errors: [],
+          notes: ""
+        },
+        {
+          time: "17:00", name: "Irish Stallion Farms EBF Auction Maiden", type: "maiden", distance: "6f",
+          going: "Standard", runners: 14, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-28_dundalk/1700_6f-2yo-auction-maiden.md", updated: "09:05 Wed 28 Oct",
+          picks: [
+            { role: "win", horse: "Crayons In The Sky", prob: 0.37, placeProb: 0.70, finish: "-", sp: null, confidence: "medium",
+              reason: "Strongest, franked form: Haven, who beat her about 4L, was next 2nd in the Fillies' Mile; Tosca No Candis (OR 92) beat her only 3/4L over this course and distance in a fast time. Only runner placed at Dundalk, at the same weight as that 2nd.",
+              against: "0 from 4 (2nd, 4th, 2nd, 4th) is a placer profile, and her trainer is 0 from 7 in the last 14 days." },
+            { role: "ew", horse: "Belle Parvenue", prob: 0.14, placeProb: 0.38, finish: "-", sp: null, confidence: "low",
+              reason: "Down 8lb from her last run (about 3L at 6f) after being beaten about 2.35L at level weights; back to 6f with a tongue strap, and her Cork race has worked out (2nd and 4th have won since).",
+              against: "Never in the frame, and 5.25L behind at Cork despite 12lb in hand; her low weight reflects her cheap price, not the handicapper's view." },
+            { role: "danger", horse: "Normanton", prob: 0.15, placeProb: 0.42, finish: "-", sp: null, confidence: "low",
+              reason: "4th on debut in heavy ground over 7f, about 6.75L behind the winner, and likely to improve.",
+              against: "Top weight, dropping to 6f, and no frank found for the three in front of him." }
           ],
           winner: null, grade: "pending", errors: [],
           notes: ""

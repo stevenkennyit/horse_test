@@ -171,3 +171,11 @@ Selections and probabilities stand: WIN Crayons In The Sky 0.37 / place 0.70; EA
 - Going and non-runners to be re-checked on the day.
 
 Additional sources: https://www.irishracing.com/racecards/Wed-28th-Oct-2026/Dundalk/1700 ; https://www.irishracing.com/raceresults/Fri-25th-Sep-2026/Dundalk ; https://www.irishracing.com/raceresults/Fri-25th-Sep-2026/Dundalk/1830 ; https://www.irishracing.com/raceresults/Sat-15th-Aug-2026/Dundalk/1350 ; https://www.irishracing.com/raceresults/Wed-8th-Jul-2026/Fairyhouse ; https://www.irishracing.com/raceresults/Wed-12th-Aug-2026/Gowran-Park/1452 ; Sporting Life result pages 933599, 939533, 927487, 933602, 931626, 940358-linked profiles.
+
+## Update 09:05 Wed 28 Oct - non-runner and going check (picks unchanged)
+Checked 09:04 Irish time (about 8h before the off) against the Sporting Life API, the Racing Post card and the IrishRacing card.
+- **Non-runners:** none on any of the three. All 14 still declared; Lash La Rue remains the reserve (draw 10), not promoted.
+- **Going:** Standard on all three; RP shows the weather as cloudy. No change from the card.
+- **Weights, claims, jockeys, headgear:** unchanged (Persse and Holohan 5lb claims; Belle Parvenue's tongue strap the only headgear).
+- **Draw note:** one Racing Post fetch summary this morning listed Rayastar in stall 2 (same as Mirissa Beach). The earlier RP read and the IrishRacing card both give Rayastar stall 5, Mirissa Beach stall 2. I treat stall 2 for Rayastar as a summary slip; it would not change any pick.
+- Selections and probabilities stand: WIN Crayons In The Sky 0.37 / 0.70; EACH-WAY Belle Parvenue 0.14 / 0.38; DANGER Normanton 0.15 / 0.42.
