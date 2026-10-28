@@ -91,6 +91,9 @@
   .tile .label { color: var(--text-secondary); font-size: 13px; }
   .tile .value { font-size: 28px; font-weight: 650; margin-top: 2px; }
   .tile .detail { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .tile.wide { grid-column: span 2; }
+  .tile .pair { display: flex; gap: 20px; flex-wrap: wrap; }
+  .tile .pair .sub-label { color: var(--text-secondary); font-size: 12px; margin-top: 2px; }
   .pos-text { color: var(--good-text); }
   .neg-text { color: var(--neg-text); }
   .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); gap: 12px; margin-top: 12px; }
@@ -187,6 +190,13 @@
     <p class="desc">Running total of the pick score across settled races in date order — the performance trajectory. Respects the filters above; a point per race, hover for the race and the running total.</p>
     <div class="legend"><span><i style="background:var(--series-1)"></i>Cumulative pick score</span></div>
     <div id="chart-timeline"></div>
+  </section>
+
+  <section class="card" style="margin-top:12px">
+    <h2>Hit rate over time</h2>
+    <p class="desc">Running share of settled races where the Win pick won and the Each-Way pick placed (a win counts), in date order. The Danger is not counted. Respects the filters above; hover a race for the running counts.</p>
+    <div class="legend"><span><i style="background:var(--series-1)"></i>Win pick won</span><span><i style="background:var(--series-2)"></i>Each-Way placed</span></div>
+    <div id="chart-hits"></div>
   </section>
 
   <section class="card" style="margin-top:12px" id="changelog-card">
@@ -358,18 +368,22 @@
     const roi = (pl, cnt) => cnt ? (pl / cnt >= 0 ? "+" : "") + Math.round(pl / cnt * 100) + "%" : "–";
     const pending = races.filter((r) => r.status === "pending").length;
 
+    const half = (lab, v, det) => `<div><div class="value">${v}</div><div class="sub-label">${lab}</div><div class="detail">${det}</div></div>`;
     const tiles = [
+      { wide: true, label: "Hit rate (Danger not counted)", value: `<div class="pair">${
+        half("Win pick won", n ? pct(winWon / n) : "–", `${winWon} of ${n} races`)}${
+        half("Each-Way placed (incl. won)", ewRaces.length ? pct(ewPlaced / ewRaces.length) : "–", `${ewPlaced} of ${ewRaces.length} issued`)}</div>` },
       { label: "Races", value: n, detail: pending ? `${pending} still to run` : "all results in" },
-      { label: "Win pick won", value: n ? pct(winWon / n) : "–", detail: `${winWon} of ${n} races` },
       { label: "Win pick placed", value: n ? pct(winPlaced / n) : "–", detail: `${winPlaced} of ${n} races` },
-      { label: "Each-Way placed", value: ewRaces.length ? pct(ewPlaced / ewRaces.length) : "–", detail: `${ewPlaced} of ${ewRaces.length} issued` },
       { label: "Winner in our three", value: n ? pct(recall / n) : "–", detail: `${recall} of ${n} races` },
       { label: "Pick score", value: `<span class="${col(stot)}">${fmt(stot)}</span>`,
         detail: `win ${fmt(sumWin)} · e/w ${fmt(sumEw)}` },
       { label: "ROI: Win", value: `<span class="${col(sumWin)}">${roi(sumWin, nWin)}</span>`, detail: `${pts(sumWin)} on ${nWin}pt` },
       { label: "ROI: Each-Way", value: `<span class="${col(sumEw)}">${roi(sumEw, nEw)}</span>`, detail: `${pts(sumEw)} on ${nEw}pt` }
     ];
-    $("tiles").innerHTML = tiles.map((t) => `<div class="tile"><div class="label">${t.label}</div><div class="value">${t.value}</div><div class="detail">${t.detail}</div></div>`).join("");
+    $("tiles").innerHTML = tiles.map((t) => t.wide
+      ? `<div class="tile wide"><div class="label">${t.label}</div>${t.value}</div>`
+      : `<div class="tile"><div class="label">${t.label}</div><div class="value">${t.value}</div><div class="detail">${t.detail}</div></div>`).join("");
   }
 
   // ---- P/L chart (sign by diverging pair, labels on every bar: few bars) ----
@@ -476,7 +490,7 @@
     if (ylo < 0 && yhi > 0) s += `<line x1="${m.l}" x2="${W - m.r}" y1="${y(0)}" y2="${y(0)}" stroke="var(--axis)" stroke-width="1"/>`;
     const line = data.map((d, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(d.cum).toFixed(1)}`).join("");
     s += `<path d="${line}" fill="none" stroke="var(--series-1)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
-    const labelEvery = Math.ceil(data.length / 8);
+    const labelEvery = Math.ceil(data.length / Math.max(2, Math.min(8, Math.floor(iw / 80))));
     data.forEach((d, i) => {
       const cx = x(i), cy = y(d.cum);
       s += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="3" fill="var(--series-1)"/>`;
@@ -490,6 +504,54 @@
     });
     const last = data[data.length - 1];
     s += `<text class="lbl" x="${x(data.length - 1).toFixed(1)}" y="${(y(last.cum) - 8).toFixed(1)}" text-anchor="end" style="fill:var(--text-primary);font-weight:650">${last.cum > 0 ? "+" : ""}${last.cum.toFixed(2)}pt</text>`;
+    s += "</svg>";
+    el.innerHTML = s; bindTips(el);
+  }
+
+  // ---- running hit rates over time: Win won, Each-Way placed (two lines) ----
+  function renderHitTimeline(races) {
+    const done = (p) => p && p.finish && p.finish !== "-";
+    const rows = races.filter((r) => r.status === "settled" && (done(winPick(r)) || done(ewPick(r))))
+      .sort((a, b) => (a.meeting.date + a.time).localeCompare(b.meeting.date + b.time));
+    const el = $("chart-hits");
+    if (!rows.length) { el.innerHTML = '<p class="muted">No settled races.</p>'; return; }
+    let wn = 0, wh = 0, en = 0, eh = 0;
+    const data = rows.map((r) => {
+      const w = winPick(r), e = ewPick(r);
+      const wHit = done(w) ? String(w.finish) === "1" : null, eHit = done(e) ? isPlaced(r, e) : null;
+      if (wHit != null) { wn++; if (wHit) wh++; }
+      if (eHit != null) { en++; if (eHit) eh++; }
+      return { r, w, e, wHit, eHit, wn, wh, en, eh, win: wn ? wh / wn : null, ew: en ? eh / en : null };
+    });
+    const multi = new Set(rows.map((r) => r.meeting)).size > 1;
+    const W = Math.max(320, el.clientWidth || 960), H = 240, m = { t: 18, r: 44, b: 40, l: 44 };
+    const iw = W - m.l - m.r, ih = H - m.t - m.b;
+    const y = (v) => m.t + ih - v * ih;
+    const x = data.length === 1 ? () => m.l + iw / 2 : (i) => m.l + (iw * i) / (data.length - 1);
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Running Win and Each-Way hit rates over time">`;
+    [0, 0.25, 0.5, 0.75, 1].forEach((v) => {
+      s += `<line x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}" stroke="${v === 0 ? "var(--axis)" : "var(--grid)"}" stroke-width="1"/>`;
+      s += `<text class="tick" x="${m.l - 6}" y="${y(v) + 4}" text-anchor="end">${v * 100}%</text>`;
+    });
+    [["win", "var(--series-1)"], ["ew", "var(--series-2)"]].forEach(([k, col]) => {
+      const pts2 = data.map((d, i) => [i, d[k]]).filter((p) => p[1] != null);
+      if (!pts2.length) return;
+      s += `<path d="${pts2.map(([i, v], j) => `${j ? "L" : "M"}${x(i).toFixed(1)},${y(v).toFixed(1)}`).join("")}" fill="none" stroke="${col}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+      pts2.forEach(([i, v]) => { s += `<circle cx="${x(i).toFixed(1)}" cy="${y(v).toFixed(1)}" r="3" fill="${col}"/>`; });
+      const [li, lv] = pts2[pts2.length - 1];
+      s += `<text class="lbl" x="${(x(li) + 6).toFixed(1)}" y="${(y(lv) + 4).toFixed(1)}" style="fill:${col};font-weight:650">${pct(lv)}</text>`;
+    });
+    const labelEvery = Math.ceil(data.length / Math.max(2, Math.min(8, Math.floor(iw / 80)))), hw = iw / data.length;
+    data.forEach((d, i) => {
+      if (i % labelEvery === 0 || i === data.length - 1) {
+        const lab = (multi ? d.r.meeting.date.slice(5) + " " : "") + d.r.time;
+        s += `<text class="tick" x="${x(i).toFixed(1)}" y="${H - 10}" text-anchor="middle">${esc(lab)}</text>`;
+      }
+      const line = (lab, p, hit, h, n) => p ? `${lab} ${esc(p.horse)}: ${esc(p.finish)} ${hit == null ? "" : hit ? "✓" : "✕"} · running ${h}/${n} (${n ? pct(h / n) : "–"})` : `${lab}: none`;
+      const tipHtml = `<b>${esc(d.r.meeting.date)} ${esc(d.r.time)} ${esc(d.r.meeting.course)}</b>` +
+        line("Win", d.w, d.wHit, d.wh, d.wn) + "<br>" + line("E/W", d.e, d.eHit, d.eh, d.en);
+      s += `<rect class="hit" x="${(x(i) - hw / 2).toFixed(1)}" y="${m.t}" width="${hw.toFixed(1)}" height="${ih}" data-tip="${esc(tipHtml)}"/>`;
+    });
     s += "</svg>";
     el.innerHTML = s; bindTips(el);
   }
@@ -677,6 +739,7 @@
     renderTiles(races, meetings);
     renderPL(races);
     renderTimeline(races);
+    renderHitTimeline(races);
     renderProb(races);
     renderCal(races);
     renderGrades(races);
