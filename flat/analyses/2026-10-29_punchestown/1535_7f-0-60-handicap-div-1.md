@@ -189,3 +189,104 @@ Rest of field: Free Solo 0.12, Tai Tam Bay 0.09, Mogwli 0.08, Movin And Groovin 
 - SL profiles: https://www.sportinglife.com/racing/profiles/horse/ + 934347 (Free Solo), 1072628 (La Tulipe Noire), 1203461 (Tariff), 1106765 (Tai Tam Bay), 1182357 (Staywitherjohnny), 1213669 (Tempted Angel), 1035906 (Racing Royalty), 1155672 (Think About It), 1230936 (Capolinea), 1157143 (Micasso), 1149284 (Movin And Groovin), 931467 (Mogwli), 1163707 (Fan Club, NR)
 - Key SL results: https://www.sportinglife.com/racing/results/2026-10-15/curragh/943372/x ; https://www.sportinglife.com/racing/results/2026-10-20/curragh/944561/x ; https://www.sportinglife.com/racing/results/2026-10-19/gowran-park/944366/x ; https://www.sportinglife.com/racing/results/2026-10-12/roscommon/943152/x ; https://www.sportinglife.com/racing/results/2026-10-08/thurles/942167/x ; https://www.sportinglife.com/racing/results/2025-11-02/curragh/887582/x ; https://www.sportinglife.com/racing/results/2025-10-27/galway/886589/x ; https://www.sportinglife.com/racing/results/2025-10-13/roscommon/884182/x ; https://www.sportinglife.com/racing/results/2025-10-16/curragh/884410/x ; https://www.sportinglife.com/racing/results/2026-08-20/leopardstown/933782/x ; https://www.sportinglife.com/racing/results/2026-09-09/cork/937411/x
 - Punchestown flat results (course check): https://www.sportinglife.com/racing/results/2026-09-15/punchestown/938624/x and races 938619-938625, 939095; 2025-09-16 races 879355-879361
+
+## Update 19:10 Wed 28 Oct 2026: gaps pass (about 20h 25m to the off)
+
+### What was filled
+- **Past-run jockey claims are now verified.** Source: the `jockey_claim` field in Sporting Life result data (each result page's `__NEXT_DATA__`, and the race API `sportinglife.com/api/horse-racing/race/944561`). The field is present only for riders who claim. It checks out: O'Gorman shows 7 everywhere except the Listed race, where claims aren't allowed, and Sam Coen shows 5.
+  - **Julian Pietropaolo claimed 7lb** on Tariff, Curragh, 20 Oct (also 7 on his 2025-26 rides in my set). Tariff carried 8-0, not 8-7.
+  - **Robert Whearty claims nothing** (no claim on any of his 6 rides in my set, including Staywitherjohnny, Gowran, 19 Oct).
+  - Others: J M Sheridan 0; Jamie Powell 0; Donagh O'Connor 0; Nathan Crosse 0; Gavin Ryan 0; Ben Coen 0; Wesley Joyce 3; Jack Kearney 3 (the 15 Oct Curragh winner); Patrick McGettigan 5 (7 earlier in 2026); Keithen Kennedy 5 (June); Joseph Harnett 7; **Megan Telford-Kelly 10 in 2025, 7 in 2026**; Sadhbh Tormey 10 in Jan 2026, 7 since; Reese Holohan 7 earlier in 2026, 5 now; Sam Coen 2 in the 4 May apprentice race, 5 since.
+- **Today's claims verified on a second source:** the SL card's `jockey_claim` matches RP (O'Gorman 7, Coen 5, Harnett 3, Tormey 7, Holohan 5, Burns 5; no claim for the rest). Checked 19:03.
+- **Mogwli's future OR -2 verified** on the RP card ("Future OR (-2)"); no other runner has one.
+- **Times against course average** (IrishRacing result pages, "X secs faster/slower than the course average on today's going"; each matched to the SL winning time). Own time = winner's figure plus beaten lengths x 0.2s (7f) or 0.18s (1m). These are not weight-adjusted, and each course's average is on its own going, so they are context only:
+
+| Race | Race v course avg | Own figures |
+|---|---|---|
+| Curragh 7f Soft, 15 Oct 26 | 0.30s slow (truly run) | Free Solo 0.70 slow; La Tulipe Noire 1.09 slow; Tai Tam Bay 1.19 slow |
+| Curragh 1m Yld, 20 Oct 26 | **3.02s slow (slowly run, tactical)** | Tariff 3.02 slow; La Tulipe Noire 3.29 slow |
+| Gowran 1m75y Soft, 19 Oct 26 | 0.68s slow | Tariff 1.09 slow; Staywitherjohnny 1.69 slow |
+| Roscommon 7f111y Soft, 12 Oct 26 (Div 2) | 0.20s slow (Div 1 was 1.21 slow) | Movin And Groovin 1.50 slow; Mogwli 1.60 slow |
+| Thurles 1m69y Yld, 8 Oct 26 | Div 1 0.08s slow; Div 2 (Tariff) 0.20s slow | Mogwli 0.62 slow; Free Solo 1.14 slow; Tariff 0.20 slow (won) |
+| Curragh 7f Heavy, 2 Nov 25 | **2.85s fast** | La Tulipe Noire 2.65 fast; Tai Tam Bay 2.15 fast |
+| Galway 1m73y StH, 27 Oct 25 | 0.88s fast | La Tulipe Noire about 0.20 fast |
+| Roscommon 7f111y Soft, 13 Oct 25 | 1.89s slow | La Tulipe Noire won |
+| Curragh 7f YS, 16 Oct 25 | 2.56s slow | Tai Tam Bay, Mogwli (beaten 1.5L and 2.0L) |
+| Leopardstown 7f GY, 20 Aug 26 | **2.64s fast** | Free Solo 2.49 fast |
+| Leopardstown 1m1f Soft, 11 Jun 26 | 2.78s slow | Staywitherjohnny 3.06 slow |
+| Chepstow 1m2f GS, 31 Aug 26 | 4.35s slow (5 ran) | Staywitherjohnny about 4.55 slow |
+| Gowran 1m GY, 5 May 26 | 1.64s fast | Staywitherjohnny 0.87 fast |
+| Cork 7f Good, 9 Sep 26 | 0.40s slow | Tariff 0.54 slow |
+| Dundalk 1m Std, 15 Aug 26 | 0.61s fast | Movin And Groovin about 0.16 fast |
+| Curragh 6f Heavy, 15 Mar 26 | 0.19s slow | Tai Tam Bay about 0.25 slow |
+
+What the times show: the 20 Oct La Tulipe / Tariff head-to-head came from a slowly run race (3.02s slow), so it is a weaker test than I assumed. The best time figures in the field belong to La Tulipe Noire (Curragh 7f heavy, Nov 2025, about 2.65s fast, 1L behind an OR76) and Free Solo (Leopardstown 7f, Aug 2026, about 2.5s fast, franked). Two of Staywitherjohnny's three good 2026 figures came from slowly run races (Leopardstown, Chepstow), and slowly run races bunch the field and flatter close finishes. Her Gowran third in May (truly run, 1.64s fast) is the one that stands.
+
+### Revised head-to-heads at today's weights (claims now verified)
+- **La Tulipe Noire v Tariff (Curragh 1m, 20 Oct):** Tariff carried 8-0 actual, La Tulipe 8-8. She gave 8lb and was beaten 1.5L (2.6lb), so she was **5.4lb better at level weights**. Today both carry 9-9, so **La Tulipe Noire is +5.4lb** (verified; caveat: slowly run race).
+- **Staywitherjohnny v Tariff (Gowran 1m75y, 19 Oct):** Whearty claimed nothing. She carried 9-11 to Tariff's 9-3, gave 8lb and was beaten 3.35L further (5.9lb), so she was 2.1lb better at level weights. Today she gets 4lb, so **Staywitherjohnny is +6.1lb** (verified; she dwelt and was 15th at halfway).
+- **La Tulipe Noire v Free Solo (Curragh 7f, 15 Oct):** unchanged, **La Tulipe Noire +1.1lb** (verified; truly run).
+- **Movin And Groovin v Mogwli (Roscommon, 12 Oct):** unchanged, **Movin +2lb** (verified).
+- La Tulipe Noire v Staywitherjohnny by collateral through Tariff: about level (+5.4 v +6.1), both at 1m. Collateral, so asserted and weaker.
+
+### Revised performance figures (perf = OR - claim - lb beaten + race constant; the constant is set from rivals believed to have run to their marks)
+- **Tariff:** Curragh 20 Oct about 44-49 (with the 7lb claim taken off, and higher only if the slow pace hid the whole field); Gowran 19 Oct about 50; Thurles 8 Oct about 44-47 (anchored on Princess Chloe, OR57, then raised to 60). **Against an effective 53 today, that is 3-9lb short on every recent run.** The handicapper's 58 looks severe on these anchors. He's a progressive 3yo, so he may improve further, but nothing in the data shows he has run to 53.
+- **Staywitherjohnny:** Gowran 19 Oct about 49 (+2 against 47, after a slow start); Gowran May about 55 (+8, truly run); Leopardstown June about 51.5 (+4.5, slowly run, discounted). Still the largest numbers edge, now with one truly run figure behind it.
+- **La Tulipe Noire:** Curragh 15 Oct about 54 (+3 against 51, truly run); Curragh 20 Oct about 49 (-2, slow race); Nov 2025 Curragh heavy about 60-62 (Sheridan claimed nothing, so the figure stands; +9 to +11).
+- **Free Solo:** Curragh 15 Oct about 60 (+2 against 58); Thurles about 53 (-5); Leopardstown Aug about 61.5 (+3.5, fast race, franked).
+- **Movin And Groovin:** Roscommon about 47-49 (+3 to +5 against 44; anchored on Big Bill OR59 or Cisterna's new mark of 68); Dundalk Aug about 49 (+5, AW). **Two figures above her mark, and 3 top-3s from her last 6.**
+- **Mogwli:** Roscommon about 41-43 (+1 to +3); Thurles about 38 (-2). **Correction:** his Oct 2025 Bellewstown win and Punchestown second came with Telford-Kelly claiming 10lb, so he was effectively running off 46, not 56. He is about 6lb, not 16lb, below his last winning level (his 2025 level was about 46-50). The first pass overstated his "well-handicapped" case.
+- **Tai Tam Bay:** unchanged. The comeback run is about 44 (-8, O'Gorman 7 confirmed); her Nov 2025 Curragh 4th was in a fast race (about 2.15s fast).
+- Others unchanged (Micasso, Racing Royalty, Think About It, Capolinea, Tempted Angel all below their effective marks; Tempted Angel's Gowran run also carried Joseph Harnett's 7lb claim, so it was even weaker).
+
+### Re-ranking
+- **Tariff is demoted** from Danger to the rest of the field. Both verified head-to-heads have a rival (La Tulipe Noire, Staywitherjohnny) beating him by 5-6lb at today's weights, and none of his three recent figures reaches his effective 53. Progression is his only case.
+- **Free Solo becomes the Danger.** He is level with La Tulipe Noire on the truly run 15 Oct race (1.1lb behind), he has the second-best time figure (the franked Leopardstown second), and he sits close to his mark on recent runs. Doubts unchanged: 9yo, 14 runs since a win, 0 wins from 10 on soft.
+- **La Tulipe Noire stays the Win.** She leads both verified head-to-heads she's in, has the best time figure in the field (Curragh 7f heavy, 2.65s fast), and is proven at 7f-7.5f on soft. The win-chance gap is small.
+- **Staywitherjohnny stays the Each-Way.** She has the biggest edge on her mark, including one truly run figure (+8) and a verified +6.1lb over Tariff. The trip doubt (never below 1m on the Flat) and 0 from 11 stay, and two of her figures are discounted as slowly run, so her win chance is held below the Win's.
+- **Movin And Groovin moves up** (0.08 to 0.11) as the main outsider: two figures 3-5lb above her mark, the most consistent placer here (3 of 6), and first-time cheekpieces. She is held below the selections because her turf/soft case is one race and she is 0 from 6 at 7f.
+
+### Selections (supersede the first-pass table)
+
+| Role | Horse | Win prob | Fair price | Place prob (top 3) | Confidence |
+|---|---|---|---|---|---|
+| **WIN** | **La Tulipe Noire** | 0.16 | 5/1 (6.3) | 0.42 | low |
+| **EACH-WAY** | **Staywitherjohnny** | 0.13 | 13/2 (7.7) | 0.33 | low |
+| **DANGER** | **Free Solo** | 0.13 | 13/2 (7.7) | 0.38 | - |
+
+Rest of field: Movin And Groovin 0.11, Tariff 0.10, Mogwli 0.08, Tai Tam Bay 0.08, Micasso 0.05, Racing Royalty 0.04, Think About It 0.04, Capolinea 0.04, Tempted Angel 0.04 (total 1.00). It's a 12-runner bunched handicap with the top five within about 6 points, so confidence is low throughout.
+
+**Win: La Tulipe Noire.**
+- For: +5.4lb on Tariff (verified; claims settled) and +1.1lb on Free Solo in a truly run 7f soft race (verified) at today's weights. Her figure on the 15 Oct run is about 54 against an effective 51. She has the best time figure in the field (Curragh 7f heavy, 2.65s faster than average, Nov 2025; verified via IrishRacing and SL). She won at 7.5f on soft with today's rider (verified).
+- Against: 12 flat runs since a win (counted), 0 top-3 in her last 6. The Tariff head-to-head came from a slowly run race (3.02s slow). Her best figures are a year old and came on heavier ground than today's yielding to soft.
+
+**Each-Way: Staywitherjohnny.**
+- For: verified +6.1lb on Tariff at today's weights despite a slow start. A truly run Gowran third in May works out about 8lb above today's effective 47. Tormey's 7lb claim is confirmed on both cards. First-time blinkers.
+- Against: never below 1m on the Flat (a real trip doubt; her placed form is all at 1m-1m2f), 0 from 11, and two of her three good figures came from slowly run races.
+
+**Danger: Free Solo.** Level with the Win on the truly run Curragh race; franked, fast Leopardstown second (about 2.5s fast); about 2lb above his mark recently. Doubts: 14 runs without a win, 0 wins from 10 on soft, top weight with no claim.
+
+### Pre-send checklist / verification checkpoint (re-run 19:10)
+1. Rationale re-read from the result data: the claims, weights and margins above were re-extracted from the SL `__NEXT_DATA__` (margins re-summed: 943372, 944561, 944366, 943152). Yes.
+2. Superlatives: "best time figure in the field" means best among the times I found for these 12 runners (one race v course average per runner, plus the extra races listed). Free Solo's Leopardstown figure (about 2.49 fast) is the nearest, on different ground and course; it is stated as such.
+3. Precision: performance figures are given as ranges.
+4. Tags: the claims are now verified. Still asserted: the race constants behind the perf figures (anchor choice), and the course description.
+5. Re-opened source for every claim added in this update. Yes.
+6. Case against written for each pick. Yes.
+7. No pick rests on a single cross-course time. The Win's case leads on head-to-heads, and the Each-Way's main doubt (trip) is recorded and priced into its lower win chance.
+8. Counts re-checked from the profiles: La Tulipe 12 runs since her last flat win; Free Solo 14; Tariff top-3 4 of 6; Movin 3 of 6; Mogwli 10 since his win.
+9. Outsider check updated (Movin up; Mogwli case reduced; Tariff out of the selections).
+10. Write-up saved. results.js is left to the coordinator, as instructed.
+
+### Still unverified / not found
+- **Going on the day:** not re-checked since about 18:50 Wed. Re-check Thursday morning; heavier ground helps La Tulipe Noire and Tai Tam Bay.
+- **Non-runners:** last checked 19:03 Wed (Fan Club NR on RP; SL shows him DOUBTFUL / "Non Runner").
+- **Racing Post time against standard:** RP result pages did not render. IrishRacing's course-average figures are used instead; they aren't weight-adjusted, and each average is on that day's going.
+- **Punchestown 7f draw/pace:** no 7f flat race has been run at the course in its 2025 or 2026 flat fixtures. The ATR "Low" draw label is unsupported, so the draw is neutral.
+- **Trainer/jockey course statistics:** not found. ATR Smart Stats wasn't available as text, and the RP card shows only unlabelled trainer percentages (not course strike rates); Punchestown has had only two prior flat meetings.
+- **Career win counts** for Free Solo (SL 5, ATR 6) and Mogwli (SL 4, ATR 8): SL profiles stop at 50 runs; not material.
+- Perf figures depend on the choice of anchor horses (asserted method). The head-to-heads above do not.
+
+### Additional sources
+- SL race API (claims): https://www.sportinglife.com/api/horse-racing/race/944561
+- IrishRacing (course-average times): https://www.irishracing.com/raceresults/Thu-15th-Oct-2026/Curragh/1707 ; https://www.irishracing.com/raceresults/Tue-20th-Oct-2026/Curragh/1645 ; https://www.irishracing.com/raceresults/Mon-19th-Oct-2026/Gowran-Park/1610 ; https://www.irishracing.com/raceresults/Mon-12th-Oct-2026/Roscommon/1500 ; https://www.irishracing.com/raceresults/Sun-2nd-Nov-2025/Curragh/1355 ; https://www.irishracing.com/raceresults/Thu-20th-Aug-2026/Leopardstown/1800 ; https://www.irishracing.com/raceresults/Tue-5th-May-2026/Gowran-Park/2008

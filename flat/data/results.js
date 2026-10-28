@@ -597,6 +597,22 @@
           ]
         },
         {
+          time: "13:35", name: "Punchestown Premiere Weekend Sat 21 & Sun 22 November Handicap", type: "handicap", distance: "1m",
+          going: "Yielding to Soft", runners: 14, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-29_punchestown/1335_1m-handicap.md", updated: "19:10 Wed 28 Oct",
+          picks: [
+            { role: "win", horse: "Lady Arwen", prob: 0.17, placeProb: 0.44, finish: "-", confidence: "low",
+              reason: "Most in hand on handicap yardsticks (ran to about 72-78 against an effective 66 after Cleary's 5lb claim), placed in 4 of her last 6, the only franked form among the contenders, and handles soft.",
+              against: "Slowly away in each of her last 6 runs, her last run was her worst of the season, and her Punchestown runs were over 1m1f." },
+            { role: "ew", horse: "Flash Of Fire", prob: 0.12, placeProb: 0.34, finish: "-", confidence: "low",
+              reason: "About 3-6lb in hand on two of her last three runs (4th at Punchestown over 1m 30y, 5th in a strong Naas 7f handicap on soft); mark down 4lb and 9-5 with Mulligan's claim.",
+              against: "Beaten 17.25L at Cork last time in first-time cheekpieces, 1 win from 7, may need to settle, and the September start may not be today's." },
+            { role: "danger", horse: "Jp's Express", prob: 0.12, placeProb: 0.40, finish: "-", confidence: "low",
+              reason: "Consistent at 1m-1m1f on soft (3, 3, 6, 5, 1, 3) and a career-best 3rd of 19 at the Curragh last time.",
+              against: "On yardsticks he has only run to about his mark (70), a place type; only narrowly ahead of Aquilla Star." }
+          ]
+        },
+        {
           time: "14:05", name: "Win A Trip To Lapland At Punchestown On Sun 22 November Maiden", type: "maiden", distance: "7f",
           going: "Yielding to Soft", runners: 11, source: "full", status: "pending",
           writeup: "flat/analyses/2026-10-29_punchestown/1405_7f-2yo-maiden.md", updated: "18:56 Wed 28 Oct",
@@ -645,6 +661,22 @@
           ]
         },
         {
+          time: "15:35", name: "See You At The GR1 Double Header 21 & 22 November Handicap (Div I)", type: "handicap", distance: "7f",
+          going: "Yielding to Soft", runners: 12, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-29_punchestown/1535_7f-0-60-handicap-div-1.md", updated: "19:10 Wed 28 Oct",
+          picks: [
+            { role: "win", horse: "La Tulipe Noire", prob: 0.16, placeProb: 0.42, finish: "-", confidence: "low",
+              reason: "At today's weights she is 5.4lb ahead of Tariff (Curragh 20 Oct, his 7lb claim verified) and 1.1lb ahead of Free Solo from a truly run Curragh 7f soft race; best time figure in the field (Curragh 7f heavy, Nov 2025).",
+              against: "12 runs since her last win, 0 top-3 in her last 6, the Tariff meeting was slowly run, and her best figures are a year old on heavier ground." },
+            { role: "ew", horse: "Staywitherjohnny", prob: 0.13, placeProb: 0.33, finish: "-", confidence: "low",
+              reason: "6.1lb ahead of Tariff at today's weights from Gowran on 19 Oct despite a slow start; her truly run Gowran 3rd in May is about 8lb above today's effective 47 with Tormey's 7lb; first-time blinkers.",
+              against: "Never raced below 1m on the Flat, 0 from 11, and two of her three good figures came in slowly run races." },
+            { role: "danger", horse: "Free Solo", prob: 0.13, placeProb: 0.38, finish: "-", confidence: "low",
+              reason: "Only 1.1lb behind the Win on the same truly run Curragh race; franked Leopardstown 2nd, fast on the clock; running about 2lb above his mark.",
+              against: "Aged 9, 14 runs without a win, and 0 from 10 on soft." }
+          ]
+        },
+        {
           time: "16:05", name: "See You At The GR1 Double Header 21 & 22 November Handicap (Div II)", type: "handicap", distance: "7f",
           going: "Yielding to Soft", runners: 12, source: "full", status: "pending",
           writeup: "flat/analyses/2026-10-29_punchestown/1605_7f-0-60-handicap-div-2.md", updated: "19:05 Wed 28 Oct",
@@ -658,22 +690,6 @@
             { role: "danger", horse: "Real Petite", prob: 0.13, placeProb: 0.36, finish: "-", confidence: "low",
               reason: "Her 4L Gowran win rates about 55 against a need of 46 (OR 53 less a 7lb claim), the biggest upside in the field.",
               against: "Nine Flat runs away from Gowran produced nothing better than 6th, and her only 7f run was 14th." }
-          ]
-        },
-        {
-          time: "13:35", name: "Punchestown Premiere Weekend Sat 21 & Sun 22 November Handicap", type: "handicap", distance: "1m",
-          going: "Yielding to Soft", runners: 14, source: "full", status: "pending",
-          writeup: "flat/analyses/2026-10-29_punchestown/1335_1m-handicap.md", updated: "19:10 Wed 28 Oct",
-          picks: [
-            { role: "win", horse: "Lady Arwen", prob: 0.17, placeProb: 0.44, finish: "-", confidence: "low",
-              reason: "Most in hand on handicap yardsticks (ran to about 72-78 against an effective 66 after Cleary's 5lb claim), placed in 4 of her last 6, the only franked form among the contenders, and handles soft.",
-              against: "Slowly away in each of her last 6 runs, her last run was her worst of the season, and her Punchestown runs were over 1m1f." },
-            { role: "ew", horse: "Flash Of Fire", prob: 0.12, placeProb: 0.34, finish: "-", confidence: "low",
-              reason: "About 3-6lb in hand on two of her last three runs (4th at Punchestown over 1m 30y, 5th in a strong Naas 7f handicap on soft); mark down 4lb and 9-5 with Mulligan's claim.",
-              against: "Beaten 17.25L at Cork last time in first-time cheekpieces, 1 win from 7, may need to settle, and the September start may not be today's." },
-            { role: "danger", horse: "Jp's Express", prob: 0.12, placeProb: 0.40, finish: "-", confidence: "low",
-              reason: "Consistent at 1m-1m1f on soft (3, 3, 6, 5, 1, 3) and a career-best 3rd of 19 at the Curragh last time.",
-              against: "On yardsticks he has only run to about his mark (70), a place type; only narrowly ahead of Aquilla Star." }
           ]
         }
       ]
