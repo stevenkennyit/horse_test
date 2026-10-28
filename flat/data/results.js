@@ -643,6 +643,22 @@
               reason: "Highest rated (80), 2nds franked by Back Straight (now 90) and Teoest (84), and 2nd over this course in September.",
               against: "Never run at 7f, and his 1m runs are weaker than his 1m1f-1m2f runs." }
           ]
+        },
+        {
+          time: "16:05", name: "See You At The GR1 Double Header 21 & 22 November Handicap (Div II)", type: "handicap", distance: "7f",
+          going: "Yielding to Soft", runners: 12, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-10-29_punchestown/1605_7f-0-60-handicap-div-2.md", updated: "19:05 Wed 28 Oct",
+          picks: [
+            { role: "win", horse: "Pocket Jacks", prob: 0.16, placeProb: 0.44, finish: "-", confidence: "low",
+              reason: "Most consistent near her mark (3 of 4 handicaps in the first 3), best runs about 53-58 against a need of 57, and won at Dundalk on 28 Oct in the fastest 7f time of that card.",
+              against: "The 7lb penalty leaves no weight in hand; runs again within 24 hours, Polytrack to turf, on ground softer than she has met." },
+            { role: "ew", horse: "Buttermere Ridge", prob: 0.15, placeProb: 0.40, finish: "-", confidence: "low",
+              reason: "3rd at Listowel in a race since franked (winner raised 10lb and placed twice, runner-up won off 71) rates about 61-62 against a need of 53; one of the likely pace-setters.",
+              against: "Fades late in 5-6 of his last 6 Flat runs, 1 win in 20, and his Roscommon race has worked out badly." },
+            { role: "danger", horse: "Real Petite", prob: 0.13, placeProb: 0.36, finish: "-", confidence: "low",
+              reason: "Her 4L Gowran win rates about 55 against a need of 46 (OR 53 less a 7lb claim), the biggest upside in the field.",
+              against: "Nine Flat runs away from Gowran produced nothing better than 6th, and her only 7f run was 14th." }
+          ]
         }
       ]
     }
