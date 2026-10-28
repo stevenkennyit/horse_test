@@ -197,7 +197,7 @@
 
   <section class="card" style="margin-top:12px">
     <h2>Race by race</h2>
-    <p class="desc">The Win, Each-Way and Danger selections with the agent's stated win chance, place chance and where they finished.</p>
+    <p class="desc">The Win, Each-Way and Danger selections with the agent's stated win chance, place chance and where they finished. Hit shows whether the Win won and the Each-Way placed (a win counts; the Danger is not included). Grade judges the reasoning, not the result.</p>
     <div class="table-wrap"><table id="races"></table></div>
     <details>
       <summary>Data errors caught</summary>
@@ -601,9 +601,17 @@
     const sub = `fair ${fairPrice(p.prob)}${p.placeProb != null ? " · pl " + pct(p.placeProb) : ""}${p.sp ? " · SP " + esc(p.sp) : ""}`;
     return `<td>${esc(p.horse)}<div class="muted">${sub}</div></td><td class="num">${pct(p.prob)}</td><td class="num">${p.finish ? finishCell(p) : "–"}</td>`;
   }
+  // outcome of the two scored selections: did the Win win, did the Each-Way place (a win counts); Danger excluded
+  function hitCell(r) {
+    if (r.status !== "settled") return '<span class="muted">–</span>';
+    const mark = (label, p, ok) => !p || !p.finish || p.finish === "-" ? "" :
+      `<div class="${ok ? "pos-text" : "neg-text"}">${ok ? "✓" : "✕"} ${label}</div>`;
+    const w = winPick(r), e = ewPick(r);
+    return (mark("Win won", w, w && String(w.finish) === "1") + mark("E/W placed", e, e && isPlaced(r, e))) || '<span class="muted">–</span>';
+  }
   function renderTables(races, meetings) {
     const multi = new Set(races.map((r) => r.meeting)).size > 1;
-    let h = `<thead><tr>${multi ? "<th>Date</th>" : ""}<th>Time</th><th>Race</th><th>Win</th><th class="num">Win%</th><th class="num">Fin</th><th>Each-Way</th><th class="num">Win%</th><th class="num">Fin</th><th>Danger</th><th class="num">Fin</th><th>Winner (SP)</th><th class="num">Score</th><th>Grade</th><th>Errors</th><th>Notes</th></tr></thead><tbody>`;
+    let h = `<thead><tr>${multi ? "<th>Date</th>" : ""}<th>Time</th><th>Race</th><th>Win</th><th class="num">Win%</th><th class="num">Fin</th><th>Each-Way</th><th class="num">Win%</th><th class="num">Fin</th><th>Danger</th><th class="num">Fin</th><th>Winner (SP)</th><th class="num">Score</th><th>Hit</th><th>Grade</th><th>Errors</th><th>Notes</th></tr></thead><tbody>`;
     races.forEach((r) => {
       const d = dangerPick(r);
       h += `<tr>${multi ? `<td>${esc(r.meeting.date)}</td>` : ""}<td class="num">${esc(r.time)}</td>
@@ -613,6 +621,7 @@
         <td>${d ? esc(d.horse) : '<span class="muted">–</span>'}</td><td class="num">${d && d.finish ? finishCell(d) : "–"}</td>
         <td>${r.winner ? esc(r.winner.horse) + ` <span class="muted">(${esc(r.winner.sp)})</span>` : '<span class="muted">pending</span>'}</td>
         <td class="num">${(() => { const sc = raceScore(r); return sc == null ? '<span class="muted">–</span>' : `<span class="${sc >= 0 ? "pos-text" : "neg-text"}">${sc > 0 ? "+" : ""}${sc.toFixed(2)}</span>`; })()}</td>
+        <td style="white-space:nowrap">${hitCell(r)}</td>
         <td>${chip(r.grade)}</td>
         <td>${(r.errors || []).map((e2) => `<span class="tag" title="${esc((DATA.errorTypes || {})[e2] || "")}">${esc(e2)}</span>`).join("") || '<span class="muted">–</span>'}</td>
         <td class="note">${esc(r.notes)}</td></tr>`;
