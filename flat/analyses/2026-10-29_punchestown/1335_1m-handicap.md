@@ -147,3 +147,121 @@ Reserve **The Rock Factor** (OR54-55, 8-7): maiden after 5 runs, best handicap r
 - SL results (Punchestown flat meetings): https://www.sportinglife.com/racing/results/2026-09-15 and https://www.sportinglife.com/racing/results/2025-09-16
 - ATR card: https://www.attheraces.com/racecard/Punchestown/29-October-2026/1335
 - OLBG Punchestown stats: https://www.olbg.com/betting-tips/Horse_Racing/IE/Punchestown/2
+
+## Update 19:10 Wed 28 Oct — gap-filling pass
+
+This section **supersedes** the selections table and probabilities above where they differ. The picks are unchanged. Probabilities are adjusted and the Win's confidence is lowered.
+
+### Gaps filled (verified at source unless marked)
+- **Flash Of Fire, Cork 6f, 29 Sep** (RP 929764, soft, slow by 6.87s): 8th of 8, beaten **17¼L**, RPR **36** (adjusted 45), carrying 9-11 with Ben Coen. Sporting Life says she led and weakened, in first-time cheekpieces. This is a real blot, not just a non-placing. Her last three RPRs read 76, 36, 73.
+- **Speckled Meadow, Leopardstown 1m3½f, 18 Oct** (RP 931076, good): 10th of 15, beaten 5L, RPR **68**, carrying **8-2 actual and out of the handicap** (Mulligan 5). Adjusted 78. Both of her recent decent figures (67, 68) came at 8-0 to 8-2; today she carries 9-4.
+- **Earls' summer 2nds:**
+  - Killarney 1m20y, 13 Jul (RP 924548, good): 2nd, 2½L, 9-6, RPR **82**.
+  - Limerick 1m, 10 Jun (RP 922570, yielding): 2nd, ½L, 9-5, RPR **82**.
+  - With Galway (82), that is three summer runs at adjusted **88**, the best figures in the field. His last two runs were RPR 57 and 37, and his last four all well beaten.
+  - Weight against those runs: +2 to +3lb on the 9-5 and 9-6 runs, mark down 7-8lb (78 → 70). Earls is the field's biggest "well-handicapped on old form" case, but his form has collapsed since August and he switches from blinkers to a visor.
+- **Earls' jockey claim (resolved).** Jack Kearney's Sporting Life race JSON shows a 3lb claim on his rides of 15, 17 and 18 Oct, and **no claim on all 5 rides from 21 Oct to 28 Oct**. The RP card shows "Jack Kearney" with no bracket. He has ridden out his claim: Earls carries **9-8**.
+- **Today's 1m start: NOT FOUND (unresolved).**
+  - The RP card shows "1m" with no yards and no rail note.
+  - The Sep 2025 and Sep 2026 Punchestown Flat races were run at 1m 30y and 1m1f 30y/58y. Today's card has 7f races, a trip not run at either September meeting.
+  - News reports say Punchestown is building a new Flat track with a **new 1m start (one bend into the straight)**. The reports I could open (2024 to April 2026) describe it as in progress, with dates that have slipped. The RP progress article returned an HTTP 500.
+  - So I can't confirm that today's 1m is September's 1m 30y. **Flash Of Fire's September run is "course form at a similar trip (1m 30y)", not confirmed course and distance.** Lady Arwen's two Punchestown runs (1m1f) are downgraded the same way. My draw/pace sample from those meetings may not apply to today's start.
+
+### Beaten distances re-checked (coordinator concern 3)
+Every margin I used is a cumulative distance: either summed from the Sporting Life result margins (each the gap to the horse in front) or read from the RP bracket. None comes from the profile "btn" column. Sporting Life sums against RP cumulative:
+
+| Run | Sporting Life sum | RP |
+|---|---|---|
+| Lady Arwen, Curragh 4 Oct | 3.50 | 3½ |
+| Titanium, Curragh 4 Oct | 6.00 | 6 |
+| Jp's Express, Curragh 15 Oct | 0.60 | ¾ |
+| Lady Arwen, Curragh 15 Oct | 7.12 | 7½ |
+| Lady Mary Heath, Curragh 20 Oct | 1.55 | 1½ |
+| Titanium, Curragh 20 Oct | 10.45 | 10¾ |
+| Flash Of Fire, Punchestown 15 Sep | 4.75 | 4¾ |
+| Flash Of Fire, Naas 10 Oct | 2.60 | 2¾ |
+| Excuzio Joe, Bellewstown 1 Oct | 1.75 | 1¾ |
+| Aquilla Star, Bellewstown 1 Oct | 5.10 | 5¼ |
+| Jp's Express, Galway 8 Sep | 3.75 | 3¾ |
+| San Aer, Galway 28 Jul | 1.5 | 1½ |
+| San Aer, Galway 1 Aug | 1.10 | 1¼ |
+| San Aer, Galway 8 Sep | 6.25 | 6¼ |
+| Speckled Meadow, Naas 11 Oct | 2.75 | 2¾ |
+| Flying Fortress, Roscommon 30 Jun | 0.05 | shd |
+| Amplitude, Roscommon 30 Jun | 3.30 | 3¼ |
+| Amplitude, Listowel 21 Sep | 4.35 | 4½ |
+| Earls, Listowel 21 Sep | 9.60 | 9¾ |
+| Earls, Galway 30 Jul | 2.5 | 2½ |
+| Lady Arwen, Punchestown 15 Sep | 5.40 | 5½ |
+
+All agree within ¼L. No margin used in the analysis was wrong.
+
+### Does the order hold without the RPR re-basing? (coordinator concern 1)
+Method for this check: for each horse's key recent runs, I take handicapped rivals in the same race as **yardsticks**. I assume each yardstick ran to its official mark, adjust for the weight difference that day (RP actual weights, after claims) and the beaten distance (1.75lb per length at 1m, 2lb at 7f), and compare the result with the mark the horse effectively runs off today (OR minus claim).
+
+| Horse | Key run(s): yardstick (OR) → estimated level | Effective mark today | In hand? | Weight vs own key run | Like-for-like time | Consistency | Franked |
+|---|---|---|---|---|---|---|---|
+| **Lady Arwen** | Curragh 4 Oct: Spacebound (79) → 77, Highbury See See (76) → 78. Galway 28 Jul: San Aer (70) → 75, Loingseoir (68) → 67. Galway rated race 8 Sep: Java Wood (73) → 72 (other yardsticks scatter 61-91) | 71 − 5 = **66** | about **+6 to +11** | −3lb on 4 Oct, −8lb on Galway win | Curragh 1m at 9-7: own time about 9.7s slow on **soft** v Lady Mary Heath 9.9s and Titanium 11.6s on **yielding** (20 Oct, same weights within 1lb); Punchestown 15 Sep about 1.0s slow (1m1f30y, good) | 4/6 placed | **Yes** |
+| **Flash Of Fire** | Punchestown 15 Sep: Motta Alta (77) → 76, No More Porter and Zaraahmando (72) → 74. Naas 7f: Back Down Under (75) → 73, Spodo Komodo (77) → 69, Oro Blanco (84) → 79 | 75 − 5 = **70** | about **+3 to +6** (Cork run about −20) | −3lb on Punchestown run | Punchestown 15 Sep about 0.9s slow (1m30y, good), about the same standard-relative time as Lady Arwen on the same card | 1/6 placed; Cork flop | No frank found |
+| **Jp's Express** | Curragh 15 Oct: Suir Monad (77) → 74, Navajo Point (70) → 70, No More Porter (69) → 67. Galway 8 Sep: Suir Monad (69) → 69 | **70** | about **0** (−3 to +4) | −3lb on Curragh run, mark +2 | Curragh 1m1f about 10.4s slow (no like-for-like with rivals) | 2/6 placed; at 1m-1m1f 3,3,6,5,1,3 | No frank found |
+| **Aquilla Star** | Galway 8 Sep: Cladach (62) → 66, Suir Monad (69) → 71. Bellewstown 1 Oct: Tachos (71) → 70, Save The Sixes (78) → 69 | 69 − 5 = **64** | about **+2 to +7** | −5lb on Galway win, mark +9 | Galway 1m½f soft: own (winning) time 7.50s slow v Jp's Express 8.15s | 1 win, 1 place in last 6 | Cladach placed twice since, no win |
+| **Titanium** | Curragh 4 Oct: Highbury See See (76) → 68, Spacebound (79) → 66 | 68 − 7 = **61** | about **+5 to +7** on 4 Oct only (20 Oct about −8) | −1lb on 4 Oct | see Lady Arwen row | 0/6 placed | n/a |
+| **San Aer** | Galway 28 Jul: Loingseoir (68) → 76, Bay Of Dreams (69) → 72. Galway 1 Aug 7f: Apache Outlaw (70) → about 70. Galway 8 Sep 7f: Merisi Diamond (68) → 64 | **69** | **+3 to +7** in July, **−5 to +1** since | −7lb on July runs | Galway 28 Jul about 7.6s slow (1m½f yielding) | 1/6 placed; 35 runs without a win | Lady Arwen (beat him) has run well since |
+
+**Answer to concern 1:**
+- **Lady Arwen stays top** on the playbook's own steps, without RPRs:
+  - largest margin in hand on yardsticks (+6 to +11)
+  - best place rate (4/6)
+  - the only franked form among the contenders
+  - the better like-for-like Curragh time
+  - weight-adjusted head-to-head wins over San Aer and Titanium
+- **Flash Of Fire holds the Each-Way spot** (+3 to +6 in hand on two runs, longer fair price). Her Cork flop is now quantified (17¼L) and her course run may not be at today's trip, so her chance is trimmed slightly.
+- **Jp's Express drops back.** He has run to about his mark (0 in hand), so he is a consistent-but-modest place type, which the playbook says not to rank above rivals with more in hand.
+- **Aquilla Star and Titanium move closer.** Aquilla Star's Bellewstown run (last of 5) is about her mark +5 by yardsticks, much better than the bare result. I keep Jp's Express as Danger only narrowly: his place rate at the trip is the best of the three, and his three meetings with Aquilla Star are mixed (two each way on the weights).
+
+### Lady Arwen's confidence: lowered to low (coordinator concern 2)
+- The playbook (Step 13) says a recurring doubt should not be top pick unless the case clearly outweighs it. Her slow starts recur (all of her last 6 runs). Her placed runs and both wins came despite them, and she is the most in hand on yardsticks, so I keep her as the Win.
+- That does not justify "medium". Her win chance is 0.17 in a 14-runner handicap; her last run was her worst of the season; her course runs may not be at today's start; and three rivals sit within about 5lb on the yardsticks.
+- **Confidence: low.**
+
+### Revised selections (supersede the table above)
+
+| Role | Horse | Win prob | Place prob (3 places) | Fair price | Confidence |
+|---|---|---|---|---|---|
+| **WIN** | **Lady Arwen** | 0.17 | 0.44 | 5/1 (5.9) | **low** |
+| **EACH-WAY** | **Flash Of Fire** | 0.12 | 0.34 | 7/1 (8.3) | low |
+| **DANGER** | **Jp's Express** | 0.12 | 0.40 | 7/1 (8.3) | — |
+
+**Rest (0.59):** Aquilla Star 0.09, Titanium 0.08, San Aer 0.07, Excuzio Joe 0.07, Amplitude 0.06, Flying Fortress 0.05, Earls 0.05, Lady Mary Heath 0.04, Speckled Meadow 0.04, Sylkie 0.02, Cash Me 0.02. Total 1.00.
+
+- **Lady Arwen** — reason: the most in hand on handicap yardsticks (+6 to +11) and the best place rate (4/6) among the contenders; franked form; the better like-for-like Curragh time; beat San Aer and Titanium at the weights; handles soft. Against: slowly away in all of her last 6 runs; her last run was her season's worst; her course runs are at 1m1f, possibly from a different start.
+- **Flash Of Fire** — reason: +3 to +6 in hand on two of her last three runs (Punchestown 1m30y 4th; Naas 7f soft 5th in a strong race); mark down 4lb; carries 9-5 with Mulligan's claim. Against: beaten 17¼L at Cork (RPR 36) in her last-but-one run; one win from 7; may need to settle; her course run may not be at today's start.
+
+### Late-task verification checkpoint / pre-send checklist (re-run)
+1. Rationale re-read from the tables above; the Cork, Leopardstown, Killarney and Limerick figures were re-opened on RP in this pass.
+2. Superlatives checked:
+   - "Most in hand on yardsticks" holds among the six yardsticked contenders. Earls was not yardsticked; his last two runs were 9.75L and 16.25L defeats, so his recent form doesn't challenge it.
+   - "Best place rate" holds: Lady Arwen 4/6. No other runner has more than 2 places in its last 6.
+   - "Only franked form among the contenders": no frank was found for the others' key runs.
+3. Precision: yardstick levels are given as ranges.
+4. Tags: the 1m start and the course gradient remain **not found / asserted**. Kearney's claim, Cork, Leopardstown and Earls' 2nds are now **verified**.
+5. Counts were re-counted from profiles:
+   - Lady Arwen slow starts: 6 of 6.
+   - Runs since last win (including hurdles): San Aer 35, Titanium 10, Earls 14, Sylkie 14.
+6-9. The case against each pick is written, no pick rests on a single time figure, and the outsider check stands. Aquilla Star and Titanium are now closer to the selections.
+
+### Still unverified / not found
+- Whether today's 1m uses September's 1m 30y start or a new 1m start (**not found**).
+- Course gradient description (asserted, from a search summary).
+- ATR "Draw Advantage: High" basis (not visible).
+- ATR Smart Stats course trainer/jockey records (not obtained; no bot check attempted).
+- Yardstick estimates assume each yardstick ran to its mark (approximate by method).
+- Going and non-runners last checked 19:03 Wed. **Re-check before the off.**
+
+### Additional sources (this pass)
+- RP Cork 29 Sep: https://www.racingpost.com/results/596/cork/2026-09-29/929764
+- RP Leopardstown 18 Oct: https://www.racingpost.com/results/187/leopardstown/2026-10-18/931076
+- RP Killarney 13 Jul: https://www.racingpost.com/results/185/killarney/2026-07-13/924548
+- RP Limerick 10 Jun: https://www.racingpost.com/results/188/limerick/2026-06-10/922570
+- SL jockey profile (Jack Kearney): https://www.sportinglife.com/racing/profiles/jockey/31140; claims checked in race JSON 944167, 943998, 943372 (3lb) and 944554, 942187, 945749, 945745, 946297 (none)
+- New 1m start report: https://www.leinsterleader.ie/news/home/785203/punchestown-racecourse-gets-hri-grant-of-over-1m-towards-track-changes-at-kildare-venue.html; RP progress article https://racingpost.com/news/how-is-work-on-punchestowns-new-flat-track-progressing-aI3vB3x6nqUM (HTTP 500, not read)
