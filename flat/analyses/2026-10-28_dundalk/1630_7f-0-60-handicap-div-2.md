@@ -136,3 +136,20 @@ Picks and probabilities unchanged (Una Matata win, Glen Breeze each-way, Roman H
 - 16 Oct Div 1 (Una Matata 3rd), 9 Oct Div 2: no winner or placed horse has run since from the 16 Oct race (no frank found); 9 Oct 3rd Boston Max was 2nd on 16 Oct. Una's 9 Oct race (7th) ran with winner Send Harry not yet re-run.
 
 **Still unreachable / not found:** ATR Smart Stats (page failed again), Geegeez Dundalk draw stats (403, so pack claim remains asserted), Racing Post result pages and standard times, course trainer/jockey strike rates, the Div I (16:00) result (tomorrow). Going and non-runners to be re-checked tomorrow.
+
+
+## Result
+
+- **Reviewed:** Wed 28 Oct 2026 (after the race; all results weighed in)
+- **Race:** 16:30; 1m28.22s, 13 ran (Never Mind Me NR), Standard
+- **Winner:** Roman Harry (S M Duffy, Paddy Harnett, 3lb) 11/2, tracked leaders, led over 1f out, kept on well
+
+| Role | Pick | Win chance | Finish | Beaten | SP | Score (1pt) | Verdict |
+|---|---|---|---|---|---|---|---|
+| Win | Una Matata | 21% | 6 | 2.05L | 9/4 | -1 | Lost: raced keenly and was beaten 2L; the case against (one close run in six, 10-12lb below her winning marks) applied. |
+| Each-Way | Glen Breeze | 12% | 9 | 4.55L | 11/1 | -1 | Rear of mid-division, no impression; the 1-win-from-16 doubt applied. |
+| Danger | Roman Harry | 10% | 1 | - | 11/2 | n/a (won) | Winner. Course-and-distance winner 5lb lighter than in March; the 'erratic, 48 days off' doubts did not bite. |
+
+Jazzy Dancer (our 10% outsider, 8lb lighter than 16 Oct, front-runner) was 2nd at 25/1; Strikepoint 3rd at 4/1.
+
+Fields: 13 ran. Never Mind Me NR.

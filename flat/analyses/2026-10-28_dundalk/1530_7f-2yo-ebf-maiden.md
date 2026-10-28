@@ -128,3 +128,20 @@ Other gaps:
 - **Times:** Dundalk 7f 2yo maiden winners 9 Oct: 1m27.16 (colts, Pipeman, 8L clear) and 1m27.27 (fillies). Mudyrk's Fairyhouse 1m27.76 is turf, not comparable; no standard-adjusted figure obtainable.
 
 Late-task verification: re-opened the saved race JSONs for draws, claims, weights, margins and run counts. One correction to the grid above: Raygani's "2 runs 10th, 16th" is right (counted); Courtier's 12th was ~24¾L, not "eased only". Superlative check: "only runner with Group-franked form" holds across the field (Golden Idol/Jacob's/Tantardini races have no confirmed Group-level frank; Dramatic Approach/Courtier/Raygani/Quinn Blue winners have Group 3 or nursery form but their own runs were 15-35L behind). Still, Courtier's winner Albany County and Raygani's winner Nouveau Grey ran in Group 3s, so "only" is better stated as "the only runner who finished within a length of a Group winner".
+
+
+## Result
+
+- **Reviewed:** Wed 28 Oct 2026 (after the race; all results weighed in)
+- **Race:** 15:30; 1m25.86s, 11 ran, Standard
+- **Winner:** Tantardini (A P O'Brien, Jack Cleary, 5lb) 5/2, led, headed after 1f, regained the lead over 1f out
+
+| Role | Pick | Win chance | Finish | Beaten | SP | Score (1pt) | Verdict |
+|---|---|---|---|---|---|---|---|
+| Win | Mudyrk | 40% | 9 | 10.25L | 5/4 | -1 | Failed: led after 1f from stall 11 and weakened from 2f out; first run on Polytrack after 145 days. The doubts were recorded but the 40% rested on one franked run from 5 June. |
+| Each-Way | Golden Idol | 14% | 2 | 0.75L | 10/1 | +0.5 | Held: debut 3rd at the same weight, ran on into 2nd at 10/1 (place return at a fifth of the odds). |
+| Danger | Eucalyptus | 13% | 7 | 8L | 5/1 | n/a | Unraced; slow-ish late headway only, as the lottery warning said. |
+
+The winner (9%, 'place at best') had the 5lb claimer and stall 1, and was beaten 9.25L on debut at 5f180y: the trip and stall helped. Bridgetown Boy (4%) 3rd at 7/1.
+
+Fields: 11 ran.

@@ -188,3 +188,20 @@ Sporting Life race API found: `/api/horse-racing/race/946297` is this race (the 
 **Still unreachable / not found:** Racing Post card and results (406), ATR racecard and Smart Stats (403), Geegeez Dundalk page (403, summary only), RPR / Topspeed (not in the SL API), RP "slow by" standard time for Dundalk 1m (only winning times 1m39.05 on 9 Oct and 1m38.35 on 15 Aug seen), the reason for Venetian's absence, Blooming Rose's OR, any 1m-specific Dundalk draw table. Going and non-runners to be re-checked on the day.
 
 **Late checks:** the Venetian "6 top-three from 21 Dundalk runs" count was re-counted from the course-form list (2 wins, 3 seconds, 1 third). Grid cells on Venetian and Sonoran re-read against the profiles above. Picks and probabilities unchanged: WIN Sonoran 0.25 / 0.55, EACH-WAY Venetian 0.19 / 0.50, DANGER Glyndwr 0.11 / 0.32.
+
+
+## Result
+
+- **Reviewed:** Wed 28 Oct 2026 (after the race; all results weighed in)
+- **Race:** 14:00; 1m38.92s, 11 ran (Sherekiya NR), Standard
+- **Winner:** Sonoran (G M Lyons, Gary Carroll) 11/8, rear of mid-division, ridden to lead over 100 yards out
+
+| Role | Pick | Win chance | Finish | Beaten | SP | Score (1pt) | Verdict |
+|---|---|---|---|---|---|---|---|
+| Win | Sonoran | 25% | 1 | - | 11/8 | +1.375 | Held: top-rated runner at his Navan winning weight; he came from off the pace, so the 'hold-up type' doubt did not bite. Our 3/1 was less confident than the market. |
+| Each-Way | Venetian | 19% | 11 | 14.7L | 9/1 | -1 | Failed: the 200-day absence with no reason found was the recorded doubt, and he was never a factor. Error G. |
+| Danger | Glyndwr | 11% | 7 | 7.2L | 13/2 | n/a | Ran on at one pace from the widest draw; the three poor runs and 0-from-18 yard were the recorded doubts. |
+
+Justenzia (our 9% outsider, trip-change doubt) was 2nd at 5/1 and Morning Approach (50/1, 'no case') 3rd. Blooming Rose, checked in the outsider line, was 6th at 9/2.
+
+Fields: 11 ran, so the declared 12 was one too many; no pick was affected.

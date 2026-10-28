@@ -146,3 +146,20 @@ Re-running the checks on verified weights: Battleforsupremacy's last run came wi
 - Re-pulled the Sporting Life API race page (race 945747) and the IrishRacing card at 09:04. **No non-runners; 14 runners plus reserve Pick A Window (15 declared). Going Standard on both.** Weights, ORs, stalls, jockeys and headgear are identical to the Tuesday pull (diffed in code: no field changed). Picks and probabilities from the Tuesday-night update stand: WIN Liamo 0.13 / place 0.34; EACH-WAY Battleforsupremacy 0.12 / 0.36; DANGER Jazzit 0.10 / 0.30.
 - Racing Post results pages stay unreachable (earlier fetches returned 406 or only collapsed headers; a further retry with browser-style headers was blocked by the permission system and not pursued). So there are no time-against-standard figures and no RP margin cross-check; IrishRacing margins (slightly shorter than SL) were the cross-check. ATR Smart Stats and the Geegeez article remain unread.
 - Pre-send checklist re-run: claims and weights verified from SL API + IR; counts re-counted; each Win/E-W reason rests on evidence beyond rating (verified claims and actual weights, 7f Dundalk runs, stall data from a 15-race sample); strongest case against written for both. Both selections remain low confidence in a 14-runner 0-60 handicap with no clear edge.
+
+
+## Result
+
+- **Reviewed:** Wed 28 Oct 2026 (after the race; all results weighed in)
+- **Race:** 16:00; 1m25.69s, 14 ran (Pick A Window NR), Standard
+- **Winner:** Pocket Jacks (A Oliver, Gary Carroll) 6/1, tracked leaders, came stands' side and led over 1f out
+
+| Role | Pick | Win chance | Finish | Beaten | SP | Score (1pt) | Verdict |
+|---|---|---|---|---|---|---|---|
+| Win | Liamo | 13% | 6 | 6L | 11/1 | -1 | Lost, but the pick was flat on purpose: the verified claim edge was real, he made late headway for 6th. |
+| Each-Way | Battleforsupremacy | 12% | 11 | 8L | 7/2 | -1 | Hampered 150 yards out after being towards rear from stall 1; the 12lb-heavier-than-9-Oct and stall 1 doubts were recorded. |
+| Danger | Jazzit | 10% | 2 | 1.5L | 11/4 | n/a | Held: found room late and finished 2nd at the head of the market. |
+
+Pocket Jacks (7%) was the 3yo filly with a 2nd, 3rd and 6th at 7f and a rating-versus-form gap in the grid (about 56-62 against OR 50) that we trimmed for a '+12lb actual' rise; that comparison spans two races on different rating scales (about OR+72 then, OR+80 now).
+
+Fields: 14 ran; Pick A Window NR (reserve).

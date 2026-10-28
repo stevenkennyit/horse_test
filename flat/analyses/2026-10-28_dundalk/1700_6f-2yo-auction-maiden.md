@@ -179,3 +179,20 @@ Checked 09:04 Irish time (about 8h before the off) against the Sporting Life API
 - **Weights, claims, jockeys, headgear:** unchanged (Persse and Holohan 5lb claims; Belle Parvenue's tongue strap the only headgear).
 - **Draw note:** one Racing Post fetch summary this morning listed Rayastar in stall 2 (same as Mirissa Beach). The earlier RP read and the IrishRacing card both give Rayastar stall 5, Mirissa Beach stall 2. I treat stall 2 for Rayastar as a summary slip; it would not change any pick.
 - Selections and probabilities stand: WIN Crayons In The Sky 0.37 / 0.70; EACH-WAY Belle Parvenue 0.14 / 0.38; DANGER Normanton 0.15 / 0.42.
+
+
+## Result
+
+- **Reviewed:** Wed 28 Oct 2026 (after the race; all results weighed in)
+- **Race:** 17:00; 1m14.00s, 13 ran (Step In Style NR; reserve did not get in), Standard
+- **Winner:** Crayons In The Sky (Stephen Thorne, Jack Kearney) 1/2, tracked leaders, led over 1f out, kept on well
+
+| Role | Pick | Win chance | Finish | Beaten | SP | Score (1pt) | Verdict |
+|---|---|---|---|---|---|---|---|
+| Win | Crayons In The Sky | 37% | 1 | - | 1/2 | +0.5 | Held: the franked placer finally won; her form stood out in the field as analysed. |
+| Each-Way | Belle Parvenue | 14% | 3 | 2.75L | 17/2 | +0.35 | Held: the 8lb drop and back to 6f worked for a place at 17/2 (place return at a fifth of the odds). |
+| Danger | Normanton | 15% | 2 | 1.5L | 7/2 | n/a | Held: improved on his debut as expected. |
+
+All three finished in the first three. Rayastar (best debutant on paper) was 4th at 15/2 after dwelling.
+
+Fields: 13 ran.

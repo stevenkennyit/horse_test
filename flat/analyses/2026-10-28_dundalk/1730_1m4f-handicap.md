@@ -173,3 +173,20 @@ Still unreachable (checked this pass):
 - **Dancing Steve's yard (A McGuinness) course stats:** ATR and Smart Stats unavailable; not checked.
 
 Re-run of checks: claims and weights agree across three cards; counts unchanged; no pick, probability or rationale changed.
+
+
+## Result
+
+- **Reviewed:** Wed 28 Oct 2026 (after the race; all results weighed in)
+- **Race:** 17:30; 2m32.60s, 13 ran (My First Rose NR; reserves did not get in), Standard
+- **Winner:** Gallo Dell Cielo (P J Flynn, Robyn Donaghue-Leahy, 7lb claim) 10/3, joint favourite
+
+| Role | Pick | Win chance | Finish | Beaten | SP | Score (1pt) | Verdict |
+|---|---|---|---|---|---|---|---|
+| Win | Dancing Steve | 15% | 2 | 0.25L | 9/1 | -1 | Sound pick beaten a neck: 8-8 after the 10lb claim argued for him; the green-claimer doubt did not stop him. |
+| Each-Way | Coolnagrattan | 12% | 5 | 3.5L | 3/1 | -1 | Unplaced; the 'unexposed, no win in 6' doubt applied. |
+| Danger | Celtic Druid | 11% | 13 | 24.25L | 12/1 | n/a | Last: slow-away pattern and the widest draw were the recorded doubts, and three poor runs had come first. |
+
+The winner (11%) was the horse with the best Dundalk record in the field (3 wins from 11, 2 from 4 at 1m4f) that we held back for an unexplained 62-to-70 rating rise; Enchanted Lady (joint favourite) was 4th and Copper Craft 3rd at 5/1.
+
+Fields: 13 ran.

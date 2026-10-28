@@ -10,6 +10,7 @@
   D.meetings.push(...data.meetings);
 })({
   errorTypes: {
+    G: "Older horse (4yo+) returning after 200+ days kept as a Win or Each-Way pick at a normal probability, with the long absence recorded as a doubt but not priced",
     F: "Live outsider (recent winner, franked figure or favourable mark/yard move) left at a near-zero probability despite its own outsider-check case"
   },
   meetings: [
@@ -407,151 +408,162 @@
       code: "flat",
       playbook: "flat/AGENTS-flat-v2.md",
       going: "Polytrack: Standard",
-      status: "pending",
+      dataErrors: [
+        "No pre-off non-runner re-check was run. The last checks were Tuesday evening (14:00, 14:30, 15:00, 15:30, 16:30, 17:30) or 09:04 Wednesday (16:00, 17:00), five or more hours before the first off. Non-runners that occurred: Sherekiya (14:00), Lahore Da King (14:30), Never Mind Me (16:30), Step In Style (17:00) and My First Rose (17:30). None was a pick and none changed a recorded probability, but fields were 11, 12, 13, 13 and 13 runners rather than the declared numbers.",
+        "Beaten distances in the write-ups' Result sections are summed from Sporting Life's per-horse margins (nse, hd, nk and sh converted to fractions of a length) and were not cross-checked against Racing Post, which stayed unreachable."
+      ],
       races: [
         {
           time: "14:00", name: "Dundalk Stadium Optional Claiming Race", type: "claimer", distance: "1m",
-          going: "Standard", runners: 12, source: "full", status: "pending",
+          going: "Standard", runners: 11, source: "full", status: "settled",
           writeup: "flat/analyses/2026-10-28_dundalk/1400_1m-optional-claiming-race.md", updated: "20:30 Tue 27 Oct",
           picks: [
-            { role: "win", horse: "Sonoran", prob: 0.25, placeProb: 0.55, finish: "-", sp: null, confidence: "low",
+            { role: "win", horse: "Sonoran", prob: 0.25, placeProb: 0.55, finish: "1", sp: "11/8", confidence: "low",
               reason: "Highest official rating in the field (81 against 74 for Venetian and 72 for Glyndwr and Justenzia), carrying his Navan winning weight of 9-13; his 12th on 9 Oct came after he dwelt.",
               against: "0 wins from 3 Dundalk starts, 5lb higher on his last run, and an 81-rated horse in a 15k claimer is odd." },
-            { role: "ew", horse: "Venetian", prob: 0.19, placeProb: 0.50, finish: "-", sp: null, confidence: "low",
+            { role: "ew", horse: "Venetian", prob: 0.19, placeProb: 0.50, finish: "11", sp: "9/1", confidence: "low",
               reason: "Dundalk regular (21 runs, 2 wins) and lightest relative to his mark of the top four; 8lb lighter than when 2nd by half a length at 7f in March, with all-weather wins at about 1m.",
               against: "200 days off with no reason found, blinkers off, and the yard is 7% at Dundalk." },
-            { role: "danger", horse: "Glyndwr", prob: 0.11, placeProb: 0.32, finish: "-", sp: null, confidence: "low",
+            { role: "danger", horse: "Glyndwr", prob: 0.11, placeProb: 0.32, finish: "7", sp: "13/2", confidence: "low",
               reason: "Two-time Dundalk 1m winner in cheekpieces with a 10lb claimer, about 11lb below his Nov 2025 winning weight.",
               against: "Three poor runs, rating down from 84 to 72, trainer 0 from 18 this season, and the widest draw." }
           ],
-          winner: null, grade: "pending", errors: [],
-          notes: ""
+          winner: { horse: "Sonoran", sp: "11/8", agentProb: 0.25 },
+          grade: "mixed", errors: ["G"],
+          notes: "Win Sonoran won at 11/8 from rear of mid-division as the top-rated runner; our 25% (3/1) was less confident than the market. Each-Way Venetian came back after 200 days, a doubt we recorded, and was never a factor (11th, about 14.7L). Danger Glyndwr 7th. Justenzia, the 9% outsider we flagged for a trip change, was 2nd at 5/1. Sherekiya was a non-runner (field 11, not 12)."
         },
         {
           time: "14:30", name: "Halloween Mid-Term Racing At Dundalk Handicap", type: "handicap", distance: "1m",
-          going: "Standard", runners: 13, source: "full", status: "pending",
+          going: "Standard", runners: 12, source: "full", status: "settled",
           writeup: "flat/analyses/2026-10-28_dundalk/1430_1m-handicap.md", updated: "21:20 Tue 27 Oct",
           picks: [
-            { role: "win", horse: "Moyassr", prob: 0.23, placeProb: 0.55, finish: "-", sp: null, confidence: "medium",
+            { role: "win", horse: "Moyassr", prob: 0.23, placeProb: 0.55, finish: "10", sp: "11/2", confidence: "medium",
               reason: "Four wins from six Dundalk 1m runs, all faster than a typical Dundalk mile; a 10lb claim leaves him at an effective mark of 64 against 71 when he won in January, and he was 2nd three times in September.",
               against: "No all-weather run for 8 months, the Racing Post card shows a 5lb cut to his mark pending, the rider is an unproven 10lb claimer, the wins came for his old yard, and he has stall 10." },
-            { role: "ew", horse: "Glitter And Glory", prob: 0.10, placeProb: 0.32, finish: "-", sp: null, confidence: "low",
+            { role: "ew", horse: "Glitter And Glory", prob: 0.10, placeProb: 0.32, finish: "3", sp: "11/1", confidence: "low",
               reason: "A 10lb claim takes her effective mark to 59 against 69-74 when 2nd and 3rd over 1m in the summer; Dundalk AW form includes a 7f win and two 1m 3rds.",
               against: "Beaten by 0.5 to 6.5 lengths in her last six, and the trend is down (9th last time)." },
-            { role: "danger", horse: "Bella Colombia", prob: 0.17, placeProb: 0.45, finish: "-", sp: null, confidence: "low",
+            { role: "danger", horse: "Bella Colombia", prob: 0.17, placeProb: 0.45, finish: "5", sp: "11/1", confidence: "low",
               reason: "Dundalk 1m record of 1 win, 1 second and 1 third from 4 runs; her August win is franked (3rd and 4th both won next time), and her effective mark of 65 is only 3lb above that win mark of 62.",
               against: "Stall 12, and three lower finishes since her peak." }
           ],
-          winner: null, grade: "pending", errors: [],
-          notes: ""
+          winner: { horse: "Leveraging", sp: "5/1", agentProb: 0.05 },
+          grade: "mixed", errors: ["G"],
+          notes: "Win Moyassr, back after 8 months with a 10lb claimer, a pending mark cut and his Dundalk wins for another yard (all recorded as doubts), was never a factor (10th). Each-Way Glitter And Glory 3rd at 11/1 (a place return). Danger Bella Colombia 5th. Winner Leveraging (5%, 5/1) had been noted as a front-runner with a faster-division 5th; Sheamus Seimhiu was 2nd at 25/1. Lahore Da King was a non-runner (field 12, not 13)."
         },
         {
           time: "15:00", name: "Irishinjuredjockeys.com Fillies Maiden", type: "maiden", distance: "7f",
-          going: "Standard", runners: 14, source: "full", status: "pending",
+          going: "Standard", runners: 14, source: "full", status: "settled",
           writeup: "flat/analyses/2026-10-28_dundalk/1500_7f-2yo-fillies-maiden.md", updated: "20:10 Tue 27 Oct",
           picks: [
-            { role: "win", horse: "Nevermindtherain", prob: 0.42, placeProb: 0.78, finish: "-", sp: null, confidence: "medium",
+            { role: "win", horse: "Nevermindtherain", prob: 0.42, placeProb: 0.78, finish: "2", sp: "13/8", confidence: "medium",
               reason: "Rated 93 against 82 for the next best, with form franked by later Group results (Leopardstown Gr3 3rd behind two later Gr1-placed fillies); carries 8-11 after a 5lb claim from draw 3.",
               against: "Still a maiden after 7 runs and headed late in her better efforts; never run on Polytrack or at Dundalk." },
-            { role: "ew", horse: "Golden Alibi", prob: 0.13, placeProb: 0.43, finish: "-", sp: null, confidence: "low",
+            { role: "ew", horse: "Golden Alibi", prob: 0.13, placeProb: 0.43, finish: "8", sp: "7/4", confidence: "low",
               reason: "Debut Listed 7th, 4.6L behind a winner rated 101, with the 2nd rated 105; the best raw form here bar the top pick, and likely to improve.",
               against: "Sprint-bred filly stepping up from 6f, held up from stall 15 on a track that favours low draws and front-runners; barrier-trial win unverified." },
-            { role: "danger", horse: "Sonic Sabiha", prob: 0.10, placeProb: 0.36, finish: "-", sp: null, confidence: "low",
+            { role: "danger", horse: "Sonic Sabiha", prob: 0.10, placeProb: 0.36, finish: "5", sp: "9/2", confidence: "low",
               reason: "2nd by a neck over C&D on 9 Oct with a rising run of form, no claim, and the best draw (stall 1).",
               against: "That race was slow (3.57s slower than standard) and unfranked, she is 5lb higher today, and she dwelt in 3 of 4 runs." }
           ],
-          winner: null, grade: "pending", errors: [],
-          notes: ""
+          winner: { horse: "Little Miss Muffet", sp: "12/1", agentProb: 0.04 },
+          grade: "mixed", errors: [],
+          notes: "Win Nevermindtherain led and was headed over 1f out, 2nd by 1.25L: the 'caught late' pattern we recorded as the case against, now 0 from 8. Each-Way Golden Alibi (doubts on trip, draw and style) was 8th at 7/4. Winner Little Miss Muffet (4%, 12/1; 147 days off, 3lb claim, 8.2L beaten on debut) improved. The three reserves did not get in (field 14)."
         },
         {
           time: "15:30", name: "Irish Stallion Farms EBF Maiden", type: "maiden", distance: "7f",
-          going: "Standard", runners: 11, source: "full", status: "pending",
+          going: "Standard", runners: 11, source: "full", status: "settled",
           writeup: "flat/analyses/2026-10-28_dundalk/1530_7f-2yo-ebf-maiden.md", updated: "19:50 Tue 27 Oct",
           picks: [
-            { role: "win", horse: "Mudyrk", prob: 0.40, placeProb: 0.76, finish: "-", sp: null, confidence: "medium",
+            { role: "win", horse: "Mudyrk", prob: 0.40, placeProb: 0.76, finish: "9", sp: "5/4", confidence: "medium",
               reason: "Only runner with Group-franked form: 2nd by a half-length at Fairyhouse to Florida Bay (since a G3 winner and G1 placed), 5lb worse off at the weights.",
               against: "145 days since his last run, never run on Polytrack, and drawn 11 of 11 where low draws and front-runners tend to do better." },
-            { role: "ew", horse: "Golden Idol", prob: 0.14, placeProb: 0.52, finish: "-", sp: null, confidence: "low",
+            { role: "ew", horse: "Golden Idol", prob: 0.14, placeProb: 0.52, finish: "2", sp: "10/1", confidence: "low",
               reason: "3rd of 13 on debut over 7f on heavy ground at the same 9-7, tracking the leaders; the 5th has since placed in a Dundalk 7f nursery. Stall 3.",
               against: "Beaten about 6 lengths, and nothing shows he can beat Mudyrk." },
-            { role: "danger", horse: "Eucalyptus", prob: 0.13, placeProb: 0.40, finish: "-", sp: null, confidence: "low",
+            { role: "danger", horse: "Eucalyptus", prob: 0.13, placeProb: 0.40, finish: "7", sp: "5/1", confidence: "low",
               reason: "Unraced J P O'Brien colt by McKinzie, half-brother to the high-class Passenger, ridden by Sheridan.",
               against: "No form at all, and the yard's debutants have been mixed." }
           ],
-          winner: null, grade: "pending", errors: [],
-          notes: ""
+          winner: { horse: "Tantardini", sp: "5/2", agentProb: 0.09 },
+          grade: "mixed", errors: [],
+          notes: "Win Mudyrk (40%) led after 1f from stall 11 and weakened to 9th, 10.25L, on his first Polytrack run after 145 days; the doubts were recorded but the 40% leaned on one franked run. Each-Way Golden Idol 2nd at 10/1. Danger Eucalyptus 7th on debut. Winner Tantardini (9%, 'place at best') had a 5lb claimer and stall 1."
         },
         {
           time: "16:00", name: "Christmas Party Nights At Dundalk Stadium Handicap (Div I)", type: "handicap", distance: "7f",
-          going: "Standard", runners: 14, source: "full", status: "pending",
+          going: "Standard", runners: 14, source: "full", status: "settled",
           writeup: "flat/analyses/2026-10-28_dundalk/1600_7f-0-60-handicap-div-1.md", updated: "09:04 Wed 28 Oct",
           picks: [
-            { role: "win", horse: "Liamo", prob: 0.13, placeProb: 0.34, finish: "-", sp: null, confidence: "low",
+            { role: "win", horse: "Liamo", prob: 0.13, placeProb: 0.34, finish: "6", sp: "11/1", confidence: "low",
               reason: "Three-pound claim verified: 5th, about 2L behind an OR50 winner at Dundalk 7f on 16 Oct and 2lb lighter today, which rates him about 44 against his OR42; stall 15 sits in a band that has done well in 2026, and cheekpieces are back on.",
               against: "1 win from about 23 flat runs, three of his last five beaten 7L or more, and stall 15 is the widest." },
-            { role: "ew", horse: "Battleforsupremacy", prob: 0.12, placeProb: 0.36, finish: "-", sp: null, confidence: "low",
+            { role: "ew", horse: "Battleforsupremacy", prob: 0.12, placeProb: 0.36, finish: "11", sp: "7/2", confidence: "low",
               reason: "Dundalk 7f record of a win in Nov 2025, a 3rd and a 4th (1.8L on 9 Oct off the same OR54); a 5lb claimer rides and blinkers go on for the 2nd time.",
               against: "Carries 12lb more than on 9 Oct off the same mark, and stall 1 (0 winners from 47 stall 1-4 runners since 1 Aug) leaves him tight; he was well beaten in two big fields elsewhere." },
-            { role: "danger", horse: "Jazzit", prob: 0.10, placeProb: 0.30, finish: "-", sp: null, confidence: "low",
+            { role: "danger", horse: "Jazzit", prob: 0.10, placeProb: 0.30, finish: "2", sp: "11/4", confidence: "low",
               reason: "Won this course and trip by a short head on 16 Oct, drawn low (stall 3).",
               against: "Now 4lb heavier and 5 higher in the ratings, and a held-up type." }
           ],
-          winner: null, grade: "pending", errors: [],
-          notes: ""
+          winner: { horse: "Pocket Jacks", sp: "6/1", agentProb: 0.07 },
+          grade: "mixed", errors: [],
+          notes: "Open 14-runner handicap: Win Liamo 6th (6L), Each-Way Battleforsupremacy 11th after being hampered 150 yards out, Danger Jazzit 2nd. Winner Pocket Jacks (7%, 6/1) was the 3yo filly with a placed record (2nd, 3rd, 6th) whose rating-versus-form gap we had noted, then trimmed for carrying 12lb more than on her last run; the two races' weights sit on different rating scales (about OR+72 then, OR+80 now), which may have overstated that rise."
         },
         {
           time: "16:30", name: "Christmas Party Nights At Dundalk Stadium Handicap (Div II)", type: "handicap", distance: "7f",
-          going: "Standard", runners: 14, source: "full", status: "pending",
+          going: "Standard", runners: 13, source: "full", status: "settled",
           writeup: "flat/analyses/2026-10-28_dundalk/1630_7f-0-60-handicap-div-2.md", updated: "20:55 Tue 27 Oct",
           picks: [
-            { role: "win", horse: "Una Matata", prob: 0.21, placeProb: 0.50, finish: "-", sp: null, confidence: "medium",
+            { role: "win", horse: "Una Matata", prob: 0.21, placeProb: 0.50, finish: "6", sp: "9/4", confidence: "medium",
               reason: "Three Dundalk 7f wins this year, 3rd on 16 Oct at 135 (134 today after a 5lb claim) and beat Jazzy Dancer at level weights; draw 3.",
               against: "Only one of her last six runs was close, she is 10-12lb below her winning marks, and the 16 Oct form is not franked." },
-            { role: "ew", horse: "Glen Breeze", prob: 0.12, placeProb: 0.36, finish: "-", sp: null, confidence: "low",
+            { role: "ew", horse: "Glen Breeze", prob: 0.12, placeProb: 0.36, finish: "9", sp: "11/1", confidence: "low",
               reason: "Beats Leannespour, Shamanka and Never Mind Me on weight-adjusted head-to-heads; carries 9-1 less a 5lb claim, runs prominently from draw 2.",
               against: "1 win from 16, laboured last time, rating down from 55 to 47, and only one run at Dundalk 7f (7th of 9)." },
-            { role: "danger", horse: "Roman Harry", prob: 0.10, placeProb: 0.32, finish: "-", sp: null, confidence: "low",
+            { role: "danger", horse: "Roman Harry", prob: 0.10, placeProb: 0.32, finish: "1", sp: "11/2", confidence: "low",
               reason: "Course-and-distance winner, 4th at Dundalk 7f in March at 141 (5lb more than today) and 2nd over 1m in August.",
               against: "Erratic, and 48 days since his last run." }
           ],
-          winner: null, grade: "pending", errors: [],
-          notes: ""
+          winner: { horse: "Roman Harry", sp: "11/2", agentProb: 0.1 },
+          grade: "mixed", errors: [],
+          notes: "Danger Roman Harry (10%) won at 11/2, so the winner was in our three. Win Una Matata, the 9/4 favourite, raced keenly and finished 6th, 2L behind; the case against (one close run in six, 10-12lb below her winning marks) applied. Each-Way Glen Breeze 9th. Never Mind Me was a non-runner (field 13, not 14)."
         },
         {
           time: "17:00", name: "Irish Stallion Farms EBF Auction Maiden", type: "maiden", distance: "6f",
-          going: "Standard", runners: 14, source: "full", status: "pending",
+          going: "Standard", runners: 13, source: "full", status: "settled",
           writeup: "flat/analyses/2026-10-28_dundalk/1700_6f-2yo-auction-maiden.md", updated: "09:05 Wed 28 Oct",
           picks: [
-            { role: "win", horse: "Crayons In The Sky", prob: 0.37, placeProb: 0.70, finish: "-", sp: null, confidence: "medium",
+            { role: "win", horse: "Crayons In The Sky", prob: 0.37, placeProb: 0.70, finish: "1", sp: "1/2", confidence: "medium",
               reason: "Strongest, franked form: Haven, who beat her about 4L, was next 2nd in the Fillies' Mile; Tosca No Candis (OR 92) beat her only 3/4L over this course and distance in a fast time. Only runner placed at Dundalk, at the same weight as that 2nd.",
               against: "0 from 4 (2nd, 4th, 2nd, 4th) is a placer profile, and her trainer is 0 from 7 in the last 14 days." },
-            { role: "ew", horse: "Belle Parvenue", prob: 0.14, placeProb: 0.38, finish: "-", sp: null, confidence: "low",
+            { role: "ew", horse: "Belle Parvenue", prob: 0.14, placeProb: 0.38, finish: "3", sp: "17/2", confidence: "low",
               reason: "Down 8lb from her last run (about 3L at 6f) after being beaten about 2.35L at level weights; back to 6f with a tongue strap, and her Cork race has worked out (2nd and 4th have won since).",
               against: "Never in the frame, and 5.25L behind at Cork despite 12lb in hand; her low weight reflects her cheap price, not the handicapper's view." },
-            { role: "danger", horse: "Normanton", prob: 0.15, placeProb: 0.42, finish: "-", sp: null, confidence: "low",
+            { role: "danger", horse: "Normanton", prob: 0.15, placeProb: 0.42, finish: "2", sp: "7/2", confidence: "low",
               reason: "4th on debut in heavy ground over 7f, about 6.75L behind the winner, and likely to improve.",
               against: "Top weight, dropping to 6f, and no frank found for the three in front of him." }
           ],
-          winner: null, grade: "pending", errors: [],
-          notes: ""
+          winner: { horse: "Crayons In The Sky", sp: "1/2", agentProb: 0.37 },
+          grade: "held", errors: [],
+          notes: "All three selections filled the first three: Win Crayons In The Sky won at 1/2, Danger Normanton 2nd, Each-Way Belle Parvenue 3rd at 17/2 for a place return. Step In Style was a non-runner and the reserve did not get in (field 13)."
         },
         {
           time: "17:30", name: "Happy Halloween Handicap", type: "handicap", distance: "1m4f",
-          going: "Standard", runners: 14, source: "full", status: "pending",
+          going: "Standard", runners: 13, source: "full", status: "settled",
           writeup: "flat/analyses/2026-10-28_dundalk/1730_1m4f-handicap.md", updated: "21:15 Tue 27 Oct",
           picks: [
-            { role: "win", horse: "Dancing Steve", prob: 0.15, placeProb: 0.40, finish: "-", sp: null, confidence: "low",
+            { role: "win", horse: "Dancing Steve", prob: 0.15, placeProb: 0.40, finish: "2", sp: "9/1", confidence: "low",
               reason: "Carries 8-8 (9-4 less a 10lb claim) against 9-6 when 6th, about 3 3/4L behind Enchanted Lady on 16 Oct, so around 12lb better off; his effective rating of 50 is below his last winning mark of 56.",
               against: "Rider is a very green 10lb claimer (one earlier ride), he fades late, and he is 0 from 10 at Dundalk." },
-            { role: "ew", horse: "Coolnagrattan", prob: 0.12, placeProb: 0.36, finish: "-", sp: null, confidence: "low",
+            { role: "ew", horse: "Coolnagrattan", prob: 0.12, placeProb: 0.36, finish: "5", sp: "3/1", confidence: "low",
               reason: "Unexposed 4yo, 3rd over Dundalk 1m4f 19 days ago and 3rd over Roscommon 1m4f in June, with the same 5lb claimer; level with Wandering Rocks on the 9 Oct line.",
               against: "No win in 6 runs, the 9 Oct form is not franked, and he raced freely both times at Dundalk." },
-            { role: "danger", horse: "Celtic Druid", prob: 0.11, placeProb: 0.34, finish: "-", sp: null, confidence: "low",
+            { role: "danger", horse: "Celtic Druid", prob: 0.11, placeProb: 0.34, finish: "13", sp: "12/1", confidence: "low",
               reason: "Two wins and a 2nd from four course-and-distance runs, carrying 9-1 after a 7lb claim, 3lb lighter than on 16 Oct.",
               against: "Slow into stride in each of his last three runs, three poor runs in a row, and drawn widest (stall 16)." }
           ],
-          winner: null, grade: "pending", errors: [],
-          notes: ""
+          winner: { horse: "Gallo Dell Cielo", sp: "10/3", agentProb: 0.11 },
+          grade: "mixed", errors: [],
+          notes: "Win Dancing Steve was beaten a neck at 9/1, the claim argument held. Winner Gallo Dell Cielo (11%, 10/3 joint favourite) was the horse we flagged for the best Dundalk record in the field (3 wins from 11) but held back for an unexplained rating rise. Each-Way Coolnagrattan 5th at 3/1, Danger Celtic Druid last. My First Rose was a non-runner and the reserves did not get in (field 13)."
         }
       ]
     }

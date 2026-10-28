@@ -201,3 +201,20 @@ Rest: Slightly 0.08, Kokoshanelle 0.07, National Debate 0.04, Little Miss Muffet
 Case against Golden Alibi (EW): 6f to 7f for a Golden Pal filly (sprint sire), held up from a wide stall 15 where Dundalk favours low draws and front-runners, one run only, and the barrier-trial claim is unverified. Case against the Win unchanged.
 
 Extra sources: https://www.racingpost.com/results/1138/dundalk-aw/2026-09-25/929159 ; https://www.racingpost.com/results/1138/dundalk-aw/2026-10-09/930322
+
+
+## Result
+
+- **Reviewed:** Wed 28 Oct 2026 (after the race; all results weighed in)
+- **Race:** 15:00; 1m26.34s, 14 ran (reserves did not get in), Standard
+- **Winner:** Little Miss Muffet (Donnacha Aidan O'Brien, Paddy Harnett, 3lb) 12/1, tracked leaders, led over 1f out, kept on well
+
+| Role | Pick | Win chance | Finish | Beaten | SP | Score (1pt) | Verdict |
+|---|---|---|---|---|---|---|---|
+| Win | Nevermindtherain | 42% | 2 | 1.25L | 13/8 | -1 | Sound but beaten: led, was headed over 1f out and could not get back, the 'caught late' pattern we recorded as the case against; now 0 from 8. 42% was the most concentrated Win of the day. |
+| Each-Way | Golden Alibi | 13% | 8 | 5.75L | 7/4 | -1 | Failed: the debut Listed 7th was the best raw form, but the doubts we recorded (6f to 7f, stall 15, held-up style, sprint sire) all applied. |
+| Danger | Sonic Sabiha | 10% | 5 | 3.25L | 9/2 | n/a | Ran as expected, kept on one pace after tracking leaders. |
+
+The winner was a 147-day-off debut 5th (beaten 8.2L) rated 4%, 'bred to be smart ... probably needs this'. National Debate (4%) was 4th. Nothing in the data separated the winner from the rest of the unexposed fillies.
+
+Fields: 14 ran; the three reserves did not get in.

@@ -167,3 +167,20 @@ Still unreachable:
 - At The Races Smart Stats and course trainer/jockey strike rates.
 - Mile-specific Dundalk draw table (Geegeez tables are images).
 - Moyassr's Future OR -5 from a second source.
+
+
+## Result
+
+- **Reviewed:** Wed 28 Oct 2026 (after the race; all results weighed in)
+- **Race:** 14:30; 1m39.74s, 12 ran (Lahore Da King NR), Standard
+- **Winner:** Leveraging (Ms S Lavery, Gary Carroll) 5/1, tracked leaders, led after 2f, held Sheamus Seimhiu (25/1) by a head
+
+| Role | Pick | Win chance | Finish | Beaten | SP | Score (1pt) | Verdict |
+|---|---|---|---|---|---|---|---|
+| Win | Moyassr | 23% | 10 | 7.7L | 11/2 | -1 | Failed: 8 months off the all-weather, a pending mark cut, an unproven 10lb claimer and Dundalk wins for a former yard were all on the page; 'always towards rear, never a factor'. Error G. |
+| Each-Way | Glitter And Glory | 10% | 3 | 0.95L | 11/1 | +0.875 | Held as an each-way: the 10lb-claim argument was good for 3rd at 11/1 (place return at a quarter of the odds). |
+| Danger | Bella Colombia | 17% | 5 | 2.7L | 11/1 | n/a | Never nearer than 4th; stall 12 and the lower finishes since her peak were the recorded doubts. |
+
+Leveraging (5%) had been noted as a front-runner with a faster-division 5th and a doubt about the extra furlong; he stayed on to win. Coasting (our 10%, outsider line) was 8th. Gavoo (9/4 favourite) 7th.
+
+Fields: 12 ran. Lahore Da King NR.
