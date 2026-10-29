@@ -495,6 +495,21 @@
       dataErrors: [],
       races: [
         {
+          time: "13:20", name: "bet365 \"Chasing Excellence\" Beginners' Chase", type: "chase", distance: "2m3f85y",
+          going: "Good (Good to Firm in places)", runners: 2, source: "full", status: "pending",
+          grade: "pending", errors: [], winner: null,
+          writeup: "jumps/analyses/2026-10-30_wetherby/1320_beginners-chase.md", updated: "17:44 Thu 29 Oct",
+          notes: "2-runner win-only Class-3 beginners' chase (a match at level weights). Win Florida Dreams — the only proven and now-franked fence-completer (finished ahead of subsequent Cl2 chase winner Chasingouttheblues) on a galloping stayers' track. Danger Le Beau Madrik is much classier (OR 137) but a chase debutant with a recurring untidy-hurdle-jumping pattern. Near coin-flip, low confidence. Re-check going/non-runners at the off.",
+          picks: [
+            { role: "win", horse: "Florida Dreams", prob: 0.52, placeProb: 0.90, finish: "-", confidence: "low",
+              reason: "The only runner proven over fences, now franked (beat subsequent Cl2 chase winner Chasingouttheblues); stays well, level weights, galloping sound-jumping track suits; Hughes/Thomson.",
+              against: "18lb inferior on ratings (119 v 137) and declining; its one chase run was error-strewn and a year ago — if the classier rival jumps, he wins." },
+            { role: "danger", horse: "Le Beau Madrik", prob: 0.48, placeProb: 0.82, finish: "-", confidence: "low",
+              reason: "Much the better horse (OR 137, G2 bumper 2nd, Cl2 hurdle winner) from a yard whose first-time chasers fire; wins comfortably if he handles fences.",
+              against: "Chase debutant with a confirmed recurring untidy-hurdle-jumping pattern going to bigger obstacles — a real, specific jumping doubt." }
+          ]
+        },
+        {
           time: "14:25", name: "bet365 Handicap Hurdle", type: "hurdle", distance: "2m3f154y",
           going: "Good (Good to Firm in places)", runners: 4, source: "full", status: "pending",
           grade: "pending", errors: [], winner: null,
