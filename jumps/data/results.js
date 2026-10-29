@@ -542,6 +542,24 @@
           ]
         },
         {
+          time: "15:35", name: "Bet Boost At bet365 Crossley Handicap Chase (Premier Handicap)", type: "chase", distance: "2m3f85y",
+          going: "Good (Good to Firm in places)", runners: 7, source: "full", status: "pending",
+          grade: "pending", errors: [], winner: null,
+          writeup: "jumps/analyses/2026-10-30_wetherby/1535_crossley-handicap-chase.md", updated: "20:14 Thu 29 Oct",
+          notes: "Feature: Class-1 Premier Handicap Chase, 7 runners. Win Kingston Narcissus — progressive, 4-from-4 completions, stays 2m5f, receives 7lb from Breaking Cover's claim-adjusted mark and held him at Uttoxeter, Skelton first string. EW Prairie Wolf (best last-season form, 3rd in this race fresh last year, places 4 of 5 FTO) at a price. Danger Breaking Cover (hat-trick, stays the trip, but up into Cl1 off a career-high mark). Gap-fill switched EW from Primoz to Prairie Wolf and corrected the KN 'unlucky' and BC 'outstayed' lines. Re-check going/non-runners at the off.",
+          picks: [
+            { role: "win", horse: "Kingston Narcissus", prob: 0.25, placeProb: 0.46, finish: "-", confidence: "medium",
+              reason: "Progressive, 4-from-4 chase completions, proven to 2m5f on a galloping stayers' track; receives 7lb from Breaking Cover's effective mark and beat him at Uttoxeter; Dan Skelton's first string (Harry Skelton rides).",
+              against: "104 days off (first run back), three straight seconds without winning, career-high mark — and the 'unlucky' Summer Plate line is unverified; may again finish second rather than quicken clear." },
+            { role: "ew", horse: "Prairie Wolf", prob: 0.15, placeProb: 0.36, finish: "-", confidence: "low",
+              reason: "Best last-season form in the race (won 3 of final 4), 3rd in this exact race fresh last year, and places first-time-out in 4 of 5 seasons — a verified place chance at a longer price.",
+              against: "223 days off and +8lb on last year's 3rd; places rather than wins fresh, so the win chance is capped." },
+            { role: "danger", horse: "Breaking Cover", prob: 0.22, placeProb: 0.41, finish: "-", confidence: "medium",
+              reason: "Red-hot hat-trick on fast ground, and his Grade 2 2m4f 2nd (beaten ~1L) shows he stays today's trip, so the stamina doubt is small.",
+              against: "Steps up from small Cl2/3 fields into a Cl1 Premier off a career-high OR142, and can jump sketchily." }
+          ]
+        },
+        {
           time: "16:10", name: "Racing Value At bet365 Handicap Hurdle (Go North Cab On Target Series Qualifier)", type: "hurdle", distance: "2m5f56y",
           going: "Good (Good to Firm in places)", runners: 14, source: "full", status: "pending",
           grade: "pending", errors: [], winner: null,
