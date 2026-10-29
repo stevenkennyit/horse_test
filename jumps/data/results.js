@@ -510,6 +510,23 @@
           ]
         },
         {
+          time: "13:50", name: "Best Odds Guaranteed At bet365 Maiden Hurdle", type: "hurdle", distance: "2m3f154y",
+          going: "Good (Good to Firm in places)", runners: 5, source: "full", status: "pending",
+          grade: "pending", errors: [], winner: null,
+          writeup: "jumps/analyses/2026-10-30_wetherby/1350_maiden-hurdle.md", updated: "20:15 Thu 29 Oct",
+          notes: "5-runner Class-4 maiden hurdle; both market principals are hurdles debutants. Win I've Got A Friend — dual recent bumper winner, fit (19d), verified pre-bumper point/obstacle experience eases the jumping doubt, Brian Hughes. EW Nate Of Spades — best-franked bumper form (beat a subsequent Cl2 2nd) at a longer price, but 173 days off on only his 2nd start. Danger Wings Of The Glen, a hot-Menzies-yard debutant. Win capped ~0.40. Re-check going/non-runners at the off.",
+          picks: [
+            { role: "win", horse: "I've Got A Friend", prob: 0.40, placeProb: 0.68, finish: "-", confidence: "medium",
+              reason: "Dual recent bumper winner, fit (ran 19 days ago), with verified pre-bumper point/obstacle experience that eases the jumping unknown; prominent type for a galloping fast-ground track; Brian Hughes.",
+              against: "Still a hurdles debutant and his two bumper wins were modest and narrow (lightly franked), with one point unseat on record." },
+            { role: "ew", horse: "Nate Of Spades", prob: 0.31, placeProb: 0.58, finish: "-", confidence: "medium",
+              reason: "Best-franked form in the race — his Warwick bumper win beat Dennis's Honor (2nd in a Cl2 since) and the 4/7 favourite; a different horse at a longer fair price with a high place chance.",
+              against: "173-day layoff on only his 2nd career start and no obstacle experience — can need the run first time over hurdles." },
+            { role: "danger", horse: "Wings Of The Glen", prob: 0.12, placeProb: 0.33, finish: "-", confidence: "low",
+              reason: "Confirmed true debutant from the hot Menzies yard (44% last 14 days) with a staying-hurdle damline — unexposed potential that could leap two debutant-jumping principals." }
+          ]
+        },
+        {
           time: "14:25", name: "bet365 Handicap Hurdle", type: "hurdle", distance: "2m3f154y",
           going: "Good (Good to Firm in places)", runners: 4, source: "full", status: "pending",
           grade: "pending", errors: [], winner: null,
