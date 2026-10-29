@@ -484,6 +484,32 @@
           ]
         }
       ]
+    },
+    {
+      date: "2026-10-30",
+      course: "Wetherby",
+      country: "GB",
+      code: "jumps",
+      playbook: "jumps/AGENTS-jumps.md",
+      going: "Good (Good to Firm in places)",
+      dataErrors: [],
+      races: [
+        {
+          time: "14:25", name: "bet365 Handicap Hurdle", type: "hurdle", distance: "2m3f154y",
+          going: "Good (Good to Firm in places)", runners: 4, source: "full", status: "pending",
+          grade: "pending", errors: [], winner: null,
+          writeup: "jumps/analyses/2026-10-30_wetherby/1425_handicap-hurdle.md", updated: "17:41 Thu 29 Oct",
+          notes: "4-runner win-only Class-3 handicap hurdle. Gap-fill flipped the Win from Handlethekettle to Service Minimum: rated 10lb higher yet carries the same 11-6 via the 10lb claim, form franked (Newton Abbot winner-line produced a later Wetherby Cl3 winner), and Wetherby's 2.5m-hurdle pace bias discounts Handlethekettle's lone-front-runner edge. Fast ground; re-verify going at the off.",
+          picks: [
+            { role: "win", horse: "Service Minimum", prob: 0.41, placeProb: 0.74, finish: "-", confidence: "medium",
+              reason: "Rated 10lb higher than the 122 pair but carries the same 11-6 via the claim; progressive mare with franked 2026 form, handles trip/ground, Skelton ~29% at Wetherby.",
+              against: "The 10lb-claiming conditional (Lewis) is very raw in a tactical 4-runner race, and her best wins came at 2m5f — she can be outpaced late if it is steady." },
+            { role: "danger", horse: "Handlethekettle", prob: 0.35, placeProb: 0.72, finish: "-", confidence: "medium",
+              reason: "Likely lone leader at his ideal 2m3-4f/good trip, fit 2nd run, franked reappearance 2nd, won a Cl2 off 121; Snowden flying at Wetherby.",
+              against: "Wetherby's 2.5m-hurdle pace data removes his front-running edge, and he meets a 10lb-superior rival on the same weight." }
+          ]
+        }
+      ]
     }
   ]
 });
