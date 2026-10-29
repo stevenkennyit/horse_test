@@ -540,6 +540,24 @@
             { role: "danger", horse: "Minella Rockett", prob: 0.22, placeProb: 0.52, finish: "-", confidence: "medium",
               reason: "Highest Flat class (IRE 90, progressive), Timeform top-rated, won his only hurdle start — most likely to beat the top two if ability transfers, but rests on one hurdle run four months ago." }
           ]
+        },
+        {
+          time: "16:10", name: "Racing Value At bet365 Handicap Hurdle (Go North Cab On Target Series Qualifier)", type: "hurdle", distance: "2m5f56y",
+          going: "Good (Good to Firm in places)", runners: 14, source: "full", status: "pending",
+          grade: "pending", errors: [], winner: null,
+          writeup: "jumps/analyses/2026-10-30_wetherby/1610_handicap-hurdle.md", updated: "20:02 Thu 29 Oct",
+          notes: "14-runner Class-5 handicap hurdle (October Hill NR). Win Noonetellsmenothin — race-fit (3rd here on GF 16 days ago), prominent on a handy/speed-favouring galloping track, stays the step up to 2m5f. EW Midnight Bella is the value improver (franked 2nd, first run after a wind op, 5lb-well-in feel, Westerner stamina) at a long price. Danger Robber's Bridge, a franked, proven-fresh winner dropping in grade. Win capped at 0.22; field spread. Re-check going/non-runners at the off.",
+          picks: [
+            { role: "win", horse: "Noonetellsmenothin", prob: 0.22, placeProb: 0.52, finish: "-", confidence: "medium",
+              reason: "Fittest principal — 3rd here on Good-to-Firm 16 days ago, progressive 5yo proven to stay the step up (3rd over 2m7f), prominent on a speed-favouring galloping track, O'Neill Jr replaces Macey.",
+              against: "Top weight 12-0 with no claim and still a handicap maiden; franking shows he was an exposed 105-horse outpaced by two improvers last time, so needs the pace to collapse." },
+            { role: "ew", horse: "Midnight Bella", prob: 0.08, placeProb: 0.34, finish: "-", confidence: "low",
+              reason: "Value improver: franked Newcastle 2nd, first run after a confirmed wind op, only 3lb higher off 11-0, Westerner (stamina) sire, front-runner on speed ground, Timeform top-rated — best place-at-a-price.",
+              against: "241 days off with only a single worthwhile hurdles run; a front-runner needing her ground in a hot, contested pace could be first to crack." },
+            { role: "danger", horse: "Robber's Bridge", prob: 0.18, placeProb: 0.46, finish: "-", confidence: "medium",
+              reason: "Franked January winner, proven fresh (won off a 133-day break), stays the trip on good at a galloping track, drops in grade and gets 3lb (eff 11-11).",
+              against: "222 days off a cold yard (0/4 last 14), 6lb higher than his last C5 winning mark, and recurrently 'not fluent'." }
+          ]
         }
       ]
     }
