@@ -508,6 +508,23 @@
               reason: "Likely lone leader at his ideal 2m3-4f/good trip, fit 2nd run, franked reappearance 2nd, won a Cl2 off 121; Snowden flying at Wetherby.",
               against: "Wetherby's 2.5m-hurdle pace data removes his front-running edge, and he meets a 10lb-superior rival on the same weight." }
           ]
+        },
+        {
+          time: "15:00", name: "Paul Ferguson's Jumpers To Follow Wensleydale Juvenile Hurdle (Listed)", type: "hurdle", distance: "2m",
+          going: "Good (Good to Firm in places)", runners: 8, source: "full", status: "pending",
+          grade: "pending", errors: [], winner: null,
+          writeup: "jumps/analyses/2026-10-30_wetherby/1500_wensleydale-juvenile-hurdle.md", updated: "17:42 Thu 29 Oct",
+          notes: "Listed (Cl1) juvenile hurdle, 8 runners all 3yo at level weights. Open race, no dominant standout, so Win capped at 0.26. Win Vietnorm on best proven, self-franking hurdle form; EW Wicksey as the place-at-a-price; Danger Minella Rockett (Timeform top-rated but one hurdle run four months ago). Fast ground; re-verify going + non-runners at the off.",
+          picks: [
+            { role: "win", horse: "Vietnorm", prob: 0.26, placeProb: 0.58, finish: "-", confidence: "medium",
+              reason: "Best proven hurdle form (OR 115, 8lb clear); 8.5L debut romp and a self-franking line (beat Moment Of Light, who beat Timely Salute); prominent type suits Wetherby on fast ground.",
+              against: "Keen-goer who ran out through the rails once (8/11) — a temperament/steering lapse that could recur, and recent winning margins are narrow." },
+            { role: "ew", horse: "Wicksey", prob: 0.11, placeProb: 0.45, finish: "-", confidence: "medium",
+              reason: "Reliable, 2-from-2 over hurdles, improving jumper that stays — the best place-at-a-price outside the fancied pair, likely a longer price.",
+              against: "Form a notch below the top (modest beaten rivals; Cartmel win devalued as Vietnorm ran out), green/keen and 60 days off." },
+            { role: "danger", horse: "Minella Rockett", prob: 0.22, placeProb: 0.52, finish: "-", confidence: "medium",
+              reason: "Highest Flat class (IRE 90, progressive), Timeform top-rated, won his only hurdle start — most likely to beat the top two if ability transfers, but rests on one hurdle run four months ago." }
+          ]
         }
       ]
     }
