@@ -254,3 +254,19 @@ The Sporting Life race JSON (946643) includes a written verdict. I saw it only a
 - **DANGER Saliba:** 0.18 win, 0.48 place.
 - **Rest of the field** unchanged at 0.38.
 - **Why unchanged:** the claim question settled in favour of the first reading. Oracle's refined range overlaps Spacebound on rating, but her form has no frank and she has only 2 runs, while Spacebound's March line is franked by an OR-98 winner. So the order stands.
+
+## Result (reviewed 17:30 Thu 29 Oct 2026)
+
+11 ran (Oracle Of Delphi non-runner, declared in error). Going: Yielding (Yielding to Soft in places). Time 1m 32.84s, 4.84s slow.
+
+**Finishing order:** 1 Celestial Siren 5/1 · 2 Spacebound ½ 4/5F · 3 Tide Of Fortune ½ (1L) 9/1 · 4 Saliba nk (1.25L) 4/1 · 5 Abiding Memory 6 (7.25L) · ...
+
+| Selection | Horse | Finish | Beaten | SP | Did the reasoning hold? |
+|---|---|---|---|---|---|
+| Win | Spacebound | 2nd | 0.5L | 4/5F | Failed on the recorded fault: led but pestered, headed under 2f out, rallied too late. Headed or 'no extra' late in 4 of 5 earlier runs. |
+| Each-Way | Oracle Of Delphi | NR | - | - | Void: declared in error. |
+| Danger | Saliba | 4th | 1.25L | 4/1 | Held as written: outpaced under 2f out at a trip shorter than his best, ran on. |
+
+**Verdict:** Mixed (errors H, J). Winner Celestial Siren (12%) was our named nearest outsider, but we ranked her behind Oracle Of Delphi on their Navan meeting, which was her first run for 369 days; her pre-layoff form (2nd 3 times) was the better guide. The Win again lost to his recorded late-fade pattern.
+
+Sources: Racing Post result page (in-running comments, distances, SP) and Sporting Life race API (order, SP), read 17:10 Thu 29 Oct.

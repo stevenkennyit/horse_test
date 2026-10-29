@@ -290,3 +290,19 @@ Rest of field: Movin And Groovin 0.11, Tariff 0.10, Mogwli 0.08, Tai Tam Bay 0.0
 ### Additional sources
 - SL race API (claims): https://www.sportinglife.com/api/horse-racing/race/944561
 - IrishRacing (course-average times): https://www.irishracing.com/raceresults/Thu-15th-Oct-2026/Curragh/1707 ; https://www.irishracing.com/raceresults/Tue-20th-Oct-2026/Curragh/1645 ; https://www.irishracing.com/raceresults/Mon-19th-Oct-2026/Gowran-Park/1610 ; https://www.irishracing.com/raceresults/Mon-12th-Oct-2026/Roscommon/1500 ; https://www.irishracing.com/raceresults/Sun-2nd-Nov-2025/Curragh/1355 ; https://www.irishracing.com/raceresults/Thu-20th-Aug-2026/Leopardstown/1800 ; https://www.irishracing.com/raceresults/Tue-5th-May-2026/Gowran-Park/2008
+
+## Result (reviewed 17:30 Thu 29 Oct 2026)
+
+12 ran (Fan Club non-runner, ran yesterday). Going: Yielding (Yielding to Soft in places). Time 1m 32.82s, 4.82s slow.
+
+**Finishing order:** 1 Tai Tam Bay 13/2 · 2 Micasso 1¼ 15/2 · 3 Tariff 3¼ (4.5L) 9/4F · 4 Tempted Angel nk (4.75L) 25/1 · 5 Staywitherjohnny 1 (5.75L) 14/1 · 6 La Tulipe Noire ½ (6.25L) 6/1 · ... 10 Free Solo (10.25L) 10/1
+
+| Selection | Horse | Finish | Beaten | SP | Did the reasoning hold? |
+|---|---|---|---|---|---|
+| Win | La Tulipe Noire | 6th | 6.25L | 6/1 | Failed: midfield, outpaced under 2f out. Her head-to-head edges came from a slowly run race and year-old heavy-ground form, both flagged. |
+| Each-Way | Staywitherjohnny | 5th | 5.75L | 14/1 | Failed but ran to the case: in rear, plenty to do, ran on from 1f out at a trip below her best. |
+| Danger | Free Solo | 10th | 10.25L | 10/1 | Failed: dropped to midfield 3f out, weakened. |
+
+**Verdict:** Failed (error J). Winner Tai Tam Bay (8%) soon led from stall 3 and held on. The write-up had her well handicapped on autumn-2025 form and second up after a 5-month layoff, but rated her on the comeback run (about 42). Tariff, dropped from Danger in the gap pass, ran 3rd at 9/4 favourite.
+
+Sources: Racing Post result page (in-running comments, distances, SP) and Sporting Life race API (order, SP), read 17:10 Thu 29 Oct.

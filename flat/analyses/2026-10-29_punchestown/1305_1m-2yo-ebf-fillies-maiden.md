@@ -264,3 +264,19 @@ A Frankel filly out of a Group-placed miler, now stepping up to 1m. The 5lb clai
 - Untried at 1m and on soft.
 - OR 75 says the handicapper rates her 18lb behind Wunderschon.
 - Her form is 5 months old against fillies who have since run 1 to 4 more times.
+
+## Result (reviewed 17:30 Thu 29 Oct 2026)
+
+8 ran (Anymore non-runner, unsuitable ground). Going: Yielding (Yielding to Soft in places). Time 1m 47.46s, 6.06s slow of standard.
+
+**Finishing order:** 1 Petticoat Bay 10/3 · 2 San Juan De Lope nk 6/1 · 3 Wunderschon ¾ (1L) 8/13F · 4 Duquesne Bay 6 (7L) 28/1 · 5 Unreal Friend ½ (7.5L) 33/1 · 6 Lan De Ghaire ¾ (8.25L) 28/1 · 7 Handsoffshesmine · 8 Looking For Love
+
+| Selection | Horse | Finish | Beaten | SP | Did the reasoning hold? |
+|---|---|---|---|---|---|
+| Win | Wunderschon | 3rd | 1L | 8/13F | Failed on the recorded fault: outpaced under 2f out, ran on, never reached the leaders. No finishing kick in 3 of 4 earlier runs, and again here. |
+| Each-Way | Lan De Ghaire | 6th | 8.25L | 28/1 | Failed: raced wide on the turn, lost ground 2f out. Gap-pass switch from Unreal Friend (5th) made no difference. |
+| Danger | Petticoat Bay | 1st | - | 10/3 | Held: prominent, led early, rallied to lead near the finish; second-run and claim case right. |
+
+**Verdict:** Mixed (error H). The Danger won for the stated reasons and the debutant we had at 10% (San Juan De Lope) was 2nd. The Win at 37% lost to the exact fault the write-up recorded; a recurring no-kick maiden should not have carried that much of the win chance.
+
+Sources: Racing Post result page (in-running comments, distances, SP) and Sporting Life race API (order, SP), read 17:10 Thu 29 Oct.

@@ -11,6 +11,9 @@
 })({
   errorTypes: {
     G: "Older horse (4yo+) returning after 200+ days kept as a Win or Each-Way pick at a normal probability, with the long absence recorded as a doubt but not priced",
+    H: "Win kept despite its own recorded recurring in-race fault (slow starts, no finishing kick, headed late) seen in 3+ recent runs; the fault recurred in the race (Step 13)",
+    I: "Horse that ran the previous day (double declaration) made a selection without a race-morning declaration check; it was withdrawn",
+    J: "Second run after a long layoff rated on the comeback run rather than on its pre-layoff form",
     F: "Live outsider (recent winner, franked figure or favourable mark/yard move) left at a near-zero probability despite its own outsider-check case"
   },
   meetings: [
@@ -577,120 +580,144 @@
       dataErrors: [
         "Racing Post result pages blocked to plain fetches (403/406): no times against standard, RPR or Topspeed for any run; time comparisons are same-card only.",
         "At The Races Smart Stats behind a bot check (not bypassed): no course trainer/jockey records. No Punchestown 7f draw or pace data found (one earlier Flat meeting on this track, 15 Sep 2026); draw treated as neutral.",
-        "15:05: the analyst saw the Sporting Life verdict after the ranking was built; it was not used."
+        "15:05: the analyst saw the Sporting Life verdict after the ranking was built; it was not used.",
+        "No race-morning non-runner or going re-check was run (third meeting in a row). Last checks were about 19:00 Wed. Non-runners: Anymore (13:05, unsuitable ground), Melchizedek (14:35, off feed), Oracle Of Delphi (15:05 Each-Way, declared in error), Fan Club (15:35, ran yesterday), Pocket Jacks (16:05 Win, ran yesterday). Two selections were void.",
+        "Going was recorded as yielding to soft, yielding in places (Wed evening); the official race-day going was Yielding (Yielding to Soft in places), slightly quicker.",
+        "Course evidence for future Punchestown 7f races: four of the five 7f winners made all or raced prominently (Imposing, Margot Mae, Celestial Siren, Tai Tam Bay; Buttermere Ridge chased the leader). All races ran 4-6s slow of Racing Post standard."
       ],
       races: [
         {
           time: "13:05", name: "Irish Stallion Farms EBF Fillies Maiden", type: "maiden", distance: "1m",
-          going: "Yielding to Soft", runners: 9, source: "full", status: "pending",
+          going: "Yielding to Soft", runners: 8, source: "full", status: "settled",
           writeup: "flat/analyses/2026-10-29_punchestown/1305_1m-2yo-ebf-fillies-maiden.md", updated: "18:57 Wed 28 Oct",
           picks: [
-            { role: "win", horse: "Wunderschon", prob: 0.37, placeProb: 0.70, finish: "-", confidence: "medium",
+            { role: "win", horse: "Wunderschon", prob: 0.37, placeProb: 0.70, finish: "3", sp: "8/13", confidence: "medium",
               reason: "OR 93, 18lb clear of the only other rated filly; 4th in the Eyrefield Group 3 and 4th in a franked Punchestown fillies' maiden (winner then 2nd in a Group 3, runner-up won next).",
               against: "Still a maiden after 4 runs, never within 2L of the winner, no finishing kick in 3 of 4 comments, and never raced on soft." },
-            { role: "ew", horse: "Lan De Ghaire", prob: 0.12, placeProb: 0.36, finish: "-", confidence: "low",
+            { role: "ew", horse: "Lan De Ghaire", prob: 0.12, placeProb: 0.36, finish: "6", sp: "28/1", confidence: "low",
               reason: "May form close to Listed and Group horses (3rd a neck behind later Listed winner Dancing Destiny); her 23.7L flop has an IHRB stewards' excuse (stumbled leaving the stalls).",
               against: "Off 158 days, never tried at 1m or on soft, and 18lb below Wunderschon on ratings." },
-            { role: "danger", horse: "Petticoat Bay", prob: 0.16, placeProb: 0.44, finish: "-", confidence: "low",
+            { role: "danger", horse: "Petticoat Bay", prob: 0.16, placeProb: 0.44, finish: "1", sp: "10/3", confidence: "low",
               reason: "A P O'Brien Frankel filly on her second run, up to 1m, 3rd on soft on debut, and the 5lb claim makes her the lightest at 8-11.",
               against: "One run, beaten on debut; the step up in trip is untested." }
-          ]
+          ],
+          winner: { horse: "Petticoat Bay", sp: "10/3", agentProb: 0.16 },
+          grade: "mixed", errors: ["H"],
+          notes: "Danger Petticoat Bay won at 10/3: prominent, led early and rallied to lead near the finish, the 5lb claim and second-run case holding. Win Wunderschon 3rd at 8/13 favourite, beaten 0.75L and a neck: 'outpaced under 2f out, ran on, not reach leaders', the no-finishing-kick fault recorded in 3 of her 4 runs recurring (error H). Each-Way Lan De Ghaire 6th, 8.25L, after 158 days off; the gap-pass switch from Unreal Friend (5th) made no difference. San Juan De Lope, the debutant we had at 10%, was 2nd at 6/1. Anymore was a non-runner (unsuitable ground; field 8)."
         },
         {
           time: "13:35", name: "Punchestown Premiere Weekend Sat 21 & Sun 22 November Handicap", type: "handicap", distance: "1m",
-          going: "Yielding to Soft", runners: 14, source: "full", status: "pending",
+          going: "Yielding to Soft", runners: 14, source: "full", status: "settled",
           writeup: "flat/analyses/2026-10-29_punchestown/1335_1m-handicap.md", updated: "19:10 Wed 28 Oct",
           picks: [
-            { role: "win", horse: "Lady Arwen", prob: 0.17, placeProb: 0.44, finish: "-", confidence: "low",
+            { role: "win", horse: "Lady Arwen", prob: 0.17, placeProb: 0.44, finish: "7", sp: "14/1", confidence: "low",
               reason: "Most in hand on handicap yardsticks (ran to about 72-78 against an effective 66 after Cleary's 5lb claim), placed in 4 of her last 6, the only franked form among the contenders, and handles soft.",
               against: "Slowly away in each of her last 6 runs, her last run was her worst of the season, and her Punchestown runs were over 1m1f." },
-            { role: "ew", horse: "Flash Of Fire", prob: 0.12, placeProb: 0.34, finish: "-", confidence: "low",
+            { role: "ew", horse: "Flash Of Fire", prob: 0.12, placeProb: 0.34, finish: "4", sp: "9/2", confidence: "low",
               reason: "About 3-6lb in hand on two of her last three runs (4th at Punchestown over 1m 30y, 5th in a strong Naas 7f handicap on soft); mark down 4lb and 9-5 with Mulligan's claim.",
               against: "Beaten 17.25L at Cork last time in first-time cheekpieces, 1 win from 7, may need to settle, and the September start may not be today's." },
-            { role: "danger", horse: "Jp's Express", prob: 0.12, placeProb: 0.40, finish: "-", confidence: "low",
+            { role: "danger", horse: "Jp's Express", prob: 0.12, placeProb: 0.40, finish: "13", sp: "10/1", confidence: "low",
               reason: "Consistent at 1m-1m1f on soft (3, 3, 6, 5, 1, 3) and a career-best 3rd of 19 at the Curragh last time.",
               against: "On yardsticks he has only run to about his mark (70), a place type; only narrowly ahead of Aquilla Star." }
-          ]
+          ],
+          winner: { horse: "Lady Mary Heath", sp: "10/3", agentProb: 0.04 },
+          grade: "failed", errors: ["H", "F"],
+          notes: "Won by Lady Mary Heath (4%, 10/3 favourite), held up and switched for a run to win going away. Our write-up had her 5lb lighter than her 5th of 23 at the Curragh 9 days earlier and solid in big Curragh fields, but parked her at 4% as a 'maiden after 10 runs' (error F). Win Lady Arwen 7th, 6.75L: 'slowly away, in rear', the fault recorded in each of her last 6 runs (error H). Each-Way Flash Of Fire 4th, beaten a short head for 3rd after challenging. Danger Jp's Express 13th, short of room and beaten 22.75L."
         },
         {
           time: "14:05", name: "Win A Trip To Lapland At Punchestown On Sun 22 November Maiden", type: "maiden", distance: "7f",
-          going: "Yielding to Soft", runners: 11, source: "full", status: "pending",
+          going: "Yielding to Soft", runners: 11, source: "full", status: "settled",
           writeup: "flat/analyses/2026-10-29_punchestown/1405_7f-2yo-maiden.md", updated: "18:56 Wed 28 Oct",
           picks: [
-            { role: "win", horse: "Nonsense", prob: 0.26, placeProb: 0.60, finish: "-", confidence: "low",
+            { role: "win", horse: "Nonsense", prob: 0.26, placeProb: 0.60, finish: "2", sp: "15/8", confidence: "low",
               reason: "1.75L 2nd of 12 on debut in a Curragh 7f soft maiden behind a 30/100 shot, 1.75L clear of Wo Wo Never (OR 88): the highest central figure here (about 91), on today's trip and ground.",
               against: "One run at 33/1, the winner has not run since (no frank), headed late, small yard, and stall 10 has unknown effect." },
-            { role: "ew", horse: "Imposing", prob: 0.19, placeProb: 0.50, finish: "-", confidence: "low",
+            { role: "ew", horse: "Imposing", prob: 0.19, placeProb: 0.50, finish: "1", sp: "7/2", confidence: "low",
               reason: "Improved from a 14.75L debut to a 2L 2nd at Leopardstown over 7f; the Critical Reason line puts him about 90-93, and he is the likely leader from stall 3.",
               against: "Leopardstown looked steadily run, 4lb worse off with the smaller claim, untried on soft, and his course debut was poor." },
-            { role: "danger", horse: "Oklahoma", prob: 0.18, placeProb: 0.48, finish: "-", confidence: "low",
+            { role: "danger", horse: "Oklahoma", prob: 0.18, placeProb: 0.48, finish: "5", sp: "9/4", confidence: "low",
               reason: "Best peak form in the race: 2.25L 2nd to G1 winner Giant Sequoia and 1L 3rd to City of Dubai; OR 87.",
               against: "Weakened in each of his last 3 runs, beaten favourite each time, off 37 days, untried on soft." }
-          ]
+          ],
+          winner: { horse: "Imposing", sp: "7/2", agentProb: 0.19 },
+          grade: "held", errors: [],
+          notes: "Each-Way Imposing won at 7/2, making virtually all from stall 3 exactly as the write-up's lone-leader case said. Win Nonsense (15/8 favourite) 2nd, 1.5L: keen, outpaced 2f out and ran on, a sound pick beaten by the pace set-up. Danger Oklahoma 5th, 4.25L, weakening late for the fourth run in a row as recorded. Princeton (12%) 3rd. All three selections' reasoning held."
         },
         {
           time: "14:35", name: "Premiere Weekend Race & Dine Packages From 75 Euros Nursery Handicap", type: "nursery", distance: "7f",
-          going: "Yielding to Soft", runners: 6, source: "full", status: "pending",
+          going: "Yielding to Soft", runners: 6, source: "full", status: "settled",
           writeup: "flat/analyses/2026-10-29_punchestown/1435_7f-2yo-nursery-handicap.md", updated: "18:58 Wed 28 Oct",
           picks: [
-            { role: "win", horse: "Margot Mae", prob: 0.24, placeProb: 0.45, finish: "-", confidence: "low",
+            { role: "win", horse: "Margot Mae", prob: 0.24, placeProb: 0.45, finish: "1", sp: "11/4", confidence: "low",
               reason: "Back to 7f on soft-side ground, the conditions of her best run (1.05L 3rd in June, with Ibelieveicanfly, now rated 98-100, behind her); mark down from 78 to 70 and an easier race than last time.",
               against: "Four runs since have rated about 63-69, below today's 70, and the June run was not fast on the clock." },
-            { role: "ew", horse: "Gabby Hayes", prob: 0.21, placeProb: 0.40, finish: "-", confidence: "low",
+            { role: "ew", horse: "Gabby Hayes", prob: 0.21, placeProb: 0.40, finish: "6", sp: "8/1", confidence: "low",
               reason: "Best repeated clock figures in the field, including 3rd on heavy at the Curragh behind Moon Sand (5th in a Group 3 next time); 3lb below the mark he placed off, on suitable ground.",
               against: "Beaten 6L+ in all four maidens, 13th of 13 on the all-weather last time, and Miss Cornelia beat him at Galway on worse terms." },
-            { role: "danger", horse: "Wecouldavehaditall", prob: 0.22, placeProb: 0.43, finish: "-", confidence: "low",
+            { role: "danger", horse: "Wecouldavehaditall", prob: 0.22, placeProb: 0.43, finish: "5", sp: "13/8", confidence: "low",
               reason: "1.45L 3rd in the Naas nursery; OR 68 less a 3lb claim is an effective 65, with a first-time hood after pulling hard.",
               against: "Her three 7f runs were beaten 9-12L and the Naas race was slowly run." }
-          ]
+          ],
+          winner: { horse: "Margot Mae", sp: "11/4", agentProb: 0.24 },
+          grade: "held", errors: [],
+          notes: "Win Margot Mae won at 11/4, making all against the far rail back at 7f on easy ground, as argued. Each-Way Gabby Hayes last of 6, 9.25L: raced in last and wide, the hold-up-in-a-steady-pace doubt we recorded. Danger Wecouldavehaditall 5th at 13/8 favourite, no extra late at 7f, the trip doubt recorded. Melchizedek was a non-runner (off feed), as Racing Post had him the evening before."
         },
         {
           time: "15:05", name: "Premiere Weekend Two-Day Ticket Just 35 Euros Maiden", type: "maiden", distance: "7f",
-          going: "Yielding to Soft", runners: 12, source: "full", status: "pending",
+          going: "Yielding to Soft", runners: 11, source: "full", status: "settled",
           writeup: "flat/analyses/2026-10-29_punchestown/1505_7f-3yo-plus-maiden.md", updated: "18:58 Wed 28 Oct",
           picks: [
-            { role: "win", horse: "Spacebound", prob: 0.30, placeProb: 0.60, finish: "-", confidence: "medium",
+            { role: "win", horse: "Spacebound", prob: 0.30, placeProb: 0.60, finish: "2", sp: "4/5", confidence: "medium",
               reason: "1/2L 2nd over 7f on soft to heavy at the Curragh to Lewis Carroll (now OR 98, Listed-placed), ahead of Zenford and Listentodwindblow; OR down 83 to 77 and 8lb lighter than last time after the 5lb claim.",
               against: "0 from 5, twice beaten favourite, headed or 'no extra' late in 4 of 5 runs, and first-time hood." },
-            { role: "ew", horse: "Oracle Of Delphi", prob: 0.14, placeProb: 0.42, finish: "-", confidence: "low",
+            { role: "ew", horse: "Oracle Of Delphi", prob: 0.14, placeProb: 0.42, finish: "NR", sp: null, confidence: "low",
               reason: "Improved about 11L to a 1.25L 3rd at Navan on 21 Oct, a head ahead of Elmakaya (OR 77) and 2.6L ahead of Celestial Siren; effectively about 77-83 with the fillies' allowance.",
               against: "Only 2 runs, Navan form unfranked, the 3rd came at 66/1, beaten 12.7L on her only soft run, drawn 10." },
-            { role: "danger", horse: "Saliba", prob: 0.18, placeProb: 0.48, finish: "-", confidence: "low",
+            { role: "danger", horse: "Saliba", prob: 0.18, placeProb: 0.48, finish: "4", sp: "4/1", confidence: "low",
               reason: "Highest rated (80), 2nds franked by Back Straight (now 90) and Teoest (84), and 2nd over this course in September.",
               against: "Never run at 7f, and his 1m runs are weaker than his 1m1f-1m2f runs." }
-          ]
+          ],
+          winner: { horse: "Celestial Siren", sp: "5/1", agentProb: 0.12 },
+          grade: "mixed", errors: ["H", "J"],
+          notes: "Won by Celestial Siren (12%, 5/1), our named nearest outsider, pressing the leader and going clear. We ranked her behind Oracle Of Delphi on their Navan meeting, which was her first run for 369 days (error J). Win Spacebound 2nd at 4/5 favourite, 0.5L: 'led but pestered, headed under 2f out, rallied', the headed-late fault recorded in 4 of his 5 runs recurring (error H). Danger Saliba 4th, 1.25L, at 7f for the first time. Each-Way Oracle Of Delphi was a non-runner (declared in error), so void."
         },
         {
           time: "15:35", name: "See You At The GR1 Double Header 21 & 22 November Handicap (Div I)", type: "handicap", distance: "7f",
-          going: "Yielding to Soft", runners: 12, source: "full", status: "pending",
+          going: "Yielding to Soft", runners: 12, source: "full", status: "settled",
           writeup: "flat/analyses/2026-10-29_punchestown/1535_7f-0-60-handicap-div-1.md", updated: "19:10 Wed 28 Oct",
           picks: [
-            { role: "win", horse: "La Tulipe Noire", prob: 0.16, placeProb: 0.42, finish: "-", confidence: "low",
+            { role: "win", horse: "La Tulipe Noire", prob: 0.16, placeProb: 0.42, finish: "6", sp: "6/1", confidence: "low",
               reason: "At today's weights she is 5.4lb ahead of Tariff (Curragh 20 Oct, his 7lb claim verified) and 1.1lb ahead of Free Solo from a truly run Curragh 7f soft race; best time figure in the field (Curragh 7f heavy, Nov 2025).",
               against: "12 runs since her last win, 0 top-3 in her last 6, the Tariff meeting was slowly run, and her best figures are a year old on heavier ground." },
-            { role: "ew", horse: "Staywitherjohnny", prob: 0.13, placeProb: 0.33, finish: "-", confidence: "low",
+            { role: "ew", horse: "Staywitherjohnny", prob: 0.13, placeProb: 0.33, finish: "5", sp: "14/1", confidence: "low",
               reason: "6.1lb ahead of Tariff at today's weights from Gowran on 19 Oct despite a slow start; her truly run Gowran 3rd in May is about 8lb above today's effective 47 with Tormey's 7lb; first-time blinkers.",
               against: "Never raced below 1m on the Flat, 0 from 11, and two of her three good figures came in slowly run races." },
-            { role: "danger", horse: "Free Solo", prob: 0.13, placeProb: 0.38, finish: "-", confidence: "low",
+            { role: "danger", horse: "Free Solo", prob: 0.13, placeProb: 0.38, finish: "10", sp: "10/1", confidence: "low",
               reason: "Only 1.1lb behind the Win on the same truly run Curragh race; franked Leopardstown 2nd, fast on the clock; running about 2lb above his mark.",
               against: "Aged 9, 14 runs without a win, and 0 from 10 on soft." }
-          ]
+          ],
+          winner: { horse: "Tai Tam Bay", sp: "13/2", agentProb: 0.08 },
+          grade: "failed", errors: ["J"],
+          notes: "Won by Tai Tam Bay (8%, 13/2), who soon led from stall 3, went clear and held on. The write-up had her well handicapped on autumn-2025 form and second up after a layoff, but rated her on the comeback run (error J). Win La Tulipe Noire 6th, 6.25L, outpaced; the head-to-head with Tariff came from a slowly run race, as noted. Tariff, dropped from Danger in the gap pass, ran 3rd at 9/4 favourite. Each-Way Staywitherjohnny 5th, 5.75L, running on from the rear at a trip below her best. Danger Free Solo 10th. Fan Club was a non-runner (ran the day before)."
         },
         {
           time: "16:05", name: "See You At The GR1 Double Header 21 & 22 November Handicap (Div II)", type: "handicap", distance: "7f",
-          going: "Yielding to Soft", runners: 12, source: "full", status: "pending",
+          going: "Yielding to Soft", runners: 11, source: "full", status: "settled",
           writeup: "flat/analyses/2026-10-29_punchestown/1605_7f-0-60-handicap-div-2.md", updated: "19:05 Wed 28 Oct",
           picks: [
-            { role: "win", horse: "Pocket Jacks", prob: 0.16, placeProb: 0.44, finish: "-", confidence: "low",
+            { role: "win", horse: "Pocket Jacks", prob: 0.16, placeProb: 0.44, finish: "NR", sp: null, confidence: "low",
               reason: "Most consistent near her mark (3 of 4 handicaps in the first 3), best runs about 53-58 against a need of 57, and won at Dundalk on 28 Oct in the fastest 7f time of that card.",
               against: "The 7lb penalty leaves no weight in hand; runs again within 24 hours, Polytrack to turf, on ground softer than she has met." },
-            { role: "ew", horse: "Buttermere Ridge", prob: 0.15, placeProb: 0.40, finish: "-", confidence: "low",
+            { role: "ew", horse: "Buttermere Ridge", prob: 0.15, placeProb: 0.40, finish: "1", sp: "11/2", confidence: "low",
               reason: "3rd at Listowel in a race since franked (winner raised 10lb and placed twice, runner-up won off 71) rates about 61-62 against a need of 53; one of the likely pace-setters.",
               against: "Fades late in 5-6 of his last 6 Flat runs, 1 win in 20, and his Roscommon race has worked out badly." },
-            { role: "danger", horse: "Real Petite", prob: 0.13, placeProb: 0.36, finish: "-", confidence: "low",
+            { role: "danger", horse: "Real Petite", prob: 0.13, placeProb: 0.36, finish: "8", sp: "11/2", confidence: "low",
               reason: "Her 4L Gowran win rates about 55 against a need of 46 (OR 53 less a 7lb claim), the biggest upside in the field.",
               against: "Nine Flat runs away from Gowran produced nothing better than 6th, and her only 7f run was 14th." }
-          ]
+          ],
+          winner: { horse: "Buttermere Ridge", sp: "11/2", agentProb: 0.15 },
+          grade: "mixed", errors: ["I"],
+          notes: "Each-Way Buttermere Ridge won at 11/2, prominent and chasing the clear leader, leading over 1f out and going clear: the franked Listowel 3rd and pace case held, and he did not fade this time. Win Pocket Jacks was a non-runner (ran the day before at Dundalk, where she won); she was picked knowing she had run within 24 hours, and no race-morning check was made (error I), so void. Danger Real Petite 8th, 8L, outpaced at 7f as her one 7f run warned. Field 11."
         }
       ]
     }

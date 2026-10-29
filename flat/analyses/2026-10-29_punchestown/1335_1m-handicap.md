@@ -265,3 +265,19 @@ Method for this check: for each horse's key recent runs, I take handicapped riva
 - RP Limerick 10 Jun: https://www.racingpost.com/results/188/limerick/2026-06-10/922570
 - SL jockey profile (Jack Kearney): https://www.sportinglife.com/racing/profiles/jockey/31140; claims checked in race JSON 944167, 943998, 943372 (3lb) and 944554, 942187, 945749, 945745, 946297 (none)
 - New 1m start report: https://www.leinsterleader.ie/news/home/785203/punchestown-racecourse-gets-hri-grant-of-over-1m-towards-track-changes-at-kildare-venue.html; RP progress article https://racingpost.com/news/how-is-work-on-punchestowns-new-flat-track-progressing-aI3vB3x6nqUM (HTTP 500, not read)
+
+## Result (reviewed 17:30 Thu 29 Oct 2026)
+
+14 ran (The Rock Factor reserve, did not get in). Going: Yielding (Yielding to Soft in places). Time 1m 46.64s, 5.24s slow.
+
+**Finishing order:** 1 Lady Mary Heath 10/3F · 2 Sylkie 2½ 11/1 · 3 Cash Me shd (2.5L) 40/1 · 4 Flash Of Fire shd (2.75L) 9/2 · 5 Speckled Meadow 2¼ (5L) 9/1 · 6 San Aer · 7 Lady Arwen (6.75L) 14/1 · ... 13 Jp's Express (22.75L) 10/1
+
+| Selection | Horse | Finish | Beaten | SP | Did the reasoning hold? |
+|---|---|---|---|---|---|
+| Win | Lady Arwen | 7th | 6.75L | 14/1 | Failed on the recorded fault: slowly away, in rear, ran on, never on terms. Slowly away in each of her last 6 runs before this. |
+| Each-Way | Flash Of Fire | 4th | 2.75L | 9/2 | Nearly held: prominent, went 2nd, challenged, weakened late; beaten a short head for 3rd. The settle/stay-1m doubt showed late. |
+| Danger | Jp's Express | 13th | 22.75L | 10/1 | Failed: short of room over 1f out, soon no extra. |
+
+**Verdict:** Failed (errors H, F). Winner Lady Mary Heath was 5lb lighter than her 5th of 23 at the Curragh 9 days earlier and solid in big fields, but we left her at 4% as 'a maiden after 10 runs'. Lady Arwen was the Win despite a slow start recorded in 6 of 6 runs; Step 13 says not to do that unless the case clearly outweighs the doubt.
+
+Sources: Racing Post result page (in-running comments, distances, SP) and Sporting Life race API (order, SP), read 17:10 Thu 29 Oct.

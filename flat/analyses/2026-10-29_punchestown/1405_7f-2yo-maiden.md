@@ -261,3 +261,19 @@ Total 100%. Confidence: Nonsense low, Imposing low.
 - **Prize money €10,602:** from the coordinator; not re-checked.
 - **Going and non-runners:** must be re-checked on the day. Eight of the 11 hold Curragh entries for 1 Nov.
 - All collateral lines remain asserted (built from verified ORs and verified distances).
+
+## Result (reviewed 17:30 Thu 29 Oct 2026)
+
+11 ran. Going: Yielding (Yielding to Soft in places). Time 1m 32.11s, 4.11s slow.
+
+**Finishing order:** 1 Imposing 7/2 · 2 Nonsense 1½ 15/8F · 3 Princeton 1¼ (2.75L) 4/1 · 4 Dawnmore 1¼ (4L) 17/2 · 5 Oklahoma nk (4.25L) 9/4 · 6 Maxims Of Equity · ...
+
+| Selection | Horse | Finish | Beaten | SP | Did the reasoning hold? |
+|---|---|---|---|---|---|
+| Win | Nonsense | 2nd | 1.5L | 15/8F | Sound pick beaten: keen, outpaced 2f out, ran on well. The run-style suited a stronger pace. |
+| Each-Way | Imposing | 1st | - | 7/2 | Held exactly: made virtually all from stall 3 as the lone-leader case said. |
+| Danger | Oklahoma | 5th | 4.25L | 9/4 | Held as written: weakened in the final 110 yards, as in his last 3 runs. |
+
+**Verdict:** Held. All three selections ran to their stated cases; the Each-Way won and the Win placed. Princeton, raised to 12% in the gap pass, was 3rd.
+
+Sources: Racing Post result page (in-running comments, distances, SP) and Sporting Life race API (order, SP), read 17:10 Thu 29 Oct.

@@ -225,3 +225,19 @@ Why not switch the Win to Gabby Hayes: his clock figures are the best, but his r
 **Still not found:** Racing Post time-against-standard (blocked); ATR Smart Stats and course trainer/jockey records (site error); 7f draw data for Punchestown; whether the new Flat track and 7f start are in use. Re-check the going and Melchizedek on the morning.
 
 Sources added: https://www.irishracing.com/raceresults/Thu-17th-Sep-2026/Naas/1625, https://www.irishracing.com/raceresults/Thu-17th-Sep-2026/Naas/1552, https://irishracing.com/raceresults/Sun-27th-Sep-2026/Curragh/1655 (plus the other 23 IrishRacing result pages built the same way), https://www.ihrb.ie/daily-enquiries/punchestown-racecourse, SL race JSON 942166, 939544, 933781 (Melchizedek).
+
+## Result (reviewed 17:30 Thu 29 Oct 2026)
+
+6 ran (Melchizedek non-runner, off feed). Going: Yielding (Yielding to Soft in places). Time 1m 34.06s, 6.06s slow.
+
+**Finishing order:** 1 Margot Mae 11/4 · 2 Darlene 1¼ 9/1 · 3 Knockraha Pa hd (1.5L) 20/1 · 4 Miss Cornelia shd (1.5L) 10/3 · 5 Wecouldavehaditall 1¼ (2.75L) 13/8F · 6 Gabby Hayes 6½ (9.25L) 8/1
+
+| Selection | Horse | Finish | Beaten | SP | Did the reasoning hold? |
+|---|---|---|---|---|---|
+| Win | Margot Mae | 1st | - | 11/4 | Held: made all against the far rail back at 7f on easy ground, the conditions of her best run. |
+| Each-Way | Gabby Hayes | 6th | 9.25L | 8/1 | Failed on the recorded doubt: raced in last and wide in a race led throughout; weakened before the final furlong. |
+| Danger | Wecouldavehaditall | 5th | 2.75L | 13/8F | Failed on the recorded doubt: no extra late at 7f, her weak trip. |
+
+**Verdict:** Held. The Win won for the reasons given. The Each-Way was promoted on clock figures in the gap pass and finished last; his hold-up style in a small field with a front-runner was the stated risk.
+
+Sources: Racing Post result page (in-running comments, distances, SP) and Sporting Life race API (order, SP), read 17:10 Thu 29 Oct.

@@ -249,3 +249,19 @@ Done before the off (about 21 hours to go). The going and non-runners have **not
 8. Counts were counted, not estimated: Real Petite 9 Flat runs away from Gowran, best 6th; Buttermere Ridge 1 win in 20.
 9. Outsider check is done.
 10. The write-up is saved. results.js is left to the coordinator.
+
+## Result (reviewed 17:30 Thu 29 Oct 2026)
+
+11 ran (Pocket Jacks non-runner, ran yesterday). Going: Yielding (Yielding to Soft in places). Time 1m 33.42s, 5.42s slow.
+
+**Finishing order:** 1 Buttermere Ridge 11/2 · 2 Miss Americana 1½ 15/2 · 3 Saith Seren nk (1.75L) 15/2 · 4 Arizona Star ¾ (2.5L) 4/1 · 5 God Knows 2½ (5L) 7/2F · ... 8 Real Petite (8L) 11/2
+
+| Selection | Horse | Finish | Beaten | SP | Did the reasoning hold? |
+|---|---|---|---|---|---|
+| Win | Pocket Jacks | NR | - | - | Void: withdrawn after running (and winning) at Dundalk the day before. Picked knowing she had run within 24 hours; no race-morning check. |
+| Each-Way | Buttermere Ridge | 1st | - | 11/2 | Held: prominent, chased the clear leader, led over 1f out and went clear. The franked Listowel form and pace case were right; the late-fade doubt did not show. |
+| Danger | Real Petite | 8th | 8L | 11/2 | Failed on the recorded doubt: outpaced 2f out at 7f, her weak trip away from Gowran. |
+
+**Verdict:** Mixed (error I). The Each-Way won at 11/2 for the stated reasons. The Win was a foreseeable non-runner: a horse that ran the day before is a doubtful runner and needed a race-morning declaration check before it could stand as a selection.
+
+Sources: Racing Post result page (in-running comments, distances, SP) and Sporting Life race API (order, SP), read 17:10 Thu 29 Oct.
