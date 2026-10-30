@@ -115,3 +115,14 @@ Remaining field (win / place): Primoz 0.13 / 0.26 · Genois 0.11 / 0.23 · Crebi
 - **WIN — Kingston Narcissus (0.25):** progressive, 4-from-4 completions, proven to 2m5f, receives 7lb from Breaking Cover's effective mark and holds him on their Uttoxeter meeting, and is Dan Skelton's first string (Harry Skelton rides). *Against:* 104 days off (first run back), three straight seconds without winning, career-high mark, and the "unlucky" Summer Plate line is unverified — he may again finish second rather than quicken clear.
 - **EACH-WAY — Prairie Wolf (0.15 win / 0.36 place):** best last-season form in the race, 3rd in this exact race fresh last year, and places first time out in 4 of 5 seasons — a genuine, verified place chance at a longer fair price. *Against:* 223 days off and +8lb on last year's 3rd; places rather than wins fresh, so the win chance is capped.
 - **DANGER — Breaking Cover (0.22):** red-hot hat-trick, and his one try at 2m4f (G2, beaten ~1L) says he stays today's trip, so the stamina objection is small. *Against:* up from Cl2/3 small fields into a Cl1 Premier off a career-high OR142, and can jump sketchily.
+
+## Result
+
+**Crebilly WON** (7/1); **Prairie Wolf (EW) 2nd** (5/1, beaten a neck); **Kingston Narcissus (WIN) 3rd** (11/8f, a further 2½L); **Breaking Cover (Danger) 4th** (5/1, ½L back); Primoz 5th; **Genois PU**. Matterhorn was a non-runner (6 ran). Winning time 4m 46.72s.
+
+- **Crebilly (not picked, rated 0.09) — 1st.** Raced prominently, chased the leader over the last and got up near the line.
+- **Prairie Wolf (EW, 0.15) — 2nd.** Disputed the early lead, led at the 3rd-last, all out after the last, just caught — a placed, scoring each-way result at 5/1.
+- **Kingston Narcissus (WIN, 0.25) — 3rd.** Held up, rallied to take 3rd near the line but never looked the winner — the "keeps finishing 2nd/3rd, first run back" doubt held.
+- **Breaking Cover (Danger, 0.22) — 4th**, outpaced after the last.
+
+**Mixed.** The gap-fill decision to switch the EW from Primoz (5th) to **Prairie Wolf (2nd)** was vindicated — the each-way placed and scored. But the winner Crebilly was a 0.09 outsider flagged in the outsider check only as "honest, exposed," and the Win could only place. No data error; the outsider check named Crebilly as an honest sort at the trip/mark but did not rate him highly enough.

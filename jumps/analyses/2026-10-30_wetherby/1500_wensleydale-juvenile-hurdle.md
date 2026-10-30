@@ -94,3 +94,16 @@ Read in full and findings (all pre-off; selections unchanged):
 - RP racecard: `https://www.racingpost.com/racecards/87/wetherby/2026-10-30/929380` (OR/RPR/TS, headgear).
 - Result pages read in full (in-running/jumping comments, margins): Market Rasen 26 Sep `940383` (Vietnorm beat Moment Of Light nk, Pass The Buck 3rd 24L); Chepstow 10 Oct `942787` (Pass The Buck 2nd, Sacre Chef 3rd, Confused 6th); Cartmel 31 Aug `935822` (Wicksey won, Vietnorm ran out); Limerick 2 Jul `926195` (Minella Rockett won); Newton Abbot 7 Sep `937052` (Moment Of Light beat Timely Salute 1½L); Market Rasen 12 Jun `921932` (Vietnorm hurdle debut, won 8½L); Uttoxeter 26 Jul `929730` (Vietnorm 2nd giving 7lb); Market Rasen 26 Sep `940386` (Timely Salute handicap win off OR100); Stratford 29 Jun `925765` (Wicksey hurdle debut win); Newmarket 24 Sep `939981` (Charles Darnay 3rd, Flat cls4 1m4f off OR83).
 - Course character: Wikipedia/Wetherby official/racenight course guides (left-handed, ~1m4f, slight uphill to straight/winning post, "up with the pace"); At The Races course guide and Geegeez both bot-blocked. James Owen stable eminence: racing press (East India Dock Triumph Trial, 2024 Wensleydale with Liam Swagger).
+
+## Result
+
+**Charles Darnay WON** (11/4); **Minella Rockett (Danger) 2nd** (15/8f, beaten 3¼L); Sacre Chef 3rd (12/1); Confused 4th; Pass The Buck 5th; **Wicksey (EW) 6th** (18/1); Timely Salute 7th; **Vietnorm (WIN) last of 8** (4/1). Winning time 3m 45.50s.
+
+- **Charles Darnay (not picked, rated 0.14) — 1st.** Held up, headway before 3-out, led 2 out, won going away.
+- **Minella Rockett (Danger, 0.22) — 2nd**, ran on but no extra late.
+- **Wicksey (EW, 0.11) — 6th**, mistake at the 5th, outpaced.
+- **Vietnorm (WIN, 0.26) — 8th.** **Keen and hampered at the first**, brief headway, then weakened — the recorded keen-going/temperament doubt materialised.
+
+**Failed** — two lessons:
+1. **Charles Darnay (proposed judgement error H).** The outsider check named him the chief winner-threat ("if he jumps, he could win"), but the Step-15 hurdles-debutant cap held him at 0.14 and the EW went to exposed placer Wicksey. The winner was the horse we identified then under-rated — a strong-Flat-form (OR83) juvenile from James Owen's yard, which won this race in 2024. The debutant cap is sound against jumping risk but should not push a live, well-bred winner-threat below a horse with no upside for the EW.
+2. **Vietnorm's keen-going doubt (flag held).** We flagged it in the case-against (Step 9) but still made him the Win; it duly cost him. The flag was right, the weighting was not.

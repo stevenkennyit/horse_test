@@ -133,3 +133,15 @@ Service Minimum 0.41 (Win), Handlethekettle 0.35 (Danger), Spot On Soph 0.13, Wa
 
 ### Did the picks change?
 **Yes.** Win changed from **Handlethekettle** to **Service Minimum**; Handlethekettle becomes the **Danger**. Driven by: franking that validated Service Minimum's form and context, her favourable claim-adjusted weight against a 10lb-higher mark, and Wetherby's track-specific pace bias discounting Handlethekettle's lone-front-runner edge over this trip.
+
+## Result
+
+**Washington WON** (13/8f); **Handlethekettle (Danger) 2nd** (7/4, beaten 3½L); **Service Minimum (WIN) 3rd** (4/1, a further 2½L); Spot On Soph 4th (4 ran). Winning time 4m 40.50s.
+
+- **Washington (not picked, rated 0.11) — 1st.** Raced close to the pace, led before the 3rd-last, asserted before the last, ridden clear.
+- **Handlethekettle (Danger, 0.35) — 2nd.** Disputed the lead, chased the winner from 2 out, mistake at the last, weakened.
+- **Service Minimum (WIN, 0.41) — 3rd.** Raced third, outpaced after 2 out, not fluent last.
+
+**Failed** — two linked misses:
+1. **Washington dismissed (proposed judgement error G).** He held the field's highest TS (122) and RPR (139) and had dropped to OR122; we wrote the figures off as a "false signal earned in defeat" and called him a regressing, keen hold-up 10yo ill-suited to a small race. On fast ground at a galloping track his class told. Over-applying the false-signal discount to a class horse on a dropping handicap mark that still completes.
+2. **The gap-fill flip backfired.** The first pass had Handlethekettle as the Win; the gap-fill demoted him to Danger and promoted Service Minimum on a weak, directional Wetherby 2.5m pace-bias read. Handlethekettle (2nd) beat Service Minimum (3rd) — the original ranking was better and the pace-bias argument did not hold.

@@ -117,3 +117,14 @@ The two bumper winners still dominate. The franking makes **Nate's** form margin
 | **DANGER** | Wings Of The Glen | 0.12 | 0.33 | ~15/2 | low |
 
 Remainder: Arcimboldo ~0.09 win / 0.23 place; Starlet Du Brizais ~0.08 win / 0.21 place. Win probs sum to 1.00; the Win holds the highest chance. I've Got A Friend nudged up on the verified point/jumping experience (his main first-pass doubt partly eased); the field tail trimmed to match.
+
+## Result
+
+**Nate Of Spades (EW) WON** (Evens); **I've Got A Friend (WIN) 2nd** (6/5, beaten 1L); **Wings Of The Glen (Danger) 3rd** (15/2). Our three selections filled the 1-2-3 (5 ran). Winning time 4m 52.99s.
+
+- **I've Got A Friend (WIN, 0.40) — 2nd.** Made the pace, went ~8L clear, headed approaching the last, held by the winner.
+- **Nate Of Spades (EW, 0.31) — 1st.** Tracked the leader, led approaching the last, ran on well.
+- **Wings Of The Glen (Danger, 0.12) — 3rd**, 21L back, never involved in the finish.
+- Starlet du Brizais 4th; Arcimboldo 5th (bad mistake 3rd-last).
+
+**Reasoning held.** The three principals were correctly isolated and filled the frame; the EW scored as a winning bet at Evens. The only blemish is the Win/EW ordering — we preferred I've Got A Friend (fresher, point experience) over Nate, and Nate (better bumper form) collared him near the last. No data error; a minor ranking note.

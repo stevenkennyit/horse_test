@@ -110,3 +110,12 @@ Worked through every gap and asserted/not-found claim from the first pass, re-re
 **Selections after the gap-fill pass — UNCHANGED.** Franking firmed up the Danger (Robber's Bridge) and the Each-Way engine (Midnight Bella) and modestly re-framed (not weakened) the Win's rationale. Final probabilities held: **Win Noonetellsmenothin 0.22 (place 0.52)**, **Each-Way Midnight Bella 0.08 (place 0.33)**, **Danger Robber's Bridge 0.18 (place 0.47)**. Win retains the highest win chance; the field spread is unchanged, led by Bright Legend ~0.12, Fairly Fulling ~0.09, Stylish Recruit ~0.08 (nudged up on the franking but held out by the track switch).
 
 Additional sources (this pass): Wetherby 14 Oct result https://www.sportinglife.com/racing/results/2026-10-14/wetherby/943394/watch-race-replays-on-racing-tv-handicap-hurdle ; Exeter 09 Jan result https://www.sportinglife.com/racing/results/2026-01-09/exeter/897889/bet-on-pricedup-handicap-hurdle ; Hexham 21 Jun result https://www.sportinglife.com/racing/results/2026-06-21/hexham/923501/sun-racing-summer-jumps-championship-handicap-hurdle ; profiles of Centurion's Sister /1165396, Farhh Echo /1157137, Moorland Rambler /1044601, Miss Kassiopi /1126836, Jeteye /1095269; At The Races Wetherby course guide https://www.attheraces.com/course-guides/Wetherby
+
+## Result (provisional)
+
+**Lillistar WON** (9/2); **Noonetellsmenothin (WIN) 2nd** (10/3). Late non-runners: **Midnight Bella (our EW)**, **Robber's Bridge (our Danger)**, Colonel Jack and October Hill — so roughly 10 ran. Full finishing order and in-running comments were not yet published at review time; this section is provisional.
+
+- **Noonetellsmenothin (WIN, 0.22) — 2nd.** Placed, as the race-fit / prominent / stays-the-step-up reasons suggested, but beaten by the winner.
+- **Midnight Bella (EW)** and **Robber's Bridge (Danger)** — both **non-runners**, withdrawn after the picks were recorded the previous evening (a non-runner re-check at the off had been flagged).
+
+**Mixed / provisional.** The Win placed (the positives held), but the winner **Lillistar** was explicitly dismissed in the outsider check as "can't win — a pure placer, 0 wins over hurdles." He is a well-in 5lb-claimer who was 1lb out of the handicap — a winnable mark on fast ground. Proposed judgement error G (same theme as Washington, 14:25): writing off a well-treated, consistently-placed horse as "can't win" on its winless record. To be finalised once the full result and comments publish.

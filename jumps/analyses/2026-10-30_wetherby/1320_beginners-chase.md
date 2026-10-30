@@ -87,3 +87,12 @@ Worked through every gap, asserted and not-found claim. Selections and the 0.52 
 **5. Net effect on the call.** Florida Dreams remains the **WIN (0.52, place/complete ~0.90, low)** — the only proven and now-**franked** fence-completer, on a galloping stayers' track where sound jumping matters, at level weights, Hughes/Thomson. Le Beau Madrik remains the **DANGER (0.48, complete ~0.82)** — much classier and from a yard whose debut chasers fire, but carrying a confirmed, recurring untidy-jumping pattern into his first start over fences. If he jumps adequately his class wins; that single unknown is why the split stays near 50/50.
 
 **Still unverified after this pass:** exact chase-debut win/completion strike rates for Dan Skelton and Sandy Thomson (ATR Smart Stats unavailable; geegeez table paywalled); going on the day and non-runners (re-check near the off; last checked 17:41 Thu 29 Oct).
+
+## Result
+
+**Florida Dreams WON** (7/2), beating 2/11 favourite **Le Beau Madrik** by ½L (2 ran). Winning time 4m 54.49s, Good (Good to Firm in places).
+
+- **Florida Dreams (WIN, 0.52) — 1st.** Tracked the leader, led after the 2nd-last, not fluent at the last but recovered and asserted inside the final 110y.
+- **Le Beau Madrik (Danger, 0.48) — 2nd.** Made the running at a sedate pace, 5L clear before the 9th, but **made mistakes at the 4th and 3rd-last** and was not fluent at the 1st, 6th and last; headed after the 2nd-last and found nothing.
+
+**Reasoning held.** The pick rested on the #1 jumps factor: a proven, franked fence-completer was preferred over an odds-on but classier **chase debutant with a recorded untidy-jumping pattern** — and that pattern cost Le Beau Madrik the race. A clean application of the Galway lesson (class/price must not override a recorded jumping doubt). No data or judgement error.
