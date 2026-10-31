@@ -10,7 +10,7 @@
 - **Field:** 12 declared, 0 non-runners (checked 12:55 GMT)
 - **Analysis source:** full
 
-Weights below are before claims; only one claim in the race (Aeros Luck, 7lb → carries 9-13). Callum Pritchard rode out his claim in April 2026 (verified via search) and the card shows no claim, so Vanderpoel carries full 11-11. No separate mares' allowance applies in GB handicaps (it is built into the rating), so Shakeyatailfeather's 10-7 is her carried weight.
+Weights below are before claims; only one claim in the race (Aeros Luck, 7lb → carries 9-13). Callum Pritchard rode out his claim in April 2026 (verified via search) and the card shows no claim, so Vanderpoel carries full 11-11. No separate mares' allowance applies in GB handicaps — it is built into the handicap rating (BHA rule 139.4/80.3, via rules search), and the card's 10-7 matches Shakeyatailfeather's OR 123 arithmetic exactly — so her carried weight is 10-7.
 
 | Cloth | Horse | Wt (carried) | OR | Jockey | Trainer | Headgear | Form | Days off |
 |---|---|---|---|---|---|---|---|---|
@@ -80,15 +80,16 @@ Haas Boy is the race-fit course-and-distance winner in the field. He won this As
 
 Vanderpoel is the chief threat: a progressive 7yo (4 wins from 8 starts), a course-and-distance winner at Ascot (Dec 2025) and Sandown winner (Jan 2026), and "fared best of the prominent runners" when seventh in the Grand Annual off 141 — the same mark he runs off today, so the handicapper has not asked for more (verified). He has had wind surgery since that run, a positive marker, and he is a clean, fluent jumper who travels prominently, which suits this track. He receives 3lb from Martator, a 5lb weight swing from their Grand Annual meeting.
 
-**Case against (verified unless tagged):** both his chase wins came in four- and five-runner races, so a 12-runner handicap is new territory. In the Grand Annual (his only big-field run) he disputed the lead four out, was headed two out and faded to seventh, finishing about 13 lengths behind Martator (the published "1¼l" is the gap to the sixth, not the winner) — so the direct head-to-head is decisively in Martator's favour, and there is a question over him seeing out a strongly-run big field. He is also 234 days off, 15lb higher than the mark he won this CD from, and Pauling's reappearance record is not flagged as strongly as Williams' or Honeyball/Fry's (not found — no clean first-time-out split).
+**Case against (verified unless tagged):** both his chase wins came in four- and five-runner races, so a 12-runner handicap is new territory. In the Grand Annual (his only big-field run) he disputed the lead four out, was headed two out and faded to seventh, finishing about 13 lengths behind Martator (the published "1¼l" is the gap to the sixth, not the winner) — so the direct head-to-head is decisively in Martator's favour, and there is a question over him seeing out a strongly-run big field. He is also 234 days off, 15lb higher than the mark he won this CD from, and no clean Pauling first-time-out split was found (only general chase strike rates of ~27-28% — not found).
 
 ## Unverified items
 
 - Ascot course character and the front-running edge are taken from the meeting notes in the brief, not re-sourced this session.
-- Grand Annual beaten margins are from the BBC result page (which mirrors Racing Post's "dist behind the horse ahead" convention); cumulative beaten distances are my sums of those gaps, not a single published figure.
+- Grand Annual beaten margins are from the BBC Sport result page (which carries the official finishing order and "dist behind the horse ahead" figures); cumulative beaten distances are my sums of those gaps. Racing Post's own result page (racingpost.com/results/11/cheltenham/2026-03-11/912519/) returned a 403 bot-check, so it could not be read directly.
 - Venetia Williams' November-returner profitability is asserted from a geegeez/Irish Field trainer piece (search summary), not read at the primary data source.
 - Ben Pauling's first-time-out strike rate was not found (no clean reappearance split published; only general chase strike rates ~27-28%).
-- No Racing Post result page was opened directly (Sporting Life results + profiles + BBC result used).
+- A Timeform piece reportedly flagged Honeyball and Harry Fry (not Pauling) as positive for 150+ day reappearances — asserted from a search summary, not read at source.
+- No Racing Post result page was opened directly (Sporting Life results + profiles + BBC result used; Racing Post returned a 403 bot-check).
 
 ## Sources
 
@@ -98,6 +99,7 @@ Vanderpoel is the chief threat: a progressive 7yo (4 wins from 8 starts), a cour
 - Sporting Life result — Hurst Park (22 Nov 2025): https://www.sportinglife.com/racing/results/2025-11-22/ascot/888680/castello-banfi-hurst-park-handicap-chase-gbb-race
 - BBC Sport result (Grand Annual full finishing order with margins): https://www.bbc.com/sport/horse-racing/race/p-1516014
 - Jockey Club press release (Martator 66/1, won by a nose): https://www.thejockeyclub.co.uk/cheltenham/media/press-releases/2026/03/martator-causes-66-1-shock-in-debenhams-johnny-henderson-grand-annual/
+- Racing Post result page (Grand Annual, attempted, returned 403 bot-check): https://www.racingpost.com/results/11/cheltenham/2026-03-11/912519/
 - BHA rules on mares' allowance (GB handicaps, allowance built into rating) via search of britishhorseracing.com rules
 - Callum Pritchard claim status (rode out claim April 2026) via PJA/racing press search
 - Venetia Williams returner stats via Irish Field (Delargy) / geegeez trainer profile (search summary)

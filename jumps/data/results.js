@@ -521,6 +521,32 @@
           ]
         },
         {
+          time: "14:33",
+          name: "Sodexo Live! Regal Encore Handicap Chase (Premier Handicap) (GBB Race)",
+          type: "chase",
+          distance: "2m7f185y",
+          going: "Good (Good to Firm in places)",
+          runners: 10,
+          source: "full",
+          status: "pending",
+          grade: "pending",
+          errors: [],
+          winner: null,
+          notes: "Premier Handicap (~3m), deep 10-runner field. Viroflay the most proven stayer, races ~137 with the 7lb claim; Your Darling the proven place form at the level.",
+          writeup: "jumps/analyses/2026-10-31_ascot/1433_sodexo-live-regal-encore-handicap-chase.md",
+          updated: "13:09 Sat 31 Oct",
+          picks: [
+            { role: "win", horse: "Viroflay", prob: 0.20, placeProb: 0.52, finish: "-", confidence: "medium",
+              reason: "Field's most proven 3m stayer (won Kempton 3m off 136, Newton Abbot 3m1f off 140; 7 runs at the trip); 11/16 placed, won last time; 7lb claim runs him off ~137 on ideal good ground.",
+              against: "Handicap wins all Class 3 or below; only recent Cl1 (Topham) was 17th with mistakes; 7lb amateur ~3/21 in 2026 and 0-9 over fences; 171 days off." },
+            { role: "ew", horse: "Your Darling", prob: 0.14, placeProb: 0.38, finish: "-", confidence: "medium",
+              reason: "Best proven place form at this level — 3rd of 11 in the Betfair Swinley (this C&D, off 139) with that form franked (winner Montregard 3rd in a Listed next time); 2nd Kempton 3m (Cl2).",
+              against: "11yo top weight 12-0, 5lb above his Swinley mark, 182 days off; only reappearance was 4th of 4 as favourite; last run a pull-up." },
+            { role: "danger", horse: "Imperial Alex", prob: 0.13, placeProb: 0.35, finish: "-", confidence: "medium",
+              reason: "Won the bet365 Summer Cup (Cl2, 3m10y, 13 ran) beating Ki Woo with Queensbury Boy 8th; stays 3m3f; carries 10-10 with first-time visor; Queensbury Boy won a Cl1 next time (indirect frank)." }
+          ]
+        },
+        {
           time: "16:15",
           name: "Ascot Colts And Fillies' Club Open NH Flat Race (GBB Race)",
           type: "bumper",
