@@ -519,6 +519,32 @@
             { role: "danger", horse: "Glynn Brae", prob: 0.21, placeProb: 0.42, finish: "-", confidence: "medium",
               reason: "Top-rated (136); won at Ascot over 2m5f on good; front-runner at a front-runner-friendly stiff track; top yard with stable jockey — Chepstow 9th was a keen/hampered premier-handicap reappearance." }
           ]
+        },
+        {
+          time: "16:15",
+          name: "Ascot Colts And Fillies' Club Open NH Flat Race (GBB Race)",
+          type: "bumper",
+          distance: "1m7f157y",
+          going: "Good to Firm (Good in places)",
+          runners: 9,
+          source: "full",
+          status: "pending",
+          grade: "pending",
+          errors: [],
+          winner: null,
+          notes: "9-runner Class 2 bumper; three unraced (Colombe d'Or, Jack's Succes, Wheresdcueballgoin) capped under the Galway lesson. Lord Churchill the only franked penalised winner.",
+          writeup: "jumps/analyses/2026-10-31_ascot/1615_ascot-colts-and-fillies-club-open-nh-flat-race.md",
+          updated: "13:07 Sat 31 Oct",
+          picks: [
+            { role: "win", horse: "Lord Churchill", prob: 0.30, placeProb: 0.60, finish: "-", confidence: "medium",
+              reason: "Only one of the three penalised winners whose form is franked (Posh Chick won next time out); RPR revised to 113, best in field; prominent/truly-run style suits galloping Ascot.",
+              against: "Stable debut off 213 days for a cold new yard (0/14 last 14d); 113 is a reassessment of a 104 on-the-day run; frank was in a modest mares' bumper." },
+            { role: "ew", horse: "Shane's Spirit", prob: 0.15, placeProb: 0.45, finish: "-", confidence: "medium",
+              reason: "Only race-fit runner (41 days); proven Rules bumper winner who made all on Good to Firm; front-running edge at Ascot at a longer fair price.",
+              against: "4lb penalty puts him level with rivals rated ~10lb better; Plumpton win in a 6-runner Class 5; recorded keen-goer." },
+            { role: "danger", horse: "Saint Argente", prob: 0.26, placeProb: 0.55, finish: "-", confidence: "medium",
+              reason: "Beat Listed-placed Ivor Bear (2/1F) by 2L at stiff Warwick; in-form Greatrex keeps him, Sam Twiston-Davies booked, wind op since last run." }
+          ]
         }
       ]
     }
