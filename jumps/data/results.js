@@ -573,6 +573,32 @@
           ]
         },
         {
+          time: "15:10",
+          name: "1st Class Logistics Novices' Hurdle (GBB Race)",
+          type: "hurdle",
+          distance: "1m7f157y",
+          going: "Good to Firm (Good in places)",
+          runners: 5,
+          source: "full",
+          status: "pending",
+          grade: "pending",
+          errors: [],
+          winner: null,
+          notes: "5-runner novices' hurdle, three hurdle debutants. Sportingsilvermine the class Flat recruit (flat OR 91, James Owen Flat-to-hurdles record); Babs the only proven hurdler.",
+          writeup: "jumps/analyses/2026-10-31_ascot/1510_1st-class-logistics-novices-hurdle.md",
+          updated: "13:22 Sat 31 Oct",
+          picks: [
+            { role: "win", horse: "Sportingsilvermine", prob: 0.36, placeProb: 0.62, finish: "-", confidence: "medium",
+              reason: "Strongest overall profile — flat OR 91 (Class 2 Old Newton Cup winner, 2nd in Shergar Cup at Ascot), fit (4th at Newmarket 28d ago), good-to-firm his best surface; James Owen has a proven Flat-to-hurdles record.",
+              against: "Never jumped a hurdle; recent flat form patchy; 1m7.5f at stiff Ascot a shade beyond his proven flat best (~1m4f-1m6f)." },
+            { role: "ew", horse: "Babs", prob: 0.21, placeProb: 0.48, finish: "-", confidence: "medium",
+              reason: "Only proven hurdler (4 starts, 4 completions, 2 wins + 1 2nd; 2/2 over hurdles on good); most likely to run her race into a place if a debutant fluffs its jumping, at a longer fair price.",
+              against: "Gives 3-4lb to all while stepping up Class 4 to Class 3; last win a short-head photo in a slowly-run race; both hurdle wins only weakly franked." },
+            { role: "danger", horse: "No Way Jay", prob: 0.25, placeProb: 0.52, finish: "-", confidence: "medium",
+              reason: "Best NH-relevant form — 4th/15 in the Listed Ascot bumper (this C&D) behind Bass Hunter (later Champion Bumper 3rd, hurdle-debut winner) and ahead of Forthfactor (later Grade 2 bumper winner); right-handed suits; Tizzard/Powell hot." }
+          ]
+        },
+        {
           time: "16:15",
           name: "Ascot Colts And Fillies' Club Open NH Flat Race (GBB Race)",
           type: "bumper",
