@@ -521,6 +521,32 @@
           ]
         },
         {
+          time: "14:00",
+          name: "Sodexo Live! Handicap Chase (GBB Race)",
+          type: "chase",
+          distance: "2m172y",
+          going: "Good (Good to Firm in places)",
+          runners: 12,
+          source: "full",
+          status: "pending",
+          grade: "pending",
+          errors: [],
+          winner: null,
+          notes: "12-runner Class 2 handicap chase (~2m1f). Deep, open race — win spread, no standout above ~20%. Martator's Grand Annual win + Ascot record; Haas Boy the race-fit C&D winner.",
+          writeup: "jumps/analyses/2026-10-31_ascot/1400_sodexo-live-handicap-chase.md",
+          updated: "13:12 Sat 31 Oct",
+          picks: [
+            { role: "win", horse: "Martator", prob: 0.19, placeProb: 0.45, finish: "-", confidence: "medium",
+              reason: "Won the Grand Annual (Cheltenham 20-runner Premier handicap) last time; strongest Ascot record (won 2m167y twice, 2nd in Hurst Park over CD, that form franked by Calico).",
+              against: "Top weight 12-0 (+5 to 144), 234 days off at 9yo, and the Grand Annual win was 66/1 by a nose — a single standout, not a consistent level." },
+            { role: "ew", horse: "Haas Boy", prob: 0.12, placeProb: 0.38, finish: "-", confidence: "medium",
+              reason: "Race-fit course-and-distance winner — won this Ascot 2m172y in March off 114 (now 120, 10-4), close 2nd in a Chepstow hurdle 20 days ago as a prep; sound jumper, goes prominent.",
+              against: "Ascot win was 'all out' in a 5-runner Class 3 and other wins in 3-4-runner fields; 12-runner Class 2 is a big step up." },
+            { role: "danger", horse: "Vanderpoel", prob: 0.17, placeProb: 0.42, finish: "-", confidence: "medium",
+              reason: "Progressive 7yo (4 wins/8), Ascot CD winner, runs off the same mark as his Grand Annual 7th; wind op since, clean jumper, prominent — but the Grand Annual head-to-head was decisively Martator's (~13L behind)." }
+          ]
+        },
+        {
           time: "14:33",
           name: "Sodexo Live! Regal Encore Handicap Chase (Premier Handicap) (GBB Race)",
           type: "chase",
