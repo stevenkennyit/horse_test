@@ -484,6 +484,43 @@
           ]
         }
       ]
+    },
+    {
+      date: "2026-10-31",
+      course: "Ascot",
+      country: "GB",
+      code: "jumps",
+      playbook: "jumps/AGENTS-jumps.md",
+      going: "Hurdles Good to Firm (Good in places); chase course Good (Good to Firm in places)",
+      dataErrors: [],
+      races: [
+        {
+          time: "13:25",
+          name: "Ascot Underwriting Novices' Limited Handicap Chase (GBB Race)",
+          type: "chase",
+          distance: "2m2f181y",
+          going: "Good (Good to Firm in places)",
+          runners: 5,
+          source: "full",
+          status: "pending",
+          grade: "pending",
+          errors: [],
+          winner: null,
+          notes: "5-runner novices' limited handicap chase; two chase debutants (Glynn Brae, Dance And Glance). Jet To Vegas the only proven chaser with Ascot fence form, races ~7lb well-in with the 7lb claim.",
+          writeup: "jumps/analyses/2026-10-31_ascot/1325_ascot-underwriting-novices-limited-handicap-chase.md",
+          updated: "13:02 Sat 31 Oct",
+          picks: [
+            { role: "win", horse: "Jet To Vegas", prob: 0.42, placeProb: 0.72, finish: "-", confidence: "high",
+              reason: "Only runner with proven chase form and Ascot course form over fences (2nd to Thomas Mor 142 ahead of Lucky Place 153 last Nov); last-time-out win franked (Fringill Dike won next time by 23L); races off ~128 with the 7lb claim, ~7lb well-in; small field suits.",
+              against: "7lb claim taken by an amateur (Mr Lucas Murphy for B S Hughes); 'slow 1st'/'jumped right' errors on his card; weak 4-runner Market Rasen win; 2m2.5f shorter than his best." },
+            { role: "ew", horse: "Merely A Detail", prob: 0.11, placeProb: 0.31, finish: "-", confidence: "medium",
+              reason: "Cleanest chase-jumping record in the field (3/3 over fences, all top-3, 2 wins); progressive 5yo at bottom weight, 14lb lighter than last run; J J Burke booked.",
+              against: "Lowest-rated (114), ~3lb wrong at the weights, needs ~10lb improvement to win; no Ascot form — the place, not the win, is the angle." },
+            { role: "danger", horse: "Glynn Brae", prob: 0.21, placeProb: 0.42, finish: "-", confidence: "medium",
+              reason: "Top-rated (136); won at Ascot over 2m5f on good; front-runner at a front-runner-friendly stiff track; top yard with stable jockey — Chepstow 9th was a keen/hampered premier-handicap reappearance." }
+          ]
+        }
+      ]
     }
   ]
 });
