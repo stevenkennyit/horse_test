@@ -129,3 +129,7 @@ Place terms for the Each-Way: 4 places, quarter odds (16-runner handicap) *(veri
 - At The Races racecard (expert ratings, Smart Stats, comments, place terms): https://www.attheraces.com/racecard/Ascot/31-October-2026/1543
 - Alexei franking: Racing Post report (https://www.racingpost.com/news/reports/alexei-justifies-favouritism-in-impressive-style-for-joe-tizzard-and-brendan-powell-in-the-greatwood-hurdle-adbD32o2K1UJ/) and Racing & Sports Kingwell report (https://www.racingandsports.com.au/news/international/uk-ire-and-europe/2026-02-15/alexei-books-champion-hurdle-ticket-with-kingwell-win/709242)
 - Sporting Life going page: https://www.sportinglife.com/racing/going
+
+## Result
+
+Trustintimes (Win) won at 11/4 and Moveit Like Minnie (E-W) was 3rd at 11/2 — reasoning held in full. Morning Mayhem (Danger) 7th at 12/1; Indemnity 2nd at 28/1 (rated 0.07).

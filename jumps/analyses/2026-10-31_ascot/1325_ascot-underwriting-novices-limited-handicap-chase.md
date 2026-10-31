@@ -104,3 +104,7 @@ Gaps from the first pass filled:
 - Ascot hurdle result (Glynn Brae win): https://www.sportinglife.com/racing/results/2026-03-29/ascot/909500/colts-and-fillies-club-handicap-hurdle
 - Worcester result (Merely A Detail 3rd): https://www.sportinglife.com/racing/results/2026-09-25/worcester/940116/copybet-arc-summer-chase-series-final-handicap-chase-gbb-race
 - Uttoxeter result (The Gray Ghost 2nd): https://www.sportinglife.com/racing/results/2026-10-04/uttoxeter/942342/f-ball-stick-with-it-chasing-excellence-beginners-chase-gbb-race
+
+## Result
+
+The Gray Ghost won (7/2) — the horse downgraded to 0.08 on "recurring jumping errors"; in-running "led 10th, not fluent 12th, stayed on well flat". Jet To Vegas (Win, 0.42) 2nd at 13/8F ("keen, not always fluent, no impression on winner"); Merely A Detail (E-W) 4th; Glynn Brae (Danger) last of 5. Reasoning failed: non-fatal fluency was over-weighted against a proven stayer with a clean completion record, and the Win carried its own amateur-claim/jumping doubts yet was given high confidence.

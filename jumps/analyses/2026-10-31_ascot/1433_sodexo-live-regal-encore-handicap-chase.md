@@ -91,3 +91,7 @@ The chief threat if the top two don't deliver: he won the bet365 Summer Cup (Cla
 - Montregard subsequent form (3rd in Punchestown Pat Taaffe Listed): https://www.attheraces.com/festivals/national/news/2026/February/14/montregard-could-be-cheltenham-bound-following-ascot-win
 - Mr Lucas Murphy profile/stats: https://www.attheraces.com/festivals/ascot/news/2026/October/30/lucas-murphy-has-chance-to-shine-for-nicholls-at-ascot
 - Califet En Vol career (Listed Sidney Banks win, 2nd to The New Lion, Sefton 6th): https://www.racingpost.com/profile/horse/5412939/califet-en-vol/form
+
+## Result
+
+Viroflay (Win) won at 3/1 and Your Darling (E-W) was 2nd at 16/1 — reasoning held in full. Califet En Vol (our main outsider, 5/2F) flopped 6th, vindicating the 3m-over-fences doubt. Imperial Alex (Danger) 9th at 33/1.

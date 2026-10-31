@@ -100,3 +100,7 @@ Chief threat if the two market principals under-deliver. **Verified:** 4th of 15
 - Forthfactor (Grade 2 Aintree bumper winner; 24L hurdle debut): https://www.racingpost.com/news/reports/hes-hugely-exciting-grade-2-bumper-winner-makes-24-length-winning-hurdling-debut-for-dan-skelton-aviBF5w8d92e/ and https://coolmore.com/en/national-hunt/news/wings-of-eagles-gelding-forthfactor-wins-stratford-hurdles/
 - James Owen Flat→hurdles record: https://horsetrainers.uk/james-owen/ and https://www.racingpost.com/news/reports/hes-the-one-weve-been-waiting-for-james-owen-is-dreaming-of-cheltenham-festival-glory-after-exciting-prospects-winning-debut-aRUM92F95ThB/
 - Newton Abbot 18 Sep 26 result (Babs' narrow win, slow time): https://tvg.equibase.com/static/foreign/result/NAB091826ENG-EQB.html
+
+## Result
+
+Babs (E-W, 0.21) won at 11/4 — the only proven hurdler beat the classier debutants. Sportingsilvermine (Win, hurdle debutant) 3rd at 13/8F ("not fluent 2nd, not fluent 3 out"); No Way Jay (Danger) 2nd at 7/4. Judgement error: a hurdle debutant was ranked above the proven, reliable completer.

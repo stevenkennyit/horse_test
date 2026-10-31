@@ -103,3 +103,7 @@ Vanderpoel is the chief threat: a progressive 7yo (4 wins from 8 starts), a cour
 - BHA rules on mares' allowance (GB handicaps, allowance built into rating) via search of britishhorseracing.com rules
 - Callum Pritchard claim status (rode out claim April 2026) via PJA/racing press search
 - Venetia Williams returner stats via Irish Field (Delargy) / geegeez trainer profile (search summary)
+
+## Result
+
+Vanderpoel (Danger, 0.17) won at 4/1 — winner in our three (coverage held). Martator (Win) 2nd at 11/1 ("led 8th, headed 4 out, no impression"); Haas Boy (E-W) 7th at 4/1. Boothill a late NR (11 ran). The single Grand Annual head-to-head was over-weighted vs Vanderpoel's broader progressive profile; flagged alternative Shakeyatailfeather ran 3rd (16/1).

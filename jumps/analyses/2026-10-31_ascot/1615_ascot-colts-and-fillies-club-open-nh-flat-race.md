@@ -97,3 +97,7 @@ Field win probabilities: Lord Churchill 0.30, Saint Argente 0.26, Shane's Spirit
 ## Update 13:05 — data-gap pass
 
 Filled the gaps requested by the coordinator. Points form for Hoo's The Jet and The Rarest Hour opened at source (irishracing/GB Pointing); Saint Argente's wind op sought independently (not found beyond the RP form comment, Greatrex wind-op advocacy noted as context); Lord Churchill's RPR reconciled (104 on the day, 113 current after the frank); franks for Beau Speed, Aribidia, Kap In Hand and Company Charge all checked (all still maidens — confirming Lord Churchill's is the only franked form); Nick Scholfield's record corrected from "0/4 Ascot" to "3 runs, 0 wins, 1 place" (aggregator) with the RP-primary 0/14 last 14 days retained. **Selections unchanged** (Win Lord Churchill, E-W Shane's Spirit, Danger Saint Argente; probabilities unchanged). Going re-checked 12:56 GMT — unchanged, nine runners, no non-runners.
+
+## Result
+
+Saint Argente (Danger, 0.26) won at 2/1 — winner in our three. Lord Churchill (Win) 2nd at 9/4F (the thin franked-vs-unfranked edge went the wrong way); Shane's Spirit (E-W) 6th at 9/1. Unraced Colombe d'Or (0.10) ran 3rd at 7/2. In-running comments not yet published (provisional).
