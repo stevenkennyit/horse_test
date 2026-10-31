@@ -599,6 +599,32 @@
           ]
         },
         {
+          time: "15:43",
+          name: "Lavazza Handicap Hurdle (GBB Race)",
+          type: "hurdle",
+          distance: "1m7f157y",
+          going: "Good to Firm (Good in places)",
+          runners: 16,
+          source: "full",
+          status: "pending",
+          grade: "pending",
+          errors: [],
+          winner: null,
+          notes: "16-runner Class 2 handicap hurdle (~2m). Trustintimes the sole Ascot winner (won this C&D); Moveit Like Minnie the proven place profile (3rd in this race last year, form franked by Alexei).",
+          writeup: "jumps/analyses/2026-10-31_ascot/1543_lavazza-handicap-hurdle.md",
+          updated: "13:27 Sat 31 Oct",
+          picks: [
+            { role: "win", horse: "Trustintimes", prob: 0.18, placeProb: 0.42, finish: "-", confidence: "medium",
+              reason: "Only Ascot winner in the field (won this C&D off 119); unbeaten in 4 hurdle completions at 2m or shorter; ATR Smart Stats 5-4-1 at the trip; ~16lb better off with Williethebuilder on their Kempton form.",
+              against: "Every win in 7-9-runner Class 3/4 and the C&D win (20/1, 'left in disputed lead 4th') may have been gifted; 16-runner Class 2 off 127 (8lb above that mark); only big-field test (Aintree) was 17th." },
+            { role: "ew", horse: "Moveit Like Minnie", prob: 0.13, placeProb: 0.45, finish: "-", confidence: "medium",
+              reason: "Deepest Ascot record (8 hurdle runs, 6 top-4; 3rd in this race last year, that form franked by Alexei winning Greatwood + Kingwell); carries 2lb less than then; 30/31 hurdle completions; front-runner suits Ascot, de Boinville booked.",
+              against: "9yo serial placer who has never won at Ascot C&D (3rd/4th/5th); yard (Twiston-Davies) cold at 1/19 this season; faces competition for the lead." },
+            { role: "danger", horse: "Morning Mayhem", prob: 0.15, placeProb: 0.40, finish: "-", confidence: "medium",
+              reason: "Most consistent current Class 2 form — 2nd/17 in the Welsh Champion and 2nd by a head at Market Rasen, both conquerors franked; stays 2m and a mid-division stalker who avoids the early pace battle." }
+          ]
+        },
+        {
           time: "16:15",
           name: "Ascot Colts And Fillies' Club Open NH Flat Race (GBB Race)",
           type: "bumper",

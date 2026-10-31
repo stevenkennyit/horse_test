@@ -41,7 +41,7 @@
 ## Franking + At The Races data (gap-filling pass)
 
 - **Last year's Lavazza is strongly franked.** Winner Alexei (13/8f, off 127) went on to win the Unibet Greatwood Handicap Hurdle at Cheltenham (16 Nov 2025, 100/30f, by 6L) and the Grade 2 Kingwell Hurdle at Wincanton (Feb 2026). So Indemnity (2nd, 3L), Moveit Like Minnie (3rd, a neck behind Indemnity) and Fasol (5th) were all beaten by a horse who became a graded winner — their 2025 form is genuine Class 2 form, not a weak renewal. *(verified — Racing Post/Sky Sports reports)*
-- **At The Races expert ratings (form rating, not RPR):** Moveit Like Minnie 145 (best in field), Nap Hand 143, Gibbs Island 142, Morning Mayhem 141, Trustintimes 141, Fasol 139, Williethebuilder 140, Hamlet's Night 138, Rightsotom 137, Messerschmitt 134, Indemnity 131. *(verified — ATR racecard)*
+- **At The Races expert ratings (form rating, not RPR):** Moveit Like Minnie 145 (best in field), Nap Hand 143, Gibbs Island 142, Morning Mayhem 141, Trustintimes 141, Williethebuilder 140, Fasol 139, Hamlet's Night 138, Rightsotom 137, Messerschmitt 134, Indemnity 131. *(verified — ATR racecard)*
 - **At The Races Smart Stats (runs-wins-places):** Trustintimes distance 5-4-1 (80% win at ~2m), similar going 5-4-1, course/C&D 1-1-0; Moveit Like Minnie course 8-0-4 and C&D 4-0-2 (0 course wins, 4 places — the place profile); Morning Mayhem Class 2 5-0-2 (0 wins in 5); Williethebuilder "at this handicap or higher" 0-0-0; Rightsotom's yard (Tizzard) won this race last year; Nap Hand's yard (C Gordon) has won 2 of the last 5 runnings and Nap Hand is 4-1-2 in Class 2. *(verified — ATR racecard)*
 - **ATR comments:** Trustintimes "looks a big player back hurdling"; Morning Mayhem "didn't stay 2m4f, drop in trip a plus"; Indemnity "stiff-looking mark"; Fasol "keen and too aggressive on return, first-time blinkers"; Messerschmitt "may improve with a patient ride, first run for Pauling". *(verified — ATR racecard)*
 
@@ -59,12 +59,12 @@ Messerschmitt is a first run for Pauling after leaving N Meade, off 186 days. No
 
 One line per runner outside the Win/Each-Way/Danger:
 
-- **Williethebuilder** — won his reappearance readily off 134 and is 16lb worse off only to Trustintimes of today's rivals; a repeat of his Sedgefield effort off 140 could win, but that was a weak Class 3 and his only Ascot run was a pull-up.
-- **Indemnity** — 2nd in this exact race last year, but he is 14lb worse off with Moveit Like Minnie and ~13lb with Fasol on that line, and his last two runs (6th Market Rasen, 13th flat) are poor.
+- **Williethebuilder** — won his reappearance readily off 134 and is 16lb worse off only to Trustintimes of today's rivals; a repeat of his Sedgefield effort off 140 could win, but that was a weak Class 3, his only Ascot run was a pull-up, and he has never won at today's mark or higher (ATR OR+ 0-0-0).
+- **Indemnity** — 2nd in this exact race last year (form franked by Alexei), but he is 14lb worse off with Moveit Like Minnie and ~13lb with Fasol on that line, his mark is "stiff" (ATR), and his last two runs (6th Market Rasen, 13th flat) are poor.
 - **Gibbs Island** — dropped to 131 (from a peak 140) but has finished 7-9-7-7-5-11 in his last six hurdles; no case to make beyond the falling mark.
 - **Messerschmitt** — Listed 3rd at Punchestown (21 runners) off 126 is the classiest recent run in the field, and Pauling could improve him, but 186 days off + first run for the yard + only one hurdle win in 11 is a lot to take on trust.
 - **Hamlet's Night** — the 5lb claim puts him effectively 125, and he was a neck 2nd in a Listed at Wincanton last season, but his four hurdle runs this season are 6-10-11-5.
-- **Nap Hand** — 0 non-completions in 34 career starts and a confirmed front-runner on a galloping track; 19lb better off with Morning Mayhem on their Fakenham meeting, but his latest win was a 5-runner Class 4 and this is a much deeper race.
+- **Nap Hand** — 0 non-completions in 34 career starts, a confirmed front-runner on a galloping track, 4-1-2 in Class 2 and from a yard (C Gordon, 27% this season) that has won 2 of the last 5 runnings of this race; also 19lb better off with Morning Mayhem on their Fakenham meeting. Held back only because his latest win was a 5-runner Class 4 and this is a much deeper race.
 - **Rightsotom** — back over hurdles off 124 (won off higher last spring) with first-time blinkers, but he was 14th of 17 at Chepstow last time and 1m7.5f may be sharp for a 2m4f-chase type.
 - **Fasol** — 0 falls/unseats in 20 hurdles, first-time blinkers and a top jockey (S Twiston-Davies) aboard, and ~13lb better off with Indemnity on last year's Lavazza form; the case is real but his last run (6th Chepstow) and a 2m3f optimum cap him.
 - **Brendas Asking** — front-running mare who won 2 of her last 3 hurdles and ran 5th in a Grade 2 here; the 164-day absence and career-high 118 are the reasons she is not a selection.
@@ -112,11 +112,11 @@ Place terms for the Each-Way: 4 places, quarter odds (16-runner handicap) *(veri
 
 ## Unverified items
 
-- **Racing Post RPR / Topspeed figures** — not fetched (Racing Post returned a 406/WAF block). ORs are from Sporting Life + IrishRacing (verified).
-- **Current trainer/jockey strike rates and hot/cold form** — At The Races blocked by a bot check; trainer patterns (Fry, Pauling, O'Neill) are asserted from general knowledge, not read at source this session.
-- **Dedicated pace map** — not available (ATR blocked); running styles are inferred from Sporting Life ride descriptions (read at source).
-- **Subsequent runs of Alexei** (won last year's Lavazza) — not checked.
-- **Messerschmitt's B Pauling record with 180+ day returners / stable switchers** — not found.
+- **Racing Post RPR / Topspeed figures** — still not obtainable (Racing Post blocked: 406 via curl, 404 via WebFetch). ATR "expert ratings" are used as the form-rating substitute (verified from ATR); they are not RPR.
+- **Dedicated pace map** — the ATR "Pace" tab did not render in the fetched page; running styles are inferred from Sporting Life ride descriptions + ATR comments (both read at source), not from an official pace map.
+- **Messerschmitt's B Pauling record with 180+ day returners / first-time stable switchers** — not found in any free source; only the general yard profile (~15.9% lifetime, ~21% last 90 days, "second-season/improver" yard) is available (asserted).
+- **Gower Prince / Brendas Asking / Emerald Time / Zillow / Parchment ATR Smart Stats** — the ATR page extract ended at runner 11 (Fasol), so runners 12–16's Smart Stats/comments were not captured; their data comes from Sporting Life + IrishRacing (verified).
+- Non-runners / going final state — coordinator's check closer to the off (my last check ~13:06: 16 declared, hurdle course GF (G in places)).
 
 ---
 
@@ -126,4 +126,6 @@ Place terms for the Each-Way: 4 places, quarter odds (16-runner handicap) *(veri
 - Sporting Life horse profiles (all 16): https://www.sportinglife.com/racing/profiles/horse/<id>
 - Sporting Life result pages: last year's Lavazza (887387), Chepstow Welsh Champion (942541), Market Rasen (940387), Hexham (941316), Chepstow (942785), Plumpton (944228), Sedgefield (944011), Punchestown (914448)
 - IrishRacing racecard (head-to-heads, first-time gear, trainer/jockey): https://www.irishracing.com/racecards/Sat-31st-Oct-2026/Ascot/1543
+- At The Races racecard (expert ratings, Smart Stats, comments, place terms): https://www.attheraces.com/racecard/Ascot/31-October-2026/1543
+- Alexei franking: Racing Post report (https://www.racingpost.com/news/reports/alexei-justifies-favouritism-in-impressive-style-for-joe-tizzard-and-brendan-powell-in-the-greatwood-hurdle-adbD32o2K1UJ/) and Racing & Sports Kingwell report (https://www.racingandsports.com.au/news/international/uk-ire-and-europe/2026-02-15/alexei-books-champion-hurdle-ticket-with-kingwell-win/709242)
 - Sporting Life going page: https://www.sportinglife.com/racing/going
