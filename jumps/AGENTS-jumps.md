@@ -58,7 +58,7 @@ Every statement in a summary, grid or rationale is a factual claim. Most analyti
 - **Grade every claim: verified / asserted / not found.**
   - *Verified* — confirmed at source this session.
   - *Asserted* — stated from memory or inference; go back and verify before it appears in a selection's rationale.
-  - *Not found* — searched and absent. Say "no proven stay beyond 2m4f found," not "won't stay 3m"; say "no frank found," not "unfranked." Absence of evidence is weaker than evidence of absence, and the wording must show it.
+  - *Not found* — searched and absent. Say "no proven stay beyond 2m4f found," not "won't stay 3m." Absence of evidence is weaker than evidence of absence, and the wording must show it.
 
 - **When sources conflict, report both and say which you rely on and why.** Racing Post result pages beat profile pages, cards and snippets.
 
@@ -191,7 +191,7 @@ Trainer and jockey influence is more dominant over jumps than on the flat.
 - **Irish raiders and top yards.** A powerful yard sending one runner to a UK meeting, or an Irish raider travelling over, is a signal to weigh.
 - **Jockey bookings.** A stable's number-one or a top freelance booked on a big-priced horse means more than a 7lb-claimer. Note conditional claims (3/5/7lb) and whether the claim is already off the listed weight.
 - **First-time headgear / wind ops** by who trains the horse: a methodical yard means more than a random one, and first run after wind surgery is a stronger positive over jumps.
-- **Novices and newcomers:** well-bred, patiently handled novices from powerful yards often beat exposed handicap plodders — but only when the exposed form is weak. Proven, franked ability beats unraced potential where the form is strong.
+- **Novices and newcomers:** well-bred, patiently handled novices from powerful yards often beat exposed handicap plodders — but only when the exposed form is weak. Proven ability beats unraced potential where the form is strong.
 
 ### Step 10a: Fitness and seasonal profile
 
@@ -199,30 +199,20 @@ Trainer and jockey influence is more dominant over jumps than on the flat.
 - **Seasonal campaigns.** Note horses being aimed at a target (a festival, a staying race in spring) and whether today is a prep or the day. Ground-dependent horses appear when the going suits.
 - **Returning from a layoff or injury:** check the horse has shown its old level *since* returning, not only before.
 
-## Step 11: Frank the form
-
-For every runner's key recent run, find out what the winner and the other placed horses have done since.
-- Second to a horse that has won again (especially in better company) = strong form.
-- Second to a horse that has lost since = weaker form.
-
-**Weigh the quality of the conqueror, not just the margin.** A well-beaten effort behind a subsequent Graded winner can be stronger than a narrow win over subsequent losers.
-
-**"Franked" requires a confirmed follow-up result.** If you looked and found no subsequent win, say "no frank found," not "unfranked." Field size alone does not frank a race. A frank from a search snippet is not confirmed until the result page is read.
-
-## Step 12: Today's weight against rivals
+## Step 11: Today's weight against rivals
 
 Add roughly 1lb-per-length value (Step 5.2 scale) per lb each horse receives from today's top weight, and apply the mares' allowance and any conditional claim correctly. Apply weight-for-age where a younger horse receives from older rivals. Use this to compare runners carrying different weights today — but remember weight is one of several core factors, not the whole picture.
 
-## Step 13: Summary grid
+## Step 12: Summary grid
 
 Before ranking, fill in one row for every runner:
 
-| Horse | Jumping (completion / error pattern) | Stamina & ground (stays trip? handles going?) | Weight change / well-in? | Consistency (place / completion / trend) | Course & code form | Form franked? | Pace / course fit | Connections & fitness | Weak time note | Key doubt |
+| Horse | Jumping (completion / error pattern) | Stamina & ground (stays trip? handles going?) | Weight change / well-in? | Consistency (place / completion / trend) | Course & code form | Pace / course fit | Connections & fitness | Weak time note | Key doubt |
 |---|---|---|---|---|---|---|---|---|---|---|
 
 Rank mainly on jumping, stamina/ground, weight/handicap and consistency. Use the rest to separate close calls. Times are a tiebreaker at most.
 
-## Step 14: Stress-test every pick
+## Step 13: Stress-test every pick
 
 For each selection, actively look for what's wrong with it:
 - What is the strongest argument against it?
@@ -236,7 +226,7 @@ For each selection, actively look for what's wrong with it:
 
 List everything you couldn't verify.
 
-## Step 15: Issue the selections — Win, Each-Way, Danger
+## Step 14: Issue the selections — Win, Each-Way, Danger
 
 The agent's job ends at the selections. It does not recommend bets, stakes or bet types, and does not check prices; the user decides how to bet. Issue up to **three named selections, each a different horse**:
 
@@ -274,7 +264,7 @@ So a short-priced Win that obliges earns little, and a correctly-chosen big-pric
   - *Big, competitive handicaps dilute it.* Weight bunches the field and the chance of a non-completion among the leaders rises, so in 12+ runner handicap chases and hurdles (especially 16+) a realistic Win ceiling is about 25%, with more probability spread across the field. This is the structural reason the outsider check — and the Each-Way — matter most in these races.
   - *Class is not a reliable lever over jumps.* The weak class/favourite-reliability link that holds on the Flat is thin and even reverses in the jumps samples checked, so do not downgrade the Win just because the race is low grade. Field size, handicap status and completion risk do the real work. *(Added 26 Oct 2026 from aggregated favourite-strike-rate studies — field size swings favourite win rates by ~15 points; the jumps class data is thin and mixed; figures are secondary, not BHA primary.)*
 
-## Step 16: Record the analysis
+## Step 15: Record the analysis
 
 Every analysed race is saved **before the off**, so the result can be judged later against what was actually said and the performance dashboard stays complete. All paths are relative to the project root `C:\Users\steven\Desktop\horse_agent`.
 
@@ -285,8 +275,8 @@ Every analysed race is saved **before the off**, so the result can be judged lat
 Required contents, in this order:
 - **Header:** date, course, off time, race name, code and type (hurdle / chase / NH flat), distance, going (with source and time checked), field size, non-runners.
 - **Analysis source:** `full` (the agent's own analysis) or `verified` (user-supplied picks checked by the agent).
-- **Summary grid** (Step 13) for every runner.
-- **Outsider check** (Step 15): one line for every runner outside the provisional selections.
+- **Summary grid** (Step 12) for every runner.
+- **Outsider check** (Step 14): one line for every runner outside the provisional selections.
 - **Selections:** the Win, the Each-Way (if any) and the Danger (if any), each a different horse, with win probability, place probability, fair price and confidence (low / medium / high).
 - **Rationale and the strongest case against** the Win and Each-Way, with key claims tagged verified / asserted / not found.
 - **Unverified items** — everything that could not be checked.
@@ -326,7 +316,7 @@ Before any final selection, grid or rationale goes out, run these against the da
 10. Have I counted (not estimated) every completion, fall and losing-run count I quote?
 11. Have I written the outsider check, and does each selection's reason rest on more than rating, form figures and stable?
 12. Are the selections issued as Win / Each-Way / Danger (each a different horse, Win the highest win chance), each with a win probability AND a place probability, and is the Each-Way chosen on each-way expectation rather than as a second-favourite?
-13. Is the write-up saved under `jumps/analyses/…` and the race added to `jumps/data/results.js` with `role` on each selection and `status: "pending"` (Step 16)?
+13. Is the write-up saved under `jumps/analyses/…` and the race added to `jumps/data/results.js` with `role` on each selection and `status: "pending"` (Step 15)?
 
 ---
 
@@ -338,7 +328,7 @@ Once results are published, judge the reasoning, not the result.
 2. **Table every ranked horse**: my rank, finishing position (or F/U/P/R), beaten distance, SP, and a one-line verdict on whether the reasoning held.
 3. **Separate the kinds of error:**
    - *Data errors* — a figure, margin, going, headgear code, jumping record or count was wrong at source or misread.
-   - *Judgement errors* — the data was right but weighted wrongly (consistency over handicap, rating over franking, a time over a head-to-head, or underweighting a jumping/stamina/ground doubt).
+   - *Judgement errors* — the data was right but weighted wrongly (consistency over handicap, a time over a head-to-head, or underweighting a jumping/stamina/ground doubt).
    - *Jumps-specific errors* — (a) **mis-weighting jumping risk**: backing a known sketchy jumper, or writing off a sound jumper after a freak fall or brought-down; (b) **mis-reading a non-completion**: treating a P/F/U as ability form when it was ground, trip or luck, or vice versa; (c) **a ground or non-runner swing** that changed the race.
 4. **Name what held and what failed in each race**, including correct calls that lost (a sound pick brought down or beaten by a faller) and wrong calls that won (one that won despite a real doubt, or for a reason the analysis didn't give).
 5. **Turn each judgement error into a rule** and add it to the relevant step above. Then **log the change in `data/changelog.js`** (date, scope, title, detail) so the dashboard's "Playbook changes" can track its effect on performance.
@@ -368,9 +358,9 @@ Winner came from our top two in 3 of 6 races; our 1st pick won once. The Placepo
 
 **Judgement errors → rules added:**
 - A. Early-career ground runs held against improved horses → Step 4, item 6.
-- B. A recorded jumping doubt overridden by price → Step 14.
+- B. A recorded jumping doubt overridden by price → Step 13.
 - C. A keen-going top pick in a weak pace → Step 9.
-- D. Dual forecasts in 10+ runner handicaps → Step 15. *(Retired 25 Oct 2026: the agent no longer recommends bets.)*
+- D. Dual forecasts in 10+ runner handicaps → Step 14. *(Retired 25 Oct 2026: the agent no longer recommends bets.)*
 
 **What held:** class over an unproven-ground question (Chart Topper); dam's racing record as stamina evidence (Ole Ole); refusing odds-on with an unresolved doubt (Light Up The Dark); downgrades of Nine Graces, Mount Frisco, Folly Master and Holly's Thunder. **Correct call that lost:** Crecora Hills (value, market agreed, fell early).
 
@@ -389,7 +379,7 @@ Whole meeting: our 1st pick won 1 of 8; the winner came from our top two in 3 of
 - No race write-ups were saved for the meeting, so the reviews could only be judged against the results data.
 
 **Judgement error → rule added:**
-- E. Unraced newcomer rated above raced rivals on price, pedigree or booking → Step 15.
+- E. Unraced newcomer rated above raced rivals on price, pedigree or booking → Step 14.
 
 **What held:** refusing a second odds-on favourite with an unresolved doubt (Bulgaden Castle); Doctor Elvis's run to form after a break. **Wrong call:** the bumper ranking.
 
@@ -421,9 +411,8 @@ Carried over from the flat playbook, with jumps-specific additions. Pages can on
 2. **Run history, weights, jumping:** Sporting Life profile (or Sky Sports); record result link paths for each run.
 3. **Jumping & in-running:** open each key Racing Post result and read the jumping/in-running comment; log any fluency figure.
 4. **Stamina & ground:** build each horse's trip-and-going record from the run list.
-5. **Franking:** profile of the key run's winner, then the result page of its next run.
-6. **Pace & course character:** Geegeez/At The Races once per course.
-7. **Connections & fitness:** At The Races Smart Stats early; note seasonal/reappearance patterns.
+5. **Pace & course character:** Geegeez/At The Races once per course.
+6. **Connections & fitness:** At The Races Smart Stats early; note seasonal/reappearance patterns.
 
 Roughly 2–3 lookups per runner, plus the extra jumping/ground reads — a jumps card takes a little longer than the flat equivalent. Allow 30+ minutes before the off.
 
@@ -438,7 +427,7 @@ Verification discipline decays as a task lengthens. For any deliverable produced
 - Go straight to the known racing domains (skysports, racingpost, sportinglife, racingtv, attheraces, irishracing); ignore Wikipedia/newspaper noise.
 - **Sporting Life result weights are listed before the claim/allowance.** Take the claim and the mares' allowance off before any weight comparison.
 - **Sporting Life margins can be misprinted** — check key margins against the Racing Post result.
-- **Search snippets are not results.** Never take a frank, a win or a jumping record from a snippet — open the result page.
+- **Search snippets are not results.** Never take a win or a jumping record from a snippet — open the result page.
 - **Read the in-running comment for every non-completion** before treating F/U/P/R as a form judgement.
 - **Racing TV, gg.co.uk and some At The Races horse-form pages often return empty or blocked.** Racing Post results and Sporting Life profiles/results are the reliable core.
 - **Sporting Life going page lists several days.** Read the row under today's date heading; a multi-day meeting appears once per day.
