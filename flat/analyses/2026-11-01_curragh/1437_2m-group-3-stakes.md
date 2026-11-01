@@ -18,7 +18,7 @@ Weights are today's carried weight (no claims). "At trip" = 2m within ~half a fu
 
 | Horse (draw) | Weight change vs key run | Time / beaten-distance profile | Consistency (last 6: place rate / close-up / trend) | Course & distance form | Draw / pace | Connections | Key doubt |
 |---|---|---|---|---|---|---|---|
-| **Chally Chute** (7) 9-9, OR 114 | Won Cesarewitch off 9-11 (after 5lb claim) → today 9-9 (−2lb); won 2025 Loughbrown off 9-9 (same) | Best 2m figures in the race: won Cesarewitch (2m170y, Hvy) in 3:50.42, top weight | 4/6 places; 4/6 close-up; last run (6th Royal-Oak) the only below-par run | Won this race 2025 (2m71y, Hvy, 11/8f, "comfortably"); 1st + 2nd in last two Irish Cesarewitchs (2m170y) | Near-neutral draw | R O'Sullivan; D O'Connor | 7-day return after hard G1 run; wants genuine soft |
+| **Chally Chute** (7) 9-9, OR 114 | Won Cesarewitch off 9-11 (after 5lb claim) → today 9-9 (−2lb); won 2025 Loughbrown off 9-9 (same) | Best 2m figures in the race: won Cesarewitch (2m170y, Hvy) in 3:50.42, top weight | 4/6 places; 4/6 close-up; last run (6th Royal-Oak) the only below-par run | Won this race 2025 (2m111y, Hvy, 11/8f, by 3½l "comfortably"); 1st + 2nd in last two Irish Cesarewitchs (2m170y) | Near-neutral draw | R O'Sullivan; D O'Connor | 7-day return after hard G1 run; best on soft/heavy (any drying blunts edge) |
 | **Amelia Earhart** (6) 9-0, OR 110 | 4th Royal-Oak off 8-8 → today 9-0; receives 9lb from older colts (WFA + 3lb sex) | 3rd St Leger, 3rd Royallieu, 4th Royal-Oak (5½l, G1), 6th Ascot LDC (1m7f209y) | 3/6 places; 3/6 close-up; consistent G1 placings, no win since May | Best at 1m4f–1m7f110y; 2m slightly beyond proven best | Near-neutral draw | A P O'Brien / G Ryan; blinkers 4th time | Stamina at 2m; long season (3 runs in Oct) |
 | **Asakir** (10) 9-3, OR 106 | 4th Chaudenay off 9-2 → 9-3; gets 6lb WFA | 4th Prix Chaudenay (G2, 1m6f200y) 3¼l; 2nd Yeats (1m5f) 1¼l to Queen's Vase winner Limestone | 3/5 places; lightly raced (5 runs) | Never run beyond 1m6f200y; 2m unproven | Wide-ish, neutral | J P Murtagh / B Coen; cheekpieces 2nd time | Stamina not assured at 2m |
 | **Abbotsford** (9) 9-3, OR 102 | Won Beggar's End off 9-6 → today 9-3; gets 6lb WFA | Won 2m Beggar's End (Soft) by 2l, 4.74s fast of standard; beat Galileo Dame ~5¼l giving 6lb | 4/6 places; improving (won last, 2nd before) | Won at 2m (Naas) last time; CD win was a Curragh 1m2f maiden | Near-neutral | D K Weld / C Hayes (yard won 2 of last 5 runnings) | Won only a €100k handicap; flopped (7th) in Vinnie Roe Listed |
@@ -60,10 +60,10 @@ Rest of field win chances: Asakir 0.09, Absurde 0.07, Marazion 0.05, Endless Vic
 - **Verified (IrishRacing result 2026-09-27):** won the Friends Of The Curragh Irish Cesarewitch (2m 170y, Heavy, 30 ran) off top weight, carrying 9-11 after Sam Coen's 5lb claim, in 3:50.42.
 - **Verified (same result):** today's rivals Galileo Dame (3rd, ¾l) and Sky Captain (6th, ~2.8l) were behind him that day, and **Sky Captain was reported badly hampered after the first furlong** (stewards' report), so the gap to him is flattered.
 - **Verified (weights):** he gave Galileo Dame 12lb and Sky Captain 11lb in the Cesarewitch; today he gives Galileo Dame only 3lb and meets Sky Captain at level weights — the weight swing is all in his favour versus both.
-- **Verified (SL card, previous results):** won this race last year (2025 Loughbrown, 2m 71y, Heavy, 11/8f, "comfortably") off the same 9-9, and was 2nd in the 2025 Cesarewitch — so 2m course-and-distance form is proven and repeated.
+- **Verified (SL card, previous results; IrishRacing result 2025-11-02):** won this race last year (2025 Loughbrown, run at 2m 111y after the distance was amended, Heavy, 11/8f, by 3½l "comfortably") off the same 9-9, and was an unlucky 2nd in the 2025 Cesarewitch (trainer: "didn't get a clear run and was stopped twice") — so 2m course-and-distance form is proven and repeated.
 - **Verified (ATR card / news):** last run was 6th in the G1 Prix Royal-Oak (beaten 8½l) — the only below-par run in his last six, and that was a step up in grade; he drops back to the level he won at last year.
 
-**Strongest case against:** seven-day return after a hard G1 run, and he is at his best on genuinely soft/heavy ground — a merely yielding (drying) surface could blunt his edge, while Amelia Earhart receives 9lb and finished ~3l in front of him at Saint-Cloud. There is also a real chance the Royal-Oak has left its mark on an 8yo.
+**Strongest case against:** seven-day return after a hard G1 run. He acts on yielding (unlucky 2nd in the 2025 Cesarewitch on yielding — "stopped twice" per his trainer), but his two big wins came on heavy, so any further drying would blunt his edge; Amelia Earhart receives 9lb and finished ~3l in front of him at Saint-Cloud. There is also a real chance the Royal-Oak has left its mark on an 8yo.
 
 ### Each-Way — Abbotsford (0.10 win, 0.38 place)
 
@@ -76,18 +76,16 @@ Rest of field win chances: Asakir 0.09, Absurde 0.07, Marazion 0.05, Endless Vic
 
 ### Danger — Amelia Earhart (0.25)
 
-- **Verified (SL card / news):** 3rd in the St Leger (G1), 3rd in the Prix de Royallieu (G1), 4th in the Prix Royal-Oak (G1, beaten 5½l) — Group 1 placed four times this season and now drops to Group 3.
+- **Verified (Equidia full result; SL card):** 3rd in the St Leger (G1), 3rd in the Prix de Royallieu (G1), 4th in the Prix Royal-Oak (G1, beaten ~5¼l, head behind 3rd, carrying 8-8) — Group 1 placed four times this season and now drops to Group 3. Last win was the Cheshire Oaks (Chester, 6 May 2026, 13/8) — verified via IrishRacing horse page.
 - **Verified (Royal-Oak):** finished ~3l in front of Chally Chute at Saint-Cloud while giving him 14lb; on today's weights she receives 9lb, so that form line is roughly level between them.
 - **Verified (ATR card):** "top course trainer" A P O'Brien has won 3 of the last 10 runnings of this race.
 - **Asserted:** stamina at 2m is a query — her best G1 placings are at 1m6f–1m7f110y and she was 6th (faded) in the Ascot Long Distance Cup over 1m7f209y, the closest she has run to 2m.
 
-## Unverified items / data gaps
+## Unverified items / data gaps (after gap pass)
 
-- Full career histories beyond each horse's last 5–6 runs were **not** read from profile pages (Sporting Life horse-profile URLs returned 404 shells). Specifically: Amelia Earhart's Cheshire Oaks win is taken from the ATR card, not a result page; Absurde's 2025 flat runs (form digits 2/3/7) were not individually opened.
-- Prix Royal-Oak (Saint-Cloud) margins (Amelia Earhart 4th 5½l, Chally Chute 6th 8½l, winner Queenstown) rest on the ATR Expert View plus news/PMU summaries via search — the full French result page was not opened.
-- Queen's Vase (Royal Ascot): Asakir 7th, ~4–4½l behind Limestone — taken from a search summary, not the result page read directly.
-- Trainer/jockey course strike rates not pulled (At The Races Smart Stats unavailable — bot check — as flagged in the fact pack).
-- Winning time for the 2025 Loughbrown not read (not needed for the argument).
+- Trainer/jockey course strike rates still not pulled (At The Races Smart Stats bot-blocked — flagged in the fact pack). Connection angles rest on the yards' known record in this race (Weld 2/5, A P O'Brien 3/10 — from the ATR card) rather than course strike rates.
+- Absurde's three 2025 flat runs that sit before the Melbourne Cup 8th (form digits 2/3/7) were not individually opened; they do not change the picture — his last win anywhere was a hurdle at Plumpton in Apr 2025, and his 2026 flat consists of the 25th in the Cesarewitch and the 2nd in the Amateur Derby (both read in full).
+- No full run-by-run text table was extractable from the IrishRacing horse pages (the pages surface "Last Win / Last Run" summaries and news, not a plain-text form grid); the full last-5/6-run histories with in-running comments used throughout are from the Sporting Life racecard JSON (read in full).
 
 ## Sources
 
@@ -102,3 +100,18 @@ Rest of field win chances: Asakir 0.09, Absurde 0.07, Marazion 0.05, Endless Vic
 - IrishRacing result — Yeats Stakes (16 May): https://www.irishracing.com/raceresults/Sat-16th-May-2026/Navan/1607
 - IrishRacing result — Vinnie Roe Stakes (20 Aug): https://www.irishracing.com/raceresults/Thu-20th-Aug-2026/Leopardstown/1830
 - IrishRacing result — October Handicap (18 Oct): https://www.irishracing.com/raceresults/Sun-18th-Oct-2026/Leopardstown/1642
+- Equidia result — Prix Royal-Oak, Saint-Cloud (25 Oct): https://www.equidia.fr/courses/2026-10-25/R1/C6
+- IrishRacing result — Queen's Vase, Royal Ascot (17 Jun): https://www.irishracing.com/royal-ascot/raceresults/Wed-17th-Jun-2026/1505
+- IrishRacing result — 2025 Loughbrown Stakes (2 Nov): https://www.irishracing.com/raceresults/Sun-2nd-Nov-2025/Curragh/1430
+- IrishRacing horse pages (Last Win / Last Run, full-career summaries) for all 11 runners: https://www.irishracing.com/horse/Chally-Chute-IRE/629205
+
+## Update 13:15 — gap-fill pass
+
+Opened the previously unverified results in full. **Picks unchanged.**
+
+- **Prix Royal-Oak (Saint-Cloud, 25 Oct), full result read at Equidia** — going "Terrain Collant" (sticky, ~heavy), 8 ran. 1st Queenstown (A P O'Brien / R L Moore, 59kg). **Amelia Earhart 4th, beaten ~5¼l (a head behind 3rd Highara), carrying 8-8 (54.5kg), ridden W M Lordan. Chally Chute 6th, beaten ~8½l, carrying 9-4 (59kg).** Amelia Earhart therefore finished ~3l in front of Chally Chute giving 14lb — on today's weights (he gives her 9lb) that line is roughly level between them. Chally Chute's comment: tracked Al Nayyir, "couldn't change gear in the straight." Confirms the ATR margins.
+- **Queen's Vase (Royal Ascot, 17 Jun), full result read at IrishRacing** — Limestone won (OR 102, 10/3); **Asakir 7th of 11, beaten 0.75l (cumulative ~4l), carrying 9-2, "no danger."** Confirms Asakir's 2m-stamina doubt: beaten a fair way at the trip in G2 company.
+- **2025 Loughbrown, full result read at IrishRacing** — **Chally Chute won by 3½l** (7yo, 9-9, OR 112, 11/8f) from The Shunter; note the race was run at **2m111y** (distance amended) rather than 2m71y. Trainer after the race: he "didn't get a clear run and was stopped twice" when 2nd in the 2025 Cesarewitch — so the 2025 Cesarewitch 2nd was unlucky.
+- **Full-career "last win" checks (IrishRacing horse pages)** — Amelia Earhart: last win Cheshire Oaks, Chester 6 May 2026 (13/8, R L Moore) — verified; Endless Victory: last win **Aug 2024 (798 days)**; Sky Captain: last win Jul 2025 (488 days); Absurde: last win a hurdle at Plumpton Apr 2025 (560 days); Galileo Dame: last win a Navan **hurdle** in Feb 2026 (last flat win 2024); Asakir: last win Leopardstown maiden Apr 2026; Abbotsford/Snapretend/Marazion/Chasing Paradise: last wins as already recorded. None of these alters the ranking.
+- **Going check (coordinator query)** — round course is Yielding (not soft). This does NOT blunt Chally Chute's edge by itself: he was an unlucky 2nd in the 2025 Cesarewitch on yielding, and ATR grades him "acts on heavy and yielding." The real (unlikely, overcast) risk is further drying to good — his one poor Irish run before the Royal-Oak (Lenebane 5th) was on good ground. Case-against wording corrected accordingly.
+- Selections stand: **Win Chally Chute (0.34 / place 0.66), Each-Way Abbotsford (0.10 / 0.38), Danger Amelia Earhart (0.25 / 0.60).** No non-runners at 13:05.

@@ -23,15 +23,15 @@ Weights carried vs today (today: 3yo fillies 8-11, all others 9-2).
 |---|---|---|---|---|---|---|---|---|---|
 | **Thread Of Gold** (5) | 3g | 107 | 17-3115 | +1lb vs Kilternan G3 (9-1); +2lb vs Guinness win (9-0) | 3 wins in last 5, improving; one "kept on" 5th | Won Curragh 7f (2yo); won Galway 1m4f; Leopardstown 1m1f win | Held up, strong late run; draw 5 | W P Mullins / Billy Lee | 50-day layoff; needs a fair pace |
 | **The Austrian** (7) | 3g | 95 | 7211 | −12lb vs Thurles hcp win (10-0); −6lb vs Listowel md (9-8) | 2 wins, 1 close 2nd in last 3; improving | Won Listowel 1m4f md, Thurles 1m4f154y hcp; 2nd Curragh 1m2f md | Prominent or held up; draw 7 | Mrs J Harrington / S Heffernan | Wins only maiden + 5-runner hcp grade |
-| **In My Teens** (11) | 4f | 106 | 2-91680 | −9lb vs Ragusa win (9-11); −5lb vs Bluebell (9-7) | Won CD "very easily"; then 6th/8th/12th — declining | **Won Curragh 1m4f** (Ragusa Premier, 7L); 8th Kilternan G3, 12th Bluebell | Mid-div, ran freely (keen); draw 11 | G P Cromwell / G Carroll (hood) | Three poor runs since June win; soft-ground flop |
+| **In My Teens** (11) | 4f | 106 | 2-91680 | −9lb vs Ragusa win (9-11); −5lb vs Bluebell (9-7) | Won CD "very easily"; then 6th/8th/12th — declining | **Won Curragh 1m4f** (Ragusa Premier, 7L, fast pace); 8th Kilternan G3 (~4¼L, gave 5lb to Thread, ran freely); 12th Bluebell | Mid-div, ran freely (keen); draw 11 | G P Cromwell / G Carroll (hood) | Three poor runs since June win; soft-ground flop |
 | **Zadawa** (6) | 3f | 94 | 43217 | −4lb vs Bluebell (9-1); −6lb vs Galway md (9-3) | 1 win (8L), 7th, improving until Listed | Won Galway 1m4f md (soft); 7th Bluebell Listed; 3rd Curragh 1m2f md | Prominent/led; draw 6 | D K Weld / C Hayes | Only maiden win; Listed 7th was 22/1 |
 | **Shosholoza** (1) | 3c | 95 | 5-86604 | vs Contorsion today level (gave 6lb in Amateur Derby) | Winless in 6 since debut; 4th last time (unlucky) | 4th Curragh 1m4f Amateur Derby; 6th Ulster Derby 1m4f | Tracks leaders; draw 1 (best) | J P O'Brien / P Harnett (tongue tie) | No win since 2yo debut; short of room last time |
 | **Contorsion** (10) | 4f | 90 | 15-51 | Won Amateur Derby 11-2 → today 9-2 | 2 wins from 4; 5th in both Listeds | **Won Curragh 1m4f** (Amateur Derby, 12 days ago) | Rear/mid-div; draw 10 | J P O'Brien / J M Sheridan | Won an amateur race; 5th in both Listed tries |
-| **Golden Splendour** (4) | 4f | — | 1-1 | −4lb vs Punchestown win (9-6) | 2 wins from 2; lightly raced (2 runs in 18 months) | None at Curragh; wins at 1m1f (Chantilly, Punchestown) | Held up, keen; draw 4 | J P O'Brien / D McDonogh | Untested at 1m4f; unrated; 47 days off |
+| **Golden Splendour** (4) | 4f | — | 1-1 | −4lb vs Punchestown win (9-6) | 2 wins from 2; lightly raced (2 runs in 18 months) | None at Curragh; wins at 1m1f (Chantilly, Punchestown by a neck) | Held up, keen; draw 4 | J P O'Brien / D McDonogh | Untested at 1m4f; unrated; 47 days off |
 | **Shaool** (2) | 5m | 98 | 667678 | −5lb vs Bluebell (9-7) | No place in last 6; regressive (108→98) | Won Curragh Premier hcp 2025; Trigo Listed win (soft) 2025 | Held up, slow starts; draw 2 | J P Murtagh / B Coen (cheekpieces) | No win this season; repeated slow starts |
 | **Together Now** (12) | 3f | 84 | 2-321 | −6lb vs Bill Hanlon win (9-3) | 1 win, 2nd, 3rd in last 3; improving | **Won Curragh 1m4f** maiden (12 days ago, 3¾L) | Mid-div/rear; draw 12 | A P O'Brien / G Ryan (tongue tie) | Maiden winner; needs ~20lb to win Listed |
-| **Miss Romagna** (13) | 3f | 81 | 62531 | −6lb vs Roscommon win (9-3) | Won last time; mixed before | Won Roscommon 1m4f md (made all) | Led/disputed; draw 13 (worst) | W McCreery / A Slattery | Modest maiden level; 62 days off; wide draw |
-| **Mawhibah** (8) | 3f | 78 | 5421 | −6lb vs Navan win (9-3) | Won last time (1m2f) | 2nd Tramore 1m4f md; won Navan 1m2f md | Led then mid-div; draw 8 | J P O'Brien / N Crosse | Lowest rated (78); 60 days off |
+| **Miss Romagna** (13) | 3f | 81 | 62531 | −6lb vs Roscommon win (9-3) | Won last time; mixed before | Won Roscommon 1m4f md (made all, 5½L) | Led/disputed; draw 13 (worst) | W McCreery / A Slattery | Modest maiden level; 62 days off; wide draw |
+| **Mawhibah** (8) | 3f | 78 | 5421 | −6lb vs Navan win (9-3) | Won last time (1m2f) | 2nd Tramore 1m4f md; won Navan 1m2f md (½L, 21 ran) | Led then mid-div; draw 8 | J P O'Brien / N Crosse | Lowest rated (78); 60 days off |
 | **Camino Vino** (9) | 3f | 83 | 1-506 | −3lb vs Marble City (9-0) | No place in 3 turf runs this season | Won Dundalk AW 1m md; 6th Marble City Listed | Held up, dwells; draw 9 | G P Cromwell / R Cleary | 99-day layoff; 6th of 7 in Listed |
 
 *Non-runner: Factual Fact (7g, 9-7, OR 89) — draw 3.*
@@ -53,19 +53,19 @@ Weights carried vs today (today: 3yo fillies 8-11, all others 9-2).
 
 | Role | Horse | Win prob | Place prob | Fair price | Confidence |
 |---|---|---|---|---|---|
-| **WIN** | **Thread Of Gold** | 0.37 | 0.65 | ~2.7 (13/8) | medium |
-| **EACH-WAY** | **The Austrian** | 0.13 | 0.38 | ~7.7 (13/2) | medium |
-| **DANGER** | **In My Teens** | 0.13 | 0.34 | ~7.7 (13/2) | low |
+| **WIN** | **Thread Of Gold** | 0.34 | 0.62 | ~2.9 (15/8) | medium |
+| **EACH-WAY** | **The Austrian** | 0.12 | 0.40 | ~8.3 (15/2) | medium |
+| **DANGER** | **In My Teens** | 0.15 | 0.38 | ~6.7 (11/2) | low |
 
-Win probabilities across the field (sum ≈ 1.0): Thread Of Gold 0.37, The Austrian 0.13, In My Teens 0.13, Zadawa 0.10, Shosholoza 0.08, Contorsion 0.07, Golden Splendour 0.06, Shaool 0.04, Together Now 0.03, Miss Romagna 0.02, Mawhibah 0.01, Camino Vino 0.005.
+Win probabilities across the field (sum ≈ 1.0): Thread Of Gold 0.34, In My Teens 0.15, The Austrian 0.12, Zadawa 0.11, Shosholoza 0.08, Contorsion 0.07, Golden Splendour 0.06, Shaool 0.04, Together Now 0.03, Miss Romagna 0.02, Mawhibah 0.01, Camino Vino 0.005.
 
 ## Rationale and case against
 
 ### WIN — Thread Of Gold (0.37, fair ~2.7)
 
-**Why:** The strongest single piece of form in the race is his 5th in the Group 3 Kilternan Stakes at Leopardstown over this trip, beaten ~3½ lengths by Arabian Crown, who made all (verified — Racing Post via search). Before that he won back-to-back Premier handicaps — the Nasrullah (Leopardstown 1m1f, off 88, by 1¼L) and the Guinness (Galway 1m4f, off 97, by 1¾L in an 18-runner field) — and he won that Galway race on yielding-to-soft, so today's ground holds no fear (verified). Rated 107, he is ~9lb clear of the next in-form horse (The Austrian / Shosholoza / Zadawa all ~94–95) and drops from Group 3 to a weak Listed (€30k, no older male after Factual Fact's withdrawal). Progressive profile: 3 wins and a G3 5th in his last 5 runs.
+**Why:** The most reliable progressive profile in the race, with the top rating (107). His Group 3 Kilternan 5th at Leopardstown over this trip, beaten ~3½ lengths by Arabian Crown, who made all (verified — HRI), is high-class form for a weak Listed, and before that he won back-to-back Premier handicaps — the Nasrullah (Leopardstown 1m1f, off 88, by 1¼L) and the Guinness (Galway 1m4f, off 97, by 1¾L in an 18-runner field) — winning that Galway race on yielding-to-soft, so today's ground holds no fear (verified). He is ~9lb clear of the next in-form horse (The Austrian / Shosholoza / Zadawa all ~94–95) and drops from Group 3 to a weak Listed (€30k, no older male after Factual Fact's withdrawal). Three wins and a G3 5th in his last five runs, and unlike his chief rival he has not run a poor race all season.
 
-**Strongest case against:** 50 days off (his longest gap since his 2yo campaign, though he has had a similar break before). His style is to be held up and produce a late run, so a steadily-run 1m4f on yielding ground could blunt his finishing kick and hand it to a more prominent racer. And on the Kilternan line he is only about 1 length better than In My Teens at today's level weights (he beat her 4¼L while receiving 5lb there — adjusted to ~1L at level weights), so he is not lengths clear of a rival who loves this course and distance.
+**Strongest case against:** 50 days off (his longest gap since his 2yo campaign, though he has had a similar break before). His style is to be held up and produce a late run, so a steadily-run 1m4f on yielding ground could blunt his finishing kick and hand it to a more prominent racer. And the weight-adjusted Kilternan head-to-head actually favours In My Teens, not him: at Leopardstown he carried 9-1 and beat In My Teens (9-6) by only ~½ length (5th beaten ~3½L vs 8th beaten ~4¼L — verified at HRI), so with her 5lb swing at today's level weights she comes out ~2½ lengths better than him on that line, and she also holds the race's single best performance (Ragusa 7L at this CD). His edge over her is reliability and progression, not superior best form.
 
 ### EACH-WAY — The Austrian (0.13, fair ~7.7)
 
@@ -73,11 +73,11 @@ Win probabilities across the field (sum ≈ 1.0): Thread Of Gold 0.37, The Austr
 
 **Strongest case against:** His wins have come in a maiden and a five-runner handicap off 89, so he still has roughly 10lb+ to find to win at Listed level, and he wandered when hitting the front in the maiden. "Consistent and improving but modest grade" is a place profile more than a win profile — which is exactly why he is the each-way rather than the Win.
 
-### DANGER — In My Teens (0.13, fair ~7.7)
+### DANGER — In My Teens (0.15, fair ~6.7)
 
-**Why (chief threat):** The only horse in the field with a proven top-class performance at today's course and distance — the Ragusa Premier Handicap in June, won by 7 lengths eased off 96 carrying 9-11, in a time (~2:30.1) about standard for Curragh 1m4f (verified). Today she carries 9-2, i.e. 9lb less than that day, and she is joint-top rated on 106. If she runs to that level she beats this field.
+**Why (chief threat):** The horse with the race's two strongest pieces of course-and-distance form. She won the Ragusa Premier Handicap over this CD in June by 7 lengths eased off 96 carrying 9-11, in a time (~2:30.1) about standard for Curragh 1m4f (verified at HRI). And on the weight-adjusted Kilternan line she is the better horse than Thread Of Gold: there she gave him 5lb (9-6 vs 9-1) yet finished only ~½ length behind him (8th beaten ~4¼L vs his 5th beaten ~3½L — verified at HRI), so at today's level weights she comes out ~2½ lengths in front. Today she carries 9-2, i.e. 9lb less than her Ragusa win, and is joint-top rated on 106.
 
-**Why not ranked higher:** Her last three runs are 6th of 8 (Goodwood G3), 8th of 10 (Kilternan G3, ran freely), and 12th of 14 (Bluebell Listed, soft, beaten ~14L) — a clear decline, and her trainer has called her "talented but not straightforward." The Bluebell flop came on soft, and today is on the yielding/softer side, which is a live doubt. The hood remains on but has not cured the keenness.
+**Why not ranked higher:** Her last three runs are 6th of 8 (Goodwood G3), 8th of 10 (Kilternan G3, ran freely), and 12th of 14 (Bluebell Listed, soft, beaten ~13¾L) — a clear decline, and her trainer has called her "talented but not straightforward." The Bluebell flop came on soft, and today is on the yielding/softer side, which is a live doubt. The hood remains on but has not cured the keenness.
 
 ## Unverified items
 

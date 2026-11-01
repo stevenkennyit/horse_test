@@ -747,6 +747,24 @@
           ],
           winner: null, grade: "pending", errors: [],
           notes: "Tax Me Later withdrawn (field 9). Naas weight line corrected 13:10 (Key Witness carried 9-9/5lb claim, not 10-0; swing ~9lb not ~19lb)."
+        },
+        {
+          time: "15:47", name: "Velo Coffee At The Curragh Maiden", type: "maiden", distance: "1m4f",
+          going: "Yielding", runners: 20, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-11-01_curragh/1547_1m4f-maiden.md", updated: "13:30 Sun 1 Nov",
+          picks: [
+            { role: "win", horse: "Loosen And Limber", prob: 0.24, placeProb: 0.55, finish: "-", confidence: "medium",
+              reason: "Only runner with a course-and-distance placing this season (3rd/7 over C&D 20 Oct, beaten 3.75L by the 1/5-fav Together Now), improving sharply; carries 9-3 (10lb less than older geldings).",
+              against: "Only 2 starts; the 3rd came in a 7-runner fillies maiden; 80/1 both runs; drawn widest of the contenders (18)." },
+            { role: "ew", horse: "Purple Bandit", prob: 0.18, placeProb: 0.45, finish: "-", confidence: "medium",
+              reason: "Debut 2nd/15 at Roscommon over 1m4f (beaten 5.5L by Miss Romagna) and finished ~1.75L ahead of Almazann, who won a Curragh 1m4f maiden next; failed to stay 2m1f so the drop back to 1m4f is a plus.",
+              against: "Beaten 5.5L while conceding 5lb; only 2 starts; blinkers already on for that 2nd." },
+            { role: "danger", horse: "Joe Cool", prob: 0.15, placeProb: 0.48, finish: "-", confidence: "low",
+              reason: "Most proven (OR 75, three flat seconds, a hurdle win), cheekpieces worked (2nd latest), 5lb better off with Navy Guitar than when beating him 6L.",
+              against: "0-for-8 on the flat; no 12f form (13f 4th 14.5L, 14f 10th 14L); latest 2nd was in a 'very poor race'." }
+          ],
+          winner: null, grade: "pending", errors: [],
+          notes: "20 run, no non-runners. Almazann frank for Purple Bandit verified."
         }
       ]
     }
