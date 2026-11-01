@@ -46,7 +46,7 @@ Weight swings today (actual carried weights, claims off): favour **Majestic King
 ## Outsider check (every runner outside the three selections)
 
 - **Diego El Queso** — the class horse (Trigo Listed 2nd off 99); but top weight, best at 1m1f+, and the April 1m head-to-head says Lady Lilac and Perry Mason are now better off. He can place but the 1m/top-weight ask is steep.
-- **Eastwatch** — the one horse with a directly relevant big-race run (2nd Irish Lincolnshire, 1m heavy, 25-runner) on this mark; first-time visor + high draw 16. If the visor revives him he's a live EW/danger; his summer form says no.
+- **Eastwatch** — the horse with the most directly relevant big-race run (2nd Irish Lincolnshire, 1m heavy, 25-runner) on roughly this mark; first-time visor + high draw 16. If the visor revives him he's a live EW/danger; his summer form says no.
 - **Iamimmaculate** — won this exact race/track/trip last month off 85 and is progressive; the Danger. Draw 2 and the weight swing vs Majestic King/Lady Lilac are the knocks.
 - **Hellorhighwater** — 3 wins from 6, in-form (Dundalk/Limerick 1m wins), softer ground suits better than the Cambridgeshire good ground; but the Cambridgeshire 16th at this grade and +6lb are the doubts.
 - **Uncle Goalie** — front-runner, high draw 17, 7f made-all win; but faded from the front over 1m at Leopardstown and Majestic King already beat him on identical terms.
@@ -80,7 +80,7 @@ Field win probabilities (rough, sum ~100%): Majestic King .14, Iamimmaculate .11
 
 **Why:** The weight-adjusted head-to-heads, not rating, make him the pick. On 4 Oct at the Curragh over 1m1f (yielding) he was 3rd, 1¼L behind Iamimmaculate while 3lb better off (8-8 vs 8-11); today he is 6lb better off relative (8-11 vs 9-3), a +3lb swing that narrowly reverses the 1¼L (≈2.2lb) deficit — *verified from Sporting Life result pages for both weights*. He also beat Uncle Goalie by ¾L at Leopardstown (18 Oct) while 3lb better off, on identical terms today — *verified*. He is in the form of his life: 1st (Listowel 1m, 15rn, "comfortably"), 3rd (Curragh 1m1f, overcoming a wide trip), 2nd (Leopardstown 1m100y, nose) in his last four — *verified*. All of that is on yielding/soft, today's ground. 8-11 off 82 is a workable weight.
 
-**Case against:** This is the deepest race of his career — his two wins came at Listowel (off 68) and in a low-grade Gowran handicap, and 82 is his career-high mark in a 22-runner premier handicap, so his ability ceiling may be exposed (*verified: 2 career wins; Listowel win off OR 68*). Draw 9 is neutral, not the soft-ground high draw. A 5yo who has improved 14lb in six weeks can also be peaking; the price of that improvement is now largely spent.
+**Case against:** This is the deepest race of his career — his two wins came in low-grade handicaps (the latest at Listowel off 68), and 82 is his career-high mark in a 22-runner premier handicap, so his ability ceiling may be exposed (*verified: 13 runs, 2 wins, 5 places; Listowel win off OR 68*). Draw 9 is neutral, not the soft-ground high draw. A 5yo who has improved 14lb in six weeks can also be peaking; the price of that improvement is now largely spent.
 
 ### EACH-WAY — Lady Lilac (9-0 −3lb = 8-11, OR 85, draw 22)
 

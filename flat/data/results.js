@@ -767,24 +767,6 @@
           notes: "Ballintogher withdrawn (field 25); reserves did not run. Therewillbeglory's Naas win was a fillies maiden (verified)."
         },
         {
-          time: "15:47", name: "Velo Coffee At The Curragh Maiden", type: "maiden", distance: "1m4f",
-          going: "Yielding", runners: 20, source: "full", status: "pending",
-          writeup: "flat/analyses/2026-11-01_curragh/1547_1m4f-maiden.md", updated: "13:30 Sun 1 Nov",
-          picks: [
-            { role: "win", horse: "Loosen And Limber", prob: 0.24, placeProb: 0.55, finish: "-", confidence: "medium",
-              reason: "Only runner with a course-and-distance placing this season (3rd/7 over C&D 20 Oct, beaten 3.75L by the 1/5-fav Together Now), improving sharply; carries 9-3 (10lb less than older geldings).",
-              against: "Only 2 starts; the 3rd came in a 7-runner fillies maiden; 80/1 both runs; drawn widest of the contenders (18)." },
-            { role: "ew", horse: "Purple Bandit", prob: 0.18, placeProb: 0.45, finish: "-", confidence: "medium",
-              reason: "Debut 2nd/15 at Roscommon over 1m4f (beaten 5.5L by Miss Romagna) and finished ~1.75L ahead of Almazann, who won a Curragh 1m4f maiden next; failed to stay 2m1f so the drop back to 1m4f is a plus.",
-              against: "Beaten 5.5L while conceding 5lb; only 2 starts; blinkers already on for that 2nd." },
-            { role: "danger", horse: "Joe Cool", prob: 0.15, placeProb: 0.48, finish: "-", confidence: "low",
-              reason: "Most proven (OR 75, three flat seconds, a hurdle win), cheekpieces worked (2nd latest), 5lb better off with Navy Guitar than when beating him 6L.",
-              against: "0-for-8 on the flat; no 12f form (13f 4th 14.5L, 14f 10th 14L); latest 2nd was in a 'very poor race'." }
-          ],
-          winner: null, grade: "pending", errors: [],
-          notes: "20 run, no non-runners. Almazann frank for Purple Bandit verified."
-        },
-        {
           time: "14:37", name: "QuinnBet Loughbrown Stakes (Group 3)", type: "group", distance: "2m 71y",
           going: "Yielding", runners: 11, source: "full", status: "pending",
           writeup: "flat/analyses/2026-11-01_curragh/1437_2m-group-3-stakes.md", updated: "13:20 Sun 1 Nov",
@@ -801,6 +783,42 @@
           ],
           winner: null, grade: "pending", errors: [],
           notes: "11 run, no non-runners. Spot-checks: Chally Chute won the Cesarewitch (27 Sep) and the 2025 Loughbrown (3.5L, 11/8f)."
+        },
+        {
+          time: "15:12", name: "Keadeen Hotel Premier Handicap", type: "handicap", distance: "1m",
+          going: "Yielding to Soft", runners: 21, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-11-01_curragh/1512_1m-premier-handicap.md", updated: "13:19 Sun 1 Nov",
+          picks: [
+            { role: "win", horse: "Majestic King", prob: 0.14, placeProb: 0.40, finish: "-", confidence: "medium",
+              reason: "Verified head-to-heads: 3rd 1.25L behind Iamimmaculate (4 Oct) while 3lb better off, now 6lb better off (a ~3lb swing that clears the 1.25L); beat Uncle Goalie while 3lb better off on 18 Oct, same terms today.",
+              against: "Career-high mark 82 in his deepest race; his two wins were low-grade (Listowel off 68); draw 9 neutral." },
+            { role: "ew", horse: "Lady Lilac", prob: 0.07, placeProb: 0.34, finish: "-", confidence: "medium",
+              reason: "+10lb swing vs Iamimmaculate (5th 1.75L behind carrying 9-1, now 6lb better off - clearly reverses it); 17lb better off vs Diego El Queso; drawn 22 (favoured on soft).",
+              against: "1 win in 17 (7 places) - a placer, hence EW not Win." },
+            { role: "danger", horse: "Iamimmaculate", prob: 0.11, placeProb: 0.35, finish: "-", confidence: "low",
+              reason: "Won this grade at this track/trip 4 Oct off 85, progressive; most likely to beat the top two if the head-to-head logic misfires.",
+              against: "Low draw 2 on soft, +5lb." }
+          ],
+          winner: null, grade: "pending", errors: [],
+          notes: "Expert Dancer withdrawn (field 21). Spot-checks: Majestic King 3rd 1.25L behind Iamimmaculate (4 Oct, 8-8 v 8-11) and beat Uncle Goalie 3lb better off (18 Oct) verified."
+        },
+        {
+          time: "15:47", name: "Velo Coffee At The Curragh Maiden", type: "maiden", distance: "1m4f",
+          going: "Yielding", runners: 20, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-11-01_curragh/1547_1m4f-maiden.md", updated: "13:30 Sun 1 Nov",
+          picks: [
+            { role: "win", horse: "Loosen And Limber", prob: 0.24, placeProb: 0.55, finish: "-", confidence: "medium",
+              reason: "Only runner with a course-and-distance placing this season (3rd/7 over C&D 20 Oct, beaten 3.75L by the 1/5-fav Together Now), improving sharply; carries 9-3 (10lb less than older geldings).",
+              against: "Only 2 starts; the 3rd came in a 7-runner fillies maiden; 80/1 both runs; drawn widest of the contenders (18)." },
+            { role: "ew", horse: "Purple Bandit", prob: 0.18, placeProb: 0.45, finish: "-", confidence: "medium",
+              reason: "Debut 2nd/15 at Roscommon over 1m4f (beaten 5.5L by Miss Romagna) and finished ~1.75L ahead of Almazann, who won a Curragh 1m4f maiden next; failed to stay 2m1f so the drop back to 1m4f is a plus.",
+              against: "Beaten 5.5L while conceding 5lb; only 2 starts; blinkers already on for that 2nd." },
+            { role: "danger", horse: "Joe Cool", prob: 0.15, placeProb: 0.48, finish: "-", confidence: "low",
+              reason: "Most proven (OR 75, three flat seconds, a hurdle win), cheekpieces worked (2nd latest), 5lb better off with Navy Guitar than when beating him 6L.",
+              against: "0-for-8 on the flat; no 12f form (13f 4th 14.5L, 14f 10th 14L); latest 2nd was in a 'very poor race'." }
+          ],
+          winner: null, grade: "pending", errors: [],
+          notes: "20 run, no non-runners. Almazann frank for Purple Bandit verified."
         },
         {
           time: "16:20", name: "QuinnBet Finale Stakes", type: "listed", distance: "1m4f",
