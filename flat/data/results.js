@@ -783,6 +783,24 @@
           ],
           winner: null, grade: "pending", errors: [],
           notes: "11 run, no non-runners. Spot-checks: Chally Chute won the Cesarewitch (27 Sep) and the 2025 Loughbrown (3.5L, 11/8f)."
+        },
+        {
+          time: "16:20", name: "QuinnBet Finale Stakes", type: "listed", distance: "1m4f",
+          going: "Yielding", runners: 12, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-11-01_curragh/1620_1m4f-listed-stakes.md", updated: "13:13 Sun 1 Nov",
+          picks: [
+            { role: "win", horse: "Thread Of Gold", prob: 0.34, placeProb: 0.62, finish: "-", confidence: "medium",
+              reason: "Most reliable progressive profile: G3 Kilternan 5th (3.5L) plus back-to-back Premier handicap wins (Nasrullah 1m1f off 88, Guinness 1m4f off 97); top-rated 107, ~12lb clear, no poor run all season, G3 to weak Listed.",
+              against: "50 days off; held-up style needs a fair pace; the corrected weight-adjusted Kilternan line now favours In My Teens (~2.5L better at today's level weights), so his edge is reliability, not best form." },
+            { role: "ew", horse: "The Austrian", prob: 0.12, placeProb: 0.40, finish: "-", confidence: "medium",
+              reason: "Improving 3yo (7211), two wins at 1m4f+ (Listowel maiden 2.25L, Thurles handicap off 89), 24 days fresh; best place chance of the outsiders at a long fair price.",
+              against: "Only maiden/5-runner-handicap grade; needs ~10lb to win at Listed level; wandered when hitting the front." },
+            { role: "danger", horse: "In My Teens", prob: 0.15, placeProb: 0.38, finish: "-", confidence: "low",
+              reason: "Strongest C&D form (Ragusa Premier won 7L eased off 96 at this C&D, 9lb lighter today) and weight-adjusted better than Thread Of Gold on the Kilternan line - chief threat if she rediscovers form.",
+              against: "Last three runs 6th/8th/12th, ran freely, poor on soft." }
+          ],
+          winner: null, grade: "pending", errors: [],
+          notes: "Factual Fact withdrawn (field 12). Spot-checks: Kilternan G3 (Thread Of Gold 5th 3.5L, In My Teens 8th 4.25L) and Guinness Handicap win (Galway 1m4f off 97) verified."
         }
       ]
     }

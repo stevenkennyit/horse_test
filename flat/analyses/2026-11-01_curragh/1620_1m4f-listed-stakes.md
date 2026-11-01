@@ -5,11 +5,11 @@
 - **Off time:** 16:20
 - **Race:** QuinnBet Finale Stakes — Listed Stakes (3yo+), Class 1, non-handicap
 - **Distance:** 1m4f
-- **Going:** Round course **Yielding** (meeting summary: "Straight: soft; round: yielding to soft"); checked ~13:00 GMT
+- **Going:** Round course **Yielding** (meeting summary: "Straight: soft; round: yielding to soft"); checked ~13:05 GMT
 - **Field size:** 13 declared, **1 non-runner (Factual Fact, draw 3)** → 12 run
 - **Each-way places:** 3 (12 runners)
 - **Draw / pace:** round course 1m2f+ — lower stalls 1–2 best but weak (near-neutral); front-runners/prominent do well overall. Treat draw as neutral; use as tiebreaker only.
-- **Weights:** before claims; apprentice/jockey claims do not apply in Listed company, so weights are as declared. 3yo fillies carry 8-11 (5lb sex/WFA allowance); everyone else 9-2. Factual Fact (7yo gelding, 9-7) is a non-runner.
+- **Weights:** before claims; apprentice/jockey claims do not apply in Listed company, so weights are as declared. 3yo fillies carry 8-11; 3yo colts/geldings and older fillies/mares carry 9-2 (older males would be 9-7 — Factual Fact, now a non-runner).
 
 ## Analysis source
 
