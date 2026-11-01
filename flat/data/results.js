@@ -765,6 +765,24 @@
           ],
           winner: null, grade: "pending", errors: [],
           notes: "20 run, no non-runners. Almazann frank for Purple Bandit verified."
+        },
+        {
+          time: "14:37", name: "QuinnBet Loughbrown Stakes (Group 3)", type: "group", distance: "2m 71y",
+          going: "Yielding", runners: 11, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-11-01_curragh/1437_2m-group-3-stakes.md", updated: "13:20 Sun 1 Nov",
+          picks: [
+            { role: "win", horse: "Chally Chute", prob: 0.34, placeProb: 0.66, finish: "-", confidence: "medium",
+              reason: "Won this race last year (2025 Loughbrown by 3.5L) and the Irish Cesarewitch over 2m here last month off top weight; meets the Cesarewitch 3rd (Galileo Dame) and 6th (Sky Captain) on far better terms.",
+              against: "7-day return after a below-par 6th in the G1 Royal-Oak; his wins came on heavy, so any drying would blunt his edge." },
+            { role: "ew", horse: "Abbotsford", prob: 0.10, placeProb: 0.38, finish: "-", confidence: "medium",
+              reason: "Improving Frankel 3yo, the only runner bar Chally Chute with a 2m win this season (Beggar's End, soft, by 2L; beat Galileo Dame ~5.25L giving 6lb); gets 6lb WFA, Weld has won 2 of last 5 runnings.",
+              against: "That win was a 100k handicap off OR 96; his one stakes try (Vinnie Roe Listed) was a flop - 7th of 9, ~10L, 11/4 favourite." },
+            { role: "danger", horse: "Amelia Earhart", prob: 0.25, placeProb: 0.60, finish: "-", confidence: "low",
+              reason: "G1-placed four times this season (St Leger 3rd, Royallieu 3rd, Royal-Oak 4th), drops from G1 to G3 and receives 9lb from Chally Chute; finished ~3L in front of him in the Royal-Oak.",
+              against: "A 2m stamina query and no win since May." }
+          ],
+          winner: null, grade: "pending", errors: [],
+          notes: "11 run, no non-runners. Spot-checks: Chally Chute won the Cesarewitch (27 Sep) and the 2025 Loughbrown (3.5L, 11/8f)."
         }
       ]
     }
