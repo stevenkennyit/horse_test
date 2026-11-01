@@ -749,6 +749,24 @@
           notes: "Tax Me Later withdrawn (field 9). Naas weight line corrected 13:10 (Key Witness carried 9-9/5lb claim, not 10-0; swing ~9lb not ~19lb)."
         },
         {
+          time: "14:02", name: "Isuzu Ireland Handicap", type: "handicap", distance: "7f",
+          going: "Yielding to Soft", runners: 25, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-11-01_curragh/1402_7f-handicap.md", updated: "13:16 Sun 1 Nov",
+          picks: [
+            { role: "win", horse: "Givehertilxmas", prob: 0.18, placeProb: 0.45, finish: "-", confidence: "medium",
+              reason: "Won the 20-runner Curragh 7f handicap on soft 17 days ago (exact course/distance/ground) by 1.5L, beating 5 of today's field; second win in a row; carries ~4lb less actual than when she won.",
+              against: "Up to 72 after two wins; the 5lb swing puts Dolly Hello ~1L ahead on the single head-to-head; her wins came when well in at the bottom of the handicap." },
+            { role: "ew", horse: "Dolly Hello", prob: 0.10, placeProb: 0.38, finish: "-", confidence: "medium",
+              reason: "3rd in the key race (a head behind the runner-up) and now ~1L ahead of that race's winner on today's weights; soft/heavy 7f form; genuine place chance at a longer fair price than the Win.",
+              against: "No win in her last 6; 'never nearer' 3rd; a 14/14 blip in August." },
+            { role: "danger", horse: "Therewillbeglory", prob: 0.12, placeProb: 0.42, finish: "-", confidence: "medium",
+              reason: "Most consistent (2nd/2nd/2nd in handicaps, incl. a 22-runner Curragh 6f soft) and won last time - but that was a fillies maiden, and her handicap record is near-misses, not wins.",
+              against: "Won a fillies maiden (not a handicap) after 0 from 9; +5lb today." }
+          ],
+          winner: null, grade: "pending", errors: [],
+          notes: "Ballintogher withdrawn (field 25); reserves did not run. Therewillbeglory's Naas win was a fillies maiden (verified)."
+        },
+        {
           time: "15:47", name: "Velo Coffee At The Curragh Maiden", type: "maiden", distance: "1m4f",
           going: "Yielding", runners: 20, source: "full", status: "pending",
           writeup: "flat/analyses/2026-11-01_curragh/1547_1m4f-maiden.md", updated: "13:30 Sun 1 Nov",

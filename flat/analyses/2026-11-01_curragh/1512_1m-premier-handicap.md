@@ -10,9 +10,9 @@
 | Horse (draw) | Wt / OR (effective) | Weight change vs key run | Consistency (place rate, last 6 / trend) | Course & distance form | Draw / pace | Connections | Key doubt |
 |---|---|---|---|---|---|---|---|
 | Diego El Queso (4) | 10-0 / 99 | +11lb vs Apr 1m 2nd (9-3/88) | 4/6 (2,18,6,2,1,2) | 2nd Curragh 1m soft-hvy (Apr); best at 1m1f–1m2f | low draw, held-up closer | G M Lyons / J Kearney | top weight, 1m sharp, giving weight all round |
-| Eastwatch (16) | 9-11 / 96 | −3lb vs 4 Oct 1m1f (10-0/98) | 1/6 (6,13,7,8,7,2) | **2nd Irish Lincolnshire 1m Hvy (Mar, 25rn)**; 6th Curragh 1m1f | high draw, prominent | A Slattery / A Slattery, **visor 1st** | out of form all summer; visor is hope not evidence |
+| Eastwatch (16) | 9-11 / 96 | +2lb vs 4 Oct 1m1f (9-9 w/5lb claim→9-11; OR 98→96) | 1/6 (6,13,7,8,7,2) | **2nd Irish Lincolnshire 1m Hvy (Mar, 25rn)**; 6th Curragh 1m1f | high draw, prominent | A Slattery / A Slattery, **visor 1st** | out of form all summer; visor is hope not evidence |
 | Perry Mason (10) | 9-9 / 94 | +4lb vs May Keadeen win (9-5/91→9-9/94) | 3/6 (15,6,5,1,3,4) | won Keadeen Hcap 1m2f (May); 4th Curragh 1m (Apr) | mid draw, prominent/led | M Ahern / L F Roche | declining, 49-day layoff, best at 1m2f+ |
-| Cristal Clere (7) | 9-8 / 93 (9-1) | −11lb vs 4 Oct 1m1f (9-12/96) | 2/6 (8,5,6,9,1,5) | won Listowel Listed 1m Hvy (Sep 25); 8th Curragh 1m1f | low draw, tracked leaders | J Nallen / J S Dalton (7) | 8yo, poor form, 7lb claim partial offset |
+| Cristal Clere (7) | 9-8 / 93 (9-1) | −4lb vs 4 Oct 1m1f (9-5 w/7lb claim→9-1; OR 96→93) | 2/6 (8,5,6,9,1,5) | won Listowel Listed 1m Hvy (Sep 25); 8th Curragh 1m1f | low draw, tracked leaders | J Nallen / J S Dalton (7) | 8yo, poor form, 7lb claim partial offset |
 | Chica Guerrera (3) | 9-7 / 92 (9-2) | −8lb vs Leop 1m 2nd (9-10/91) | 3/6 (9,7,2,2,14,1) | 2nd Leopardstown 1m60y fillies premier | low draw, prominent | M Fahey / R Holohan (5) | two poor Listeds since; low draw on soft |
 | Hellorhighwater (11) | 9-7 / 92 | −4lb vs Dundalk win (9-11/86→9-7/92) | 5/6 but 16th blowout (1,16,1,1,2,2) | won Limerick 1m & Dundalk 1m; **16th Cambridgeshire 1m** | mid draw, led/disputed | N Lupini / B M Coen | found out in big-field turf premier; +6lb OR |
 | Ribee (18) | 9-7 / 92 | −5lb vs Apr Emerald Cup 2nd (9-12/98→9-7/92) | 2/6 (22,12,5,7,2,5) | 2nd Emerald Cup 1m2f (Apr); 12th Cambridgeshire 1m | high draw, mid-div | M Mulvany / J A Heffernan, ts | poor since April, dropping mark |
@@ -34,14 +34,14 @@
 
 *(Place rate = top-3 finishes ÷ last 6 completed runs, from Sporting Life run histories; weights before claims, effective weight after claim in parentheses.)*
 
-## Head-to-head anchors (weight-adjusted, verified from Sporting Life result pages)
+## Head-to-head anchors (weight-adjusted, verified from Sporting Life + Racing Post result pages)
 
-- **Curragh 1m1f, Yielding, 4 Oct 2026 (win 1m56.15s, slow 5.75s):** Iamimmaculate (8-11) 1st; Majestic King (8-8) 3rd, 1¼L; Lady Lilac (9-1) 5th, ~1.3L; Eastwatch (10-0) 6th, ~3.5L; Cristal Clere (9-12) 8th, ~5.8L.
-- **Leopardstown 1m100y, Good-Yielding, 18 Oct 2026:** Majestic King (9-4) 2nd nse; Uncle Goalie (9-7) 3rd ¾L.
-- **Navan 1m40y, Yielding, 7 Oct 2026:** Expert Dancer (9-8) 1st; Sanctijude (9-8) 3rd 1½L.
-- **Curragh 1m, Soft-to-Heavy, 3 Apr 2026 (win 1m47.70s):** Diego El Queso (9-3) 2nd sh; Lady Lilac (8-9) 3rd sh; Perry Mason (9-3) 4th ½L.
+- **Curragh 1m1f, Yielding, 4 Oct 2026 (win 1m56.15s, slow by 5.75s — Racing Post):** Iamimmaculate (8-11, no claim) 1st; Majestic King (8-8, no claim) 3rd, 1¼L; Lady Lilac (9-1, no claim) 5th, 1¾L; Eastwatch (10-0 pre-claim / 9-9 with 5lb claim) 6th, 4L; Cristal Clere (9-12 pre-claim / 9-5 with 7lb claim) 8th, 6¼L.
+- **Leopardstown 1m100y, Good-Yielding, 18 Oct 2026 (win 1m49.64s, slow by 5.34s):** Majestic King (9-4, no claim) 2nd nse; Uncle Goalie (9-7, no claim) 3rd ¾L.
+- **Curragh 1m, Soft-to-Heavy, 3 Apr 2026 (win 1m47.70s):** Diego El Queso (9-3, no claim) 2nd sh; Lady Lilac (8-9, no claim) 3rd sh; Perry Mason (9-3, no claim) 4th ½L.
+- *(Navan 1m40y, 7 Oct: Expert Dancer beat Sanctijude 1½L at level weights — moot, Expert Dancer is a non-runner.)*
 
-Weight swings today (relative to the anchor) favour **Majestic King** and **Lady Lilac** over Iamimmaculate (MK: was 3lb better off, now 6lb better off — a +3lb swing, narrowly more than the 1¼L ≈ 2.2lb deficit; LL: was 4lb worse off, now 6lb better off — a +10lb swing vs a ~1.3L ≈ 2.2lb deficit), and favour **Lady Lilac** and **Perry Mason** over Diego El Queso (LL +9lb vs a sh; PM +5lb vs ~¾L).
+Weight swings today (actual carried weights, claims off): favour **Majestic King** and **Lady Lilac** over Iamimmaculate (MK: was 3lb better off, now 6lb better off — a +3lb swing that narrowly clears the 1¼L ≈ 2.2lb deficit; LL: was 4lb worse off, now 6lb better off — a +10lb swing vs a 1¾L ≈ 3.1lb deficit), and favour **Lady Lilac** and **Perry Mason** over Diego El Queso (LL +9lb vs a sh; PM +5lb vs ~¾L). Eastwatch (+4lb swing) and Cristal Clere (+9lb swing) still come out BEHIND Iamimmaculate on that line — their 4L and 6¼L deficits exceed their weight swings.
 
 ## Outsider check (every runner outside the three selections)
 
@@ -55,7 +55,7 @@ Weight swings today (relative to the anchor) favour **Majestic King** and **Lady
 - **Chica Guerrera** — 2nd in a Leopardstown 1m60y fillies premier off 91 is good 1m form and she's 9-2 effective; but two poor Listeds since and a low draw 3 on soft.
 - **Expert Dancer** — progressive 3yo filly (Navan 1m40y win) but +6lb and Sanctijude now 6lb better off; deeper race.
 - **Perry Mason** — won this sponsor's race in May (at 1m2f) and is 5lb better off vs Diego; but declining form and a 49-day layoff.
-- **Cristal Clere** — 1m heavy Listed winner (Listowel) and now 7lb claim + 9-1 effective with the largest weight swing in the field (+17lb vs Iamimmaculate, more than reversing his ~5.8L 4 Oct deficit); but 8yo and badly out of form, so the swing is arithmetic rather than evidence of current wellbeing.
+- **Cristal Clere** — 1m heavy Listed winner (Listowel) and now 9-1 effective (7lb claim); but the +9lb swing vs Iamimmaculate still leaves him behind on the 4 Oct line (a 6¼L deficit exceeds it), and he's an 8yo badly out of form.
 - **Victory Tip** — won a 23-runner Curragh 1m maiden on heavy; 2nd in a Naas 1m rated off 90; W J Lee up; but 136 days off and 23rd in the Britannia.
 - **Harana** — Weld + first-time visor + dropped 3lb; 2nd Navan 1m20y and 5th in the Nasrullah 1m1f; patchy, maiden winner only.
 - **Sanctijude** — 6lb better off vs Expert Dancer after a 1½L beating; 4th in a Curragh 1m fillies handicap; but mixed-sex field and low draw.
@@ -84,7 +84,7 @@ Field win probabilities (rough, sum ~100%): Majestic King .14, Iamimmaculate .11
 
 ### EACH-WAY — Lady Lilac (9-0 −3lb = 8-11, OR 85, draw 22)
 
-**Why:** A big beneficiary of the weight changes, and drawn 22 (the favoured side on soft ground). She was 5th, ~1.3L behind Iamimmaculate on 4 Oct carrying 9-1; today she carries 8-11 (3lb claim) off the same mark — a +10lb swing vs Iamimmaculate, clearly reversing a ~1.3L (≈2.2lb) deficit — *verified*. She was also 3rd, a short-head behind Diego El Queso over this course and trip (1m, soft-to-heavy) in April while 8lb better off; she is now 17lb better off vs Diego — *verified*. She is a consistent top-five finisher (3rd, 5th, 3rd, 5th, 5th) on soft/yielding at 1m–1m1f.
+**Why:** A big beneficiary of the weight changes, and drawn 22 (the favoured side on soft ground). She was 5th, 1¾L behind Iamimmaculate on 4 Oct carrying 9-1 (no claim); today she carries 8-11 (3lb claim) off the same mark — a +10lb swing vs Iamimmaculate, clearly reversing a 1¾L (≈3.1lb) deficit — *verified from Sporting Life and Racing Post result pages*. She was also 3rd, a short-head behind Diego El Queso over this course and trip (1m, soft-to-heavy) in April while 8lb better off; she is now 17lb better off vs Diego — *verified*. She is a consistent top-five finisher (3rd, 5th, 3rd, 5th, 5th) on soft/yielding at 1m–1m1f.
 
 **Case against:** She has won only once in ~17 career starts (7 places) — a "consistent but modest" placer who is more likely to run into a place than win, which is exactly why she is the Each-Way rather than the Win (*verified: form figures 557305, no win in last 6*). Her Galway 10th (July) shows she can disappoint, and the 4 Oct 5th was a head behind 4th, not a dominant display.
 
@@ -94,11 +94,11 @@ Field win probabilities (rough, sum ~100%): Majestic King .14, Iamimmaculate .11
 
 ## Unverified items
 
-- "Slow by 5.75s" figure for the 4 Oct Curragh 1m1f race came from a search result, not opened at source on the Racing Post result page (winning time 1m56.15s verified from Sporting Life result page).
-- Standard time for Curragh 1m/1m1f not independently derived (only one race's slow-by figure held).
+- ~~"Slow by 5.75s" for the 4 Oct race~~ — now verified at Racing Post (1m56.15s, slow by 5.75s). The 18 Oct Leopardstown race also verified (1m49.64s, slow by 5.34s).
+- Standard times for Curragh 1m/1m1f not independently derived (only two slow-by anchors held, from the two result pages above).
 - The draw-bias figures (high-draw +0.50L at 1m, high favoured on soft) are from the coordinator's fact pack, not re-derived at source (At The Races Smart Stats unavailable).
-- Jockey claims taken from the fact pack and matched to apprentice jockey names on the Sporting Life card; the claim amounts (5/7/10/3lb) were not independently re-verified against a third source.
-- No non-runners as of ~13:00; not re-checked within the final 15 minutes before the off.
+- Jockey claims for TODAY taken from the fact pack and matched to apprentice jockey names on the Sporting Life card. Anchor-race claims cross-verified against Racing Post (Jimmy Dalton 7lb, Reese Holohan 5lb, Nicola Burns 5lb, Rory Mulligan 5lb; James Ryan and Robbie Colgan had NO claim on 18 Oct). Today's claim amounts for Orla Tynan (7), Nina Doherty (10), Jessica O'Gorman (7), Paddy Harnett (3) were not individually re-verified against a third source.
+- Non-runners: Expert Dancer withdrawn (~13:12); no others at that check. Not re-checked within the final 15 minutes before the off.
 
 ## Sources
 
@@ -112,3 +112,12 @@ Field win probabilities (rough, sum ~100%): Majestic King .14, Iamimmaculate .11
 - **Non-runner:** Expert Dancer (cloth 11, draw 5) is now a NON-RUNNER (verified on Sporting Life racecard re-fetch, ride_status "NONRUNNER"). Field is 21; each-way places remain 4 (handicap of 16+).
 - Going unchanged: Yielding to Soft (straight) / Yielding (round).
 - Selections unchanged: WIN Majestic King, EACH-WAY Lady Lilac, DANGER Iamimmaculate. Expert Dancer's ~4% win probability is redistributed across the field (no change to the ranking).
+
+## Update 13:18 (data-gap pass)
+
+- Verified the 4 Oct Curragh 1m1f result at Racing Post: winning time 1m56.15s, **slow by 5.75s**, and full margins (Iamimmaculate 1st; Majestic King 3rd 1¼L; Lady Lilac 5th 1¾L; Eastwatch 6th 4L; Cristal Clere 8th 6¼L). The 1¾L for Lady Lilac and 4L/6¼L for Eastwatch/Cristal Clere are now confirmed at source.
+- Verified claims on the 4 Oct race: Eastwatch had a 5lb claim (Sam Coen, carried ~9-9) and Cristal Clere a 7lb claim (Jimmy Dalton, carried 9-5) — their weight swings vs Iamimmaculate are therefore smaller than first stated (+4lb and +9lb, not +9/+17), and both still come out behind Iamimmaculate on that line. This does not affect the three selections (Eastwatch and Cristal Clere were outsiders).
+- Verified the 18 Oct Leopardstown race at Racing Post: **Majestic King carried 9-4 with NO claim (James Ryan) and Uncle Goalie 9-7 with NO claim (Robbie Colgan)** — so the "¾L while 3lb better off" head-to-head is confirmed on identical terms today (MK 8-11 vs UG 9-0 = still 3lb better off). Win pick unchanged.
+- Re-confirmed the Lady Lilac–Iamimmaculate swing at source: LL was 9-1 (no claim) on 4 Oct vs 8-11 (no claim) today — a +10lb swing vs her 1¾L deficit; she clearly reverses. Each-Way pick unchanged.
+- Cross-checked today's claim amounts against Racing Post records where the same jockeys appeared (Dalton 7, Holohan 5, N Burns 5, Mulligan 5 all confirmed).
+- Non-runner re-confirmed: only Expert Dancer (field 21). Selections and probabilities unchanged.
