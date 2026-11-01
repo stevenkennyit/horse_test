@@ -115,3 +115,10 @@ Opened the previously unverified results in full. **Picks unchanged.**
 - **Full-career "last win" checks (IrishRacing horse pages)** — Amelia Earhart: last win Cheshire Oaks, Chester 6 May 2026 (13/8, R L Moore) — verified; Endless Victory: last win **Aug 2024 (798 days)**; Sky Captain: last win Jul 2025 (488 days); Absurde: last win a hurdle at Plumpton Apr 2025 (560 days); Galileo Dame: last win a Navan **hurdle** in Feb 2026 (last flat win 2024); Asakir: last win Leopardstown maiden Apr 2026; Abbotsford/Snapretend/Marazion/Chasing Paradise: last wins as already recorded. None of these alters the ranking.
 - **Going check (coordinator query)** — round course is Yielding (not soft). This does NOT blunt Chally Chute's edge by itself: he was an unlucky 2nd in the 2025 Cesarewitch on yielding, and ATR grades him "acts on heavy and yielding." The real (unlikely, overcast) risk is further drying to good — his one poor Irish run before the Royal-Oak (Lenebane 5th) was on good ground. Case-against wording corrected accordingly.
 - Selections stand: **Win Chally Chute (0.34 / place 0.66), Each-Way Abbotsford (0.10 / 0.38), Danger Amelia Earhart (0.25 / 0.60).** No non-runners at 13:05.
+
+## Result (pulled 17:00)
+**Winner: Amelia Earhart 2/1fav** (our Danger, rated 0.25). Grade: **mixed**.
+- Win **Chally Chute** 7th (8/1) — the 7-day-return-after-G1-Royal-Oak doubt materialised.
+- Each-Way **Abbotsford** 2nd (11/2) — placed.
+- Danger **Amelia Earhart** 1st (2/1).
+Judgement: course form was ranked over current G1 class; the class horse receiving 9lb was the stronger call.

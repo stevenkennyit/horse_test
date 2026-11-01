@@ -121,3 +121,9 @@ Field win probabilities (rough, sum ~100%): Majestic King .14, Iamimmaculate .11
 - Re-confirmed the Lady Lilac–Iamimmaculate swing at source: LL was 9-1 (no claim) on 4 Oct vs 8-11 (no claim) today — a +10lb swing vs her 1¾L deficit; she clearly reverses. Each-Way pick unchanged.
 - Cross-checked today's claim amounts against Racing Post records where the same jockeys appeared (Dalton 7, Holohan 5, N Burns 5, Mulligan 5 all confirmed).
 - Non-runner re-confirmed: only Expert Dancer (field 21). Selections and probabilities unchanged.
+
+## Result (pulled 17:00)
+**Winner: Java Wood 40/1** (unrated). Grade: **mixed**.
+- Win **Majestic King** 8th (6/1JF) — the "career-high mark in his deepest race" doubt held.
+- Each-Way **Lady Lilac** 2nd (12/1) — placed; the +10lb swing vs Iamimmaculate held.
+- Danger **Iamimmaculate** 6th (12/1).

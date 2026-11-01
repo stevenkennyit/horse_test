@@ -14,7 +14,8 @@
     H: "Win kept despite its own recorded recurring in-race fault (slow starts, no finishing kick, headed late) seen in 3+ recent runs; the fault recurred in the race (Step 13)",
     I: "Horse that ran the previous day (double declaration) made a selection without a race-morning declaration check; it was withdrawn",
     J: "Second run after a long layoff rated on the comeback run rather than on its pre-layoff form",
-    F: "Live outsider (recent winner, franked figure or favourable mark/yard move) left at a near-zero probability despite its own outsider-check case"
+    F: "Live outsider (recent winner, franked figure or favourable mark/yard move) left at a near-zero probability despite its own outsider-check case",
+    K: "Consistent placer (winless in its last 5+ and/or a beaten favourite) kept as the Win despite its own recorded placer-profile doubt; the profile recurred and it ran unplaced while a stronger-credentialled rival won"
   },
   meetings: [
     {
@@ -732,111 +733,117 @@
       races: [
         {
           time: "13:27", name: "Ryans Cleaning Race", type: "conditions", distance: "7f",
-          going: "Yielding to Soft", runners: 9, source: "full", status: "pending",
+          going: "Yielding to Soft", runners: 9, source: "full", status: "settled",
           writeup: "flat/analyses/2026-11-01_curragh/1327_7f-conditions-race.md", updated: "13:10 Sun 1 Nov",
           picks: [
-            { role: "win", horse: "Excellent Believe", prob: 0.26, placeProb: 0.55, finish: "-", confidence: "medium",
+            { role: "win", horse: "Excellent Believe", prob: 0.26, placeProb: 0.55, finish: "7", sp: "6/4", confidence: "medium",
               reason: "8lb lighter than his C&D 3rd; field-best RPR 102/TS 52 in that C&D race while giving the winner 21lb; beat Unique Journey 5.5L C&D and now 4lb better off; drops from Class 2/Listed into a conditions race.",
               against: "Winless in his last 6, a beaten favourite, and 0 wins since joining Stephen Thorne - a consistent placer, not a proven winner." },
-            { role: "ew", horse: "Key Witness", prob: 0.21, placeProb: 0.50, finish: "-", confidence: "medium",
+            { role: "ew", horse: "Key Witness", prob: 0.21, placeProb: 0.50, finish: "5", sp: "7/1", confidence: "medium",
               reason: "Rated 8lb above Storm Ready yet receives 6lb today; gave him only 3lb effective when beaten 0.5L at Naas (now ~9lb better off); soft/heavy-ground CD specialist, front-runner drawn 10 high.",
               against: "A 7lb claimer (claim may not fully count); 6.5L 6th in his only Listed try; rated 5lb below Excellent Believe." },
-            { role: "danger", horse: "Storm Ready", prob: 0.13, placeProb: 0.45, finish: "-", confidence: "low",
+            { role: "danger", horse: "Storm Ready", prob: 0.13, placeProb: 0.45, finish: "6", sp: "12/1", confidence: "low",
               reason: "Unbeaten 2/2 but both wins narrow (0.3L, 0.5L); progressive 3yo who could beat both if the weight swing or Key Witness's claim doesn't materialise.",
               against: "3yo rated 87 vs older 95-103 at near-level weights; ~9lb swing against him on the Key Witness form." }
           ],
-          winner: null, grade: "pending", errors: [],
-          notes: "Tax Me Later withdrawn (field 9). Naas weight line corrected 13:10 (Key Witness carried 9-9/5lb claim, not 10-0; swing ~9lb not ~19lb)."
+          winner: { horse: "Unique Journey", sp: "4/1", agentProb: 0.13 },
+          grade: "failed", errors: ["K"],
+          notes: "Settled. Won by Unique Journey (4/1), my named outsider (0.13) - top OR 103 and a last-time winner, buried under '0 wins at 7f'. Win Excellent Believe (6/4f) 7th: the recorded placer-profile doubt ('winless in 6, beaten favourite, 0 wins for the yard') materialised - a consistent placer made the Win (error K). EW Key Witness 5th, Danger Storm Ready 6th."
         },
         {
           time: "14:02", name: "Isuzu Ireland Handicap", type: "handicap", distance: "7f",
-          going: "Yielding to Soft", runners: 25, source: "full", status: "pending",
+          going: "Yielding to Soft", runners: 25, source: "full", status: "settled",
           writeup: "flat/analyses/2026-11-01_curragh/1402_7f-handicap.md", updated: "13:16 Sun 1 Nov",
           picks: [
-            { role: "win", horse: "Givehertilxmas", prob: 0.18, placeProb: 0.45, finish: "-", confidence: "medium",
+            { role: "win", horse: "Givehertilxmas", prob: 0.18, placeProb: 0.45, finish: "15", sp: "14/1", confidence: "medium",
               reason: "Won the 20-runner Curragh 7f handicap on soft 17 days ago (exact course/distance/ground) by 1.5L, beating 5 of today's field; second win in a row; carries ~4lb less actual than when she won.",
               against: "Up to 72 after two wins; the 5lb swing puts Dolly Hello ~1L ahead on the single head-to-head; her wins came when well in at the bottom of the handicap." },
-            { role: "ew", horse: "Dolly Hello", prob: 0.10, placeProb: 0.38, finish: "-", confidence: "medium",
+            { role: "ew", horse: "Dolly Hello", prob: 0.10, placeProb: 0.38, finish: "21", sp: "25/1", confidence: "medium",
               reason: "3rd in the key race (a head behind the runner-up) and now ~1L ahead of that race's winner on today's weights; soft/heavy 7f form; genuine place chance at a longer fair price than the Win.",
               against: "No win in her last 6; 'never nearer' 3rd; a 14/14 blip in August." },
-            { role: "danger", horse: "Therewillbeglory", prob: 0.12, placeProb: 0.42, finish: "-", confidence: "medium",
+            { role: "danger", horse: "Therewillbeglory", prob: 0.12, placeProb: 0.42, finish: "7", sp: "5/1", confidence: "medium",
               reason: "Most consistent (2nd/2nd/2nd in handicaps, incl. a 22-runner Curragh 6f soft) and won last time - but that was a fillies maiden, and her handicap record is near-misses, not wins.",
               against: "Won a fillies maiden (not a handicap) after 0 from 9; +5lb today." }
           ],
-          winner: null, grade: "pending", errors: [],
-          notes: "Ballintogher withdrawn (field 25); reserves did not run. Therewillbeglory's Naas win was a fillies maiden (verified)."
+          winner: { horse: "Thru And Thru", sp: "12/1", agentProb: null },
+          grade: "failed", errors: [],
+          notes: "Settled. Won by Thru And Thru (12/1), unrated. Win Givehertilxmas 15th at 14/1 (market far less bullish than my 0.18); EW Dolly Hello 21st; Danger Therewillbeglory 7th. Open 25-runner handicap - no pick placed."
         },
         {
           time: "14:37", name: "QuinnBet Loughbrown Stakes (Group 3)", type: "group", distance: "2m 71y",
-          going: "Yielding", runners: 11, source: "full", status: "pending",
+          going: "Yielding", runners: 11, source: "full", status: "settled",
           writeup: "flat/analyses/2026-11-01_curragh/1437_2m-group-3-stakes.md", updated: "13:20 Sun 1 Nov",
           picks: [
-            { role: "win", horse: "Chally Chute", prob: 0.34, placeProb: 0.66, finish: "-", confidence: "medium",
+            { role: "win", horse: "Chally Chute", prob: 0.34, placeProb: 0.66, finish: "7", sp: "8/1", confidence: "medium",
               reason: "Won this race last year (2025 Loughbrown by 3.5L) and the Irish Cesarewitch over 2m here last month off top weight; meets the Cesarewitch 3rd (Galileo Dame) and 6th (Sky Captain) on far better terms.",
               against: "7-day return after a below-par 6th in the G1 Royal-Oak; his wins came on heavy, so any drying would blunt his edge." },
-            { role: "ew", horse: "Abbotsford", prob: 0.10, placeProb: 0.38, finish: "-", confidence: "medium",
+            { role: "ew", horse: "Abbotsford", prob: 0.10, placeProb: 0.38, finish: "2", sp: "11/2", confidence: "medium",
               reason: "Improving Frankel 3yo, the only runner bar Chally Chute with a 2m win this season (Beggar's End, soft, by 2L; beat Galileo Dame ~5.25L giving 6lb); gets 6lb WFA, Weld has won 2 of last 5 runnings.",
               against: "That win was a 100k handicap off OR 96; his one stakes try (Vinnie Roe Listed) was a flop - 7th of 9, ~10L, 11/4 favourite." },
-            { role: "danger", horse: "Amelia Earhart", prob: 0.25, placeProb: 0.60, finish: "-", confidence: "low",
+            { role: "danger", horse: "Amelia Earhart", prob: 0.25, placeProb: 0.60, finish: "1", sp: "2/1", confidence: "low",
               reason: "G1-placed four times this season (St Leger 3rd, Royallieu 3rd, Royal-Oak 4th), drops from G1 to G3 and receives 9lb from Chally Chute; finished ~3L in front of him in the Royal-Oak.",
               against: "A 2m stamina query and no win since May." }
           ],
-          winner: null, grade: "pending", errors: [],
-          notes: "11 run, no non-runners. Spot-checks: Chally Chute won the Cesarewitch (27 Sep) and the 2025 Loughbrown (3.5L, 11/8f)."
+          winner: { horse: "Amelia Earhart", sp: "2/1", agentProb: 0.25 },
+          grade: "mixed", errors: [],
+          notes: "Settled. Danger Amelia Earhart won at 2/1fav (G1 class dropping to G3, receiving 9lb - winner in our three); EW Abbotsford 2nd at 11/2 (placed). Win Chally Chute 7th at 8/1 - the 7-day-return-after-G1 doubt materialised; course form was ranked over current G1 class."
         },
         {
           time: "15:12", name: "Keadeen Hotel Premier Handicap", type: "handicap", distance: "1m",
-          going: "Yielding to Soft", runners: 21, source: "full", status: "pending",
+          going: "Yielding to Soft", runners: 21, source: "full", status: "settled",
           writeup: "flat/analyses/2026-11-01_curragh/1512_1m-premier-handicap.md", updated: "13:19 Sun 1 Nov",
           picks: [
-            { role: "win", horse: "Majestic King", prob: 0.14, placeProb: 0.40, finish: "-", confidence: "medium",
+            { role: "win", horse: "Majestic King", prob: 0.14, placeProb: 0.40, finish: "8", sp: "6/1", confidence: "medium",
               reason: "Verified head-to-heads: 3rd 1.25L behind Iamimmaculate (4 Oct) while 3lb better off, now 6lb better off (a ~3lb swing that clears the 1.25L); beat Uncle Goalie while 3lb better off on 18 Oct, same terms today.",
               against: "Career-high mark 82 in his deepest race; his two wins were low-grade (Listowel off 68); draw 9 neutral." },
-            { role: "ew", horse: "Lady Lilac", prob: 0.07, placeProb: 0.34, finish: "-", confidence: "medium",
+            { role: "ew", horse: "Lady Lilac", prob: 0.07, placeProb: 0.34, finish: "2", sp: "12/1", confidence: "medium",
               reason: "+10lb swing vs Iamimmaculate (5th 1.75L behind carrying 9-1, now 6lb better off - clearly reverses it); 17lb better off vs Diego El Queso; drawn 22 (favoured on soft).",
               against: "1 win in 17 (7 places) - a placer, hence EW not Win." },
-            { role: "danger", horse: "Iamimmaculate", prob: 0.11, placeProb: 0.35, finish: "-", confidence: "low",
+            { role: "danger", horse: "Iamimmaculate", prob: 0.11, placeProb: 0.35, finish: "6", sp: "12/1", confidence: "low",
               reason: "Won this grade at this track/trip 4 Oct off 85, progressive; most likely to beat the top two if the head-to-head logic misfires.",
               against: "Low draw 2 on soft, +5lb." }
           ],
-          winner: null, grade: "pending", errors: [],
-          notes: "Expert Dancer withdrawn (field 21). Spot-checks: Majestic King 3rd 1.25L behind Iamimmaculate (4 Oct, 8-8 v 8-11) and beat Uncle Goalie 3lb better off (18 Oct) verified."
+          winner: { horse: "Java Wood", sp: "40/1", agentProb: null },
+          grade: "mixed", errors: [],
+          notes: "Settled. Won by Java Wood (40/1), unrated. EW Lady Lilac 2nd at 12/1 (the +10lb swing vs Iamimmaculate held - place return). Win Majestic King 8th at 6/1JF - the 'career-high mark in deepest race' doubt held. Danger Iamimmaculate 6th."
         },
         {
           time: "15:47", name: "Velo Coffee At The Curragh Maiden", type: "maiden", distance: "1m4f",
-          going: "Yielding", runners: 20, source: "full", status: "pending",
+          going: "Yielding", runners: 20, source: "full", status: "settled",
           writeup: "flat/analyses/2026-11-01_curragh/1547_1m4f-maiden.md", updated: "13:30 Sun 1 Nov",
           picks: [
-            { role: "win", horse: "Loosen And Limber", prob: 0.24, placeProb: 0.55, finish: "-", confidence: "medium",
+            { role: "win", horse: "Loosen And Limber", prob: 0.24, placeProb: 0.55, finish: "1", sp: "1/1", confidence: "medium",
               reason: "Only runner with a course-and-distance placing this season (3rd/7 over C&D 20 Oct, beaten 3.75L by the 1/5-fav Together Now), improving sharply; carries 9-3 (10lb less than older geldings).",
               against: "Only 2 starts; the 3rd came in a 7-runner fillies maiden; 80/1 both runs; drawn widest of the contenders (18)." },
-            { role: "ew", horse: "Purple Bandit", prob: 0.18, placeProb: 0.45, finish: "-", confidence: "medium",
+            { role: "ew", horse: "Purple Bandit", prob: 0.18, placeProb: 0.45, finish: "9", sp: "11/2", confidence: "medium",
               reason: "Debut 2nd/15 at Roscommon over 1m4f (beaten 5.5L by Miss Romagna) and finished ~1.75L ahead of Almazann, who won a Curragh 1m4f maiden next; failed to stay 2m1f so the drop back to 1m4f is a plus.",
               against: "Beaten 5.5L while conceding 5lb; only 2 starts; blinkers already on for that 2nd." },
-            { role: "danger", horse: "Joe Cool", prob: 0.15, placeProb: 0.48, finish: "-", confidence: "low",
+            { role: "danger", horse: "Joe Cool", prob: 0.15, placeProb: 0.48, finish: "2", sp: "6/1", confidence: "low",
               reason: "Most proven (OR 75, three flat seconds, a hurdle win), cheekpieces worked (2nd latest), 5lb better off with Navy Guitar than when beating him 6L.",
               against: "0-for-8 on the flat; no 12f form (13f 4th 14.5L, 14f 10th 14L); latest 2nd was in a 'very poor race'." }
           ],
-          winner: null, grade: "pending", errors: [],
-          notes: "20 run, no non-runners. Almazann frank for Purple Bandit verified."
+          winner: { horse: "Loosen And Limber", sp: "1/1", agentProb: 0.24 },
+          grade: "held", errors: [],
+          notes: "Settled. Win Loosen And Limber won at 1/1fav (only C&D placer, improving) - correct but short price. Danger Joe Cool 2nd at 6/1. EW Purple Bandit 9th - the 'beaten 5.5L while conceding 5lb, only 2 starts' doubt materialised."
         },
         {
           time: "16:20", name: "QuinnBet Finale Stakes", type: "listed", distance: "1m4f",
-          going: "Yielding", runners: 12, source: "full", status: "pending",
+          going: "Yielding", runners: 12, source: "full", status: "settled",
           writeup: "flat/analyses/2026-11-01_curragh/1620_1m4f-listed-stakes.md", updated: "13:13 Sun 1 Nov",
           picks: [
-            { role: "win", horse: "Thread Of Gold", prob: 0.34, placeProb: 0.62, finish: "-", confidence: "medium",
+            { role: "win", horse: "Thread Of Gold", prob: 0.34, placeProb: 0.62, finish: "1", sp: "2/1", confidence: "medium",
               reason: "Most reliable progressive profile: G3 Kilternan 5th (3.5L) plus back-to-back Premier handicap wins (Nasrullah 1m1f off 88, Guinness 1m4f off 97); top-rated 107, ~12lb clear, no poor run all season, G3 to weak Listed.",
               against: "50 days off; held-up style needs a fair pace; the corrected weight-adjusted Kilternan line now favours In My Teens (~2.5L better at today's level weights), so his edge is reliability, not best form." },
-            { role: "ew", horse: "The Austrian", prob: 0.12, placeProb: 0.40, finish: "-", confidence: "medium",
+            { role: "ew", horse: "The Austrian", prob: 0.12, placeProb: 0.40, finish: "4", sp: "4/1", confidence: "medium",
               reason: "Improving 3yo (7211), two wins at 1m4f+ (Listowel maiden 2.25L, Thurles handicap off 89), 24 days fresh; best place chance of the outsiders at a long fair price.",
               against: "Only maiden/5-runner-handicap grade; needs ~10lb to win at Listed level; wandered when hitting the front." },
-            { role: "danger", horse: "In My Teens", prob: 0.15, placeProb: 0.38, finish: "-", confidence: "low",
+            { role: "danger", horse: "In My Teens", prob: 0.15, placeProb: 0.38, finish: "5", sp: "14/1", confidence: "low",
               reason: "Strongest C&D form (Ragusa Premier won 7L eased off 96 at this C&D, 9lb lighter today) and weight-adjusted better than Thread Of Gold on the Kilternan line - chief threat if she rediscovers form.",
               against: "Last three runs 6th/8th/12th, ran freely, poor on soft." }
           ],
-          winner: null, grade: "pending", errors: [],
-          notes: "Factual Fact withdrawn (field 12). Spot-checks: Kilternan G3 (Thread Of Gold 5th 3.5L, In My Teens 8th 4.25L) and Guinness Handicap win (Galway 1m4f off 97) verified."
+          winner: { horse: "Thread Of Gold", sp: "2/1", agentProb: 0.34 },
+          grade: "held", errors: [],
+          notes: "Settled. Win Thread Of Gold won at 2/1fav (reliability over the Kilternan head-to-head - correct). EW The Austrian 4th (just out of the 3 places) at 4/1. Danger In My Teens 5th."
         }
       ]
     }

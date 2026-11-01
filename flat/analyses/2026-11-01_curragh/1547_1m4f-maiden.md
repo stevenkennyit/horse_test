@@ -134,3 +134,9 @@ Win probabilities across the field: Loosen And Limber 0.24, Purple Bandit 0.18, 
 ## Update 13:25 — gap-filling pass
 
 Re-opened sources and filled the gaps listed in the first pass. Changes: (1) confirmed Ballybawn Belter carried 9-4 at Killarney (5lb less than Joe Cool), reinforcing the "weak race" reading of Joe Cool's 2nd; (2) added the Almazann collateral — he was 4th at Roscommon ~1¾l behind Purple Bandit and then won a Curragh 1m4f maiden, which strengthens Purple Bandit (win prob 0.17 → 0.18, place 0.42 → 0.45); (3) corrected Azure Sioux's headgear (pacifier appears only on the fact pack, not on SL/ATR cards); (4) confirmed no rail movements announced and the going wording (round course "Yielding" per IrishRacing, "Yielding to Soft" per SL/ATR). No non-runners. Picks unchanged: Loosen And Limber (Win), Purple Bandit (Each-Way), Joe Cool (Danger).
+
+## Result (pulled 17:00)
+**Winner: Loosen And Limber 1/1fav** (our Win, rated 0.24). Grade: **held**.
+- Win **Loosen And Limber** 1st (1/1) — the only C&D placer, improving; correct but a short price.
+- Each-Way **Purple Bandit** 9th (11/2) — the "beaten 5.5L while conceding 5lb, only 2 starts" doubt materialised.
+- Danger **Joe Cool** 2nd (6/1).

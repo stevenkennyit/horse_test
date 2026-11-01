@@ -112,3 +112,9 @@ Win probabilities across the field (sum ≈ 1.0): Thread Of Gold 0.34, In My Tee
 ## Update 13:20 — Kilternan margins corrected (data fix)
 
 The first pass mis-stated the Kilternan G3 margins from a search summary: In My Teens was recorded as "beaten ~7¾L" and the gap to Thread Of Gold as ~4¼L. The official HRI result shows In My Teens was beaten ~4¼L in 8th (running freely, giving 5lb to Thread Of Gold, who was 5th beaten ~3½L) — a gap of only ~½ length, not 4¼L. Consequences, applied above: the weight-adjusted Kilternan line now favours In My Teens (~2½L) over Thread Of Gold at today's level weights; In My Teens' win probability is raised 0.13→0.15 and Thread Of Gold's lowered 0.37→0.34; the Win's "case against" is rewritten to state this honestly. Selections unchanged (Thread Of Gold Win, The Austrian Each-Way, In My Teens Danger). Also filled: Golden Splendour's Punchestown margin (neck), Miss Romagna's Roscommon margin (5½L), Mawhibah's Navan margin (½L), and confirmed all other margins at HRI.
+
+## Result (pulled 17:00)
+**Winner: Thread Of Gold 2/1fav** (our Win, rated 0.34). Grade: **held**.
+- Win **Thread Of Gold** 1st (2/1) — reliability over the Kilternan head-to-head, correct.
+- Each-Way **The Austrian** 4th (4/1) — just out of the 3 places.
+- Danger **In My Teens** 5th (14/1).

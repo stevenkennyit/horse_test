@@ -129,3 +129,10 @@ Coordinator spot-check caught a data error in the Key Witness weight line, confi
 - Foxrock Cup 18 Oct result (Dragon Of Malta 7th, 4L): https://www.bbc.com/sport/horse-racing/race/p-1616682
 - Listowel 1m maiden 21 Sep result (Storm Ready won 0.3L): https://www.racingpost.com/results/190/listowel/2026-09-21/929026/
 - Valentino Eclipse maiden win (27 Sep): https://www.bbc.co.uk/sport/horse-racing/race/p-1607658
+
+## Result (pulled 17:00)
+**Winner: Unique Journey 4/1** (our named outsider, rated 0.13). Grade: **failed**.
+- Win **Excellent Believe** 7th (6/4f) — the recorded placer-profile doubt ("winless in 6, beaten favourite, 0 wins for the yard") recurred (error K).
+- Each-Way **Key Witness** 5th (7/1).
+- Danger **Storm Ready** 6th (12/1).
+Judgement: a consistent placer was made the Win over Unique Journey (top OR 103, last-time winner), who was buried under a single "0 wins at 7f" stat and won.

@@ -119,3 +119,10 @@ Field spread: the three selections hold ~40% of the win chance combined; the rem
 - IrishRacing.com racecard Curragh 14:02 — ORs, jockeys/claims, going
 - At The Races racecard Curragh 14:02 — non-runner status ("25 run")
 - Sporting Life meeting page Curragh 1 Nov 2026 — going ("Yielding to Soft"), earlier results
+
+## Result (pulled 17:00)
+**Winner: Thru And Thru 12/1** (unrated). Grade: **failed**.
+- Win **Givehertilxmas** 15th (14/1) — the market was far less bullish than our 0.18; the 15 Oct C&D win did not repeat off the higher mark.
+- Each-Way **Dolly Hello** 21st (25/1).
+- Danger **Therewillbeglory** 7th (5/1).
+Judgement: open 25-runner handicap — no pick placed; the two-win sequence did not translate at this grade.
