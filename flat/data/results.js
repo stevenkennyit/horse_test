@@ -720,6 +720,35 @@
           notes: "Each-Way Buttermere Ridge won at 11/2, prominent and chasing the clear leader, leading over 1f out and going clear: the franked Listowel 3rd and pace case held, and he did not fade this time. Win Pocket Jacks was a non-runner (ran the day before at Dundalk, where she won); she was picked knowing she had run within 24 hours, and no race-morning check was made (error I), so void. Danger Real Petite 8th, 8L, outpaced at 7f as her one 7f run warned. Field 11."
         }
       ]
+    },
+    {
+      date: "2026-11-01",
+      course: "Curragh",
+      country: "IE",
+      code: "flat",
+      playbook: "flat/AGENTS-flat-v2.md",
+      going: "Straight: Yielding to Soft; Round: Yielding (checked 12:45 GMT)",
+      dataErrors: [],
+      races: [
+        {
+          time: "13:27", name: "Ryans Cleaning Race", type: "conditions", distance: "7f",
+          going: "Yielding to Soft", runners: 9, source: "full", status: "pending",
+          writeup: "flat/analyses/2026-11-01_curragh/1327_7f-conditions-race.md", updated: "13:10 Sun 1 Nov",
+          picks: [
+            { role: "win", horse: "Excellent Believe", prob: 0.26, placeProb: 0.55, finish: "-", confidence: "medium",
+              reason: "8lb lighter than his C&D 3rd; field-best RPR 102/TS 52 in that C&D race while giving the winner 21lb; beat Unique Journey 5.5L C&D and now 4lb better off; drops from Class 2/Listed into a conditions race.",
+              against: "Winless in his last 6, a beaten favourite, and 0 wins since joining Stephen Thorne - a consistent placer, not a proven winner." },
+            { role: "ew", horse: "Key Witness", prob: 0.21, placeProb: 0.50, finish: "-", confidence: "medium",
+              reason: "Rated 8lb above Storm Ready yet receives 6lb today; gave him only 3lb effective when beaten 0.5L at Naas (now ~9lb better off); soft/heavy-ground CD specialist, front-runner drawn 10 high.",
+              against: "A 7lb claimer (claim may not fully count); 6.5L 6th in his only Listed try; rated 5lb below Excellent Believe." },
+            { role: "danger", horse: "Storm Ready", prob: 0.13, placeProb: 0.45, finish: "-", confidence: "low",
+              reason: "Unbeaten 2/2 but both wins narrow (0.3L, 0.5L); progressive 3yo who could beat both if the weight swing or Key Witness's claim doesn't materialise.",
+              against: "3yo rated 87 vs older 95-103 at near-level weights; ~9lb swing against him on the Key Witness form." }
+          ],
+          winner: null, grade: "pending", errors: [],
+          notes: "Tax Me Later withdrawn (field 9). Naas weight line corrected 13:10 (Key Witness carried 9-9/5lb claim, not 10-0; swing ~9lb not ~19lb)."
+        }
+      ]
     }
   ]
 });
