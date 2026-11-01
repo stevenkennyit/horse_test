@@ -162,6 +162,7 @@ Then judge consistency **in similar conditions** (same surface, similar distance
 How to use it:
 - **Consistent and fast on time:** strong win candidate
 - **Consistent but modest times:** place candidate. Do not promote a "consistent but modest" placer to top win pick on consistency alone — that profile places more than it wins. **Do not rank such a horse above a rival with clearly better times and a falling mark** (a consistent horse running 4s slow has been beaten out of the places by a rival with better times and a falling mark).
+- **A placer is never the Win.** A horse winless in its last 5+ runs, a beaten favourite, or 0 wins for its current yard is a place proposition at best — however good its figures or weight line. Rank it Each-Way or Danger, never Win. *(Curragh 1 Nov 2026: Excellent Believe was the 6/4f Win despite "winless in 6, beaten favourite" and ran 7th, while Unique Journey — top-rated and a last-time winner — won at 4/1. Error K.)*
 - **Inconsistent with one big figure:** treat the big figure with caution; it may not be repeated
 - **Lightly raced (3 runs or fewer):** consistency can't be judged; mark as uncertain
 
@@ -221,6 +222,7 @@ For each selection, actively look for what's wrong with it:
 - Is the case resting on an unverified claim or a single big figure?
 - Layoff, step up in class, higher weight than in its best runs, declining form?
 - Any "false narrative" (e.g. "two wins in a row" when the last run was actually a 5th)?
+- **Quick return after a hard race caps the Win.** A horse back within ~14 days of a hard Group/Listed run has a real negative to price; do not rank its course/C&D form above a rival's clearly superior current class. *(Curragh 1 Nov 2026: Chally Chute ranked top on course form over G1-class Amelia Earhart receiving 9lb; the 7-day return told and he ran 7th while she won.)*
 - **Is the main doubt a specific, recurring pattern in the form?** A trip change, fading late, missing the start, keenness — if the in-running comments show it more than once, it is likely to recur. Do not make that horse top pick unless the case for it clearly outweighs the doubt. Specific doubts recorded before the off (a trip change, fading late, slow starts) have tended to recur in the race.
 
 List everything you couldn't verify.

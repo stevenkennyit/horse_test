@@ -20,5 +20,9 @@
   {
     date: "2026-10-27", scope: "both", title: "Win / Each-Way / Danger selection format",
     detail: "Output changed from 2-3 ranked picks + a danger to three named roles: a Win (most likely winner, scored as a win bet), an optional Each-Way (best each-way proposition on our own numbers, scored as an each-way bet), and an optional Danger (chief threat, not staked, coverage only). Every selection now also carries a place probability. Scoring and the dashboard are split by role so win skill and place/value skill are measured separately; legacy meetings map rank 1 -> Win, rank 2 -> Each-Way, danger -> Danger."
+  },
+  {
+    date: "2026-11-01", scope: "flat", title: "Curragh review: placer-not-Win, class-over-course-form",
+    detail: "A placer is never the Win (Step 5/13): a horse winless in its last 5+, a beaten favourite, or 0 wins for its current yard is an Each-Way at best (error K). Class over course form on a quick return (Step 12): don't rank a horse's course/C&D form above a rival's clearly superior current class when it returns within ~14 days of a hard Group race."
   }
 ]);
