@@ -668,6 +668,55 @@
       dataErrors: [],
       races: [
         {
+          time: "13:00",
+          name: "Richard Soan Roofing Services Novices' Handicap Chase",
+          type: "chase",
+          distance: "3m1f157y",
+          going: "Good (Good to Soft in places)",
+          runners: 4,
+          source: "full",
+          status: "pending",
+          grade: "pending",
+          errors: [],
+          winner: null,
+          notes: "Class 5 novices' handicap chase, 4-runner win-only field. Three of four are chase debutants (Step 13 caps them), so Tom Taggle — the only runner with completed chase rounds — is the Win by default, but 3m1f is beyond his proven stamina and his last run (Worcester 2m4f) was a well-held 3rd (RPR 76). Danger Could Be You, the only proven 3m stayer, 10lb well-in. ATR Smart Stats bot-blocked; trainer strike-rates asserted, not relied on.",
+          writeup: "jumps/analyses/2026-11-02_plumpton/1300_novices-handicap-chase.md",
+          updated: "08:15 Mon 2 Nov",
+          picks: [
+            { role: "win", horse: "Tom Taggle", prob: 0.37, placeProb: 0.58, finish: "-", confidence: "low",
+              reason: "The only runner with completed chase rounds (2/2 under Rules) in a field where the other three are chase debutants capped by Step 13; race-fit (21d), jumps and stays at least 2m7f.",
+              against: "3m1f is 2.5f beyond his only win; verified in-running shows he weakened after the last at 2m7f, and his last run (Worcester 2m4f, 3rd of 9) was beaten ~18-20l, RPR 76 — a real stamina/form doubt, so the Win rests on jumping/experience not stamina." },
+            { role: "danger", horse: "Could Be You", prob: 0.24, placeProb: 0.48, finish: "-", confidence: "low",
+              reason: "The only proven 3m stayer (5th of 8 over 3m0.5f, btn 5.25l, last month, off 75) and 10lb well-in on a dropped mark, with Irish point fence experience — directly attacks the Win's stamina weakness; chase-debut cap keeps him off top. Near-tied with Hard Stare (0.22), who is held off Danger by a hold-up style that fights Plumpton's front-runner bias." }
+          ]
+        },
+        {
+          time: "13:30",
+          name: "Cappagh Browne Utilities Ltd Maiden Hurdle (GBB Race)",
+          type: "hurdle",
+          distance: "2m4f116y",
+          going: "Good (Good to Soft in places)",
+          runners: 7,
+          source: "full",
+          status: "pending",
+          grade: "pending",
+          errors: [],
+          winner: null,
+          notes: "Class 4 maiden hurdle (weight-for-age, no jockey claims). Two confirmed front-runners (Le Cold Grey, Bailly's Comet) may duel on a front-runner track. Win Bold Step the only principal with hurdle experience and the only one proven at 2m4f, but races held-up on a sharp track (the main risk). EW Bailly's Comet, best bumper class (Listed 3rd over 2m+), prominent, 4yo WFA, Honeyball 34% since July. Danger Le Cold Grey.",
+          writeup: "jumps/analyses/2026-11-02_plumpton/1330_maiden-hurdle.md",
+          updated: "08:25 Mon 2 Nov",
+          picks: [
+            { role: "win", horse: "Bold Step", prob: 0.34, placeProb: 0.66, finish: "-", confidence: "medium",
+              reason: "Only principal to have jumped a hurdle in public (2nd on debut, kept on) and the only runner proven at today's 2m4f, highest rating (RPR 104) earned in contention, sire Scorpion for stamina, Henderson/de Boinville.",
+              against: "Only one hurdle start and 'not fluent 3 out'; races held-up at a sharp, front-runner-biased track that SL itself flagged as a possible excuse last time — hence capped at 0.34." },
+            { role: "ew", horse: "Bailly's Comet", prob: 0.28, placeProb: 0.62, finish: "-", confidence: "medium",
+              reason: "Best bumper class of the debutants (won debut; 3rd of 16 in a Class 1 Listed at Cheltenham over 2m+, so stays beyond 2m), front-running style suits the track, 4yo weight-for-age, Honeyball yard flying (34% since July).",
+              against: "Hurdle debut (jumping unproven) and he weakened late over just 2m at Newbury, so 2m4f asks a stamina question — place-value call, not the Win." },
+            { role: "danger", horse: "Le Cold Grey", prob: 0.24, placeProb: 0.56, finish: "-", confidence: "low",
+              reason: "Confirmed front-runner at a front-runner track and first run after a verified wind operation, Nicholls/Twiston-Davies — chief threat if he jumps and stays; held behind on three unknowns (hurdle debut, 242-day layoff, stamina tested only to 2m)." }
+          ]
+        },
+        {
           time: "14:00",
           name: "Southern Contract Novices' Handicap Chase",
           type: "chase",
@@ -691,6 +740,32 @@
               against: "Untrustworthy with recurring jumping errors, beaten favourite 5 times, and 162 days off — hard to win with, hence each-way; layoff and jumping risk cap the place chance." },
             { role: "danger", horse: "Known Warrior", prob: 0.18, placeProb: 0.48, finish: "-", confidence: "medium",
               reason: "Best-handicapped on form (OR 99), 2nd at Plumpton in Feb, fit (12d); but 0/10, a hold-up one-pacer on a front-runner track who unseated (early mistake) on his comeback — chief threat rather than likely winner." }
+          ]
+        },
+        {
+          time: "16:00",
+          name: "Final Fence Open 30th November Handicap Hurdle",
+          type: "hurdle",
+          distance: "2m4f116y",
+          going: "Good (Good to Soft in places)",
+          runners: 7,
+          source: "full",
+          status: "pending",
+          grade: "pending",
+          errors: [],
+          winner: null,
+          notes: "Class 4 handicap hurdle. Front-runner-biased track. Win Everyonesgame (2nd over exact C&D off today's OR, prominent, 5lb claim -> 11-5); EW Low Expectations (Plumpton course winner, genuine front-runner, 1st run after wind op, back to a winnable 2m4f); Danger switched to The Boss Bear (only C&D winner, prominent, hot new yard James Owen ~19%). Trainer strike-rates verified at source; ATR pace map blocked (built from in-running).",
+          writeup: "jumps/analyses/2026-11-02_plumpton/1600_handicap-hurdle.md",
+          updated: "08:20 Mon 2 Nov",
+          picks: [
+            { role: "win", horse: "Everyonesgame", prob: 0.30, placeProb: 0.55, finish: "-", confidence: "medium",
+              reason: "Cleanest line in the race: 2nd of 4 over this exact C&D (2m4f116y Plumpton) in May beaten a neck off OR110 — today's mark — and a prominent racer suiting the front-runner bias; 5lb claim drops top weight to 11-5.",
+              against: "160 days off and a 9yo on a falling mark, and A Irvine is a low-strike yard (~5% jumps, verified) — he must bounce straight back to the May effort first time out." },
+            { role: "ew", horse: "Low Expectations", prob: 0.17, placeProb: 0.43, finish: "-", confidence: "medium",
+              reason: "Plumpton course winner and a genuine front-runner on a front-runner track, 1st run after a verified wind operation, and back to a winnable 2m4f after his losing runs came only raised in class / over 2m7f-3m — best each-way engine at a longer price.",
+              against: "OR 102 is a career high (4lb above last win), 218 days off, and a confirmed keen-goer who can be found out in a moderate gallop." },
+            { role: "danger", horse: "The Boss Bear", prob: 0.13, placeProb: 0.33, finish: "-", confidence: "low",
+              reason: "The field's only exact-C&D winner (Plumpton 2m4f116y, verified), races prominently (track fit), and starts for an in-form James Owen yard (~19% jumps, verified) on the new-recruit angle — more likely winner than the fitter but track-unsuited, winless-stabled Calme Olympien; not staked on 210 days off, top weight and three bad runs to end last term." }
           ]
         }
       ]

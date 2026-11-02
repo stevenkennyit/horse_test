@@ -76,7 +76,42 @@ Confirmed front-runner (set a strong pace, beaten only 1L at Wincanton — VERIF
 - Sporting Life result pages printed beaten distances without units ("4½", "1") — assumed lengths.
 - **Going** to be re-checked near the off.
 
+## Update 07:42 — gap-filling pass (all principal facts now source-verified via Sporting Life API)
+
+Pulled every runner's full career, days-off, headgear and the analyst commentary from the Sporting Life race/horse API (race id 946561). Going re-confirmed: **Good (Good to Soft in places)**. **No jockey claims for any runner** (card weights are final; no adjustment needed). **No OR shown because this is a weight-for-age maiden, not a handicap** — that gap is resolved, not missing. Selections unchanged; probabilities refined.
+
+**Gaps closed:**
+- **Le Cold Grey "w1" — VERIFIED.** SL flags medication `WS` and insight `WIND_SURGERY_SINCE_LAST_RUN`: first-time run after a breathing operation (a genuine positive over jumps). He has also already run at **2m** (Lingfield, led 4 out, 3rd/6, weakened late) as well as his front-running Wincanton 2nd — so he is a confirmed front-runner with stamina tested to 2m but not beyond. Longest layoff in the race (242 days). Sire Cokoriko.
+- **Bailly's Comet — VERIFIED full career:** won Wincanton bumper debut (1/12, Class 4, prominent/ran on well); **3rd of 16 in a Class 1 Listed bumper at Cheltenham over 2m179y** (led 2f out, headed) — so he HAS placed beyond 2m, softening the stamina doubt; 9th/20 Newbury (led then weakened, Class 2, "form working out well"). Honeyball yard **in-form, 34% strike rate since July** (SL commentary). 4yo WFA (−1lb). Last ran 226 days ago. Prominent/front-running style suits the track.
+- **Bold Step — VERIFIED full career (just 2 runs):** Exeter bumper 2nd/11 (midfield/held up, outpaced 1f out, kept on) and Hexham hurdle 2nd/3 over 2m4f (not fluent 3 out, kept on). Sire **Scorpion** = strong stamina; proven at today's exact trip. SL note: Hexham 2nd "possibly unsuited by the idiosyncratic track" — relevant, as **Plumpton is also a sharp/idiosyncratic track and he races held-up**, the chief risk to him. Last ran 167 days ago.
+- **Vicomte Le Brave — reconciled.** NOT a Rules debutant: he ran **two Class 3 chases at Worcester this month** — 3rd of 3 over 2m7f (12 Oct) and 5th of 6 over 2m4f (21 Oct, led to the 3rd then faded). Exposed, well beaten, but race-fit (12 days) and dropping in class to a hurdle; wears cheekpieces + tongue strap (3rd time, not first-time). Sire Brave Mansonnien. The best of the four outsiders on fitness/class-drop, but his actual form is weak.
+- **Chase The Status — reconciled:** recent bumpers 6th/8 (Worcester, 2m) and 4th of 4 (Southwell, 1m7f, hung left, weakened). Weak, race-fit 20 days. Hurdle debut.
+- **Merci Vieil Ami — reconciled:** **tailed off last (5th/5) on his hurdle debut at Plumpton on 19 Oct**; prior Irish/GB bumpers all well beaten. Comfortably bottom-rated (RPR 72). Race-fit 14 days.
+- **Silverhill Freya:** SL holds no Rules runs for her (Irish points only, ~190 days since last run); profile per sales listing is 2 Irish points over 3m with a pull-up on debut. Stays the trip but wholly unproven under Rules/over hurdles. Mares' 7lb allowance (10-12).
+
+**Pace picture (verified from in-running comments):** likely leaders/prominent = **Le Cold Grey, Bailly's Comet** (both confirmed front-runners/prominent), with **Vicomte Le Brave** able to press early. **Bold Step is held up / off the pace** — the one style that the Plumpton front-runner bias works against. If the two front-runners duel, it could set the race up for Bold Step's stamina on the uphill finish; if they get an easy lead, it works against him.
+
+**Revised probabilities (reflecting the sharp-track / held-up doubt on Bold Step and Bailly's Comet's verified class + in-form yard):**
+
+| Role | Horse | Win prob | Place prob | Fair price | Confidence |
+|---|---|---|---|---|---|
+| **WIN** | Bold Step | 0.34 | 0.66 | ~2/1 | medium |
+| **EACH-WAY** | Bailly's Comet | 0.28 | 0.62 | ~5/2 | medium |
+| **DANGER** | Le Cold Grey | 0.24 | 0.56 | ~10/3 | — |
+
+Remaining four share ~0.14 win (Vicomte Le Brave ~0.06; Chase The Status / Silverhill Freya ~0.03 each; Merci Vieil Ami ~0.02). Win (Bold Step) still highest.
+
+**Selections unchanged.** Rationale confirmed:
+- **WIN Bold Step** — the **only one of the three principals to have jumped a hurdle in public** (Le Cold Grey and Bailly's Comet are hurdle debutants; note outsider Merci Vieil Ami has also hurdled, tailed off), the **only runner to have run competitively at 2m4f** (he was 2nd there; Vicomte Le Brave completed 2m4f/2m7f chases but was well beaten), stamina underpinned by sire Scorpion, highest rating (RPR 104), top yard/jockey; held just above the pair on the core stamina+experience edge. *(This corrects the original body's looser phrasing "only runner with hurdling experience" — Merci Vieil Ami has hurdled too.)* *Case against, now sharper:* he is held-up at a sharp, front-runner-biased track that may not suit him (SL itself flagged a sharp track as a possible excuse last time) and was not fluent at a flight on debut — which is why his win chance is capped at 0.34.
+- **EACH-WAY Bailly's Comet** — verified best bumper class (Listed 3rd at Cheltenham over 2m179y, so stays 2m+), prominent/front-running suits the track, 4yo WFA, yard flying (34% since July); hurdle debut and the step to 2m4f keep him as the place-value call rather than the Win.
+- **DANGER Le Cold Grey** — confirmed front-runner at a front-runner track, first-time wind op (now verified), top yard; three unknowns (hurdle debut, 242-day layoff, stamina only tested to 2m) hold him a shade behind.
+
+**Still-open (minor) gaps:** Silverhill Freya's individual point-to-point runs not read at a results source (SL holds no Rules form; sales-listing description only); Vicomte Le Brave's older "1-" (point/earlier) runs not individually read, though his two relevant recent runs are verified. Neither changes the ranking. SP/market deliberately not used.
+
 ## Sources
+- SL race card API (full field, headgear, days-off, commentary): https://www.sportinglife.com/api/horse-racing/race/946561
+- SL horse API careers: Bold Step https://www.sportinglife.com/api/horse-racing/horse/1211651 · Le Cold Grey https://www.sportinglife.com/api/horse-racing/horse/1204490 · Bailly's Comet https://www.sportinglife.com/api/horse-racing/horse/1206780 · Vicomte Le Brave https://www.sportinglife.com/api/horse-racing/horse/1241677 · Chase The Status https://www.sportinglife.com/api/horse-racing/horse/1230944 · Merci Vieil Ami https://www.sportinglife.com/api/horse-racing/horse/1227704 · Silverhill Freya https://www.sportinglife.com/api/horse-racing/horse/1244110
+- Bailly's Comet Cheltenham NYD 3rd/16 (Listed): https://www.oddschecker.com/horse-racing/results/2026-01-01/cheltenham
 - RP meeting card: https://www.racingpost.com/racecards/44/plumpton/2026-11-02/930439
 - Bold Step, Hexham hurdle debut result (2nd, not fluent 3 out, 2m4f): https://www.sportinglife.com/racing/results/2026-05-19/hexham/917600/northumberland-county-show-novices-hurdle-gbb-race
 - Le Cold Grey, Wincanton NH flat (2nd beaten 1L, made strong pace): https://www.sportinglife.com/racing/results/2026-03-05/wincanton/905842/gbim-open-nh-flat-race-gbb-race
