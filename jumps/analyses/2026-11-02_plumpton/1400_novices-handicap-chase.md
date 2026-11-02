@@ -30,7 +30,7 @@ Card weights are BEFORE claims. Effective weights after jockey claims:
 | 9 | Georges Street | 5 | 82 | 10-10 | — | 10-10 | B Godfrey | Harry Ryall | blinkers | 159 |
 | 10 | Lunar Ocean | 7 | 79 | 10-7 | 5 | 10-2 | B Macey | Billy Aprahamian | visor | 162 |
 
-Claims (Mitchell −3, Macey −5) taken from the fact pack / card — **asserted** (the profile JSON did not expose the claim field; to be verified at source in the gap pass).
+Claims (Mitchell −3, Macey −5) **verified** at source in the gap pass — the Sporting Life racecard JSON `jockey_claim` field reads 3 (Onewayortother) and 5 (Lunar Ocean); all other runners null.
 
 ## Summary grid
 
@@ -45,7 +45,7 @@ Claims (Mitchell −3, Macey −5) taken from the fact pack / card — **asserte
 | **Kill The Groove** | Chase: PU, remote 3rd, 5th — weak over fences | Faded at 2m3f over fences; stamina doubt vs hurdles | 10-11 off OR 83 (down from 96) | Maiden 0/13; best efforts over hurdles | **2nd & 3rd over hurdles at Plumpton (2m)**; course form (hurdles) | Prominent — good fit | K Jewell; T Cannon; 146 days off | Poor over fences; doesn't stay 2m3f at pace over fences |
 | **Hiero Sport** | 3 chase runs, 0 wins, **1 second**; UR 1st once (blip); progressing | **Proven 2m3f-2m4f** (chase 2nd + hurdle wins); likes **Good** | 10-10 off OR 82 (low) | Dual hurdle winner; improving each chase start | Market Rasen 2nd (2m3f) last time "working out well"; no Plumpton form | **Leads / prominent — strong fit** | A M Hales; **fit (25 days)** | 0 chase wins; "no extra" late — may be a placer |
 | **Georges Street** | Chase debut was 2nd (bad mistake 3 out) — erratic jumping | 2m4f stays; Gd/Hvy | 10-10 off OR 82 | 5 runs, 1 place; hurdles abysmal (125-300/1) | 2nd Newton Abbot (chase debut) only credit; "flattered" | Led then collared — OK fit | Harry Ryall; blinkers; 159 days off | One-run wonder; needs to back it up |
-| **Lunar Ocean** | 12 chase runs, **1 win + 6 seconds + 1 third (placed 7/12)**; recurring "not fluent / bad mistake" | **Proven at 2m3f on Good**; made-all winner | 10-2 eff off OR 79 — **bottom weight + 5lb claim** | Perennial placer, untrustworthy (5× beaten fav) | **2nd at Plumpton over today's exact 2m3f166y (Mar, off 77)** — course & distance | **Made all when won — strong fit** | B Aprahamian; B Macey (5); **162 days off** | Finds little / errors; doesn't win often; layoff |
+| **Lunar Ocean** | 12 chase runs, top-3 in **8/12 (1 win, 6 seconds, 1 third)**; recurring "not fluent / bad mistake" | **Proven at 2m3f on Good**; made-all winner | 10-2 eff off OR 79 — **bottom weight + 5lb claim** | Perennial placer, untrustworthy (5× beaten fav) | **2nd at Plumpton over today's exact 2m3f166y (Mar, off 77)** — course & distance | **Made all when won — strong fit** | B Aprahamian; B Macey (5); **162 days off** | Finds little / errors; doesn't win often; layoff |
 
 ## Outsider check (every non-selected runner)
 
@@ -80,7 +80,7 @@ Remaining field (~0.48 win between them): Onewayortother 0.11, Diamond Days 0.08
 
 ### EACH-WAY — Lunar Ocean (10)
 - **Course AND distance form [verified]:** 2nd of 4 at Plumpton over today's exact 2m3f166y (9 Mar, off OR 77) — the only runner with chase form over the precise course-and-distance.
-- **Elite place profile [verified]:** 7 placings from 12 chase starts (1 win, 6 seconds, 1 third) — exactly the "runs into a place at a price" profile an each-way pick wants, even though he wins rarely.
+- **Elite place profile [verified]:** top-3 in 8 of 12 chase starts (1 win, 6 seconds, 1 third) — exactly the "runs into a place at a price" profile an each-way pick wants, even though he wins rarely.
 - **Weight / claim edge [verified mark; asserted claim]:** OR 79, bottom of the handicap, and a 5lb claimer aboard — effective 10-2. Beat today's rival Lord Maher ~31l when making all to win at Fontwell on 14 May (off 10-7 vs Lord Maher's 11-3) [verified collateral].
 - **Prominent / made-all winner [verified]:** his win came making all — the winning style here.
 
@@ -102,3 +102,26 @@ Best-handicapped on form (OR 99, "likely on a good mark"; 2nd at Plumpton in Feb
 - Racecard JSON: https://www.sportinglife.com/racing/racecards/2026-11-02/plumpton/racecard/946562/southern-contract-novices-handicap-chase
 - Profiles (full career + in-running comments), Sporting Life `/racing/profiles/horse/<id>`: Kapability 1163782, Onewayortother 1051656, Known Warrior 1177062, Walk In The West 1167894, Lord Maher 1147961, Diamond Days 1163772, Kill The Groove 1173346, Hiero Sport 1095979, Georges Street 1212603, Lunar Ocean 1094946
 - Going: Sporting Life going page (row under 2 Nov), per fact pack, checked ~07:24.
+
+## Update 07:50 (gap-fill pass) — selections UNCHANGED
+
+Worked through every gap, asserted and not-found item. **No change to Win / Each-Way / Danger or their probabilities.**
+
+**Card re-verified at source (~07:42):** fresh pull of race 946562 confirms the 10-runner card exactly as analysed, all 10 `RUNNER`, **no non-runners**.
+
+**Jockey claims — now VERIFIED:** Sporting Life racecard JSON `jockey_claim` field = 3 for Onewayortother (Freddie Mitchell) and 5 for Lunar Ocean (Benjamin Macey); all other runners null. Effective weights stand: Onewayortother 11-11, Lunar Ocean 10-2.
+
+**Going — re-checked at source (~07:48):** Sporting Life going page still "Good (Good to Soft in places)", weather Dry — unchanged from the 07:24 read. (A final near-the-off re-check is for the coordinator.)
+
+**Trainer records (Sporting Life trainer profiles, last-50 runs):**
+- **A J Honeyball** (Kapability, Walk In The West): 13/50 overall, 3/14 since 15 Oct (in form), **chase 9/23 (~39%)**, 0 runners at Plumpton in the sample. Strong with chasers — a mild caveat against ruling out his two chase debutants, but a clean all-time *chase-debut* strike rate can't be isolated from 50 runs, and each horse's own profile (Kapability: chase debut + 242 days off + top weight off a bumper-earned mark + no 2m3f stamina proof + hold-up on a front-runner track; Walk In The West: chase debut + trip step-up + hold-up) keeps both unselected. Honeyball chase-debut record: **not reliably computable** from available data.
+- **A M Hales** (Hiero Sport): 9/50 overall, 2/11 since 15 Oct, **1/1 at Plumpton** in the sample, chase 2/10 — functional and a tiny course positive; supports the Win's connections.
+- **Billy Aprahamian** (Lunar Ocean): 9/50 overall, **0/2 since 15 Oct (quiet)**, 0/1 Plumpton, chase 5/20 (~25%). Mild negative, but the EW case rests on course-and-distance form, the 5lb claim and the place profile, not stable form — Lunar Ocean retained as EW.
+- **J Tizzard** (Diamond Days): 14/50 overall and **11/37 since 15 Oct (~30%) — genuinely HOT**, confirming the card's HOT_TRAINER flag; chase 7/19 (~37%). A real positive for Diamond Days, but his own 0/12 maiden record, left-jumping and jumping errors keep him in the pack (nudged to ~0.09, not promoted).
+
+**Pace map (constructed from in-running comments; At The Races unavailable — bot challenge):** likely to race prominently / lead — Hiero Sport (leads), Lunar Ocean (made all when winning), Lord Maher, Georges Street, Kill The Groove, Onewayortother (leads early). Held up / midfield — Known Warrior, Diamond Days, Kapability, Walk In The West. This supports the front-runner-biased read: the Win (Hiero Sport) and EW (Lunar Ocean) are both prominent types; the Danger (Known Warrior) is a hold-up horse on a track that punishes closers — the structural reason he is Danger, not Win.
+
+**Still not available / outstanding:**
+- At The Races Smart Stats and a source pace map — ATR behind a bot challenge; pace map constructed independently instead.
+- Honeyball all-time chase-debut strike rate — not computable from the 50-run sample (both affected horses unselected regardless).
+- Final near-the-off going/non-runner re-check — for the coordinator.
