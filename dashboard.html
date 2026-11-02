@@ -200,9 +200,9 @@
   </section>
 
   <section class="card" style="margin-top:12px">
-    <h2>Selection value — big-price places</h2>
-    <p class="desc">Every named selection (Win, Each-Way <em>and</em> Danger) scored as a 1pt bet <em>to place</em> at SP: a placed pick returns a quarter/fifth of its odds, an unplaced one −1. Always a fraction of the odds, so a big-priced placer in a competitive field outscores a short one — comparable across races. Win-only fields (under 5 runners) have no place market and are excluded; their win result counts in the bet P&L above. A selection-value lens kept separate from that P&L. Bars are the picks that placed, biggest first; hover for detail.</p>
-    <div class="legend"><span><i style="background:var(--good)"></i>Big-price place (≥ +1.0)</span><span><i style="background:var(--series-1)"></i>Placed</span></div>
+    <h2>Selection value — every pick each-way</h2>
+    <p class="desc">Every named selection (Win, Each-Way <em>and</em> Danger) scored as a 1pt <em>each-way</em> bet at SP: a winner returns the win half plus the place half (so winning beats placing), a placer returns the place half, an unplaced pick −1. Price-weighted, so it rewards finding winners and big-priced horses that make the frame, whichever slot they were given. Win-only fields (under 5 runners) score as a win bet. A selection-quality lens, separate from the staked pick-score (which backs the Win to win and only the Each-Way each-way). Bars are the picks that returned, biggest first; hover for detail.</p>
+    <div class="legend"><span><i style="background:var(--good)"></i>Won</span><span><i style="background:var(--series-1)"></i>Placed</span></div>
     <div id="chart-merit"></div>
   </section>
 
@@ -233,7 +233,7 @@
     Data: <code>jumps/data/results.js</code> and <code>flat/data/results.js</code>. Add each new meeting to the right file; the dashboard recalculates on reload. Playbook rule changes are logged in <code>data/changelog.js</code> and tracked under "Playbook changes".
     Selections are Win, Each-Way and Danger. "Placed" uses standard each-way places: 2 for 5–7 runners, 3 for 8+, 4 for handicaps of 16+, winner only under 5.
     Pick score (at SP): the Win is scored as a 1pt win bet (wins → +odds, else −1); the Each-Way as a 1pt each-way bet (half win, half place; place pays a quarter of the odds in 5–7 runner races and handicaps of 12+, otherwise a fifth). The Danger is not staked. Fair price = 1 ÷ the agent's win chance.
-    Selection value (place-merit) is a separate diagnostic, not part of the pick score or the money won/lost: every named selection — the Danger included — is scored as a 1pt bet to place at SP (placed → +odds × place fraction, unplaced → −1), to credit finding big-priced placers whatever slot they were given. It is always a fraction of the odds so it stays comparable across races; win-only fields under 5 runners have no place market and are excluded. SP is unknown before the off, so it cannot be gamed at pick time.
+    Selection value is a separate diagnostic, not part of the pick score or the money won/lost: every named selection — the Danger included — is scored as a 1pt each-way bet at SP (winner → win half + place half, placer → place half − lost win half, unplaced → −1; win-only fields under 5 runners score as a win bet), to credit finding winners and big-priced placers whatever slot they were given. SP is unknown before the off, so it cannot be gamed at pick time.
     Legacy meetings (before 27 Oct 2026) had no explicit roles; the dashboard maps their rank 1 → Win, rank 2 → Each-Way, danger → Danger, so their scores are recalculated under the new model.
   </footer>
 </div>
@@ -313,19 +313,13 @@
     const parts = [winScore(r, winPick(r)), ewScore(r, ewPick(r))].filter((x) => x != null);
     return parts.length ? parts.reduce((a, x) => a + x, 0) : null;
   };
-  // place-merit: a SELECTION-VALUE lens, separate from the win/each-way bet P&L. Every named selection
-  // (Win, Each-Way AND Danger) is scored as a 1pt bet TO PLACE at SP: placed -> +(odds x place fraction),
-  // unplaced -> -1. It credits finding a big-priced horse that runs into the frame, whatever slot it was
-  // given, on a scale that is COMPARABLE across races (always a fraction of the odds). Win-only fields
-  // (<5 runners) have no place market, so they are excluded (null) rather than paid full win odds — their
-  // win result already counts in the win/each-way bet P&L. SP is unknown pre-off, so this can't be gamed at pick time.
-  const placeMerit = (r, p) => {
-    if (!p || !p.sp || p.finish === "-") return null;
-    const pf = placeFrac(r);
-    if (pf === 0) return null; // win-only field (<5 runners): no place market, excluded from the place lens
-    const dec = toDec(p.sp); if (dec == null) return null;
-    return isPlaced(r, p) ? (dec - 1) * pf : -1;
-  };
+  // selection value: a SELECTION-QUALITY lens, separate from the staked pick-score. EVERY named selection
+  // (Win, Each-Way AND Danger) is scored as a 1pt EACH-WAY bet at SP (reusing ewScore): a winner returns the
+  // win half + the place half (so winning beats placing), a placer returns the place half less the lost win
+  // half, an unplaced pick -1; win-only fields (<5 runners) score as a win bet. It rewards finding winners AND
+  // big-priced horses that make the frame, whatever slot they were given. SP is unknown pre-off, so it cannot be
+  // gamed at pick time. Place fractions follow UK terms: 1/4 for 2-place races and 12+ runner handicaps, else 1/5.
+  const selMerit = (r, p) => ewScore(r, p);
   const roleLabel = (p) => ({ win: "Win pick", ew: "Each-Way", danger: "Danger" }[roleOf(p)] || "Pick");
 
   // ---- filters ----
@@ -394,9 +388,9 @@
     const col = (x) => x >= 0 ? "pos-text" : "neg-text";
     const roi = (pl, cnt) => cnt ? (pl / cnt >= 0 ? "+" : "") + Math.round(pl / cnt * 100) + "%" : "–";
     const pending = races.filter((r) => r.status === "pending").length;
-    const meritAll = settled.flatMap((r) => r.picks.map((p) => placeMerit(r, p)).filter((x) => x != null));
+    const meritAll = settled.flatMap((r) => r.picks.map((p) => selMerit(r, p)).filter((x) => x != null));
     const sumMerit = meritAll.reduce((a, x) => a + x, 0);
-    const bigPlaces = meritAll.filter((x) => x >= 1).length;
+    const meritWon = meritAll.filter((x) => x > 0).length;
 
     const half = (lab, v, det) => `<div><div class="value">${v}</div><div class="sub-label">${lab}</div><div class="detail">${det}</div></div>`;
     const tiles = [
@@ -410,7 +404,7 @@
       { label: "ROI: Win", value: `<span class="${col(sumWin)}">${roi(sumWin, nWin)}</span>`, detail: `${pts(sumWin)} on ${nWin}pt` },
       { label: "ROI: Each-Way", value: `<span class="${col(sumEw)}">${roi(sumEw, nEw)}</span>`, detail: `${pts(sumEw)} on ${nEw}pt` },
       { label: "Selection value", value: `<span class="${col(sumMerit)}">${fmt(sumMerit)}</span>`,
-        detail: `place-merit · ${meritAll.length} picks · ${bigPlaces} big-price place${bigPlaces === 1 ? "" : "s"}` }
+        detail: `all picks each-way · ${meritWon} of ${meritAll.length} returned` }
     ];
     $("tiles").innerHTML = tiles.map((t) => t.wide
       ? `<div class="tile wide"><div class="label">${t.label}</div>${t.value}</div>`
@@ -636,31 +630,34 @@
     el.innerHTML = s; bindTips(el);
   }
 
-  // ---- selection value: place-merit per named selection (big-price places) ----
+  // ---- selection value: every named pick scored as a 1pt each-way bet ----
   function renderMerit(races) {
     const settled = races.filter((r) => r.status === "settled");
-    const items = settled.flatMap((r) => r.picks.map((p) => ({ r, p, m: placeMerit(r, p) })).filter((x) => x.m != null));
+    const items = settled.flatMap((r) => r.picks.map((p) => ({ r, p, m: selMerit(r, p) })).filter((x) => x.m != null));
     const el = $("chart-merit");
     if (!items.length) { el.innerHTML = '<p class="muted">No settled selections.</p>'; return; }
-    const placed = items.filter((x) => x.m > 0).sort((a, b) => b.m - a.m);
+    const winners = items.filter((x) => String(x.p.finish) === "1").length;
+    const pos = items.filter((x) => x.m > 0).sort((a, b) => b.m - a.m);
     const net = items.reduce((a, x) => a + x.m, 0);
-    const big = items.filter((x) => x.m >= 1).length;
-    if (!placed.length) {
-      el.innerHTML = '<p class="muted">No selection has placed at a price yet.</p>';
+    if (!pos.length) {
+      el.innerHTML = '<p class="muted">No selection has returned yet.</p>';
     } else {
-      const rows = placed.slice(0, 12).map((x) => ({
-        label: `${x.p.horse} · ${x.r.time} ${x.r.meeting.course}`,
-        v: Number(x.m.toFixed(2)),
-        good: x.m >= 1,
-        tip: `<b>${esc(x.p.horse)} — ${esc(x.r.meeting.date)} ${esc(x.r.time)} ${esc(x.r.meeting.course)}</b>${esc(roleLabel(x.p))} · finished ${esc(x.p.finish)} at ${esc(x.p.sp)}<br>Place-merit +${x.m.toFixed(2)} (1pt to-place at SP)`
-      }));
-      hbars(el, rows, (d) => d.good ? "var(--good)" : "var(--series-1)", "Selections that placed, by place-merit");
+      const rows = pos.slice(0, 12).map((x) => {
+        const won = String(x.p.finish) === "1";
+        return {
+          label: `${x.p.horse} · ${x.r.time} ${x.r.meeting.course}`,
+          v: Number(x.m.toFixed(2)),
+          won,
+          tip: `<b>${esc(x.p.horse)} — ${esc(x.r.meeting.date)} ${esc(x.r.time)} ${esc(x.r.meeting.course)}</b>${esc(roleLabel(x.p))} · ${won ? "won" : "finished " + esc(x.p.finish)} at ${esc(x.p.sp)}<br>Each-way return +${x.m.toFixed(2)} (1pt e/w at SP)`
+        };
+      });
+      hbars(el, rows, (d) => d.won ? "var(--good)" : "var(--series-1)", "Selections by each-way return");
     }
-    const extra = placed.length > 12 ? ` (top 12 of ${placed.length} shown)` : "";
+    const extra = pos.length > 12 ? ` (top 12 of ${pos.length} shown)` : "";
     el.insertAdjacentHTML("beforeend",
-      `<p class="note">Net place-merit across all ${items.length} settled selections (each backed 1pt to place at SP; −1 when unplaced): ` +
-      `<strong class="${net >= 0 ? "pos-text" : "neg-text"}">${pts(net)}</strong>. Green bars are big-price places (place-merit ≥ +1.0): ${big}.${extra} ` +
-      `A selection-value lens, separate from the win/each-way bet P&L above.</p>`);
+      `<p class="note">Net across all ${items.length} settled selections, each backed 1pt each-way at SP: ` +
+      `<strong class="${net >= 0 ? "pos-text" : "neg-text"}">${pts(net)}</strong>. ${winners} won.${extra} ` +
+      `Green = won (win + place halves); blue = placed only. A selection-quality lens, separate from the staked pick-score above.</p>`);
   }
 
   // ---- calibration (stated chance vs actual win rate, by band) ----
