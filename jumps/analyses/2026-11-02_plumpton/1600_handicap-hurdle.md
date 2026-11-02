@@ -11,7 +11,13 @@
 - **Course character:** tight, sharp, undulating left-handed ~1m circuit, short run-in, uphill finish; strongly favours front-runners / prominent racers, hold-up horses struggle on the turns (front-runner bias verified via Geegeez note in fact pack; geometry asserted).
 
 ## Analysis source
-`full` — the agent's own analysis. Racecard and all seven run histories read at source from Sporting Life (`__NEXT_DATA__` JSON on the racecard and each horse profile), including the in-running comment behind every run quoted and every non-completion.
+`full` — the agent's own analysis. Racecard and all seven run histories read at source from Sporting Life (`__NEXT_DATA__` JSON on the racecard and each horse profile), including the in-running comment behind every run quoted and every non-completion. Trainer records computed from each trainer's own Sporting Life profile result list (gap-fill pass, see Update 07:55).
+
+### Pace map (built from in-running comments, not card labels — ATR pace map blocked)
+- **Likely outright leader:** Low Expectations ("made all", "led", "disputed lead early" — the most committed front-runner).
+- **Prominent / race handy:** Everyonesgame ("raced in second/third, led 5th"), The Boss Bear ("prominent"), Coastal Command ("prominent" but outpaced), Kandor (can dispute lead).
+- **Held up / midfield:** Calme Olympien, Keno Black.
+- Read: a front-runner-biased, tight track with one committed leader (Low Expectations) and three prominent types — the race should be run to suit on-pace horses; the two hold-up runners are fighting the track.
 
 ### Weights after claims (what each actually carries)
 Card weights are before claims. Everyonesgame −5 (Chad Bament, apprentice), Kandor −7 (Mr Daniel Williams, amateur).
@@ -48,15 +54,15 @@ Card weights are before claims. Everyonesgame −5 (Chad Bament, apprentice), Ka
 
 | Role | Horse | Win prob | Place prob | Fair price | Confidence |
 |---|---|---|---|---|---|
-| **WIN** | Everyonesgame | 0.30 | 0.56 | ~9/4 | medium |
-| **EACH-WAY** | Low Expectations | 0.17 | 0.44 | ~5/1 | medium |
-| **DANGER** | Calme Olympien | 0.15 | 0.45 | ~11/2 | — |
+| **WIN** | Everyonesgame | 0.30 | 0.55 | ~9/4 | medium |
+| **EACH-WAY** | Low Expectations | 0.17 | 0.43 | ~5/1 | medium |
+| **DANGER** | The Boss Bear | 0.13 | 0.33 | ~13/2 | — |
 
-Field win-prob adds up: Everyonesgame 0.30 + Low Expectations 0.17 + Calme Olympien 0.15 = 0.62; the remaining 0.38 is spread across The Boss Bear (~0.11), Coastal Command (~0.09), Keno Black (~0.09) and Kandor (~0.09). Win holds the highest chance. Two each-way places (7 runners).
+Field win-prob adds up: Everyonesgame 0.30 + Low Expectations 0.17 + The Boss Bear 0.13 = 0.60; the remaining 0.40 is spread across Calme Olympien (~0.12), Coastal Command (~0.10), Keno Black (~0.09) and Kandor (~0.09). Win holds the highest chance. Two each-way places (7 runners). *(Danger switched from Calme Olympien to The Boss Bear in the gap-fill pass — see Update 07:55.)*
 
 ### WIN — Everyonesgame
 **Rationale.** The cleanest, most relevant form line in the race: 2nd of 4 over this **exact course and distance** (2m4f116y Plumpton) in May, beaten only a neck, off **OR 110 — today's mark** — carrying 11-4 that day, 11-5 today after the same rider's 5lb claim (verified from profile + in-running: "led 5th… kept on but held by winner"). He races prominently, which suits Plumpton's front-runner bias (verified across his comments: "raced in second/third", "prominent"). He won off a lower mark at Kempton (3m) in Nov-25 and stays well, so stamina at 2m4f on Good is not a question (verified). The 5lb claim drops a top-weight OR into a workable 11-5.
-**Case against.** 160 days off and a 9-year-old on a long-term falling mark (down from 132) — he must bounce straight back to the May effort. Returning off 139 days last autumn he ran only 4th (beaten 2¾l) before winning next time, so the first run back may fall a fraction short (verified). *Claims: C&D 2nd off today's OR — verified; prominent-racing style — verified; stays trip on Good — verified; reappearance slightly below peak — verified; A Irvine's fresh-horse pattern — asserted (single data point).*
+**Case against.** 160 days off and a 9-year-old on a long-term falling mark (down from 132) — he must bounce straight back to the May effort. **A Irvine is a small, low-strike yard — 2 jumps wins from 42 runs (~5%) over the last ~10 months (verified from the trainer's result list)** — so the stable does not fire winners often, which caps confidence. Mitigating it: Everyonesgame is one of those two jumps winners (his Nov-25 Kempton win), and his *first* run for Irvine came off a 139-day break and a stable switch — 4th of 5 beaten 2¾l, then he won next time (verified from his profile). So Irvine demonstrably got this horse competitive fresh, but first time back may still fall a fraction short of peak. *Claims: C&D 2nd off today's OR — verified; prominent-racing style — verified; stays trip on Good — verified; joined A Irvine 2025-11-03 (prev. E C Lavelle, then C Longsdon), so the "second start for current yard" card note is stale — verified; A Irvine 5% jumps strike — verified; ran respectably fresh on first Irvine start off 139 days — verified.*
 
 ### EACH-WAY — Low Expectations
 **Rationale.** The best each-way proposition on my own numbers and a different, longer-priced profile than the Win. He is a **Plumpton course winner** (verified, Dec-25) and a **genuine front-runner** ("made all", "led", "disputed lead" — verified) on a track that rewards exactly that, and he returns **first time after a wind operation** (verified — Sporting Life WIND_SURGERY_SINCE_LAST_RUN insight), a stronger positive over jumps than on the flat. Crucially his three losing runs came when **raised in class and tried over 2m7f/3m** — today's 2m4f is back within his proven range (he won at 2m4f off 91). A fresh, sound front-runner on a leaders' track at a bigger price is a strong place engine.
