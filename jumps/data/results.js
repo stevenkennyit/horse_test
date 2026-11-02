@@ -657,6 +657,43 @@
           ]
         }
       ]
+    },
+    {
+      date: "2026-11-02",
+      course: "Plumpton",
+      country: "GB",
+      code: "jumps",
+      playbook: "jumps/AGENTS-jumps.md",
+      going: "Good (Good to Soft in places)",
+      dataErrors: [],
+      races: [
+        {
+          time: "14:00",
+          name: "Southern Contract Novices' Handicap Chase",
+          type: "chase",
+          distance: "2m3f166y",
+          going: "Good (Good to Soft in places)",
+          runners: 10,
+          source: "full",
+          status: "pending",
+          grade: "pending",
+          errors: [],
+          winner: null,
+          notes: "Class 5 novices' handicap chase. Front-runner-biased track. Win Hiero Sport (prominent, proven 2m3f on Good, fit, low mark); EW Lunar Ocean (C&D form + 5lb claim + places 8/12, wins rarely); Danger Known Warrior (best mark but a hold-up type on a track that punishes closers). Jockey claims verified at source.",
+          writeup: "jumps/analyses/2026-11-02_plumpton/1400_novices-handicap-chase.md",
+          updated: "07:55 Mon 2 Nov",
+          picks: [
+            { role: "win", horse: "Hiero Sport", prob: 0.22, placeProb: 0.52, finish: "-", confidence: "medium",
+              reason: "Proven at 2m3f-2m4f on Good (2nd Market Rasen 2m3f last time off 82), prominent/makes-running style suits Plumpton's front-runner bias, fit (25d), improving off a low OR 82.",
+              against: "0-from-3 over fences and 'no extra final 110yds' when 2nd last time — may be a strong-travelling placer who finds little; a handicapper on the up can be caught by the weights." },
+            { role: "ew", horse: "Lunar Ocean", prob: 0.12, placeProb: 0.36, finish: "-", confidence: "medium",
+              reason: "Only runner with chase form over today's exact 2m3f166y at Plumpton (2nd, Mar); top-3 in 8 of 12 chases; bottom weight OR 79 + verified 5lb claim (eff 10-2); made-all winner.",
+              against: "Untrustworthy with recurring jumping errors, beaten favourite 5 times, and 162 days off — hard to win with, hence each-way; layoff and jumping risk cap the place chance." },
+            { role: "danger", horse: "Known Warrior", prob: 0.18, placeProb: 0.48, finish: "-", confidence: "medium",
+              reason: "Best-handicapped on form (OR 99), 2nd at Plumpton in Feb, fit (12d); but 0/10, a hold-up one-pacer on a front-runner track who unseated (early mistake) on his comeback — chief threat rather than likely winner." }
+          ]
+        }
+      ]
     }
   ]
 });
