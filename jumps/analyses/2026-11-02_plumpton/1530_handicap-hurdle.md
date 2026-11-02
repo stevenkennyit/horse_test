@@ -77,3 +77,21 @@ Done before the off; selections unchanged, two win-probabilities refined. What t
 - **Uncle Remus read, grounded:** his profile in-running reads "made all … clear last, stayed on well" (Font 15 Oct) and "left in lead … clear last, stayed on well" (Utto 15 Sep) — a genuine, staying front-runner, the ideal profile for this track; and his jockey **Brendan Powell is Knight's assistant trainer** (stable's own rider) — a positive. **But** his mark has risen 13lb in two months (84→97) to a career high, and off 89-93 earlier this year he finished midfield (8th/9th/5th), so 97 is above his proven competitive level and is **untested, as is the track**. That real doubt is why I **narrowed the Win**: Uncle Remus 0.30→**0.27**, and lifted proven C&D winner Goodwin Face 0.18→**0.22** (he ran right up to his 112 mark when a close 2nd last time and his own Plumpton record disproves the hold-up worry). The two are genuinely close; Uncle Remus stays the Win on race-shape/pace edge and form, at medium confidence.
 - **Still unverified:** the exact "8 wins + 9 placed / last 24" Knight stable figure (ATR/SL trainer pages errored); ATR Smart Stats and course-guide running-style table (all bot/CSP-blocked); RP cross-checks (anti-bot). None is load-bearing — the verified horse-level form and in-running carry the picks.
 - **Non-runners / going re-checked 07:32:** still 7 runners, going Good (Good to Soft in places), dry. Re-check nearer the off.
+
+## Update 12:22 Mon 02 Nov — Goodwin Face WITHDRAWN (non-runner); picks revised before the off
+Re-checking the card at 12:22, **Goodwin Face (No.1, top weight) is now a NON-RUNNER** (Sporting Life card status NONRUNNER, ride_count 6). Going unchanged: Good (Good to Soft in places). **Field now 6 runners → still 2 each-way places, quarter the odds.**
+
+Goodwin Face was my Danger (0.22). His withdrawal matters two ways: (1) it removes the field's other proven Plumpton C&D winner, which **promotes Birthday Angel to the sole proven course-and-distance winner** in the race; (2) he was a hold-up horse, so his exit does not dent Uncle Remus's front-running advantage — Uncle Remus is even more clearly the likely lone leader. Revised, before the off:
+
+| Role | Horse | Win prob | Place prob | Fair price | Confidence |
+|---|---|---|---|---|---|
+| **WIN** | **Uncle Remus** | 0.30 | 0.58 | ~7/3 | medium |
+| **EACH-WAY** | **Birthday Angel** | 0.22 | 0.52 | ~7/2 | medium |
+| **DANGER** | **Soul Limbo** | 0.15 | 0.42 | ~11/2 | low–medium |
+
+Revised field win probabilities (6 runners, sum ~1.00): Uncle Remus 0.30, Birthday Angel 0.22, Soul Limbo 0.15, One Island 0.13, Thankyouandplease 0.11, Cayman Dancer 0.09. Win held highest by Uncle Remus.
+
+- **WIN unchanged — Uncle Remus:** likely lone leader on a front-runner-biased track, red-hot (won 2 of last 3), bottom weight 11-1. Against: 13lb rise in two months to a career-high 97 above his proven level, untried at a stiffer/sharper track. (Full rationale above.)
+- **EACH-WAY now Birthday Angel (was my EW already; strengthened):** with Goodwin Face out she is the **only remaining proven Plumpton C&D winner** (won 1m7f195y here Nov 2025 — **verified**), arriving in winning form (career best last time — **verified**), recent hurdle rounds clean. Genuine each-way value likely let go at a price because she is up 7lb and up in grade. Against: comes from midfield (slight track-bias negative, though she has won here that way), 7lb higher than her last winning mark, exposed.
+- **DANGER now Soul Limbo (replaces Goodwin Face):** lightly-raced H Fry hurdler (5th hurdle start) on handicap debut off 108, fresh from a Flat pipe-opener — the unexposed improver who can also go forward; the race verdict's own top pick. The chief threat if the top two fail. Not top-picked because 108 is not obviously lenient (ran to ~108-111 at Stratford), he took keen hold and weakened there (keenness/stamina at 2m), has a fall in 4 hurdle starts and has never seen Plumpton.
+- **Freddie Mitchell's 3lb claim and no-WFA are both confirmed above** and unaffected by the withdrawal. Cayman Dancer (now ~11-11) remains opposed on hold-up style.

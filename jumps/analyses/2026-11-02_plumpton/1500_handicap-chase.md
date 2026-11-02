@@ -64,3 +64,41 @@ Unbeaten over fences (3-from-3, all 3m1f Newton Abbot, Good) and progressive, fr
 - Sporting Life declared racecard (race id 946565), with embedded per-runner run history, in-running/jumping comments, headgear, ratings and Timeform verdict: `https://www.sportinglife.com/racing/racecards/2026-11-02/plumpton/racecard/946565/kalm-club-handicap-chase-gbb-race`
 - Sporting Life full career profiles: Alien Storm `/racing/profiles/horse/1050796`; Ile De Jersey `/1050576`; Tommie Beau `/960505`; Rickety Bridge `/1121836`; Lord Accord `/101055`; Jubilant `/1139332`
 - Rickety Bridge key win result (Newton Abbot 12 Jun 2026): `https://www.sportinglife.com/racing/results/2026-06-12/newton-abbot/921948/st-austell-brewery-novices-limited-handicap-chase-gbb-race`
+
+## Update 12:25 (gap-fill pass)
+
+Gaps from the first write-up worked through at source; **selections unchanged (Win Jubilant / EW Tommie Beau / Danger Rickety Bridge)**, probabilities lightly refined.
+
+**Going re-checked 12:22 GMT** — Sporting Life going page: Plumpton "Good (Good to Soft in places)", weather Dry. Unchanged. 6 still declared (no non-runner flagged). *(verified)*
+
+**C&D / distance wins confirmed at the result pages (were asserted → now verified):**
+- **Jubilant** won the Plumpton handicap chase on 15 Dec 2025 at **exactly 3m1f157y** (Cl4, Good to Soft, 5 ran), off **OR119**, making/disputing the lead and going clear [verified: result race 893856].
+- **Tommie Beau** won the 3m1f152y Plumpton chase on 21 Mar 2023 (Cl3, 4 ran, off OR117) and 3 Apr 2022 (Cl4, 5 ran, off OR117) [verified: results 729579, 676623]. **Caveat now explicit:** both C&D wins were off **OR117; he is rated 129 today (+12lb)**, so the "proven C&D" line is genuine but off much lower, older marks. His relevant *current*-form mark is the Cartmel win off 127 in Aug (now 129, with a 5lb claim ≈ effective 124), which keeps the each-way case intact but modest.
+- **Rickety Bridge** wins confirmed off OR113 and 117 → **up 8lb to 125** today, beating small fields (4-4-5) [verified: results 921948, 919078].
+
+**Jubilant's chase record re-read in full — first write-up undersold it.** Career chase line is **8 runs, 3 wins, 3 thirds** (6 of 8 in the top three). His form concentrates at **3m–3m1f**: wins at Fontwell 3m1f (May 25), Southwell 2m7f (Jul 25) and this Plumpton C&D (Dec 25), plus thirds at 3m (Sep & Oct 25). His only poor chase runs are a 5th (Ascot 2m7f, bad mistake) and a 6th (Warwick **3m5f** — beyond his best trip). So "reverting from hurdles with thin chase form" overstates it: his underlying chase form at today's trip is solid, and the two hurdle runs since (PU in April, 3rd on his Oct return) were a reappearance/prep. Jumping is "not always fluent" but he completes and stays on. **This strengthens the Win.** *(verified from full profile)*
+
+**Trainer recent form verified (Sporting Life trainer profiles, 14-day window to 2 Nov):**
+- **James Owen (Jubilant): 12 wins from 50 runners in 14 days (~24%)** — "yard in great form" is now **verified**, not just Timeform's assertion. A clear positive. *(verified)*
+- P F Nicholls (Rickety Bridge): 3/20 last 14d, 4/29 30d — steady. J W Mullins (Tommie Beau): 2/8 14d (~25%) — in form. C E Longsdon (Alien Storm): 2/8 14d, 6/24 30d. N P Mulholland (Lord Accord): 3/15 14d. **N J Henderson (Ile De Jersey): 1/10 14d, 1/12 30d — quiet spell**, mild extra negative alongside the 324-day layoff. *(verified)*
+- Plumpton course-specific trainer strike-rates: not isolated (ATR Smart Stats stayed blocked; SL 50-run samples too short to split by course reliably). *(not found)*
+
+**Pace map (built from in-running comments; ATR/Geegeez pace tools stayed blocked):**
+- **Leaders / front-runners:** Jubilant ("disputed lead, led outright"), Tommie Beau ("Led"), Lord Accord ("led before 2nd" / "chased front pair, led") — **three want to be prominent, so a genuine/contested gallop is likely.**
+- **Handy presser:** Rickety Bridge ("headway to press leader", "went second") — set up to pounce if the pace rivals duel, which *supports his Danger billing*.
+- **Held up:** Alien Storm ("towards rear"), Ile De Jersey ("held up/midfield") — against the track bias.
+- Read-through: the contested lead is a mild caution on the front-runners collectively (Jubilant may not get an uncontested lead) but he has won here while only *disputing* the lead, so it is not disqualifying. It slightly helps Rickety Bridge.
+
+**Refined probabilities (Win still highest; field sums to 1.00; place probs to ~2.00 for 2 places):**
+
+| Role | Horse | Win prob | Place prob (top 2) | Fair price | Confidence |
+|---|---|---|---|---|---|
+| WIN | Jubilant | 0.33 | 0.54 | ~2/1 | medium |
+| EACH-WAY | Tommie Beau | 0.12 | 0.29 | ~7/1 | low |
+| DANGER | Rickety Bridge | 0.25 | 0.47 | ~3/1 | — |
+
+Others: Lord Accord 0.12, Ile De Jersey 0.10, Alien Storm 0.08.
+
+**Still unverified / residual gaps:** At The Races Smart Stats and Geegeez pace/fall-rate figures (both blocked on plain fetches) — pace map and front-runner bias corroborated from in-running comments instead; Plumpton-specific trainer strike-rates not isolated. Going/non-runners re-checked 12:22 GMT and should be glanced at once more nearer the off.
+
+**Additional source URLs (gap-fill):** result pages 893856 (Jubilant C&D), 729579 & 676623 (Tommie Beau C&D), 919078 (Rickety Bridge); Sporting Life trainer profiles james-owen/24161, p-f-nicholls/115, j-w-mullins/110, n-j-henderson/109; Sporting Life going page `/racing/going`.

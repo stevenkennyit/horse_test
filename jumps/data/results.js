@@ -743,6 +743,58 @@
           ]
         },
         {
+          time: "15:00",
+          name: "Kalm Club Handicap Chase (GBB Race)",
+          type: "chase",
+          distance: "3m1f157y",
+          going: "Good (Good to Soft in places)",
+          runners: 6,
+          source: "full",
+          status: "pending",
+          grade: "pending",
+          errors: [],
+          winner: null,
+          notes: "Class 3 handicap chase, 6-run (2 places). Front-runner-biased track; three want the lead (Jubilant, Tommie Beau, Lord Accord) so a contested gallop. Win Jubilant — won this exact 3m1f157y C&D off 119, solid 3m-3m1f chase form (3 wins+3 thirds/8), bottom weight +3lb claim, hot James Owen yard (12/50 in 14d). EW Tommie Beau. Danger Rickety Bridge. Fact-pack correction: Jubilant has NO headgear (card 'BF' = beaten favourite, not first-time blinkers). Going re-checked 12:22 GMT, unchanged.",
+          writeup: "jumps/analyses/2026-11-02_plumpton/1500_handicap-chase.md",
+          updated: "12:30 Mon 2 Nov",
+          picks: [
+            { role: "win", horse: "Jubilant", prob: 0.33, placeProb: 0.54, finish: "-", confidence: "medium",
+              reason: "Won this exact 3m1f157y Plumpton chase (off 119); solid underlying chase form at 3m-3m1f (3 wins + 3 thirds from 8); front-runner suiting the verified front-runner bias; bottom weight + 3lb claim near his winning mark; James Owen yard red-hot (12/50 in 14d).",
+              against: "Occasional jumping lapses ('bad mistake' Ascot, 'not fluent' Warwick); returns to fences after 2 hurdle runs and up to Class 3; may have to fight for the lead with two other front-runners." },
+            { role: "ew", horse: "Tommie Beau", prob: 0.12, placeProb: 0.29, finish: "-", confidence: "low",
+              reason: "Two-time C&D winner at this 3m1f Plumpton trip, front-runner suiting the bias, fit (15d) and in form (won Cartmel Aug off 127), 5lb claim -> eff ~11-4; a value place price the market likely downgrades for age/one bad round.",
+              against: "His two C&D wins were off OR117 and he is 129 today (+12lb); 11yo and 'let down by his jumping' last time on a sharp track — the place goes if he errs on the turns." },
+            { role: "danger", horse: "Rickety Bridge", prob: 0.25, placeProb: 0.47, finish: "-", confidence: "medium",
+              reason: "Unbeaten 3-from-3 over fences and progressive (Nicholls/Gingell), the handy presser set to pounce if the front pair duel — but up 8lb since last win, 143 days off, never seen Plumpton, and beat only small fields (4-4-5)." }
+          ]
+        },
+        {
+          time: "15:30",
+          name: "Southern Access Platforms Handicap Hurdle",
+          type: "hurdle",
+          distance: "1m7f207y",
+          going: "Good (Good to Soft in places)",
+          runners: 6,
+          source: "full",
+          status: "pending",
+          grade: "pending",
+          errors: [],
+          winner: null,
+          notes: "Class 4 handicap hurdle, ~2m. NON-RUNNER: Goodwin Face (No.1, top weight) withdrawn 12:22. Field now 6 (2 places). Front-runner-biased track. Win Uncle Remus — likely lone leader, red-hot (won 2 of last 3), bottom weight 11-1; doubt is a 13lb rise in two months to a career-high 97 above his proven level and untried at a stiffer track. EW Birthday Angel now the sole remaining proven Plumpton C&D winner, in winning form. Danger switched Goodwin Face (NR) -> Soul Limbo. Mitchell's 3lb claim on Cayman Dancer verified; no WFA (handicap).",
+          writeup: "jumps/analyses/2026-11-02_plumpton/1530_handicap-hurdle.md",
+          updated: "12:35 Mon 2 Nov",
+          picks: [
+            { role: "win", horse: "Uncle Remus", prob: 0.30, placeProb: 0.58, finish: "-", confidence: "medium",
+              reason: "The likely lone leader (made all / clear last in his last two wins) on a corroborated front-runner-biased track, red-hot (won 2 of last 3), carrying bottom weight 11-1 (15lb below top), a proven stayer at the trip on the ground.",
+              against: "Handicapper has lifted him 13lb in two months to a career-high 97 that is above his proven level (off 89-93 earlier this year he ran 8th/9th/5th), up in class and never run at a stiffer, sharper track than his winning ones." },
+            { role: "ew", horse: "Birthday Angel", prob: 0.22, placeProb: 0.52, finish: "-", confidence: "medium",
+              reason: "With Goodwin Face out she is the sole remaining proven Plumpton C&D winner (won here Nov 2025), arriving in winning form (career best last time) with recent hurdle rounds clean — genuine each-way value likely let go at a price up in grade.",
+              against: "Up 7lb on her last winning mark and up to Class 4, an exposed 6yo with a Flat-mixed record who comes from midfield, so needs the race to set up for a finishing run on a front-runner track." },
+            { role: "danger", horse: "Soul Limbo", prob: 0.15, placeProb: 0.42, finish: "-", confidence: "low",
+              reason: "Unexposed H Fry hurdler (5th start) on handicap debut off 108, fresh from a Flat pipe-opener and able to go forward — the improver and verdict's top pick; not higher because 108 isn't clearly lenient, he took keen hold and weakened at Stratford, has a fall in 4 hurdle starts and has never seen Plumpton." }
+          ]
+        },
+        {
           time: "16:00",
           name: "Final Fence Open 30th November Handicap Hurdle",
           type: "hurdle",

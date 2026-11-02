@@ -7,7 +7,7 @@
 - **Distance:** 2m 4f 116y
 - **Going:** Good (Good to Soft in places) — Sporting Life going page / racecard, checked ~07:24 & 07:30 Mon 2 Nov. Re-check near the off.
 - **Field size:** 13 runners
-- **Non-runners:** none listed (checked ~07:30 Mon 2 Nov; race stage DORMANT)
+- **Non-runners:** **Kocktail Bleu (4) withdrawn** — confirmed 12:25 GMT (field now 12; see `## Update 12:25`). (None at ~07:30.)
 - **Course character:** tight, sharp, undulating left-handed ~1m circuit, short run-in, uphill finish. Front-runners / prominent racers favoured; hold-up horses struggle on the turns. [front-runner bias VERIFIED via fact pack/Geegeez; geometry ASSERTED]
 
 ## Analysis source
@@ -34,7 +34,7 @@
 
 | Horse | Jumping (completion/errors) | Stamina & ground | Weight / well-in? | Consistency / trend | Course & code form | Pace / course fit | Connections & fitness | Key doubt |
 |---|---|---|---|---|---|---|---|---|
-| **Kocktail Bleu** | 10 runs, 0 F/U/P; the odd minor error, fluent | Best at 2m (made all/"kept on well"); **tried 2m4f118y once — Soft, novice, held up: "weakened before last," 5th/9 btn 9L**; also "weakened final 110yds" at 2m3f & "weakened run in" at 1m7f216y. Good ground today | OR126, eff 11-7; **drops C1→C2** | Progressive: 2nd/1st/2nd/2nd/4th run; placed most starts | No Plumpton run; strong 2m–2m3f novice/hcp form | Disputes lead / prominent — suits sharp track; C Gordon 4/6 at Plumpton (last 50) | C Gordon (stable 1st string, Tom Cannon), 23d | **Recurring late-weakening beyond 2m; didn't stay his one 2m4f run** |
+| **Kocktail Bleu** *(NON-RUNNER — withdrawn, see `## Update 12:25`)* | 10 runs, 0 F/U/P; the odd minor error, fluent | Best at 2m (made all/"kept on well"); **tried 2m4f118y once — Soft, novice, held up: "weakened before last," 5th/9 btn 9L**; also "weakened final 110yds" at 2m3f & "weakened run in" at 1m7f216y. Good ground today | OR126, eff 11-7; **drops C1→C2** | Progressive: 2nd/1st/2nd/2nd/4th run; placed most starts | No Plumpton run; strong 2m–2m3f novice/hcp form | Disputes lead / prominent — suits sharp track; C Gordon 4/6 at Plumpton (last 50) | C Gordon (stable 1st string, Tom Cannon), 23d | **Recurring late-weakening beyond 2m; didn't stay his one 2m4f run** |
 | **Goodwin** | 18 hdl runs; 1 PU (2m7f, too far). Front-runs, occasional slow jump | **Proven 2m4f116y (won here, "kept on well")**; good ground ideal | OR121, **eff 10-11 = exact wt he won this grade here off 117** | Erratic/course-dependent but Plumpton figures 21113 | **C&D winner (a C2 here 17/11/25, made all)**, CD marker; followed a below-par Fontwell return with that course win last yr — same sequence now | Front-runner on front-runner track | C Gordon **(4/6 at Plumpton, yard 16%)**, F O'Brien 5lb, 18d, had a run ("needed it") | Beaten 10L on return; quirky/needs coaxing; flops away from Plumpton |
 | **Maldini Milano** | 5 hdl runs, 1 F (unseat 1st, hampered). Otherwise clean | Stays 2m4f (won here off pace); good ground | OR121 eff 10-11; **+8lb** on last course win (off 113) | Lightly raced, progressive: 2/2 at C&D | **Unbeaten at C&D (2m4f116y x2)** | Held-up/midfield — won here despite style | P F Nicholls **(yard 9/50 = 18%, 58% placed)**, P Hanlon 5lb, **210d off** | Big layoff + 8lb OR rise (but carries 7lb less than Apr win) into deeper company |
 | **Let Him B** | 15 hdl runs, no F/U; 1 poor chase run | Stays 2m4f (won Down Royal 2m4f, 2nd Roscommon 2m4f), good | OR113 eff 10-8; **+16lb** on last win (off 97) | Improving fast (84→97→113), 2 wins from last 7 | No Plumpton run; wins Irish C handicaps | Hold-up/closer — against the bias | C Byrnes (Irish raider, 1/2 here 2022), 22d, **1st-time tongue strap** | +16lb & big class/venue rise; closer on sharp track |
@@ -122,3 +122,20 @@ Worked through every gap, asserted and not-found item from the first pass and re
 5. **Pace map** self-built from in-running (ATR/Geegeez blocked) — four pace-forcers (Goodwin, Kocktail Bleu, Scorsese, Sixty Plus).
 
 **Selection change:** first-pass picks were WIN Kocktail Bleu (0.20) / EW Goodwin (0.15) / DANGER Maldini Milano (0.12). Because Kocktail Bleu's one run at the trip failed to stay and the pattern recurs, and because **Goodwin and Maldini Milano are both proven winners at this exact course and distance** — Goodwin a front-runner matching the track's dominant bias, in his identical winning seasonal sequence, from a yard 4/6 at Plumpton — the revised order is **WIN Goodwin (0.17) / EW Maldini Milano (0.13) / DANGER Kocktail Bleu (0.16).** Kocktail Bleu remains the chief threat (class/ability; good ground and a sharp track that rides short could override the stamina doubt), hence a high place probability and Danger status rather than dismissal.
+
+## Update 12:25 (Kocktail Bleu non-runner — authoritative current selections)
+Re-checked the card at **12:25 GMT** (≈2h to the off). **Kocktail Bleu (4) is a confirmed non-runner** (stable across two fresh cache-busted fetches; `ride_status: NONRUNNER`, field now **12**). Going unchanged: **Good (Good to Soft in places)**. No other withdrawals. Kocktail Bleu was the **Danger** in the gap-fill selections, so the picks are revised. Each-way places stay at **3** (12-runner handicap, 8+).
+
+**His withdrawal helps the Win (Goodwin):** one fewer lead-disputer (now 3 pace-forcers — Goodwin, Scorsese, Sixty Plus), an easier lead for a front-runner who needs it, and the field's clear class-horse removed. Goodwin's win chance rises; the rest redistributes across the field.
+
+| Role | Horse | Win prob | Place prob | Fair price | Confidence |
+|---|---|---|---|---|---|
+| **WIN** | Goodwin | 0.21 | 0.50 | ~9/2 | medium |
+| **EACH-WAY** | Maldini Milano | 0.15 | 0.47 | ~11/2 | medium |
+| **DANGER** | Let Him B | 0.10 | 0.40 | ~9/1 | — |
+
+- **WIN Goodwin** — proven C&D front-runner at exactly this trip/grade (won a C2 here over 2m4f116y off 117 carrying 10-11; today carries 10-11 after the 5lb claim), in his identical "below-par Fontwell return → Plumpton" winning sequence, yard 4/6 at Plumpton. Kocktail's exit leaves him an easier, less-contested lead. *Against:* course-dependent and beaten ~10L on a dismal return 18 days ago; must bounce back and get his own way up front.
+- **EACH-WAY Maldini Milano** — unbeaten at this exact C&D (2/2), carries 7lb less than his April course win despite +8lb OR, progressive Nicholls runner (18% / 58% placed); a longer price purely on a 210-day layoff, which is where the each-way value sits. *Against:* 210 days off and up in grade; if he needs the run a place is likelier than the win.
+- **DANGER Let Him B** — progressive Irish raider (84→97→113), proven at 2m4f, first-time tongue strap and shipped to Plumpton on connections' intent; the most likely improver to beat the top two. Not staked; a hold-up style against the bias and the 16lb rise are why he is the Danger, not the Win/EW.
+
+**Revised probability spread (12 runners, ≈1.0):** Goodwin 0.21, Maldini Milano 0.15, Let Him B 0.10, Stream Of Stars 0.09, Nardaran 0.08, Walk On High 0.08, Scorsese 0.07, Sixty Plus 0.07, Ike Sport 0.04, Range 0.03, Bandjo 0.03, Tonaghneave Well 0.02 (≈0.97). Win holds the highest chance; spread kept wide for a competitive 12-runner handicap.
