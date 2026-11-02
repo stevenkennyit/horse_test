@@ -101,3 +101,14 @@ Worked through every gap, asserted and not-found item from the first pass. What 
 - Tom Taggle Worcester chase (3rd, 2m4f, last run): https://www.racingpost.com/results/101/worcester/2026-10-12/929834
 - Hard Stare Ffos Las hurdle (3rd): https://www.sportinglife.com/racing/results/2026-05-20/ffos-las/917874/happy-1st-birthday-idris-novices-limited-handicap-hurdle
 - Could Be You Southwell hurdle (5th, 3m½f, last run): https://www.racingpost.com/results/61/southwell/2026-10-01/927453
+
+## Result (reviewed 16:35 Mon 2 Nov)
+
+**Winner: Could Be You (3/1) — our DANGER.** Made all, "always doing enough" — the only proven 3m stayer, exactly as billed.
+
+| Pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Tom Taggle | WIN | 3rd | 13/8F | Stamina doubt right — "lost position before 4 out"; forced as the only Win-eligible runner by the Step-13 cap |
+| Could Be You | DANGER | **1st** | 3/1 | Held — stayed and made all on a front-runner track |
+
+Hard Stare 2nd (9/4), Lancier tailed off. **Grade: mixed** — the winner came from our top two and for the stated reason (stamina), but the Win lost. No data error. Judgement note: the Step-13 chase-debut cap kept the actual winner off the Win even though he had point-to-point fence experience and was the sole proven stayer → see proposed **rule J**.

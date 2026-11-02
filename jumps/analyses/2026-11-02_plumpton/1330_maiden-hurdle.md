@@ -116,3 +116,15 @@ Remaining four share ~0.14 win (Vicomte Le Brave ~0.06; Chase The Status / Silve
 - Bold Step, Hexham hurdle debut result (2nd, not fluent 3 out, 2m4f): https://www.sportinglife.com/racing/results/2026-05-19/hexham/917600/northumberland-county-show-novices-hurdle-gbb-race
 - Le Cold Grey, Wincanton NH flat (2nd beaten 1L, made strong pace): https://www.sportinglife.com/racing/results/2026-03-05/wincanton/905842/gbim-open-nh-flat-race-gbb-race
 - Bailly's Comet, Newbury Goffs bumper (9th/20 btn ~9L, led then weakened): https://www.sportinglife.com/racing/results/2026-03-21/newbury/897773/goffs-hundred-grand-bumper-an-open-national-hunt-flat-race-gbb-race
+
+## Result (reviewed 16:35 Mon 2 Nov)
+
+**Winner: Bold Step (13/8) — our WIN. Our top three finished 1-2-3.**
+
+| Pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Bold Step | WIN | **1st** | 13/8 | Held — trip + hurdle experience beat the debutants; "stayed on well flat" despite the held-up worry |
+| Bailly's Comet | EW | 2nd | 5/4F | Held — class placed, as billed |
+| Le Cold Grey | DANGER | 3rd | 10/3 | Held — front-ran, headed before 2 out, "no extra run-in" |
+
+**Grade: held.** The one clean read of the card — the proven-at-trip, only experienced hurdler beat the unexposed debutants on a sharp track. Nothing to change.

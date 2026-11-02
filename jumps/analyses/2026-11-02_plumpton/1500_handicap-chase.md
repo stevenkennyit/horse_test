@@ -102,3 +102,15 @@ Others: Lord Accord 0.12, Ile De Jersey 0.10, Alien Storm 0.08.
 **Still unverified / residual gaps:** At The Races Smart Stats and Geegeez pace/fall-rate figures (both blocked on plain fetches) — pace map and front-runner bias corroborated from in-running comments instead; Plumpton-specific trainer strike-rates not isolated. Going/non-runners re-checked 12:22 GMT and should be glanced at once more nearer the off.
 
 **Additional source URLs (gap-fill):** result pages 893856 (Jubilant C&D), 729579 & 676623 (Tommie Beau C&D), 919078 (Rickety Bridge); Sporting Life trainer profiles james-owen/24161, p-f-nicholls/115, j-w-mullins/110, n-j-henderson/109; Sporting Life going page `/racing/going`.
+
+## Result (reviewed 16:35 Mon 2 Nov)
+
+**Winner: Alien Storm (6/1)** — the course specialist we downgraded on trip (rated 0.08); Ile De Jersey 2nd (13/2, rated 0.10, opposed on a 324-day layoff).
+
+| Pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Jubilant | WIN | 5th | 11/8F | "Dropped away" — the thin recent chase form / contested-lead doubt was right |
+| Tommie Beau | EW | PU | 6/1 | Jumping let him down, exactly as flagged ("let down by his jumping" last time) |
+| Rickety Bridge | DANGER | 3rd | 9/2 | Blundered 4 out, no impression — placed only |
+
+**Grade: failed.** Winner and runner-up were both our downgraded outsiders. Judgement errors: (1) a **4-time course winner** marked down to 0.08 on "never won beyond 2m3f" despite a 3m placing (Bangor 2nd) — absence-of-a-win treated as a stamina disproof, which Step 4 item 6 already warns against; and the tight, sharp track magnified his course mastery → proposed **rule K** (course form / pace edge on a sharp track) and a reminder of Step 4 item 6. (2) Ile De Jersey's 324-day layoff was over-weighted; she ran a strong 2nd fresh for a top yard.

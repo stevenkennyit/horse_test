@@ -125,3 +125,15 @@ Worked through every gap, asserted and not-found item. **No change to Win / Each
 - At The Races Smart Stats and a source pace map — ATR behind a bot challenge; pace map constructed independently instead.
 - Honeyball all-time chase-debut strike rate — not computable from the 50-run sample (both affected horses unselected regardless).
 - Final near-the-off going/non-runner re-check — for the coordinator.
+
+## Result (reviewed 16:35 Mon 2 Nov)
+
+**Winner: Walk In The West (7/1)** — an A J Honeyball **chase debutant** (rated 0.05); stablemate Kapability (also a chase debut) 2nd (7/1).
+
+| Pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Hiero Sport | WIN | 4th | 10/3 | "Weakened before 2 out" — the finds-little-late doubt was right |
+| Lunar Ocean | EW | 6th | 3/1F | Led, hit the 3rd, dropped away |
+| Known Warrior | DANGER | 7th | 10/1 | Tailed off — hold-up style on a front-runner track, as feared |
+
+Diamond Days fell, Georges Street PU; Onewayortother a late non-runner. **Grade: failed.** Judgement error: two A J Honeyball chase debutants (his chase strike-rate ~39% was explicitly recorded as "a mild caveat against ruling out his two chase debutants") were buried at 0.05 each and ran 1-2. The Step-13 cap limits a debutant from being the Win, not from carrying a realistic win/place probability → proposed **rule J**.

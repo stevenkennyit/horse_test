@@ -139,3 +139,15 @@ Re-checked the card at **12:25 GMT** (≈2h to the off). **Kocktail Bleu (4) is 
 - **DANGER Let Him B** — progressive Irish raider (84→97→113), proven at 2m4f, first-time tongue strap and shipped to Plumpton on connections' intent; the most likely improver to beat the top two. Not staked; a hold-up style against the bias and the 16lb rise are why he is the Danger, not the Win/EW.
 
 **Revised probability spread (12 runners, ≈1.0):** Goodwin 0.21, Maldini Milano 0.15, Let Him B 0.10, Stream Of Stars 0.09, Nardaran 0.08, Walk On High 0.08, Scorsese 0.07, Sixty Plus 0.07, Ike Sport 0.04, Range 0.03, Bandjo 0.03, Tonaghneave Well 0.02 (≈0.97). Win holds the highest chance; spread kept wide for a competitive 12-runner handicap.
+
+## Result (reviewed 16:35 Mon 2 Nov)
+
+**Winner: Ike Sport (22/1)** — a hold-up horse at a career-high mark we opposed on the front-runner bias (rated 0.04).
+
+| Pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Goodwin | WIN | 11th | 11/1 | "Led, dropped away tamely" — the course-dependent, must-bounce-back-from-a-10L-beating doubt was right |
+| Maldini Milano | EW | 2nd | 10/3 | Held — proven C&D stayer placed at a price; the value each-way call landed |
+| Let Him B | DANGER | 7th | 5/2F | Beaten favourite, never landed a blow |
+
+Range 3rd (14/1), Walk On High 4th. **Grade: mixed** — the EW placed at a price (a genuine success), the Win flopped as flagged, and the winner was a 22/1 outsider we reasonably opposed. Contributes to proposed **rule K** (the front-runner bias is not deterministic — a hold-up horse at a career-high mark still won).

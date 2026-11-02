@@ -91,3 +91,15 @@ Pre-off, first pass (race not yet recorded by the coordinator), so revised in pl
 - Racecard (field, weights, OR, headgear, verdict, per-horse commentary/insights): https://www.sportinglife.com/racing/racecards/2026-11-02/plumpton/racecard/946566/final-fence-open-30th-november-handicap-hurdle
 - Horse profiles (full career + in-running comments): Everyonesgame https://www.sportinglife.com/racing/profiles/horse/1047953 · The Boss Bear https://www.sportinglife.com/racing/profiles/horse/1180658 · Calme Olympien https://www.sportinglife.com/racing/profiles/horse/1152351 · Kandor https://www.sportinglife.com/racing/profiles/horse/1096611 · Keno Black https://www.sportinglife.com/racing/profiles/horse/1184707 · Low Expectations https://www.sportinglife.com/racing/profiles/horse/1160176 · Coastal Command https://www.sportinglife.com/racing/profiles/horse/1184162
 - Going: https://www.sportinglife.com/racing/going
+
+## Result (reviewed 16:35 Mon 2 Nov — PROVISIONAL, in-running not yet published)
+
+**Winner: Keno Black (9/4)** — rated 0.09 (we opposed on a fall last time + 220 days off).
+
+| Pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Everyonesgame | WIN | 2nd | 25/1 | Ran far above its market price into 2nd — the C&D case had merit, but a win bet needs the win |
+| Low Expectations | EW | 3rd | 4/1 | Outside the 2 places (7 runners) — EW loses |
+| The Boss Bear | DANGER | 4th | 15/8F | Beaten favourite, never landed a blow |
+
+Coastal Command PU. **Grade: failed (provisional).** Winner outside our three. Note the Win out-ran a 25/1 SP into 2nd — our read that Everyonesgame was a live player (C&D 2nd off today's mark) was partly vindicated, and the market strongly disagreed; but as a Win it needed to win. Re-read once in-running is published, and confirm the placing before finalising.

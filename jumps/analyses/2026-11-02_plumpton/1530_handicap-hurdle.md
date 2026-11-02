@@ -95,3 +95,15 @@ Revised field win probabilities (6 runners, sum ~1.00): Uncle Remus 0.30, Birthd
 - **EACH-WAY now Birthday Angel (was my EW already; strengthened):** with Goodwin Face out she is the **only remaining proven Plumpton C&D winner** (won 1m7f195y here Nov 2025 — **verified**), arriving in winning form (career best last time — **verified**), recent hurdle rounds clean. Genuine each-way value likely let go at a price because she is up 7lb and up in grade. Against: comes from midfield (slight track-bias negative, though she has won here that way), 7lb higher than her last winning mark, exposed.
 - **DANGER now Soul Limbo (replaces Goodwin Face):** lightly-raced H Fry hurdler (5th hurdle start) on handicap debut off 108, fresh from a Flat pipe-opener — the unexposed improver who can also go forward; the race verdict's own top pick. The chief threat if the top two fail. Not top-picked because 108 is not obviously lenient (ran to ~108-111 at Stratford), he took keen hold and weakened there (keenness/stamina at 2m), has a fall in 4 hurdle starts and has never seen Plumpton.
 - **Freddie Mitchell's 3lb claim and no-WFA are both confirmed above** and unaffected by the withdrawal. Cayman Dancer (now ~11-11) remains opposed on hold-up style.
+
+## Result (reviewed 16:35 Mon 2 Nov)
+
+**Winner: Cayman Dancer (7/1)** — the hold-up horse we explicitly opposed on the front-runner bias (rated 0.09).
+
+| Pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Uncle Remus | WIN | 4th | 7/4F | Led, "mistake and headed last, weakened final 110yds" — the 13lb-rise-to-career-high doubt was spot on |
+| Birthday Angel | EW | 6th (last) | 11/4 | "Dropped away before 2 out" — exposed and up in grade |
+| Soul Limbo | DANGER | 2nd | 7/2 | Ran to billing — the unexposed improver placed |
+
+**Grade: failed.** The lone-leader Win faded late and the opposed closer won. The clearest case of the day for proposed **rule K**: the Plumpton front-runner bias was leaned on to prop up a front-runner (Uncle Remus) above his proven mark, and used to oppose the actual winner, on good (not testing) ground where closers can get into it. The doubt on Uncle Remus was correctly stated — but he was still made the Win.
