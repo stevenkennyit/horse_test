@@ -157,7 +157,7 @@
   <div class="grid2">
     <section class="card">
       <h2>Pick score by race</h2>
-      <p class="desc">Win (as a win bet) + Each-Way (as an each-way bet) per race, at SP. A winner earns its odds; a Win that only places still loses. Bigger-priced results score more.</p>
+      <p class="desc">Win (a €1 win bet) + Each-Way (a €1 each-way bet = €2 staked, €1 win + €1 place) per race, at SP. A winner earns its odds; a Win that only places still loses; an unplaced each-way loses its full €2. Bigger-priced results score more.</p>
       <div class="legend"><span><i style="background:var(--pos)"></i>Profit</span><span><i style="background:var(--neg)"></i>Loss</span></div>
       <div id="chart-pl"></div>
     </section>
@@ -194,7 +194,7 @@
 
   <section class="card" style="margin-top:12px">
     <h2>Money won/lost (€)</h2>
-    <p class="desc">Running total of a €1 win bet on each Win pick and a €1 each-way bet on each Each-Way pick (the Danger is not staked), at SP. Each bar is the cumulative profit/loss up to that race. 1 point = €1.</p>
+    <p class="desc">Running total of a €1 win bet on each Win pick (€1 staked) and a €1 each-way bet on each Each-Way pick (€2 staked — €1 win + €1 place; the Danger is not staked), at SP. Each bar is the cumulative profit/loss up to that race. 1 point = €1.</p>
     <div class="legend"><span><i style="background:var(--pos)"></i>Profit</span><span><i style="background:var(--neg)"></i>Loss</span></div>
     <div id="chart-bankroll"></div>
   </section>
@@ -232,7 +232,7 @@
   <footer>
     Data: <code>jumps/data/results.js</code> and <code>flat/data/results.js</code>. Add each new meeting to the right file; the dashboard recalculates on reload. Playbook rule changes are logged in <code>data/changelog.js</code> and tracked under "Playbook changes".
     Selections are Win, Each-Way and Danger. "Placed" uses standard each-way places: 2 for 5–7 runners, 3 for 8+, 4 for handicaps of 16+, winner only under 5.
-    Pick score (at SP): the Win is scored as a 1pt win bet (wins → +odds, else −1); the Each-Way as a 1pt each-way bet (half win, half place; place pays a quarter of the odds in 5–7 runner races and handicaps of 12+, otherwise a fifth). The Danger is not staked. Fair price = 1 ÷ the agent's win chance.
+    Pick score (at SP): the Win is scored as a €1 win bet — €1 staked (wins → +odds, else −1); the Each-Way as a €1 each-way bet — €2 staked, €1 to win + €1 to place (winner → +odds + odds×place-fraction; placed not won → odds×place-fraction − 1; unplaced → −2; place pays a quarter of the odds in 5–7 runner races and handicaps of 12+, otherwise a fifth). So a full race stakes €1 + €2 = €3 when both are issued, and ROI uses the stake, not the number of bets. The Danger is not staked. Fair price = 1 ÷ the agent's win chance.
     Selection value is a separate diagnostic, not part of the pick score or the money won/lost: every named selection — the Danger included — is scored as the SP return of a 1pt bet (winner → full win odds, placer → the place fraction of the odds, unplaced → −1; win-only fields under 5 runners score the winner at full odds), to credit finding winners and big-priced placers whatever slot they were given. A win outranks a place at the same price, but a big-priced place can outrank a short-priced win. SP is unknown before the off, so it cannot be gamed at pick time.
     Legacy meetings (before 27 Oct 2026) had no explicit roles; the dashboard maps their rank 1 → Win, rank 2 → Each-Way, danger → Danger, so their scores are recalculated under the new model.
   </footer>
@@ -296,16 +296,20 @@
     const dec = toDec(p.sp); if (dec == null) return null;
     return String(p.finish) === "1" ? dec - 1 : -1;
   };
-  // Each-Way scored as an each-way bet (1pt total: half win, half place); win-only fields score it like a win
+  // Each-Way scored as a real €1 each-way bet = €1 to win + €1 to place = €2 staked (place-paying fields).
+  // Winner -> +odds (win part) + odds*pf (place part); placed but not won -> odds*pf - 1; unplaced -> -2.
+  // Win-only fields (<5 runners) have no place part, so it's a €1 win bet (1 unit): wins -> +odds, else -1.
   const ewScore = (r, p) => {
     if (!p || !p.sp || p.finish === "-") return null;
     const dec = toDec(p.sp); if (dec == null) return null;
     const odds = dec - 1, pf = placeFrac(r);
     if (pf === 0) return String(p.finish) === "1" ? odds : -1;
-    const winRet = String(p.finish) === "1" ? 0.5 * (1 + odds) : 0;
-    const placeRet = isPlaced(r, p) ? 0.5 * (1 + odds * pf) : 0;
-    return winRet + placeRet - 1;
+    const winPart = String(p.finish) === "1" ? odds : -1;
+    const placePart = isPlaced(r, p) ? odds * pf : -1;
+    return winPart + placePart;
   };
+  // units a 1pt bet stakes, for ROI: a win bet 1; an each-way bet 2 (1 in a win-only field, where it is win-only)
+  const ewStake = (r) => placeFrac(r) === 0 ? 1 : 2;
   // per-selection score by its role (null for danger / unstaked)
   const scoreOf = (r, p) => { const role = roleOf(p); return role === "win" ? winScore(r, p) : role === "ew" ? ewScore(r, p) : null; };
   // race score = Win + Each-Way
@@ -390,6 +394,7 @@
     const sumEw = settled.reduce((a, r) => a + (ewScore(r, ewPick(r)) || 0), 0);
     const nWin = settled.filter((r) => winScore(r, winPick(r)) != null).length;
     const nEw = settled.filter((r) => ewScore(r, ewPick(r)) != null).length;
+    const ewStakeTot = settled.reduce((a, r) => a + (ewScore(r, ewPick(r)) != null ? ewStake(r) : 0), 0);
     const stot = sumWin + sumEw;
     const fmt = (x) => (x > 0 ? "+" : "") + x.toFixed(1);
     const col = (x) => x >= 0 ? "pos-text" : "neg-text";
@@ -409,7 +414,7 @@
       { label: "Pick score", value: `<span class="${col(stot)}">${fmt(stot)}</span>`,
         detail: `win ${fmt(sumWin)} · e/w ${fmt(sumEw)}` },
       { label: "ROI: Win", value: `<span class="${col(sumWin)}">${roi(sumWin, nWin)}</span>`, detail: `${pts(sumWin)} on ${nWin}pt` },
-      { label: "ROI: Each-Way", value: `<span class="${col(sumEw)}">${roi(sumEw, nEw)}</span>`, detail: `${pts(sumEw)} on ${nEw}pt` },
+      { label: "ROI: Each-Way", value: `<span class="${col(sumEw)}">${roi(sumEw, ewStakeTot)}</span>`, detail: `${pts(sumEw)} on ${ewStakeTot}pt staked (${nEw} e/w)` },
       { label: "Selection value", value: `<span class="${col(sumMerit)}">${fmt(sumMerit)}</span>`,
         detail: `all picks each-way · ${meritWon} of ${meritAll.length} returned` }
     ];
