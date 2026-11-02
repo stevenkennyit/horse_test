@@ -201,7 +201,7 @@
 
   <section class="card" style="margin-top:12px">
     <h2>Selection value — big-price places</h2>
-    <p class="desc">Every named selection (Win, Each-Way <em>and</em> Danger) scored as a 1pt bet <em>to place</em> at SP: a placed pick returns a quarter/fifth of its odds, an unplaced one −1. It rewards finding a big-priced horse that runs into the frame, whichever slot it was given — a selection-value lens kept separate from the win/each-way bet P&L. Bars are the picks that placed, biggest first; hover for detail.</p>
+    <p class="desc">Every named selection (Win, Each-Way <em>and</em> Danger) scored as a 1pt bet <em>to place</em> at SP: a placed pick returns a quarter/fifth of its odds, an unplaced one −1. Always a fraction of the odds, so a big-priced placer in a competitive field outscores a short one — comparable across races. Win-only fields (under 5 runners) have no place market and are excluded; their win result counts in the bet P&L above. A selection-value lens kept separate from that P&L. Bars are the picks that placed, biggest first; hover for detail.</p>
     <div class="legend"><span><i style="background:var(--good)"></i>Big-price place (≥ +1.0)</span><span><i style="background:var(--series-1)"></i>Placed</span></div>
     <div id="chart-merit"></div>
   </section>
@@ -233,7 +233,7 @@
     Data: <code>jumps/data/results.js</code> and <code>flat/data/results.js</code>. Add each new meeting to the right file; the dashboard recalculates on reload. Playbook rule changes are logged in <code>data/changelog.js</code> and tracked under "Playbook changes".
     Selections are Win, Each-Way and Danger. "Placed" uses standard each-way places: 2 for 5–7 runners, 3 for 8+, 4 for handicaps of 16+, winner only under 5.
     Pick score (at SP): the Win is scored as a 1pt win bet (wins → +odds, else −1); the Each-Way as a 1pt each-way bet (half win, half place; place pays a quarter of the odds in 5–7 runner races and handicaps of 12+, otherwise a fifth). The Danger is not staked. Fair price = 1 ÷ the agent's win chance.
-    Selection value (place-merit) is a separate diagnostic, not part of the pick score or the money won/lost: every named selection — the Danger included — is scored as a 1pt bet to place at SP (placed → +odds × place fraction, unplaced → −1), to credit finding big-priced placers whatever slot they were given. SP is unknown before the off, so it cannot be gamed at pick time.
+    Selection value (place-merit) is a separate diagnostic, not part of the pick score or the money won/lost: every named selection — the Danger included — is scored as a 1pt bet to place at SP (placed → +odds × place fraction, unplaced → −1), to credit finding big-priced placers whatever slot they were given. It is always a fraction of the odds so it stays comparable across races; win-only fields under 5 runners have no place market and are excluded. SP is unknown before the off, so it cannot be gamed at pick time.
     Legacy meetings (before 27 Oct 2026) had no explicit roles; the dashboard maps their rank 1 → Win, rank 2 → Each-Way, danger → Danger, so their scores are recalculated under the new model.
   </footer>
 </div>
@@ -315,14 +315,16 @@
   };
   // place-merit: a SELECTION-VALUE lens, separate from the win/each-way bet P&L. Every named selection
   // (Win, Each-Way AND Danger) is scored as a 1pt bet TO PLACE at SP: placed -> +(odds x place fraction),
-  // unplaced -> -1; win-only fields (<5 runners) pay full win odds. It credits finding a big-priced horse
-  // that runs into the frame, whatever slot it was given. SP is unknown pre-off, so it can't be gamed at pick time.
+  // unplaced -> -1. It credits finding a big-priced horse that runs into the frame, whatever slot it was
+  // given, on a scale that is COMPARABLE across races (always a fraction of the odds). Win-only fields
+  // (<5 runners) have no place market, so they are excluded (null) rather than paid full win odds — their
+  // win result already counts in the win/each-way bet P&L. SP is unknown pre-off, so this can't be gamed at pick time.
   const placeMerit = (r, p) => {
     if (!p || !p.sp || p.finish === "-") return null;
+    const pf = placeFrac(r);
+    if (pf === 0) return null; // win-only field (<5 runners): no place market, excluded from the place lens
     const dec = toDec(p.sp); if (dec == null) return null;
-    const odds = dec - 1, pf = placeFrac(r);
-    if (pf === 0) return String(p.finish) === "1" ? odds : -1;
-    return isPlaced(r, p) ? odds * pf : -1;
+    return isPlaced(r, p) ? (dec - 1) * pf : -1;
   };
   const roleLabel = (p) => ({ win: "Win pick", ew: "Each-Way", danger: "Danger" }[roleOf(p)] || "Pick");
 
