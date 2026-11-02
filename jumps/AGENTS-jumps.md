@@ -247,15 +247,17 @@ The win probabilities across the field must be realistic: the three selections' 
 
 ### How the selections are scored
 
-After the race the Win and Each-Way earn points from the starting price (SP); the agent never sees the SP before the off. The Danger is not staked — it is scored only as coverage (was the winner one of the three?).
+After the race the Win and Each-Way earn points from the starting price (SP); the agent never sees the SP before the off. The Danger is not staked — it is scored only as coverage (was the winner one of the three?). **Stakes differ: a Win is a €1 win bet (€1 at risk); an Each-Way is a €1 each-way bet, which is €2 at risk — €1 to win and €1 to place.**
 
-| Selection | Scored as (per 1pt staked) |
+| Selection | Scored at SP |
 |---|---|
-| **Win** | a win bet: wins → +SP odds (10/11 → +0.9; 5/1 → +5; 16/1 → +16); anything else → −1. A Win that only places still loses. |
-| **Each-Way** | an each-way bet (half win / half place): **wins** → half the win odds **plus** the place return; **placed (not win)** → the place return, less the lost win half; **unplaced** → −1. Place fraction: a quarter of the odds in 5–7 runner races and handicaps of 12+, otherwise a fifth; win-only under 5 runners (the Each-Way then scores like a Win). |
+| **Win** | a €1 win bet (€1 staked): wins → +win odds (10/11 → +0.9; 5/1 → +5; 16/1 → +16); anything else → −1. A Win that only places still loses. |
+| **Each-Way** | a €1 each-way bet = **€2 staked** (€1 win + €1 place): **wins** → +win odds **plus** +(odds × place fraction); **placed, not won** → +(odds × place fraction) **− 1** (the lost win stake); **unplaced** → **−2**. Place fraction: a quarter of the odds in 5–7 runner races and handicaps of 12+, otherwise a fifth; win-only under 5 runners → a €1 win bet (€1 staked), scored like a Win. |
 | **Danger** | not staked; counts only toward the "winner in our three" coverage rate. |
 
 So a short-priced Win that obliges earns little, and a correctly-chosen big-priced Each-Way placer earns a lot — the score rewards finding winners and placers the market underrates. The **win skill is measured on the Win, the place/value skill on the Each-Way**; keeping them separate is the point of the two roles.
+
+**Two scoring intricacies to keep in mind.** (1) *An each-way bet costs twice a win bet.* Because €1 of it rides on the win, a **short-priced Each-Way that only places can still lose money** — the place return need not cover the lost win stake — another reason the Each-Way must be a genuinely longer-priced value pick, not a second favourite. (2) Separately, the dashboard tracks a **Selection value** diagnostic (not part of the staked score): every named pick, the Danger included, scored by the SP return of a single 1pt bet — full win odds if it won, the place fraction of the odds if it placed, −1 otherwise — to credit finding winners and big-priced placers whatever slot they were given. The footer of `dashboard.html` holds the authoritative, always-current definitions; keep this section in step with it.
 
 - **Outsider check (required).** Before choosing, write one line for every runner outside the provisional Win/Each-Way/Danger with the best evidence-based case for it: a form line hidden by a bad run, a weight or mark drop, a change of trip, ground, course or headgear, a pace setup that suits, a stable pattern. Promote any horse whose case beats a selection. This is the main engine for finding the Each-Way; record the check in the write-up.
 - **Don't choose on the obvious signals alone.** Top official rating, best recent form figures and the biggest stable or jockey are what the market prices hardest. A selection resting only on them can win and still score little; each reason must name evidence beyond them.
