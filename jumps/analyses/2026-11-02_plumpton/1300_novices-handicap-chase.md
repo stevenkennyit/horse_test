@@ -31,16 +31,15 @@
 
 | Horse | Jumping (completion / errors) | Stamina & ground | Weight / well-in? | Consistency (place / completion / trend) | Course & code form | Pace / course fit | Connections & fitness | Weak time note | Key doubt |
 |---|---|---|---|---|---|---|---|---|---|---|
-| **Tom Taggle** | **2/2 chase completions** (4th btn 1¾l Chepstow 2m7f; 3rd Worcester last time) — only proven fence-jumper in the race | Won 2m7f131y hurdle (15 ran); placed 2m7f twice. Chepstow chase: "weakened" after last at 2m7f → 3m1f unproven. Handles Good/GtS/Soft | 12-0 off 85 (joint-top); off 86 when 3rd last time. Fair, not well-in | 1 win / 12; last-6 F-3-7-4-3 — modest but 2 recent chase placings, race-fit | No Plumpton form found; 2 chase runs both completed | Ran midfield/prominent at Chepstow; no confirmed lead but can lie handy | Yard in form (asserted 44%); ran 21 days ago, race-sharp | times not used | 3m1f is 2½f beyond any win; weakened late at 2m7f |
+| **Tom Taggle** | **2/2 chase completions** (4th btn 1¾l Chepstow 2m7f; 3rd of 9 Worcester 2m4f last time) — only proven fence-jumper in the race | Won 2m7f131y hurdle (15 ran). Chepstow chase: "weakened" after last at 2m7f; 3m1f unproven. Handles Good/GtS/Soft | 12-0 off 85 (joint-top); off 86 when 3rd last time. Fair, not well-in | 1 win / 12; last-6 F-3-7-4-3, but Worcester 3rd was btn ~18–20l, RPR 76 — sub-par. Race-fit (21d) | No Plumpton form found; 2 chase runs both completed | Ran midfield at Chepstow; no confirmed lead but can lie handy | Williams yard (asserted 44%); ran 21 days ago, race-sharp | times not used | 3m1f beyond any win; weakened late at 2m7f; poor last run |
 | **Hard Stare** | Chase debut — no fence experience; hurdle run last time "made a mistake" 2 out | Best form 2m7f (two 3rds), but at Ffos Las "weakened 2 out" btn 6½l → stamina at 3m1f a stretch. Good/GtS fine | 12-0 off 85 chase debut vs 86-88 hurdle marks — a touch lenient but never won | 3 thirds / 7; 0 wins; placed in competitive 8-runner hcp hurdles off 86-88 — best raw ability | No Plumpton or chase form | **Held-up style** — a negative at front-runner-biased Plumpton | Honeyball (asserted 38%); **166 days off** + chase debut = double unknown | times not used | Chase debut + 166d + hold-up at sharp track + weakened at 2m7f |
 | **Could Be You** | Chase debut (Rules); **placed both Irish point starts** (fences experience); 1 fall + 2 PUs over hurdles | **Only proven 3m stayer** (5th of 8, 3m, Good, last month off 76). PU on heavy/soft; wants good | 11-4 off 75 — receives 10lb; mark dropped 83→75. Weight/mark angle live | 1 top-3 / last 8; F, PU, PU in the book — weak, erratic | No Plumpton form; no Rules chase form | Style unconfirmed; stamina suits a 3m1f test | Mulholland (asserted 33%); 32 days off; switched from R Potter mid-season | times not used | Thin ability (OR 75, no winning form at level); jumping unproven under Rules |
 | **Lancier Des Obeaux** | Chase debut — no fence experience | Max 2m4f; "bred to stay" per SL (asserted) — unproven beyond 2m4f | 10-11 off 68 — bottom weight, receives 17lb from top | "Little form" in 4 hurdle starts + well-held bumper; no top-3 | No Plumpton/chase form | Style unconfirmed | Horsfall (asserted 25%); **~6 months off** + chase debut | times not used | No form, long layoff, chase debut, stamina unproven at 3m1f |
 
-## Outsider check (Step 15) — one line for every runner outside the Win
+## Outsider check (Step 15) — one line for every runner outside the Win and Danger
 
-- **Hard Stare (Danger):** most raw ability (placed off 86-88 in 8-runner handicap hurdles) and a yard that improves chasers; case against — chase debut, 166 days off, a confirmed hold-up style into Plumpton's front-runner bias, and he weakened 2-out over 2m7f, so 3m1f and the fences are a double question. Chief threat on talent, not made the Win because of the debut cap and the doubt stack.
-- **Could Be You:** the only proven 3m stayer and the only one with fence (point-to-point) experience, 10lb well-in on a dropping mark — the specific horse that profits if the race becomes a stamina slog and Tom Taggle fails to get 3m1f; case against — OR 75 with no winning form at this level, a fall and two pull-ups in the book, Rules-chase jumping unproven. Noted as the proven-stayer outsider; not promoted over Hard Stare on ability.
-- **Lancier Des Obeaux:** lightly raced 5yo on bottom weight (10-11, −17lb) who could be the "positive unknown," and is bred to appreciate the trip; case against — no form to speak of, ~6 months off and a chase debut with no fence experience and no proof of stamina beyond 2m4f. Not promoted.
+- **Hard Stare:** the most able of the three chase debutants (OR 85 v 75 v 68; placed, two 3rds, off 86-88 in 8-runner handicap hurdles — a shade ahead of Tom Taggle's own 88 hurdle mark) and a Honeyball yard that improves chasers — he would be the Danger on class alone; case against — chase debut with no fence experience, **166 days off**, a confirmed hold-up style ("held up… made a mistake and weakened two out" at Ffos Las, *verified*) into Plumpton's strong front-runner bias, and he weakened 2-out over 2m7f, so stamina at 3m1f and the fences are a double question. Sits level with Could Be You on win chance (0.22 v 0.24) and is explicitly flagged as a near-equal threat; not the Danger only because his profile fights the track and trip.
+- **Lancier Des Obeaux:** lightly raced 5yo on bottom weight (10-11, −17lb from top) who could be a "positive unknown," by Clovis Du Berlais so bred to appreciate the trip; case against — best finish is 6th in five starts (one bumper, four hurdles, three of them on soft/heavy), **195 days off** (last ran Ffos Las 21 Apr), a chase debut with no fence experience, and no proof of stamina beyond 2m4f (where he was well held). Not promoted.
 
 ## Selections (revised after gap-filling pass — see Update section below)
 
@@ -62,14 +61,36 @@ The chief threat, and the horse whose profile most directly attacks the Win's we
 
 **Why not the Win / case against:** chase debut under Rules caps him from top pick (Step 13), and his ability is thin — OR 75, no win at this level, with a fall (Worcester, 19 Aug) and two pull-ups (both under his former trainer on soft/heavy) in the recent book. His Rules-chase jumping is unproven and the points placings are not verified at source. **Hard Stare (0.22) is a near-equal threat on class** — better hurdle form off 85-88 and a yard that improves chasers — and would be the Danger on raw ability; Could Be You edges the role only because his stamina and fence experience fit this specific 3m1f test better and Hard Stare's hold-up style sits badly with Plumpton's front-runner bias.
 
-## Unverified items / data gaps (first pass)
+## Unverified items / data gaps (after gap-filling pass)
 
-- **In-running not yet read** for: Tom Taggle's last run (Worcester 3rd of 9, 12 Oct — SL profile only; distance listed as 2m4f on SL but the ATR card shows that day's chases at 2m7f/2m110y, a discrepancy to resolve); Hard Stare's Taunton 3rd (9 Mar); Could Be You's Southwell 3m 5th and his fall (Worcester 19 Aug) and pull-ups; Tom Taggle's hurdle fall (Chepstow 5 Nov 25); Lancier Des Obeaux's hurdle/bumper runs.
-- **Days-off for Lancier Des Obeaux** (~6 months) is approximate — exact last-run date not confirmed.
-- **Trainer strike rates** (38/44/33/25%) are the RP card brackets, basis unconfirmed — asserted.
-- **Plumpton pace map / confirmed front-runner** not established — no runner has a clear recent "made all" line; pace treated as neutral with the course's front-runner bias noted.
-- **Could Be You's Irish point-to-point placings** taken from the SL profile commentary — not read at source.
-- **Beaten distances** missing from several profile rows; where used (Chepstow 1¾l, Ffos Las 6½l) they are from result pages.
+Still not verified at source:
+- **Trainer strike-rate brackets and first-time-chaser records** (Honeyball/Williams/Mulholland/Horsfall) — At The Races Smart Stats and ATR form pages all returned a bot-check/error; reported as *asserted* (RP card: 38/44/33/25%), not relied on.
+- **Could Be You's two Irish point-to-point placings** — Sporting Life profile commentary only; ATR/point result pages would not load. Asserted.
+- **Hard Stare's Taunton 3rd (9 Mar) in-running** — figure from the SL profile; result page not located. His more relevant Ffos Las 3rd was read in full.
+- **Tom Taggle's hurdle fall (Chepstow, 5 Nov 25) in-running** — not read; non-load-bearing.
+- **Could Be You's fall (Worcester, 19 Aug) and two pull-ups (Chepstow 27 Dec, Leicester 20 Jan) in-running** — not read at source; dates, going (two PUs on soft/heavy, under former trainer R Potter) and the fall taken from the SL profile. Used only as a weak-ability caveat in the case against the Danger, not as a jumping verdict.
+- **Lancier Des Obeaux's days-off (195)** computed from the SL profile's last-run date (21 Apr); exact but profile-derived.
+- **Plumpton pace map / confirmed front-runner** — no runner has a clear recent "made all" line; pace treated as neutral with the course's front-runner bias noted (which counts against hold-up Hard Stare).
+
+Now verified (were gaps first pass):
+- Tom Taggle Worcester last run = 2m4f, 3rd of 9 beaten ~18–20l, RPR 76 (RP 929834).
+- Tom Taggle Chepstow chase = 4th btn 1¾l, weakened after last (SL/RP result).
+- Could Be You Southwell = 5th of 8 over 3m½f, btn 5¼l, RPR 72 (RP 927453) — stays 3m.
+- Lancier Des Obeaux full profile (5 runs, best 6th, max 2m4f, 195 days off).
+
+## Update 07:40 — gap-filling pass
+
+Worked through every gap, asserted and not-found item from the first pass. What changed:
+
+1. **Tom Taggle's last run (Worcester, 12 Oct) — distance resolved and in-running/figures read.** It was the 13:37 **Richard Davis Memorial Handicap Chase over 2m4f** (not 2m7f; the ATR 14:07 2m7f race was a different event). Result read in full (RP 929834): **3rd of 9, but beaten ~18–20l off 11-2/OR 86, RPR only 76**, in a race with two pull-ups where seven completed. So his "3rd last time" was a well-held, sub-par effort, not a competitive one — a material downgrade to the Win's recent-form case. No prose in-running on the RP result, but the RPR and beaten distance are decisive enough.
+2. **Tom Taggle's Chepstow chase (2m7f) in-running — confirmed** (already read first pass): midfield, ridden 3 out, chased leaders 2 out, "outpaced by the leading trio after the last and weakened" — 4th btn 1¾l. Grounds the stamina doubt at the crux: he was there to the last at 2m7f then emptied. Combined with (1), the 3m1f stamina question is real; the Win rests on jumping/experience, not stamina.
+3. **Could Be You's Southwell 3m run — read in full** (RP 927453): **5th of 8 over 3m½f, beaten 5¼l, within 1l of 4th, off 76, RPR 72**, Good ground, behind an Olly Murphy 5/4 favourite. Genuine, recent proof he stays 3m on good — the field's only proven 3m stayer. This promoted him from outsider to **Danger**.
+4. **Lancier Des Obeaux — full profile read.** 5 runs (bumper 6th of 6; four hurdles, best 6th, three on soft/heavy), never beyond 2m4f (well held there), **195 days off**, by Clovis Du Berlais. Confirms outsider status; stamina at 3m1f unproven.
+5. **Could Be You's Irish point placings** — still only the Sporting Life profile commentary ("placed both starts in Irish points"); At The Races and point-to-point result pages would not load (bot check), so this remains *asserted*, not verified at source. Treated as supporting (fence experience), not decisive.
+6. **Trainer strike-rate brackets and chase-debut records — NOT verified.** At The Races Smart Stats and the ATR horse-form/profile pages all returned a bot-check/error on every attempt, so Honeyball/Williams/Mulholland/Horsfall course and first-time-chaser records could not be confirmed at source. The RP card brackets (38/44/33/25%) are reported as *asserted* only and are not relied on in the ranking.
+7. **Not re-read:** Hard Stare's Taunton 3rd (9 Mar) in-running (figure from profile; result page not located) and Tom Taggle's hurdle fall (Chepstow, 5 Nov 25) — both secondary and not load-bearing; his Ffos Las 3rd was read in full and establishes his hold-up/late-weakening pattern.
+
+**Selections after the pass:** Win **Tom Taggle** trimmed to **0.37** (medium-low) on the weaker recent form and the grounded stamina doubt; **Could Be You promoted to Danger (0.24)** as the only proven 3m stayer with fence experience and 10lb in hand; **Hard Stare (0.22)** drops to the outsider check as a near-equal threat on class whose hold-up style and layoff fight the track and trip; Lancier 0.17. Field sums to 1.00; the Win still holds the highest chance. The Win did not change despite the downgrade because the Step 13 chase-debut cap leaves Tom Taggle the only Win-eligible runner.
 
 ## Sources
 
@@ -77,4 +98,6 @@ The chief threat, and the horse whose profile most directly attacks the Win's we
 - Sporting Life racecard: https://www.sportinglife.com/racing/racecards/2026-11-02/plumpton/racecard/946567/richard-soan-roofing-services-novices-handicap-chase
 - Profiles: sportinglife.com/racing/profiles/horse/1171912 (Hard Stare), 1132532 (Tom Taggle), 1208719 (Could Be You), 1209542 (Lancier Des Obeaux)
 - Tom Taggle Chepstow chase (4th): https://www.sportinglife.com/racing/results/2026-03-26/chepstow/909104/glidevale-protect-handicap-chase
+- Tom Taggle Worcester chase (3rd, 2m4f, last run): https://www.racingpost.com/results/101/worcester/2026-10-12/929834
 - Hard Stare Ffos Las hurdle (3rd): https://www.sportinglife.com/racing/results/2026-05-20/ffos-las/917874/happy-1st-birthday-idris-novices-limited-handicap-hurdle
+- Could Be You Southwell hurdle (5th, 3m½f, last run): https://www.racingpost.com/results/61/southwell/2026-10-01/927453
