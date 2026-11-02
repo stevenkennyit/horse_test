@@ -743,6 +743,32 @@
           ]
         },
         {
+          time: "14:30",
+          name: "Southern Cranes Handicap Hurdle (GBB Race)",
+          type: "hurdle",
+          distance: "2m4f116y",
+          going: "Good (Good to Soft in places)",
+          runners: 12,
+          source: "full",
+          status: "pending",
+          grade: "pending",
+          errors: [],
+          winner: null,
+          notes: "Class 2 handicap hurdle (feature). NON-RUNNER: Kocktail Bleu (4) withdrawn 12:25 — field 12 (3 places). Data note: my fact-pack 'Range first-time cheekpieces' was a mis-map — Range wears no headgear today; the cheekpieces belong to Nardaran (established). Front-runner-biased track. Win Goodwin, proven C&D front-runner. EW Maldini Milano unbeaten 2/2 at the exact C&D. Danger Let Him B. Trainer strike-rates verified at source; ATR/Geegeez bot-blocked (pace map self-built). Also corrected a first-pass data error: Kocktail Bleu was wrongly called 2m4f-untried (he ran the trip once and weakened).",
+          writeup: "jumps/analyses/2026-11-02_plumpton/1430_handicap-hurdle.md",
+          updated: "12:40 Mon 2 Nov",
+          picks: [
+            { role: "win", horse: "Goodwin", prob: 0.21, placeProb: 0.50, finish: "-", confidence: "medium",
+              reason: "Proven C&D front-runner — won a Class 2 here over this exact 2m4f116y off OR117 carrying 10-11 (made all); today OR121 but the 5lb claim brings him back to 10-11; in his identical 'below-par Fontwell return -> Plumpton win' seasonal pattern; C Gordon 4/6 at Plumpton; Kocktail Bleu's exit eases his lead.",
+              against: "Course-dependent form — beaten ~10L (last of 5) on a dismal return 18 days ago and tailed off away from Plumpton; quirky, and must get his own way up front against two other pace-forcers." },
+            { role: "ew", horse: "Maldini Milano", prob: 0.15, placeProb: 0.47, finish: "-", confidence: "medium",
+              reason: "Unbeaten at this exact course and distance (2/2) and carries 7lb less actual weight than his April course win despite +8lb OR (10-11 after the claim); progressive Nicholls runner (yard 18%, 58% placed) — a longer price purely on the 210-day layoff, which is where the each-way value sits.",
+              against: "210 days off (first run of the season) and up in grade into a deeper Class 2, and he wins here from off the pace — slightly against the bias; if he needs the run a place is likelier than the win." },
+            { role: "danger", horse: "Let Him B", prob: 0.10, placeProb: 0.40, finish: "-", confidence: "low",
+              reason: "Progressive Irish raider (OR 84->95->97->113), proven at 2m4f, first-time tongue strap, shipped to Plumpton on connections' intent — the most likely improver to beat the top two; not staked because he is +16lb on his last win and a hold-up closer against the front-runner bias." }
+          ]
+        },
+        {
           time: "15:00",
           name: "Kalm Club Handicap Chase (GBB Race)",
           type: "chase",
