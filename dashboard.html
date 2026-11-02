@@ -200,8 +200,8 @@
   </section>
 
   <section class="card" style="margin-top:12px">
-    <h2>Selection value — every pick each-way</h2>
-    <p class="desc">Every named selection (Win, Each-Way <em>and</em> Danger) scored as a 1pt <em>each-way</em> bet at SP: a winner returns the win half plus the place half (so winning beats placing), a placer returns the place half, an unplaced pick −1. Price-weighted, so it rewards finding winners and big-priced horses that make the frame, whichever slot they were given. Win-only fields (under 5 runners) score as a win bet. A selection-quality lens, separate from the staked pick-score (which backs the Win to win and only the Each-Way each-way). Bars are the picks that returned, biggest first; hover for detail.</p>
+    <h2>Selection value — win or place return</h2>
+    <p class="desc">Every named selection (Win, Each-Way <em>and</em> Danger) scored as the SP return of a 1pt bet: a <strong>winner</strong> returns its full win odds, a <strong>placer</strong> returns the place fraction of the odds (¼ for 2-place races and 12+ runner handicaps, else ⅕), anything else −1. So a win outranks a place at the same price, but a big-priced place can outrank a short-priced win (25/1 placed = +6.25 beats 9/2 won = +4.50). Win-only fields (under 5 runners) score the winner at full odds. A selection-quality lens, separate from the staked pick-score. Bars are the picks that returned, biggest first; hover for detail.</p>
     <div class="legend"><span><i style="background:var(--good)"></i>Won</span><span><i style="background:var(--series-1)"></i>Placed</span></div>
     <div id="chart-merit"></div>
   </section>
@@ -233,7 +233,7 @@
     Data: <code>jumps/data/results.js</code> and <code>flat/data/results.js</code>. Add each new meeting to the right file; the dashboard recalculates on reload. Playbook rule changes are logged in <code>data/changelog.js</code> and tracked under "Playbook changes".
     Selections are Win, Each-Way and Danger. "Placed" uses standard each-way places: 2 for 5–7 runners, 3 for 8+, 4 for handicaps of 16+, winner only under 5.
     Pick score (at SP): the Win is scored as a 1pt win bet (wins → +odds, else −1); the Each-Way as a 1pt each-way bet (half win, half place; place pays a quarter of the odds in 5–7 runner races and handicaps of 12+, otherwise a fifth). The Danger is not staked. Fair price = 1 ÷ the agent's win chance.
-    Selection value is a separate diagnostic, not part of the pick score or the money won/lost: every named selection — the Danger included — is scored as a 1pt each-way bet at SP (winner → win half + place half, placer → place half − lost win half, unplaced → −1; win-only fields under 5 runners score as a win bet), to credit finding winners and big-priced placers whatever slot they were given. SP is unknown before the off, so it cannot be gamed at pick time.
+    Selection value is a separate diagnostic, not part of the pick score or the money won/lost: every named selection — the Danger included — is scored as the SP return of a 1pt bet (winner → full win odds, placer → the place fraction of the odds, unplaced → −1; win-only fields under 5 runners score the winner at full odds), to credit finding winners and big-priced placers whatever slot they were given. A win outranks a place at the same price, but a big-priced place can outrank a short-priced win. SP is unknown before the off, so it cannot be gamed at pick time.
     Legacy meetings (before 27 Oct 2026) had no explicit roles; the dashboard maps their rank 1 → Win, rank 2 → Each-Way, danger → Danger, so their scores are recalculated under the new model.
   </footer>
 </div>
@@ -313,13 +313,20 @@
     const parts = [winScore(r, winPick(r)), ewScore(r, ewPick(r))].filter((x) => x != null);
     return parts.length ? parts.reduce((a, x) => a + x, 0) : null;
   };
-  // selection value: a SELECTION-QUALITY lens, separate from the staked pick-score. EVERY named selection
-  // (Win, Each-Way AND Danger) is scored as a 1pt EACH-WAY bet at SP (reusing ewScore): a winner returns the
-  // win half + the place half (so winning beats placing), a placer returns the place half less the lost win
-  // half, an unplaced pick -1; win-only fields (<5 runners) score as a win bet. It rewards finding winners AND
-  // big-priced horses that make the frame, whatever slot they were given. SP is unknown pre-off, so it cannot be
-  // gamed at pick time. Place fractions follow UK terms: 1/4 for 2-place races and 12+ runner handicaps, else 1/5.
-  const selMerit = (r, p) => ewScore(r, p);
+  // selection value: a SELECTION-QUALITY lens, separate from the staked pick-score. Each named selection
+  // (Win, Each-Way AND Danger) is scored as the SP return of a 1pt bet: a WINNER returns FULL win odds; a
+  // PLACER (not the winner) returns the PLACE FRACTION of the odds (1/4 for 2-place races and 12+ runner
+  // handicaps, else 1/5); anything else -1. So a win outranks a place at the same price, but a big-priced
+  // place can outrank a short-priced win (25/1 placed at 1/4 = +6.25 beats 9/2 won = +4.50). Win-only fields
+  // (<5 runners) score the winner at full odds, else -1. SP is unknown pre-off, so it can't be gamed at pick time.
+  const selMerit = (r, p) => {
+    if (!p || !p.sp || p.finish === "-") return null;
+    const dec = toDec(p.sp); if (dec == null) return null;
+    const odds = dec - 1, pf = placeFrac(r);
+    if (String(p.finish) === "1") return odds;        // won: full win odds
+    if (pf === 0) return -1;                           // win-only field, didn't win
+    return isPlaced(r, p) ? odds * pf : -1;            // placed: place fraction of the odds; else -1
+  };
   const roleLabel = (p) => ({ win: "Win pick", ew: "Each-Way", danger: "Danger" }[roleOf(p)] || "Pick");
 
   // ---- filters ----
@@ -630,7 +637,7 @@
     el.innerHTML = s; bindTips(el);
   }
 
-  // ---- selection value: every named pick scored as a 1pt each-way bet ----
+  // ---- selection value: every named pick scored by its SP return (win odds if won, place fraction if placed) ----
   function renderMerit(races) {
     const settled = races.filter((r) => r.status === "settled");
     const items = settled.flatMap((r) => r.picks.map((p) => ({ r, p, m: selMerit(r, p) })).filter((x) => x.m != null));
@@ -648,16 +655,16 @@
           label: `${x.p.horse} · ${x.r.time} ${x.r.meeting.course}`,
           v: Number(x.m.toFixed(2)),
           won,
-          tip: `<b>${esc(x.p.horse)} — ${esc(x.r.meeting.date)} ${esc(x.r.time)} ${esc(x.r.meeting.course)}</b>${esc(roleLabel(x.p))} · ${won ? "won" : "finished " + esc(x.p.finish)} at ${esc(x.p.sp)}<br>Each-way return +${x.m.toFixed(2)} (1pt e/w at SP)`
+          tip: `<b>${esc(x.p.horse)} — ${esc(x.r.meeting.date)} ${esc(x.r.time)} ${esc(x.r.meeting.course)}</b>${esc(roleLabel(x.p))} · ${won ? "won" : "finished " + esc(x.p.finish)} at ${esc(x.p.sp)}<br>Return +${x.m.toFixed(2)} (1pt at SP: ${won ? "full win odds" : "place fraction of odds"})`
         };
       });
       hbars(el, rows, (d) => d.won ? "var(--good)" : "var(--series-1)", "Selections by each-way return");
     }
     const extra = pos.length > 12 ? ` (top 12 of ${pos.length} shown)` : "";
     el.insertAdjacentHTML("beforeend",
-      `<p class="note">Net across all ${items.length} settled selections, each backed 1pt each-way at SP: ` +
+      `<p class="note">Net across all ${items.length} settled selections (1pt at SP: full win odds if won, the place fraction of the odds if placed, else −1): ` +
       `<strong class="${net >= 0 ? "pos-text" : "neg-text"}">${pts(net)}</strong>. ${winners} won.${extra} ` +
-      `Green = won (win + place halves); blue = placed only. A selection-quality lens, separate from the staked pick-score above.</p>`);
+      `Green = won; blue = placed only. A selection-quality lens, separate from the staked pick-score above.</p>`);
   }
 
   // ---- calibration (stated chance vs actual win rate, by band) ----
