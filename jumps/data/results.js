@@ -101,6 +101,53 @@
               "reason": "Smart Kingman/New Approach pedigree with cruising speed, but top weight 11-2 and a miler-ish stamina profile are real 2m debut queries."
             }
           ]
+        },
+        {
+          "time": "14:47",
+          "name": "Follow attheraces On Instagram Handicap Chase (GBB Race)",
+          "type": "Handicap chase",
+          "distance": "2m",
+          "going": "Good",
+          "runners": 8,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Genuine three-way: only race-fit, proven 2m chaser vs two Lingfield course horses returning from breaks. Three chase debutants (Anariza, Poncho, Vivre Le Reve) all capped by Step 13. NR: Granny Hawkins. Going Good, verified on SL race API.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-03_lingfield/1447_handicap-chase.md",
+          "updated": "10:40 Tue 3 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Away For The Night",
+              "prob": 0.26,
+              "placeProb": 0.60,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Only race-fit, proven 2m chaser: 4 chase starts all completed (2 wins, 2 seconds), won Worcester 22 days ago; prominent front-runner suiting a sharp track.",
+              "against": "Up 6lb (OR 97->103) for a hard-fought win and up to Class 4, with a mistake-under-pressure habit."
+            },
+            {
+              "role": "ew",
+              "horse": "Superstylin",
+              "prob": 0.17,
+              "placeProb": 0.55,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Verified Lingfield C&D chase winner (plus 2nd/2nd/3rd there) who goes well fresh; consistent placer off a workable 106 - place value at a price after 193 days.",
+              "against": "9yo and exposed (3 wins/30), often held up, which gives prominent types first run on this track; one Lingfield unseat."
+            },
+            {
+              "role": "danger",
+              "horse": "Touquet",
+              "prob": 0.20,
+              "placeProb": 0.56,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Highest-rated (108), most consistent (1,1,2,2 chase run) and placed twice at Lingfield over this exact C&D - best horse if fit, but off ~215 days on a fitness-rewarding track."
+            }
+          ]
         }
       ]
     }
