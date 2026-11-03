@@ -150,6 +150,53 @@
           ]
         },
         {
+          "time": "14:12",
+          "name": "Sky Sports Racing Sky 415 Mares' Handicap Hurdle",
+          "type": "Handicap hurdle (mares)",
+          "distance": "2m",
+          "going": "Good (Good to Soft in places)",
+          "runners": 9,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Weak mares' handicap; well-handicapped front-runner heads it off a triple-verified 10lb claim. No NRs. All key careers/in-running read on SL API. Chosen Hero is the 'well-in but won't complete' trap (PU/PU/PU/9th).",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-03_lingfield/1412_mares-handicap-hurdle.md",
+          "updated": "10:45 Tue 3 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Little Lady Lucy",
+              "prob": 0.28,
+              "placeProb": 0.54,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Effective 11-1 / OR~76 after a triple-verified 10lb claim vs spring wins off 70 & 77; a confirmed make-all front-runner that stays 2m on good - ideal for sharp Lingfield.",
+              "against": "127 days off, and her only prior run after a long break was a beaten, held-up 9th - she may need the run."
+            },
+            {
+              "role": "ew",
+              "horse": "Daring To Dream",
+              "prob": 0.10,
+              "placeProb": 0.40,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Career-low mark 77, 3rd off 79 just 15 days ago, fit, and completes every start - a reliable place at a longer price.",
+              "against": "Maiden whose jumping lapses (not-fluent/mistake in 6 of last 9) cap any winning chance."
+            },
+            {
+              "role": "danger",
+              "horse": "Everest",
+              "prob": 0.11,
+              "placeProb": 0.34,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Class dropper and Flat-fit, but placed hurdle form is all at 2m1f-2m3f (both 2m tries poor incl a stamina PU here), she's a 'not fluent' hold-up jumper and ~12 months without jumping."
+            }
+          ]
+        },
+        {
           "time": "14:47",
           "name": "Follow attheraces On Instagram Handicap Chase (GBB Race)",
           "type": "Handicap chase",
@@ -193,6 +240,100 @@
               "finish": "-",
               "confidence": "medium",
               "reason": "Highest-rated (108), most consistent (1,1,2,2 chase run) and placed twice at Lingfield over this exact C&D - best horse if fit, but off ~215 days on a fitness-rewarding track."
+            }
+          ]
+        },
+        {
+          "time": "15:22",
+          "name": "attheraces.com/marketmovers Handicap Hurdle",
+          "type": "Handicap hurdle",
+          "distance": "2m3f110y",
+          "going": "Good (Good to Soft in places)",
+          "runners": 9,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Effectively a two-horse market between a well-handicapped horse with a fitness question and a race-fit trip-proven rival. NR: Mymilkman. All careers verified on SL API; several fact-pack verdicts corrected (Calshot Spit was 3rd not a winner on reappearance). All headgear retained.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-03_lingfield/1522_handicap-hurdle.md",
+          "updated": "10:35 Tue 3 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Cooler Than Me",
+              "prob": 0.26,
+              "placeProb": 0.52,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Proven at today's trip on all going (won 2m3f1y, 2nd off top weight, 3rd over 3m1f), progressive, 5lb claim to effective 11-3.",
+              "against": "213 days off with no evidence he runs well fresh - the one decisive risk, which caps the top chance at 0.26."
+            },
+            {
+              "role": "ew",
+              "horse": "Gone In Sixty",
+              "prob": 0.09,
+              "placeProb": 0.42,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Consistent Class 5 placer reverting to hurdles off a feasible OR80, bottom weight 10-9, race-fit, stays well - best each-way expectation at a longer price.",
+              "against": "Almost never wins (2 from 44) and his last two starts (chases) were 5th."
+            },
+            {
+              "role": "danger",
+              "horse": "Market House",
+              "prob": 0.22,
+              "placeProb": 0.50,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Race-fit (15d), won at 2m3f and 2nd twice over 2m4f in 2026, consistent, strong James Owen yard, 5lb claim - most likely winner if Cooler Than Me is below best, capped by a fluency wobble ('not fluent' twice)."
+            }
+          ]
+        },
+        {
+          "time": "15:57",
+          "name": "Sky Sports Racing Virgin 512 Handicap Chase",
+          "type": "Handicap chase",
+          "distance": "2m4f",
+          "going": "Good",
+          "runners": 7,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Tight Win/Danger call between a well-in course winner and a proven, sound-jumping stayer. Lingfield chase pace bias conflicting, so treated neutral (make-all style not credited). No NRs. Trainer form and full careers verified on SL API.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-03_lingfield/1557_handicap-chase.md",
+          "updated": "10:12 Tue 3 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "A Great Excuse",
+              "prob": 0.28,
+              "placeProb": 0.55,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Only previous Lingfield chase winner; joint-top-rated (OR 100) but effective 95 after the 5lb claim (4lb below winning day); in-form yard (22%), first run after a wind op, races prominent so not lead-dependent.",
+              "against": "Untested at 2m4f (his 2m-plus runs were on soft/heavy and faded late), 243 days off and three below-par runs since the course win; proven-stayer Mersey Street could beat him."
+            },
+            {
+              "role": "ew",
+              "horse": "Helios Allen",
+              "prob": 0.12,
+              "placeProb": 0.50,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Placed last 3 off today's mark incl 2nd at 2m4f Good recently, bottom weight 10-2, race-fit, 6/7 chase completions - a reliable closer suiting the neutral/anti-front-runner read.",
+              "against": "1 win from 19 (0 from 7 chases) so the win end is weak, and his yard is cold (0/10 last 30d)."
+            },
+            {
+              "role": "danger",
+              "horse": "Mersey Street",
+              "prob": 0.24,
+              "placeProb": 0.50,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Sound jumper (8/9 completions) proven at 2m4f on Good, race-fit on his 2nd run back - level with the Win on a pure jumps read, held to Danger on the neutral course note and A Great Excuse's class/well-in edge."
             }
           ]
         }
