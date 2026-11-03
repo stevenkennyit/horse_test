@@ -103,6 +103,53 @@
           ]
         },
         {
+          "time": "13:37",
+          "name": "John Marshall 80th Birthday Celebration Novices' Hurdle (GBB Race)",
+          "type": "Novices' hurdle",
+          "distance": "2m",
+          "going": "Good (Good to Soft in places)",
+          "runners": 11,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Open, weak Class 4 novice full of hurdle/bumper debutants with high jumping risk, so the top pick is capped at 0.26. No non-runners at 10:32. All 11 run-histories verified on SL API; going Good (GtS in places) on the hurdle course.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-03_lingfield/1337_novices-hurdle.md",
+          "updated": "10:35 Tue 3 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "The Perfect Poet",
+              "prob": 0.26,
+              "placeProb": 0.52,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Decisive Fontwell bumper winner dropping from a Grade 2 into Class 4; strong Pauling yard, Kayf Tara pedigree and prominent style suit sharp Lingfield.",
+              "against": "Bumper win was only Class 5, tailed off 16/20 in that G2, 206 days off and jumping unproven - hence held to 0.26."
+            },
+            {
+              "role": "ew",
+              "horse": "Our Amigo",
+              "prob": 0.11,
+              "placeProb": 0.38,
+              "finish": "-",
+              "confidence": "low-medium",
+              "reason": "Value hidden by the card: the only runner with higher-class hurdle form (Class 3 3rd of 14, led after 2 out) AND Lingfield C&D form, back at trip/track in weaker Class 4.",
+              "against": "Declining trend, 232 days off, 6yo and a possible bleeder (unverified) - the place chance carries the value, not the win."
+            },
+            {
+              "role": "danger",
+              "horse": "Analogical",
+              "prob": 0.20,
+              "placeProb": 0.46,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Race-fit (30 days) vs two fresh principals, completed his hurdle bow 3rd of 8 with Flat tactical speed and cheekpieces back - but the bow was untidy with no finishing kick."
+            }
+          ]
+        },
+        {
           "time": "14:47",
           "name": "Follow attheraces On Instagram Handicap Chase (GBB Race)",
           "type": "Handicap chase",
