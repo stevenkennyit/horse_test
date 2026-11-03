@@ -72,3 +72,15 @@ Field remainder (win prob): Reteti 0.10, Vivre Le Reve 0.08, Anariza 0.08, Myrig
 - SL horse API — Reteti (one-paced chase debut): https://www.sportinglife.com/api/horse-racing/horse/1067056
 - SL horse API — Vivre Le Reve (modest hurdle form, pull-up): https://www.sportinglife.com/api/horse-racing/horse/1207358
 - SL result — Fontwell 26 Dec 2025 (Superstylin fresh win, verified earlier): https://www.sportinglife.com/racing/results/2025-12-26/fontwell/895563/tigerbetcouk-too-much-turkey-handicap-chase
+
+## Result
+
+Held — the standout of the card. **EW Superstylin (12/1) won**, the "Lingfield C&D chase winner who goes well fresh, place value after 193 days" read landing at a big price (held up, led 2 out, kept on gamely). **Win Away For The Night (7/2jf) ran exactly to script** — led after 4 out, headed 2 out, kept on once collared, 3rd beaten a head for 2nd. **Danger Touquet (11/2)** led early, then slipped on the flat before 3 out, lost his place and was eased home last — the off-215-days fitness query, plus bad luck.
+
+| Pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Superstylin | EW | **1st** | 12/1 | Held — fresh-run + C&D angle won at a huge price |
+| Away For The Night | Win | 3rd (btn hd for 2nd) | 7/2 | Held — race-fit front-runner ran his race |
+| Touquet | Danger | 8th (eased) | 11/2 | Failed — slipped and faded; fitness query bit |
+
+Winner: Superstylin (12/1), our EW pick (rated 0.17). Full result: https://www.sportinglife.com/racing/results/2026-11-03/lingfield/946734

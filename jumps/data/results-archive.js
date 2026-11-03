@@ -2022,6 +2022,317 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "course": "Lingfield",
+      "country": "England",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Hurdle Good (Good to Soft in places); Chase Good; 13:02 bumper on Polytrack (Standard/Slow). Checked ~09:55 GMT.",
+      "dataErrors": [],
+      "races": [
+        {
+          "time": "13:02",
+          "name": "Free Race Replays On attheraces.com Open Maiden NH Flat Race (GBB Race)",
+          "type": "NH Flat (bumper, on Polytrack)",
+          "distance": "2m",
+          "going": "Standard / Slow (Polytrack)",
+          "runners": 8,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": [],
+          "notes": "EW Moves Like Gold (9/4) won and Danger Powerful Act (11/2) was 2nd — the two classy-pedigree newcomers filled 1-2 exactly as rated. Top pick and favourite Burk Flight led, was ridden to assert 2f out, headed and weakened to 5th (btn ~4L). The value read nailed the first two home; the 'most likely winner' label was on the wrong horse.",
+          "winner": { "horse": "Moves Like Gold", "sp": "9/4", "agentProb": 0.15 },
+          "writeup": "jumps/analyses/2026-11-03_lingfield/1302_open-maiden-nh-flat-race.md",
+          "updated": "10:25 Tue 3 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Burk Flight",
+              "prob": 0.28,
+              "placeProb": 0.52,
+              "finish": "5",
+              "sp": "7/4",
+              "confidence": "low",
+              "reason": "Only debutant with evidence beyond a name: NH-bred sire for a bumper, 5lb claim to effective 10-11, in-form O Murphy yard, and the two exposed rivals both ran badly.",
+              "against": "Completely unraced; case leans on stable + pedigree (what the market prices hardest) with a 5lb claimer up; any of six newcomers can win."
+            },
+            {
+              "role": "ew",
+              "horse": "Moves Like Gold",
+              "prob": 0.15,
+              "placeProb": 0.42,
+              "finish": "1",
+              "sp": "9/4",
+              "confidence": "low",
+              "reason": "Classy stamina pedigree (Golden Horn x Galileo), joint-lightest at 10-9 after a 7lb claim - genuine place value at a longer price.",
+              "against": "Unraced with a 7lb amateur aboard; a top Flat stamina pedigree need not translate to a debut Polytrack bumper."
+            },
+            {
+              "role": "danger",
+              "horse": "Powerful Act",
+              "prob": 0.14,
+              "placeProb": 0.40,
+              "finish": "2",
+              "sp": "11/2",
+              "confidence": "low",
+              "reason": "Smart Kingman/New Approach pedigree with cruising speed, but top weight 11-2 and a miler-ish stamina profile are real 2m debut queries."
+            }
+          ]
+        },
+        {
+          "time": "13:37",
+          "name": "John Marshall 80th Birthday Celebration Novices' Hurdle (GBB Race)",
+          "type": "Novices' hurdle",
+          "distance": "2m",
+          "going": "Good (Good to Soft in places)",
+          "runners": 11,
+          "source": "full",
+          "status": "settled",
+          "grade": "held",
+          "errors": [],
+          "notes": "Top pick The Perfect Poet (4/5F) won as reasoned - class-dropper from a G2, prominent, rallied from 2 out to lead on the run-in despite 206 days off and an unproven jump. Danger Analogical 3rd (just held, kept on one pace). EW Our Amigo, the flagged declining 232-day returner, 5th and out of the frame.",
+          "winner": { "horse": "The Perfect Poet", "sp": "4/5", "agentProb": 0.26 },
+          "writeup": "jumps/analyses/2026-11-03_lingfield/1337_novices-hurdle.md",
+          "updated": "10:35 Tue 3 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "The Perfect Poet",
+              "prob": 0.26,
+              "placeProb": 0.52,
+              "finish": "1",
+              "sp": "4/5",
+              "confidence": "medium",
+              "reason": "Decisive Fontwell bumper winner dropping from a Grade 2 into Class 4; strong Pauling yard, Kayf Tara pedigree and prominent style suit sharp Lingfield.",
+              "against": "Bumper win was only Class 5, tailed off 16/20 in that G2, 206 days off and jumping unproven - hence held to 0.26."
+            },
+            {
+              "role": "ew",
+              "horse": "Our Amigo",
+              "prob": 0.11,
+              "placeProb": 0.38,
+              "finish": "5",
+              "sp": "13/2",
+              "confidence": "low-medium",
+              "reason": "Value hidden by the card: the only runner with higher-class hurdle form (Class 3 3rd of 14, led after 2 out) AND Lingfield C&D form, back at trip/track in weaker Class 4.",
+              "against": "Declining trend, 232 days off, 6yo and a possible bleeder (unverified) - the place chance carries the value, not the win."
+            },
+            {
+              "role": "danger",
+              "horse": "Analogical",
+              "prob": 0.20,
+              "placeProb": 0.46,
+              "finish": "3",
+              "sp": "11/2",
+              "confidence": "medium",
+              "reason": "Race-fit (30 days) vs two fresh principals, completed his hurdle bow 3rd of 8 with Flat tactical speed and cheekpieces back - but the bow was untidy with no finishing kick."
+            }
+          ]
+        },
+        {
+          "time": "14:12",
+          "name": "Sky Sports Racing Sky 415 Mares' Handicap Hurdle",
+          "type": "Handicap hurdle (mares)",
+          "distance": "2m",
+          "going": "Good (Good to Soft in places)",
+          "runners": 9,
+          "source": "full",
+          "status": "settled",
+          "grade": "failed",
+          "errors": ["J"],
+          "notes": "All three picks out of the frame. Chosen Hero - explicitly dismissed as the 'well-in but won't complete' trap (PU/PU/PU/9th) and left unranked - went strongly, led before 2 out and pulled clear to win cosily as 6/5 fav. Top pick Little Lady Lucy (make-all read) disputed the lead, was headed before 2 out and weakened to 7th; EW Daring To Dream 5th, Danger Everest 4th (btn a head).",
+          "winner": { "horse": "Chosen Hero", "sp": "6/5", "agentProb": null },
+          "writeup": "jumps/analyses/2026-11-03_lingfield/1412_mares-handicap-hurdle.md",
+          "updated": "10:45 Tue 3 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Little Lady Lucy",
+              "prob": 0.28,
+              "placeProb": 0.54,
+              "finish": "7",
+              "sp": "17/2",
+              "confidence": "medium",
+              "reason": "Effective 11-1 / OR~76 after a triple-verified 10lb claim vs spring wins off 70 & 77; a confirmed make-all front-runner that stays 2m on good - ideal for sharp Lingfield.",
+              "against": "127 days off, and her only prior run after a long break was a beaten, held-up 9th - she may need the run."
+            },
+            {
+              "role": "ew",
+              "horse": "Daring To Dream",
+              "prob": 0.10,
+              "placeProb": 0.40,
+              "finish": "5",
+              "sp": "6/1",
+              "confidence": "medium",
+              "reason": "Career-low mark 77, 3rd off 79 just 15 days ago, fit, and completes every start - a reliable place at a longer price.",
+              "against": "Maiden whose jumping lapses (not-fluent/mistake in 6 of last 9) cap any winning chance."
+            },
+            {
+              "role": "danger",
+              "horse": "Everest",
+              "prob": 0.11,
+              "placeProb": 0.34,
+              "finish": "4",
+              "sp": "7/1",
+              "confidence": "low",
+              "reason": "Class dropper and Flat-fit, but placed hurdle form is all at 2m1f-2m3f (both 2m tries poor incl a stamina PU here), she's a 'not fluent' hold-up jumper and ~12 months without jumping."
+            }
+          ]
+        },
+        {
+          "time": "14:47",
+          "name": "Follow attheraces On Instagram Handicap Chase (GBB Race)",
+          "type": "Handicap chase",
+          "distance": "2m",
+          "going": "Good",
+          "runners": 8,
+          "source": "full",
+          "status": "settled",
+          "grade": "held",
+          "errors": [],
+          "notes": "EW Superstylin (12/1) won - the 'Lingfield C&D chase winner who goes well fresh, place value after 193 days' read landed at a big price. Win Away For The Night ran as expected (led after 4 out, headed 2 out, kept on, 3rd btn a head for 2nd). Danger Touquet led, slipped on the flat before 3 out, lost his place and was eased (last of 8).",
+          "winner": { "horse": "Superstylin", "sp": "12/1", "agentProb": 0.17 },
+          "writeup": "jumps/analyses/2026-11-03_lingfield/1447_handicap-chase.md",
+          "updated": "10:40 Tue 3 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Away For The Night",
+              "prob": 0.26,
+              "placeProb": 0.60,
+              "finish": "3",
+              "sp": "7/2",
+              "confidence": "medium",
+              "reason": "Only race-fit, proven 2m chaser: 4 chase starts all completed (2 wins, 2 seconds), won Worcester 22 days ago; prominent front-runner suiting a sharp track.",
+              "against": "Up 6lb (OR 97->103) for a hard-fought win and up to Class 4, with a mistake-under-pressure habit."
+            },
+            {
+              "role": "ew",
+              "horse": "Superstylin",
+              "prob": 0.17,
+              "placeProb": 0.55,
+              "finish": "1",
+              "sp": "12/1",
+              "confidence": "medium",
+              "reason": "Verified Lingfield C&D chase winner (plus 2nd/2nd/3rd there) who goes well fresh; consistent placer off a workable 106 - place value at a price after 193 days.",
+              "against": "9yo and exposed (3 wins/30), often held up, which gives prominent types first run on this track; one Lingfield unseat."
+            },
+            {
+              "role": "danger",
+              "horse": "Touquet",
+              "prob": 0.20,
+              "placeProb": 0.56,
+              "finish": "8",
+              "sp": "11/2",
+              "confidence": "medium",
+              "reason": "Highest-rated (108), most consistent (1,1,2,2 chase run) and placed twice at Lingfield over this exact C&D - best horse if fit, but off ~215 days on a fitness-rewarding track."
+            }
+          ]
+        },
+        {
+          "time": "15:22",
+          "name": "attheraces.com/marketmovers Handicap Hurdle",
+          "type": "Handicap hurdle",
+          "distance": "2m3f110y",
+          "going": "Good (Good to Soft in places)",
+          "runners": 9,
+          "source": "full",
+          "status": "settled",
+          "grade": "held",
+          "errors": [],
+          "notes": "Clean sweep of the frame by the three picks. Win Cooler Than Me (5/2F) overcame the one flagged risk (213 days off) - ran on strongly to lead on the run-in. EW Gone In Sixty 2nd (btn 1/2L), Danger Market House 3rd (btn a nose). The pre-race market verdict's Calshot Spit only 4th (mistake last). Jet Steel fell 2 out.",
+          "winner": { "horse": "Cooler Than Me", "sp": "5/2", "agentProb": 0.26 },
+          "writeup": "jumps/analyses/2026-11-03_lingfield/1522_handicap-hurdle.md",
+          "updated": "10:35 Tue 3 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Cooler Than Me",
+              "prob": 0.26,
+              "placeProb": 0.52,
+              "finish": "1",
+              "sp": "5/2",
+              "confidence": "medium",
+              "reason": "Proven at today's trip on all going (won 2m3f1y, 2nd off top weight, 3rd over 3m1f), progressive, 5lb claim to effective 11-3.",
+              "against": "213 days off with no evidence he runs well fresh - the one decisive risk, which caps the top chance at 0.26."
+            },
+            {
+              "role": "ew",
+              "horse": "Gone In Sixty",
+              "prob": 0.09,
+              "placeProb": 0.42,
+              "finish": "2",
+              "sp": "6/1",
+              "confidence": "medium",
+              "reason": "Consistent Class 5 placer reverting to hurdles off a feasible OR80, bottom weight 10-9, race-fit, stays well - best each-way expectation at a longer price.",
+              "against": "Almost never wins (2 from 44) and his last two starts (chases) were 5th."
+            },
+            {
+              "role": "danger",
+              "horse": "Market House",
+              "prob": 0.22,
+              "placeProb": 0.50,
+              "finish": "3",
+              "sp": "9/2",
+              "confidence": "medium",
+              "reason": "Race-fit (15d), won at 2m3f and 2nd twice over 2m4f in 2026, consistent, strong James Owen yard, 5lb claim - most likely winner if Cooler Than Me is below best, capped by a fluency wobble ('not fluent' twice)."
+            }
+          ]
+        },
+        {
+          "time": "15:57",
+          "name": "Sky Sports Racing Virgin 512 Handicap Chase",
+          "type": "Handicap chase",
+          "distance": "2m4f",
+          "going": "Good",
+          "runners": 7,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": [],
+          "notes": "Danger Mersey Street (proven 2m4f stayer) ran best of the picks - made the running, headed only on the run-in, 2nd at 14/1. Win/favourite A Great Excuse faded to 3rd exactly as the 'untested at 2m4f, 243 days off' caveat warned. Unrated Onewayortother (15/2) challenged before the last and won; EW Helios Allen 4th (not fluent 2 out and last).",
+          "winner": { "horse": "Onewayortother", "sp": "15/2", "agentProb": null },
+          "writeup": "jumps/analyses/2026-11-03_lingfield/1557_handicap-chase.md",
+          "updated": "10:12 Tue 3 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "A Great Excuse",
+              "prob": 0.28,
+              "placeProb": 0.55,
+              "finish": "3",
+              "sp": "13/8",
+              "confidence": "medium",
+              "reason": "Only previous Lingfield chase winner; joint-top-rated (OR 100) but effective 95 after the 5lb claim (4lb below winning day); in-form yard (22%), first run after a wind op, races prominent so not lead-dependent.",
+              "against": "Untested at 2m4f (his 2m-plus runs were on soft/heavy and faded late), 243 days off and three below-par runs since the course win; proven-stayer Mersey Street could beat him."
+            },
+            {
+              "role": "ew",
+              "horse": "Helios Allen",
+              "prob": 0.12,
+              "placeProb": 0.50,
+              "finish": "4",
+              "sp": "10/3",
+              "confidence": "medium",
+              "reason": "Placed last 3 off today's mark incl 2nd at 2m4f Good recently, bottom weight 10-2, race-fit, 6/7 chase completions - a reliable closer suiting the neutral/anti-front-runner read.",
+              "against": "1 win from 19 (0 from 7 chases) so the win end is weak, and his yard is cold (0/10 last 30d)."
+            },
+            {
+              "role": "danger",
+              "horse": "Mersey Street",
+              "prob": 0.24,
+              "placeProb": 0.50,
+              "finish": "2",
+              "sp": "14/1",
+              "confidence": "medium",
+              "reason": "Sound jumper (8/9 completions) proven at 2m4f on Good, race-fit on his 2nd run back - level with the Win on a pure jumps read, held to Danger on the neutral course note and A Great Excuse's class/well-in edge."
+            }
+          ]
+        }
+      ]
     }
   ]
 });

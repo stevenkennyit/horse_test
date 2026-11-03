@@ -96,3 +96,15 @@ Facts newly verified at source and folded into the grid/rationale:
 - **Pace bias reversed to neutral:** Lingfield chase front-runner bias is conflicting/possibly negative over 2m2f+, so Mersey Street's make-all style is no longer credited as a plus and the brief's "prominent favoured" is not relied on.
 - **Onewayortother** confirmed a jumps maiden (0/5 hurdles, 0/6 chases; sole win a 2022 bumper) — win prob trimmed 0.15→0.13.
 - **Selections unchanged:** WIN A Great Excuse, EACH-WAY Helios Allen, DANGER Mersey Street. Probabilities nudged (Helios 0.11→0.12, Mersey place 0.52→0.50, Onewayortother 0.15→0.13). The Win/Danger call is genuinely tight and a swap to Mersey Street would be defensible; A Great Excuse retained on class (9lb), course win, well-in-via-claim, verified in-form yard and wind op.
+
+## Result
+
+Mixed. **Danger Mersey Street (14/1) ran best of the picks** — made the running, still in front approaching 3 out, headed only on the run-in, 2nd at a big price. The "proven 2m4f stayer, level with the Win on a pure jumps read" case was vindicated; held to Danger only on a neutral course note and A Great Excuse's supposed class/well-in edge. **Win / favourite A Great Excuse (13/8F) faded to 3rd** exactly as the "untested at 2m4f, 243 days off" caveat warned. **Unrated Onewayortother (15/2) challenged before the last and won.** **EW Helios Allen (10/3) 4th**, not fluent 2 out and at the last.
+
+| Pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Mersey Street | Danger | 2nd | 14/1 | Held — stayer's case proved; arguably should have been top |
+| A Great Excuse | Win | 3rd | 13/8 | Mixed — favourite correctly doubted, faded late |
+| Helios Allen | EW | 4th | 10/3 | Missed — closer never got into it, jumping errors |
+
+Winner: Onewayortother (15/2), unranked (agentProb null). A 15/2 winner from outside our frame; the two horses we named filled 2nd and 3rd. Full result: https://www.sportinglife.com/racing/results/2026-11-03/lingfield/946736

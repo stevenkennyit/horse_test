@@ -85,3 +85,15 @@ Field win-probability spread (≈1.00): Cooler Than Me 0.26, Market House 0.22, 
 - SL result — Taunton 26 Feb 2026 (Cooler Than Me 2nd): https://www.sportinglife.com/racing/results/2026-02-26/taunton/904706/st-austell-brewery-novices-limited-handicap-hurdle
 - SL result — Plumpton 19 Oct 2026 (Market House 4th): https://www.sportinglife.com/racing/results/2026-10-19/plumpton/944226/sis-handicap-hurdle
 - RP result — Fontwell 24 Apr 2026 (Calshot Spit 3rd): https://www.racingpost.com/results/20/fontwell/2026-04-24/916327
+
+## Result
+
+Held — a clean sweep of the frame by all three picks. **Win Cooler Than Me (5/2F) won**, overcoming the single decisive risk the analysis flagged (213 days off): held up, ridden before the last, ran on strongly to lead on the run-in. **EW Gone In Sixty (6/1) 2nd**, beaten ½L (led after 2 out, headed on the run-in). **Danger Market House (9/2) 3rd**, beaten a nose. The pre-race market verdict's Calshot Spit could only finish 4th (mistake at the last). Jet Steel fell 2 out.
+
+| Pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Cooler Than Me | Win | **1st** | 5/2 | Held — layoff risk overcome, strong late run |
+| Gone In Sixty | EW | 2nd (btn ½L) | 6/1 | Held — place-value read, led late then caught |
+| Market House | Danger | 3rd (btn nk) | 9/2 | Held — stayed on, fluency wobble kept it to 3rd |
+
+Winner: Cooler Than Me (5/2), our Win pick (rated 0.26). Full result: https://www.sportinglife.com/racing/results/2026-11-03/lingfield/946735

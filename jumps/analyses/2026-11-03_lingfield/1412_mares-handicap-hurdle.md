@@ -97,3 +97,15 @@ Still open:
 - Wincanton result (LLL win): https://www.racingpost.com/results/90/wincanton/2026-04-12/915311
 - Stratford 29 Jun result (LLL 9th): https://www.racingpost.com/results/67/stratford/2026-06-29/922089
 - Stratford 30 May result (LLL 2nd): https://www.sportinglife.com/racing/results/2026-05-30/stratford/919753/happy-70th-birthday-rich-wilding-mares-novices-limited-handicap-hurdle
+
+## Result
+
+Failed (judgement error **J**). **All three picks finished out of the frame.** **Chosen Hero (6/5F) won cosily** — the very horse the analysis flagged as the "well-in but won't complete" trap (PU/PU/PU/9th) and left unranked. It went strongly, led before 2 out and pulled clear. **Top pick Little Lady Lucy (17/2)** disputed the lead, was headed before 2 out and weakened to 7th — the make-all front-runner read was wrong against a stronger-travelling rival. **Danger Everest 4th** (beaten a head for 3rd), **EW Daring To Dream 5th**.
+
+| Pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Little Lady Lucy | Win | 7th | 17/2 | Failed — front-run plan collapsed before 2 out |
+| Everest | Danger | 4th | 7/1 | Missed narrowly — headway but one-paced, btn a head |
+| Daring To Dream | EW | 5th | 6/1 | Missed — stayed on one pace, never a threat |
+
+Winner: Chosen Hero (6/5), unranked (agentProb null). The lesson: a well-handicapped, well-backed horse was written off purely on a string of recent non-completions, and it made all. Full result: https://www.sportinglife.com/racing/results/2026-11-03/lingfield/946733

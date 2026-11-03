@@ -91,3 +91,15 @@ Field win-probability spread (sums ~1.00): The Perfect Poet 0.26, Analogical 0.2
 - Sporting Life horse API — full verified run histories, e.g. The Perfect Poet https://www.sportinglife.com/api/horse-racing/horse/1216372 , Analogical /1160928 , Our Amigo /1204580 , Lady Boujee /1207106 , Soldier Poet /1207939 , Raulin /1156879 , Jaycee Reidy /1240823 , Ballyboy Prince /1243489 , Mick The Yank /1240899 , Boston Run /1152790 , Alfred Spero /1187713
 - Racing Post racecard (card, going, form figures, verdict): https://www.racingpost.com/racecards/31/lingfield/2026-11-03/
 - At The Races racecard (race name, class, distance, going): https://www.attheraces.com/racecard/Lingfield/3-November-2026/1337
+
+## Result
+
+Held. **Top pick The Perfect Poet (4/5F) won**, rallying from 2 out to lead on the run-in — the class-drop-from-a-G2, prominent-style read landed despite 206 days off and an unproven jump (not fluent at the last but got up). **Danger Analogical (11/2) 3rd**, kept on one pace and just held the place as flagged. **EW Our Amigo (13/2) 5th** — the declining 232-day returner's place-value case didn't fire.
+
+| Pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| The Perfect Poet | Win | **1st** | 4/5 | Held — class and prominence beat the layoff/jump queries |
+| Analogical | Danger | 3rd | 11/2 | Held — race-fit, one-paced into the frame as described |
+| Our Amigo | EW | 5th (btn ~1¼L) | 13/2 | Missed — placed-value read fell just short |
+
+Winner: The Perfect Poet (4/5), our Win pick (rated 0.26). Full result: https://www.sportinglife.com/racing/results/2026-11-03/lingfield/946732

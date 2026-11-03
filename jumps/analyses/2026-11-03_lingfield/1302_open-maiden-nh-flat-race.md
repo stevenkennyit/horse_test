@@ -86,3 +86,15 @@ Remaining field shares ~0.43 win: Pinch Of Salt ~0.12, Templar Knight ~0.09, Che
 - O Murphy trainer record: `https://www.sportinglife.com/api/horse-racing/trainer/25785`
 - Result pages read in full: Taunton `https://www.sportinglife.com/api/horse-racing/race/911322`, Hereford `/909475`, Plumpton `/912769`
 - Lingfield AW pace bias (general, non-decisive here): geegeez all-weather pace analyses `https://www.geegeez.co.uk/tag/lingfield-tips/`
+
+## Result
+
+Mixed. **EW Moves Like Gold (9/4) won** and **Danger Powerful Act (11/2) was 2nd** — the two classy-pedigree newcomers filled 1-2 exactly as rated. **Top pick / favourite Burk Flight (7/4) led, was ridden to assert 2f out, headed 1f out and weakened to 5th**, beaten about 4L. The value read on the race identified the first two home; the "most likely winner" label was simply on the wrong one of our trio (Burk Flight's case leaned on stable + pedigree, and the deeper pedigrees of Moves Like Gold and Powerful Act beat him).
+
+| Pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Moves Like Gold | EW | **1st** | 9/4 | Held — stamina-pedigree/place-value case won outright |
+| Powerful Act | Danger | 2nd | 11/2 | Held — cruising-speed read, led 1f out, just caught |
+| Burk Flight | Win | 5th (~4L) | 7/4 | Failed — favourite led and weakened; thin on evidence |
+
+Winner: Moves Like Gold (9/4), our EW pick (rated 0.15). Full result: https://www.sportinglife.com/racing/results/2026-11-03/lingfield/946731
