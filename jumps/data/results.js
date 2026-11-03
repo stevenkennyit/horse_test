@@ -45,5 +45,64 @@
     "H": "Non-fatal jumping-fluency comments ('not fluent'/'mistake') over-weighted to write off a horse with a clean completion record",
     "I": "Win probability and confidence over-concentrated on a pick carrying its own recorded jumping or riding (amateur claim) doubts"
   },
-  "meetings": []
+  "meetings": [
+    {
+      "date": "2026-11-03",
+      "course": "Lingfield",
+      "country": "England",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Hurdle Good (Good to Soft in places); Chase Good; 13:02 bumper on Polytrack (Standard/Slow). Checked ~09:55 GMT.",
+      "dataErrors": [],
+      "races": [
+        {
+          "time": "13:02",
+          "name": "Free Race Replays On attheraces.com Open Maiden NH Flat Race (GBB Race)",
+          "type": "NH Flat (bumper, on Polytrack)",
+          "distance": "2m",
+          "going": "Standard / Slow (Polytrack)",
+          "runners": 8,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Newcomers' bumper on the all-weather (no obstacles): 6 of 8 unraced, the 2 with form both tailed off. Confidence low throughout. O Murphy yard in form (2 wins + 4 placed from 7 recent bumper runs, verified). NRs: Jack Dandy, Unbroken Spirit.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-03_lingfield/1302_open-maiden-nh-flat-race.md",
+          "updated": "10:25 Tue 3 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Burk Flight",
+              "prob": 0.28,
+              "placeProb": 0.52,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Only debutant with evidence beyond a name: NH-bred sire for a bumper, 5lb claim to effective 10-11, in-form O Murphy yard, and the two exposed rivals both ran badly.",
+              "against": "Completely unraced; case leans on stable + pedigree (what the market prices hardest) with a 5lb claimer up; any of six newcomers can win."
+            },
+            {
+              "role": "ew",
+              "horse": "Moves Like Gold",
+              "prob": 0.15,
+              "placeProb": 0.42,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Classy stamina pedigree (Golden Horn x Galileo), joint-lightest at 10-9 after a 7lb claim - genuine place value at a longer price.",
+              "against": "Unraced with a 7lb amateur aboard; a top Flat stamina pedigree need not translate to a debut Polytrack bumper."
+            },
+            {
+              "role": "danger",
+              "horse": "Powerful Act",
+              "prob": 0.14,
+              "placeProb": 0.40,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Smart Kingman/New Approach pedigree with cruising speed, but top weight 11-2 and a miler-ish stamina profile are real 2m debut queries."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 });
