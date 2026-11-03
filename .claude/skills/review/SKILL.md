@@ -8,7 +8,7 @@ argument-hint: <course> [YYYY-MM-DD]
 
 Arguments: `$ARGUMENTS` — course and date (default today).
 
-1. **Find the meeting** in `jumps/data/results.js` or `flat/data/results.js` and list its races and their status. If it isn't there, say so and stop.
+1. **Find the meeting** in `jumps/data/results.js` or `flat/data/results.js` (the live file, where `/analyse` records pending meetings) and list its races and their status. If it isn't in the live file, check the matching `results-archive.js` (an already-reviewed meeting). If it's in neither, say so and stop.
 
 2. **Pull each result** from the Sporting Life result page. If in-running comments are missing, use the Racing Post result page. A result that isn't weighed in, or has no comments yet, is marked `provisional: true`.
 
@@ -20,6 +20,7 @@ Arguments: `$ARGUMENTS` — course and date (default today).
 4. **Update the record:**
    - In the results file: every pick's `finish` and `sp` (starting price), `winner` (`agentProb` = the probability stated before the off, or `null` if the winner wasn't rated), `status`, `grade`, `errors`, `notes`, and the meeting's `dataErrors`. Don't change picks or probabilities.
    - Append a `## Result` section to each race's write-up.
+   - **Archive the settled meeting.** Once every race in the meeting is settled (no `status: "pending"` left), move its whole meeting object out of the live `results.js` and into the matching `results-archive.js` (keep the same shape; the dashboard loads both). This keeps the live file — the one `/analyse` reads — small. Leave `errorTypes` in the live file.
 
 5. **Propose rules, don't apply them yet.** Draft one rule per new judgement error, naming the playbook step it belongs to. Show the drafts and the review summary; add them, and the review entry in the playbook's Post-race review section, only after the user agrees.
 

@@ -38,7 +38,9 @@ The coordinator will follow up with **"go fill data gaps and read data entirely"
 1. Go through your data-gap list and every claim tagged asserted or not found. Try other sources (Sporting Life profile JSON, Racing Post results, Sky Sports, IrishRacing) for each one.
 2. Re-open and read in full any page you only skimmed or read partly: full profiles, full result pages, in-running and jumping comments behind every F/U/P/R and every run you lean on.
 3. Re-run the playbook's Late-task verification checkpoint and Pre-send checklist against the source data.
-4. Change the picks if the new data says so. Update the write-up: before the off you can revise it in place on the first pass; if the coordinator has already recorded the race, append `## Update HH:MM` instead.
+4. Change the picks if the new data says so. Then update the write-up **as a delta, not a second copy of the analysis**:
+   - **Not yet recorded (first pass, before the off):** revise the affected lines of the body in place — the summary grid, the probability/selection table, and any pick whose reasoning actually changed. Leave rationale that still stands untouched; don't restate it.
+   - **Already recorded by the coordinator:** append a short `## Update HH:MM` holding only (a) newly verified or corrected facts, (b) the revised probability/selection table if the numbers moved, and (c) one line on whether the selections changed and why. Do **not** re-derive the full case for each pick — it already stands in the body above. If an earlier claim is now wrong, correct it there in one line rather than writing a fresh parallel rationale.
 5. Report what was filled, what is still a gap and why, and whether the picks changed.
 
 ## What to return

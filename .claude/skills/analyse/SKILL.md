@@ -31,7 +31,7 @@ You are the **coordinator**: gather the meeting's shared facts, hand each race t
 
 6. **Check before recording.** For each final report: the write-up exists on disk with every required section; every runner is in the summary grid and outsider check; claims are accounted for; probabilities are sensible; unverified items are listed. Spot-check two of its key sources. Send it back with the specific problem if anything fails.
 
-7. **Record before the off.** You alone write `<code>/data/results.js` (race-analysts never touch it):
+7. **Record before the off.** You alone write `<code>/data/results.js` (race-analysts never touch it). This live file holds only meetings with a race still `pending` — settled ones live in `<code>/data/results-archive.js`, which `/review` manages — so you read and append just the small live file here:
    - Add the race with `status: "pending"`, creating the meeting object if needed. Fill `writeup`, `updated`, and each pick's `confidence`, `reason` and `against`: `upcoming.html` shows them for review before the off.
    - Every race in the results file must have its write-up on disk; commit both together and push straight away after each race (see `CLAUDE.md`), so finished races survive while others are still running.
    - If the race is already recorded (a re-run or "recheck"), the race-analyst appends a `## Update HH:MM` section and you update the data entry — only before the off.
