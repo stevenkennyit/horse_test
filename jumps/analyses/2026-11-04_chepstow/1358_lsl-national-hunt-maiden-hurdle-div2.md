@@ -88,3 +88,14 @@ Remaining ~36% of win probability spreads across: Champ Kabai ~9%, One Cool Kid 
 - SL racecard JSON, race 946951 (spotlight commentary, ratings, headgear, weights, no claims): https://www.sportinglife.com/racing/racecards/2026-11-04/chepstow
 - SL horse profiles (full run lists): https://www.sportinglife.com/racing/profiles/horse/1218977 (A Sight To Sea), /1220241 (Jerry The Dreamer), /1185929 (The Lightmaker), /1206781 (Champ Kabai), /1241388 (One Cool Kid), /1208471 (Topsham Tide), and the remaining six by id.
 - Fact pack: /tmp/.../scratchpad/pack/race_1358.md
+
+## Result
+**Won by A Sight To Sea (4/7f) — our Win.** Going good to soft (soft in places), weighed in. 12 ran, 3 places.
+
+| Our pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| A Sight To Sea | Win | **1st** | 4/7f | Led before the 2nd, clear from three out, won easily |
+| The Lightmaker | EW | 2nd | 9/2 | Chased the winner, no threat but held 2nd (btn 14L) |
+| Jerry The Dreamer | Danger | 8th | 14/1 | Held up in rear, only minor headway |
+
+**The clean one.** The €190k Skelton Irish-point winner was called as the archetype that lands a weak maiden and did exactly that, with the EW filling 2nd — picks 1-2, top pick won. The layoff-plus-debut worry proved immaterial on a horse this far ahead on class.

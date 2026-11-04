@@ -86,3 +86,14 @@ Won a **Class-2 bumper** at Windsor (soft, Jan 2026) — the best bumper grade i
 - SL racecard JSON (race 946950): rides, commentary, lifetime stats — `https://www.sportinglife.com/racing/racecards/2026-11-04/chepstow/946950`
 - SL horse profiles (full run lists + ride descriptions): Order On Time `/racing/profiles/horse/1219398`, St James's Finest `/1205574`, Plan De Stan `/1209759`, Moonrise Monarch `/1244321`, The Two Four `/1243067`, Timmie Two `/1218400`, Horethorne `/1219995`, Aye Over Tee `/1242808`, Dance Ifyoucan `/1244317`, Stagge Hyll `/1210471`, Lady Bam `/1218764`, Jeu Magic `/1244318`, Just Jaffa `/1244319` (all `https://www.sportinglife.com/racing/profiles/horse/<id>`)
 - Going: SL/ATR going feed, checked 07:25 Wed 4 Nov.
+
+## Result
+**Won by St James's Finest (5/2) — our Danger.** Going good to soft (soft in places), weighed in. 13 ran, 3 places.
+
+| Our pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Order On Time | Win | 2nd | 1/2f | Led, three lengths clear three out, then headed and outpaced after two out |
+| Plan De Stan | EW | F (last) | 9/1 | In touch with the leaders, fell at the last |
+| St James's Finest | Danger | **1st** | 5/2 | Pressed the leader before two out, went clear run-in |
+
+Our top two filled **1-2**, order wrong for the third race running. We preferred Order On Time on a *more recent* C&D win and a shorter layoff over St James's Finest's *higher proven grade* (sole Class-2 bumper winner). The higher-class horse won. The market agreed with us (Order On Time sent off 1/2), so the lesson is about weighting recency against class rather than opposing the favourite.

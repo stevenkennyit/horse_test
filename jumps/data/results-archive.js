@@ -2333,6 +2333,185 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-11-04",
+      "course": "Chepstow",
+      "country": "Wales",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Hurdle: good to soft (soft in places); Chase: good to good-to-firm in places (SL/ATR feed, checked 07:25 Wed 4 Nov)",
+      "dataErrors": [],
+      "races": [
+        {
+          "time": "12:20",
+          "name": "Lords Taverners Conditional Jockeys' Handicap Chase (GBB Race)",
+          "type": "handicap chase",
+          "distance": "2m 7f 136y",
+          "going": "Good to good-to-firm in places",
+          "runners": 5,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": [],
+          "notes": "5-runner conditional jockeys' handicap chase; 2 places. Jockey claims verified (SL card + Racing Post card, 08:05): only Gingerbred's rider claims (6lb, rides ~10-10); the other four carry their listed (raw, pre-claim) weights. No pick change. RESULT (good, g-firm in places): Danger Gingerbred (10/11f) won, Win Roe And Co (9/2) kept on at one pace in 2nd, EW Ballynaheer (9/1) PU before 3 out. Our two principals filled 1-2 but we had the order wrong: Gingerbred was downgraded to Danger on an asserted soft-ground/longer-trip mismatch that the race disproved (he handled 2m7f on sound ground off a last-time win and the 6lb claim). Candidate new error K (proposed).",
+          "winner": { "horse": "Gingerbred", "sp": "10/11f", "agentProb": 0.25 },
+          "writeup": "jumps/analyses/2026-11-04_chepstow/1220_lords-taverners-conditional-handicap-chase.md",
+          "updated": "08:05 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "Roe And Co", "prob": 0.33, "placeProb": 0.60, "finish": "2", "sp": "9/2", "confidence": "medium", "reason": "Only C&D winner (Chepstow 2m7f136y, Nov 2025, good/g-firm); all three chase wins at 2m6f-2m7f (3/3 complete), both chase PUs only when stepped to 3m1f; ideal trip and ground, fit off two hurdle 3rds.", "against": "About 8lb higher than his 2m7f winning marks and back over fences after two hurdle runs; small-field upset risk." },
+            { "role": "ew", "horse": "Ballynaheer", "prob": 0.17, "placeProb": 0.47, "finish": "PU", "sp": "9/1", "confidence": "medium", "reason": "Won off today's exact mark (104) at 2m7f191y in April, stays well, 18/19 chase completions, races prominently - strong place shout at a longer price.", "against": "Form has tailed off since April and he gives about 13lb to Gingerbred." },
+            { "role": "danger", "horse": "Gingerbred", "prob": 0.25, "placeProb": 0.52, "finish": "1", "sp": "10/11f", "confidence": "medium", "reason": "Won last time and far the lightest via the 6lb claim; but a soft-ground 3m+ stayer dropping to 2m7f on sound ground and a keen-goer - ground/trip mismatch caps him to Danger." }
+          ]
+        },
+        {
+          "time": "14:30",
+          "name": "Lysaght Cup Novices' Limited Handicap Chase (GBB Race)",
+          "type": "handicap chase",
+          "distance": "2m 16y",
+          "going": "Good to good-to-firm in places",
+          "runners": 5,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": [],
+          "notes": "5-runner Class-3 novice limited handicap chase; 2 places. No jockey claims (verified). Four of five have just one completed chase start; Rula Bula (0.23) is a co-danger. Chase going good to good-to-firm. RESULT (good, g-firm in places): EW Tour Ovalie (10/3) made her own running and won; Win Black Hawk Eagle (7/1) led then weakened to 3rd of 4; co-danger Rula Bula (7/4f) unseated at the 2nd; Danger Desertmore News was a NON-RUNNER. We found the winner as the EW, but her value case rested on a held-up ride into a front-running duel that never happened (Desertmore NR, Rula Bula UR) - she won by leading. Top-rated Black Hawk Eagle's C&D-winner case did not hold.",
+          "winner": { "horse": "Tour Ovalie", "sp": "10/3", "agentProb": 0.12 },
+          "writeup": "jumps/analyses/2026-11-04_chepstow/1430_lysaght-cup-novices-limited-handicap-chase.md",
+          "updated": "07:55 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "Black Hawk Eagle", "prob": 0.28, "placeProb": 0.52, "finish": "3", "sp": "7/1", "confidence": "medium", "reason": "Verified winner of this exact C&D (Chepstow 2m16y, made all, won going away) off a similar fresh break; back to his ideal 2m trip on suitable ground - the only strong proven C&D form in the race.", "against": "172 days off at 8yo with two poor runs since (a fall when keen-leading and a 44L-beaten 4th, both at 2m4f) and a likely duel for the lead with Desertmore News." },
+            { "role": "ew", "horse": "Tour Ovalie", "prob": 0.12, "placeProb": 0.30, "finish": "1", "sp": "10/3", "confidence": "low", "reason": "Bottom weight, 6-time winner at ~2m, stayed on into 3rd on her chase debut beaten only 4.75L; held-up style suits if the two front-runners duel - genuine quarter-odds place value at a price.", "against": "Jumped right / hung left on her one chase start - a worry reverting to a left-handed track - and is below the proven rivals on form (place play, not a win call)." },
+            { "role": "danger", "horse": "Desertmore News", "prob": 0.25, "placeProb": 0.47, "finish": "NR", "sp": null, "confidence": "medium", "reason": "Progressive front-runner, fitter for his first run back (21d), completed chase debut cleanly, good ground to suit; chief threat but stamina up the Chepstow hill and the pace clash are doubts." }
+          ]
+        },
+        {
+          "time": "12:51",
+          "name": "Free Tips On attheraces.com Maiden Hurdle (GBB Race)",
+          "type": "maiden hurdle",
+          "distance": "2m 3f 100y",
+          "going": "Good to soft (soft in places)",
+          "runners": 15,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": [],
+          "notes": "13 of 15 are hurdle debutants; ranked on bumper/point ability, stamina for a stiff 2m3f and trainer skill with first-time hurdlers. Point/Irish-point form from SL card commentary (SL profiles omit point runs) - unverified on quality. Secret Jet Away NR (14 ran, 3 places). RESULT (good to soft): our three picks filled 1-2-3 but in the wrong order - Danger New Rules (7/2, Nicholls/Walk In The Park pointer) won, Win Red Acres Max (5/6f) outpaced in 2nd, EW Cool Customer (6/1) 3rd. Strong coverage; the layoff downgrade of New Rules (11 months, one career run) left the winner as the Danger, though the market also made Red Acres Max the clear favourite.",
+          "winner": { "horse": "New Rules", "sp": "7/2", "agentProb": 0.18 },
+          "writeup": "jumps/analyses/2026-11-04_chepstow/1251_free-tips-maiden-hurdle.md",
+          "updated": "07:45 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "Red Acres Max", "prob": 0.28, "placeProb": 0.55, "finish": "2", "sp": "5/6f", "confidence": "medium", "reason": "Strongest verified racecourse profile - won at Carlisle (forged clear), battling 2nd on heavy at Fontwell, plus a point win; hot Snowden yard, G Sheehan.", "against": "Hurdle debutant (jumping on trust), bumper win was a 4-runner race, 227 days off." },
+            { "role": "ew", "horse": "Cool Customer", "prob": 0.12, "placeProb": 0.40, "finish": "3", "sp": "6/1", "confidence": "medium", "reason": "Only course winner (won his bumper here), 3/3 placed on soft/gd-sf, stamina sire - genuine place chance at a longer price than the Win.", "against": "Modest Class 5 bumper level, 234 days off, hurdles unknown." },
+            { "role": "danger", "horse": "New Rules", "prob": 0.18, "placeProb": 0.42, "finish": "1", "sp": "7/2", "confidence": "medium", "reason": "Nicholls' EUR105k, Walk In The Park, unbeaten in points, Sam Twiston-Davies; chief threat but 11-month absence and a single career run keep him a danger not the win." }
+          ]
+        },
+        {
+          "time": "13:25",
+          "name": "LSL Racing 'National Hunt' Maiden Hurdle (GBB Race) (Div 1)",
+          "type": "maiden hurdle",
+          "distance": "2m 16y",
+          "going": "Good to soft (soft in places)",
+          "runners": 13,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": [],
+          "notes": "No runner has won over hurdles; mostly hurdle debutants on bumper/point form. Ranked on bumper/point class, stamina for the stiff 2m and trainer conversion. Point form and claim amounts from card commentary - unverified; does not change the order. RESULT (good to soft): Danger St James's Finest (5/2, the only Class-2 bumper winner) won; Win Order On Time (1/2f) led and went clear but was headed and outpaced after 2 out into 2nd; EW Plan De Stan (9/1) fell at the last when in touch. Our top two filled 1-2 again with the order wrong. Preferring Order On Time on a more-recent C&D win and shorter layoff over St James's Finest's higher proven grade was the wrong read, though the market agreed, sending Order On Time off odds-on.",
+          "winner": { "horse": "St James's Finest", "sp": "5/2", "agentProb": 0.24 },
+          "writeup": "jumps/analyses/2026-11-04_chepstow/1325_lsl-national-hunt-maiden-hurdle-div1.md",
+          "updated": "07:45 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "Order On Time", "prob": 0.30, "placeProb": 0.58, "finish": "2", "sp": "1/2f", "confidence": "medium", "reason": "Only proven course-and-distance winner (won an 11-runner bumper here over this exact 2m16y, going clear; EUR200k; Nicholls/S Twiston-Davies).", "against": "Hurdle jumping unproven, 216 days off, and St James's Finest won in a higher grade." },
+            { "role": "ew", "horse": "Plan De Stan", "prob": 0.09, "placeProb": 0.32, "finish": "F", "sp": "9/1", "confidence": "low", "reason": "Twice runner-up at 2m in bumpers (staying-on, good and soft), stays the stiff track, Quinn's claim gives relief - best proven place form at the trip at a price.", "against": "Never jumped a hurdle, 179 days off, 0 wins from 3 (placed-not-won)." },
+            { "role": "danger", "horse": "St James's Finest", "prob": 0.24, "placeProb": 0.52, "finish": "1", "sp": "5/2", "confidence": "medium", "reason": "Sole Class-2 bumper winner (best bumper grade), ran here 4th on debut, bred to stay, Skelton/H Skelton; held below the Win on Order On Time's more recent C&D win and shorter layoff." }
+          ]
+        },
+        {
+          "time": "13:58",
+          "name": "LSL Racing 'National Hunt' Maiden Hurdle (GBB Race) (Div 2)",
+          "type": "maiden hurdle",
+          "distance": "2m 16y",
+          "going": "Good to soft (soft in places)",
+          "runners": 12,
+          "source": "full",
+          "status": "settled",
+          "grade": "held",
+          "errors": [],
+          "notes": "Weak maiden; exposed hurdle form modest, so unexposed point/bumper recruits favoured. No F/U/P/R in the field; no jockey claims (verified). Point-win manner from SL spotlight - unverified on quality. RESULT (good to soft): Win A Sight To Sea (4/7f) led before the 2nd, went clear from 3 out and won easily; EW The Lightmaker (9/2) chased home in 2nd (btn 14L). Textbook: the EUR190k Skelton point-winner was the archetype that lands a weak maiden, exactly as called, and the two picks filled 1-2. Danger Jerry The Dreamer (14/1) never landed a blow, 8th.",
+          "winner": { "horse": "A Sight To Sea", "sp": "4/7f", "agentProb": 0.33 },
+          "writeup": "jumps/analyses/2026-11-04_chepstow/1358_lsl-national-hunt-maiden-hurdle-div2.md",
+          "updated": "07:45 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "A Sight To Sea", "prob": 0.33, "placeProb": 0.60, "finish": "1", "sp": "4/7f", "confidence": "medium", "reason": "EUR190k Irish point winner, Skelton/Harry Skelton, Timeform 5* and card top-ranked, hurdle debut - the archetype that lands weak maidens; stays 2m easily.", "against": "346-day layoff AND hurdle debut at once - two unknowns, with only one point run as evidence." },
+            { "role": "ew", "horse": "The Lightmaker", "prob": 0.13, "placeProb": 0.50, "finish": "2", "sp": "9/2", "confidence": "low", "reason": "Most reliable form (2nd in a Chepstow 2m16y bumper over this exact C&D, then 3rd), prominent, proven ground; genuine place at a longer price.", "against": "Never jumped a hurdle, small yard (Dan Horsford) - the jumping is the whole question." },
+            { "role": "danger", "horse": "Jerry The Dreamer", "prob": 0.18, "placeProb": 0.45, "finish": "8", "sp": "14/1", "confidence": "medium", "reason": "Other expensive point-winning Rules debutant (won 2nd of 2 Irish points, TF4*, Mulholland), 283 days off; chief threat if A Sight To Sea's layoff tells." }
+          ]
+        },
+        {
+          "time": "15:05",
+          "name": "DragonBet Handicap Chase (GBB Race)",
+          "type": "handicap chase",
+          "distance": "2m 3f 98y",
+          "going": "Good to good-to-firm in places",
+          "runners": 11,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": [],
+          "notes": "11-runner handicap chase with three chase debutants (all Step-13 capped); Win held under the ~25% ceiling and probability spread wide. Course form not found for the top two; jockey claims only partly cross-checked. Bahtiyar ran yesterday (1-day turnaround). Bahtiyar, Diligent Militia and Can't Resist It all NR (8 ran, 3 places). RESULT (good, g-firm in places): winner Sage Green (12/1) was unrated by us. Win Mr Mcwhinny (9/2) FELL AT THE LAST while challenging the winner - running exactly to his form-horse billing when the race ended under him (sound call, unlucky). EW Two To Tango (13/2) 2nd and Danger Great Dance (10/3) 3rd, so our EW and Danger filled the places. The handicapper-caught-up worry on Mr Mcwhinny did not stop him; only the fall did.",
+          "winner": { "horse": "Sage Green", "sp": "12/1", "agentProb": null },
+          "writeup": "jumps/analyses/2026-11-04_chepstow/1505_dragonbet-handicap-chase.md",
+          "updated": "07:50 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "Mr Mcwhinny", "prob": 0.23, "placeProb": 0.52, "finish": "F", "sp": "9/2", "confidence": "medium", "reason": "Form horse (141112, 4 of last 6 incl a chase hat-trick), 6/6 chase completions in 2026, travels strongly, trip and good/good-to-firm ground ideal, in-form Tom Ellis yard.", "against": "Every win was Class 5 off 78-90; now 24lb higher (OR 102) in his first Class-4 handicap chase - the handicapper may have caught up." },
+            { "role": "ew", "horse": "Two To Tango", "prob": 0.16, "placeProb": 0.50, "finish": "2", "sp": "13/2", "confidence": "medium", "reason": "Placed 4 of last 5, won over today's exact trip (2m3f98y Stratford), sound jumper (21/22 completions), good-to-firm proven - strong place chance at a longer price than the Win.", "against": "Chronic non-winner (one win amid many placings); his trip win was at sharp, flat Stratford, not stiff undulating Chepstow (course unproven)." },
+            { "role": "danger", "horse": "Great Dance", "prob": 0.10, "placeProb": 0.35, "finish": "3", "sp": "10/3", "confidence": "low", "reason": "Highest ability on hurdle form (OR 112, listed-placed), shaped well on C&D return - but a chase debut off top weight 12-2 caps her to Danger not Win." }
+          ]
+        },
+        {
+          "time": "15:40",
+          "name": "Floyds Turfcare & Weed Solutions Handicap Hurdle",
+          "type": "handicap hurdle",
+          "distance": "2m 3f 100y",
+          "going": "Good to soft (soft in places)",
+          "runners": 18,
+          "source": "full",
+          "status": "settled",
+          "grade": "failed",
+          "errors": ["F"],
+          "notes": "18-runner Class-5 handicap hurdle; 4 each-way places, Win diluted to the 16+ ceiling. Fitness is the structural edge - only V Power, Midnight Pass (24d) and I Heard A Rumour (28d) are race-fit; everything else is 105-724 days off. Jockey claims verified from SL (Dodd -5 on Highbury Hill, Clarke -7 on Nowherenearmilan). Corner Forward NR, Angel Wave WD (16 ran, 4 places). RESULT (good to soft): winner I Heard A Rumour (7/2f) was one of the three race-fit horses we named as the structural edge - then did not back. Win Highbury Hill (8/1, 205 days off) was always behind, 11th; EW V Power (12/1, fit) 6th; Danger Isabella Islay (20/1) 7th. We named fitness as the edge and made a 205-day absentee the Win over a horse our own analysis flagged as fit - error F (the 'well-in' standout mark ranked above our own stated layoff warning). The fit horse we identified won.",
+          "winner": { "horse": "I Heard A Rumour", "sp": "7/2f", "agentProb": null },
+          "writeup": "jumps/analyses/2026-11-04_chepstow/1540_floyds-handicap-hurdle.md",
+          "updated": "08:00 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "Highbury Hill", "prob": 0.21, "placeProb": 0.50, "finish": "11", "sp": "8/1", "confidence": "medium", "reason": "Well-in (carries 11-8 after Dodd's 5lb claim vs the OR98 she won this exact C&D off in Jan; also 3rd-of-16 here on good-to-soft), 11/11 clean jumper, ran 2nd on her last seasonal reappearance.", "against": "205 days off is longer than any gap she has returned from before, and she relies on a 5lb-claiming conditional." },
+            { "role": "ew", "horse": "V Power", "prob": 0.12, "placeProb": 0.42, "finish": "6", "sp": "12/1", "confidence": "medium", "reason": "Best each-way value - race-fit (24d) and the only fit runner with a strong recent C&D line (2nd of 13 here on good-to-soft on 11 Oct, beat today's Midnight Pass receiving 5lb); stays, likely a big price.", "against": "Still beaten 5L by a facile winner that day and is largely a modest summer flat handicapper - OR87 may be near his ceiling." },
+            { "role": "danger", "horse": "Isabella Islay", "prob": 0.10, "placeProb": 0.38, "finish": "7", "sp": "20/1", "confidence": "low", "reason": "Progressive lightly-raced 4yo who won at today's trip and was a close 3rd next time; chief improver threat, held off the EW slot by 175 days off and only 4 career runs." }
+          ]
+        },
+        {
+          "time": "16:10",
+          "name": "Dunraven Open NH Flat Race (GBB Race)",
+          "type": "NH flat (bumper)",
+          "distance": "2m 16y",
+          "going": "Good to soft",
+          "runners": 15,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": [],
+          "notes": "15 runners, 11 unraced; Win drawn from the raced group per bumper discipline. Confidence low throughout. Point form for raced horses rests on Timeform card commentary (SL profiles 404) - unverified on quality. Mirage D'ainay and Just Colin NR (13 ran, 3 places). RESULT (good to soft): winner Don't Panic (5/2f) was an unraced newcomer, outside our raced-horse group and unrated. Our picks filled 2-3-4: Win Uncle Cc (3/1) 2nd btn 3.25L, Danger Magimax (10/3) 3rd, EW Bears Socks (28/1) 4th. The bumper discipline (rank from the raced group, don't over-rate newcomers - error E) held up its reasoning but missed a well-touted newcomer the market sent off favourite.",
+          "winner": { "horse": "Don't Panic", "sp": "5/2f", "agentProb": null },
+          "writeup": "jumps/analyses/2026-11-04_chepstow/1610_dunraven-open-nh-flat-race.md",
+          "updated": "07:40 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "Uncle Cc", "prob": 0.17, "placeProb": 0.42, "finish": "2", "sp": "3/1", "confidence": "low", "reason": "Only runner with a winning racecourse line (won sole Irish point, Mar 2026); Tizzard yard in top form.", "against": "Single point win on softer/longer; unproven at 2m round a stiff track, 234 days off; fancied newcomers could overrun him." },
+            { "role": "ew", "horse": "Bears Socks", "prob": 0.08, "placeProb": 0.30, "finish": "4", "sp": "28/1", "confidence": "low", "reason": "Runner-up on both point-bumper starts (most consistent raced profile); likely a bigger price with a genuine place chance.", "against": "325-day layoff, unexposed modest point form, small yard without newcomer firepower." },
+            { "role": "danger", "horse": "Magimax", "prob": 0.14, "placeProb": 0.40, "finish": "3", "sp": "10/3", "confidence": "low", "reason": "EUR125k, 2nd on sole Irish point, Cobden booked, Lavelle good with bumper types; chief threat but placed not won." }
+          ]
+        }
+      ]
     }
   ]
 });

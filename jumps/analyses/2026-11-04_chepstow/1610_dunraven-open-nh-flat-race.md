@@ -97,3 +97,14 @@ None declared as of 07:30. A bumper on sound ground is unlikely to see ground-dr
 - SL racecard JSON (card_946955.html) — runners, weights, jockeys, Timeform commentary, insights, previous results
 - SL result page race 904018 — Chepstow 21 Feb 2026 bumper (Ramblingamblinman's only run): https://www.sportinglife.com/racing/results/2026-02-21/chepstow/904018/pertemps-network-maiden-nh-flat-race
 - Going: SL/ATR feed, checked 07:25 Wed 4 Nov (good to soft, per meeting notes)
+
+## Result
+**Won by Don't Panic (5/2f) — an unraced newcomer, outside our raced-horse group and unrated.** Going good to soft (soft in places), weighed in. Mirage D'ainay and Just Colin NR; 13 ran, 3 places.
+
+| Our pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Uncle Cc | Win | 2nd | 3/1 | Only winning racecourse line in the raced group; ran to it, btn 3¼L |
+| Bears Socks | EW | 4th | 28/1 | Most consistent raced profile; just outside the places |
+| Magimax | Danger | 3rd | 10/3 | Placed again, as billed |
+
+Our picks filled **2-3-4**. The bumper discipline (rank from the raced group; don't over-rate newcomers — error E) worked as reasoning but was beaten by a well-touted newcomer the market sent off favourite. Uncle Cc ran a sound race; the winner was simply a better unraced horse than the discipline allows us to back on trust.

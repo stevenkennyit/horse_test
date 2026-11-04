@@ -86,3 +86,14 @@ Field (11 runners → 3 places). Win probabilities: Mr Mcwhinny 0.23, Two To Tan
 ## Sources
 - SL racecard JSON: https://www.sportinglife.com/racing/racecards/2026-11-04/chepstow/racecard/946953/dragonbet-handicap-chase-gbb-race
 - SL profiles (full career, read at source): Mr Mcwhinny https://www.sportinglife.com/racing/profiles/horse/1144436 · Two To Tango https://www.sportinglife.com/racing/profiles/horse/1085895 · Great Dance https://www.sportinglife.com/racing/profiles/horse/1203155 · L'empire Vert https://www.sportinglife.com/racing/profiles/horse/1123266 · Diligent Militia https://www.sportinglife.com/racing/profiles/horse/1202284 · Sage Green https://www.sportinglife.com/racing/profiles/horse/1173999 · plus the remaining five runners' profiles (same path, ids in card).
+
+## Result
+**Won by Sage Green (12/1) — unrated by us.** Going good (good-to-firm in places), weighed in. Bahtiyar, Diligent Militia and Can't Resist It all NR; 8 ran, 3 places.
+
+| Our pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Mr Mcwhinny | Win | F (at the last) | 9/2 | **Fell at the last while challenging the winner** — running to his form-horse billing when the race ended under him |
+| Two To Tango | EW | 2nd | 13/2 | Prominent, kept on at one pace — place chance delivered |
+| Great Dance | Danger | 3rd | 10/3 | Chase debut, no impression but stayed on into 3rd |
+
+A **correct call that lost**: Mr Mcwhinny was unbalanced and fell at the last in the act of challenging — the handicapper-caught-up worry did not stop him, only the fall did. EW and Danger filled 2nd-3rd. The gap: the winner, Sage Green, was not among our three.

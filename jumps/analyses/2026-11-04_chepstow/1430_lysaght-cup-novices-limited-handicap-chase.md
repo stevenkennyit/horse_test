@@ -63,3 +63,14 @@ Three genuine contenders (Black Hawk Eagle, Desertmore News, Rula Bula) separate
 - SL card JSON, race 946952 (field, weights, no claims, run lists, commentaries).
 - SL result API — key chase runs: `943396` Ffos Las (Desertmore News 3rd), `943758` Uttoxeter (Rula Bula 2nd), `907357` Chepstow C&D (Black Hawk Eagle won), `917335` Uttoxeter 2m4f (Black Hawk Eagle 4th), `912359` Hereford (Black Hawk Eagle fell), `940563` Newton Abbot (Inside Man 4th), `943061` Worcester (Tour Ovalie 3rd).
 - Fact pack `race_1430.md` (in-running comments) cross-checked against the above.
+
+## Result
+**Won by Tour Ovalie (10/3) — our Each-Way.** Going good (good-to-firm in places), weighed in. Desertmore News (our Danger) was a non-runner; 4 ran.
+
+| Our pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Black Hawk Eagle | Win | 3rd of 4 | 7/1 | Led soon after the 2nd, headed before the 4th, weakened — the C&D-winner case did not hold |
+| Tour Ovalie | EW | **1st** | 10/3 | Led before the 4th, jumped the last well, kept on |
+| Desertmore News | Danger | NR | — | Non-runner |
+
+We **found the winner as the EW**, but her value thesis (held up, quickening late if the two front-runners duel) did not play out: with Desertmore News withdrawn and co-danger Rula Bula (7/4) unseated early, there was no duel and she won by making her own running. A good result for the shortlist; the top-rated runner disappointed.

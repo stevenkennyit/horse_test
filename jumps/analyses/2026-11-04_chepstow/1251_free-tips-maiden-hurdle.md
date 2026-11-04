@@ -80,3 +80,14 @@ Paul Nicholls' €105,000, Walk In The Park-sired, unbeaten-in-points gelding, f
 - SL racecard JSON (race_id 946949): `/racing/racecards/2026-11-04/chepstow/...` — commentary, insights, headgear, course-win flag.
 - SL horse profiles (full run lists): `/racing/profiles/horse/1215623` (Red Acres Max), `/1207542` (Cool Customer), `/1219505` (New Rules), `/1244310` (Docket Man), `/1244311` (Double Ten), `/1214031` (Pitch And Toss), `/1237499` (Secret Jet Away), `/1116997` (Forest Hills), `/1204224` (Saint Invictus), plus the remaining declared runners.
 - Meeting notes: going (SL / ATR course feed), checked 07:25 Wed 4 Nov.
+
+## Result
+**Won by New Rules (7/2) — our Danger.** Going good to soft (soft in places), weighed in. Secret Jet Away NR; 14 ran, 3 places.
+
+| Our pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Red Acres Max | Win | 2nd | 5/6f | Disputed lead, headed two out, outpaced — sent off favourite, kept on but no match for the winner |
+| Cool Customer | EW | 3rd | 6/1 | Chased the leaders, kept on at one pace — place chance delivered |
+| New Rules | Danger | **1st** | 7/2 | Went clear two out, kept on well |
+
+Our three picks filled **1-2-3**, but again with the order wrong. New Rules (Nicholls, Walk In The Park, unbeaten in points) was downgraded to Danger on an 11-month layoff and a single career run; he won anyway. The market also made Red Acres Max the clear favourite, so this was a defensible ranking beaten by a strongly-bred returning pointer rather than a clear mis-read — but it is the second race running where our Danger beat our Win.

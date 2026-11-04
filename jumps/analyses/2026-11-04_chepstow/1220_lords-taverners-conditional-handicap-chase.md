@@ -68,3 +68,14 @@ The first pass flagged jockey claims as the one soft spot (only SL data). Now cr
 - Listed weights are raw/pre-claim and map cleanly 1lb per OR point (11-10 at OR105 → 11-2 at OR97), confirming the top weights are not already net of a claim.
 
 No change to the selections or probabilities — the analysis already treated Gingerbred as racing off ~10-10 and the quartet at listed weights. Gap closed.
+
+## Result
+**Won by Gingerbred (10/11f) — our Danger.** Going good (good-to-firm in places), weighed in.
+
+| Our pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Roe And Co | Win | 2nd | 9/2 | Led after the 2nd, headed before the 8th, kept on at one pace — C&D form held, but outpaced by the winner |
+| Ballynaheer | EW | PU (before 3 out) | 9/1 | Outpaced before the 8th, tailed off — the "form tailed off since April" against note was right |
+| Gingerbred | Danger | **1st** | 10/11f | Regained lead before the 8th, went clear, kept on well |
+
+Our two principals filled 1-2, but the **order was wrong**. Gingerbred was capped to Danger on an asserted soft-ground/longer-trip mismatch; the race disproved it — he won off a last-time success carrying the lightest weight (6lb claim) at 2m7f on sound ground. **Candidate new error K (proposed):** a last-time-out winner that is clearly well-in should not drop below the Win to Danger on a ground/trip mismatch that its *own* runs do not evidence.

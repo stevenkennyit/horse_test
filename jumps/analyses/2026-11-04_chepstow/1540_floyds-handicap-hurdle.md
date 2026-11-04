@@ -107,3 +107,14 @@ Field win-probability spread (sums ~100%, Win highest, diluted to the 16+ handic
 - SL result 908891 (Hereford 25 Mar 2026): Isabella Islay win verified.
 - SL result 910698 (Chepstow 2 Apr 2026, 2m7f): Man Maid 3rd / stamina verified.
 - SL profiles 1076401 (V Power), 1190562 (Midnight Pass), 1209359 (Isabella Islay), 1204485 (Corner Forward), 1211646 (I Heard A Rumour): full run lists and days-since.
+
+## Result
+**Won by I Heard A Rumour (7/2f) — unrated by us, but named in our own analysis as one of only three race-fit runners.** Going good to soft (soft in places), weighed in. Corner Forward NR, Angel Wave WD; 16 ran, 4 places.
+
+| Our pick | Role | Finish | SP | Verdict |
+|---|---|---|---|---|
+| Highbury Hill | Win | 11th (last of finishers) | 8/1 | Always behind — the 205-day layoff (longer than any gap she had returned from) told, as the against-note warned |
+| V Power | EW | 6th | 12/1 | Lost position three out, soon weakened |
+| Isabella Islay | Danger | 7th | 20/1 | Outpaced, weakened after two out |
+
+**Failed — error F.** Our own structural read named fitness as the edge and listed the three race-fit horses (V Power, Midnight Pass, **I Heard A Rumour**). We then made a 205-day absentee the Win over a horse we had flagged as fit — the "well-in" weight/mark ranked above our own stated layoff warning. The fit horse we identified won; our long-absent Win ran as if unready. Midnight Pass (another fit one) pulled up, V Power (fit, our EW) was 6th — so fitness was the edge, and we did not back it where it pointed hardest.
