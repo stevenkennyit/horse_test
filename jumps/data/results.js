@@ -183,6 +183,27 @@
           ]
         },
         {
+          "time": "15:40",
+          "name": "Floyds Turfcare & Weed Solutions Handicap Hurdle",
+          "type": "handicap hurdle",
+          "distance": "2m 3f 100y",
+          "going": "Good to soft (soft in places)",
+          "runners": 18,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "18-runner Class-5 handicap hurdle; 4 each-way places, Win diluted to the 16+ ceiling. Fitness is the structural edge - only V Power, Midnight Pass (24d) and I Heard A Rumour (28d) are race-fit; everything else is 105-724 days off. Jockey claims verified from SL (Dodd -5 on Highbury Hill, Clarke -7 on Nowherenearmilan).",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-04_chepstow/1540_floyds-handicap-hurdle.md",
+          "updated": "08:00 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "Highbury Hill", "prob": 0.21, "placeProb": 0.50, "finish": "-", "confidence": "medium", "reason": "Well-in (carries 11-8 after Dodd's 5lb claim vs the OR98 she won this exact C&D off in Jan; also 3rd-of-16 here on good-to-soft), 11/11 clean jumper, ran 2nd on her last seasonal reappearance.", "against": "205 days off is longer than any gap she has returned from before, and she relies on a 5lb-claiming conditional." },
+            { "role": "ew", "horse": "V Power", "prob": 0.12, "placeProb": 0.42, "finish": "-", "confidence": "medium", "reason": "Best each-way value - race-fit (24d) and the only fit runner with a strong recent C&D line (2nd of 13 here on good-to-soft on 11 Oct, beat today's Midnight Pass receiving 5lb); stays, likely a big price.", "against": "Still beaten 5L by a facile winner that day and is largely a modest summer flat handicapper - OR87 may be near his ceiling." },
+            { "role": "danger", "horse": "Isabella Islay", "prob": 0.10, "placeProb": 0.38, "finish": "-", "confidence": "low", "reason": "Progressive lightly-raced 4yo who won at today's trip and was a close 3rd next time; chief improver threat, held off the EW slot by 175 days off and only 4 career runs." }
+          ]
+        },
+        {
           "time": "16:10",
           "name": "Dunraven Open NH Flat Race (GBB Race)",
           "type": "NH flat (bumper)",
