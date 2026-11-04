@@ -67,10 +67,10 @@
           "status": "pending",
           "grade": "pending",
           "errors": [],
-          "notes": "5-runner conditional jockeys' handicap chase; 2 places. Jockey claims a soft spot - only Gingerbred's 6lb shows on SL; the other four read as no-claim from the SL card only (ATR/RP cards would not load). If other conditionals claim, Gingerbred's weight edge narrows.",
+          "notes": "5-runner conditional jockeys' handicap chase; 2 places. Jockey claims verified (SL card + Racing Post card, 08:05): only Gingerbred's rider claims (6lb, rides ~10-10); the other four carry their listed (raw, pre-claim) weights. No pick change.",
           "winner": null,
           "writeup": "jumps/analyses/2026-11-04_chepstow/1220_lords-taverners-conditional-handicap-chase.md",
-          "updated": "07:55 Wed 4 Nov",
+          "updated": "08:05 Wed 4 Nov",
           "picks": [
             { "role": "win", "horse": "Roe And Co", "prob": 0.33, "placeProb": 0.60, "finish": "-", "confidence": "medium", "reason": "Only C&D winner (Chepstow 2m7f136y, Nov 2025, good/g-firm); all three chase wins at 2m6f-2m7f (3/3 complete), both chase PUs only when stepped to 3m1f; ideal trip and ground, fit off two hurdle 3rds.", "against": "About 8lb higher than his 2m7f winning marks and back over fences after two hurdle runs; small-field upset risk." },
             { "role": "ew", "horse": "Ballynaheer", "prob": 0.17, "placeProb": 0.47, "finish": "-", "confidence": "medium", "reason": "Won off today's exact mark (104) at 2m7f191y in April, stays well, 18/19 chase completions, races prominently - strong place shout at a longer price.", "against": "Form has tailed off since April and he gives about 13lb to Gingerbred." },

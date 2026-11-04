@@ -60,3 +60,11 @@ Roe And Co (0.33) holds the most chance on decisive C&D/trip/ground evidence and
 - SL racecard JSON: https://www.sportinglife.com/racing/racecards/2026-11-04/chepstow/racecard/947462/lords-taverners-conditional-jockeys-handicap-chase-gbb-race
 - SL profiles (full career + in-running): Roe And Co /racing/profiles/horse/1170928; Gingerbred /1055077; Ballynaheer /1122796; Annie Express /1126643; Emailandy /1092273
 - Going: Sporting Life going page + ATR Chepstow course feed (checked 07:25)
+
+## Update 08:05 — jockey claims verified
+The first pass flagged jockey claims as the one soft spot (only SL data). Now cross-checked against **two independent sources** (Sporting Life card JSON + Racing Post card):
+- **Only Gingerbred's rider (Will Featherstone) claims — 6lb.** Gingerbred therefore races off an effective ~10-10 (listed 11-2 minus 6lb).
+- The other four (Annie Express, Ballynaheer, Emailandy, Roe And Co) carry their **listed weights with no claim.**
+- Listed weights are raw/pre-claim and map cleanly 1lb per OR point (11-10 at OR105 → 11-2 at OR97), confirming the top weights are not already net of a claim.
+
+No change to the selections or probabilities — the analysis already treated Gingerbred as racing off ~10-10 and the quartet at listed weights. Gap closed.
