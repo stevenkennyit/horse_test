@@ -46,5 +46,122 @@
     "I": "Win probability and confidence over-concentrated on a pick carrying its own recorded jumping or riding (amateur claim) doubts",
     "J": "A well-handicapped, well-backed horse left unranked (or downgraded) purely on a run of recent non-completions (PU/F) treated as proof it 'won't complete'"
   },
-  "meetings": []
+  "meetings": [
+    {
+      "date": "2026-11-04",
+      "course": "Chepstow",
+      "country": "Wales",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Hurdle: good to soft (soft in places); Chase: good to good-to-firm in places (SL/ATR feed, checked 07:25 Wed 4 Nov)",
+      "dataErrors": [],
+      "races": [
+        {
+          "time": "12:51",
+          "name": "Free Tips On attheraces.com Maiden Hurdle (GBB Race)",
+          "type": "maiden hurdle",
+          "distance": "2m 3f 100y",
+          "going": "Good to soft (soft in places)",
+          "runners": 15,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "13 of 15 are hurdle debutants; ranked on bumper/point ability, stamina for a stiff 2m3f and trainer skill with first-time hurdlers. Point/Irish-point form from SL card commentary (SL profiles omit point runs) - unverified on quality.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-04_chepstow/1251_free-tips-maiden-hurdle.md",
+          "updated": "07:45 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "Red Acres Max", "prob": 0.28, "placeProb": 0.55, "finish": "-", "confidence": "medium", "reason": "Strongest verified racecourse profile - won at Carlisle (forged clear), battling 2nd on heavy at Fontwell, plus a point win; hot Snowden yard, G Sheehan.", "against": "Hurdle debutant (jumping on trust), bumper win was a 4-runner race, 227 days off." },
+            { "role": "ew", "horse": "Cool Customer", "prob": 0.12, "placeProb": 0.40, "finish": "-", "confidence": "medium", "reason": "Only course winner (won his bumper here), 3/3 placed on soft/gd-sf, stamina sire - genuine place chance at a longer price than the Win.", "against": "Modest Class 5 bumper level, 234 days off, hurdles unknown." },
+            { "role": "danger", "horse": "New Rules", "prob": 0.18, "placeProb": 0.42, "finish": "-", "confidence": "medium", "reason": "Nicholls' EUR105k, Walk In The Park, unbeaten in points, Sam Twiston-Davies; chief threat but 11-month absence and a single career run keep him a danger not the win." }
+          ]
+        },
+        {
+          "time": "13:25",
+          "name": "LSL Racing 'National Hunt' Maiden Hurdle (GBB Race) (Div 1)",
+          "type": "maiden hurdle",
+          "distance": "2m 16y",
+          "going": "Good to soft (soft in places)",
+          "runners": 13,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "No runner has won over hurdles; mostly hurdle debutants on bumper/point form. Ranked on bumper/point class, stamina for the stiff 2m and trainer conversion. Point form and claim amounts from card commentary - unverified; does not change the order.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-04_chepstow/1325_lsl-national-hunt-maiden-hurdle-div1.md",
+          "updated": "07:45 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "Order On Time", "prob": 0.30, "placeProb": 0.58, "finish": "-", "confidence": "medium", "reason": "Only proven course-and-distance winner (won an 11-runner bumper here over this exact 2m16y, going clear; EUR200k; Nicholls/S Twiston-Davies).", "against": "Hurdle jumping unproven, 216 days off, and St James's Finest won in a higher grade." },
+            { "role": "ew", "horse": "Plan De Stan", "prob": 0.09, "placeProb": 0.32, "finish": "-", "confidence": "low", "reason": "Twice runner-up at 2m in bumpers (staying-on, good and soft), stays the stiff track, Quinn's claim gives relief - best proven place form at the trip at a price.", "against": "Never jumped a hurdle, 179 days off, 0 wins from 3 (placed-not-won)." },
+            { "role": "danger", "horse": "St James's Finest", "prob": 0.24, "placeProb": 0.52, "finish": "-", "confidence": "medium", "reason": "Sole Class-2 bumper winner (best bumper grade), ran here 4th on debut, bred to stay, Skelton/H Skelton; held below the Win on Order On Time's more recent C&D win and shorter layoff." }
+          ]
+        },
+        {
+          "time": "13:58",
+          "name": "LSL Racing 'National Hunt' Maiden Hurdle (GBB Race) (Div 2)",
+          "type": "maiden hurdle",
+          "distance": "2m 16y",
+          "going": "Good to soft (soft in places)",
+          "runners": 12,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Weak maiden; exposed hurdle form modest, so unexposed point/bumper recruits favoured. No F/U/P/R in the field; no jockey claims (verified). Point-win manner from SL spotlight - unverified on quality.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-04_chepstow/1358_lsl-national-hunt-maiden-hurdle-div2.md",
+          "updated": "07:45 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "A Sight To Sea", "prob": 0.33, "placeProb": 0.60, "finish": "-", "confidence": "medium", "reason": "EUR190k Irish point winner, Skelton/Harry Skelton, Timeform 5* and card top-ranked, hurdle debut - the archetype that lands weak maidens; stays 2m easily.", "against": "346-day layoff AND hurdle debut at once - two unknowns, with only one point run as evidence." },
+            { "role": "ew", "horse": "The Lightmaker", "prob": 0.13, "placeProb": 0.50, "finish": "-", "confidence": "low", "reason": "Most reliable form (2nd in a Chepstow 2m16y bumper over this exact C&D, then 3rd), prominent, proven ground; genuine place at a longer price.", "against": "Never jumped a hurdle, small yard (Dan Horsford) - the jumping is the whole question." },
+            { "role": "danger", "horse": "Jerry The Dreamer", "prob": 0.18, "placeProb": 0.45, "finish": "-", "confidence": "medium", "reason": "Other expensive point-winning Rules debutant (won 2nd of 2 Irish points, TF4*, Mulholland), 283 days off; chief threat if A Sight To Sea's layoff tells." }
+          ]
+        },
+        {
+          "time": "15:05",
+          "name": "DragonBet Handicap Chase (GBB Race)",
+          "type": "handicap chase",
+          "distance": "2m 3f 98y",
+          "going": "Good to good-to-firm in places",
+          "runners": 11,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "11-runner handicap chase with three chase debutants (all Step-13 capped); Win held under the ~25% ceiling and probability spread wide. Course form not found for the top two; jockey claims only partly cross-checked. Bahtiyar ran yesterday (1-day turnaround).",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-04_chepstow/1505_dragonbet-handicap-chase.md",
+          "updated": "07:50 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "Mr Mcwhinny", "prob": 0.23, "placeProb": 0.52, "finish": "-", "confidence": "medium", "reason": "Form horse (141112, 4 of last 6 incl a chase hat-trick), 6/6 chase completions in 2026, travels strongly, trip and good/good-to-firm ground ideal, in-form Tom Ellis yard.", "against": "Every win was Class 5 off 78-90; now 24lb higher (OR 102) in his first Class-4 handicap chase - the handicapper may have caught up." },
+            { "role": "ew", "horse": "Two To Tango", "prob": 0.16, "placeProb": 0.50, "finish": "-", "confidence": "medium", "reason": "Placed 4 of last 5, won over today's exact trip (2m3f98y Stratford), sound jumper (21/22 completions), good-to-firm proven - strong place chance at a longer price than the Win.", "against": "Chronic non-winner (one win amid many placings); his trip win was at sharp, flat Stratford, not stiff undulating Chepstow (course unproven)." },
+            { "role": "danger", "horse": "Great Dance", "prob": 0.10, "placeProb": 0.35, "finish": "-", "confidence": "low", "reason": "Highest ability on hurdle form (OR 112, listed-placed), shaped well on C&D return - but a chase debut off top weight 12-2 caps her to Danger not Win." }
+          ]
+        },
+        {
+          "time": "16:10",
+          "name": "Dunraven Open NH Flat Race (GBB Race)",
+          "type": "NH flat (bumper)",
+          "distance": "2m 16y",
+          "going": "Good to soft",
+          "runners": 15,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "15 runners, 11 unraced; Win drawn from the raced group per bumper discipline. Confidence low throughout. Point form for raced horses rests on Timeform card commentary (SL profiles 404) - unverified on quality.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-04_chepstow/1610_dunraven-open-nh-flat-race.md",
+          "updated": "07:40 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "Uncle Cc", "prob": 0.17, "placeProb": 0.42, "finish": "-", "confidence": "low", "reason": "Only runner with a winning racecourse line (won sole Irish point, Mar 2026); Tizzard yard in top form.", "against": "Single point win on softer/longer; unproven at 2m round a stiff track, 234 days off; fancied newcomers could overrun him." },
+            { "role": "ew", "horse": "Bears Socks", "prob": 0.08, "placeProb": 0.30, "finish": "-", "confidence": "low", "reason": "Runner-up on both point-bumper starts (most consistent raced profile); likely a bigger price with a genuine place chance.", "against": "325-day layoff, unexposed modest point form, small yard without newcomer firepower." },
+            { "role": "danger", "horse": "Magimax", "prob": 0.14, "placeProb": 0.40, "finish": "-", "confidence": "low", "reason": "EUR125k, 2nd on sole Irish point, Cobden booked, Lavelle good with bumper types; chief threat but placed not won." }
+          ]
+        }
+      ]
+    }
+  ]
 });
