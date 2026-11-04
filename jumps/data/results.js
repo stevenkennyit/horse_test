@@ -46,5 +46,38 @@
     "I": "Win probability and confidence over-concentrated on a pick carrying its own recorded jumping or riding (amateur claim) doubts",
     "J": "A well-handicapped, well-backed horse left unranked (or downgraded) purely on a run of recent non-completions (PU/F) treated as proof it 'won't complete'"
   },
-  "meetings": []
+  "meetings": [
+    {
+      "date": "2026-11-05",
+      "course": "Newbury",
+      "country": "GB",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Hurdle course good to soft (provisional, overnight Racing Post card, checked 21:50 Wed 4 Nov; no chases today; official GoingStick reading due the morning of 5 Nov)",
+      "dataErrors": [],
+      "races": [
+        {
+          "time": "15:33",
+          "name": "British Horse Society Open National Hunt Flat Race (Category 1 Elimination) (GBB Race) (Div I)",
+          "type": "NH flat (bumper)",
+          "distance": "2m69y",
+          "going": "Good to soft (provisional)",
+          "runners": 11,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "New-season bumper of newcomers: only 3 of 11 have any race form (single points), the rest unraced under Rules. Provisional overnight going; re-check going + non-runners AM 5 Nov.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-05_newbury/1533_bhs-open-nh-flat-div1.md",
+          "updated": "22:10 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "Wordfromhome", "prob": 0.28, "placeProb": 0.52, "finish": "-", "confidence": "medium", "reason": "Only confirmed race-winner in the field (won 4yo geldings maiden point, Monksgrange 29 Mar 2026); now Nicholls/S Twiston-Davies, EUR65k Derby Sale; galloping stayers' track suits a point winner.", "against": "Point-to-bumper translation unproven, 221 days off and a Rules debut, against well-bred fresh newcomers from Henderson, Fry, Skelton and Greatrex." },
+            { "role": "ew", "horse": "He's Happy", "prob": 0.08, "placeProb": 0.30, "finish": "-", "confidence": "low", "reason": "The only other raced runner (2nd in a point) and the field's only 5yo, so most mature; a placed pointer is a sounder each-way basis at a long price than the unraced newcomers.", "against": "Small yard (Syd Hosie), a single placed point with venue/margin not found, ~271-day absence and a bumper debut." },
+            { "role": "danger", "horse": "Block Flight", "prob": 0.14, "placeProb": 0.38, "finish": "-", "confidence": "medium", "reason": "Henderson/de Boinville elite newcomer combo on a track that suits the type; chief threat but UNRACED, so capped per Step 14 (not Win, not above 30%)." }
+          ]
+        }
+      ]
+    }
+  ]
 });
