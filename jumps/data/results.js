@@ -57,6 +57,48 @@
       "dataErrors": [],
       "races": [
         {
+          "time": "12:20",
+          "name": "Lords Taverners Conditional Jockeys' Handicap Chase (GBB Race)",
+          "type": "handicap chase",
+          "distance": "2m 7f 136y",
+          "going": "Good to good-to-firm in places",
+          "runners": 5,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "5-runner conditional jockeys' handicap chase; 2 places. Jockey claims a soft spot - only Gingerbred's 6lb shows on SL; the other four read as no-claim from the SL card only (ATR/RP cards would not load). If other conditionals claim, Gingerbred's weight edge narrows.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-04_chepstow/1220_lords-taverners-conditional-handicap-chase.md",
+          "updated": "07:55 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "Roe And Co", "prob": 0.33, "placeProb": 0.60, "finish": "-", "confidence": "medium", "reason": "Only C&D winner (Chepstow 2m7f136y, Nov 2025, good/g-firm); all three chase wins at 2m6f-2m7f (3/3 complete), both chase PUs only when stepped to 3m1f; ideal trip and ground, fit off two hurdle 3rds.", "against": "About 8lb higher than his 2m7f winning marks and back over fences after two hurdle runs; small-field upset risk." },
+            { "role": "ew", "horse": "Ballynaheer", "prob": 0.17, "placeProb": 0.47, "finish": "-", "confidence": "medium", "reason": "Won off today's exact mark (104) at 2m7f191y in April, stays well, 18/19 chase completions, races prominently - strong place shout at a longer price.", "against": "Form has tailed off since April and he gives about 13lb to Gingerbred." },
+            { "role": "danger", "horse": "Gingerbred", "prob": 0.25, "placeProb": 0.52, "finish": "-", "confidence": "medium", "reason": "Won last time and far the lightest via the 6lb claim; but a soft-ground 3m+ stayer dropping to 2m7f on sound ground and a keen-goer - ground/trip mismatch caps him to Danger." }
+          ]
+        },
+        {
+          "time": "14:30",
+          "name": "Lysaght Cup Novices' Limited Handicap Chase (GBB Race)",
+          "type": "handicap chase",
+          "distance": "2m 16y",
+          "going": "Good to good-to-firm in places",
+          "runners": 5,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "5-runner Class-3 novice limited handicap chase; 2 places. No jockey claims (verified). Four of five have just one completed chase start; Rula Bula (0.23) is a co-danger. Chase going good to good-to-firm.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-04_chepstow/1430_lysaght-cup-novices-limited-handicap-chase.md",
+          "updated": "07:55 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "Black Hawk Eagle", "prob": 0.28, "placeProb": 0.52, "finish": "-", "confidence": "medium", "reason": "Verified winner of this exact C&D (Chepstow 2m16y, made all, won going away) off a similar fresh break; back to his ideal 2m trip on suitable ground - the only strong proven C&D form in the race.", "against": "172 days off at 8yo with two poor runs since (a fall when keen-leading and a 44L-beaten 4th, both at 2m4f) and a likely duel for the lead with Desertmore News." },
+            { "role": "ew", "horse": "Tour Ovalie", "prob": 0.12, "placeProb": 0.30, "finish": "-", "confidence": "low", "reason": "Bottom weight, 6-time winner at ~2m, stayed on into 3rd on her chase debut beaten only 4.75L; held-up style suits if the two front-runners duel - genuine quarter-odds place value at a price.", "against": "Jumped right / hung left on her one chase start - a worry reverting to a left-handed track - and is below the proven rivals on form (place play, not a win call)." },
+            { "role": "danger", "horse": "Desertmore News", "prob": 0.25, "placeProb": 0.47, "finish": "-", "confidence": "medium", "reason": "Progressive front-runner, fitter for his first run back (21d), completed chase debut cleanly, good ground to suit; chief threat but stamina up the Chepstow hill and the pace clash are doubts." }
+          ]
+        },
+        {
           "time": "12:51",
           "name": "Free Tips On attheraces.com Maiden Hurdle (GBB Race)",
           "type": "maiden hurdle",
