@@ -4,10 +4,10 @@
 - **Off:** 13:17 local (UK)
 - **Code / type:** Hurdle — Maiden Hurdle (non-handicap), Class 3, GBB Race, 4yo+
 - **Distance:** 2m½f (2m 69y), 8 flights
-- **Going:** GOOD TO SOFT (hurdle course) — **PROVISIONAL**, per Racing Post card, checked ~21:50 Wed 4 Nov GMT. Official raceday reading is published the morning of 5 Nov and can shift; treat as provisional and re-check close to the off.
+- **Going:** GOOD TO SOFT, SOFT IN PLACES (GoingStick 4.6) — **official raceday reading, confirmed 08:52 Thu 5 Nov** (matches the overnight provisional). Verified. Still worth a last check at the off for any late change.
 - **Field size:** 9 runners; 3 each-way places. All carry 11st 4lb (fillies/mares 7lb allowance applies but **there are no fillies/mares — all nine are geldings**, verified). All ridden by senior jockeys: **no claims**, so weights are level across the field.
-- **Non-runners:** none listed, checked ~21:55 Wed 4 Nov GMT (≈15.4h before the off). Re-check in the gap pass / morning of the race.
-- **Analysis prepared:** ~22:30 Wed 4 Nov GMT.
+- **Non-runners:** none declared, re-checked 08:52 Thu 5 Nov via the Sporting Life race API (race 947093). Re-check once more near the off.
+- **Analysis prepared:** ~22:30 Wed 4 Nov GMT; **gap-filling pass completed ~09:10 Thu 5 Nov** (full run histories and in-running comments now read at source).
 
 **Analysis source:** full (independent analysis).
 
@@ -15,7 +15,11 @@
 
 ## Shape of the race
 
-A wide-open season-opener maiden. **Only two runners have proven hurdle form** (verified from RPR + runs): Moments Away (RPR 128, placed on debut) and Fervent (RPR 104). The other seven are either hurdle debutants off bumper/point/Flat form, or returning from long absences. Treat jumping as unproven for the debutants (Step 3.3); lean on bumper/point form, pedigree for stamina and trainer record with newcomers. Newbury is a galloping, stiff, fair left-hander with a long run-in (~1½f / 255–320y per sources) that rewards genuine stayers and sound, bold jumpers — jumping and stamina preferred to raw pace; no clear hurdle pace bias found, treat pace as neutral. No draw factor over jumps.
+A wide-open season-opener maiden. **Only two runners have proven hurdle form** (verified from RPR + runs read at source): Moments Away (RPR 128, 2nd on debut) and Fervent (RPR 104, one completion from two runs). The other seven are hurdle debutants off bumper/point/Flat form or returning from long absences. Treat jumping as unproven for the debutants (Step 3.3); lean on bumper/point form, pedigree for stamina and trainer record with newcomers.
+
+**Key verified head-to-head (Step 5/ the cleanest signal):** Moments Away and Merlin Allen met in the **Grade 2 bumper at Aintree (11 Apr 2026, 20 ran, level weights)** — **Merlin Allen finished 3rd, Moments Away 5th, ~4L adrift** of him (in-running read at source). On bumper ability Merlin Allen is the better horse; the open question is that he has **never jumped a hurdle**, whereas Moments Away has (scrappily). That tension is the race.
+
+Newbury is a galloping, stiff, fair left-hander with a long run-in (~1½f / 255–320y per sources) that rewards genuine stayers and sound, bold jumpers — jumping and stamina preferred to raw pace; no clear hurdle pace bias found, treat pace as neutral. No draw factor over jumps. Ground is good-to-soft/soft in places — all the main contenders have form on good-to-soft or easier (verified).
 
 ## Summary grid (all 9 runners)
 
