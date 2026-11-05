@@ -139,6 +139,27 @@
             { "role": "ew", "horse": "Geissler", "prob": 0.14, "placeProb": 0.40, "finish": "-", "confidence": "low", "reason": "Placed (4th) in an Irish point, now a Henderson/de Boinville debutant (EUR95k, 'yard good record in this'); behind Mister Realistic's point run so should go off a longer price with a genuine place chance - better each-way expectation.", "against": "Wears a first-time hood (quirk/keenness hint) and was only 4th in his point; unproven under Rules." },
             { "role": "danger", "horse": "Mister Realistic", "prob": 0.18, "placeProb": 0.47, "finish": "-", "confidence": "medium", "reason": "Best point line of the raced horses (2nd on sole Irish point), half-brother to a bumper winner, in-form Sean Bowen booked; chief threat to Newgrove if the favourite misfires." }
           ]
+        },
+        {
+          "time": "14:58",
+          "name": "Check Out The BetVictor Bet Builder Novices' Hurdle (GBB Race)",
+          "type": "novices' hurdle",
+          "distance": "2m2f183y",
+          "going": "Good to soft, soft in places",
+          "runners": 10,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Non-handicap novice, 2m2.5f, level weights (no runner has won a hurdle). Only 3 of 10 have any hurdle run; the other 7 are hurdle debutants off point/bumper form. All 10 read at source in the gap pass. Going confirmed good to soft (soft in places); re-check non-runners near the off.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-05_newbury/1458_betvictor-bet-builder-novices-hurdle.md",
+          "updated": "09:05 Thu 5 Nov",
+          "picks": [
+            { "role": "win", "horse": "Coolnav", "prob": 0.26, "placeProb": 0.55, "finish": "-", "confidence": "medium", "reason": "Best verified in-contention hurdle line in the field: 4th of 13 beaten 4L in a competitive Chepstow maiden (2m3f GtS), jumped round, proven to stay the trip on the ground; RPR 120 earned in contention, and beat Company Charge ~2L on identical terms. Proven ability over unraced potential.", "against": "Only a 4th, not a winner; a recorded keen-going streak and an error two out, and a modest yard against well-bred Skelton/Nicholls/Henderson debutants." },
+            { "role": "ew", "horse": "Grand Teton", "prob": 0.12, "placeProb": 0.40, "finish": "-", "confidence": "low", "reason": "The only non-Coolnav runner that is BOTH a proven hurdle completer and a proven 2m4f stayer on today's ground, so lower jumping/stamina risk than every debutant; Henderson with a stable-jockey upgrade (de Boinville); poor bare form keeps the fair price long = place value.", "against": "Winless and placeless in two runs ('made no impression' last time); its RPR/TS were earned while beaten (weak signal)." },
+            { "role": "danger", "horse": "Percy De Courcy", "prob": 0.17, "placeProb": 0.42, "finish": "-", "confidence": "medium", "reason": "Unbeaten maiden point winner joining a top yard with champion-stable jockey Harry Skelton - the archetype newcomer that beats exposed maidens; capped by unproven hurdle jumping, a 284-day absence and a flat-bred sire (Poet's Word)." }
+          ]
         }
       ]
     }

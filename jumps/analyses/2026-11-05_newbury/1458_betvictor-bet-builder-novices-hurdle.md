@@ -6,7 +6,7 @@
 - **Code / type:** Hurdle, Class 3, non-handicap novice. For 4yo+ which have NOT won more than one hurdle.
 - **Distance:** 2m2f183y (≈2m2½f, intermediate trip — mild stamina question for pure 2m types)
 - **Weights:** 4yo 10-13, 5yo+ 11-0. Penalty 6lb for a hurdle winner (none carries it → **no runner has won a hurdle**). Fillies & mares 7lb (none in field — all geldings). All carry 11-0 bar the 5lb off Company Charge's claimer, so weight is effectively level.
-- **Going:** Good to Soft (hurdle course), per Racing Post card, checked ~21:50 Wed 4 Nov. **PROVISIONAL** — official raceday reading published morning of 5 Nov and can shift; re-check before the off.
+- **Going:** Good to Soft, Soft in places (GoingStick 4.6) — **official raceday reading, confirmed 08:52 Thu 5 Nov** (the overnight GS read held). Records built on Good to Soft / Soft.
 - **Field size:** 10 runners → **3 each-way places**.
 - **Non-runners:** None at 22:10 Wed 4 Nov (re-check near the off).
 - **Analysis source:** full
@@ -21,13 +21,13 @@ No runner in the field has won a hurdle (all off 11-0, no penalty). Only three h
 |---|---|---|---|---|---|---|---|---|
 | 1 | Company Charge (J Brace 5, N&W Twiston-Davies) | 1 hurdle run, completed 8th; UR at start of a Sep bumper | Stays 2m3f; acts GS | 11-0 −5lb claim = 10-9 (lightest) | 0 wins/4; 3rd in a bumper best | Hurdle 8th/13 Chepstow (beaten 6L, "no danger") | Modest yard form; cheekpieces | Plainly outpaced in only hurdle run |
 | 2 | **Coolnav** (L Williams, J Scott) | 1 hurdle run, completed 4th; not fluent 2 out; keen early | Stays 2m3f on GS (proven in only hurdle run) | 11-0, level | 0 wins/4, 1 bumper 2nd; progressive | **Hurdle 4th/13 Chepstow, beaten 4L** behind Nimba/Stick To The Board (4/5f)/winner | Small yard but genuine effort; RPR 120 earned IN contention | Keen-goer (Step 9); only a 4th, not a winner |
-| 3 | Delilah's Boy (C Gethings, S Drinkwater) | Debut run only ("5"); hurdle jumping ~unproven | Trip/ground record **not found** | 11-0, level | 1 run (5th) — ran 19 days ago (freshest) | No confirmed hurdle win; run type **not found** | Smaller yard | Barely any form read at source — data gap |
+| 3 | Delilah's Boy (C Gethings, S Drinkwater) | Hurdle debut — jumping unproven | By Flag Of Honour (stamina sire); ground untested at trip | 11-0, level | 1 run: **5th of 7 on bumper debut, Newton Abbot** (freshest, ~19d); "others preferred" (RP) | Hurdle debut | Smaller yard | Modest bumper debut; no hurdle/stamina evidence |
 | 4 | Grand Teton (N de Boinville, N Henderson) | 2 completed hurdle runs — proven to get round | **Stays 2m4f** (Ffos Las); acts heavy & GS | 11-0, level | 0 wins, 0 places/2; "made no impression" last | Hurdle 5th/6 Sandown (heavy), 6th/11 Ffos Las 2m4f | **Henderson + stable jockey de Boinville** (up from J Bowen); fresh 207d | Winless, bare form reads poorly; RPR117/TS105 earned while beaten |
-| 5 | Hoeyfield Lad (T Bellamy, D J Jeffreys) | Exposed, inc. a pull-up (P0/34-) | Trip/ground detail **not found** | 11-0, level | Winless, exposed, off **480 days** | No confirmed win; detail not found | Stable/fitness after ~16-month absence a worry | Long layoff + exposed = clear outsider |
+| 5 | Hoeyfield Lad (T Bellamy, D J Jeffreys) | 1 hurdle run — "soundly beaten"; exposed (P0/34-) | By Shantou (stamina); ground detail n/a | 11-0, level | **0-5 in points**, soundly beaten on sole hurdle run last July; off **~480 days** | Winless under any code; beaten on only hurdle start | Jeffreys 0-1 last 14d; ~16-month absence | Winless + beaten hurdler + huge layoff = clear outsider |
 | 6 | Jetaway Holiday (F Gordon, N Henderson) | Point winner; hurdle debut — jumping unproven at pace | Point win implies stamina; GS fine (asserted) | 11-0, level | Point win then well-beaten bumper 5th | Hurdle debut; 5th in Warwick bumper | Henderson; **first-time wind-op (w1) + tongue-tie**; off 211d | Beaten far in only bumper; debut jumping |
 | 7 | Le Roi Remi (J Andrews, T Ellis) | Bumper winner; hurdle debut — jumping unproven | Stays 2m+; **handles soft** (ran on soft twice) | 11-0, level | **Won bumper** (Sandown Nov 25), then 6th/14 & 7th/20 in stronger bumpers | Hurdle debut; proven winner on track at Sandown | Smaller yard; fresh 208d (normal seasonal) | Exposed as only moderate in better bumpers; debut jumping |
 | 8 | Percy De Courcy (H Skelton, D Skelton) | British maiden **point winner**; hurdle debut — jumping unproven at pace | Point win implies stamina; ground untested at this level | 11-0, level | 1 point win (unbeaten under any code) | Hurdle debut | **Top yard + champion-stable jockey H Skelton**; off 284d | Debut jumping + long layoff; sire Poet's Word (flat) |
-| 9 | Sappingirl (S Twiston-Davies, P Nicholls) | Bumper form; hurdle debut — jumping unproven | By Blue Bresil (stamina/jumps sire); GS fine (asserted) | 11-0, level | Bumper 2nd (Fontwell debut) then 6th | Hurdle debut | **Nicholls + S Twiston-Davies**; off **321 days** | Very long layoff; debut jumping |
+| 9 | Sappingirl (S Twiston-Davies, P Nicholls) | Bumper form; hurdle debut — jumping unproven | By Blue Bresil (12f stamina/jumps sire); GS fine | 11-0, level | 2nd on bumper debut (Fontwell) + a later bumper run; "promise in both… one to consider" (RP) | Hurdle debut | **Nicholls (warm 5/28) + S Twiston-Davies**; off **~321 days** | Very long layoff; debut jumping |
 | 10 | Spare The Voice (S Bowen, N Scholfield) | **Point winner**; hurdle debut — jumping unproven | Point win implies stamina; sire Maxios | 11-0, level | 1 point win | Hurdle debut | S Bowen booked; **yard cold (0-19 last 14d)**; off 235d | Cold stable + debut jumping + long layoff |
 
 Scale used for beaten-distance→lbs: ~1lb/length at this intermediate trip.
@@ -63,17 +63,28 @@ Field win-prob spread (sums ≈100%): Coolnav 26, Percy De Courcy 17, Grand Teto
 ### DANGER — Percy De Courcy
 Chief threat if the debutants deliver: an unbeaten British maiden **point winner joining a top yard with the champion-stable jockey Harry Skelton** — the archetype of the newcomer that beats exposed maidens. Not staked. Capped from the top two by **unproven hurdle jumping at racing pace** (Step 3.3/Step 13) and a **284-day absence**, with a flat-bred sire (Poet's Word) leaving the 2m2½f stamina mildly unproven on a stiff track.
 
-## Unverified items / data gaps (for the gap-filling pass)
-- **Delilah's Boy:** could not read its single run (type, course, distance, finish detail) at source — a real gap. *Not found.*
-- **Hoeyfield Lad:** full run history / pull-up context *not found*; treated as outsider on card figures alone.
-- **Percy De Courcy & Spare The Voice:** "point winner" *verified* from Racing Post profile comments, but the specific point venue/date/margin and ground *not found*. Sire data (Poet's Word / Maxios) *verified*.
-- **Jetaway Holiday:** point win (North Shropshire, Ed Vaughan, "took it up four out, drew clear") and well-beaten Warwick bumper 5th are from an Oddschecker preview/point report — *asserted*, not read on an official result; w1/t markers *verified* from the card.
-- **Sappingirl:** 2nd on bumper debut at Fontwell (26 Oct 25) *verified via card/aggregator*; the subsequent 6th (≈19 Dec 25) and 321-day gap *asserted*.
-- **Le Roi Remi:** three bumper runs *verified* (horise aggregator + Sky profile data); the leading "V" in form figures (possible first-time visor) *not found* — headgear uncertain.
-- **Company Charge "p" / Coolnav keen-going:** cheekpieces *asserted* (wore first-time cheekpieces Sep per profile note); keen-going *verified* from Chepstow in-running.
-- **Grand Teton RPR 117 / TS 105:** from RP card — *verified as card figures* but earned while beaten, so weighted down.
-- **Going is provisional** (overnight GS). **Headgear/wind-op** re-check and **non-runner** re-check still to do near the off.
-- Racing Post `/form` tabs and Sky Sports profile pages would not render for plain fetches; data built from Sporting Life profile/result JSON pages, the RP card, and aggregators.
+## Unverified items / data gaps (after the gap-filling pass)
+Resolved since the first pass (now *verified* at source via the Racing Post profile comments / Sporting Life results):
+- **Delilah's Boy:** 5th of 7 on **bumper debut at Newton Abbot**, ~19 days ago; "others preferred"; sire Flag Of Honour. Hurdle debutant. *Verified* (RP profile comment).
+- **Hoeyfield Lad:** **0-5 in points** and soundly beaten on his **sole hurdle run last July** (~480 days ago); sire Shantou; Jeffreys 0-1 last 14d. *Verified* (RP profile comment). Clear outsider.
+- **Jetaway Holiday:** "Point winner; underwhelming under rules thus far"; sire Jet Away (stays); first-time wind-op (w1) + tongue-tie (t) markers *verified* from the card. Point-win venue/margin not individually read (points sit outside the RP/SL result DBs) — immaterial to the ranking.
+- **Sappingirl:** "Promise in both bumpers late last year… one to consider" (RP); 2nd on Fontwell bumper debut *verified*; by Blue Bresil; Nicholls 5-28 (18%) last 14d. *Verified.*
+- **Le Roi Remi:** bumper winner (Sandown NHF, Nov 25) then 6th/14 & 7th/20 in stronger bumpers; RP "could give a good account on his first hurdle start." **No headgear shown on the RP profile — the "V" in the form string is NOT a first-time visor.** Sire Prince Gibraltar.
+- **Percy De Courcy & Spare The Voice:** "British maiden point winner / point winner" *verified* (RP comments); specific point venue/date not in the RP/SL result DBs — immaterial. Sires Poet's Word / Maxios *verified*.
+
+Still open / caveats:
+- **Point-to-point run specifics** (venue, margin, going) for the three point winners remain unread at source — p2p records are not on the RP/SL result pages I can reach; the "point winner" status itself is verified.
+- **Company Charge** cheekpieces: *asserted* (wore first-time cheekpieces at Worcester in Sep per profile note).
+- **Grand Teton RPR 117 / TS 105:** *verified as card figures* but earned while beaten (both runs winless/placeless), so weighted down (Step 8).
+- **Non-runners:** none declared at 08:52 Thu 5 Nov — **re-check near the off**.
+- Racing Post `/form` tabs and Sky Sports profile pages would not render for plain fetches; data built from Sporting Life profile/result JSON, RP profile comments, the RP card and aggregators.
+
+## Update 09:05 Thu 5 Nov (gap-filling pass)
+- **Going confirmed:** official raceday reading Good to Soft, Soft in places (GoingStick 4.6) — overnight read held. No material change to the picture.
+- **All 10 runners now read at source.** Resolutions above: Delilah's Boy (bumper debut 5th/7), Hoeyfield Lad (0-5 points, beaten sole hurdle run, ~16-month absence), Jetaway Holiday, Sappingirl, Le Roi Remi (no first-time visor) and the point winners all confirmed.
+- **Selections unchanged:** WIN Coolnav, EACH-WAY Grand Teton, DANGER Percy De Courcy. Probabilities essentially unchanged (Sappingirl firmer at ~0.09 on the "warm-Nicholls / one to consider" read; Hoeyfield Lad eased to ~0.01 as a winless 16-month absentee).
+- **Each-Way decision (Grand Teton vs Le Roi Remi):** kept **Grand Teton**. For a place-focused each-way the deciding factor is reliability — Grand Teton is the only non-Coolnav runner that is a **proven hurdle completer and a proven 2m4f stayer on today's ground**, so its jumping/stamina risk is lower than every debutant's, and its poor bare form keeps the fair price long enough for place value. Le Roi Remi (a bumper winner since well held in better bumpers, hurdle jumping unproven) is the near-equal alternative and the swap if Grand Teton were a late non-runner.
+- Non-runner re-check still outstanding near the off.
 
 ## Sources
 - RP racecard: https://www.racingpost.com/racecards/36/newbury/2026-11-05/931964
