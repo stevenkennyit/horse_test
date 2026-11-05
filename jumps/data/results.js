@@ -160,6 +160,48 @@
             { "role": "ew", "horse": "Grand Teton", "prob": 0.12, "placeProb": 0.40, "finish": "-", "confidence": "low", "reason": "The only non-Coolnav runner that is BOTH a proven hurdle completer and a proven 2m4f stayer on today's ground, so lower jumping/stamina risk than every debutant; Henderson with a stable-jockey upgrade (de Boinville); poor bare form keeps the fair price long = place value.", "against": "Winless and placeless in two runs ('made no impression' last time); its RPR/TS were earned while beaten (weak signal)." },
             { "role": "danger", "horse": "Percy De Courcy", "prob": 0.17, "placeProb": 0.42, "finish": "-", "confidence": "medium", "reason": "Unbeaten maiden point winner joining a top yard with champion-stable jockey Harry Skelton - the archetype newcomer that beats exposed maidens; capped by unproven hurdle jumping, a 284-day absence and a flat-bred sire (Poet's Word)." }
           ]
+        },
+        {
+          "time": "13:17",
+          "name": "CSP Maiden Hurdle (GBB Race)",
+          "type": "maiden hurdle",
+          "distance": "2m69y",
+          "going": "Good to soft, soft in places",
+          "runners": 9,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Open season-opener maiden, level weights (all 9 geldings, no claims). Only 2 of 9 have hurdle form (Moments Away, Fervent); the other 7 are hurdle debutants. Verified head-to-head: Merlin Allen beat Moments Away ~4L in a Grade 2 bumper, so the top two are near-level - Merlin Allen held to Danger only on unproven hurdle jumping + 208d/wind-op. Going confirmed good to soft (soft in places); re-check non-runners near the off.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-05_newbury/1317_csp-maiden-hurdle.md",
+          "updated": "09:15 Thu 5 Nov",
+          "picks": [
+            { "role": "win", "horse": "Moments Away", "prob": 0.30, "placeProb": 0.58, "finish": "-", "confidence": "medium", "reason": "Only runner proven over hurdles AND placed (RPR 128; 2nd on debut over 2m4f, stays, handles soft) in a field where six rivals have never jumped a hurdle; drops to a sharper 2m69y with Sean Bowen.", "against": "Beaten odds-on last time ('not fluent 7th, no impression') and beaten ~4L by today's rival Merlin Allen in the G2 bumper, so not even the best bumper horse here; 0/5, up in class." },
+            { "role": "ew", "horse": "Fervent", "prob": 0.08, "placeProb": 0.33, "finish": "-", "confidence": "low", "reason": "2nd-best proven hurdle form (RPR 104) and the only non-Moments-Away runner to have completed a hurdle ('kept on' over 2m); galloping 2m69y suits a stayer - a longer-priced place proposition chosen on place expectation.", "against": "That completion was a modest 4th beaten 8.5L, he fell (weakening) on debut, and connections/form say handicaps are more his bag - the place leans on debutants faltering." },
+            { "role": "danger", "horse": "Merlin Allen", "prob": 0.24, "placeProb": 0.52, "finish": "-", "confidence": "medium", "reason": "Strongest pure form in the field (3rd of 20 in a G2 Aintree bumper, ~4L clear of Moments Away at level weights, all on today's ground); held just below the Win only as a hurdle debutant off 208 days after a wind op." }
+          ]
+        },
+        {
+          "time": "14:25",
+          "name": "Pertemps Network Handicap Hurdle (Pertemps Series Qualifier) (GBB Race)",
+          "type": "handicap hurdle",
+          "distance": "3m57y",
+          "going": "Good to soft, soft in places",
+          "runners": 17,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Big-field (17) 3m staying handicap, Pertemps qualifier; 4 each-way places, big-field Win ceiling ~25%. Conditional claims verified (Bill Baxter's 10lb genuine -> eff 10-1). Verified C/D head-to-head: Bill Baxter 2nd over this exact Newbury 3m57y on good-to-soft last Nov (runs well fresh), clear of Docpickedme. One Big Bang (0.11) is co-danger with Miami Magic - the softening ground helps him most. Going eased to good to soft, soft in places; re-check non-runners near the off.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-05_newbury/1425_pertemps-network-handicap-hurdle.md",
+          "updated": "09:05 Thu 5 Nov",
+          "picks": [
+            { "role": "win", "horse": "Kilwaughter", "prob": 0.16, "placeProb": 0.45, "finish": "-", "confidence": "medium", "reason": "Race-fit (14d) and progressive 6yo in a field of 12 reappearances; stays 3m (4th Haydock 3m58y off 125), Newbury course winner, 7lb claim leaves him ~10-7 low in the handicap.", "against": "First try at a stiff 3m on softening ground (his one 3m run was on good at flat Haydock), off a career-high 130, and a quick 14-day turnaround after a hard win." },
+            { "role": "ew", "horse": "Bill Baxter", "prob": 0.12, "placeProb": 0.44, "finish": "-", "confidence": "medium", "reason": "Verified C/D line: 2nd (unlucky, mistake last, headed final 110y) over this EXACT Newbury 3m57y on good-to-soft last Nov, beating Docpickedme ~5L, and that run was fresh off ~187 days - same profile as today; 10lb claim leaves him ~10-1, ~2lb better off than that near-win.", "against": "The 10lb claim reflects a genuinely inexperienced rider on a front-runner needing judgement, in a race with several other front-runners; age 10." },
+            { "role": "danger", "horse": "Miami Magic", "prob": 0.12, "placeProb": 0.38, "finish": "-", "confidence": "medium", "reason": "Well-handicapped progressive chaser (rated 145) reverting to hurdles off 138 with a verified first-time wind op; stays 3m (fell in 3rd in a G1, jumping not stamina). Co-danger One Big Bang (0.11) the softening ground helps most." }
+          ]
         }
       ]
     }

@@ -108,7 +108,45 @@ Field win-probability spread (sums ≈1.00): Kilwaughter .16, Miami Magic .13, O
 - **RP "C/D" card markers** not individually reconciled: Gowel Road's apparent C/D marker is **not supported** by any Newbury 3m run in his profile (his Newbury form is at 2m, 2020–21) — treat his "course/distance winner" tag with caution.
 - Full result-page in-running comments were read **via the Sporting Life profile ride descriptions** (which carry the jumping/in-running line for each run); Racing Post result pages not separately opened for every F/U/P run — to be spot-checked in the gap-fill pass for Moon Chime (F), Bill Baxter (UR), Miami Magic (F), Doughmore Bay (PU) and the key C/D lines.
 
+## Update 09:05 Thu 5 Nov (gap-fill pass — ~5h20m to off)
+
+**Raceday going (verified):** official **Good to Soft, Soft in places, GoingStick 4.6** — a slight easing from the overnight "good to soft." Direction of travel favours proven soft-ground stayers (One Big Bang, Game Colours, Bill Baxter, Docpickedme) and adds a touch more stamina strain; it marginally queries the pure-speed/sharp-track types (Moon Chime, Splendid Fellow, King Of The Lake) and marginally queries Kilwaughter's **first attempt at a stiff 3m on softening ground** (his one 3m run was on *good* at flat Haydock). **Non-runners: none declared yet — re-check near the off.**
+
+**Claims verified (big ones resolved).** GB rules **do** allow a **10lb claim** for a conditional riding for their employing trainer with fewer than 5 career wins — so **Bill Baxter's 10lb (Richard Upton, Greatrex's conditional, winless in 36+ rides) is genuine**: he races off **effective 10-1**. Also confirmed on the RP card: Kilwaughter — Stenhouse **(7)** → **10-7**; Docpickedme — McConville **(7)** → **10-2**; Gowel Road McCain-Mitchell (3); Moon Chime Slatter (3); Walking On Air Bevan (7). *Caveat on the 10lb:* it reflects a genuinely inexperienced rider — a real tactical risk on a front-running stayer (see Bill Baxter case-against).
+
+**Gowel Road "CD" resolved (not a card error, but overstated):** **C** is genuine — he won at Newbury over **2m69y** (Jan & Feb 2021). **D** derives from his longest win, the 2m7f213y Cleeve Hurdle (≈3m, Jan 2025), which RP bands as a 3m win. He has **no win at today's 3m½f trip and none beyond 2m7f213y** — so the marker should not be read as proven stamina/course form at this specific trip.
+
+**Four non-completions read in full at the result pages (confirmed):**
+- **Miami Magic** — fell 4 out when a clear 3rd of 8 in a **Grade 1** chase (Mildmay, Aintree); hit 15th then fell (Jordans Cross brought down at the same fence). Stamina was *not* the issue (in contention over 3m); jumping was — and hurdles lower that risk. *Read confirmed.*
+- **Moon Chime** — over just 2m3f he led 2 out but his **advantage was "diminishing" (being reeled in) when he fell at the last** — a tiring fall. Reinforces the **3m stamina doubt**; the going easing adds to it.
+- **Bill Baxter** — isolated **early** chase error (UR 2nd) in a Soft/Heavy Premier chase (Royale Pagaille also made bad mistakes/PU'd); irrelevant to his reliable hurdling.
+- **Doughmore Bay** — PU on his **only chase start** (bad mistake 2nd, detached); correctly set aside for a hurdle race.
+
+**Key new evidence — direct C/D head-to-head (strongest single line in the race).** Bill Baxter and Docpickedme both ran in last year's **same Newbury 3m57y handicap hurdle (6 Nov 2025, Good to Soft, 11 ran):**
+- **Bill Baxter 2nd** — led, asserted 3 out, 1l ahead when he made a **mistake at the last and was headed only in the final 110 yards** (off 126, carried 10-9, James Bowen). An unlucky near-win at today's exact course, distance **and** ground.
+- **Docpickedme 5th**, beaten ~5l further back (off 125).
+- Crucially, **that run was Bill Baxter's seasonal reappearance off ~187 days** — the identical profile to today — so his **"187 days off" concern is largely mitigated: he demonstrably runs a big race fresh, and did so in this very race.** Today he is off 127 (+1lb) but, with the 10lb claim, carries **~2lb less than that near-win**. This upgrades his each-way case and weakens my earlier case-against.
+
+**Connections/intent:** Pertemps **Series Qualifier** — a leading finish earns a Pertemps Final (Cheltenham) ballot spot, so the better-connected types are running with intent (One Big Bang contested last season's Final; Miami Magic, Masaccio, The Jukebox Kid, Gowel Road fit the Festival-campaign profile) — *asserted (mechanism factual; per-horse intent inferred).* **Miami Magic** (Edmunds, per Sporting Life article): "schooled over both obstacles… not a problem whichever way we go," a big horse who "won't get bullied" in a big field — but his **stated main early-season target is the Coral Gold Cup (a chase)**, so today's hurdle may be partly a stepping-stone. *(verified intent; note he hadn't previously run in a field of >11.)*
+
+**At The Races Smart Stats / pace map / course guide — still could not be loaded (4 attempts across both sessions): remains an open gap.** Pace read stays as inferred from in-running comments (several front-runners → genuine gallop, suiting proven stayers ridden with cover).
+
+**Revised probabilities (post gap-fill, going eased):**
+
+| Role | Horse | Win | Place | Fair price | Conf |
+|---|---|---|---|---|---|
+| **WIN** | Kilwaughter | 0.16 | 0.45 | ~5/1 | medium |
+| **EACH-WAY** | Bill Baxter | **0.12** (↑ from .09) | **0.44** | ~7/1 | **medium→high** |
+| **DANGER** | Miami Magic | 0.12 | 0.38 | ~8/1 | — |
+
+Rest of field (sums ≈1.00): One Big Bang .11 (co-threat, **the ground helps him most**; proven 3m soft distance winner, Sean Bowen), Game Colours .07, Doughmore Bay .06, Docpickedme .06 (held by the C/D head-to-head behind Bill Baxter), Masaccio .05, The Jukebox Kid .05, Gowel Road .045, Splendid Fellow .035, Western Monkey .03, Amirite .02, King Of The Lake .02, Walking On Air .02, Moon Chime .015, Firestream .015. Win (Kilwaughter) still highest.
+
+**Selections unchanged.** Win **Kilwaughter**, Each-Way **Bill Baxter** (upgraded — C/D-and-ground-proven, runs well fresh, ~2lb better off; chief caveat now the inexperienced 10lb-claiming rider, not fitness), Danger **Miami Magic**. **One Big Bang is the co-danger the softening ground most favours** — if choosing a second threat it is level with Miami Magic. Kilwaughter's one residual doubt (stiff 3m on softening ground, first time) keeps his confidence at medium rather than higher.
+
 ## Sources
-- RP racecard (card, weights, OR, headgear, w1 markers): https://www.racingpost.com/racecards/36/newbury/2026-11-05/930481
+- RP racecard (card, weights, OR, headgear, w1 markers, claims, C/D markers): https://www.racingpost.com/racecards/36/newbury/2026-11-05/930481
 - Sporting Life profiles (full run histories, in-running comments) — IDs used: Gowel Road 994401, Masaccio 998527, Doughmore Bay 1101086, Miami Magic 1144869, Moon Chime 1101082, One Big Bang 1055973, The Jukebox Kid 1177431, Amirite 1047011, Kilwaughter 1140106, Bill Baxter 1004620, Walking On Air 1013120, Game Colours 1123947, Docpickedme 994077, Western Monkey 1130386, Splendid Fellow 1203265, Firestream 1017437, King Of The Lake 1095658 (e.g. https://www.sportinglife.com/racing/profiles/horse/1140106 ).
 - Newbury course character: https://www.geegeez.co.uk/uk-race-courses/newbury/ and https://www.britishracecourses.org/newbury
+- Result pages read in full (gap-fill): Nov 2025 Newbury 3m57y C/D head-to-head https://www.sportinglife.com/racing/results/2025-11-06/newbury/888192/pertemps-network-handicap-hurdle-gbb-race ; Miami Magic fall (Aintree G1) 911463; Moon Chime fall (Chepstow) 941794; Bill Baxter UR (Haydock Peter Marsh) 839478; Doughmore Bay PU (Cheltenham) 892179.
+- Claim-structure reference (10lb for conditional riding employing trainer, <5 wins): ROA apprentice/conditional claims page + Racing Post PJA claiming-structure report.
+- Miami Magic intent: https://www.sportinglife.com/racing/news/stuart-edmunds-aiming-for-aintree-with-miami-magic/235100
