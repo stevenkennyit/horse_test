@@ -53,7 +53,7 @@
       "country": "GB",
       "code": "jumps",
       "playbook": "jumps/AGENTS-jumps.md",
-      "going": "Hurdle course good to soft (provisional, overnight Racing Post card, checked 21:50 Wed 4 Nov; no chases today; official GoingStick reading due the morning of 5 Nov)",
+      "going": "Hurdle course good to soft, soft in places (GoingStick 4.6) - official raceday reading checked 08:47 Thu 5 Nov; no chases today (hurdles and NH flat on the flat/round course)",
       "dataErrors": [],
       "races": [
         {
@@ -96,6 +96,48 @@
             { "role": "win", "horse": "Princess Day", "prob": 0.24, "placeProb": 0.55, "finish": "-", "confidence": "medium", "reason": "Course-and-distance winner over today's exact Newbury 2m69y (bumper), race-fit (25d), consistent (1110-2, three bumper wins), top RPR 120; the drop from 2m3f to 2m69y answers her one-paced hurdle debut.", "against": "Beaten 3.75L as the 4/6 fav on her only hurdle run; her proven class is in bumpers, not over hurdles." },
             { "role": "ew", "horse": "Connells Cross", "prob": 0.15, "placeProb": 0.48, "finish": "-", "confidence": "medium", "reason": "At 16/1 finished 3rd at Chepstow (11 Oct) only 0.5L behind 4/6 fav Princess Day despite a jumping error she rallied from; race-fit, RPR 119, drops to a sharper trip - the longer-priced each-way value on the same line.", "against": "Maiden over hurdles with a recorded jumping error - novice risk on a stiff track." },
             { "role": "danger", "horse": "The Flaggy Shore", "prob": 0.22, "placeProb": 0.52, "finish": "-", "confidence": "medium", "reason": "The field's only hurdle winner (5lb penalty confirms it) and a bold front-running 12L all-the-way Class 4 winner whose style suits galloping Newbury; chief threat, but one hurdle run only, a 169-day reappearance and concedes 5lb to all." }
+          ]
+        },
+        {
+          "time": "12:42",
+          "name": "OLBG Conditional Jockeys' Handicap Hurdle",
+          "type": "handicap hurdle",
+          "distance": "2m69y",
+          "going": "Good to soft, soft in places",
+          "runners": 16,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Class 3 (0-125) conditional jockeys' handicap, 16 runners. Conditional claims are material and verified against both the RP card and Sporting Life's jockey_claim field (10/8/6lb values legitimate on the GB conditional scale with the employer's extra 3lb): Faivoir carries 11-4 off OR124 (-10), Dakota Star 10-11 (-8), Non Stop 10-10 (-6), Colegram 10-3 (-7). Provisional going confirmed good to soft (soft in places); re-check non-runners near the off.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-05_newbury/1242_olbg-conditional-jockeys-handicap-hurdle.md",
+          "updated": "08:50 Thu 5 Nov",
+          "picks": [
+            { "role": "win", "horse": "Treasure Planet", "prob": 0.22, "placeProb": 0.52, "finish": "-", "confidence": "medium", "reason": "Only pick with both a very recent win (Chepstow Cl2, 25d) and course-and-distance form (2nd here over exact 2m69y, btn 0.75L); 9/9 completions, progressive 4yo carrying 11-6 after the 3lb claim; hold-up style suits a stiff galloping track with a genuine pace.", "against": "Up 3lb to a career-high mark and a 4yo v seasoned handicappers; the LTO win got a soft passage ('left in second'), so the bare form may flatter." },
+            { "role": "ew", "horse": "Faivoir", "prob": 0.11, "placeProb": 0.40, "finish": "-", "confidence": "medium", "reason": "The 10lb conditional claim leaves him 11-4 off OR124, effectively racing well below a mark he was placed off last season (3rd Greatwood off 134); Newbury course winner, hold-up style suited to the stiff track and honest pace - best each-way value on own numbers.", "against": "11yo whose seasonal reappearance was poor (6th, weakened before 2 out); pace- and luck-dependent hold-up type." },
+            { "role": "danger", "horse": "General Briar", "prob": 0.11, "placeProb": 0.38, "finish": "-", "confidence": "medium", "reason": "The field's one winner over today's EXACT course and distance (Newbury 2m69y off 116 in Jan), now off just 117 and back in Class 3 after two pull-ups that came only in much hotter Class 2 races; bold-jumping prominent style suits. Risk: 214d off and a contested lead could compromise a front-runner." }
+          ]
+        },
+        {
+          "time": "16:05",
+          "name": "BetVictor Open National Hunt Flat Race (Category 1 Elimination) (GBB Race) (Div II)",
+          "type": "NH flat (bumper)",
+          "distance": "2m69y",
+          "going": "Good to soft, soft in places",
+          "runners": 11,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Div II bumper of 4yos, level weights 11-2 bar filly Twin Horns (10-9, 7lb mares' allowance). Only 4 of 11 have point form (Newgrove won, Mister Realistic 2nd, Geissler 4th, Power Of Authority fell); the other 7 confirmed unraced via the Sporting Life race API, so no unraced horse is rated above 30% (Step 14). Provisional going confirmed good to soft (soft in places); re-check non-runners near the off.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-05_newbury/1605_betvictor-open-nh-flat-div2.md",
+          "updated": "08:50 Thu 5 Nov",
+          "picks": [
+            { "role": "win", "horse": "Newgrove", "prob": 0.29, "placeProb": 0.58, "finish": "-", "confidence": "medium", "reason": "Only point-to-point winner in the field (won sole Irish point at Tyrella, survived a late error); now the red-hot Skelton yard with Harry Skelton, trainer says 'sharper than your average pointer, ready for a bumper'; galloping stayers' track suits.", "against": "Still green (visible late point mistake), newcomer bumpers are high-variance and a well-bred unraced rival from a top yard can beat a short point winner." },
+            { "role": "ew", "horse": "Geissler", "prob": 0.14, "placeProb": 0.40, "finish": "-", "confidence": "low", "reason": "Placed (4th) in an Irish point, now a Henderson/de Boinville debutant (EUR95k, 'yard good record in this'); behind Mister Realistic's point run so should go off a longer price with a genuine place chance - better each-way expectation.", "against": "Wears a first-time hood (quirk/keenness hint) and was only 4th in his point; unproven under Rules." },
+            { "role": "danger", "horse": "Mister Realistic", "prob": 0.18, "placeProb": 0.47, "finish": "-", "confidence": "medium", "reason": "Best point line of the raced horses (2nd on sole Irish point), half-brother to a bumper winner, in-form Sean Bowen booked; chief threat to Newgrove if the favourite misfires." }
           ]
         }
       ]

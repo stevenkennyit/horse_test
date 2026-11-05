@@ -11,6 +11,8 @@
 
 Riders are conditionals; **Racing Post/SL card weights are BEFORE the claim**. Claims deducted below. Carried weights (post-claim) materially reorder the handicap: the big claimers (Faivoir −10, Dakota Star −8, Colegram −7, Non Stop −6, Graffiti −5) drop well down the weights relative to their official marks.
 
+**Claim scale — verified.** The claim values (Lewis 10, Stenhouse 8, Marshall 7, Featherstone 6, Bevan 5, Keighley/Hogan/Atkins/McCain-Mitchell 3, rest none) match exactly between the Racing Post card display ("Dominic Lewis(10)") and Sporting Life's structured `jockey_claim` field — two independent sources. They are legitimate under the GB NH conditional scale (BHA/ROA): **10lb** for a conditional riding for their employing trainer with <5 winners (Lewis, Skelton's conditional), then 7/5/3lb by winners ridden, plus an additional 3lb available when riding for the employing trainer — which accounts for the 8lb (5+3) and 6lb (3+3) values. Timeform's race notes treat the claims as live ("conditional able to claim full allowance"; "good value for his claim"). The claim is deducted from the allotted weight to give the carried weight; Faivoir carrying **11-4 off OR124** is confirmed, not an error.
+
 | No | Horse | OR | Claim | Carried (post-claim) |
 |---|---|---|---|---|
 | 1 | Faivoir | 124 | 10 (D Lewis) | 11-4 |
