@@ -103,3 +103,10 @@ Second pass: the Win fact (Wordfromhome's point win) was re-confirmed and its pe
 - Racing Post racecard: https://www.racingpost.com/racecards/36/newbury/2026-11-05/930487
 - Boardsmill Stud report (Wordfromhome Monksgrange point win, 29 Mar 2026): https://www.boardsmillstud.com/?p=2667
 - Newbury course character: https://www.attheraces.com/course-guides/Newbury ; https://sportinglife.com/racing/news/timeforms-newbury-course-guide-and-key-stats/205414
+
+## Result (reviewed 19:30 Thu 5 Nov)
+- **Winner: Wordfromhome (5/4f) — our WIN.** Made all, ridden out last 110yds, cosily.
+- **WIN Wordfromhome (5/4f) — 1st** ✓.
+- **EW He's Happy (66/1) — 8th:** midfield, never involved.
+- **DANGER Block Flight (14/1) — 3rd:** kept on inside the final furlong (coverage).
+- **Verdict: held (error K).** The only point winner obliged as favourite and the Danger placed. The Each-Way on a 66/1 pariah (0.30 place prob) was a forced pick — in an all-newcomer bumper with no genuine each-way, it should have been omitted (**error K**).

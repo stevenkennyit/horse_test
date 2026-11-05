@@ -103,3 +103,10 @@ Chief threat: the field's one winner over **today's exact course and distance** 
 - Sporting Life race API (runners, claims, headgear, Timeform notes): https://www.sportinglife.com/api/horse-racing/race/947092
 - Sporting Life horse profiles (full career + in-running comments), e.g. Treasure Planet https://www.sportinglife.com/racing/profiles/horse/1160364 ; Faivoir https://www.sportinglife.com/racing/profiles/horse/953797 ; General Briar https://www.sportinglife.com/racing/profiles/horse/1137508 (and the other 13 by id)
 - Sporting Life going page; At The Races / Geegeez Newbury course character
+
+## Result (reviewed 19:30 Thu 5 Nov)
+- **Winner: Zarakerjack (4/1)** — prominent, kept on strongly; we rated it 0.02.
+- **WIN Treasure Planet (5/2f) — 7th:** midfield, headway after 3 out, "plugged on flat"; the favourite emptied.
+- **EW Faivoir (14/1) — 3rd (placed):** stayed on from the rear; the well-in-on-the-10lb-claim value call landed a place.
+- **DANGER General Briar (14/1) — 11th:** weakened before last.
+- **Verdict: mixed (error J).** The Each-Way value pick worked; the Win was a sound favourite that didn't fire. The winner was a Flat-improved, lenient-marked (OR98) horse we capped at 0.02 on old left-jumping/PU figures — a recurrence of **error J**. Sporting Life's own verdict had tipped Spirits Bay (2nd) and Zarakerjack.

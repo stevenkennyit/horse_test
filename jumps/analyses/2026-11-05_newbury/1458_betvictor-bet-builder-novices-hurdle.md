@@ -96,3 +96,10 @@ Still open / caveats:
 - Le Roi Remi form: https://www.horise.com/horse/le-roi-remi/ (Sky id 1374048)
 - Sappingirl: https://www.skysports.com/racing/form-profiles/horse/1372974/sappingirl-ire ; Fontwell 26 Oct 25 newcomers' bumper card
 - Percy De Courcy / Spare The Voice RP profiles (point-winner comments): https://www.racingpost.com/profile/horse/8748933/percy-de-courcy/form ; https://www.racingpost.com/profile/horse/8940393/spare-the-voice/form
+
+## Result (reviewed 19:30 Thu 5 Nov)
+- **Winner: Coolnav (17/2) — our WIN.** Made all, unchallenged, "always doing enough".
+- **WIN Coolnav (17/2) — 1st** ✓.
+- **EW Grand Teton (8/1) — 8th:** weakened before 2 out.
+- **DANGER Percy De Courcy (9/4f) — 4th:** bad mistake 2 out, no further impression.
+- **Verdict: held.** The standout call of the day — "best verified in-contention hurdle line, proven to stay on the ground" beat the unexposed debutants at 17/2. The reliability-based Each-Way (Grand Teton) and the Danger did not fire, but the headline Win was right.

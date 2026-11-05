@@ -2512,6 +2512,168 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-11-05",
+      "course": "Newbury",
+      "country": "GB",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Good to Soft, Soft in places (GoingStick 4.6) - official raceday reading; no chases (hurdles and NH flat on the round course)",
+      "dataErrors": [
+        "Results pulled from the Sporting Life race API (/api/horse-racing/race/<id>); the SL results web pages 404'd for this meeting, as did the racecards the day before.",
+        "13:52: the SL race-API finish_position did not reflect the stewards' amendment - Princess Day finished 3rd but was DISQUALIFIED for causing interference and placed 4th, promoting Connells Cross to 3rd; official amended placings recorded.",
+        "14:25: Doughmore Bay was a non-runner, so 16 ran (not the 17 declared at analysis); not a pick."
+      ],
+      "races": [
+        {
+          "time": "12:42",
+          "name": "OLBG Conditional Jockeys' Handicap Hurdle",
+          "type": "handicap hurdle",
+          "distance": "2m69y",
+          "going": "Good to Soft",
+          "runners": 16,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": ["J"],
+          "notes": "RESULT: Zarakerjack (4/1, bottom-weight improver) won; we rated it 0.02, capping a Flat-improved, lenient-marked horse on old left-jumping/PU figures (error J recurrence). Each-Way Faivoir placed 3rd at 14/1 - the well-in-on-the-claim value call landed. Win Treasure Planet (5/2f) plugged on into 7th; Danger General Briar 11th. The SL verdict itself had tipped Spirits Bay (2nd) and Zarakerjack.",
+          "winner": { "horse": "Zarakerjack", "sp": "4/1", "agentProb": 0.02 },
+          "writeup": "jumps/analyses/2026-11-05_newbury/1242_olbg-conditional-jockeys-handicap-hurdle.md",
+          "updated": "19:30 Thu 5 Nov",
+          "picks": [
+            { "role": "win", "horse": "Treasure Planet", "prob": 0.22, "placeProb": 0.52, "finish": "7", "sp": "5/2", "confidence": "medium", "reason": "Only pick with both a very recent win (Chepstow Cl2, 25d) and course-and-distance form (2nd here over exact 2m69y, btn 0.75L); 9/9 completions, progressive 4yo carrying 11-6 after the 3lb claim; hold-up style suits a stiff galloping track with a genuine pace.", "against": "Up 3lb to a career-high mark and a 4yo v seasoned handicappers; the LTO win got a soft passage ('left in second'), so the bare form may flatter." },
+            { "role": "ew", "horse": "Faivoir", "prob": 0.11, "placeProb": 0.40, "finish": "3", "sp": "14/1", "confidence": "medium", "reason": "The 10lb conditional claim leaves him 11-4 off OR124, effectively racing well below a mark he was placed off last season (3rd Greatwood off 134); Newbury course winner, hold-up style suited to the stiff track and honest pace - best each-way value on own numbers.", "against": "11yo whose seasonal reappearance was poor (6th, weakened before 2 out); pace- and luck-dependent hold-up type." },
+            { "role": "danger", "horse": "General Briar", "prob": 0.11, "placeProb": 0.38, "finish": "11", "sp": "14/1", "confidence": "medium", "reason": "The field's one winner over today's EXACT course and distance (Newbury 2m69y off 116 in Jan), now off just 117 and back in Class 3 after two pull-ups that came only in much hotter Class 2 races; bold-jumping prominent style suits. Risk: 214d off and a contested lead could compromise a front-runner." }
+          ]
+        },
+        {
+          "time": "13:17",
+          "name": "CSP Maiden Hurdle (GBB Race)",
+          "type": "maiden hurdle",
+          "distance": "2m69y",
+          "going": "Good to Soft",
+          "runners": 9,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": ["K", "L"],
+          "notes": "RESULT: Presley (85/40, unexposed Skelton bumper-placer) won; we rated it 0.14 as 'best clean debutant profile' but ranked exposed modest hurdle form above it (error L). Win Moments Away (2/1jf) led and emptied, 5th; Danger Merlin Allen rallied to 3rd. Each-Way Fervent (100/1) 7th - a market-pariah EW given an inflated 0.33 place prob (error K); the race had no genuine each-way proposition and one should have been omitted.",
+          "winner": { "horse": "Presley", "sp": "85/40", "agentProb": 0.14 },
+          "writeup": "jumps/analyses/2026-11-05_newbury/1317_csp-maiden-hurdle.md",
+          "updated": "19:30 Thu 5 Nov",
+          "picks": [
+            { "role": "win", "horse": "Moments Away", "prob": 0.30, "placeProb": 0.58, "finish": "5", "sp": "2/1", "confidence": "medium", "reason": "Only runner proven over hurdles AND placed (RPR 128; 2nd on debut over 2m4f, stays, handles soft) in a field where six rivals have never jumped a hurdle; drops to a sharper 2m69y with Sean Bowen.", "against": "Beaten odds-on last time ('not fluent 7th, no impression') and beaten ~4L by today's rival Merlin Allen in the G2 bumper, so not even the best bumper horse here; 0/5, up in class." },
+            { "role": "ew", "horse": "Fervent", "prob": 0.08, "placeProb": 0.33, "finish": "7", "sp": "100/1", "confidence": "low", "reason": "2nd-best proven hurdle form (RPR 104) and the only non-Moments-Away runner to have completed a hurdle ('kept on' over 2m); galloping 2m69y suits a stayer - a longer-priced place proposition chosen on place expectation.", "against": "That completion was a modest 4th beaten 8.5L, he fell (weakening) on debut, and connections/form say handicaps are more his bag - the place leans on debutants faltering." },
+            { "role": "danger", "horse": "Merlin Allen", "prob": 0.24, "placeProb": 0.52, "finish": "3", "sp": "2/1", "confidence": "medium", "reason": "Strongest pure form in the field (3rd of 20 in a G2 Aintree bumper, ~4L clear of Moments Away at level weights, all on today's ground); held just below the Win only as a hurdle debutant off 208 days after a wind op." }
+          ]
+        },
+        {
+          "time": "13:52",
+          "name": "Grahame Church Memorial Mares' Novices' Hurdle (GBB Race)",
+          "type": "mares' novices' hurdle",
+          "distance": "2m69y",
+          "going": "Good to Soft",
+          "runners": 10,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": ["L"],
+          "notes": "RESULT (amended): Royal Response (3/1, Henderson/de Boinville point winner) won; we rated it 0.09 and capped it as unproven potential (error L - under-rated an elite-yard point winner). Danger The Flaggy Shore 2nd and Each-Way Connells Cross promoted to 3rd (11/1) after our Win Princess Day finished 3rd but was DISQUALIFIED for causing interference (hung left) and placed 4th. Two of our three framed; the gap-pass switch of Flaggy Shore to Danger was vindicated (ran 2nd, not the Win).",
+          "winner": { "horse": "Royal Response", "sp": "3/1", "agentProb": 0.09 },
+          "writeup": "jumps/analyses/2026-11-05_newbury/1352_grahame-church-memorial-mares-novices-hurdle.md",
+          "updated": "19:30 Thu 5 Nov",
+          "picks": [
+            { "role": "win", "horse": "Princess Day", "prob": 0.24, "placeProb": 0.55, "finish": "4", "sp": "13/8", "confidence": "medium", "reason": "Course-and-distance winner over today's exact Newbury 2m69y (bumper), race-fit (25d), consistent (1110-2, three bumper wins), top RPR 120; the drop from 2m3f to 2m69y answers her one-paced hurdle debut.", "against": "Beaten 3.75L as the 4/6 fav on her only hurdle run; her proven class is in bumpers, not over hurdles." },
+            { "role": "ew", "horse": "Connells Cross", "prob": 0.15, "placeProb": 0.48, "finish": "3", "sp": "11/1", "confidence": "medium", "reason": "At 16/1 finished 3rd at Chepstow (11 Oct) only 0.5L behind 4/6 fav Princess Day despite a jumping error she rallied from; race-fit, RPR 119, drops to a sharper trip - the longer-priced each-way value on the same line.", "against": "Maiden over hurdles with a recorded jumping error - novice risk on a stiff track." },
+            { "role": "danger", "horse": "The Flaggy Shore", "prob": 0.22, "placeProb": 0.52, "finish": "2", "sp": "11/1", "confidence": "medium", "reason": "The field's only hurdle winner (5lb penalty confirms it) and a bold front-running 12L all-the-way Class 4 winner whose style suits galloping Newbury; chief threat, but one hurdle run only, a 169-day reappearance and concedes 5lb to all." }
+          ]
+        },
+        {
+          "time": "14:25",
+          "name": "Pertemps Network Handicap Hurdle (Pertemps Series Qualifier) (GBB Race)",
+          "type": "handicap hurdle",
+          "distance": "3m57y",
+          "going": "Good to Soft",
+          "runners": 16,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": [],
+          "notes": "RESULT: Masaccio (33/1, 19 months off) won on reappearance - we flagged him 'needs the run', unforecastable at the price (variance, no error). Danger Miami Magic 2nd - the well-handicapped chaser-reverting-with-wind-op angle held strongly. Win Kilwaughter 8th, exposed by the stiff 3m on softening ground exactly as the case-against warned. Each-Way Bill Baxter (C/D-form upgrade) only 11th - the inexperienced-10lb-claimer/front-runner caveat proved the relevant one. Non-runner: Doughmore Bay (16 ran).",
+          "winner": { "horse": "Masaccio", "sp": "33/1", "agentProb": 0.05 },
+          "writeup": "jumps/analyses/2026-11-05_newbury/1425_pertemps-network-handicap-hurdle.md",
+          "updated": "19:30 Thu 5 Nov",
+          "picks": [
+            { "role": "win", "horse": "Kilwaughter", "prob": 0.16, "placeProb": 0.45, "finish": "8", "sp": "13/2", "confidence": "medium", "reason": "Race-fit (14d) and progressive 6yo in a field of 12 reappearances; stays 3m (4th Haydock 3m58y off 125), Newbury course winner, 7lb claim leaves him ~10-7 low in the handicap.", "against": "First try at a stiff 3m on softening ground (his one 3m run was on good at flat Haydock), off a career-high 130, and a quick 14-day turnaround after a hard win." },
+            { "role": "ew", "horse": "Bill Baxter", "prob": 0.12, "placeProb": 0.44, "finish": "11", "sp": "18/1", "confidence": "medium", "reason": "Verified C/D line: 2nd (unlucky, mistake last, headed final 110y) over this EXACT Newbury 3m57y on good-to-soft last Nov, beating Docpickedme ~5L, and that run was fresh off ~187 days - same profile as today; 10lb claim leaves him ~10-1, ~2lb better off than that near-win.", "against": "The 10lb claim reflects a genuinely inexperienced rider on a front-runner needing judgement, in a race with several other front-runners; age 10." },
+            { "role": "danger", "horse": "Miami Magic", "prob": 0.12, "placeProb": 0.38, "finish": "2", "sp": "10/3", "confidence": "medium", "reason": "Well-handicapped progressive chaser (rated 145) reverting to hurdles off 138 with a verified first-time wind op; stays 3m (fell in 3rd in a G1, jumping not stamina). Co-danger One Big Bang (0.11) the softening ground helps most." }
+          ]
+        },
+        {
+          "time": "14:58",
+          "name": "Check Out The BetVictor Bet Builder Novices' Hurdle (GBB Race)",
+          "type": "novices' hurdle",
+          "distance": "2m2f183y",
+          "going": "Good to Soft",
+          "runners": 10,
+          "source": "full",
+          "status": "settled",
+          "grade": "held",
+          "errors": [],
+          "notes": "RESULT: Coolnav (17/2) made all and won - the Win landed at a big price, vindicating 'best verified in-contention hurdle line, proven to stay on the ground' over the unexposed debutants. Each-Way Grand Teton weakened (8th); Danger Percy De Courcy 4th (bad mistake 2 out). Standout call of the day; winner correctly identified as the Win.",
+          "winner": { "horse": "Coolnav", "sp": "17/2", "agentProb": 0.26 },
+          "writeup": "jumps/analyses/2026-11-05_newbury/1458_betvictor-bet-builder-novices-hurdle.md",
+          "updated": "19:30 Thu 5 Nov",
+          "picks": [
+            { "role": "win", "horse": "Coolnav", "prob": 0.26, "placeProb": 0.55, "finish": "1", "sp": "17/2", "confidence": "medium", "reason": "Best verified in-contention hurdle line in the field: 4th of 13 beaten 4L in a competitive Chepstow maiden (2m3f GtS), jumped round, proven to stay the trip on the ground; RPR 120 earned in contention, and beat Company Charge ~2L on identical terms. Proven ability over unraced potential.", "against": "Only a 4th, not a winner; a recorded keen-going streak and an error two out, and a modest yard against well-bred Skelton/Nicholls/Henderson debutants." },
+            { "role": "ew", "horse": "Grand Teton", "prob": 0.12, "placeProb": 0.40, "finish": "8", "sp": "8/1", "confidence": "low", "reason": "The only non-Coolnav runner that is BOTH a proven hurdle completer and a proven 2m4f stayer on today's ground, so lower jumping/stamina risk than every debutant; Henderson with a stable-jockey upgrade (de Boinville); poor bare form keeps the fair price long = place value.", "against": "Winless and placeless in two runs ('made no impression' last time); its RPR/TS were earned while beaten (weak signal)." },
+            { "role": "danger", "horse": "Percy De Courcy", "prob": 0.17, "placeProb": 0.42, "finish": "4", "sp": "9/4", "confidence": "medium", "reason": "Unbeaten maiden point winner joining a top yard with champion-stable jockey Harry Skelton - the archetype newcomer that beats exposed maidens; capped by unproven hurdle jumping, a 284-day absence and a flat-bred sire (Poet's Word)." }
+          ]
+        },
+        {
+          "time": "15:33",
+          "name": "British Horse Society Open National Hunt Flat Race (Category 1 Elimination) (GBB Race) (Div I)",
+          "type": "NH flat (bumper)",
+          "distance": "2m69y",
+          "going": "Good to Soft",
+          "runners": 11,
+          "source": "full",
+          "status": "settled",
+          "grade": "held",
+          "errors": ["K"],
+          "notes": "RESULT: Wordfromhome (5/4f) made all and won cosily - the Win landed as the only point winner in the field. Danger Block Flight 3rd (coverage). Each-Way He's Happy (66/1) never involved, 8th - a market-pariah EW given an over-stated 0.30 place prob (error K); in an all-newcomer bumper no genuine each-way existed and one should have been omitted.",
+          "winner": { "horse": "Wordfromhome", "sp": "5/4", "agentProb": 0.28 },
+          "writeup": "jumps/analyses/2026-11-05_newbury/1533_bhs-open-nh-flat-div1.md",
+          "updated": "19:30 Thu 5 Nov",
+          "picks": [
+            { "role": "win", "horse": "Wordfromhome", "prob": 0.28, "placeProb": 0.52, "finish": "1", "sp": "5/4", "confidence": "medium", "reason": "Only confirmed race-winner in the field (won 4yo geldings maiden point, Monksgrange 29 Mar 2026); now Nicholls/S Twiston-Davies, EUR65k Derby Sale; galloping stayers' track suits a point winner.", "against": "Point-to-bumper translation unproven, 221 days off and a Rules debut, against well-bred fresh newcomers from Henderson, Fry, Skelton and Greatrex." },
+            { "role": "ew", "horse": "He's Happy", "prob": 0.08, "placeProb": 0.30, "finish": "8", "sp": "66/1", "confidence": "low", "reason": "The only other raced runner (2nd in a point) and the field's only 5yo, so most mature; a placed pointer is a sounder each-way basis at a long price than the unraced newcomers.", "against": "Small yard (Syd Hosie), a single placed point with venue/margin not found, ~271-day absence and a bumper debut." },
+            { "role": "danger", "horse": "Block Flight", "prob": 0.14, "placeProb": 0.38, "finish": "3", "sp": "14/1", "confidence": "medium", "reason": "Henderson/de Boinville elite newcomer combo on a track that suits the type; chief threat but UNRACED, so capped per Step 14 (not Win, not above 30%)." }
+          ]
+        },
+        {
+          "time": "16:05",
+          "name": "BetVictor Open National Hunt Flat Race (Category 1 Elimination) (GBB Race) (Div II)",
+          "type": "NH flat (bumper)",
+          "distance": "2m69y",
+          "going": "Good to Soft",
+          "runners": 11,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": [],
+          "notes": "RESULT: Radiant Walk (16/1, unraced Derham newcomer) won; correctly capped at 0.06 under the Step 14 unraced rule, so no error - variance. Win Newgrove (11/8f, our point winner) stayed on but was always held, 2nd. Each-Way Geissler 6th; Danger Mister Realistic never competitive (8th). Win placed; the winner was not catchable on the evidence available.",
+          "winner": { "horse": "Radiant Walk", "sp": "16/1", "agentProb": 0.06 },
+          "writeup": "jumps/analyses/2026-11-05_newbury/1605_betvictor-open-nh-flat-div2.md",
+          "updated": "19:30 Thu 5 Nov",
+          "picks": [
+            { "role": "win", "horse": "Newgrove", "prob": 0.29, "placeProb": 0.58, "finish": "2", "sp": "11/8", "confidence": "medium", "reason": "Only point-to-point winner in the field (won sole Irish point at Tyrella, survived a late error); now the red-hot Skelton yard with Harry Skelton, trainer says 'sharper than your average pointer, ready for a bumper'; galloping stayers' track suits.", "against": "Still green (visible late point mistake), newcomer bumpers are high-variance and a well-bred unraced rival from a top yard can beat a short point winner." },
+            { "role": "ew", "horse": "Geissler", "prob": 0.14, "placeProb": 0.40, "finish": "6", "sp": "8/1", "confidence": "low", "reason": "Placed (4th) in an Irish point, now a Henderson/de Boinville debutant (EUR95k, 'yard good record in this'); behind Mister Realistic's point run so should go off a longer price with a genuine place chance - better each-way expectation.", "against": "Wears a first-time hood (quirk/keenness hint) and was only 4th in his point; unproven under Rules." },
+            { "role": "danger", "horse": "Mister Realistic", "prob": 0.18, "placeProb": 0.47, "finish": "8", "sp": "10/3", "confidence": "medium", "reason": "Best point line of the raced horses (2nd on sole Irish point), half-brother to a bumper winner, in-form Sean Bowen booked; chief threat to Newgrove if the favourite misfires." }
+          ]
+        }
+      ]
     }
   ]
 });

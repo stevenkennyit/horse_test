@@ -110,3 +110,10 @@ Rest of field (win prob): Presley 0.14, Youcancountonme 0.10, Insanity 0.05, Oct
 - Presley — SL profile: https://www.sportinglife.com/racing/profiles/horse/1207309
 - SL profiles — Youcancountonme 1244323, Aquaman 1224588, Insanity 1105878, Octo Gane 1143935, Military Air 1161407 (sportinglife.com/racing/profiles/horse/<id>)
 - Newbury course character / pace: Geegeez & At The Races course guides, Timeform Newbury guide (via search)
+
+## Result (reviewed 19:30 Thu 5 Nov)
+- **Winner: Presley (85/40)** — unexposed Skelton bumper-placer; we rated it 0.14 (4th pick, "best clean debutant profile").
+- **WIN Moments Away (2/1jf) — 5th:** led, headed before 3 out, "no extra flat".
+- **EW Fervent (100/1) — 7th:** towards rear, bad mistake last.
+- **DANGER Merlin Allen (2/1jf) — 3rd:** rallied to take third near the finish.
+- **Verdict: mixed (errors K, L).** Exposed modest hurdle form (Moments Away) was ranked above the unexposed top-yard winner — **error L**. The Each-Way on a 100/1 pariah carrying a 0.33 place probability was miscalibrated — **error K**; this field had no sound each-way proposition and one should have been omitted. Danger placed 3rd.

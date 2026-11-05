@@ -94,3 +94,10 @@ Rest of field shares ≈0.39 win: Brazilian Blue ~0.07, Treble Three ~0.07, Radi
 - Sporting Life Sandown 8 Nov card (cross-entries / IDs): https://www.sportinglife.com/racing/racecards/2026-11-08/sandown/racecard/947500/oddschecker-premium-tipsters-open-national-hunt-flat-race
 - Newgrove Irish point (Tyrella): https://www.theirishfield.ie/point-to-point-tyrella-newgrove-shrugs-off-final-blunder-907309
 - Skelton stable-tour quote on Newgrove: https://www.sportinglife.com/racing/news/key-stable-tour-snippets-and-tips-for-cheltenham-showcase-meeting/234953
+
+## Result (reviewed 19:30 Thu 5 Nov)
+- **Winner: Radiant Walk (16/1)** — unraced Derham newcomer; correctly capped at 0.06 under the Step 14 unraced rule.
+- **WIN Newgrove (11/8f) — 2nd:** stayed on well inside the final furlong, "always held".
+- **EW Geissler (8/1) — 6th:** plugged on.
+- **DANGER Mister Realistic (10/3) — 8th:** "never competitive".
+- **Verdict: mixed, no error.** The Win (only point winner) ran its race but was beaten by an unraced horse the Step 14 cap correctly held down — sound process, variance. The point-2nd Danger failed to translate.

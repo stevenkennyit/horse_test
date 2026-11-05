@@ -150,3 +150,10 @@ Rest of field (sums ≈1.00): One Big Bang .11 (co-threat, **the ground helps hi
 - Result pages read in full (gap-fill): Nov 2025 Newbury 3m57y C/D head-to-head https://www.sportinglife.com/racing/results/2025-11-06/newbury/888192/pertemps-network-handicap-hurdle-gbb-race ; Miami Magic fall (Aintree G1) 911463; Moon Chime fall (Chepstow) 941794; Bill Baxter UR (Haydock Peter Marsh) 839478; Doughmore Bay PU (Cheltenham) 892179.
 - Claim-structure reference (10lb for conditional riding employing trainer, <5 wins): ROA apprentice/conditional claims page + Racing Post PJA claiming-structure report.
 - Miami Magic intent: https://www.sportinglife.com/racing/news/stuart-edmunds-aiming-for-aintree-with-miami-magic/235100
+
+## Result (reviewed 19:30 Thu 5 Nov)
+- **Winner: Masaccio (33/1)** — 19 months off; we flagged him "needs the run" (0.05).
+- **WIN Kilwaughter (13/2) — 8th:** challenged before 2 out, "no further impression"; the stiff-3m-on-softening-ground doubt proved right.
+- **EW Bill Baxter (18/1) — 11th:** no impression until moderate late headway; the inexperienced-10lb-claimer / front-runner caveat was the relevant one.
+- **DANGER Miami Magic (10/3) — 2nd:** led before 3 out, headed run-in; the well-handicapped chaser-reverting-with-wind-op read held strongly.
+- **Verdict: mixed, no new error.** The Danger read was excellent and the Win's own stated doubt was correct; a 33/1 winner on a first run in 19 months was unforecastable (variance). Doughmore Bay was a non-runner (16 ran).

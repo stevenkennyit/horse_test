@@ -143,3 +143,10 @@ Picks revised before the off (race not yet recorded by the coordinator; body upd
 - **Result:** fit, consistent, course-and-distance-proven **Princess Day promoted to WIN** (0.24); **The Flaggy Shore moved to DANGER** (0.22); **Connells Cross stays EACH-WAY** (0.15). All three remain the same trio, re-weighted.
 - **Verified:** no 4yo weight-for-age (all 11-0); Connells Cross tongue-tie retained (not first-time), yard confirmed as Bailey & Nicholls; Princess Day's Newbury win was over today's exact 2m 69y.
 - **Still open:** official raceday going + non-runners (recheck AM); Clarke yard's fresh-run record (not found); at-source run lists for the outsiders (Sky profiles 404, no ATR card for the date) — none affects the top three.
+
+## Result (reviewed 19:30 Thu 5 Nov — amended by stewards)
+- **Winner: Royal Response (3/1)** — Henderson/de Boinville point winner; we rated it 0.09.
+- **WIN Princess Day (13/8f):** finished 3rd but **DISQUALIFIED for causing interference (hung left), placed 4th**.
+- **EW Connells Cross (11/1) — promoted to 3rd (placed):** carried left, battled on; gained the place in the amendment.
+- **DANGER The Flaggy Shore (11/1) — 2nd:** led, mistake last, kept on, no chance with winner.
+- **Verdict: mixed (error L).** Two of our three framed — Danger 2nd and Each-Way promoted to 3rd at 11/1 — and the gap-pass switch of Flaggy Shore to Danger was vindicated (she ran 2nd, not the Win). The winner, an elite-yard **point winner**, was under-rated at 0.09 as "unproven potential" — **error L**. Our Win's own waywardness (hung left) cost it the minor placing regardless.
