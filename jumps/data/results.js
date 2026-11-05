@@ -76,6 +76,27 @@
             { "role": "ew", "horse": "He's Happy", "prob": 0.08, "placeProb": 0.30, "finish": "-", "confidence": "low", "reason": "The only other raced runner (2nd in a point) and the field's only 5yo, so most mature; a placed pointer is a sounder each-way basis at a long price than the unraced newcomers.", "against": "Small yard (Syd Hosie), a single placed point with venue/margin not found, ~271-day absence and a bumper debut." },
             { "role": "danger", "horse": "Block Flight", "prob": 0.14, "placeProb": 0.38, "finish": "-", "confidence": "medium", "reason": "Henderson/de Boinville elite newcomer combo on a track that suits the type; chief threat but UNRACED, so capped per Step 14 (not Win, not above 30%)." }
           ]
+        },
+        {
+          "time": "13:52",
+          "name": "Grahame Church Memorial Mares' Novices' Hurdle (GBB Race)",
+          "type": "mares' novices' hurdle",
+          "distance": "2m69y",
+          "going": "Good to soft (provisional)",
+          "runners": 10,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Open mares' novice. Princess Day is the field's only C/D winner over today's exact 2m69y (bumper); The Flaggy Shore the only hurdle winner (carries 5lb penalty) but off 169d. First-pass Win (Flaggy Shore) revised in the gap pass to Princess Day after Flaggy Shore's hurdle form was corrected to a single Class 4 win, not Class 1 placings. Provisional going; re-check going + non-runners AM 5 Nov.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-05_newbury/1352_grahame-church-memorial-mares-novices-hurdle.md",
+          "updated": "22:10 Wed 4 Nov",
+          "picks": [
+            { "role": "win", "horse": "Princess Day", "prob": 0.24, "placeProb": 0.55, "finish": "-", "confidence": "medium", "reason": "Course-and-distance winner over today's exact Newbury 2m69y (bumper), race-fit (25d), consistent (1110-2, three bumper wins), top RPR 120; the drop from 2m3f to 2m69y answers her one-paced hurdle debut.", "against": "Beaten 3.75L as the 4/6 fav on her only hurdle run; her proven class is in bumpers, not over hurdles." },
+            { "role": "ew", "horse": "Connells Cross", "prob": 0.15, "placeProb": 0.48, "finish": "-", "confidence": "medium", "reason": "At 16/1 finished 3rd at Chepstow (11 Oct) only 0.5L behind 4/6 fav Princess Day despite a jumping error she rallied from; race-fit, RPR 119, drops to a sharper trip - the longer-priced each-way value on the same line.", "against": "Maiden over hurdles with a recorded jumping error - novice risk on a stiff track." },
+            { "role": "danger", "horse": "The Flaggy Shore", "prob": 0.22, "placeProb": 0.52, "finish": "-", "confidence": "medium", "reason": "The field's only hurdle winner (5lb penalty confirms it) and a bold front-running 12L all-the-way Class 4 winner whose style suits galloping Newbury; chief threat, but one hurdle run only, a 169-day reappearance and concedes 5lb to all." }
+          ]
         }
       ]
     }
