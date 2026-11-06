@@ -85,3 +85,10 @@ Win probabilities sum to 1.00. Win (Watery Borren) holds the highest chance, but
 - Aqua Bleu full career: https://www.turf-fr.com/fiche-cheval/aqua-bleu-1096211
 - Aqua Bleu / Risky Obsession profiles (read via search): https://www.skysports.com/racing/form-profiles/horse/1373562/aqua-bleu-ire ; https://www.skysports.com/racing/form-profiles/horse/1377443/risky-obsession-ire
 - Chepstow 16 Feb 2026 track report (Aqua Bleu win): https://www.chepstow-racecourse.co.uk/news/racing/track-talk-16th-february-2026
+
+## Result (reviewed 23:45 Fri 6 Nov)
+- **Winner: Risky Obsession (1/1 fav) — our 3rd pick, rated 0.19.** Held up in rear, progressed after 4 out, led on landing at the last, kept on.
+- **WIN Watery Borren (9/4) — 3rd:** led and went 5L clear, headed before 2 out, outpaced by the leading pair. The case-against (gives 6lb all round off a modest Cl4 win, up in class) held.
+- **DANGER Aqua Bleu (7/2) — 2nd:** led just before 2 out, headed on landing at the last, held close home — ran his race.
+- **Avide (18/1) — 4th, tailed off:** the all-Flat hurdle-debut jumping/stamina unknown was real; correctly capped.
+- **Verdict: mixed (error N).** We called the race near-even/low-medium correctly, but ranked the sharp class-dropper (Class 1 → Class 3, first-time hood+tongue) that the market made favourite only 3rd of 4, behind a weight-conceding modest winner and a 211-day-off rival.

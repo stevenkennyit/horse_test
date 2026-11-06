@@ -99,3 +99,10 @@ Unbeaten in France (two Pau wins in the SL record, both on soft/very-soft) for a
 - SL going page: https://www.sportinglife.com/racing/going (Aintree 6 Nov row)
 - Racing Post card (second-source cross-check): https://www.racingpost.com/racecards/32/aintree/2026-11-06/
 - Blocked: At The Races racecard (load error) and Geegeez racecard (403) — no pace map obtained
+
+## Result (reviewed 23:45 Fri 6 Nov)
+- **WIN All In You (6/4 fav) — WON.** Held up, closed 2 out, led the last, went clear readily. The corrected "roughly level with Dedicated Hero" + fit-from-the-Flat + hold-up-suits-a-strong-pace read was spot on.
+- **DANGER Lyssenko (4/1) — 2nd:** took 2nd 2 out, dropped to 3rd after the last, regained 2nd near the line.
+- **EW King Ulanda (7/1) — 7th (last):** weakened run-in; the exposed-Cl4-level case-against held.
+- Dedicated Hero (top weight, correctly opposed) 6th.
+- **Verdict: held.** Top pick won, danger 2nd.

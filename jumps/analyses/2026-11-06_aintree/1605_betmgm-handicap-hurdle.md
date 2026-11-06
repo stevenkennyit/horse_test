@@ -81,3 +81,10 @@ Full-field win-probability spread (sums to 100%): Quaviste 26, Knight Templar 18
 - SL meeting list (race IDs): https://www.sportinglife.com/racing/racecards/today
 - SL jockey API (checked for claim field — none present): https://www.sportinglife.com/api/horse-racing/jockey/722 (Houlihan), https://www.sportinglife.com/api/horse-racing/jockey/727 (Andrews)
 - Course character: RacingTV racecourses guide + racing-forum/course-guide descriptions of the Aintree Mildmay/hurdle course (left-handed, flat, galloping straights, tight final bends, ~494yd run-in with the Elbow)
+
+## Result (reviewed 23:45 Fri 6 Nov)
+- **Winner: Secret Vino (18/1) — our outsider, rated 0.08.** Raced midfield, closed 3 out, bumped after 2 out, ran on to lead near the line.
+- **EW Limier d'Arthel (11/4) — 2nd, PLACED:** led on landing at the last, challenged strongly, headed near the line.
+- **DANGER Knight Templar (11/2) — 3rd, PLACED:** tracked the leaders, outpaced by the front pair after the last (10 run = 3 places, so both the each-way and the danger placed).
+- **WIN Quaviste (11/8 fav) — 6th:** led approaching 2 out, headed before the last and weakened run-in; the 251-day reappearance "may need the run" caveat held. Mia Sunshine (our flagged improver) 4th.
+- **Verdict: mixed.** Two of three picks placed, but the favourite Win weakened and the winner was a downgraded 18/1 outsider (we worried its 2m1f was too sharp — unfounded; largely variance at the price).

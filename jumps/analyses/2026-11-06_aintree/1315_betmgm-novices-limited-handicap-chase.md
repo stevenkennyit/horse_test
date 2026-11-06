@@ -83,3 +83,9 @@ Remaining field: Barnpark ~0.10, Leader Crik ~0.10. Field win-probs sum to ~1.00
 - Sporting Life going page: https://www.sportinglife.com/racing/going
 - Sporting Life result pages (in-running cross-check): https://www.sportinglife.com/api/horse-racing/race/902909 (Off The Jury, Haydock PU), /845381 (Off The Jury, Wetherby ran out), /893321 (Below The Radar, Taunton fell)
 - Course character: At The Races / Oddschecker Aintree Mildmay notes + Sky Sports/Racing Post previews (qualitative); Geegeez Mildmay Novices' Chase trends (88% of winners won 2+ over fences). ATR Smart Stats / ATR course guide / Geegeez pace tables blocked by bot/security checks this pass.
+
+## Result (reviewed 23:45 Fri 6 Nov)
+- **WIN Off The Jury (5/2) — WON.** Made all, a mistake at the 14th, pushed along after 2 out and ran on well to hold at the last. The front-running, twice-a-fence-winner, fence-experience read nailed it.
+- **DANGER Below The Radar (4/1) — 2nd:** chased from 2 out, every chance at the last, held.
+- **EW Dixie Mafia (6/1) — 4th:** moved into contention from 4 out, weakened near the finish; did not place (2 places).
+- **Verdict: held.** Top pick won, danger 2nd; the only miss was the value each-way not placing.

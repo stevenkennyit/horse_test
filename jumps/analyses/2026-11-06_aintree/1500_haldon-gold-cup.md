@@ -90,3 +90,10 @@ On the likely pace (read from in-running comments, not a verified pace map): **R
 - Stencil profile: https://www.sportinglife.com/racing/profiles/horse/1144907
 - Brookie profile: https://www.sportinglife.com/racing/profiles/horse/1053452
 - Daytime Dreaming profile: https://www.sportinglife.com/racing/profiles/horse/1162776
+
+## Result (reviewed 23:45 Fri 6 Nov)
+- **Winner: Rubaud (4/1) — our outsider, rated 0.11.** Made all, went clear after 2 out, held on up the run-in.
+- **WIN JPR One (11/4) — 2nd:** led at the 6th, headed after 4 out, outpaced by the winner, rallied but made no impression.
+- **DANGER Mirabad (9/4 fav) — 3rd:** disputed 2nd before the last, outpaced by the front pair, no extra.
+- **EW Brookie (6/1) — 4th:** pushed along 3 out, outpaced and weakened; vet reported a lost right hind shoe.
+- **Verdict: mixed (error M).** We identified Rubaud as the lone confirmed front-runner who "could get an easy, uncontested lead on a galloping 2m and bounce" — then opposed him for the each-way in favour of one-paced Brookie, and our Win (JPR One) was outpaced by exactly that leader. The pace read was right but not acted on. We did correctly rank JPR One above Mirabad.

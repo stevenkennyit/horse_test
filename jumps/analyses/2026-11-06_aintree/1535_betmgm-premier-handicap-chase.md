@@ -146,3 +146,10 @@ Worked through every gap/asserted/not-found item. Closed: declarations/going re-
   - Marble Sands `https://www.sportinglife.com/racing/profiles/horse/990876`
   - Montregard `https://www.sportinglife.com/racing/profiles/horse/1091127`
   - (all 12 profiles read: Master Chewy 1050178, Leave Of Absence 1050800, Gustavian 929390, Jasmin De Grugy 1122799, King Turgeon 1039957, Dartmoor Pirate 1088578, Hold Your Fort 1074938)
+
+## Result (reviewed 23:45 Fri 6 Nov)
+- **Winner: Montregard (5/1) — named in the write-up as a co-danger just below the top three (the Cobden booking the signal), rated 0.11.** Held up, progressed from 4 out, led before the last, kept on well.
+- **EW Kap Vert (11/1) — 3rd, PLACED:** disputed 2nd 2 out, faded late but held 3rd (12 run = 3 places). The stamina/travel value call landed.
+- **WIN Konfusion (12/1) — 5th:** took 2nd before 3 out, outpaced; the jumping + 209-day reappearance doubts told.
+- **DANGER Here Comes Georgie (5/2 fav) — 7th:** our modest 0.14 on the market favourite vindicated. King Turgeon 2nd (18/1).
+- **Verdict: mixed.** Winner correctly flagged as a co-danger and the each-way placed at a big price; the Win underperformed but its doubts were stated.

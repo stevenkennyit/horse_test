@@ -88,3 +88,9 @@ Royal Infantry 0.42 + Klimt Madrik 0.38 + Intosomethinggood 0.20 = 1.00. The fie
 - Klimt Madrik profile (full career): https://www.sportinglife.com/racing/profiles/horse/1202288
 - Klimt Madrik last chase (Worcester 21 Oct, horse-id source): https://www.sportinglife.com/api/horse-racing/race/944575
 - Kevin Brogan claim status (rode out claim 2022): Racing Post / GreatBritishRacing conditional championship reports
+
+## Result (reviewed 23:45 Fri 6 Nov)
+- **WIN Royal Infantry (11/8) — WON.** Led from the 2nd fence, asserted 3 out, ran on well before the last.
+- **DANGER Klimt Madrik (6/5 fav) — 2nd:** mistakes at the 2nd and 3 out, chased the winner but was always held — exactly the jumping + held-up-in-a-front-run-race doubt that kept the market favourite out of our Win.
+- Intosomethinggood (our 3rd pick, 0.20) — 3rd.
+- **Verdict: held.** The pace/stamina tactical call — front-running Royal Infantry over the higher-rated but hold-up Klimt Madrik — was vindicated in full.

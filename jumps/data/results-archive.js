@@ -2674,6 +2674,166 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-11-06",
+      "course": "Aintree",
+      "country": "GB",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Good to Soft (Good in places) - Mildmay chase + hurdle course (autumn fixture; the Haldon Gold Cup was relocated here from Exeter). No raceday GoingStick published. Analysed single-pass at the user's request, then a full gap-fill pass was run before the offs.",
+      "dataErrors": [
+        "Sporting Life and Racing Post racecard pages 404'd for this relocated fixture pre-race; cards were rebuilt from the SL race API (/api/horse-racing/race/<id>) + horse profiles, and results read back cleanly from the same APIs post-race.",
+        "12:40 first pass (pre gap-fill): Avide wrongly shown with a 1lb claim from the RP card (SL API confirmed 11-0, no claim), and Watery Borren's headgear mis-read as blinkers+wind-op (actually tongue strap only) - both corrected before the off.",
+        "Result beaten-distances from the SL API came without unit labels (treated as lengths)."
+      ],
+      "races": [
+        {
+          "time": "12:40",
+          "name": "BetMGM Novices' Hurdle (Novices' Championship Hurdle Series Qualifier) (GBB Race)",
+          "type": "novices' hurdle",
+          "distance": "2m209y",
+          "going": "Good to Soft (Good in places)",
+          "runners": 4,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": ["N"],
+          "notes": "RESULT: Risky Obsession (1/1f) won - our 3rd pick (rated 0.19). We documented its sharp class drop (Class 1 -> Class 3) with first-time hood+tongue but ranked it behind a weight-conceding modest Cl4 winner and a 211-day-off rival (error N). WIN Watery Borren led and went 5L clear, headed before 2 out, outpaced into 3rd (9/4). DANGER Aqua Bleu led just before 2 out, headed at the last, 2nd (7/2). Avide (hurdle debut) tailed off last. The near-even top two was called correctly; we just inverted the market's favourite.",
+          "winner": { "horse": "Risky Obsession", "sp": "1/1", "agentProb": 0.19 },
+          "writeup": "jumps/analyses/2026-11-06_aintree/1240_betmgm-novices-hurdle.md",
+          "updated": "23:45 Fri 6 Nov",
+          "picks": [
+            { "role": "win", "horse": "Watery Borren", "prob": 0.33, "placeProb": 0.60, "finish": "3", "sp": "9/4", "confidence": "low-medium", "reason": "Race-fit (won a 13-runner Cl4 at Carlisle 15 days ago over 2m1f), top projected rating, hot 41% yard, suits the galloping track. 4-runner win-only field, so no each-way.", "against": "Only ONE rules run; gives 6lb to all three rivals off a Cl4 win landed at 17/2, up in class, and the card RPR 133 is unconfirmed on the result page." },
+            { "role": "danger", "horse": "Aqua Bleu", "prob": 0.32, "placeProb": 0.60, "finish": "2", "sp": "7/2", "confidence": "low-medium", "reason": "Most proven/consistent (3 Cl4 wins + a 2nd from 5; the only blemish a PU in a Grade 1, verified at source as simply outclassed, not a jumping/stamina flaw), handles cut, receives 6lb. Behind the Win only on fitness: 211 days off, first run back (yard noted a cold spell). Near-even call with the Win. (3rd Risky Obsession 0.19, 4th Avide 0.16 - all-Flat hurdle debutant.)" }
+          ]
+        },
+        {
+          "time": "13:15",
+          "name": "Download The BetMGM App Novices' Limited Handicap Chase (GBB Race)",
+          "type": "handicap chase",
+          "distance": "3m210y",
+          "going": "Good to Soft (Good in places)",
+          "runners": 5,
+          "source": "full",
+          "status": "settled",
+          "grade": "held",
+          "errors": [],
+          "notes": "RESULT: WIN Off The Jury (5/2) made all, a mistake at the 14th, pushed along and ran on well to hold - top pick won; the front-running, twice-a-fence-winner, fence-experience read nailed it. DANGER Below The Radar 2nd (4/1), every chance at the last but held. EW Dixie Mafia 4th (6/1), weakened (did not place; 2 places). Leader Crik 3rd, Barnpark tailed off.",
+          "winner": { "horse": "Off The Jury", "sp": "5/2", "agentProb": 0.40 },
+          "writeup": "jumps/analyses/2026-11-06_aintree/1315_betmgm-novices-limited-handicap-chase.md",
+          "updated": "23:45 Fri 6 Nov",
+          "picks": [
+            { "role": "win", "horse": "Off The Jury", "prob": 0.40, "placeProb": 0.62, "finish": "1", "sp": "5/2", "confidence": "medium", "reason": "Only one in the field to have won twice over fences (sound, fluent jumper), a prominent racer suiting the galloping Mildmay course; progressive novice up just 4-5lb for two wins. Fence experience is the key at this staying trip.", "against": "Never won beyond 2m5f; 3m record is one hurdle 3rd plus a PU and a run-out, so 3m210y stamina is unproven; top weight and 142 days off." },
+            { "role": "ew", "horse": "Dixie Mafia", "prob": 0.25, "placeProb": 0.52, "finish": "4", "sp": "6/1", "confidence": "medium", "reason": "Best each-way value on our numbers: proven stays 3m on soft at this exact course (2nd Aintree 3m149y), won his only chase start comfortably, 2lb well-in and receives 15lb from top; Christian Williams staying yard.", "against": "Only one completed chase start (fencing barely tested), lowest-rated, 196 days off, and two 80/1 hurdle flops on record." },
+            { "role": "danger", "horse": "Below The Radar", "prob": 0.15, "placeProb": 0.42, "finish": "2", "sp": "4/1", "confidence": "medium", "reason": "Nicholls/S Twiston-Davies, stays 3m (3rd Newbury 3m on Heavy), gets 7lb and a consistent placer; chief threat if the first two fail. But fell on his only chase start, no win since Mar 2024 and 205 days off." }
+          ]
+        },
+        {
+          "time": "13:50",
+          "name": "Read Meg Nicholls' Blog At betmgm.co.uk Handicap Hurdle",
+          "type": "handicap hurdle",
+          "distance": "2m209y",
+          "going": "Good to Soft (Good in places)",
+          "runners": 7,
+          "source": "full",
+          "status": "settled",
+          "grade": "held",
+          "errors": [],
+          "notes": "RESULT: WIN All In You (6/4f) held up, led at the last and went clear readily - top pick won; the corrected 'roughly level with Dedicated Hero, fit from the Flat, hold-up suits a strong pace' read was spot on. DANGER Lyssenko 2nd (4/1). Dedicated Hero (top weight, correctly opposed) 6th. EW King Ulanda last of 7 (exposed Cl4-level, as the case-against said).",
+          "winner": { "horse": "All In You", "sp": "6/4", "agentProb": 0.28 },
+          "writeup": "jumps/analyses/2026-11-06_aintree/1350_betmgm-handicap-hurdle.md",
+          "updated": "23:45 Fri 6 Nov",
+          "picks": [
+            { "role": "win", "horse": "All In You", "prob": 0.28, "placeProb": 0.54, "finish": "1", "sp": "6/4", "confidence": "medium", "reason": "Fit from the Flat with his hurdle mark barely moved (126->127) vs Dedicated Hero's +10lb spring rise; on the re-read Ayr G2 line (btn 6.5L in 4th, hampered when the leader fell) the pair are now roughly level at today's weights; hold-up style suits a likely strong pace; Sean Bowen booked.", "against": "Modest hurdle CV (one Cl3 win, a G1 PU, a hampered 4th); a closer who needs the race to fall right, and the Flat-to-hurdles fitness read is an inference." },
+            { "role": "ew", "horse": "King Ulanda", "prob": 0.08, "placeProb": 0.36, "finish": "7", "sp": "7/1", "confidence": "low", "reason": "Best place-at-a-price: lightest in off 113, in form (beaten a head for 4th in a Cl3 last time), hold-up type who benefits if the front pair duel; likely the biggest price with a real place chance.", "against": "Exposed Cl4-level horse stepping into Cl3; his own card note says the handicapper 'has him about right'; places far more than he wins." },
+            { "role": "danger", "horse": "Lyssenko", "prob": 0.19, "placeProb": 0.42, "finish": "2", "sp": "4/1", "confidence": "medium", "reason": "Unbeaten in France (2 Pau wins), Skelton/Harry Skelton, could be ahead of his first British mark of 125. Not staked: 294 days off and untested on good-to-soft vs UK handicap class." }
+          ]
+        },
+        {
+          "time": "14:25",
+          "name": "BetMGM 'Future Stars' Silver Bowl 'Chasing Excellence' Novices' Chase (GBB Race)",
+          "type": "novices' chase",
+          "distance": "3m210y",
+          "going": "Good to Soft (Good in places)",
+          "runners": 3,
+          "source": "full",
+          "status": "settled",
+          "grade": "held",
+          "errors": [],
+          "notes": "RESULT: WIN Royal Infantry (11/8) led from the 2nd fence, asserted 3 out and ran on - top pick won. DANGER Klimt Madrik (6/5f) made mistakes at the 2nd and 3 out and was always held, 2nd - exactly the jumping + held-up-in-a-front-run-race doubt that kept the market fav out of our Win. Intosomethinggood (our 3rd, 0.20) 3rd. The pace/stamina tactical read was vindicated in full.",
+          "winner": { "horse": "Royal Infantry", "sp": "11/8", "agentProb": 0.42 },
+          "writeup": "jumps/analyses/2026-11-06_aintree/1425_future-stars-novices-chase.md",
+          "updated": "23:45 Fri 6 Nov",
+          "picks": [
+            { "role": "win", "horse": "Royal Infantry", "prob": 0.42, "placeProb": 0.72, "finish": "1", "sp": "11/8", "confidence": "medium", "reason": "Lone confirmed front-runner stepping up to 3m (likely his optimal trip) on a galloping track; made all to win his latest chase 17 days ago, was outpaced (not out-stayed) at 2m4f, strong stamina sire, top yard/Harry Skelton - can dictate a stamina test two hold-up rivals must answer.", "against": "Never run beyond 2m7f (3m unproven for him too); a hurdle 'nearly-horse' whose chase wins came only in weak 3-runner fields; a jumping error from the front would hand it over." },
+            { "role": "danger", "horse": "Klimt Madrik", "prob": 0.38, "placeProb": 0.70, "finish": "2", "sp": "6/5", "confidence": "medium", "reason": "Best on form (OR 143, G1 Challow 2nd, G1 Turners 8th btn 1.75L of 21) and 5lb well-in; if he stays 3m the likeliest winner. Kept out of the Win by a specific doubt: never beyond 2m5f and a hold-up type who must close with fences to jump in a race likely run honestly from the front. 3rd pick Intosomethinggood 0.20 (lowest-rated, PU'd the one time tried at 3m)." }
+          ]
+        },
+        {
+          "time": "15:00",
+          "name": "BetMGM Haldon Gold Cup Handicap Chase (Grade 2) (Limited Handicap)",
+          "type": "handicap chase",
+          "distance": "1m7f176y",
+          "going": "Good to Soft (Good in places)",
+          "runners": 6,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": ["M"],
+          "notes": "RESULT: Rubaud (4/1) made all and won - we FLAGGED him as 'the one confirmed front-runner who could steal a soft, uncontested lead on a galloping 2m' but opposed him for the EW in favour of one-paced Brookie, and our WIN JPR One (2nd, 11/4) was outpaced by exactly that leader (error M - the pace read was right but not acted on). DANGER Mirabad 3rd (9/4f), no extra. EW Brookie 4th (lost a right hind shoe). We did correctly rank JPR One above Mirabad.",
+          "winner": { "horse": "Rubaud", "sp": "4/1", "agentProb": 0.11 },
+          "writeup": "jumps/analyses/2026-11-06_aintree/1500_haldon-gold-cup.md",
+          "updated": "23:45 Fri 6 Nov",
+          "picks": [
+            { "role": "win", "horse": "JPR One", "prob": 0.40, "placeProb": 0.66, "finish": "2", "sp": "11/4", "confidence": "medium", "reason": "Grade 1-placed 2m chaser dropping into a 6-runner G2 in career-best form (won 2m Cheltenham hcap under top weight 14 days ago; 2nd G1 Celebration in April); soundest jumper in the race (18 chase runs, 0 falls, 1 unseat); proven at trip/going; won this race in 2024.", "against": "Top weight off a career-high 161, a new jockey (Jonjo O'Neill Jr in for Powell), and has never actually won at Aintree." },
+            { "role": "ew", "horse": "Brookie", "prob": 0.09, "placeProb": 0.28, "finish": "4", "sp": "6/1", "confidence": "low", "reason": "Place-at-a-price: 2nd in a Maghull G1 over this EXACT C&D (proven track/trip), dropped 13lb to a workable 137, fit (4th in a Cl2 Ascot hcap 6 days ago), first-time cheekpieces; more reliable to complete than Rubaud.", "against": "Exposed one-paced hold-up horse in a 2-place race with two clearly better rivals; +4lb out of the handicap." },
+            { "role": "danger", "horse": "Mirabad", "prob": 0.26, "placeProb": 0.52, "finish": "3", "sp": "9/4", "confidence": "medium", "reason": "Won the Maghull G1 over this exact C&D on Good to Soft and returned with a sound 2nd in a Listed hurdle on 22 Oct; chief threat. Held off the Win by a 17lb rise since that C&D win (career-high 155), a genuine jumping-lapse record (2 unseats in 7 chase starts) and being 6lb worse off than JPR One." }
+          ]
+        },
+        {
+          "time": "15:35",
+          "name": "BetMGM Handicap Chase (Premier Handicap) (GBB Race)",
+          "type": "handicap chase",
+          "distance": "3m210y",
+          "going": "Good to Soft (Good in places)",
+          "runners": 12,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": [],
+          "notes": "RESULT: Montregard (5/1) won - named in our write-up as 'a co-danger just below the top three (Cobden the signal)', rated 0.11. EW Kap Vert PLACED 3rd at 11/1 - the stamina/travel value call landed (12 run = 3 places). WIN Konfusion 5th (12/1), outpaced as the jumping + 209-day-reappearance doubts warned. DANGER/joint-2nd-pick Here Comes Georgie (5/2f) only 7th - our modest 0.14 on the market fav vindicated. King Turgeon 2nd (18/1).",
+          "winner": { "horse": "Montregard", "sp": "5/1", "agentProb": 0.11 },
+          "writeup": "jumps/analyses/2026-11-06_aintree/1535_betmgm-premier-handicap-chase.md",
+          "updated": "23:45 Fri 6 Nov",
+          "picks": [
+            { "role": "win", "horse": "Konfusion", "prob": 0.16, "placeProb": 0.42, "finish": "5", "sp": "12/1", "confidence": "medium", "reason": "Cleanest track-specific line: ran to OR145 when 3rd of 13 in THIS exact race (Aintree 3m210y, GtS) last April and lines up off the SAME mark; progressive stayer who returns well fresh. Big-field Win cap applied (16%).", "against": "Not a fluent jumper ('not fluent' recurs; 1 fall + 1 unseat) and a 209-day seasonal reappearance." },
+            { "role": "ew", "horse": "Kap Vert", "prob": 0.14, "placeProb": 0.40, "finish": "3", "sp": "11/1", "confidence": "medium", "reason": "Best each-way value: progressive 6yo who won the 16-runner Scottish Grand National (4m2f, heavy) travelling strongly - stamina guaranteed, travels into his races, sound jumper, likely a longer price up in grade.", "against": "Up 7lb and dropping sharply from 4m2f; unproven at this exact course / 'short' 3m; 202 days off." },
+            { "role": "danger", "horse": "Here Comes Georgie", "prob": 0.14, "placeProb": 0.40, "finish": "7", "sp": "5/2", "confidence": "medium", "reason": "The one race-fit runner near the top (13 days off), won a 3m1f GtS handicap chase 13 days ago travelling powerfully, distance-proven, Skelton. Held off the Win only by the 7lb rise and a hold-up style. Co-danger Montregard 0.11 (Cobden booked)." }
+          ]
+        },
+        {
+          "time": "16:05",
+          "name": "Gamble Responsibly At BetMGM Handicap Hurdle",
+          "type": "handicap hurdle",
+          "distance": "2m209y",
+          "going": "Good to Soft (Good in places)",
+          "runners": 10,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "errors": [],
+          "notes": "RESULT: Secret Vino (18/1) won - our outsider (rated 0.08), downgraded on a '2m1f may be too sharp' stamina worry that proved unfounded (mild mis-weight, but a genuine 18/1 market outsider = largely variance). EW Limier d'Arthel 2nd (11/4, led at the last, headed near the line) and DANGER Knight Templar 3rd (11/2) BOTH PLACED (10 run = 3 places). WIN Quaviste (11/8f) led approaching 2 out then weakened to 6th - the 251-day reappearance 'may need the run' caveat held. Mia Sunshine (our flagged improver) 4th.",
+          "winner": { "horse": "Secret Vino", "sp": "18/1", "agentProb": 0.08 },
+          "writeup": "jumps/analyses/2026-11-06_aintree/1605_betmgm-handicap-hurdle.md",
+          "updated": "23:45 Fri 6 Nov",
+          "picks": [
+            { "role": "win", "horse": "Quaviste", "prob": 0.26, "placeProb": 0.56, "finish": "6", "sp": "11/8", "confidence": "medium", "reason": "Best weight-adjusted line: 4th of 17 beaten 1.5L in a Class 2 handicap (Morebattle, Kelso) off TODAY'S exact mark 113, now dropped to Class 4; Dan/Harry Skelton; travels into his races with pace to aim at.", "against": "251-day seasonal reappearance (may need the run) and no win over hurdles yet; one unseat shows a jumping blip exists." },
+            { "role": "ew", "horse": "Limier d'Arthel", "prob": 0.12, "placeProb": 0.52, "finish": "2", "sp": "11/4", "confidence": "medium", "reason": "Consistent placer (2nd/2nd/3rd, travels smoothly), shaped well on handicap debut 2nd off 107, raised only +3lb to 110; Cobden + Hobbs/White, 16-day back-up - genuine place at a longer price.", "against": "Flagged keen-goer; places rather than wins, so could be second again." },
+            { "role": "danger", "horse": "Knight Templar", "prob": 0.18, "placeProb": 0.48, "finish": "3", "sp": "11/2", "confidence": "medium", "reason": "Progressive 5yo, won a 15-runner Class 4 at Chepstow LTO off 109 travelling strongly; up 5lb but the most likely of the rest to beat the top two. Left off the EW slot as a short-priced LTO winner with less value than Limier. (Mia Sunshine 0.14 the chief unselected improver.)" }
+          ]
+        }
+      ]
     }
   ]
 });
