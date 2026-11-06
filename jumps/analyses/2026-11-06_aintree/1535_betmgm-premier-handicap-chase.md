@@ -4,8 +4,9 @@
 - **Off time:** 15:35 local (UK).
 - **Code / type:** Chase — Premier Handicap, Class 1.
 - **Distance:** 3m 210y.
-- **Going:** Good to Soft (Good in places) — verified at source in the Sporting Life race API `race_summary` (going_shortcode GS), checked 12:15 GMT 6 Nov 2026. Matches the fact pack.
-- **Field size:** 12 declared, 12 runners (all ride_status RUNNER at 12:15 GMT — **no non-runners**).
+- **Going:** Good to Soft (Good in places) — verified at source in the Sporting Life race API `race_summary` (going_shortcode GS), checked 12:15 GMT and **re-checked 12:20 GMT** 6 Nov 2026 (unchanged). Matches the fact pack.
+- **Field size:** 12 declared, 12 runners (all ride_status RUNNER, re-checked 12:20 GMT — **no non-runners**).
+- **Course character (verified, mixed read):** Aintree Mildmay is left-handed, flat and fair with stiff conventional birch fences and a long run-in (you need a bit of horse left up the straight). Sources split on emphasis — one Racing Post preview calls the circuit "galloping," others stress its relative sharpness and tight final bends. Net: a true jumping and stamina test that rewards sound jumpers who stay and are travelling at the home turn; not a pure galloping track. (Replaces the earlier fact-pack-only assertion.)
 - **Analysis source:** full.
 
 ## Data-availability note (important)
@@ -44,9 +45,9 @@ Note: A J Honeyball saddles four (Leave Of Absence, Gustavian, Jasmin De Grugy, 
 | **Marble Sands** | Jumps left; fell in National (4m2f); otherwise completes | Won Chelt 3m3f; 2nd Rowland Meyrick 3m; stays well | OR146, 2nd top | Veteran, honest at staying trips | Ran Topham/National here; fell National | Held-up/closer | Hot trainer; Woods; **18d off (Flat run) — fit** | Jumps left; age 10 |
 | **Master Chewy** | Erratic — "jumping erratically" Ryanair; tailed off last 2 | **Unproven at 3m** (one try, 3m Kempton, tailed off) | Top weight 12-0 off 152 | Declining at G1; 2nd Kempton G2 Jan best recent | Course winner 2023/24 (but at ~2m) | Rear | Wind op since LTO; 239d off; drop in grade | Trip + jumping + top weight |
 | **Jasmin De Grugy** | Won Grimthorpe in **first-time cheekpieces**; PU LTO; fell Jan | Won 3m2f Grimthorpe; stays | OR132; "bounce back needed" | 5-timer 24/25 then PU | No course run | Mid-division | Honeyball; **cheekpieces NOT re-applied today (t only)** | Gear that sparked best run removed; PU LTO |
-| **Gustavian** | **2 falls in last 6** (both early, as leader) — real risk | Course form: 2nd here 3m210y (soft); stays 3m | Won last year's renewal (at Wincanton) | Lightly raced 11yo; fell LTO | 2nd over this C&D Dec 2024 | Front-runner (makes all) | Honeyball; Godfrey; 228d off; age 11 | Fall risk as front-runner |
+| **Gustavian** | **2 falls in last 6** (both early, as leader) — real risk | **Verified: 2nd of 7 over the exact C&D (Aintree 3m210y, Soft, btn a neck) Dec 2024**; stays 3m | Won last year's renewal of this race (Badger Beers Prem Hcap, Wincanton 3m1f, made all) | Lightly raced 11yo; fell LTO | **2nd over this exact C&D (Mildmay), led/every chance, just held** | Front-runner (makes all) | Honeyball; Godfrey; 228d off; age 11 | Fall risk as front-runner (both recent falls leading) |
 | **Leave Of Absence** | **Jumps poorly** — "hit 1st, mistakes" at C&D; PU once | 5th Ultima 3m1f; stays | OR142; chosen by stable jockey | Mixed; good fresh record | 9th of 13 in this race (behind Konfusion) | Disputes lead | Honeyball; Dingle picked him; 209d off | Recurring jumping errors |
-| **King Turgeon** | Fell heavily LTO; 2 PUs in 2025 | Stays 3m2f | Dropped to 132 | Chase hat-trick 24/25 then poor 25/26 | Grand Sefton winner (National fences) | Hold-up/chased | Pipe; wind op since; 230d off | Jumping; out of form before op |
+| **King Turgeon** | Fell heavily LTO; 2 PUs in 2025 | Stays 3m2f | Dropped to 132 | Chase hat-trick 24/25 then poor 25/26 | **Grand Sefton winner — verified over the National fences, NOT today's Mildmay course** (water/Canal Turn/Elbow in comments) | Hold-up/chased | Pipe; wind op since; 230d off | Jumping; course wins over different (National) fences |
 | **Dartmoor Pirate** | Unseated (when challenging) + PU recently; won with tongue-tie | Won Gt Yorkshire 3m; stays | OR128 (bottom-ish) | Won twice last season then UR/PU | No course run | Mid-division | Honeyball; "may need the run"; 188d off | Needs the run; recent non-completions |
 | **Hold Your Fort** | Jumps right; often "not fluent"; completes | Won 3m Uttoxeter; 2nd 3m soft LTO; stays | 10-1 after 5lb claim; up in class | Honest Class 2 type | No course run | **Front-runner (makes all)** | Hamer; Fenelon (5); **23d off — fit** | Class 1 rise; jumps right on LH track |
 
@@ -60,9 +61,9 @@ Likely to go forward: **Gustavian** (makes all), **Hold Your Fort** (makes all),
 - **Marble Sands** — race-fit (Flat run 18d ago), proven 3m/3m3f winner, but jumps left and fell in the National; solid place hope at a price. **The live outsider.**
 - **Master Chewy** — wind op + big drop in grade could revive him, but 3m is unproven (tailed off his only try) and he shoulders top weight with erratic jumping.
 - **Jasmin De Grugy** — Grimthorpe winner, but his best run came in first-time cheekpieces that are **not re-applied today**, and he was pulled up last time; needs to bounce back.
-- **Gustavian** — won this race last year and was 2nd over this C&D, but has fallen in two of his last six as a front-runner — fall risk caps him.
+- **Gustavian** — won this race's last running (Wincanton) and was 2nd of 7 over the **exact C&D (Aintree 3m210y, Soft, btn a neck, every chance), now verified at source**, but has fallen in two of his last six as a front-runner — on a stiff-fenced track that fall risk caps him.
 - **Leave Of Absence** — stable jockey's pick and well treated on figures, but jumps too poorly (behind Konfusion over C&D) to trust at 3m.
-- **King Turgeon** — Aintree (Grand Sefton) winner with a wind op now fitted, but was falling/pulling up before the break; speculative.
+- **King Turgeon** — Aintree Grand Sefton winner with a wind op now fitted, but his course wins are **over the National fences (verified), not today's Mildmay course**, and he was falling/pulling up before the break; speculative.
 - **Dartmoor Pirate** — a 3m winner last season, but unseated/pulled up in his last two and "may need the run" per the yard.
 - **Hold Your Fort** — fit and a possible loose leader (10-1 after the claim), but a Class 2 type jumping right, up in grade.
 
@@ -98,7 +99,7 @@ Win capped at 16% per the big-field (12-runner) handicap ceiling (~25% max; kept
 ## Rationale and case against
 
 ### WIN — Konfusion (win 0.16, place 0.42, medium)
-- **Reason:** The cleanest track-specific evidence in the race. He ran to **OR145 when 3rd of 13 in this exact race (the Freebooter, Aintree 3m 210y, Good to Soft) last April**, staying on up the long run-in — and he lines up today **off that same mark of 145**, so he needs no improvement. He is a genuinely progressive stayer (92→145 last season, made all over 3m at Wetherby) who returns well fresh (won first-up last autumn). *Verified:* C&D 3rd off 145 (profile + in-running "went third last, stayed on flat"); 3m Wetherby win "made all"; mark 145 today (race API). *Asserted:* that he returns to form fresh (one prior reappearance win read, 2025-11-01).
+- **Reason:** The cleanest track-specific evidence in the race. He ran to **OR145 when 3rd of 13 in this exact race (the Freebooter, Aintree 3m 210y, Good to Soft) last April**, staying on up the long run-in — and he lines up today **off that same mark of 145**, so he needs no improvement. He is a genuinely progressive stayer (92→145 last season, made all over 3m at Wetherby). *Verified:* C&D 3rd off 145 (profile + in-running "went third last, stayed on flat"); 3m Wetherby win "made all"; mark 145 today (race API). **Fresh record (now read in full, explicit):** this is a 209-day seasonal reappearance; his only comparable long-layoff return was last autumn — **won first-up on 2025-11-01 (Wetherby 3m, ~190 days off)** — plus a 3rd at Sedgefield after a shorter ~100-day gap in 2024. So "returns well fresh" is **a single clean precedent, verified**, not a deep pattern — a modest positive, not a strong one.
 - **Against:** He is **not a fluent jumper** — "not fluent" recurs in his comments and he has one fall (Cheltenham) and one unseat (Haydock) on the record; a jumping error on a galloping track still costs, and he is a 209-day seasonal reappearance. *Verified* (casualty comments read: "fell next", "unseated rider 11th").
 
 ### EACH-WAY — Kap Vert (win 0.14, place 0.40, medium)
@@ -115,15 +116,29 @@ Win capped at 16% per the big-field (12-runner) handicap ceiling (~25% max; kept
 - Jockey claim applied (only Hold Your Fort, 5lb).
 - No pick ranked on a finishing time (chase times on GS treated as uninformative).
 
-## Unverified / data gaps
-- **At The Races Smart Stats and Geegeez pace/fence data** could not be loaded (the 6 Nov 2026 card is not published on those sites). Pace read is from in-running comments only.
-- **Course character** (Aintree Mildmay galloping/fair, stamina-biased, prominent types favoured) taken from the fact pack + general knowledge — *asserted*, not re-verified at an ATR/Geegeez course guide this session.
-- **RPR / Topspeed** figures not used (not needed; OR verified).
-- Konfusion "returns well fresh" rests on one prior reappearance — *asserted*.
-- Course/distance labels ("Grand Sefton over National fences" for King Turgeon; Gustavian's 2nd "over this C&D") read from profile race names/distances; the National-vs-Mildmay fence distinction for King Turgeon's Aintree wins is *asserted* from race-name knowledge.
+## Unverified / data gaps (after the gap-fill pass)
+
+**Closed this pass:**
+- Declarations/non-runners/going re-checked at 12:20 GMT via SL race API 947293 — still 12 runners, no non-runners, going Good to Soft (Good in places).
+- King Turgeon's Aintree wins **verified over the National fences** (Grand Sefton — comments name the water, Canal Turn, Elbow), so they are not Mildmay-course form.
+- Gustavian's "2nd over this C&D" **verified**: 2nd of 7 over Aintree 3m 210y on Soft, beaten a neck, "every chance run-in" (2024-12-26).
+- Konfusion "returns well fresh" **verified as a single precedent**: won his seasonal reappearance 2025-11-01 (Wetherby 3m, ~190 days off); explicitly flagged as one data point, not a pattern.
+- Course character **upgraded from assertion to a cited (mixed) read** (see header).
+
+**Still open:**
+- **At The Races Smart Stats / pace map and Geegeez pace** remain inaccessible — ATR returns a 3,038-byte JS/bot stub and Geegeez returns 403 (bot check). The pace read is therefore built from the runners' own in-running comments, not a dedicated pace tool.
+- **RPR / Topspeed** not used (not needed; OR verified for all 12).
+- Exact Mildmay run-in length not pinned to a single figure (the ~494y figure in sources refers to the National course, not the Mildmay) — immaterial to the selections.
+
+## Update 12:22 GMT — gap-fill pass (pre-off, not yet recorded)
+
+Worked through every gap/asserted/not-found item. Closed: declarations/going re-checked (12 runners, no NR, GS — unchanged); King Turgeon course form confirmed over National fences only; Gustavian's exact-C&D 2nd verified; Konfusion's fresh record read in full (one clean reappearance win precedent); course character replaced with a cited mixed read. Still open: ATR Smart Stats/Geegeez pace (both bot-walled) — pace read stays comment-based.
+
+**Selections unchanged.** None of the verifications moved a runner enough to reorder the top of the market: Gustavian's verified C&D 2nd is offset by two recent front-running falls on a stiff-fenced track; King Turgeon's course form is over different (National) fences; Konfusion's single fresh precedent supports holding him at 16% (not higher); the stiff-fences/long run-in/stamina read still favours sound-staying travellers (Konfusion stays on up the run-in, Kap Vert and Here Comes Georgie travel and stay). Win cap (16%) respected; full spread unchanged.
 
 ## Sources
 - Race card (weights, OR, jockeys, headgear, going, runners): `https://www.sportinglife.com/api/horse-racing/race/947293`
+- Aintree course character (mixed read): At The Races course guide `https://www.attheraces.com/racecourses/aintree` (JS-walled; summarised via Racing Post Aintree previews/course notes) and Racing Post Aintree tips `https://www.racingpost.com/horse-racing-tips/racecourses/aintree-tips/`
 - Horse profiles (full career + in-running + casualty + insights), e.g.:
   - Konfusion `https://www.sportinglife.com/racing/profiles/horse/1065896`
   - Kap Vert `https://www.sportinglife.com/racing/profiles/horse/1138216`
