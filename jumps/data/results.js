@@ -58,6 +58,24 @@
       "going": "Good to Soft (Good in places) - Sporting Life going page / Racing Post card, checked ~12:00 GMT 6 Nov; autumn fixture run on the Mildmay chase course + hurdle course (NOT the Grand National/Grand Sefton course); no raceday GoingStick published yet. NOTE: analysed with the gap-fill pass skipped at the user's request (single pass per race).",
       "races": [
         {
+          "time": "12:40",
+          "name": "BetMGM Novices' Hurdle (Novices' Championship Hurdle Series Qualifier) (GBB Race)",
+          "type": "novices' hurdle",
+          "distance": "2m209y",
+          "going": "Good to Soft (Good in places)",
+          "runners": 4,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "writeup": "jumps/analyses/2026-11-06_aintree/1240_betmgm-novices-hurdle.md",
+          "updated": "12:14 Fri 6 Nov",
+          "picks": [
+            { "role": "win", "horse": "Watery Borren", "prob": 0.35, "placeProb": 0.62, "finish": "-", "confidence": "medium", "reason": "Top-rated on the card and race-fit (won a 13-runner Cl4 at Carlisle 15 days ago over 2m1f), hot 41% yard, prominent-track type. 4-runner win-only field, so no each-way.", "against": "Concedes 6-7lb to every rival off a Cl4 win landed at 17/2, up in class, and the headline card RPR is unconfirmed on the result page." },
+            { "role": "danger", "horse": "Aqua Bleu", "prob": 0.31, "placeProb": 0.58, "finish": "-", "confidence": "medium", "reason": "Best body of hurdle form (3 wins + a 2nd from 5; only blemish a PU in a Grade 1, excusable on class), handles cut, receives 6lb from the top weight, keeps Sean Bowen. Not the Win only because 211 days off first time back and his wins were small-field juvenile heats. (3rd Risky Obsession 0.18, 4th Avide 0.16 - hurdle debutant.)" }
+          ]
+        },
+        {
           "time": "13:15",
           "name": "Download The BetMGM App Novices' Limited Handicap Chase (GBB Race)",
           "type": "handicap chase",
