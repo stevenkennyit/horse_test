@@ -4,16 +4,16 @@
 - **Off time:** 16:05 local (last race)
 - **Race:** Handicap Hurdle, Class 4, 3yo+, 0-115
 - **Distance:** 2m 209y (about 2m1f)
-- **Going:** Good to Soft (Good in places) — source: Sporting Life race API (race 947294), re-checked 12:04 GMT 6 Nov 2026
+- **Going:** Good to Soft (Good in places) — source: Sporting Life race API (race 947294), re-checked 12:13 GMT 6 Nov 2026 (unchanged)
 - **Field:** 10 declared; **3 each-way places**
-- **Non-runners:** none (all 10 = RUNNER on the SL race API, checked 12:04 GMT; re-check near the off)
+- **Non-runners:** none (all 10 = RUNNER on the SL race API, re-checked 12:13 GMT; re-check again near the off)
 - **Analysis source:** full (own analysis)
 
-Course character: Aintree's hurdle course is left-handed, essentially flat, fair and galloping with sweeping bends and a long run to the line; no jumps draw bias. On easy ground it favours prominent, galloping types and asks a stamina question, but today's Good to Soft (Good in places) is only mildly testing, so stamina is not stretched at this sharp-ish 2m1f trip. *(course character asserted — ATR course guide and Geegeez pace would not load; running-style read below is taken from each runner's in-running comments, which the playbook prefers over the card label.)*
+Course character: Aintree's hurdle/Mildmay course is left-handed and flat, with two long galloping straights but tight final bends and a long, searching run-in (~494yds, including the Elbow); no jumps draw bias. *(verified via RacingTV / course-guide sources — see Sources.)* The galloping straights and long run-in reward a horse that travels into the race and stays out its trip, while the tight final bends keep tactical speed relevant; on today's only-mildly-testing Good to Soft (Good in places), stamina is not stretched at this sharp-ish 2m1f. *(ATR Smart Stats, ATR course guide and Geegeez pace map all failed to load again on re-try — 404/403/bot-shell — so the pace/run-style read below is built from each runner's in-running comments, which the playbook prefers over the card label.)*
 
 ## Weights, claims and the handicap
 
-Top weight 11-7 maps 1lb-per-point to OR 114, down to 11-2 for OR 109 — a tight 5lb spread, a competitive low-grade handicap. **Jockey claims:** SL weights are the allocated (pre-claim) weights. Senior/non-claiming riders here: Gillard, H Skelton, Dunne, Nichol, S Bowen, Cobden, Quinlan, Tudor. **Claims not verifiable at source for this date (asserted):** Sean Houlihan (Knight Templar) and Jack Andrews (Secret Vino) are conditionals who may still claim ~3lb — Andrews rides for brother-in-law Tom Ellis (Secret Vino's trainer) and was reported in mid-2025 claiming 3lb. If they claim 3lb, Knight Templar effectively carries ~11-4 and Secret Vino ~11-3, which marginally helps both. The three selections (Quaviste, Limier d'Arthel, Knight Templar) are unaffected except for Knight Templar's small claim benefit.
+Top weight 11-7 maps 1lb-per-point to OR 114, down to 11-2 for OR 109 — a tight 5lb spread, a competitive low-grade handicap. **Jockey claims:** SL card and profile weights are the allocated (pre-claim) weights throughout, so the claim cannot be detected from SL data. Senior/non-claiming riders here: Gillard, H Skelton, Dunne, Nichol, S Bowen, Cobden, Quinlan, Tudor. **Still not verifiable at source for 6 Nov 2026** (Racing Post card and jockey profiles 404, ATR a bot shell, Sky 404; the SL jockey API carries no claim field): Sean Houlihan (Knight Templar) and Jack Andrews (Secret Vino) are conditionals. Best evidence: Andrews regained conditional status in mid-2025 claiming **3lb** and rides here for brother-in-law Tom Ellis (Secret Vino's trainer) — most likely still 3lb; Houlihan has been a conditional since 2017 and an older interview had him "14 winners off his 3lb claim" aiming to ride it out — so he is **either a 3lb claimer or has just ridden out (no claim)**, which cannot be pinned down. A 3lb claim would make Knight Templar carry ~11-4 and Secret Vino ~11-3; in both cases it only reduces weight, so erring here is in each horse's favour. **Neither changes the selections** — Secret Vino (8%) stays outside them and Knight Templar is already the Danger.
 
 ## Summary grid
 
@@ -52,7 +52,7 @@ Full-field win-probability spread (sums to 100%): Quaviste 26, Knight Templar 18
 
 ### Rationale
 
-**WIN — Quaviste (26%).** The best weight-adjusted form line in the race: 4th of 17, beaten only 1.5 lengths, in a Class 2 handicap hurdle (the Morebattle at Kelso) off **exactly today's mark of 113** — "every chance before last" *(verified, SL profile 1162770)*. Dropped into a Class 4 off the same figure, that is a clear well-handicapped, progressive-novice angle, the type the playbook prizes, not just a rating. Powerful yard and top jockey (Dan/Harry Skelton) *(verified, card)*. Running style is hold-up/travel-into-it, and there looks enough pace (prominent types Whiskeywealth, Secret Vino, Inappropriate, plus the strong-travelling Knight Templar) to give him something to aim at on a galloping track *(asserted from in-running styles)*.
+**WIN — Quaviste (26%).** The strongest weight-adjusted form line in the race — narrowly ahead of Inappropriate's Class 2 fourth (btn 3l off 112): Quaviste was 4th of 17, beaten only 1.5 lengths, in a Class 2 handicap hurdle (the Morebattle at Kelso) off **exactly today's mark of 113** — "every chance before last, weakened run-in" *(verified in full, SL profile 1162770)*. Dropped into a Class 4 off the same figure, that is a clear well-handicapped, progressive-novice angle, the type the playbook prizes, not just a rating. Powerful yard and top jockey (Dan/Harry Skelton) *(verified, card)*. Running style is hold-up/travel-into-it, and there looks enough pace (prominent types Whiskeywealth, Secret Vino, Inappropriate, plus the strong-travelling Knight Templar) to give him something to aim at on a galloping track *(asserted from in-running styles)*.
 - **Case against:** 251-day seasonal reappearance *(verified: last ran 28 Feb 2026)* — he may need the run — and he has **no win over hurdles** (bumper winner only); his one unseat (Nov-25, "bad mistake and unseated last" when travelling well) shows a jumping blip exists *(verified)*. If fitness or jumping lets him down the form counts for nothing.
 
 **EACH-WAY — Limier d'Arthel (12% win / 52% place).** Chosen on each-way expectation, not as second-favourite: a consistent placer (2nd, 2nd, 3rd in his completed hurdle starts, all travelling smoothly) who shaped well on his **handicap debut/reappearance** when 2nd at Worcester off 107, and is raised only **3lb** to 110 *(verified, SL profile 1139821)*. Harry Cobden and the strong Hobbs/White yard, quick back-up in 16 days *(verified)*. A genuine place chance at a longer price than the Win or Danger.
@@ -60,13 +60,14 @@ Full-field win-probability spread (sums to 100%): Quaviste 26, Knight Templar 18
 
 **DANGER — Knight Templar (18%).** The chief threat: a progressive 5yo who won a 15-runner Class 4 at Chepstow last time off 109, travelling strongly *(verified, SL profile 1110680)*. Up 5lb to 114 (top weight), and carries less if Houlihan claims. Most likely of the rest to beat the top two if either misfires; left out of the EW slot because, as a short-priced last-time-out winner, he offers less each-way value than Limier.
 
-## Unverified / data gaps
+## Unverified / data gaps (after gap-fill pass, ~12:15 GMT)
 
-- **Jockey claims for Sean Houlihan (Knight Templar) and Jack Andrews (Secret Vino)** — not confirmable at source for 6 Nov 2026 (RP card 403/404, Sky 404, ATR a bot shell). Treated as asserted ~3lb; both reduce carried weight, so erring here is in the horses' favour, and it does not change the selections.
-- **Course character and pace bias** — ATR course guide and Geegeez pace tables would not load; the galloping/flat/long-run-in description is asserted from general course knowledge, and the pace read is built from runners' in-running comments rather than a pace map.
-- **No At The Races Jumping Fluency / Speed-Lost figures** — jumping judged from Racing Post-style in-running comments embedded in the SL profiles.
+- **Jockey claims for Sean Houlihan (Knight Templar) and Jack Andrews (Secret Vino)** — still not confirmable at source for 6 Nov 2026 after exhausting RP card/profiles (404), ATR (bot shell), Sky (404) and the SL jockey API (no claim field; all SL weights are pre-claim). Best estimate: Andrews likely 3lb; Houlihan 3lb or just ridden out. A claim only lowers carried weight, so this is in the horses' favour and **does not change the selections**.
+- **Course character** — now **verified** (left-handed, flat, galloping straights, tight final bends, ~494yd run-in) via RacingTV / course-guide sources.
+- **Pace bias / pace map** — ATR Smart Stats, ATR course guide and Geegeez pace all failed again (404/403/bot-shell); the pace/run-style read is built from runners' in-running comments (the playbook's preferred method), not a pace map. This remains the one genuine open gap, though the in-running styles give a clear-enough read (adequate early pace from Whiskeywealth/Secret Vino/Inappropriate for the hold-up travellers to aim at).
+- **No At The Races Jumping Fluency / Speed-Lost figures** — jumping judged from the full in-running comments embedded in the SL profiles, which were re-read in full for every run relied on (Quaviste, Limier, Knight Templar, Mia Sunshine).
 - Finishing times not used (correctly secondary over jumps, and near-uninformative on easy ground).
-- Re-check going and non-runners near the off.
+- Re-check going and non-runners again near the off (last checked 12:13 GMT — unchanged, all 10 declared).
 
 ## Sources
 
@@ -78,3 +79,5 @@ Full-field win-probability spread (sums to 100%): Quaviste 26, Knight Templar 18
   - Mia Sunshine: https://www.sportinglife.com/racing/profiles/horse/1196439
   - (others: Whiskeywealth 1007848, Secret Vino 1153278, Rewired 988374, Inappropriate 1119500, Itsinthename 1209749, Word For Word 1190155)
 - SL meeting list (race IDs): https://www.sportinglife.com/racing/racecards/today
+- SL jockey API (checked for claim field — none present): https://www.sportinglife.com/api/horse-racing/jockey/722 (Houlihan), https://www.sportinglife.com/api/horse-racing/jockey/727 (Andrews)
+- Course character: RacingTV racecourses guide + racing-forum/course-guide descriptions of the Aintree Mildmay/hurdle course (left-handed, flat, galloping straights, tight final bends, ~494yd run-in with the Elbow)
