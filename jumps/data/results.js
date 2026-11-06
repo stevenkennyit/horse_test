@@ -48,5 +48,35 @@
     "K": "An Each-Way forced onto a market-pariah/no-genuine-chance outsider with an inflated place probability, instead of omitting the Each-Way in a race with no sound place proposition",
     "L": "Exposed, modest 'proven' hurdle form ranked above unexposed newcomers or point-winners from powerful yards in a season-opening novice/maiden hurdle or bumper"
   },
-  "meetings": []
+  "meetings": [
+    {
+      "date": "2026-11-06",
+      "course": "Aintree",
+      "country": "GB",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Good to Soft (Good in places) - Sporting Life going page / Racing Post card, checked ~12:00 GMT 6 Nov; autumn fixture run on the Mildmay chase course + hurdle course (NOT the Grand National/Grand Sefton course); no raceday GoingStick published yet. NOTE: analysed with the gap-fill pass skipped at the user's request (single pass per race).",
+      "races": [
+        {
+          "time": "13:15",
+          "name": "Download The BetMGM App Novices' Limited Handicap Chase (GBB Race)",
+          "type": "handicap chase",
+          "distance": "3m210y",
+          "going": "Good to Soft (Good in places)",
+          "runners": 5,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "writeup": "jumps/analyses/2026-11-06_aintree/1315_betmgm-novices-limited-handicap-chase.md",
+          "updated": "12:10 Fri 6 Nov",
+          "picks": [
+            { "role": "win", "horse": "Off The Jury", "prob": 0.40, "placeProb": 0.62, "finish": "-", "confidence": "medium", "reason": "Only one in the field to have won twice over fences (sound, fluent jumper), a prominent racer suiting the galloping Mildmay course; progressive novice up just 4-5lb for two wins. Fence experience is the key at this staying trip.", "against": "Never won beyond 2m5f; 3m record is one hurdle 3rd plus a PU and a run-out, so 3m210y stamina is unproven; top weight and 142 days off." },
+            { "role": "ew", "horse": "Dixie Mafia", "prob": 0.25, "placeProb": 0.52, "finish": "-", "confidence": "medium", "reason": "Best each-way value on our numbers: proven stays 3m on soft at this exact course (2nd Aintree 3m149y), won his only chase start comfortably, 2lb well-in and receives 15lb from top; Christian Williams staying yard.", "against": "Only one completed chase start (fencing barely tested), lowest-rated, 196 days off, and two 80/1 hurdle flops on record." },
+            { "role": "danger", "horse": "Below The Radar", "prob": 0.15, "placeProb": 0.42, "finish": "-", "confidence": "medium", "reason": "Nicholls/S Twiston-Davies, stays 3m (3rd Newbury 3m on Heavy), gets 7lb and a consistent placer; chief threat if the first two fail. But fell on his only chase start, no win since Mar 2024 and 205 days off." }
+          ]
+        }
+      ]
+    }
+  ]
 });
