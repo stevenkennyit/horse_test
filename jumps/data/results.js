@@ -75,6 +75,43 @@
             { "role": "ew", "horse": "Dixie Mafia", "prob": 0.25, "placeProb": 0.52, "finish": "-", "confidence": "medium", "reason": "Best each-way value on our numbers: proven stays 3m on soft at this exact course (2nd Aintree 3m149y), won his only chase start comfortably, 2lb well-in and receives 15lb from top; Christian Williams staying yard.", "against": "Only one completed chase start (fencing barely tested), lowest-rated, 196 days off, and two 80/1 hurdle flops on record." },
             { "role": "danger", "horse": "Below The Radar", "prob": 0.15, "placeProb": 0.42, "finish": "-", "confidence": "medium", "reason": "Nicholls/S Twiston-Davies, stays 3m (3rd Newbury 3m on Heavy), gets 7lb and a consistent placer; chief threat if the first two fail. But fell on his only chase start, no win since Mar 2024 and 205 days off." }
           ]
+        },
+        {
+          "time": "13:50",
+          "name": "Read Meg Nicholls' Blog At betmgm.co.uk Handicap Hurdle",
+          "type": "handicap hurdle",
+          "distance": "2m209y",
+          "going": "Good to Soft (Good in places)",
+          "runners": 7,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "writeup": "jumps/analyses/2026-11-06_aintree/1350_betmgm-handicap-hurdle.md",
+          "updated": "12:22 Fri 6 Nov",
+          "picks": [
+            { "role": "win", "horse": "All In You", "prob": 0.28, "placeProb": 0.54, "finish": "-", "confidence": "medium", "reason": "Best-treated runner and certain to be fit: won a Cl3 off OR122, runs off 127 after a summer of Flat improvement, ~9lb better off with top-rated Dedicated Hero than when 'badly hampered 2 out' behind him at Ayr; hold-up style suits a race with two front-runners; Sean Bowen booked.", "against": "Modest hurdle CV (one Cl3 win, a G1 PU, a hampered 4th); a closer who needs the race to fall right, and the Flat-to-hurdles fitness read is an inference." },
+            { "role": "ew", "horse": "King Ulanda", "prob": 0.08, "placeProb": 0.36, "finish": "-", "confidence": "low", "reason": "Best place-at-a-price: lightest in off 113, in form (beaten a head for 4th in a Cl3 last time), hold-up type who benefits if the front pair duel; likely the biggest price with a real place chance.", "against": "Exposed Cl4-level horse stepping into Cl3; his own card note says the handicapper 'has him about right'; places far more than he wins." },
+            { "role": "danger", "horse": "Lyssenko", "prob": 0.19, "placeProb": 0.42, "finish": "-", "confidence": "medium", "reason": "Unbeaten in France (2 Pau wins), Skelton/Harry Skelton, could be ahead of his first British mark of 125. Not staked: 294 days off and untested on good-to-soft vs UK handicap class." }
+          ]
+        },
+        {
+          "time": "14:25",
+          "name": "BetMGM 'Future Stars' Silver Bowl 'Chasing Excellence' Novices' Chase (GBB Race)",
+          "type": "novices' chase",
+          "distance": "3m210y",
+          "going": "Good to Soft (Good in places)",
+          "runners": 3,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "writeup": "jumps/analyses/2026-11-06_aintree/1425_future-stars-novices-chase.md",
+          "updated": "12:22 Fri 6 Nov",
+          "picks": [
+            { "role": "win", "horse": "Royal Infantry", "prob": 0.42, "placeProb": 0.72, "finish": "-", "confidence": "medium", "reason": "Lone confirmed front-runner stepping up to 3m (likely his optimal trip) on a galloping track; made all to win his latest chase 17 days ago, was outpaced (not out-stayed) at 2m4f, strong stamina sire, top yard/Harry Skelton - can dictate a stamina test two hold-up rivals must answer.", "against": "Never run beyond 2m7f (3m unproven for him too); a hurdle 'nearly-horse' whose chase wins came only in weak 3-runner fields; a jumping error from the front would hand it over." },
+            { "role": "danger", "horse": "Klimt Madrik", "prob": 0.38, "placeProb": 0.70, "finish": "-", "confidence": "medium", "reason": "Best on form (OR 143, G1 Challow 2nd, G1 Turners 8th btn 1.75L of 21) and 5lb well-in; if he stays 3m the likeliest winner. Kept out of the Win by a specific doubt: never beyond 2m5f and a hold-up type who must close with fences to jump in a race likely run honestly from the front. 3rd pick Intosomethinggood 0.20 (lowest-rated, PU'd the one time tried at 3m)." }
+          ]
         }
       ]
     }
