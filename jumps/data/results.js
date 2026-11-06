@@ -71,8 +71,8 @@
           "writeup": "jumps/analyses/2026-11-06_aintree/1240_betmgm-novices-hurdle.md",
           "updated": "12:14 Fri 6 Nov",
           "picks": [
-            { "role": "win", "horse": "Watery Borren", "prob": 0.35, "placeProb": 0.62, "finish": "-", "confidence": "medium", "reason": "Top-rated on the card and race-fit (won a 13-runner Cl4 at Carlisle 15 days ago over 2m1f), hot 41% yard, prominent-track type. 4-runner win-only field, so no each-way.", "against": "Concedes 6-7lb to every rival off a Cl4 win landed at 17/2, up in class, and the headline card RPR is unconfirmed on the result page." },
-            { "role": "danger", "horse": "Aqua Bleu", "prob": 0.31, "placeProb": 0.58, "finish": "-", "confidence": "medium", "reason": "Best body of hurdle form (3 wins + a 2nd from 5; only blemish a PU in a Grade 1, excusable on class), handles cut, receives 6lb from the top weight, keeps Sean Bowen. Not the Win only because 211 days off first time back and his wins were small-field juvenile heats. (3rd Risky Obsession 0.18, 4th Avide 0.16 - hurdle debutant.)" }
+            { "role": "win", "horse": "Watery Borren", "prob": 0.33, "placeProb": 0.60, "finish": "-", "confidence": "low-medium", "reason": "Race-fit (won a 13-runner Cl4 at Carlisle 15 days ago over 2m1f), top projected rating, hot 41% yard, suits the galloping track. 4-runner win-only field, so no each-way.", "against": "Only ONE rules run; gives 6lb to all three rivals off a Cl4 win landed at 17/2, up in class, and the card RPR 133 is unconfirmed on the result page." },
+            { "role": "danger", "horse": "Aqua Bleu", "prob": 0.32, "placeProb": 0.60, "finish": "-", "confidence": "low-medium", "reason": "Most proven/consistent (3 Cl4 wins + a 2nd from 5; the only blemish a PU in a Grade 1, verified at source as simply outclassed, not a jumping/stamina flaw), handles cut, receives 6lb. Behind the Win only on fitness: 211 days off, first run back (yard noted a cold spell). Near-even call with the Win. (3rd Risky Obsession 0.19, 4th Avide 0.16 - all-Flat hurdle debutant.)" }
           ]
         },
         {
