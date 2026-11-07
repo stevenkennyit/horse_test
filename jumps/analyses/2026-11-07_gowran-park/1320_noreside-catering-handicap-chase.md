@@ -132,3 +132,14 @@ Field win-probability spread (sums ~1.00): Break My Soul 0.40, Golden Joy 0.18, 
 
 - Racecard (race JSON): https://www.sportinglife.com/racing/racecards/2026-11-07/gowran-park/racecard/947654/noreside-catering-handicap-chase
 - Profiles (full career + in-running): https://www.sportinglife.com/racing/profiles/horse/1125214 (Break My Soul), /1099743 (Golden Joy), /951028 (Indiana Jones), /1041718 (Maidenstreetprince), /1123788 (Drumgill), /1095913 (Leave In Secret), /1097954 (Mount Frisco)
+
+
+## Result
+
+**1st Golden Joy (12/1)** · 2nd Drumgill (5/1) · 3rd Indiana Jones (13/2) · 4th Leave In Secret (3/1) · 5th Break My Soul (3/1). 7 ran, Good.
+
+- **DANGER Golden Joy — WON**: held up, progress to dispute 3 out, led before the next and pressed late to hold on. Our second-on-class pick won; the completion risk we flagged (recent F/PU) did not bite.
+- **WIN Break My Soul — 5th**: held up, no impression 3 out — **the 182-day layoff + hold-up-on-a-prominent-track doubt we flagged was decisive.**
+- **EW Leave In Secret — 4th** (led early, faded), just out of the 2 places.
+
+**Grade: mixed.** Winner from our picks (Danger); the Win's stated doubt held. No coded error.

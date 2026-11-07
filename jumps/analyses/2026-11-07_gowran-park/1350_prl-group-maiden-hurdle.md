@@ -85,3 +85,14 @@ The one most likely to beat the two above. The **only proven, sound-jumping hurd
 - Sporting Life result — Galway 6 Oct 2026 maiden hurdle (Baila 3rd / Storm Bresie 8th), id 942145
 - Sporting Life horse profiles (unraced confirmation): Loadstone 1234762, Moonlight Quest 1234763, Quinlan 1239700, Storm Bresie 1241125
 - Embedded previous_results for all 12 runners (dates, courses, distances, going, positions, in-running comments) from the card JSON
+
+
+## Result
+
+**1st Huntin Boots (2/1F)** · 2nd Brady Hartsfield (7/2) · 3rd Baila Conmigo (5/2) · 4th Cracking Cloud (8/1). EW Rocky Alfonso 10th (18/1); Loadstone 7th (5/1). 12 ran, Good to Yielding.
+
+- **Winner Huntin Boots (rated 0.07, not selected)** — tracked the leaders, led travelling 2 out, kept on. We flagged him as "the most talented on bumper form" but capped him at 0.07 on his **refusal/unseat before the 1st** on his only prior hurdle start.
+- **WIN Brady Hartsfield — 2nd** (led after the 1st, headed before the last, no extra) and **DANGER Baila Conmigo — 3rd** filled the places behind him.
+- **EW Rocky Alfonso — 10th** (jumped right, mistake).
+
+**Grade: mixed. Error J** — a demonstrably talented, well-bred, well-backed (2/1F) horse downgraded on a single non-completion treated as proof it would not jump.

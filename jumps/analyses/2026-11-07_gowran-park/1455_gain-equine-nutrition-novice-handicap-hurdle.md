@@ -101,3 +101,14 @@ Field win-probability spread (sums to ~1.00): Cocofred 0.27, Facile Ocean 0.22, 
 - Killarney 4 Oct result (Cocofred/Firebrand): https://www.sportinglife.com/racing/results/2026-10-04/killarney/941745
 - Downpatrick 9 Oct result (Facile Ocean/Papagei): https://www.sportinglife.com/racing/results/2026-10-09/downpatrick/942763
 - Horse profiles / full run lists via Sporting Life slugs (cocofred/1207869, facile-ocean/1174171, firebrand/1117258, papagei/1113409, figero/1193847, siorai/1180337, sinbad-my-dad/1116498, bell-ex-too/1219161)
+
+
+## Result
+
+**1st Bell Ex Too (10/3)** · 2nd Papagei (7/2) · 3rd Firebrand (6/1) · 4th Sinbad My Dad (25/1). WIN Cocofred 5th (11/4F); DANGER Facile Ocean 7th (5/1). 8 ran (1 NR), Good to Yielding.
+
+- **Winner Bell Ex Too (rated 0.09, live outsider)** — the 3yo won on weight-for-age (progress, 2nd entering the straight, led).
+- **EW Papagei — 2nd**: the verified weight-swing head-to-head (~8lb better off with Facile Ocean than when beaten 1¼L) nailed the place at 7/2 — the method's win in this race.
+- **WIN Cocofred — 5th** (11/4F): jumped left, no impression — **the top-weight "giving weight to improving rivals" doubt we flagged told.** **DANGER Facile Ocean — 7th** (no extra).
+
+**Grade: mixed.** No coded error: the Win's stated doubt held, a rated 3yo outsider won, and the EW placed.

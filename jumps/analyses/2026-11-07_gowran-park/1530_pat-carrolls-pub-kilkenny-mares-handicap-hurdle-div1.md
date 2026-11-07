@@ -108,3 +108,14 @@ Front-running, well-weighted (11-4 after claim; SL: "weighted to go well"), prov
 ## Sources
 - Sporting Life racecard JSON: https://www.sportinglife.com/racing/racecards/2026-11-07/gowran-park/racecard/947658/pat-carrolls-pub-kilkenny-mares-handicap-hurdle-0-100-div-1
 - Sporting Life horse profile API (full career, each runner): https://www.sportinglife.com/api/horse-racing/horse/1186366 (A Snow White Park), /1134620 (Kate Knows Best), /1118353 (Demanding Gerry), /1138168 (Doyen Og), and the remaining 11 horse IDs.
+
+
+## Result
+
+**1st Good Bye Milan (18/1)** · 2nd A Snow White Park (4/5F) · 3rd Certosa (20/1) · 4th Demanding Gerry (5/1) · 5th Kate Knows Best (18/1). Doyen Og FELL 2 out. 15 ran, Good to Yielding.
+
+- **Winner Good Bye Milan (rated 0.02)** — a 9yo Gowran course winner in **first-time cheekpieces** we rated near the floor: we noted "first-time cheekpieces could spark her" but called her stale.
+- **WIN A Snow White Park — 2nd** (4/5F): the class-revert angle got the favourite to the front before the straight, but she was joined and could not regain it — ran well, just beaten.
+- **EW Doyen Og — FELL 2 out** while disputing (placed-when-fell): a sound call undone by a fall. **DANGER Kate Knows Best — 5th.**
+
+**Grade: mixed. Error N** — a first-time-headgear revival under-ranked on its stale beaten form.

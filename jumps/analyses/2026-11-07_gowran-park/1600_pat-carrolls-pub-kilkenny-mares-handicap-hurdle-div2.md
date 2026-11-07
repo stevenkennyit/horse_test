@@ -119,3 +119,14 @@ Eaglewood 0.18 · Poetic Focus 0.16 · Rumble Demosa 0.12 · Talas Kera 0.11 · 
   - Rumble Demosa: https://www.sportinglife.com/racing/profiles/horse/1227586
   - Tropical Twist: https://www.sportinglife.com/racing/profiles/horse/1200134
   - Jolly D'olivate: https://www.sportinglife.com/racing/profiles/horse/1230857
+
+
+## Result
+
+**1st Talas Kera (7/2)** · 2nd Online Order (18/1) · 3rd Tropical Twist (10/1) · 4th Frontier Rose (11/2). DANGER Poetic Focus 6th (3/1F); WIN Eaglewood FELL 5th. 14 ran (1 NR), Good to Yielding.
+
+- **EW Talas Kera — WON**: swift progress to challenge 3 out, led and asserted. The each-way call (course-and-trip form, well-in off a low mark, closes-at-this-track) won at 7/2 — the value pick of the day.
+- **WIN Eaglewood — FELL 5th**: a freak for a 13-run flawless completer; a correct call undone by a fall.
+- **DANGER Poetic Focus — 6th** (3/1F): led, then no extra — **the trip-drop doubt we flagged held.**
+
+**Grade: held.** Winner came from our picks (Each-Way). No coded error.

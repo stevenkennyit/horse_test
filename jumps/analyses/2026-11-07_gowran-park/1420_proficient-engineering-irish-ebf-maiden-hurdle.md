@@ -83,3 +83,13 @@ Most likely of the rest to beat the top two: he has the most recent racing (21 d
 ## Sources
 - Sporting Life racecard JSON: https://www.sportinglife.com/racing/racecards/2026-11-07/gowran-park/racecard/947656/proficient-engineering-irish-ebf-maiden-hurdle
 - Sporting Life profiles (full career): Backinbusiness /horse/1216665, Got The Honours /horse/1244269, Lyrical Park /horse/1222455, Reckless /horse/1170946, Wartime Leader /horse/1132001, Jack's Sister /horse/1203466, Meenvee /horse/1240374
+
+
+## Result
+
+**1st Lyrical Park (20/1)** · 2nd Reckless (5/4) · 3rd Got The Honours (6/5F) · 4th Jack's Sister (11/1). 7 ran (1 NR), Good to Yielding.
+
+- **DANGER Lyrical Park — WON**: tracked the leaders, led before the last, kept on strongly. We named the exact winning case (most recent racing, completes, prominent, trip drop, **first-time cheekpieces**) but rated it only 0.09.
+- **EW Reckless — 2nd** (5/4, led narrowly then headed) and **WIN Got The Honours — 3rd** (6/5F, challenged, no extra): the two market principals placed but the headgear/angle horse beat them.
+
+**Grade: mixed. Error N** — a first-time-headgear runner with a live positive left under-ranked. Winner came from our picks (Danger).

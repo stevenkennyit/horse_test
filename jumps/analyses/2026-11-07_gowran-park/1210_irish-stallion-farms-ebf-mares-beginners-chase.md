@@ -77,3 +77,14 @@ Gowran rewards prominent racing into the uphill run-in. Likely to be handy/lead:
 
 - SL racecard (JSON): https://www.sportinglife.com/racing/racecards/2026-11-07/gowran-park/racecard/947991/irish-stallion-farms-ebf-mares-beginners-chase
 - SL profiles: Cruisin Susan /horse/1064497 · Miss Fourie /horse/1028039 · Mo Ghille Mar /horse/1109004 · Sixandahalf /horse/1137522
+
+
+## Result
+
+**1st Sixandahalf (4/11F)** · 2nd Mo Ghille Mar (13/2) · 3rd Miss Fourie (3/1) · 4th Cruisin Susan (150/1). 4 ran, Good.
+
+- **WIN Sixandahalf — WON**: disputed early, led before the 2nd, asserted before the last and was shaken up to pull clear, easily. The class edge (Grade 1-placed hurdler, ~16lb clear on ratings) decided it exactly as called.
+- **DANGER Miss Fourie — 3rd**: improved to 2nd before the straight but one-paced under pressure; the recurring-jumping-errors / held-up caveat kept her behind.
+- Mo Ghille Mar (our 0.16 outsider) stayed on into 2nd.
+
+**Grade: held.** Top pick won on the stated reasoning; no error.

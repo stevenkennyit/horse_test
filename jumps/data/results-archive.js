@@ -2834,6 +2834,456 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-11-07",
+      "course": "Gowran Park",
+      "country": "IRE",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Chase course Good; hurdle course Good to Yielding (SL card header, checked 09:36 GMT 7 Nov; dry). Right-handed galloping track, uphill run-in \u2014 prominent bias.",
+      "races": [
+        {
+          "time": "12:10",
+          "name": "Irish Stallion Farms EBF Mares Beginners Chase",
+          "type": "chase",
+          "distance": "2m",
+          "going": "Good",
+          "runners": 4,
+          "source": "full",
+          "status": "settled",
+          "grade": "held",
+          "writeup": "jumps/analyses/2026-11-07_gowran-park/1210_irish-stallion-farms-ebf-mares-beginners-chase.md",
+          "updated": "16:45 Sat 7 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Sixandahalf",
+              "prob": 0.47,
+              "placeProb": 0.72,
+              "finish": "1",
+              "confidence": "medium",
+              "reason": "Clear class edge \u2014 Grade 1-placed hurdler (~16lb best in race on hurdle ratings), stays 2m well, completed her one chase start making the running; prominent style suits the stiff uphill Gowran finish.",
+              "against": "Beaten at 2/9 on her only chase start (2-runner match) and weakened late; jumping/battle under pressure unproven on one run, and she concedes 7lb to the two claimers.",
+              "sp": "4/11"
+            },
+            {
+              "role": "danger",
+              "horse": "Miss Fourie",
+              "prob": 0.28,
+              "placeProb": 0.58,
+              "finish": "3",
+              "confidence": "medium",
+              "reason": "True OR-122 hurdler who led and looked the winner on her last chase start before a bad blunder at the last (3rd of 4); clearly able if she jumps.",
+              "against": "Recurring jumping errors over fences and a held-up style that works against the prominent-bias track.",
+              "sp": "3/1"
+            }
+          ],
+          "errors": [],
+          "notes": "WIN Sixandahalf (4/11F) disputed, led before 2 out and shaken up to pull clear run-in, won easily - the ~16lb class edge as called. DANGER Miss Fourie 3rd (3/1); Mo Ghille Mar 2nd (13/2); Cruisin Susan tailed off. Top pick won.",
+          "winner": {
+            "horse": "Sixandahalf",
+            "sp": "4/11",
+            "agentProb": 0.47
+          }
+        },
+        {
+          "time": "12:45",
+          "name": "Gerry Comerford Drilling Beginners Chase",
+          "type": "chase",
+          "distance": "2m4f",
+          "going": "Good",
+          "runners": 10,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "writeup": "jumps/analyses/2026-11-07_gowran-park/1245_gerry-comerford-drilling-beginners-chase.md",
+          "updated": "16:45 Sat 7 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Princess Aveen",
+              "prob": 0.28,
+              "placeProb": 0.55,
+              "finish": "6",
+              "confidence": "medium",
+              "reason": "Won LTO at today's exact trip and ground (Fairyhouse 2m4f Good, stayed on to lead last stride); point-to-point schooling gives the best jumping grounding of eight chase debutants; carries least weight (mare's allowance + 5lb claim).",
+              "against": "Both rules wins came from the rear and Gowran favours prominent racers; chase jumping formally unproven and the points form is asserted, not read at source.",
+              "sp": "9/2"
+            },
+            {
+              "role": "ew",
+              "horse": "Market Ready",
+              "prob": 0.11,
+              "placeProb": 0.46,
+              "finish": "7",
+              "confidence": "low",
+              "reason": "Most proven stayer at the trip (3rd Clonmel 2m4f 16 days ago, 2nd over 2m5f), course form at Gowran, joint-top OR 105, sound jumper and freshest \u2014 the best place-at-a-price.",
+              "against": "0 wins from 10 and repeatedly one-paced, so the win leg is weak; chase debut adds jumping risk \u2014 a place play, not a likely winner.",
+              "sp": "8/1"
+            },
+            {
+              "role": "danger",
+              "horse": "Build A Bridge",
+              "prob": 0.22,
+              "placeProb": 0.5,
+              "finish": "1",
+              "confidence": "medium",
+              "reason": "Best recent hurdle form (won Punchestown going away 13 Oct, 2nd Limerick off OR 90), flawless 11/11 hurdle completions, prominent style suits Gowran, Danny Mullins up.",
+              "against": "Chase debut with no point-schooling noted, and a step up to 2m4f from his recent 2m.",
+              "sp": "6/4"
+            }
+          ],
+          "errors": [],
+          "notes": "DANGER Build A Bridge (6/4F) led, was joined but asserted before the last - our chief threat (best recent hurdle form, prominent, D Mullins) won. WIN Princess Aveen 6th (9/2): the flagged hold-up style + chase-debut jumping doubt told (jumped left 2 out, soon no extra). EW Market Ready 7th. Eternal Reward (our 0.11 outsider) 2nd (11/1). Winner came from our picks (Danger).",
+          "winner": {
+            "horse": "Build A Bridge",
+            "sp": "6/4",
+            "agentProb": 0.22
+          }
+        },
+        {
+          "time": "13:20",
+          "name": "Noreside Catering Handicap Chase",
+          "type": "chase",
+          "distance": "2m",
+          "going": "Good",
+          "runners": 7,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "writeup": "jumps/analyses/2026-11-07_gowran-park/1320_noreside-catering-handicap-chase.md",
+          "updated": "16:45 Sat 7 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Break My Soul",
+              "prob": 0.4,
+              "placeProb": 0.58,
+              "finish": "5",
+              "confidence": "medium",
+              "reason": "Clear class drop \u2014 3rd in the Cheltenham Grand Annual (Cls1, 20 ran) off 136 beaten 3/4L, and a course-and-distance winner here (Gowran 2m chase); sound jumper (5/6 complete, no falls) with a good fresh record.",
+              "against": "182-day layoff off top weight 11-12, and a hold-up type on a prominent-racing track.",
+              "sp": "3/1"
+            },
+            {
+              "role": "ew",
+              "horse": "Leave In Secret",
+              "prob": 0.1,
+              "placeProb": 0.3,
+              "finish": "4",
+              "confidence": "low",
+              "reason": "Carries just 9-7 effective (7lb claim) and is consistently close-up (3rd of 20, 2nd, beaten 1.5L last time); prominent style fits Gowran \u2014 the best longer-priced place call.",
+              "against": "0/9 over fences, and with only two places paying his habit of minor placings will often miss out.",
+              "sp": "3/1"
+            },
+            {
+              "role": "danger",
+              "horse": "Golden Joy",
+              "prob": 0.18,
+              "placeProb": 0.33,
+              "finish": "1",
+              "confidence": "medium",
+              "reason": "Second-best on class (staying-on 2nd in a Cls1 2m1f Leopardstown handicap off 130), now with a new yard.",
+              "against": "Fell (tired) last time and PU'd with a bad mistake the run before \u2014 real completion risk \u2014 and runs from off the pace into a stiff finish.",
+              "sp": "12/1"
+            }
+          ],
+          "errors": [],
+          "notes": "DANGER Golden Joy (12/1) led before the next and pressed late to hold on - our second-on-class pick won despite the completion risk we flagged. WIN Break My Soul 5th (3/1): the 182-day layoff + hold-up-on-a-prominent-track doubt materialised (no impression 3 out). EW Leave In Secret 4th (3/1), just out (2 places paid). Winner from our picks (Danger).",
+          "winner": {
+            "horse": "Golden Joy",
+            "sp": "12/1",
+            "agentProb": 0.18
+          }
+        },
+        {
+          "time": "13:50",
+          "name": "PRL Group Maiden Hurdle",
+          "type": "hurdle",
+          "distance": "2m20y",
+          "going": "Good to Yielding",
+          "runners": 12,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "writeup": "jumps/analyses/2026-11-07_gowran-park/1350_prl-group-maiden-hurdle.md",
+          "updated": "16:45 Sat 7 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Brady Hartsfield",
+              "prob": 0.25,
+              "placeProb": 0.5,
+              "finish": "2",
+              "confidence": "low",
+              "reason": "Best form in the race \u2014 2nd in a Listed bumper (Limerick) and 2nd in a Punchestown graduation; top-rated, and Good to Yielding suits better than the heavy he disliked.",
+              "against": "Two unknowns at once \u2014 hurdle debut (jumping unproven) and a 203-day seasonal reappearance.",
+              "sp": "7/2"
+            },
+            {
+              "role": "ew",
+              "horse": "Rocky Alfonso",
+              "prob": 0.1,
+              "placeProb": 0.32,
+              "finish": "10",
+              "confidence": "low",
+              "reason": "His one good bumper run came when he dictated (3rd of 8 Galway); a confirmed front-runner into Gowran's strongly prominent-biased track, with a 5lb claim (effective 11-2).",
+              "against": "Hurdle debut (jumping unproven) and only modest bumper form.",
+              "sp": "18/1"
+            },
+            {
+              "role": "danger",
+              "horse": "Baila Conmigo",
+              "prob": 0.22,
+              "placeProb": 0.55,
+              "finish": "3",
+              "confidence": "medium",
+              "reason": "Only proven, sound-jumping hurdler in the field (4/4 completions, frame every time, 3rd of 20 Galway on Yielding), race-fit, prominent, 5lb claim.",
+              "against": "Failed to win any of four maiden hurdles, finding 'no extra' each time \u2014 an exposed frame-hitter \u2014 plus a one-day Flat back-up.",
+              "sp": "5/2"
+            }
+          ],
+          "errors": [
+            "J"
+          ],
+          "notes": "Huntin Boots (2/1F) won - the horse we rated only 0.07, having capped it on its refusal/unseat-before-the-1st on its sole prior hurdle start. Our WIN Brady Hartsfield 2nd (7/2) and DANGER Baila Conmigo 3rd (5/2) filled the places behind it. Error J: a demonstrably talented, well-bred, well-backed horse downgraded on a single non-completion treated as proof it would not jump. EW Rocky Alfonso 10th (jumped right, mistake).",
+          "winner": {
+            "horse": "Huntin Boots",
+            "sp": "2/1",
+            "agentProb": 0.07
+          }
+        },
+        {
+          "time": "14:20",
+          "name": "Proficient Engineering Irish EBF Maiden Hurdle",
+          "type": "hurdle",
+          "distance": "2m20y",
+          "going": "Good to Yielding",
+          "runners": 7,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "writeup": "jumps/analyses/2026-11-07_gowran-park/1420_proficient-engineering-irish-ebf-maiden-hurdle.md",
+          "updated": "16:45 Sat 7 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Got The Honours",
+              "prob": 0.37,
+              "placeProb": 0.6,
+              "finish": "3",
+              "confidence": "medium",
+              "reason": "Point winner from a powerful yard (G P Cromwell / Keith Donoghue) on hurdling debut against exposed, winless, long-absent rivals \u2014 the classic weak-maiden angle.",
+              "against": "Never jumped a hurdle in public, off ~196 days with a first-time tongue-tie; Reckless holds the only solid hurdle form.",
+              "sp": "6/5"
+            },
+            {
+              "role": "ew",
+              "horse": "Reckless",
+              "prob": 0.3,
+              "placeProb": 0.56,
+              "finish": "2",
+              "confidence": "medium",
+              "reason": "Only solid hurdle form in the race (2nd of 18 at Fairyhouse 2m4f, 5th of 24 over 2m); prominent style suits Gowran's uphill finish, 3lb claim (effective 11-9).",
+              "against": "245 days off and nothing shown since \u2014 a 'needs the run' risk; last seen tailed off in a heavy bumper.",
+              "sp": "5/4"
+            },
+            {
+              "role": "danger",
+              "horse": "Lyrical Park",
+              "prob": 0.09,
+              "placeProb": 0.26,
+              "finish": "1",
+              "confidence": "low",
+              "reason": "Most recent racing (21d), completes, prominent (track-suited), drops to a sharper 2m with first-time cheekpieces.",
+              "against": "Well beaten in all three starts \u2014 coverage only.",
+              "sp": "20/1"
+            }
+          ],
+          "errors": [
+            "N"
+          ],
+          "notes": "DANGER Lyrical Park (20/1) led before the last and kept on strongly - our chief threat won; we named the exact reasons (recent racing, completes, prominent, trip drop, first-time cheekpieces) but rated it only 0.09. WIN Got The Honours 3rd (6/5F) and EW Reckless 2nd (5/4) - the two market principals placed. Error N: a first-time-headgear runner with a live positive left under-ranked. Winner from our picks (Danger).",
+          "winner": {
+            "horse": "Lyrical Park",
+            "sp": "20/1",
+            "agentProb": 0.09
+          }
+        },
+        {
+          "time": "15:30",
+          "name": "Pat Carroll's Pub Kilkenny Mares Handicap Hurdle (0-100) (Div 1)",
+          "type": "hurdle",
+          "distance": "2m3f180y",
+          "going": "Good to Yielding",
+          "runners": 15,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "writeup": "jumps/analyses/2026-11-07_gowran-park/1530_pat-carrolls-pub-kilkenny-mares-handicap-hurdle-div1.md",
+          "updated": "16:45 Sat 7 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "A Snow White Park",
+              "prob": 0.28,
+              "placeProb": 0.6,
+              "finish": "2",
+              "confidence": "medium",
+              "reason": "Only genuine class edge in a 0-100 \u2014 reverts to hurdles off mark 100 having just completed a chase hat-trick (chase mark 122, Listed winner two days ago); a prominent racer, which Gowran's stiff uphill finish rewards.",
+              "against": "12-0 top weight conceding 8-35lb, her hurdle form is only modest (winless in handicap hurdles), and she runs just two days after a hard Listed chase \u2014 bounce/turnaround risk.",
+              "sp": "4/5"
+            },
+            {
+              "role": "ew",
+              "horse": "Doyen Og",
+              "prob": 0.06,
+              "placeProb": 0.26,
+              "finish": "F",
+              "confidence": "low",
+              "reason": "In form and lightest in the race (9-7 after a 7lb claim) \u2014 3rd of 16 at Limerick over 2m5f 21 days ago off the same mark; stays well and races prominently, a genuine place chance at a big price.",
+              "against": "Career maiden in 20 runs; LTO 3rd partly 'left in third' and drops from 2m5f to 2m3f180y \u2014 a place play, not a win.",
+              "sp": "7/1"
+            },
+            {
+              "role": "danger",
+              "horse": "Kate Knows Best",
+              "prob": 0.13,
+              "placeProb": 0.42,
+              "finish": "5",
+              "confidence": "medium",
+              "reason": "Front-running and well-weighted (11-4 after claim), a proven stayer whose two falls were over fences not hurdles; run-fit with a prominent profile that suits Gowran.",
+              "against": "One-paced off 97 ('no extra') \u2014 needs a bit more.",
+              "sp": "18/1"
+            }
+          ],
+          "errors": [
+            "N"
+          ],
+          "notes": "Good Bye Milan (18/1) won - a 9yo Gowran course winner in FIRST-TIME CHEEKPIECES we rated only 0.02 (we noted the headgear 'could spark her' but called her stale). WIN A Snow White Park 2nd (4/5F): the class-revert angle got the favourite there but she was collared and could not regain it. EW Doyen Og was disputing when she FELL 2 out (a sound call undone by a fall). DANGER Kate Knows Best 5th (18/1). Error N: first-time-headgear revival under-ranked.",
+          "winner": {
+            "horse": "Good Bye Milan",
+            "sp": "18/1",
+            "agentProb": 0.02
+          }
+        },
+        {
+          "time": "16:00",
+          "name": "Pat Carroll's Pub Kilkenny Mares Handicap Hurdle (0-100) (Div 2)",
+          "type": "hurdle",
+          "distance": "2m3f180y",
+          "going": "Good to Yielding",
+          "runners": 14,
+          "source": "full",
+          "status": "settled",
+          "grade": "held",
+          "writeup": "jumps/analyses/2026-11-07_gowran-park/1600_pat-carrolls-pub-kilkenny-mares-handicap-hurdle-div2.md",
+          "updated": "16:45 Sat 7 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Eaglewood",
+              "prob": 0.18,
+              "placeProb": 0.55,
+              "finish": "F",
+              "confidence": "medium",
+              "reason": "Proven at today's exact trip now \u2014 3rd of 11 at Clonmel over 2m3f on Good just 37 days ago, beaten 1.25L; a flawless completer (0 F/U/P in 13) with a prominent style that fits Gowran's stiff finish; carries full weight.",
+              "against": "A perennial placer \u2014 her only win in 13 starts was a 2024 bumper; habitually one-paced, so can place without winning.",
+              "sp": "4/1"
+            },
+            {
+              "role": "ew",
+              "horse": "Talas Kera",
+              "prob": 0.11,
+              "placeProb": 0.38,
+              "finish": "1",
+              "confidence": "low",
+              "reason": "2nd of 13 at Gowran over 2m4f last time off OR77 (now 80), closing from the rear at this very track; a 5lb claim takes her to just 10-3 carried \u2014 a well-in each-way engine at a longer price.",
+              "against": "A maiden beaten 3L and 'no impression on the winner' last time \u2014 genuinely one-paced, more place than win.",
+              "sp": "7/2"
+            },
+            {
+              "role": "danger",
+              "horse": "Poetic Focus",
+              "prob": 0.16,
+              "placeProb": 0.48,
+              "finish": "6",
+              "confidence": "medium",
+              "reason": "Best recent figures in the race \u2014 two narrow 2nds at 2m6f, both prominent and staying on; a front-running profile ideal for the stiff finish.",
+              "against": "Every good run is at 2m6f; today drops her 3f to 2m3f180y, and her one run at this exact C&D was a beaten 12/19 on Heavy.",
+              "sp": "3/1"
+            }
+          ],
+          "errors": [],
+          "notes": "EW Talas Kera (7/2) made swift progress to challenge 3 out, led and asserted - our each-way call won (course-and-trip form, well-in off a low mark, closes-at-this-track all verified). WIN Eaglewood FELL 5th - a freak for a 13-run flawless completer (a correct call undone by a fall). DANGER Poetic Focus 6th (3/1F): the flagged trip-drop doubt held (led, then no extra). Winner came from our picks (Each-Way).",
+          "winner": {
+            "horse": "Talas Kera",
+            "sp": "7/2",
+            "agentProb": 0.11
+          }
+        },
+        {
+          "time": "14:55",
+          "name": "GAIN Equine Nutrition Novice Handicap Hurdle",
+          "type": "hurdle",
+          "distance": "2m20y",
+          "going": "Good to Yielding",
+          "runners": 8,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "writeup": "jumps/analyses/2026-11-07_gowran-park/1455_gain-equine-nutrition-novice-handicap-hurdle.md",
+          "updated": "16:45 Sat 7 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Cocofred",
+              "prob": 0.27,
+              "placeProb": 0.58,
+              "finish": "5",
+              "confidence": "medium",
+              "reason": "Highest-rated (OR 120) and won his last two; a prominent-and-stays-on style ideal for a contested pace into Gowran's uphill finish; De Bromhead / O'Keeffe, two poor runs both on Soft-Heavy (irrelevant today).",
+              "against": "Gives 9-10lb to two in-form, effectively-level rivals and is 3lb worse off with Firebrand than when he beat him only a neck \u2014 a classic top-weight give-weight-away shape.",
+              "sp": "11/4"
+            },
+            {
+              "role": "ew",
+              "horse": "Papagei",
+              "prob": 0.1,
+              "placeProb": 0.42,
+              "finish": "2",
+              "confidence": "medium",
+              "reason": "~8lb better off with Facile Ocean than when beaten just 1.25L at Downpatrick three weeks ago; stays strongly up the hill and a hot pace gives the grinder something to close into \u2014 a big-priced genuine placer.",
+              "against": "Exposed one-paced type (3 wins from 28) who quickens off nothing and needs the leaders to stop.",
+              "sp": "7/2"
+            },
+            {
+              "role": "danger",
+              "horse": "Facile Ocean",
+              "prob": 0.22,
+              "placeProb": 0.55,
+              "finish": "7",
+              "confidence": "medium",
+              "reason": "Progressive \u2014 won his last two including on handicap debut; effectively 9lb better off with Cocofred and level with Firebrand.",
+              "against": "Front-running style is the most exposed to being collared up Gowran's stiff finish in a pace-pressured race.",
+              "sp": "5/1"
+            }
+          ],
+          "errors": [],
+          "notes": "Bell Ex Too (10/3), the 3yo we rated 0.09 as a live outsider, won on weight-for-age. Our EW Papagei 2nd (7/2) - the verified weight-swing head-to-head (~8lb better off with Facile Ocean) nailed the place. WIN Cocofred 5th (11/4F): the flagged top-weight 'giving weight to improving rivals' doubt told (jumped left, no impression). DANGER Facile Ocean 7th (5/1), no extra. Papagei's each-way place is the method's win here.",
+          "winner": {
+            "horse": "Bell Ex Too",
+            "sp": "10/3",
+            "agentProb": 0.09
+          }
+        }
+      ],
+      "dataErrors": [
+        "Sporting Life racecard URLs intermittently served the wrong race body on first fetch (caching); every race was re-fetched and verified by off-time and runner list before use.",
+        "Golden Joy (13:20): SL card last_ran_days said 28; actual 191 (fell Punchestown 30 Apr) - recomputed from the profile pre-off.",
+        "Beaten distances are not exposed in the Sporting Life result feed (margin fields null); finishing positions, SPs and in-running comments recorded, margins described qualitatively."
+      ]
     }
   ]
 });

@@ -79,3 +79,14 @@ Places pay 3 (8+ runners, non-handicap); place fraction 1/5.
 ## Sources
 - Sporting Life racecard (JSON, race id 947653): https://www.sportinglife.com/racing/racecards/2026-11-07/gowran-park/racecard/947653/gerry-comerford-drilling-beginners-chase
 - Sporting Life horse profiles (full career + in-running comments), e.g. Princess Aveen https://www.sportinglife.com/racing/profiles/horse/1223143 ; Build A Bridge /1183899 ; Market Ready /1176329 ; Eternal Reward /1182141 ; Minella Post /1143346 ; Clody Diamond /1173173 ; Lunar Majesty /1209953 ; Glenary Prince /1219845 ; King Of Westeros /1209950 ; Classy Cc /1144582
+
+
+## Result
+
+**1st Build A Bridge (6/4F)** · 2nd Eternal Reward (11/1) · 3rd Clody Diamond (14/1) · 4th Minella Post (6/1). WIN Princess Aveen 6th (9/2); EW Market Ready 7th (8/1). 10 ran, Good.
+
+- **DANGER Build A Bridge — WON**: led, a mistake 5th, headed briefly, led into the straight and asserted before the last. Our chief threat (best recent hurdle form, prominent style, Danny Mullins) won.
+- **WIN Princess Aveen — 6th**: mid-division, ridden into 3rd 3 out, **jumped left 2 out and soon had no extra** — the hold-up style + chase-debut jumping doubt we flagged materialised.
+- **EW Market Ready — 7th.** Eternal Reward, the outsider we named best alternative (0.11), ran 2nd.
+
+**Grade: mixed.** Winner came from our picks (Danger); the Win's own stated doubt undid it. No coded error.
