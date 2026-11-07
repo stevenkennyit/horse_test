@@ -93,6 +93,186 @@
               "against": "Recurring jumping errors over fences and a held-up style that works against the prominent-bias track."
             }
           ]
+        },
+        {
+          "time": "12:45",
+          "name": "Gerry Comerford Drilling Beginners Chase",
+          "type": "chase",
+          "distance": "2m4f",
+          "going": "Good",
+          "runners": 10,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-07_gowran-park/1245_gerry-comerford-drilling-beginners-chase.md",
+          "updated": "09:48 Sat 7 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Princess Aveen",
+              "prob": 0.28,
+              "placeProb": 0.55,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Won LTO at today's exact trip and ground (Fairyhouse 2m4f Good, stayed on to lead last stride); point-to-point schooling gives the best jumping grounding of eight chase debutants; carries least weight (mare's allowance + 5lb claim).",
+              "against": "Both rules wins came from the rear and Gowran favours prominent racers; chase jumping formally unproven and the points form is asserted, not read at source."
+            },
+            {
+              "role": "ew",
+              "horse": "Market Ready",
+              "prob": 0.11,
+              "placeProb": 0.46,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Most proven stayer at the trip (3rd Clonmel 2m4f 16 days ago, 2nd over 2m5f), course form at Gowran, joint-top OR 105, sound jumper and freshest — the best place-at-a-price.",
+              "against": "0 wins from 10 and repeatedly one-paced, so the win leg is weak; chase debut adds jumping risk — a place play, not a likely winner."
+            },
+            {
+              "role": "danger",
+              "horse": "Build A Bridge",
+              "prob": 0.22,
+              "placeProb": 0.50,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Best recent hurdle form (won Punchestown going away 13 Oct, 2nd Limerick off OR 90), flawless 11/11 hurdle completions, prominent style suits Gowran, Danny Mullins up.",
+              "against": "Chase debut with no point-schooling noted, and a step up to 2m4f from his recent 2m."
+            }
+          ]
+        },
+        {
+          "time": "13:20",
+          "name": "Noreside Catering Handicap Chase",
+          "type": "chase",
+          "distance": "2m",
+          "going": "Good",
+          "runners": 7,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-07_gowran-park/1320_noreside-catering-handicap-chase.md",
+          "updated": "09:46 Sat 7 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Break My Soul",
+              "prob": 0.40,
+              "placeProb": 0.58,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Clear class drop — 3rd in the Cheltenham Grand Annual (Cls1, 20 ran) off 136 beaten 3/4L, and a course-and-distance winner here (Gowran 2m chase); sound jumper (5/6 complete, no falls) with a good fresh record.",
+              "against": "182-day layoff off top weight 11-12, and a hold-up type on a prominent-racing track."
+            },
+            {
+              "role": "ew",
+              "horse": "Leave In Secret",
+              "prob": 0.10,
+              "placeProb": 0.30,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Carries just 9-7 effective (7lb claim) and is consistently close-up (3rd of 20, 2nd, beaten 1.5L last time); prominent style fits Gowran — the best longer-priced place call.",
+              "against": "0/9 over fences, and with only two places paying his habit of minor placings will often miss out."
+            },
+            {
+              "role": "danger",
+              "horse": "Golden Joy",
+              "prob": 0.18,
+              "placeProb": 0.33,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Second-best on class (staying-on 2nd in a Cls1 2m1f Leopardstown handicap off 130), now with a new yard.",
+              "against": "Fell (tired) last time and PU'd with a bad mistake the run before — real completion risk — and runs from off the pace into a stiff finish."
+            }
+          ]
+        },
+        {
+          "time": "13:50",
+          "name": "PRL Group Maiden Hurdle",
+          "type": "hurdle",
+          "distance": "2m20y",
+          "going": "Good to Yielding",
+          "runners": 12,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-07_gowran-park/1350_prl-group-maiden-hurdle.md",
+          "updated": "09:45 Sat 7 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Brady Hartsfield",
+              "prob": 0.25,
+              "placeProb": 0.50,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Best form in the race — 2nd in a Listed bumper (Limerick) and 2nd in a Punchestown graduation; top-rated, and Good to Yielding suits better than the heavy he disliked.",
+              "against": "Two unknowns at once — hurdle debut (jumping unproven) and a 203-day seasonal reappearance."
+            },
+            {
+              "role": "ew",
+              "horse": "Rocky Alfonso",
+              "prob": 0.10,
+              "placeProb": 0.32,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "His one good bumper run came when he dictated (3rd of 8 Galway); a confirmed front-runner into Gowran's strongly prominent-biased track, with a 5lb claim (effective 11-2).",
+              "against": "Hurdle debut (jumping unproven) and only modest bumper form."
+            },
+            {
+              "role": "danger",
+              "horse": "Baila Conmigo",
+              "prob": 0.22,
+              "placeProb": 0.55,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Only proven, sound-jumping hurdler in the field (4/4 completions, frame every time, 3rd of 20 Galway on Yielding), race-fit, prominent, 5lb claim.",
+              "against": "Failed to win any of four maiden hurdles, finding 'no extra' each time — an exposed frame-hitter — plus a one-day Flat back-up."
+            }
+          ]
+        },
+        {
+          "time": "14:20",
+          "name": "Proficient Engineering Irish EBF Maiden Hurdle",
+          "type": "hurdle",
+          "distance": "2m20y",
+          "going": "Good to Yielding",
+          "runners": 7,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-07_gowran-park/1420_proficient-engineering-irish-ebf-maiden-hurdle.md",
+          "updated": "09:45 Sat 7 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Got The Honours",
+              "prob": 0.37,
+              "placeProb": 0.60,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Point winner from a powerful yard (G P Cromwell / Keith Donoghue) on hurdling debut against exposed, winless, long-absent rivals — the classic weak-maiden angle.",
+              "against": "Never jumped a hurdle in public, off ~196 days with a first-time tongue-tie; Reckless holds the only solid hurdle form."
+            },
+            {
+              "role": "ew",
+              "horse": "Reckless",
+              "prob": 0.30,
+              "placeProb": 0.56,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Only solid hurdle form in the race (2nd of 18 at Fairyhouse 2m4f, 5th of 24 over 2m); prominent style suits Gowran's uphill finish, 3lb claim (effective 11-9).",
+              "against": "245 days off and nothing shown since — a 'needs the run' risk; last seen tailed off in a heavy bumper."
+            },
+            {
+              "role": "danger",
+              "horse": "Lyrical Park",
+              "prob": 0.09,
+              "placeProb": 0.26,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Most recent racing (21d), completes, prominent (track-suited), drops to a sharper 2m with first-time cheekpieces.",
+              "against": "Well beaten in all three starts — coverage only."
+            }
+          ]
         }
       ]
     }
