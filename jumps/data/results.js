@@ -363,6 +363,51 @@
               "against": "Every good run is at 2m6f; today drops her 3f to 2m3f180y, and her one run at this exact C&D was a beaten 12/19 on Heavy."
             }
           ]
+        },
+        {
+          "time": "14:55",
+          "name": "GAIN Equine Nutrition Novice Handicap Hurdle",
+          "type": "hurdle",
+          "distance": "2m20y",
+          "going": "Good to Yielding",
+          "runners": 8,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-07_gowran-park/1455_gain-equine-nutrition-novice-handicap-hurdle.md",
+          "updated": "09:43 Sat 7 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Cocofred",
+              "prob": 0.27,
+              "placeProb": 0.58,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Highest-rated (OR 120) and won his last two; a prominent-and-stays-on style ideal for a contested pace into Gowran's uphill finish; De Bromhead / O'Keeffe, two poor runs both on Soft-Heavy (irrelevant today).",
+              "against": "Gives 9-10lb to two in-form, effectively-level rivals and is 3lb worse off with Firebrand than when he beat him only a neck — a classic top-weight give-weight-away shape."
+            },
+            {
+              "role": "ew",
+              "horse": "Papagei",
+              "prob": 0.10,
+              "placeProb": 0.42,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "~8lb better off with Facile Ocean than when beaten just 1.25L at Downpatrick three weeks ago; stays strongly up the hill and a hot pace gives the grinder something to close into — a big-priced genuine placer.",
+              "against": "Exposed one-paced type (3 wins from 28) who quickens off nothing and needs the leaders to stop."
+            },
+            {
+              "role": "danger",
+              "horse": "Facile Ocean",
+              "prob": 0.22,
+              "placeProb": 0.55,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Progressive — won his last two including on handicap debut; effectively 9lb better off with Cocofred and level with Firebrand.",
+              "against": "Front-running style is the most exposed to being collared up Gowran's stiff finish in a pace-pressured race."
+            }
+          ]
         }
       ]
     }
