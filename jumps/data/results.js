@@ -50,5 +50,51 @@
     "M": "A lone confirmed front-runner in a small or steadily-run field left unselected or opposed despite a flagged uncontested-lead / pace advantage (the pace read was right but not acted on)",
     "N": "A horse dropping sharply in class and/or fitted with first-time headgear left under-ranked on its beaten form at the higher level, below exposed, modest or long-absent rivals"
   },
-  "meetings": []
+  "meetings": [
+    {
+      "date": "2026-11-07",
+      "course": "Gowran Park",
+      "country": "IRE",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Chase course Good; hurdle course Good to Yielding (SL card header, checked 09:36 GMT 7 Nov; dry). Right-handed galloping track, uphill run-in — prominent bias.",
+      "races": [
+        {
+          "time": "12:10",
+          "name": "Irish Stallion Farms EBF Mares Beginners Chase",
+          "type": "chase",
+          "distance": "2m",
+          "going": "Good",
+          "runners": 4,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-07_gowran-park/1210_irish-stallion-farms-ebf-mares-beginners-chase.md",
+          "updated": "09:45 Sat 7 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Sixandahalf",
+              "prob": 0.47,
+              "placeProb": 0.72,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Clear class edge — Grade 1-placed hurdler (~16lb best in race on hurdle ratings), stays 2m well, completed her one chase start making the running; prominent style suits the stiff uphill Gowran finish.",
+              "against": "Beaten at 2/9 on her only chase start (2-runner match) and weakened late; jumping/battle under pressure unproven on one run, and she concedes 7lb to the two claimers."
+            },
+            {
+              "role": "danger",
+              "horse": "Miss Fourie",
+              "prob": 0.28,
+              "placeProb": 0.58,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "True OR-122 hurdler who led and looked the winner on her last chase start before a bad blunder at the last (3rd of 4); clearly able if she jumps.",
+              "against": "Recurring jumping errors over fences and a held-up style that works against the prominent-bias track."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 });
