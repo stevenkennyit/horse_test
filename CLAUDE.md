@@ -41,9 +41,9 @@ Read the chosen playbook **in full** before analysing, including its Post-race r
 
 This folder is the GitHub repository `stevenkennyit/horse_test`. Cloud sessions start from a fresh copy and lose anything not pushed, so:
 
-- **After `/analyse` records a race, and after `/review` updates the data,** commit the changed write-ups and results files and push to `main` straight away, before replying.
+- **Results always go to `main`.** GitHub Pages (the dashboard and `upcoming.html`) deploys from `main`, so write-ups and the results files must land on `main` to be reviewable. **After `/analyse` records a race, and after `/review` updates the data,** commit the changed write-ups and results files and push to `main` straight away, before replying — **even when the session was started on a task/feature branch** (push the results commits to `main`, e.g. `git push origin <branch>:main`, which also triggers the Pages deployment).
 - Commit message: `analyse <course> <date> <HHMM>` or `review <course> <date>`.
-- If the push fails (for example, `main` is protected), push to a branch named after the task, and tell the user the work is on that branch.
+- Only if a direct push to `main` genuinely fails (for example, `main` is protected) push to a branch named after the task, and tell the user the work is on that branch.
 - Never commit secrets, cookies or account details.
 
 ## Data-gathering notes
