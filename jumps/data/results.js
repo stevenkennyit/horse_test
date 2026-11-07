@@ -273,6 +273,96 @@
               "against": "Well beaten in all three starts — coverage only."
             }
           ]
+        },
+        {
+          "time": "15:30",
+          "name": "Pat Carroll's Pub Kilkenny Mares Handicap Hurdle (0-100) (Div 1)",
+          "type": "hurdle",
+          "distance": "2m3f180y",
+          "going": "Good to Yielding",
+          "runners": 15,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-07_gowran-park/1530_pat-carrolls-pub-kilkenny-mares-handicap-hurdle-div1.md",
+          "updated": "09:50 Sat 7 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "A Snow White Park",
+              "prob": 0.28,
+              "placeProb": 0.60,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Only genuine class edge in a 0-100 — reverts to hurdles off mark 100 having just completed a chase hat-trick (chase mark 122, Listed winner two days ago); a prominent racer, which Gowran's stiff uphill finish rewards.",
+              "against": "12-0 top weight conceding 8-35lb, her hurdle form is only modest (winless in handicap hurdles), and she runs just two days after a hard Listed chase — bounce/turnaround risk."
+            },
+            {
+              "role": "ew",
+              "horse": "Doyen Og",
+              "prob": 0.06,
+              "placeProb": 0.26,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "In form and lightest in the race (9-7 after a 7lb claim) — 3rd of 16 at Limerick over 2m5f 21 days ago off the same mark; stays well and races prominently, a genuine place chance at a big price.",
+              "against": "Career maiden in 20 runs; LTO 3rd partly 'left in third' and drops from 2m5f to 2m3f180y — a place play, not a win."
+            },
+            {
+              "role": "danger",
+              "horse": "Kate Knows Best",
+              "prob": 0.13,
+              "placeProb": 0.42,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Front-running and well-weighted (11-4 after claim), a proven stayer whose two falls were over fences not hurdles; run-fit with a prominent profile that suits Gowran.",
+              "against": "One-paced off 97 ('no extra') — needs a bit more."
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "name": "Pat Carroll's Pub Kilkenny Mares Handicap Hurdle (0-100) (Div 2)",
+          "type": "hurdle",
+          "distance": "2m3f180y",
+          "going": "Good to Yielding",
+          "runners": 14,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-07_gowran-park/1600_pat-carrolls-pub-kilkenny-mares-handicap-hurdle-div2.md",
+          "updated": "09:45 Sat 7 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Eaglewood",
+              "prob": 0.18,
+              "placeProb": 0.55,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Proven at today's exact trip now — 3rd of 11 at Clonmel over 2m3f on Good just 37 days ago, beaten 1.25L; a flawless completer (0 F/U/P in 13) with a prominent style that fits Gowran's stiff finish; carries full weight.",
+              "against": "A perennial placer — her only win in 13 starts was a 2024 bumper; habitually one-paced, so can place without winning."
+            },
+            {
+              "role": "ew",
+              "horse": "Talas Kera",
+              "prob": 0.11,
+              "placeProb": 0.38,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "2nd of 13 at Gowran over 2m4f last time off OR77 (now 80), closing from the rear at this very track; a 5lb claim takes her to just 10-3 carried — a well-in each-way engine at a longer price.",
+              "against": "A maiden beaten 3L and 'no impression on the winner' last time — genuinely one-paced, more place than win."
+            },
+            {
+              "role": "danger",
+              "horse": "Poetic Focus",
+              "prob": 0.16,
+              "placeProb": 0.48,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Best recent figures in the race — two narrow 2nds at 2m6f, both prominent and staying on; a front-running profile ideal for the stiff finish.",
+              "against": "Every good run is at 2m6f; today drops her 3f to 2m3f180y, and her one run at this exact C&D was a beaten 12/19 on Heavy."
+            }
+          ]
         }
       ]
     }
