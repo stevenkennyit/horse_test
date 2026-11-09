@@ -387,6 +387,53 @@
           ],
           "errors": [],
           "notes": ""
+        },
+        {
+          "time": "15:45",
+          "name": "Matchbook Betting Exchange Handicap Hurdle (0-100)",
+          "type": "hurdle",
+          "distance": "2m4f164y",
+          "going": "Good to Yielding, Good in places",
+          "runners": 22,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-09_punchestown/1545_matchbook-betting-exchange-handicap-hurdle-0-100.md",
+          "updated": "07:16 Mon 9 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Gaelic Des Chastys",
+              "prob": 0.13,
+              "placeProb": 0.42,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Punchestown hurdle winner (2m3f, Good); last four hurdle runs at 2m4f-2m5f read 2-3-2-2, a record no rival matches; one hurdle error in his last seven; same 5lb claimer as in three of those runs (carries 11-3).",
+              "against": "Age 10, 2 wins from 35; off 94, 1-4lb above his recent placed marks; last run a 6th over fences with mistakes; comes from mid-division; yard 2/29 in 30 days."
+            },
+            {
+              "role": "ew",
+              "horse": "Spanish John",
+              "prob": 0.1,
+              "placeProb": 0.36,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "4th of 21 in this race last year from 20th after the 5th; 1.5L 3rd at Sligo over 3m1f off 86 on 23 Oct, now 87 with Danny Mullins; stays well past the trip; top 4 in 4 of his last 6 hurdle runs.",
+              "against": "1 win from 20 over hurdles; beaten 31L and 43.75L in two of his last four; held up, so needs a strong pace and luck in 22 runners; the Sligo race had only 9 runners."
+            },
+            {
+              "role": "danger",
+              "horse": "Tudorista",
+              "prob": 0.12,
+              "placeProb": 0.4,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Placed three times running at 2m4f-2m5f (2nd by a neck, then 3rd twice off 87); races prominently, which suits the course.",
+              "against": "Jumping errors in 3 of her last 5 (bad mistake at the last when leading at Kilbeggan); maiden after 12 runs; turns out 6 days after her last run (4th run in 38 days)."
+            }
+          ],
+          "errors": [],
+          "notes": "22 declared + 3 reserves (Convincing, Mydreamtell, Seeitoldya); no non-runners at 07:13."
         }
       ]
     }
