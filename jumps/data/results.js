@@ -60,6 +60,53 @@
       "going": "Good to Yielding, Good in places (Sporting Life meeting summary, checked 07:05 GMT 9 Nov). Right-handed galloping track, stiff uphill finish.",
       "races": [
         {
+          "time": "12:30",
+          "name": "Matchbook Betting Exchange Rated Novice Chase",
+          "type": "chase",
+          "distance": "2m136y",
+          "going": "Good to Yielding, Good in places",
+          "runners": 8,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-09_punchestown/1230_matchbook-betting-exchange-rated-novice-chase.md",
+          "updated": "07:12 Mon 9 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Rattledelatch",
+              "prob": 0.28,
+              "placeProb": 0.6,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Top chase mark (118) and best chase form: 2.5L 2nd to Will Do (128) at Listowel at level weights, then won at Tramore 8 Oct; 3/3 chase completions with clean jumping since August; fit (32 days).",
+              "against": "All chase form at 2m4f-2m6f from off the pace, so 2m fences at this level untested; 4lb penalty leaves him 2-6lb worse off on marks; Tramore race modest; small yard."
+            },
+            {
+              "role": "ew",
+              "horse": "Butter Fingers",
+              "prob": 0.17,
+              "placeProb": 0.45,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Only runner with a ~2m chase win (Wexford, GY); 1.75L 2nd at Kilbeggan off 109 ahead of 122-132 horses; 7lb claim makes him 2lb better off than Rattledelatch on marks; prominent; completed last 6.",
+              "against": "An unseat and minor errors in 4 of 7 chases; exposed (3 wins from 23 runs); yard 1 winner from 49 runners in the last month."
+            },
+            {
+              "role": "danger",
+              "horse": "Torpille Dagrostis",
+              "prob": 0.14,
+              "placeProb": 0.38,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Best hurdle mark among the chase debutants (118), Elliott/Kennedy; placed twice at Punchestown behind good Mullins mares.",
+              "against": "Chase debutant off 208 days; all form at 2m3f+ on soft/heavy, her one good-ground run was her worst, and no mares' allowance today."
+            }
+          ],
+          "errors": [],
+          "notes": ""
+        },
+        {
           "time": "13:00",
           "name": "Irish Stallion Farms EBF Fillies Academy Hurdle",
           "type": "hurdle",
