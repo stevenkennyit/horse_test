@@ -336,55 +336,6 @@ Once results are published, judge the reasoning, not the result.
 5. **Turn each judgement error into a rule** and add it to the relevant step above. Then **log the change in `data/changelog.js`** (date, scope, title, detail) so the dashboard's "Playbook changes" can track its effect on performance.
 6. **Update the record.** In `jumps/data/results.js`, for each race set: `finish` and `sp` (starting price) for every pick (finish = position, or `F` / `PU` / `UR` / `BD` / `R`); `winner` as `{ horse, sp, agentProb }` (`agentProb` is the probability stated for the winner before the off, or `null` if it wasn't rated); `status: "settled"`, plus `provisional: true` if the result isn't weighed in or the in-running comments aren't published yet; `grade` (`held` / `mixed` / `failed`); `errors` (codes from `errorTypes`, adding a new code there for a new type of error); and a one-line `notes`. Add any data errors to the meeting's `dataErrors`. Append a `## Result` section to each race's write-up. Then open `dashboard.html` to check the figures.
 
-### Review 1: Galway, Sunday 25 October 2026 (12:32–15:20)
-
-Going: hurdles soft, chase course soft to heavy (storm rain). Prices are the best available in the morning.
-
-| Race | 1st pick | Result | 2nd pick | Result | Winner (SP) | Reasoning held? |
-|---|---|---|---|---|---|---|
-| 12:32 Beginners Chase | Chart Topper | **Won**, 17L, very easily (10/11) | Da Capo Glory | 5th, btn 52L, jumped left, detached | Chart Topper | Held: class edge beat the unproven-ground doubt |
-| 13:07 Handicap Chase | Crecora Hills | **Fell at the 2nd** (backed 7/1 to 3/1F) | Only For Our Man | 3rd, btn 9.5L | Illtakehimmyself (7/2) | Mixed: Crecora was sound value, unlucky. **Judgement error A:** good-ground horses marked down on early maiden heavy runs went 1-2-3 |
-| 13:42 Handicap Chase | Dearg Mor | 3rd (promoted), btn 17.8L (15/8F) | Harty Cup | **Pulled up**, not fluent twice | Lanzhou (16/1), promoted after Prince Palace was DQ'd (rider weighed in light) | Failed. **Judgement error B:** recorded chase-debut jumping doubt overridden by price |
-| 14:17 Mares Maiden Hurdle | Light Up The Dark | 2nd, btn 6L, not fluent 2 out (4/7F) | Simply Natural | **Won**, made all, easily (5/2) | Simply Natural | Held: the debut-jumping doubt was real and odds-on was correctly refused |
-| 14:50 Handicap Hurdle | Inthenickoftime | 5th, btn 9.3L (5/2F) | Shellrunforbriggs | 2nd, btn 4.5L | Castleheath (3/1) | Mixed: soft doubt on Inthenickoftime held. **Error A again:** Castleheath marked down on soft runs from an over-rated period |
-| 15:20 Rated Novice Hurdle | Fly Away Home | Last of 5, keen, led halfway, no extra | Ole Ole | **Won** (11/4) | Ole Ole | Mixed: Ole Ole's stamina (dam's record) held. **Judgement error C:** keen-goer in a weak pace, as flagged. Harpy Eagle (opposed on soft) 2nd: error A |
-
-Winner came from our top two in 3 of 6 races; our 1st pick won once. The Placepot landed (4 winning lines, €11.20 dividend). The bet slip lost about 4.75pt; Ole Ole was the only winning bet.
-
-**Data errors (all caught on the day):**
-- Read Monday's going row on the Sporting Life going page as Sunday's.
-- Sporting Life's `last_ran_days` field on result pages is not reliable; gaps must be computed from the full profile.
-- `previous_results` embedded in result pages is truncated and includes runs after the race; it made horses look like hurdle debutants more than once.
-- A heavy-ground filter matched "Soft in places" inside yielding descriptions and inflated counts.
-- A Racing Post profile row (a 2024 hurdle fall) belonged to no run in the Sporting Life record — a source error, correctly discarded.
-
-**Judgement errors → rules added:**
-- A. Early-career ground runs held against improved horses → Step 4, item 6.
-- B. A recorded jumping doubt overridden by price → Step 13.
-- C. A keen-going top pick in a weak pace → Step 9.
-- D. Dual forecasts in 10+ runner handicaps → Step 14. *(Retired 25 Oct 2026: the agent no longer recommends bets.)*
-
-**What held:** class over an unproven-ground question (Chart Topper); dam's racing record as stamina evidence (Ole Ole); refusing odds-on with an unresolved doubt (Light Up The Dark); downgrades of Nine Graces, Mount Frisco, Folly Master and Holly's Thunder. **Correct call that lost:** Crecora Hills (value, market agreed, fell early).
-
-### Review 2: Galway, Sunday 25 October 2026 (15:56–16:30)
-
-| Race | 1st pick | Result | 2nd pick | Result | Winner (SP) | Reasoning held? |
-|---|---|---|---|---|---|---|
-| 15:56 Maiden Hurdle | Bulgaden Castle | 5th, btn about 7L, keen early, mistake last, no extra (Evens F) | Doctor Elvis | 2nd, btn 1¾L, led and rallied (3/1) | Always Scoring (25/1), from the rear stepping up in trip | Mixed: refusing odds-on held (trainer's 150+ day returners 0/60); winner not rated |
-| 16:30 4yo Fillies Pro/Am Flat Race | Moscovite | 6th of 6, btn 21L behind the 5th (4/6F) | Va La Vie | 2nd, btn 3L (4/1) | Bluebell Breeze (13/2), raced, 7lb claimer | Failed. **Judgement error E:** two unraced fillies ranked over raced rivals getting 7lb, on price, pedigree and booking. In-running comments not yet published (provisional) |
-
-Whole meeting: our 1st pick won 1 of 8; the winner came from our top two in 3 of 8. Paper bets: 9.75pt staked, 5pt returned (−4.75pt). Mozart's Song (3rd pick, e/w) finished 3rd of 6, outside the 2 places.
-
-**Data errors:**
-- 16:30: the first analysis missed the 7lb claims for four raced fillies (Racing Post card weights are before claims); caught and revised at 16:22.
-- 15:56: Bulgaden Castle logged as "U/P" from the provisional result; official finish 5th. Log the official position, never a summary.
-- No race write-ups were saved for the meeting, so the reviews could only be judged against the results data.
-
-**Judgement error → rule added:**
-- E. Unraced newcomer rated above raced rivals on price, pedigree or booking → Step 14.
-
-**What held:** refusing a second odds-on favourite with an unresolved doubt (Bulgaden Castle); Doctor Elvis's run to form after a break. **Wrong call:** the bumper ranking.
-
 ---
 
 ## Data sources
