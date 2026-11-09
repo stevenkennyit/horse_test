@@ -295,6 +295,53 @@
           "notes": ""
         },
         {
+          "time": "14:38",
+          "name": "Matchbook Betting Exchange Handicap Hurdle",
+          "type": "hurdle",
+          "distance": "1m7f187y",
+          "going": "Good to Yielding, Good in places",
+          "runners": 9,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-09_punchestown/1438_matchbook-betting-exchange-handicap-hurdle.md",
+          "updated": "07:14 Mon 9 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Shirzan",
+              "prob": 0.19,
+              "placeProb": 0.5,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Progressive 4yo filly, 5/5 hurdle completions; short-head 2nd of 18 in the Listowel mares' handicap (~99-104 by my figures vs 102 needed after the 7lb claim); races in touch, which suits a likely modest pace.",
+              "against": "Both handicap runs mares-only; Ben Kennedy 1/50 recently, so the claim may be worth less; 6th off 107 two runs back; drops from 2m2f to 2m."
+            },
+            {
+              "role": "ew",
+              "horse": "Allo Al Khawaneej",
+              "prob": 0.15,
+              "placeProb": 0.45,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "10/10 hurdle completions; 2nd and 3rd in claimers, then 4th beaten 2.2L off this same 107 at Ballinrobe (~104-110 by my figures); stays 2m4f+ for the stiff finish; first-time visor.",
+              "against": "0/4 placed in handicaps; held up in a race short of pace; 1 win in 10 hurdle starts."
+            },
+            {
+              "role": "danger",
+              "horse": "Belle The Tigress",
+              "prob": 0.14,
+              "placeProb": 0.38,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Galway mares' handicap figure (~110-114) right on the 112 needed; mark down 2lb; races prominently; de Bromhead 6/35 in 14 days.",
+              "against": "467-day absence, cause unknown."
+            }
+          ],
+          "errors": [],
+          "notes": ""
+        },
+        {
           "time": "15:13",
           "name": "Matchbook 50/50 Series Mares Maiden Hurdle",
           "type": "hurdle",
