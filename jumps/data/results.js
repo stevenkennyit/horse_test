@@ -152,6 +152,100 @@
           ],
           "errors": [],
           "notes": ""
+        },
+        {
+          "time": "14:03",
+          "name": "Matchbook 50/50 Series Maiden Hurdle",
+          "type": "hurdle",
+          "distance": "1m7f187y",
+          "going": "Good to Yielding, Good in places",
+          "runners": 11,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-09_punchestown/1403_matchbook-50-50-series-maiden-hurdle.md",
+          "updated": "07:12 Mon 9 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "It's Only A Game",
+              "prob": 0.32,
+              "placeProb": 0.62,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Best bumper standard in the field on three agreeing lines: beat Boycetown (later OR 128) 3.5L here, and in a G2 at level weights was 1L behind Charismatic Kid (127) and 3.5L behind With Nolimit (129); course winner, won fresh before; Mark Walsh rides.",
+              "against": "Hurdle debut; off 243 days; tame 15th in the Cheltenham G1 last time; Brassil 0/14 since 4 Aug; first-time hood."
+            },
+            {
+              "role": "ew",
+              "horse": "Leonard Vallis",
+              "prob": 0.16,
+              "placeProb": 0.47,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Only runner with placed hurdle form (1.5L 2nd of 19 at Gowran, clean round); bumper win over Thinkitdontjinxit, since an 11L maiden hurdle winner; 4/4 completions, races handily.",
+              "against": "All runs on soft or yielding-to-soft; collateral puts him ~15lb+ below the Win; off 217 days; yard 5/93 this season."
+            },
+            {
+              "role": "danger",
+              "horse": "Werner",
+              "prob": 0.22,
+              "placeProb": 0.5,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Elliott/Gigginstown recruit with Jack Kennedy; won his only Flat start in Germany (~1m6f, Hoppegarten).",
+              "against": "Value of the German maiden unknown; never jumped in public; off 477 days."
+            }
+          ],
+          "errors": [],
+          "notes": ""
+        },
+        {
+          "time": "15:13",
+          "name": "Matchbook 50/50 Series Mares Maiden Hurdle",
+          "type": "hurdle",
+          "distance": "2m4f164y",
+          "going": "Good to Yielding, Good in places",
+          "runners": 11,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-09_punchestown/1513_matchbook-50-50-series-mares-maiden-hurdle.md",
+          "updated": "07:12 Mon 9 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Brickfield Belle",
+              "prob": 0.42,
+              "placeProb": 0.76,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Clearly the best hurdle form: 2.25L 2nd to Kimi De Mai (OR 114) at Limerick at level weights, 8L clear of an OR 98 mare; RPR 121 vs next best 85; form 1-2-3 incl. a 15L mares' bumper win; prominent style suits the stiff track.",
+              "against": "Jumping errors in both hurdle runs (jumped left, slipped, headed late at 4/7 at Limerick); never run beyond 2m1f."
+            },
+            {
+              "role": "ew",
+              "horse": "Sapphire Jewel",
+              "prob": 0.09,
+              "placeProb": 0.33,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Best rules stamina evidence among those who have hurdled (3rd over 2m3f soft, keeping on); clean hurdle completion; second-best RPR (85); first-time tongue strap; 3lb claim.",
+              "against": "Modest and erratic: beaten 34.75L at Gowran and 58L (keen) in a G3 bumper; yard 0/6 since 1 Oct."
+            },
+            {
+              "role": "danger",
+              "horse": "Viva Laa Vida",
+              "prob": 0.12,
+              "placeProb": 0.4,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Best bumper form among the hurdle debutants: beaten 4.3L by a mare who beat Hee Hiles 24.5L; same in-form yard.",
+              "against": "Found no extra at 2m, so 2m4f+ is a doubt; hurdle debut."
+            }
+          ],
+          "errors": [],
+          "notes": ""
         }
       ]
     }
