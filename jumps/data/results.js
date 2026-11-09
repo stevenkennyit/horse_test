@@ -60,6 +60,53 @@
       "going": "Good to Yielding, Good in places (Sporting Life meeting summary, checked 07:05 GMT 9 Nov). Right-handed galloping track, stiff uphill finish.",
       "races": [
         {
+          "time": "12:00",
+          "name": "Matchbook Betting Exchange Handicap Chase (0-100)",
+          "type": "chase",
+          "distance": "3m70y",
+          "going": "Good to Yielding, Good in places",
+          "runners": 12,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-09_punchestown/1200_matchbook-betting-exchange-handicap-chase-0-100.md",
+          "updated": "07:12 Mon 9 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Mini Getaway",
+              "prob": 0.22,
+              "placeProb": 0.52,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Completed and placed in all 4 chases (1-2-3-3) with no recorded errors; won at Sligo over 3m1f on Good, beating Western Model 16.2L, and meets him on the same 14lb terms; confirmed the new mark of 83 with a 2nd off it last time.",
+              "against": "Beaten 13L last time by Schiehallion, whom Western Model beat 16L (that line favours WM); 7lb above her winning mark; never run at Punchestown; small yard with no runners in 30 days."
+            },
+            {
+              "role": "ew",
+              "horse": "Il Silenzio",
+              "prob": 0.13,
+              "placeProb": 0.4,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Sound chaser (5/6 completions, top-3 in 4); two 3m1f chase wins on Yielding/Soft and 4th over course and distance; the 7lb claimer from his 2026 win rides again (effective 11-7); beat Western Model 13.25L at level weights in 2025 and gets 5lb from him.",
+              "against": "Held up, so can be left with too much to do; beaten 20L at Ballinrobe off a similar mark; 5lb above his last winning effective weight; trainer 0/3 in the last month."
+            },
+            {
+              "role": "danger",
+              "horse": "Moorish Castle",
+              "prob": 0.12,
+              "placeProb": 0.32,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Strongest recent form in the field (\u00bdL Sligo 3m1f hurdle win receiving 14lb from a 113 horse); may be well treated off 99 over fences.",
+              "against": "Chase debutant with shaky hurdle jumping (fell 2 out, jumped left, not fluent twice) and top weight 12-0."
+            }
+          ],
+          "errors": [],
+          "notes": ""
+        },
+        {
           "time": "12:30",
           "name": "Matchbook Betting Exchange Rated Novice Chase",
           "type": "chase",
