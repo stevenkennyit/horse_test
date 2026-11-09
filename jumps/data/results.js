@@ -201,6 +201,53 @@
           "notes": ""
         },
         {
+          "time": "13:30",
+          "name": "Matchbook 50/50 Series 3-Y-O Maiden Hurdle",
+          "type": "hurdle",
+          "distance": "1m7f187y",
+          "going": "Good to Yielding, Good in places",
+          "runners": 10,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-09_punchestown/1330_matchbook-50-50-series-3-y-o-maiden-hurdle.md",
+          "updated": "07:12 Mon 9 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Blissful Bonita",
+              "prob": 0.25,
+              "placeProb": 0.58,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Only runner proven over 2m on the Flat (won at Thurles 8 Oct, Yielding to Soft) for a stiff uphill finish; 3.25L behind stablemate Espritroyale at level weights, who won the Fairyhouse 3yo maiden hurdle 6 days ago by 8.75L from Mahzuz; 7lb fillies' allowance.",
+              "against": "Never jumped a hurdle in public; modest Flat level (OR 64-67); Coexist's Flat form probably 5-10lb better."
+            },
+            {
+              "role": "ew",
+              "horse": "Borora Aura",
+              "prob": 0.22,
+              "placeProb": 0.55,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Best proven hurdle form in the field: 3rd on her debut at Galway, 9.5L behind Sharkeyboy and \u00bdL behind Fits Perfect, 30L clear of 4th; gets 14lb from the geldings with her claim; likely lone leader.",
+              "against": "Weakened at 1m4f on the Flat and was headed on the Galway run-in (uphill finish a question); jumped left 3 out; Flat mark only 47-52; yard 1 winner from its last 50 runners."
+            },
+            {
+              "role": "danger",
+              "horse": "Coexist",
+              "prob": 0.22,
+              "placeProb": 0.55,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Best Flat form in the field (~72-80 on collateral, asserted); de Bromhead's 3yo hurdle debutants won 2 of 4 this season.",
+              "against": "Gives 7-14lb to the fillies; only 2 completions (PU on debut, cause not found); held up."
+            }
+          ],
+          "errors": [],
+          "notes": ""
+        },
+        {
           "time": "14:03",
           "name": "Matchbook 50/50 Series Maiden Hurdle",
           "type": "hurdle",
