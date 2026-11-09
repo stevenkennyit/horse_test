@@ -62,7 +62,7 @@
 ## Selections
 
 | Role | Horse | Win | Place | Fair | Confidence |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | **WIN** | **Shirzan** | 0.19 | 0.50 | 4.3/1 | low |
 | **EACH-WAY** | **Allo Al Khawaneej** | 0.15 | 0.45 | 5.7/1 | low |
 | **DANGER** | **Belle The Tigress** | 0.14 | 0.38 | 6.1/1 | — |
@@ -137,3 +137,20 @@
   - Newcastle 29 Nov 2025: 891869
   - Cheltenham 15 Nov 2025: 889615
 - SL trainer and jockey profiles for recent form: /racing/profiles/trainer/{93, 36453, 33, 1287, 3642, 2714, 2695, 6734, 2783}, /racing/profiles/jockey/{28279, 34224, 34263, 31576}
+
+
+## Result (reviewed 17:40 Mon 9 Nov; Sporting Life result, weighed in)
+
+Going: Good to Yielding. Non-runners: none.
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Shirzan | 0.19 | 9 | 11/2 |
+| Each-Way | Allo Al Khawaneej | 0.15 | 5 | 7/2 |
+| Danger | Belle The Tigress | 0.14 | 6 | 3/1 |
+
+Winner: **Sea Eagle** (5/1), our stated win chance 0.13.
+
+First four (SL): 1 Sea Eagle (5/1); 2 Sonny May (11/2, 6); 3 Inver Bay (9/1, nk); 4 Carrig Padraig (40/1, 2 ¼)
+
+**Grade: failed** (errors: O). Winner Sea Eagle (5/1, 0.13) led on the inner entering the straight and won comfortably by 6L: the handicap debutant from maidens whose RPR (122) we noted as 'far higher than my figures', marked down on our own collateral and a single unseat at the last when 2nd and staying on (O). WIN Shirzan disputed the lead 2 out and weakened to last (11/2). EW Allo Al Khawaneej led clear early, so our held-up pace read was wrong; 5th (7/2). Danger Belle The Tigress 6th (3/1F) after 467 days off.

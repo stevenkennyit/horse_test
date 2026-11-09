@@ -93,7 +93,7 @@ Card markers (RP): C/D — Western Model CD, Fr Gilligansvoyge CD, Deadheat CD; 
 ## Selections
 
 | Role | Horse | Win prob | Place prob (top 3) | Fair price | Confidence |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | **WIN** | Mini Getaway | 0.22 | 0.52 | ~7/2 | medium |
 | **EACH-WAY** | Il Silenzio | 0.13 | 0.40 | ~13/2 | low-medium (logged as low) |
 | **DANGER** | Moorish Castle | 0.12 | 0.32 | ~7/1 | — |
@@ -140,3 +140,20 @@ His Sligo hurdle win (3m1f164y, Y-S) by ½L from Boston Rajj (OR 113, conceding 
 - SL results (key): Sligo 30 Sep https://www.sportinglife.com/racing/results/2026-09-30/sligo/940972/x ; Downpatrick 9 Oct …/2026-10-09/downpatrick/942768/x ; Wexford 28 Aug …/2026-08-28/wexford/935628/x ; Kilbeggan 21 Aug …/2026-08-21/kilbeggan/934455/x ; Ballinrobe 11 Sep …/2026-09-11/ballinrobe/938085/x ; Sligo 23 Oct (Moorish Castle) …/2026-10-23/sligo/945201/x ; Downpatrick 18 Sep (Western Model) …/2026-09-18/downpatrick/939230/x ; Killarney 4 Oct (Joe's Turn) …/2026-10-04/killarney/941749/x ; Roscommon 5 Aug 2025 …/2025-08-05/roscommon/872059/x ; Roscommon 4 Aug 2026 …/2026-08-04/roscommon/931454/x ; Punchestown 6 Jun 2026 …/2026-06-06/punchestown/921167/x ; Punchestown 13 Nov 2025 …/2025-11-13/punchestown/889757/x ; also 941577, 942157, 942149, 945370, 922545, 919042, 929671, 941320, 943379, 941936, 922362, 916222, 926426, 927482, 911881, 919047, 906721, 592867, 861800, 883983, 933823
 - SL going page: https://www.sportinglife.com/racing/going
 - SL trainer profiles (/racing/profiles/trainer/<id>) for 30-day form counts
+
+
+## Result (reviewed 17:40 Mon 9 Nov; Sporting Life result, weighed in)
+
+Going: Good to Yielding. Non-runners: none.
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Mini Getaway | 0.22 | PU | 8/1 |
+| Each-Way | Il Silenzio | 0.13 | 3 | 11/2 |
+| Danger | Moorish Castle | 0.12 | 10 | 9/1 |
+
+Winner: **Western Model** (9/2), our stated win chance 0.12.
+
+First four (SL): 1 Western Model (9/2 F); 2 Everystep Oftheway (5/1, 1 ¼); 3 Il Silenzio (11/2, 2 ¼); 4 Laska Du Breuil (11/1, hd)
+
+**Grade: mixed**. WIN Mini Getaway made a bad mistake at the 1st, was always behind and pulled up (8/1): a jumping blunder from a mare with a clean chase record, not ability form. EW Il Silenzio 3rd (11/2) for a place return. Danger Moorish Castle led but made mistakes at the 1st, 7th and 5 out and weakened to 10th, as the chase-debut doubt warned. Winner Western Model (9/2 jt-F, 0.12) was our named best outsider, backed by the Schiehallion collateral line we recorded against the Win; he finally won at the 13th attempt over fences.

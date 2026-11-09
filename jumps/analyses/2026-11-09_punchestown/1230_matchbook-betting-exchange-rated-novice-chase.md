@@ -17,7 +17,7 @@
 Sporting Life and Racing Post card weights are **before** claims. This is verified from the Tramore 8 Oct result JSON, where Calm Flight Ahead is listed at 11-12 with a 7lb claim, the same as the unclaimed geldings. The only claim today is Shane Markey's 7lb on Butter Fingers (Racing Post card "(7)"; Sporting Life `jockey_claim: 7`): **verified**.
 
 | Horse | Card wt | Claim | Carries | Rating | Rating vs Rattledelatch at today's weights |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | Butter Fingers | 11-9 (4lb pen, Wexford hcp chase win May 2026) | 7 | **11-2** | 111 (card) | gets 9lb, rated 7lb lower: **2lb better off** |
 | Rattledelatch | 11-9 (4lb pen, Tramore beginners' chase Oct 2026) | – | 11-9 | 118 (card; chase mark, he was a 99 hurdler in July) | – |
 | Dollar Nolimit | 11-5 | – | 11-5 | hurdle 113 (Mar 2026) | 1lb better off (hurdle mark) |
@@ -136,7 +136,7 @@ An 8-runner novice chase should be run at a fair, not strong, gallop. That suits
 ## Selections
 
 | Role | Horse | Win prob | Fair price | Place prob (3 places) | Confidence |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | **WIN** | Rattledelatch | 0.28 | 5/2 (3.57) | 0.60 | low |
 | **EACH-WAY** | Butter Fingers | 0.17 | 5/1 (5.9) | 0.45 | low |
 | **DANGER** | Torpille Dagrostis | 0.14 | 6/1 (7.1) | 0.38 | – |
@@ -200,3 +200,20 @@ None expected on Good to Yielding ground. If Rattledelatch came out, Butter Fing
 - Sporting Life horse profiles: https://www.sportinglife.com/racing/profiles/horse/1205648 (Rattledelatch), /1138309 (Butter Fingers), /1180138 (Torpille Dagrostis), /1161945 (Ifallgoeswell), /1165561 (Trasna Na Pairce), /1207878 (Good Option), /1113413 (Tatateo), /1091552 (Dollar Nolimit)
 - Key Sporting Life results: https://www.sportinglife.com/racing/results/2026-10-08/tramore/942157/x (Rattledelatch win); https://www.sportinglife.com/racing/results/2026-09-24/listowel/939772/x (Listowel 4th); https://www.sportinglife.com/racing/results/2026-09-04/kilbeggan/936870/x (Butter Fingers 2nd); https://www.sportinglife.com/racing/results/2026-05-07/wexford/915576/x (Butter Fingers 2m chase win); https://www.sportinglife.com/racing/results/2026-10-10/fairyhouse/942962/x (Tatateo chase debut)
 - Sporting Life trainer pages: https://www.sportinglife.com/racing/profiles/trainer/412 (O'Sullivan), /235 (Queally), /1287 (Cromwell), /65 (Elliott), /33 (De Bromhead), /2695 (Byrnes), /36 (Hogan), /36303 (Buckley)
+
+
+## Result (reviewed 17:40 Mon 9 Nov; Sporting Life result, weighed in)
+
+Going: Good to Yielding. Non-runners: ['Trasna Na Pairce'].
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Rattledelatch | 0.28 | 1 | 10/3 |
+| Each-Way | Butter Fingers | 0.17 | 5 | 8/1 |
+| Danger | Torpille Dagrostis | 0.14 | 2 | 2/1 |
+
+Winner: **Rattledelatch** (10/3), our stated win chance 0.28.
+
+First four (SL): 1 Rattledelatch (10/3); 2 Torpille Dagrostis (2/1 F, ½); 3 Good Option (10/3, 2); 4 Ifallgoeswell (13/2, 11)
+
+**Grade: held**. WIN Rattledelatch won by ½L (10/3), led at the last and stayed on: the 2m doubt was overcome by the stamina his longer-trip form promised. Danger Torpille Dagrostis 2nd (2/1F), not fluent 7th and mistake 2 out, as the chase-debut cap allowed. EW Butter Fingers 5th (8/1) after a mistake 4 out, his recorded error pattern. Chase debutant Good Option (0.08) 3rd. Trasna Na Pairce a non-runner (7 ran, 2 places).

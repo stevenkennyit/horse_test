@@ -80,7 +80,7 @@ Draw: not a factor over jumps.
 Places: 3 (11 runners, non-handicap; place fraction 1/5).
 
 | Role | Horse | Win prob | Place prob | Fair price | Confidence |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | **WIN** | Brickfield Belle | 0.42 | 0.76 | ~11/8 (2.38) | medium |
 | **EACH-WAY** | Sapphire Jewel | 0.09 | 0.33 | ~10/1 (11.1) | low |
 | **DANGER** | Viva Laa Vida | 0.12 | 0.40 | ~7/1 (8.3) | — |
@@ -133,3 +133,20 @@ None declared at 07:10. Good to Yielding suits Brickfield Belle and Viva Laa Vid
 - SL results: Limerick 18 Oct https://www.sportinglife.com/racing/results/2026-10-18/limerick/944179/x · Galway 7 Sep /2026-09-07/galway/937252/x · Naas 22 Feb /2026-02-22/naas/904126/x · Clonmel 26 Mar /2026-03-26/clonmel/908888/x · Limerick 31 Mar /2026-03-31/limerick/910051/x · Gowran 2 Oct /2026-10-02/gowran-park/941928/x · Listowel 25 Sep /2026-09-25/listowel/940373/x · Down Royal 17 Mar /2026-03-17/down-royal/907870/x · Punchestown 28–29 Apr /912704, /914449, /914453 · Galway 6 Oct /942151 · Fairyhouse 10 Oct /942965 · Ballinrobe 24 Aug /934801 · Navan 19 Sep /939374 · Tramore 16 Aug /933429 · Wexford 7 May /915580
 - Points: https://www.horise.com/horse/dedudefromhouston/ ; RP profiles https://www.racingpost.com/profile/horse/7303444/affiniseaandbeyond/form , /8753811/easter-snow/form , /8683959/dedudefromhouston/form , /9955808/rock-on-suzie/form
 - SL trainer profiles (last 50 runs): h-de-bromhead/33, g-elliott/65, c-bowe/1329, n-meade/231, c-motherway/31477, d-hogan/36, p-a-fahy/417, e-doyle/448, t-m-walsh/1289
+
+
+## Result (reviewed 17:40 Mon 9 Nov; Sporting Life result, weighed in)
+
+Going: Good to Yielding. Non-runners: none.
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Brickfield Belle | 0.42 | UR | 4/9 |
+| Each-Way | Sapphire Jewel | 0.09 | 6 | 28/1 |
+| Danger | Viva Laa Vida | 0.12 | 2 | 9/2 |
+
+Winner: **Dedudefromhouston** (14/1), our stated win chance 0.07.
+
+First four (SL): 1 Dedudefromhouston (14/1); 2 Viva Laa Vida (9/2, nse); 3 Birdie Conway (5/1, 2); 4 Affiniseaandbeyond (80/1, 4 ½)
+
+**Grade: mixed** (errors: K). WIN Brickfield Belle led and pecked badly on landing at the 3rd, unseating (4/9F): her recorded jumping errors recurred; the form edge (RPR 121 v 85) justified the Win, and the doubt was priced in. Danger Viva Laa Vida beaten a nose (9/2). Winner Dedudefromhouston (14/1, 0.07), a 3m point winner we flagged as 'live if the race turns into a test', beat our EW Sapphire Jewel (6th, 28/1), who had been beaten 34.75L and 58L: the EW went to a weak rules-form stayer over a proven point stayer (K).

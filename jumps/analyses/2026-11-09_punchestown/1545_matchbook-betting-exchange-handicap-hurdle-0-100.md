@@ -94,7 +94,7 @@ Reserves (only run if a declared horse comes out): **Convincing** (94; won Kilbe
 ## Selections
 
 | Role | Horse | Win prob | Place prob (top 4) | Fair price | Confidence |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | **WIN** | Gaelic Des Chastys | 0.13 | 0.42 | ~13/2 (7.7) | low |
 | **EACH-WAY** | Spanish John | 0.10 | 0.36 | 9/1 (10.0) | low |
 | **DANGER** | Tudorista | 0.12 | 0.40 | ~7/1 (8.3) | — |
@@ -149,3 +149,20 @@ Field: Gaelic Des Chastys 13, Tudorista 12, Spanish John 10, Head For Home 9.5, 
 - SL results (key): /racing/results/2026-10-13/punchestown/943386, /943385; /2026-11-03/fairyhouse/946923; /2026-10-02/gowran-park/941577, /941578; /2026-10-30/down-royal/946307; /2026-10-23/sligo/945201; /2025-11-13/punchestown/889058; /2026-05-28/limerick/919045; /2026-01-29/thurles/900268; /2025-12-28/limerick/895282 (178 result pages read in total)
 - SL trainer profiles: https://www.sportinglife.com/racing/profiles/trainer/<id>
 - Web search for the Punchestown pace bias (Geegeez / Racing TV summaries): https://www.geegeez.co.uk/punchestown-racecourse/
+
+
+## Result (reviewed 17:40 Mon 9 Nov; Sporting Life result, weighed in)
+
+Going: Good to Yielding. Non-runners: ['Seeitoldya', 'Imbolc', 'Mydreamtell'].
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Gaelic Des Chastys | 0.13 | 9 | 11/1 |
+| Each-Way | Spanish John | 0.10 | 14 | 9/1 |
+| Danger | Tudorista | 0.12 | 7 | 5/1 |
+
+Winner: **Westin Pimpernel** (14/1), our stated win chance 0.04.
+
+First four (SL): 1 Westin Pimpernel (14/1); 2 The Ducks Walk (7/1, ½); 3 Cometothinkofit (18/1, nk); 4 Toor Moon (80/1, 4 ¼)
+
+**Grade: failed**. None of our three were factors: WIN Gaelic Des Chastys 9th, no impression (11/1); EW Spanish John 14th, never a factor (9/1); Danger Tudorista keen, 7th (5/1). Winner Westin Pimpernel (14/1, 0.04), an Elliott 4yo filly with a 3lb claim and age allowance on a mark of 77, came from mid-division on the inner. The Ducks Walk (0.05) and Cometothinkofit (0.01) completed the frame: a 22-runner lottery our consistent exposed-placer approach did not read. Imbolc and reserves Seeitoldya and Mydreamtell did not run (22 ran).

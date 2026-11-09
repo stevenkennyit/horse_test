@@ -14,7 +14,7 @@
 The Sporting Life card shows the weight with the claim listed separately (e.g. "Weight: 10-7 … Thomas O'Connor (7)"). Its result pages use the same convention: Borora Aura is listed at 10-7 with "(7)" at Galway. So **the card weights are before claims (verified)**.
 
 | Horse | Sex | Card wt | Claim | Carries | Gets from the geldings |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | Coexist | g | 11-0 | – | 11-0 | – |
 | Did Tell | g | 11-0 | – | 11-0 | – |
 | Mahzuz | g | 11-0 | – | 11-0 | – |
@@ -164,7 +164,7 @@ The only F/U/P/R in the field is Coexist's flat pull-up at Dundalk (Nov 2025, "e
 ## Selections
 
 | Role | Horse | Win prob | Fair price | Place prob (3 places) | Confidence |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | **WIN** | **Blissful Bonita** | 0.25 | 4.0 (3/1) | 0.58 | low |
 | **EACH-WAY** | **Borora Aura** | 0.22 | 4.5 (7/2) | 0.55 | low |
 | **DANGER** | **Coexist** | 0.22 | 4.5 (7/2) | 0.55 | – |
@@ -241,3 +241,20 @@ None expected: the ground is good to yielding with no extremes, and all 10 were 
   - only front-runner in the hurdle comments (Borora Aura).
 - **Times:** no pick rests on a time; Racing Post times were unavailable.
 - **This race is 6 days after Fairyhouse:** Mahzuz and Ella's Gold run back quickly. Their fitness is not a concern; the possibility that they have not recovered is not found either way.
+
+
+## Result (reviewed 17:40 Mon 9 Nov; Sporting Life result, weighed in)
+
+Going: Good to Yielding. Non-runners: none.
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Blissful Bonita | 0.25 | 3 | 2/1 |
+| Each-Way | Borora Aura | 0.22 | 2 | 9/2 |
+| Danger | Coexist | 0.22 | 1 | 11/8 |
+
+Winner: **Coexist** (11/8), our stated win chance 0.22.
+
+First four (SL): 1 Coexist (11/8 F); 2 Borora Aura (9/2, sh); 3 Blissful Bonita (2/1, 12); 4 Ella's Gold (18/1, 3 ½)
+
+**Grade: mixed**. Our three filled the first three. Danger Coexist won by a short head (11/8F) from EW Borora Aura (9/2), who led from the 4th and rallied after a mistake at the last; the claim and lone-lead case held. WIN Blissful Bonita 3rd, beaten 12L (2/1): the 2m Flat stamina edge counted for less than Coexist's 5-10lb better Flat form, which the analysis recorded but offset with the fillies' allowance.

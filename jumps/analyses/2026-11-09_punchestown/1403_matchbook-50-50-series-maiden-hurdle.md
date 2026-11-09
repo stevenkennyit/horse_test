@@ -66,7 +66,7 @@ Beaten distances are cumulative, summed from the SL result pages' finish-distanc
 11 runners, non-handicap, so 3 places at 1/5.
 
 | Role | Horse | Win prob | Place prob | Fair price | Confidence |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | **WIN** | It's Only A Game | 0.32 | 0.62 | ~85/40 | medium |
 | **EACH-WAY** | Leonard Vallis | 0.16 | 0.47 | ~21/4 | low |
 | **DANGER** | Werner | 0.22 | 0.50 | ~7/2 | — |
@@ -145,3 +145,20 @@ Re-checked against the source data before sending:
 No F/U/P/R appears in any runner's record under Rules. Dusty Mills' point-to-point "S" (slipped up) could not be read at source.
 
 Odds fields were visible in the raw card, IrishRacing and profile page data. They were not used as an input.
+
+
+## Result (reviewed 17:40 Mon 9 Nov; Sporting Life result, weighed in)
+
+Going: Good to Yielding. Non-runners: ["It's Only A Game"].
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | It's Only A Game | 0.32 | NR | - |
+| Each-Way | Leonard Vallis | 0.16 | F | 13/8 |
+| Danger | Werner | 0.22 | 2 | 5/6 |
+
+Winner: **Bombay Pat** (5/1), our stated win chance 0.12.
+
+First four (SL): 1 Bombay Pat (5/1); 2 Werner (5/6 F, 2 ¾); 3 Walkineezy (28/1, 15); 4 Dusty Mills (33/1, 7 ½)
+
+**Grade: mixed**. WIN It's Only A Game was a NON-RUNNER, missed because no pre-off non-runner check was run (card last checked 07:12). EW Leonard Vallis led and had every chance when he fell at the last (13/8): a sound placed-form pick undone by a fall. Danger Werner 2nd (5/6F), left in front at the last and headed. Winner Bombay Pat (5/1, 0.12) was our outsider and closest Each-Way call (the Ferocimo point-form link).

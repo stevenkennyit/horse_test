@@ -48,7 +48,7 @@ Eight Academy hurdles were checked: Cork 12/10/25, Punchestown 13/11/25 (this ra
 ## Raced runners: run detail (verified, SL profiles and result pages)
 
 | Horse | Date / course | Trip / going | Result | Weight / jockey | In-running comment |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | Destinedforhistory | 11 Oct 26, Cork Fillies Academy | 2m1f70y, Good (GtY in places) | **Fell 2 out**, 7 ran | 10-9, C Quirke | "Led, raced freely, reduced advantage before 3 out, headed after 3 out, no impression in 3rd when fell 2 out" |
 | Why Wait | same race | same | **3rd/7**, beaten 1¾L + 18L (about 19¾L) by Plumton Queen | 10-9, Mark Walsh (no claim) | "Prominent, slow and lost ground 5th, pushed along after 4 out, mistake 3 out, went modest 3rd run-in, no impression" |
 | Burleigh Beach | 25 Oct 26, Wexford Academy (mixed sex) | 2m2f50y, Soft | **PU before 4 out**, 8 ran | 10-7 (fillies' 7lb), D O'Keeffe | "Mid-division, not fluent 3rd, pushed along after 8th, detached in rear before 9th, pulled up before 4 out" |
@@ -89,7 +89,7 @@ Eight Academy hurdles were checked: Cork 12/10/25, Punchestown 13/11/25 (this ra
 ## Selections
 
 | Role | Horse | Win prob | Fair price | Place prob (3 places) | Confidence |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | **WIN** | Silk's Legacy | 0.19 | 5.3 (about 17/4) | 0.48 | low |
 | **EACH-WAY** | Destinedforhistory | 0.12 | 8.3 (about 7/1) | 0.36 | low |
 | **DANGER** | Smokin Aces | 0.14 | 7.1 (about 6/1) | 0.42 | — |
@@ -173,3 +173,20 @@ None flagged on the SL card at 07:09. If Silk's Legacy came out, the Win would p
 - SL horse profiles for all 9 runners, plus Plumton Queen, World Of The Way, Lighthouse Sarah, Free To Speak, Baby Og and Highland Crystal
 - SL trainer pages: 414, 65, 31090, 39146, 842, 31472, 1327
 - SL going page: https://www.sportinglife.com/racing/going
+
+
+## Result (reviewed 17:40 Mon 9 Nov; Sporting Life result, weighed in)
+
+Going: Good to Yielding. Non-runners: none.
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Silk's Legacy | 0.19 | PU | 17/2 |
+| Each-Way | Destinedforhistory | 0.12 | PU | 25/1 |
+| Danger | Smokin Aces | 0.14 | 1 | 9/4 |
+
+Winner: **Smokin Aces** (9/4), our stated win chance 0.14.
+
+First four (SL): 1 Smokin Aces (9/4 F); 2 Choir Girl (12/1, 1 ¼); 3 Ophelia Hall (5/2, 3); 4 Why Wait (12/1, 6)
+
+**Grade: failed** (errors: E, K). WIN Silk's Legacy (unraced) was always behind with slight mistakes at the 1st and 2nd and pulled up (17/2). She was chosen on her dam's record and a 1-from-6 trainer series stat, over the Mullins newcomer from a 7-from-24 yard, and rated above raced rivals: the analysis explicitly set rule E aside. EW Destinedforhistory took a keen hold in a clear lead and pulled up (25/1), exactly as her keen, never-completed record warned: a 0.36 place chance was inflated (K). Danger Smokin Aces won (9/4F). Claimer Choir Girl (0.10) 2nd at 12/1.

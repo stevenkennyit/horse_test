@@ -3284,6 +3284,470 @@
         "Golden Joy (13:20): SL card last_ran_days said 28; actual 191 (fell Punchestown 30 Apr) - recomputed from the profile pre-off.",
         "Beaten distances are not exposed in the Sporting Life result feed (margin fields null); finishing positions, SPs and in-running comments recorded, margins described qualitatively."
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "course": "Punchestown",
+      "country": "IRE",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Good to Yielding, Good in places (Sporting Life meeting summary, checked 07:05 GMT 9 Nov). Right-handed galloping track, stiff uphill finish.",
+      "races": [
+        {
+          "time": "12:00",
+          "name": "Matchbook Betting Exchange Handicap Chase (0-100)",
+          "type": "chase",
+          "distance": "3m70y",
+          "going": "Good to Yielding, Good in places",
+          "runners": 12,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "writeup": "jumps/analyses/2026-11-09_punchestown/1200_matchbook-betting-exchange-handicap-chase-0-100.md",
+          "updated": "07:12 Mon 9 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Mini Getaway",
+              "prob": 0.22,
+              "placeProb": 0.52,
+              "finish": "PU",
+              "confidence": "medium",
+              "reason": "Completed and placed in all 4 chases (1-2-3-3) with no recorded errors; won at Sligo over 3m1f on Good, beating Western Model 16.2L, and meets him on the same 14lb terms; confirmed the new mark of 83 with a 2nd off it last time.",
+              "against": "Beaten 13L last time by Schiehallion, whom Western Model beat 16L (that line favours WM); 7lb above her winning mark; never run at Punchestown; small yard with no runners in 30 days.",
+              "sp": "8/1"
+            },
+            {
+              "role": "ew",
+              "horse": "Il Silenzio",
+              "prob": 0.13,
+              "placeProb": 0.4,
+              "finish": "3",
+              "confidence": "low",
+              "reason": "Sound chaser (5/6 completions, top-3 in 4); two 3m1f chase wins on Yielding/Soft and 4th over course and distance; the 7lb claimer from his 2026 win rides again (effective 11-7); beat Western Model 13.25L at level weights in 2025 and gets 5lb from him.",
+              "against": "Held up, so can be left with too much to do; beaten 20L at Ballinrobe off a similar mark; 5lb above his last winning effective weight; trainer 0/3 in the last month.",
+              "sp": "11/2"
+            },
+            {
+              "role": "danger",
+              "horse": "Moorish Castle",
+              "prob": 0.12,
+              "placeProb": 0.32,
+              "finish": "10",
+              "confidence": "low",
+              "reason": "Strongest recent form in the field (\u00bdL Sligo 3m1f hurdle win receiving 14lb from a 113 horse); may be well treated off 99 over fences.",
+              "against": "Chase debutant with shaky hurdle jumping (fell 2 out, jumped left, not fluent twice) and top weight 12-0.",
+              "sp": "9/1"
+            }
+          ],
+          "errors": [],
+          "notes": "WIN Mini Getaway made a bad mistake at the 1st, was always behind and pulled up (8/1): a jumping blunder from a mare with a clean chase record, not ability form. EW Il Silenzio 3rd (11/2) for a place return. Danger Moorish Castle led but made mistakes at the 1st, 7th and 5 out and weakened to 10th, as the chase-debut doubt warned. Winner Western Model (9/2 jt-F, 0.12) was our named best outsider, backed by the Schiehallion collateral line we recorded against the Win; he finally won at the 13th attempt over fences.",
+          "winner": {
+            "horse": "Western Model",
+            "sp": "9/2",
+            "agentProb": 0.12
+          }
+        },
+        {
+          "time": "12:30",
+          "name": "Matchbook Betting Exchange Rated Novice Chase",
+          "type": "chase",
+          "distance": "2m136y",
+          "going": "Good to Yielding, Good in places",
+          "runners": 7,
+          "source": "full",
+          "status": "settled",
+          "grade": "held",
+          "writeup": "jumps/analyses/2026-11-09_punchestown/1230_matchbook-betting-exchange-rated-novice-chase.md",
+          "updated": "07:12 Mon 9 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Rattledelatch",
+              "prob": 0.28,
+              "placeProb": 0.6,
+              "finish": "1",
+              "confidence": "low",
+              "reason": "Top chase mark (118) and best chase form: 2.5L 2nd to Will Do (128) at Listowel at level weights, then won at Tramore 8 Oct; 3/3 chase completions with clean jumping since August; fit (32 days).",
+              "against": "All chase form at 2m4f-2m6f from off the pace, so 2m fences at this level untested; 4lb penalty leaves him 2-6lb worse off on marks; Tramore race modest; small yard.",
+              "sp": "10/3"
+            },
+            {
+              "role": "ew",
+              "horse": "Butter Fingers",
+              "prob": 0.17,
+              "placeProb": 0.45,
+              "finish": "5",
+              "confidence": "low",
+              "reason": "Only runner with a ~2m chase win (Wexford, GY); 1.75L 2nd at Kilbeggan off 109 ahead of 122-132 horses; 7lb claim makes him 2lb better off than Rattledelatch on marks; prominent; completed last 6.",
+              "against": "An unseat and minor errors in 4 of 7 chases; exposed (3 wins from 23 runs); yard 1 winner from 49 runners in the last month.",
+              "sp": "8/1"
+            },
+            {
+              "role": "danger",
+              "horse": "Torpille Dagrostis",
+              "prob": 0.14,
+              "placeProb": 0.38,
+              "finish": "2",
+              "confidence": "low",
+              "reason": "Best hurdle mark among the chase debutants (118), Elliott/Kennedy; placed twice at Punchestown behind good Mullins mares.",
+              "against": "Chase debutant off 208 days; all form at 2m3f+ on soft/heavy, her one good-ground run was her worst, and no mares' allowance today.",
+              "sp": "2/1"
+            }
+          ],
+          "errors": [],
+          "notes": "WIN Rattledelatch won by \u00bdL (10/3), led at the last and stayed on: the 2m doubt was overcome by the stamina his longer-trip form promised. Danger Torpille Dagrostis 2nd (2/1F), not fluent 7th and mistake 2 out, as the chase-debut cap allowed. EW Butter Fingers 5th (8/1) after a mistake 4 out, his recorded error pattern. Chase debutant Good Option (0.08) 3rd. Trasna Na Pairce a non-runner (7 ran, 2 places).",
+          "winner": {
+            "horse": "Rattledelatch",
+            "sp": "10/3",
+            "agentProb": 0.28
+          }
+        },
+        {
+          "time": "13:00",
+          "name": "Irish Stallion Farms EBF Fillies Academy Hurdle",
+          "type": "hurdle",
+          "distance": "2m2f132y",
+          "going": "Good to Yielding, Good in places",
+          "runners": 9,
+          "source": "full",
+          "status": "settled",
+          "grade": "failed",
+          "writeup": "jumps/analyses/2026-11-09_punchestown/1300_irish-stallion-farms-ebf-fillies-academy-hurdle.md",
+          "updated": "07:25 Mon 9 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Silk's Legacy",
+              "prob": 0.19,
+              "placeProb": 0.48,
+              "finish": "PU",
+              "confidence": "low",
+              "reason": "Unraced Elliott filly out of Fred Winter winner Silk Affair; Elliott won this race in 2025 with a debutant and has the only Academy-series winner among today's trainers (1/6).",
+              "against": "Unraced, so jumping unknown; Elliott's other Academy runners PU/UR/F/14th; can't be separated on hard evidence from the two Mullins newcomers.",
+              "sp": "17/2"
+            },
+            {
+              "role": "ew",
+              "horse": "Destinedforhistory",
+              "prob": 0.12,
+              "placeProb": 0.36,
+              "finish": "PU",
+              "confidence": "low",
+              "reason": "Only filly with recorded front-running form; was 3rd ahead of Why Wait when falling 2 out at Cork, and likely to get a soft lead among six debutants.",
+              "against": "Raced freely, headed after 3 out with no impression before falling; about 1f further today on a stiff finish, and has never completed.",
+              "sp": "25/1"
+            },
+            {
+              "role": "danger",
+              "horse": "Smokin Aces",
+              "prob": 0.14,
+              "placeProb": 0.42,
+              "finish": "1",
+              "confidence": "low",
+              "reason": "Unraced Mullins filly, yard 7/24 in 14 days; Brian Hayes booking the tie-break over stablemate Glenageary.",
+              "against": "Unraced; level with Glenageary (0.14) on evidence.",
+              "sp": "9/4"
+            }
+          ],
+          "errors": [
+            "E",
+            "K"
+          ],
+          "notes": "WIN Silk's Legacy (unraced) was always behind with slight mistakes at the 1st and 2nd and pulled up (17/2). She was chosen on her dam's record and a 1-from-6 trainer series stat, over the Mullins newcomer from a 7-from-24 yard, and rated above raced rivals: the analysis explicitly set rule E aside. EW Destinedforhistory took a keen hold in a clear lead and pulled up (25/1), exactly as her keen, never-completed record warned: a 0.36 place chance was inflated (K). Danger Smokin Aces won (9/4F). Claimer Choir Girl (0.10) 2nd at 12/1.",
+          "winner": {
+            "horse": "Smokin Aces",
+            "sp": "9/4",
+            "agentProb": 0.14
+          }
+        },
+        {
+          "time": "13:30",
+          "name": "Matchbook 50/50 Series 3-Y-O Maiden Hurdle",
+          "type": "hurdle",
+          "distance": "1m7f187y",
+          "going": "Good to Yielding, Good in places",
+          "runners": 10,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "writeup": "jumps/analyses/2026-11-09_punchestown/1330_matchbook-50-50-series-3-y-o-maiden-hurdle.md",
+          "updated": "07:12 Mon 9 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Blissful Bonita",
+              "prob": 0.25,
+              "placeProb": 0.58,
+              "finish": "3",
+              "confidence": "low",
+              "reason": "Only runner proven over 2m on the Flat (won at Thurles 8 Oct, Yielding to Soft) for a stiff uphill finish; 3.25L behind stablemate Espritroyale at level weights, who won the Fairyhouse 3yo maiden hurdle 6 days ago by 8.75L from Mahzuz; 7lb fillies' allowance.",
+              "against": "Never jumped a hurdle in public; modest Flat level (OR 64-67); Coexist's Flat form probably 5-10lb better.",
+              "sp": "2/1"
+            },
+            {
+              "role": "ew",
+              "horse": "Borora Aura",
+              "prob": 0.22,
+              "placeProb": 0.55,
+              "finish": "2",
+              "confidence": "low",
+              "reason": "Best proven hurdle form in the field: 3rd on her debut at Galway, 9.5L behind Sharkeyboy and \u00bdL behind Fits Perfect, 30L clear of 4th; gets 14lb from the geldings with her claim; likely lone leader.",
+              "against": "Weakened at 1m4f on the Flat and was headed on the Galway run-in (uphill finish a question); jumped left 3 out; Flat mark only 47-52; yard 1 winner from its last 50 runners.",
+              "sp": "9/2"
+            },
+            {
+              "role": "danger",
+              "horse": "Coexist",
+              "prob": 0.22,
+              "placeProb": 0.55,
+              "finish": "1",
+              "confidence": "low",
+              "reason": "Best Flat form in the field (~72-80 on collateral, asserted); de Bromhead's 3yo hurdle debutants won 2 of 4 this season.",
+              "against": "Gives 7-14lb to the fillies; only 2 completions (PU on debut, cause not found); held up.",
+              "sp": "11/8"
+            }
+          ],
+          "errors": [],
+          "notes": "Our three filled the first three. Danger Coexist won by a short head (11/8F) from EW Borora Aura (9/2), who led from the 4th and rallied after a mistake at the last; the claim and lone-lead case held. WIN Blissful Bonita 3rd, beaten 12L (2/1): the 2m Flat stamina edge counted for less than Coexist's 5-10lb better Flat form, which the analysis recorded but offset with the fillies' allowance.",
+          "winner": {
+            "horse": "Coexist",
+            "sp": "11/8",
+            "agentProb": 0.22
+          }
+        },
+        {
+          "time": "14:03",
+          "name": "Matchbook 50/50 Series Maiden Hurdle",
+          "type": "hurdle",
+          "distance": "1m7f187y",
+          "going": "Good to Yielding, Good in places",
+          "runners": 10,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "writeup": "jumps/analyses/2026-11-09_punchestown/1403_matchbook-50-50-series-maiden-hurdle.md",
+          "updated": "07:12 Mon 9 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "It's Only A Game",
+              "prob": 0.32,
+              "placeProb": 0.62,
+              "finish": "NR",
+              "confidence": "medium",
+              "reason": "Best bumper standard in the field on three agreeing lines: beat Boycetown (later OR 128) 3.5L here, and in a G2 at level weights was 1L behind Charismatic Kid (127) and 3.5L behind With Nolimit (129); course winner, won fresh before; Mark Walsh rides.",
+              "against": "Hurdle debut; off 243 days; tame 15th in the Cheltenham G1 last time; Brassil 0/14 since 4 Aug; first-time hood.",
+              "sp": "-"
+            },
+            {
+              "role": "ew",
+              "horse": "Leonard Vallis",
+              "prob": 0.16,
+              "placeProb": 0.47,
+              "finish": "F",
+              "confidence": "low",
+              "reason": "Only runner with placed hurdle form (1.5L 2nd of 19 at Gowran, clean round); bumper win over Thinkitdontjinxit, since an 11L maiden hurdle winner; 4/4 completions, races handily.",
+              "against": "All runs on soft or yielding-to-soft; collateral puts him ~15lb+ below the Win; off 217 days; yard 5/93 this season.",
+              "sp": "13/8"
+            },
+            {
+              "role": "danger",
+              "horse": "Werner",
+              "prob": 0.22,
+              "placeProb": 0.5,
+              "finish": "2",
+              "confidence": "low",
+              "reason": "Elliott/Gigginstown recruit with Jack Kennedy; won his only Flat start in Germany (~1m6f, Hoppegarten).",
+              "against": "Value of the German maiden unknown; never jumped in public; off 477 days.",
+              "sp": "5/6"
+            }
+          ],
+          "errors": [],
+          "notes": "WIN It's Only A Game was a NON-RUNNER, missed because no pre-off non-runner check was run (card last checked 07:12). EW Leonard Vallis led and had every chance when he fell at the last (13/8): a sound placed-form pick undone by a fall. Danger Werner 2nd (5/6F), left in front at the last and headed. Winner Bombay Pat (5/1, 0.12) was our outsider and closest Each-Way call (the Ferocimo point-form link).",
+          "winner": {
+            "horse": "Bombay Pat",
+            "sp": "5/1",
+            "agentProb": 0.12
+          }
+        },
+        {
+          "time": "14:38",
+          "name": "Matchbook Betting Exchange Handicap Hurdle",
+          "type": "hurdle",
+          "distance": "1m7f187y",
+          "going": "Good to Yielding, Good in places",
+          "runners": 9,
+          "source": "full",
+          "status": "settled",
+          "grade": "failed",
+          "writeup": "jumps/analyses/2026-11-09_punchestown/1438_matchbook-betting-exchange-handicap-hurdle.md",
+          "updated": "07:14 Mon 9 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Shirzan",
+              "prob": 0.19,
+              "placeProb": 0.5,
+              "finish": "9",
+              "confidence": "low",
+              "reason": "Progressive 4yo filly, 5/5 hurdle completions; short-head 2nd of 18 in the Listowel mares' handicap (~99-104 by my figures vs 102 needed after the 7lb claim); races in touch, which suits a likely modest pace.",
+              "against": "Both handicap runs mares-only; Ben Kennedy 1/50 recently, so the claim may be worth less; 6th off 107 two runs back; drops from 2m2f to 2m.",
+              "sp": "11/2"
+            },
+            {
+              "role": "ew",
+              "horse": "Allo Al Khawaneej",
+              "prob": 0.15,
+              "placeProb": 0.45,
+              "finish": "5",
+              "confidence": "low",
+              "reason": "10/10 hurdle completions; 2nd and 3rd in claimers, then 4th beaten 2.2L off this same 107 at Ballinrobe (~104-110 by my figures); stays 2m4f+ for the stiff finish; first-time visor.",
+              "against": "0/4 placed in handicaps; held up in a race short of pace; 1 win in 10 hurdle starts.",
+              "sp": "7/2"
+            },
+            {
+              "role": "danger",
+              "horse": "Belle The Tigress",
+              "prob": 0.14,
+              "placeProb": 0.38,
+              "finish": "6",
+              "confidence": "low",
+              "reason": "Galway mares' handicap figure (~110-114) right on the 112 needed; mark down 2lb; races prominently; de Bromhead 6/35 in 14 days.",
+              "against": "467-day absence, cause unknown.",
+              "sp": "3/1"
+            }
+          ],
+          "errors": [
+            "O"
+          ],
+          "notes": "Winner Sea Eagle (5/1, 0.13) led on the inner entering the straight and won comfortably by 6L: the handicap debutant from maidens whose RPR (122) we noted as 'far higher than my figures', marked down on our own collateral and a single unseat at the last when 2nd and staying on (O). WIN Shirzan disputed the lead 2 out and weakened to last (11/2). EW Allo Al Khawaneej led clear early, so our held-up pace read was wrong; 5th (7/2). Danger Belle The Tigress 6th (3/1F) after 467 days off.",
+          "winner": {
+            "horse": "Sea Eagle",
+            "sp": "5/1",
+            "agentProb": 0.13
+          }
+        },
+        {
+          "time": "15:13",
+          "name": "Matchbook 50/50 Series Mares Maiden Hurdle",
+          "type": "hurdle",
+          "distance": "2m4f164y",
+          "going": "Good to Yielding, Good in places",
+          "runners": 11,
+          "source": "full",
+          "status": "settled",
+          "grade": "mixed",
+          "writeup": "jumps/analyses/2026-11-09_punchestown/1513_matchbook-50-50-series-mares-maiden-hurdle.md",
+          "updated": "07:12 Mon 9 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Brickfield Belle",
+              "prob": 0.42,
+              "placeProb": 0.76,
+              "finish": "UR",
+              "confidence": "medium",
+              "reason": "Clearly the best hurdle form: 2.25L 2nd to Kimi De Mai (OR 114) at Limerick at level weights, 8L clear of an OR 98 mare; RPR 121 vs next best 85; form 1-2-3 incl. a 15L mares' bumper win; prominent style suits the stiff track.",
+              "against": "Jumping errors in both hurdle runs (jumped left, slipped, headed late at 4/7 at Limerick); never run beyond 2m1f.",
+              "sp": "4/9"
+            },
+            {
+              "role": "ew",
+              "horse": "Sapphire Jewel",
+              "prob": 0.09,
+              "placeProb": 0.33,
+              "finish": "6",
+              "confidence": "low",
+              "reason": "Best rules stamina evidence among those who have hurdled (3rd over 2m3f soft, keeping on); clean hurdle completion; second-best RPR (85); first-time tongue strap; 3lb claim.",
+              "against": "Modest and erratic: beaten 34.75L at Gowran and 58L (keen) in a G3 bumper; yard 0/6 since 1 Oct.",
+              "sp": "28/1"
+            },
+            {
+              "role": "danger",
+              "horse": "Viva Laa Vida",
+              "prob": 0.12,
+              "placeProb": 0.4,
+              "finish": "2",
+              "confidence": "low",
+              "reason": "Best bumper form among the hurdle debutants: beaten 4.3L by a mare who beat Hee Hiles 24.5L; same in-form yard.",
+              "against": "Found no extra at 2m, so 2m4f+ is a doubt; hurdle debut.",
+              "sp": "9/2"
+            }
+          ],
+          "errors": [
+            "K"
+          ],
+          "notes": "WIN Brickfield Belle led and pecked badly on landing at the 3rd, unseating (4/9F): her recorded jumping errors recurred; the form edge (RPR 121 v 85) justified the Win, and the doubt was priced in. Danger Viva Laa Vida beaten a nose (9/2). Winner Dedudefromhouston (14/1, 0.07), a 3m point winner we flagged as 'live if the race turns into a test', beat our EW Sapphire Jewel (6th, 28/1), who had been beaten 34.75L and 58L: the EW went to a weak rules-form stayer over a proven point stayer (K).",
+          "winner": {
+            "horse": "Dedudefromhouston",
+            "sp": "14/1",
+            "agentProb": 0.07
+          }
+        },
+        {
+          "time": "15:45",
+          "name": "Matchbook Betting Exchange Handicap Hurdle (0-100)",
+          "type": "hurdle",
+          "distance": "2m4f164y",
+          "going": "Good to Yielding, Good in places",
+          "runners": 22,
+          "source": "full",
+          "status": "settled",
+          "grade": "failed",
+          "writeup": "jumps/analyses/2026-11-09_punchestown/1545_matchbook-betting-exchange-handicap-hurdle-0-100.md",
+          "updated": "07:16 Mon 9 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Gaelic Des Chastys",
+              "prob": 0.13,
+              "placeProb": 0.42,
+              "finish": "9",
+              "confidence": "low",
+              "reason": "Punchestown hurdle winner (2m3f, Good); last four hurdle runs at 2m4f-2m5f read 2-3-2-2, a record no rival matches; one hurdle error in his last seven; same 5lb claimer as in three of those runs (carries 11-3).",
+              "against": "Age 10, 2 wins from 35; off 94, 1-4lb above his recent placed marks; last run a 6th over fences with mistakes; comes from mid-division; yard 2/29 in 30 days.",
+              "sp": "11/1"
+            },
+            {
+              "role": "ew",
+              "horse": "Spanish John",
+              "prob": 0.1,
+              "placeProb": 0.36,
+              "finish": "14",
+              "confidence": "low",
+              "reason": "4th of 21 in this race last year from 20th after the 5th; 1.5L 3rd at Sligo over 3m1f off 86 on 23 Oct, now 87 with Danny Mullins; stays well past the trip; top 4 in 4 of his last 6 hurdle runs.",
+              "against": "1 win from 20 over hurdles; beaten 31L and 43.75L in two of his last four; held up, so needs a strong pace and luck in 22 runners; the Sligo race had only 9 runners.",
+              "sp": "9/1"
+            },
+            {
+              "role": "danger",
+              "horse": "Tudorista",
+              "prob": 0.12,
+              "placeProb": 0.4,
+              "finish": "7",
+              "confidence": "low",
+              "reason": "Placed three times running at 2m4f-2m5f (2nd by a neck, then 3rd twice off 87); races prominently, which suits the course.",
+              "against": "Jumping errors in 3 of her last 5 (bad mistake at the last when leading at Kilbeggan); maiden after 12 runs; turns out 6 days after her last run (4th run in 38 days).",
+              "sp": "5/1"
+            }
+          ],
+          "errors": [],
+          "notes": "None of our three were factors: WIN Gaelic Des Chastys 9th, no impression (11/1); EW Spanish John 14th, never a factor (9/1); Danger Tudorista keen, 7th (5/1). Winner Westin Pimpernel (14/1, 0.04), an Elliott 4yo filly with a 3lb claim and age allowance on a mark of 77, came from mid-division on the inner. The Ducks Walk (0.05) and Cometothinkofit (0.01) completed the frame: a 22-runner lottery our consistent exposed-placer approach did not read. Imbolc and reserves Seeitoldya and Mydreamtell did not run (22 ran).",
+          "winner": {
+            "horse": "Westin Pimpernel",
+            "sp": "14/1",
+            "agentProb": 0.04
+          }
+        }
+      ],
+      "dataErrors": [
+        "14:03: It's Only A Game (Win) was a non-runner. The card was last checked 07:12 and no pre-off non-runner re-check was run, so it was not caught or replaced.",
+        "12:30: Trasna Na Pairce was a non-runner (7 ran, so 2 places, not 3); not a pick, but the field and place terms were not updated before the off.",
+        "15:45: Imbolc was a non-runner; reserve Convincing came in (22 ran). Not a pick.",
+        "14:38: the pace map had Allo Al Khawaneej (EW) held up; he led clear early. The pace read rested on a forecast from old in-running comments."
+      ],
+      "review": "Reviewed 17:40 Mon 9 Nov"
     }
   ]
 });
