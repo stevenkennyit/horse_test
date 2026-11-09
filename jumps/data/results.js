@@ -50,5 +50,63 @@
     "M": "A lone confirmed front-runner in a small or steadily-run field left unselected or opposed despite a flagged uncontested-lead / pace advantage (the pace read was right but not acted on)",
     "N": "A horse dropping sharply in class and/or fitted with first-time headgear left under-ranked on its beaten form at the higher level, below exposed, modest or long-absent rivals"
   },
-  "meetings": []
+  "meetings": [
+    {
+      "date": "2026-11-09",
+      "course": "Punchestown",
+      "country": "IRE",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Good to Yielding, Good in places (Sporting Life meeting summary, checked 07:05 GMT 9 Nov). Right-handed galloping track, stiff uphill finish.",
+      "races": [
+        {
+          "time": "13:00",
+          "name": "Irish Stallion Farms EBF Fillies Academy Hurdle",
+          "type": "hurdle",
+          "distance": "2m2f132y",
+          "going": "Good to Yielding, Good in places",
+          "runners": 9,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-09_punchestown/1300_irish-stallion-farms-ebf-fillies-academy-hurdle.md",
+          "updated": "07:25 Mon 9 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Silk's Legacy",
+              "prob": 0.19,
+              "placeProb": 0.48,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Unraced Elliott filly out of Fred Winter winner Silk Affair; Elliott won this race in 2025 with a debutant and has the only Academy-series winner among today's trainers (1/6).",
+              "against": "Unraced, so jumping unknown; Elliott's other Academy runners PU/UR/F/14th; can't be separated on hard evidence from the two Mullins newcomers."
+            },
+            {
+              "role": "ew",
+              "horse": "Destinedforhistory",
+              "prob": 0.12,
+              "placeProb": 0.36,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Only filly with recorded front-running form; was 3rd ahead of Why Wait when falling 2 out at Cork, and likely to get a soft lead among six debutants.",
+              "against": "Raced freely, headed after 3 out with no impression before falling; about 1f further today on a stiff finish, and has never completed."
+            },
+            {
+              "role": "danger",
+              "horse": "Smokin Aces",
+              "prob": 0.14,
+              "placeProb": 0.42,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Unraced Mullins filly, yard 7/24 in 14 days; Brian Hayes booking the tie-break over stablemate Glenageary.",
+              "against": "Unraced; level with Glenageary (0.14) on evidence."
+            }
+          ],
+          "errors": [],
+          "notes": ""
+        }
+      ]
+    }
+  ]
 });
