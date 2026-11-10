@@ -141,3 +141,20 @@ Data correction: cumulative beaten distances ARE available. Each Sporting Life r
 | DANGER | Western Shores | 0.18 | 0.48 | 9/2 | low |
 
 Rest: Alberta Rose 0.07, Jukebox Jolene 0.07, Leading Rose 0.06, Cool As A Cat 0.05, Bethpage Theatre 0.04, Senorita Diana 0.02, Out West 0.02. Total 1.00.
+
+## Result (reviewed 16:45 Tue 10 Nov; Sporting Life result, weighed in)
+
+Going: Good to Yielding (Good in places). Non-runners: none.
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Rebel Reba | 0.40 | 2 | 8/13 F |
+| Each-Way | Gratitudeforgrace | 0.09 | 7 | 14/1 |
+| Danger | Western Shores | 0.18 | 3 | 7/2 |
+
+Winner: **Bethpage Theatre** (40/1), not ranked by us.
+
+First four (SL): 1 Bethpage Theatre (40/1); 2 Rebel Reba (8/13 F, 1½); 3 Western Shores (7/2, hd); 4 Alberta Rose (13/2, 1½)
+
+**Grade: mixed** (errors: none). WIN Rebel Reba justified a short price to the extent of leading 2 out, but was headed inside the last 100 yards by 40/1 Bethpage Theatre and kept on one pace for 2nd — the best of the market but caught by a big-priced improver. DANGER Western Shores stayed on for 3rd (hd), so two of our three placed in a 10-runner maiden (3 places). EW Gratitudeforgrace was in contention 3 out but made a mistake and weakened (7th). Reasoning broadly held; a 40/1 shot we couldn't fairly have priced beat the favourite.
+

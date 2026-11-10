@@ -80,3 +80,20 @@ Field win-probability spread (sums to ~1.00): Cinnodin 0.34, Betty's Tiara 0.22,
 - Sporting Life racecard JSON: https://www.sportinglife.com/racing/racecards/2026-11-10/lingfield/racecard/947829/x
 - Sporting Life profiles (full career + ride descriptions): Robber's Bridge /horse/1062264, Cinnodin /horse/1074216, Betty's Tiara /horse/1080500, One Cool Dreamer /horse/1113407, Sailing By /horse/1205090
 - Lingfield course character: At The Races / Geegeez / Sporting Life course guides (via search), 10 Nov 2026
+
+## Result (reviewed 16:45 Tue 10 Nov; Sporting Life result, weighed in)
+
+Going: Good. Non-runners: Lord Of All Saints.
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Cinnodin | 0.34 | 3 | 11/4 |
+| Each-Way | Robber's Bridge | 0.19 | 2 | 13/2 |
+| Danger | Betty's Tiara | 0.22 | 1 | 7/2 |
+
+Winner: **Betty's Tiara** (7/2), our stated win chance 0.22 (ranked Danger).
+
+First four (SL): 1 Betty's Tiara (7/2); 2 Robber's Bridge (13/2, nk); 3 Cinnodin (11/4, 1¾); 4 Sailing By (5/4 F, 20)
+
+**Grade: mixed** (errors: M). The front-running stayer we identified as suited to the trip, ground and the track's prominent-pace bias made virtually all and stayed on gamely to hold Robber's Bridge by a neck — but we demoted her to Danger on a "no extra late / place horse more than a winner" doubt (error M: the pace read was right but not acted on). EW Robber's Bridge delivered the place at 13/2, leading on landing at the last before being denied. WIN Cinnodin had every chance, joined the winner 2 out, but had no extra on the run-in (3rd, unplaced in a 2-place race). The winner was in our three, but mis-slotted.
+

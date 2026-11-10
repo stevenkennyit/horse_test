@@ -127,3 +127,20 @@ Non-runners/going re-checked 08:43 on Sporting Life: hurdle good to yielding; ch
 | DANGER | A Year Older | 0.22 | 0.46 | 3.5/1 | low |
 
 Rest: Kilkee Bay 0.10, Heroes Of Renown 0.08, Revolut Ned 0.04. Total 1.00.
+
+## Result (reviewed 16:45 Tue 10 Nov; Sporting Life result, weighed in)
+
+Going: Good to Yielding. Non-runners: Attaboyarchie (our EW).
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Urbs Intacta Manet | 0.35 | 2 | 11/8 F |
+| Each-Way | Attaboyarchie | 0.21 | R | — |
+| Danger | A Year Older | 0.22 | 4 | 9/4 |
+
+Winner: **Revolut Ned** (5/1), not ranked by us.
+
+First four (SL): 1 Revolut Ned (5/1); 2 Urbs Intacta Manet (11/8 F, 4¾); 3 Kilkee Bay (11/2, 4); 4 A Year Older (9/4, 36) [UR Heroes Of Renown at the last]
+
+**Grade: mixed** (errors: none). WIN Urbs Intacta Manet ran to his mark, tracking the pace and taking 2nd after the sixth-last, but had no extra when pushed along and was beaten 4¾ (2nd, placed in a 5-runner, 2-place race). Revolut Ned (5/1), outside our three, rallied to lead at the last and held on — aided by Heroes Of Renown unseating his rider at the last while strongly in contention. DANGER A Year Older made mistakes and was tailed off (4th); the hurdles-form collapse doubt held. EW Attaboyarchie was withdrawn — the second of three EW non-runners uncaught for want of a pre-off re-check.
+

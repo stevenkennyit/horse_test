@@ -151,3 +151,20 @@ Non-runners/going re-checked 08:43 on Sporting Life: hurdle good to yielding; ch
 | DANGER | Everest The Brave | 0.17 | 0.43 | 4.9/1 | low |
 
 Rest: Bartlemy Boy 0.11, Cold Old Fire 0.10, Grageen 0.05, Big Interest 0.04, Gale Force Jet 0.04, Yewtree Hill 0.04, Bower House Boy 0.03. Total 1.00.
+
+## Result (reviewed 16:45 Tue 10 Nov; Sporting Life result, weighed in)
+
+Going: Good to Yielding. Non-runners: Yewtree Hill.
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Hearts And Spades | 0.26 | 1 | 5/2 |
+| Each-Way | My Life Be Like | 0.16 | 5 | 11/8 F |
+| Danger | Everest The Brave | 0.17 | 2 | 9/2 |
+
+Winner: **Hearts And Spades** (5/2), our stated win chance 0.26 (Win).
+
+First four (SL): 1 Hearts And Spades (5/2); 2 Everest The Brave (9/2, 11); 3 Big Interest (12/1, 6); 4 Bartlemy Boy (9/1, 2½)
+
+**Grade: held** (errors: none). The clean call of the day. WIN Hearts And Spades — picked as the fittest (a point win 9 days earlier, three in a row) with the best recent chase form while rivals had been off 150+ days — moved to the leaders after the 3rd, led after the fourth-last and won in control despite a mistake at the last. DANGER Everest The Brave rallied for 2nd (placed). EW My Life Be Like (sent off favourite) briefly led but faded to 5th — the two-of-three-PUs Rules doubt we flagged held. Fitness and recent form read correctly.
+

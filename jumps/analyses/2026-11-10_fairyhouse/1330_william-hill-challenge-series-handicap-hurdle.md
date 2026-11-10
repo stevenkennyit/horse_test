@@ -161,3 +161,20 @@ Rest: Warmer Days Ahead 0.14, Well Bud 0.08, West Is Awake 0.06, My Trump Card 0
 
 ## Update 08:43 (non-runner, before the off)
 Non-runners/going re-checked 08:43 on Sporting Life: hurdle good to yielding; chase good, good to yielding in places. **Non-runner: Scotty Joe** (rated 0.02). 12 run; still 3 places at a quarter the odds. Selections unchanged (Win Fuusland 0.22, Each-Way Pilgrims Walk 0.08, Danger Live To Laugh 0.17); his 0.02 goes to Warmer Days Ahead (0.15) and Well Bud (0.09).
+
+## Result (reviewed 16:45 Tue 10 Nov; Sporting Life result, weighed in)
+
+Going: Good to Yielding (Good in places). Non-runners: Scotty Joe, Pilgrims Walk (our EW).
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Fuusland | 0.22 | 3 | 17/2 |
+| Each-Way | Pilgrims Walk | 0.08 | R | — |
+| Danger | Live To Laugh | 0.17 | 1 | 5/2 F |
+
+Winner: **Live To Laugh** (5/2 F), our stated win chance 0.17 (ranked Danger).
+
+First four (SL): 1 Live To Laugh (5/2 F); 2 Well Bud (4/1, 3¾); 3 Fuusland (17/2, ¾); 4 My Trump Card (12/1, 2¾)
+
+**Grade: mixed** (errors: P). The winner was in our three, but as Danger. Live To Laugh — the horse we feared as the eased 10L Punchestown handicap winner — tracked the leaders, led after 3 out and kept on well; we had demoted it on the "up 14lb, carries 16lb more" doubt (error P: proven in-form horse demoted on a weight-rise and it won). WIN Fuusland ran a sound race on handicap debut, pressing to 2nd when not fluent at the last before fading to 3rd. EW Pilgrims Walk was withdrawn — a non-runner that went uncaught because the card was not re-checked near the off (see meeting data errors).
+

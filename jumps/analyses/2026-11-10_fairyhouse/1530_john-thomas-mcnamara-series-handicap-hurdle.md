@@ -148,3 +148,20 @@ Non-runners/going re-checked 08:43 on Sporting Life: hurdle good to yielding; ch
 | DANGER | Granville Street | 0.11 | 0.33 | 8/1 | low |
 
 Rest: Getaway Charlie 0.10, Annie Button 0.09, Boola Times 0.08, Cahirdown Boy 0.07, Joya Del Mar 0.06, Jerisk Star 0.04, Annie's Belle 0.04, The Bosses Order 0.03, Futurum Regem 0.03, Hidalgo Des Mottes 0.03. Total 1.00.
+
+## Result (reviewed 16:45 Tue 10 Nov; Sporting Life result, weighed in)
+
+Going: Good to Yielding (Good in places). Non-runners: Calzaghi, Joya Del Mar, Jerisk Star.
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Tuckmill | 0.18 | 1 | 5/1 |
+| Each-Way | West Of Carrig | 0.14 | 5 | 10/3 F |
+| Danger | Granville Street | 0.11 | 3 | 11/2 |
+
+Winner: **Tuckmill** (5/1), our stated win chance 0.18 (Win).
+
+First four (SL): 1 Tuckmill (5/1); 2 Hidalgo Des Mottes (11/1, 1¼); 3 Granville Street (11/2, 3); 4 Cahirdown Boy (12/1, hd)
+
+**Grade: held** (errors: none). WIN Tuckmill — the easy 8L course-area winner whose beaten horse (King Of The Greys) franked the form with a subsequent C&D win — moved up to lead before the last and kept on well, justifying the pick despite the 10lb rise. DANGER Granville Street led 3 out, was headed before the last and kept on for 3rd (placed). EW West Of Carrig made the running to halfway then emptied (5th); the 234-day layoff and winless-in-11 doubts held. A correct, well-reasoned top pick landing at 5/1.
+

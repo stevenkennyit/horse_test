@@ -81,3 +81,20 @@ Non-runners/going re-checked 08:43 on Sporting Life: hurdle good to yielding; ch
 | DANGER | Heron Hill | 0.30 | 0.60 | 2.3/1 | low |
 
 Rest: The Supersonic Kid 0.11, Ballyeagle 0.06, Aint Over Yet 0.05. Total 1.00.
+
+## Result (reviewed 16:45 Tue 10 Nov; Sporting Life result, weighed in)
+
+Going: Good to Yielding (Good in places). Non-runners: Chanson Du Jury (prior Danger, pre-checked NR), Unfastened (our EW).
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Bellahill | 0.36 | 3 | 11/10 |
+| Each-Way | Unfastened | 0.12 | R | — |
+| Danger | Heron Hill | 0.30 | 1 | 10/11 F |
+
+Winner: **Heron Hill** (10/11 F), our stated win chance 0.30 (ranked Danger, near co-pick).
+
+First four (SL): 1 Heron Hill (10/11 F); 2 The Supersonic Kid (12/1, 4); 3 Bellahill (11/10, ¾); 4 Ballyeagle (66/1, 3¾)
+
+**Grade: mixed** (errors: none). The winner was in our three and rated a near-co-pick: Heron Hill (0.30) vs Bellahill (0.36). The Cromwell point-winner took the lead after a furlong, was briefly headed and regained the advantage over 1f out to win — the strong-yard, race-type record we cited held. WIN Bellahill was held up, never really in contention, and stayed on late for 3rd (unplaced in a 5-runner, 2-place race). EW Unfastened was withdrawn — the third EW non-runner of the day for want of a pre-off re-check. No clear ranking error given the two were effectively co-rated, but the preferred Win finished behind the Danger again.
+

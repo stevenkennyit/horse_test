@@ -111,3 +111,20 @@ New evidence (Sporting Life result pages, verified):
 
 Rest: Lakeshore 0.11, Irish Fusilier 0.09, Dublinia 0.06, Klaus 0.06, Rich Treasure 0.05, Carvoiero 0.05, Unwanted 0.03, Ard Roisin 0.03, Lead By Example 0.03, Bay City Boy 0.03, Downings Bay 0.02. Total 1.00.
 The Win still rests on yard, booking and jumping pedigree only (12 of 14 unraced); nothing found improves or weakens it. Confidence low.
+
+## Result (reviewed 16:45 Tue 10 Nov; Sporting Life result, weighed in)
+
+Going: Good to Yielding (Good in places). Non-runners: Way Horn, Our Destiny.
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Quatre Saison | 0.21 | 12 | 7/4 F |
+| Each-Way | Hilarion | 0.11 | 11 | 14/1 |
+| Danger | Garrison Gold | 0.12 | RO | 3/1 |
+
+Winner: **Ard Roisin** (40/1), not ranked by us.
+
+First four (SL): 1 Ard Roisin (40/1); 2 Lakeshore (7/2, 9½); 3 Irish Fusilier (15/2, ½); 4 Unwanted (33/1, 8½)
+
+**Grade: failed** (errors: none). A newcomer lottery that went badly. WIN Quatre Saison was sent off 7/4 favourite but was never fluent and had no impression, trailing in 12th beaten 29L. EW Hilarion weakened after an early mistake (11th). DANGER Garrison Gold travelled into 3rd after 3 out and then ran out — the worst outcome. Our shape read ("all three Academy hurdles this season went to debutants") was vindicated by Ard Roisin, a 40/1 debutant who made all; we simply picked the wrong unraced horses on connections and pedigree. In a 14-runner all-newcomer heat this is largely variance, but backing an unraced favourite that flopped is the lesson to note.
+

@@ -99,3 +99,20 @@ Rest: Ballyfad 0.16, Hiddenvalley Lake 0.08, Stede Bonnet 0.08, Kel Histoire 0.0
 
 ## Update 08:43 (non-runner, before the off)
 Non-runners/going re-checked 08:43 on Sporting Life: hurdle good to yielding; chase good, good to yielding in places. **Non-runner: He Can't Dance** (rated 0.05). 11 run; 3 places. He was one of the likely pace-setters, so Ballyfad (led in his hurdles) is more likely to get an easy lead. Selections unchanged; revised: Glen Kiln 0.23 (place 0.53), Storm Heart 0.19 (0.47), Ballyfad 0.18, Kainsbourg 0.08 (0.34), Hiddenvalley Lake 0.08, Stede Bonnet 0.09, Kel Histoire 0.05, Franciscan Rock 0.04, Accustomed 0.03, Largy Hill 0.02, Sound As A Bell 0.01. Total 1.00.
+
+## Result (reviewed 16:45 Tue 10 Nov; Sporting Life result, weighed in)
+
+Going: Good to Yielding. Non-runners: He Can't Dance, Stede Bonnet, Hiddenvalley Lake.
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Glen Kiln | 0.23 | 5 | 5/2 |
+| Each-Way | Kainsbourg | 0.08 | 4 | 22/1 |
+| Danger | Storm Heart | 0.19 | 1 | 9/4 |
+
+Winner: **Storm Heart** (9/4), our stated win chance 0.19 (ranked Danger).
+
+First four (SL): 1 Storm Heart (9/4); 2 Ballyfad (7/4 F, 3½); 3 Largy Hill (25/1, ½); 4 Kainsbourg (22/1, ¾)
+
+**Grade: mixed** (errors: P). The winner was in our three, but barred from the Win by the blunt rule "debutants cannot be the Win." Storm Heart — a 147-151 hurdler on chase debut from a yard whose chase debutants we noted win 18% — took the lead over 100 yards out and kept on (error P: a class code-switcher demoted to Danger, and it won). WIN Glen Kiln, picked as the best completed chase form, made mistakes and weakened before the last (5th); its own "no chase form beyond 2m110y" doubt held. EW Kainsbourg briefly got to 2nd 2 out but had no extra (4th). The lesson: a top hurdler's class on chase debut can outrank modest proven chase form.
+

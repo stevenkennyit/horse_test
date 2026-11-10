@@ -84,3 +84,20 @@ Field win-probability spread (sums to ~1.00): Zaraquelle 0.25, Western Soldier 0
 - Racecard: https://www.sportinglife.com/racing/racecards/2026-11-10/lingfield/racecard/947828/careersinracing-step-on-track-programme-handicap-hurdle
 - Profiles (full career + in-running): Zaraquelle https://www.sportinglife.com/racing/profiles/horse/1157841 · Castle Quarter https://www.sportinglife.com/racing/profiles/horse/902467 · Western Soldier https://www.sportinglife.com/racing/profiles/horse/1013461 · Diamond Days https://www.sportinglife.com/racing/profiles/horse/1163772 · Raffles Nobu https://www.sportinglife.com/racing/profiles/horse/1101154 · Play On Court https://www.sportinglife.com/racing/profiles/horse/1203956 · Dotties Star https://www.sportinglife.com/racing/profiles/horse/1078365 · Most Wanted https://www.sportinglife.com/racing/profiles/horse/1079308 · Foinix https://www.sportinglife.com/racing/profiles/horse/1063758
 - Course character: 2019 Racing Post Lingfield course guide; geegeez Lingfield pace notes (Flat/AW)
+
+## Result (reviewed 16:45 Tue 10 Nov; Sporting Life result, weighed in)
+
+Going: Good. Non-runners: none.
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Zaraquelle | 0.25 | 5 | 6/1 |
+| Each-Way | Castle Quarter | 0.13 | 8 | 6/1 |
+| Danger | Western Soldier | 0.17 | 4 | 5/2 F |
+
+Winner: **Dotties Star** (14/1), not ranked by us.
+
+First four (SL): 1 Dotties Star (14/1); 2 Foinix (5/1, 3¾); 3 Raffles Nobu (12/1, 7½); 4 Western Soldier (5/2 F, 2)
+
+**Grade: failed** (errors: none). All three missed the frame. Dotties Star came from the rear to lead before 2 out and win — exactly the held-up profile our "handy, prominent-bias" read opposed. WIN Zaraquelle was held up in rear and never in contention (5th); the keen-hold / hold-up doubt we flagged held. DANGER Western Soldier was sent off favourite (5/2) but could only keep on one pace for 4th. EW Castle Quarter lost its place after 3 out and weakened to 8th — the 1-win-from-20 reliable-placer profile offered no finish here. No data or judgement error beyond failing to find a 14/1 winner in an open handicap.
+

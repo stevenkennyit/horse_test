@@ -84,3 +84,20 @@ Still not verified:
 - Meeting/going: https://www.sportinglife.com/api/horse-racing/meeting/122484
 - Profiles (full career + ride descriptions): horse API 1185045 (Rebel Tribesman), 1222986 (That's It Paddy), 1034509 (Spike Jones), 1154784 (Lacrima), 1102192 (D'jo Dela Barriere) — https://www.sportinglife.com/api/horse-racing/horse/&lt;id&gt;
 - Course character: https://sportinglife.com/racing/news/lingfield-course-guide-and-timeform-stats/197860 ; https://www.geegeez.co.uk/uk-race-courses/lingfield/ ; https://www.attheraces.com/course-guides/Lingfield ; https://www.britishracecourses.org/lingfield/
+
+## Result (reviewed 16:45 Tue 10 Nov; Sporting Life result, weighed in)
+
+Going: Good. Non-runners: Secret Trix.
+
+| Selection | Horse | Win prob | Finish | SP |
+|---|---|---|---|---|
+| Win | Rebel Tribesman | 0.44 | 2 | 8/11 F |
+| Each-Way | D'jo Dela Barriere | 0.18 | 4 | 6/1 |
+| Danger | Spike Jones | 0.20 | 3 | 11/4 |
+
+Winner: **That's It Paddy** (12/1), not ranked by us.
+
+First four (SL): 1 That's It Paddy (12/1); 2 Rebel Tribesman (8/11 F, 1); 3 Spike Jones (11/4, hd); 4 D'jo Dela Barriere (6/1, 8)
+
+**Grade: mixed** (errors: none). WIN Rebel Tribesman went off 8/11, made the running and jumped well, but was collared before the last by the held-up That's It Paddy and kept on for 2nd, beaten 1L. DANGER Spike Jones ran his customary big fresh race, staying on strongly from the rear for 3rd, just failing to catch the winner — the C&D-fresh case held. EW D'jo pressed but weakened to 4th. Our Win ran to form; a 12/1 pouncer we didn't rate beat an odds-on front-runner late.
+
