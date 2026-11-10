@@ -245,6 +245,51 @@
           ]
         },
         {
+          "time": "15:00",
+          "name": "INHSC Supporting Point-To-Points Hunters Chase",
+          "type": "chase",
+          "distance": "3m65y",
+          "going": "Good to Yielding",
+          "runners": 10,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-10_fairyhouse/1500_inhsc-hunters-chase.md",
+          "updated": "08:25 Tue 10 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Hearts And Spades",
+              "prob": 0.21,
+              "placeProb": 0.54,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Net 10-11 (11-4 listed less Mahon's 7lb claim, two sources) against 12-0 with no claim when 3rd at Cork over 3m100y on good to yielding (verified); placed in both Rules chases and won a point 9 days ago.",
+              "against": "No win in 6 Rules runs, 11L behind Jetbob at Punchestown, and collateral form puts Cold Old Fire level with him at today's weights."
+            },
+            {
+              "role": "ew",
+              "horse": "Cold Old Fire",
+              "prob": 0.14,
+              "placeProb": 0.42,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Completed all 6 Rules chases, won at Thurles and was 3rd at Gowran over 3m+ on heavy; net 11-2 is 5lb less than at Gowran; collateral form has him about level with Hearts And Spades.",
+              "against": "204 days off, all wins and places on soft or heavy, and beaten 25L at Tramore on good to yielding."
+            },
+            {
+              "role": "danger",
+              "horse": "Everest The Brave",
+              "prob": 0.16,
+              "placeProb": 0.42,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Won a maiden hunter by 8L over 2m7f150y on good to yielding and a point on 9 May; Cromwell yard.",
+              "against": "One Rules run, 172 days off, jockey called him raw; point history conflicts between sources."
+            }
+          ]
+        },
+        {
           "time": "16:00",
           "name": "Fairyhouse Christmas Party December 12th Point-To-Point Flat Race",
           "type": "bumper",

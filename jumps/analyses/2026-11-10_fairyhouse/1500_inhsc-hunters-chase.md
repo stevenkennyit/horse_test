@@ -63,13 +63,13 @@ Weight pattern (inferred, asserted): 12-0 for two-time Rules winners (Bartlemy, 
 
 | Role | Horse | Win prob | Place prob (3 places, 10 runners) | Fair price | Confidence |
 |---|---|---|---|---|---|
-| WIN | Hearts And Spades | 0.23 | 0.56 | 3.3/1 | low-medium |
-| EACH-WAY | Bartlemy Boy | 0.13 | 0.40 | 6.7/1 | low |
+| WIN | Hearts And Spades | 0.21 | 0.54 | 3.8/1 | low |
+| EACH-WAY | Cold Old Fire | 0.14 | 0.42 | 6.1/1 | low |
 | DANGER | Everest The Brave | 0.16 | 0.42 | n/a | low |
 
-Rest of field: My Life Be Like 0.16 (place 0.42), Cold Old Fire 0.12 (place 0.38), then Big Interest, Gale Force Jet, Grageen, Bower House Boy and Yewtree Hill 0.04 each (sum = 1.00).
+Rest of field: My Life Be Like 0.16 (place 0.42), Bartlemy Boy 0.12 (place 0.38), Grageen 0.05, Big Interest, Gale Force Jet, Bower House Boy and Yewtree Hill 0.04 each (sum = 1.00). This supersedes the earlier 08:15 table (Win 0.23, EW Bartlemy Boy 0.13); see Update 08:25.
 
-Danger (0.16) is above the Each-Way (0.13); My Life Be Like (0.16) is level with the Danger and Cold Old Fire (0.12) is close to the Each-Way; this is a very open race. Bartlemy is the Each-Way because it has the highest OR (120 v 105 and 96) at a longer fair price than the Win, with a genuine place chance; Everest is the Danger as the lightly raced improver whose ceiling is unknown.
+Danger (0.16) is above the Each-Way (0.14); My Life Be Like (0.16) is level with the Danger. See Update 08:25 for why the Each-Way moved to Cold Old Fire; this is a very open race. Bartlemy is the Each-Way because it has the highest OR (120 v 105 and 96) at a longer fair price than the Win, with a genuine place chance; Everest is the Danger as the lightly raced improver whose ceiling is unknown.
 
 ## Rationale and strongest case against
 
@@ -78,7 +78,7 @@ Danger (0.16) is above the Each-Way (0.13); My Life Be Like (0.16) is level with
 - Fit and in form: ran 9 days ago, three straight point wins this season (SL commentary and form 111, asserted: point results not opened; Irish Field March 2026 article verified 6-from-6 last season).
 - Cases against: (1) no win in 6 Rules runs (verified); (2) claim and so net weight unverified at Racing Post; (3) 11L beaten by Jetbob at Punchestown over a shorter trip; (4) hold-up/rear runner "a little keen" at Cork, in a race that may not be strongly run (pace read neutral); (5) 3m65y on quicker ground than he has won on in Rules (verified placed on yielding and GY; point form on good not checked); (6) Mr E Mahon's amateur record not checked.
 
-**EACH-WAY: Bartlemy Boy**
+**EACH-WAY (first-pass reasoning, superseded by Update 08:25; Bartlemy Boy now 0.12): Bartlemy Boy**
 - Highest OR (120 v 105 and 96) and a Rules hunter-chase win on yielding at 2m7f150y on 1 Jun 2026 (Everest also won over that trip on 22 May 2026) plus a 3m good-ground 2nd (verified, results 920094 and 860749 run line). Collateral comparison puts him about level with Hearts And Spades at today's weights.
 - Cases against: 155 days off; unseated rider at 5th at Killarney (verified, "close up, in touch after 3rd, unseated rider 5th"), 8th in 15-runner handicap at Roscommon; rider Shine (claim 7 on SL) unverified. Listowel win came against rivals (Hunt Away, Heartbreak Weather who later fell) that are modest. SL comment itself: "May need a few to falter." Win probability set at 0.13 (cut from 0.15 after the Thurles and Roscommon reads).
 
@@ -115,3 +115,21 @@ No times used (jumps times weak).
 ## Gap-pass note (08:15, before the off)
 
 Changes from the first pass: weights and claims verified (net weights unchanged); Hearts And Spades' point form confirmed (9 May, 17 May, 1 Nov wins); Bartlemy Boy 0.15 to 0.13 (Thurles 3m184y tailed off 51L and Roscommon 3m1f soft 35.6L show 3m was not comfortable in Rules on slower ground); Cold Old Fire 0.11 to 0.12 (Lawful Ruler chain); Hearts And Spades place 0.57 to 0.56. Selections unchanged: Win Hearts And Spades, Each-Way Bartlemy Boy, Danger Everest The Brave.
+
+## Update 08:25 (before the off) — Cold Old Fire re-weighed, Each-Way changed
+
+Going and non-runners rechecked on irishracing.com at 08:15 GMT: "Going - Good - Yielding", 10 declared, no non-runners shown (verified). Sporting Life going page last read 08:10. Recheck still due about 14:00.
+
+**Cold Old Fire v Hearts And Spades, quantified.** Collateral lines (all verified results; none a direct meeting):
+- Lawful Ruler chain: Cold Old Fire about +9lb on H&S (Tramore 14 days after Cork; 2m5f160y v 3m100y; both GY).
+- Occupational Force chain: Cold Old Fire about +19lb but on heavy ground at Gowran, so not used for today's ground.
+- Hunt Away chain: Cold Old Fire was 3L behind Hunt Away in a Kildorrery point (soft, 22 Feb 26); H&S was a head behind Hunt Away at Cork. That is H&S about 3lb better than COF (point weights not known).
+The three lines disagree by more than 10lb, so the honest figure is "COF about level with H&S at level weights, plus or minus 10lb". Giving 5lb away today puts them level to H&S slightly ahead, not COF 4lb clear. Discounts specific to Cold Old Fire: (1) 204 days off since 20 Apr, whereas H&S ran 9 days ago (about 2-3lb allowed for a hunter that is probably fresh); (2) all of his Rules wins and placings are on soft/heavy (Thurles 29 Jan heavy win, Gowran heavy 3rd); on good-to-yielding his Rules runs were 4th beaten 25L at Tramore (Apr 26) and 6th, 7th, 5th in 2025 maiden-level; (3) his only run on today's sort of ground at his current level, Tramore, was beaten 25L (verified); (4) trainer Hurley is 0 from 2 NH runs this season and 0 from 8 at Fairyhouse, and jockey Scallan is 1 from 2 at Fairyhouse (irishracing, small samples). Against H&S: 0 wins from 6 Rules runs and 11L behind Jetbob over a shorter trip. Net: H&S 0.21, COF 0.14, a gap of about 0.07 that reflects fitness and ground rather than collateral ability.
+
+**Each-Way now Cold Old Fire** (win 0.14, place 0.42): completed all 6 Rules chases (verified), handles 3m+ (won Thurles 3m184y, 3rd Gowran 3m1f, both heavy), gets 5lb relative to Gowran; fair price longer than the Win's. Against: ground and layoff as above. Bartlemy Boy drops to 0.12 / place 0.38: tailed off 51L at Thurles over 3m184y and 8th at Roscommon on soft, 155 days off.
+
+**Everest The Brave point history.** Sporting Life's form string F-11 and its commentary ("got off the mark in points at second attempt in May") both say he had two point runs (a fall or unseat first, then the 9 May win); irishracing lists only the 9 May win (its P2P count is 1 run, 1 win). I read these as consistent only if irishracing omits the first run; not resolved, and the first run's manner is not found. Treat it as one possible jumping flag in 3 starts. Also the Sporting Life commentary says the Downpatrick maiden was "3m, good to soft"; the result page says 2m7f150y, good to yielding (result page relied on).
+
+**Pre-send checklist re-run (08:25):** counts re-derived from the run lists (Bartlemy 6 chases: 5 completed, 1 U; Cold Old Fire 6 chases, 6 completed; Big Interest 6: 2 completed, 3 PU, 1 U; MLBL 3: 1 completed, 2 PU; Yewtree 6: 5 completed, 1 PU; H&S 2 chases, both placed); superlatives checked (the earlier "only"/"best" lines corrected); no pick rests on a time; each pick has a case against; the outsider check stands with Cold Old Fire now promoted; claims and weights verified from two sources.
+
+Final selections: WIN Hearts And Spades 0.21 / place 0.54; EACH-WAY Cold Old Fire 0.14 / 0.42; DANGER Everest The Brave 0.16 / 0.42.
