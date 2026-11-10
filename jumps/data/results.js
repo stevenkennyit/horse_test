@@ -290,6 +290,51 @@
           ]
         },
         {
+          "time": "15:30",
+          "name": "John Thomas McNamara Series (Q.R.) Handicap Hurdle",
+          "type": "hurdle",
+          "distance": "2m4f",
+          "going": "Good to Yielding",
+          "runners": 14,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-10_fairyhouse/1530_john-thomas-mcnamara-series-handicap-hurdle.md",
+          "updated": "08:17 Tue 10 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Tuckmill",
+              "prob": 0.18,
+              "placeProb": 0.46,
+              "finish": "-",
+              "confidence": "low-medium",
+              "reason": "Easy 8L winner over 2m4f on good at Punchestown on 13 Oct (verified), clean round; stablemate King Of The Greys, 8.75L behind him that day, then won easily at Fairyhouse; Fahey yard in form (4 from 17 since 1 Oct).",
+              "against": "10yo up 10lb to a career-high hurdle mark, claim drops from 7lb to 2lb; rider Mr McParland has 1 win from 25 listed rides (that win was Tuckmill); slow time on 13 Oct."
+            },
+            {
+              "role": "ew",
+              "horse": "Joya Del Mar",
+              "prob": 0.09,
+              "placeProb": 0.30,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Level with Tuckmill on a verified March head-to-head at Down Royal; 2nd of 23 and 5th over Fairyhouse 2m4f on soft; won twice over 2m5f on good; regular rider Mr Sutton won on him in June.",
+              "against": "12th of 13 at 3m on 5 Oct (stamina fail), pulled up over fences, 2 wins from 25 hurdles."
+            },
+            {
+              "role": "danger",
+              "horse": "Granville Street",
+              "prob": 0.11,
+              "placeProb": 0.33,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Top-rated and top weight; ran to about 105 on good at Galway on 29 Jul; 4lb claim.",
+              "against": "Beaten 26L-54L in heavy-ground hurdles, first-time blinkers, rider Mr Love 0 from 25."
+            }
+          ]
+        },
+        {
           "time": "16:00",
           "name": "Fairyhouse Christmas Party December 12th Point-To-Point Flat Race",
           "type": "bumper",

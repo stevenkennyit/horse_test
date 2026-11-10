@@ -105,3 +105,27 @@ Times not used (jumps, no standard times).
 - https://www.sportinglife.com/racing/results/2026-07-29/galway/930230/x
 - https://www.sportinglife.com/racing/results/2026-10-02/gowran-park/941577/x
 - https://www.sportinglife.com/racing/profiles/horse/1001896 (Tuckmill), /1152139 (Boola Times), /1045133 (Granville Street)
+
+## Update 08:17 (gap-fill pass)
+Card re-fetched 08:16 (Sporting Life): still 14 runners, no non-runners, claims unchanged (Love 4, Stokes 2, Sutton 2, McParland 2, Doyle Murphy 4, Forbes 4, Tegetmeier 2, F P Murphy 4, O'Sullivan 2, Browne 2, Bradley 4, Shanahan/Dunne/Benson 0).
+
+### Newly verified or corrected
+- Claims re-check (Sporting Life jockey pages, read to 8 Nov): none of the claiming riders has a win on 7-9 Nov. Only Mr J Dunne won on 5 Nov (he claims 0). Mr M J Love rode a 9th on 8 Nov, Mr B Doyle Murphy 6th/12th/5th, Mr D O'Sullivan 8th. Gap: profile run lists are partial (Mr T J Forbes shows no rides at all).
+- Amateur records (listed rides in the profile, partial): Love 0 wins from 25; Ms Bradley 0/31; Doyle Murphy 0/13; F P Murphy 0/15; Sutton 2/41 (one is Joya Del Mar, 13 Jun); McParland 1/25 (that is Tuckmill; recent others 10th, 14th, PU 23 Oct); Browne 1/18 (West Of Carrig 15 Jan); Stokes 2/16; Benson 2/11 (wins 19 Sep, 8 Oct); Shanahan 4/50; Dunne 3/50, in form (won 5 Nov, 3rd 8 Nov); Tegetmeier 3/47. Forbes (Boola Times): nothing found, so ability unknown. This lowers Granville Street (Love 0/25 on a top weight) and Boola Times (unknown rider on a horse that makes mistakes).
+- Trainers since 1 Oct (Sporting Life profile, jumps runs, partial): Peter Fahey 4 wins from 17 (10 placed), hot; Ciaran Murphy 2/23; T Doyle 0/10; D A McLoughlin 2/24; Liz Doyle 2/10; D Budds 1/7; E McNamara 2/31; Don Browne 0 runs since Oct (West Of Carrig last ran 21 Mar; he returned from a layoff with a 2nd in Nov 2025, 2nd Dec 2025 and a win in Jan 2026).
+- Tuckmill's 13 Oct win re-read in full (result 943386): 17 ran, 5m 56.7s. Tuckmill was mid-division and never mentioned in the interference. Trixaboutmaisie, Soldier Saint and Datzdjazz were "badly hampered after 3rd", Hidalgo and How Decc hampered, Me Wee Nanny Fran slipped up. So the hampering hit runners behind him and mostly explains the 2nd, not his own run. Note: the time was slow (the 2m7f95y race the same day was 4.7s faster); steady pace, time not relied on.
+- Chain strengthened: his Fahey stablemate King Of The Greys, beaten 8.75L by him carrying 13lb more, won easily at Fairyhouse over 2m4f good-to-yielding on 3 Nov (OR 99, led before last, clear, beat Diamond Tipp (100) by 6.5L; result 946923). That makes Tuckmill's 94-102 perf read look conservative: about 101-107 vs carried rating 102.
+- Head-to-head Tuckmill v Joya Del Mar (Down Royal, 17 Mar, 2m4f86y, 18 ran): Joya 4th, Tuckmill 7th, 2.75L apart with Tuckmill carrying 3lb more; at level weights about even. Both now carry 11-10 actual.
+- Granville Street's hurdle form read in full: 6th 26.5L (Navan Dec, soft-heavy, OR 118), 7th 54.5L (Naas Jan, heavy), 14th 48L (Naas Feb, heavy), then 4th 4.25L (Galway Jul, good). He is a good-ground hurdler; his decline since 2025 is real (OR 120 -> 110). Today's going is good-to-yielding, not heavy.
+- Futurum Regem: 8th of 8, 84.75L, in the Dec Grade 1 (OR 98, out of depth); Thurles Oct chase 7th 38L. Calzaghi: 11th 49L in a maiden (Jul), 9th 18.55L (Clonmel Oct, 2m6f170y, OR 100). No hidden form. Annie's Belle: 3rd (6.75L) 31 May, 9th 15.75L at 3m, 5th 23.75L Naas soft-heavy, fell 2 out travelling OK in Apr (2m4f, good-to-yielding). Modest.
+
+### Revised table (win / place, 3 places)
+Tuckmill 0.18/0.46, Granville Street 0.11/0.33, West Of Carrig 0.11/0.29, Getaway Charlie 0.10/0.27, Joya Del Mar 0.09/0.30, Annie Button 0.09/0.27, Boola Times 0.08/0.25, Cahirdown Boy 0.07/0.21, Jerisk Star 0.04, Annie's Belle 0.04, The Bosses Order 0.03, Calzaghi 0.02, Futurum Regem 0.02, Hidalgo Des Mottes 0.02 (wins sum 100).
+
+### Selections
+- WIN: Tuckmill 0.18 / 0.46, confidence low-medium. Unchanged; the KOG chain and Fahey's form lift him slightly. Main doubt unchanged: 10yo, +9lb actual vs his win.
+- EACH-WAY changed: Joya Del Mar 0.09 / 0.30, confidence low (was Boola Times). Reason: level on a verified head-to-head with Tuckmill in March, Fairyhouse 2m4f placings (2nd of 23 soft Feb 2025, 5th soft Apr 2025), carried rating 102 vs perf about 100, regular rider Mr Sutton (won on him 13 Jun). Boola Times drops out because rider Mr Forbes has no record found and the horse made a mistake in each of his last four completions. Against Joya: 12th of 13 at 3m on 5 Oct (stamina, lost place 5 out), PU in chase (different code), 36 days off, 2 wins from 25 hurdles.
+- DANGER: Granville Street 0.11 / 0.33 (unchanged role; lower for Love's 0/25 and his heavy-ground collapse). West Of Carrig is the next threat.
+
+### Still not found
+Racing Post card (406), At The Races (failed), rail/weather, fluency data, Fairyhouse course-character data (asserted only), Forbes' record, full trainer strike rates beyond the partial profile lists, claims after the 8 Nov rides for riders whose lists are partial.
