@@ -109,3 +109,35 @@ No non-runner at 08:10. Rebel Reba has Galway soft form so would not mind any ea
 Rest 0.40: Alberta Rose 0.08, Leading Rose 0.07, Jukebox Jolene 0.07, Cool As A Cat 0.06, Bethpage Theatre 0.05, Senorita Diana 0.04, Out West 0.03. Win remains highest, but only just (0.27 vs 0.22); if forced I would treat Rebel Reba/Western Shores as close to level.
 
 **Selections unchanged** (same three horses): nothing new moved the order apart from narrowing the Win/Danger gap. Still unfound: cumulative beaten distances, Racing Post card, going/rail beyond Sporting Life, Smart Stats/pace, points race results. Earlier line "Gratitudeforgrace only four-year-old to have run 2m4f" had already been corrected in the body (Senorita Diana also).
+
+## Update 08:36 (coordinator critical review, before the off)
+Non-runners/going re-checked 08:36 on Sporting Life: 10 runners, none out; hurdle good to yielding.
+
+**Selections unchanged; Rebel Reba's win chance raised from 0.27 to 0.40.**
+
+Data correction: cumulative beaten distances ARE available. Each Sporting Life result ride carries `finish_distance` (gap to the horse in front), so summing down the finishing order gives the distance behind the winner. Recomputed for every runner's hurdle runs (verified from the result pages):
+
+| Horse | Beaten distances behind the winner (latest first) |
+|---|---|
+| Rebel Reba | 7.75L (7th of 12, Galway 2m5f100y soft, open maiden, 16 days ago); 19.9L (6th of 10, Fairyhouse 2m4f good, open maiden won by Well Bud, now OR 110) |
+| Western Shores | 46L tailed off (handicap); 16.6L; 14.8L; 50L; 13.3L; 7.5L (the 7.5L was over 2m in May) |
+| Gratitudeforgrace | 27.5L; 28.3L; 21L (hurdles) |
+| Alberta Rose | 45.5L; 26.6L |
+| Jukebox Jolene | 34.8L; 46.5L; 27.1L |
+| Leading Rose | 65L; 43.7L |
+| Cool As A Cat | 39.1L; 80.5L; unseated |
+| Bethpage Theatre | PU; 44L; PU; 42.5L; 71L; fell |
+| Senorita Diana | 84.5L; 42L |
+| Out West | 75.5L; 104L |
+
+- Rebel Reba's latest run is the best in the field at 2m4f or further by 7L or more (next best at the trip: Western Shores 14.8L). Both her runs were in open maidens against geldings, she improved from 19.9L to 7.75L on her second start, and the first-pass description "never closer than 6th, no impression" undersold it. A non-handicap maiden with a clear form standout supports about 0.40; it stays below the 45-50% ceiling because she has still not finished in the first five.
+- Western Shores stays the Danger but drops to 0.18: beyond 2m3f she has been beaten 14.8L, 50L and 46L.
+- Gratitudeforgrace stays the Each-Way at 0.09 / 0.30: three hurdle completions at 21-28L with mistakes is thin, but nothing else in the race has a better record and two places are open behind the Win. Confidence low; this is a weak each-way race.
+
+| Role | Horse | Win | Place (3) | Fair price | Confidence |
+|---|---|---|---|---|---|
+| WIN | Rebel Reba | 0.40 | 0.72 | 6/4 | low-medium |
+| EACH-WAY | Gratitudeforgrace | 0.09 | 0.30 | 10/1 | low |
+| DANGER | Western Shores | 0.18 | 0.48 | 9/2 | low |
+
+Rest: Alberta Rose 0.07, Jukebox Jolene 0.07, Leading Rose 0.06, Cool As A Cat 0.05, Bethpage Theatre 0.04, Senorita Diana 0.02, Out West 0.02. Total 1.00.

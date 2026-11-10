@@ -91,3 +91,23 @@ Newly verified / corrected:
 
 Revised probabilities: Quatre Saison 0.21 (place 0.50), Garrison Gold 0.12, Lakeshore 0.11, Irish Fusilier 0.11, Hilarion 0.09, Dublinia 0.06, Rich Treasure 0.06, Klaus 0.05, Carvoiero 0.05, Unwanted/Ard Roisin/Lead By Example/Bay City Boy 0.03 each, Downings Bay 0.02.
 Selections unchanged: Win Quatre Saison, Each-Way Irish Fusilier, Danger Garrison Gold; Win probability trimmed 0.22 to 0.21 on Elliott's yesterday pulled-up newcomer and Rich Treasure's form being weaker than first read.
+
+## Update 08:36 (coordinator critical review, before the off)
+Non-runners/going re-checked 08:36 on Sporting Life: 14 runners + 2 reserves, none out; hurdle good to yielding.
+
+**Each-Way changed: Hilarion replaces Irish Fusilier. Win and Danger unchanged.**
+
+New evidence (Sporting Life result pages, verified):
+- All three Academy hurdles read this season were won by debutants (Lunar Stride, The Two Degrees, Smokin Aces), so having no run is not a negative here; the two raced runners (Rich Treasure about 15.5L 5th of 6; Bay City Boy unseated, tailed off) stay low.
+- Ciaran Murphy has had two Academy debutants this season and both were placed: Why Wait 3rd of 7 at Cork (11 Oct) and Choir Girl 2nd, beaten 1 1/4L, at Punchestown yesterday under Kevin Healy (7lb claim). Healy rides Hilarion today with the same 7lb claim, so Hilarion carries 10-7, level with the fillies and 7lb less than Quatre Saison, Garrison Gold and Lakeshore. Tiny sample (2 debutants), but it is the only yard-specific Academy evidence in the race.
+- Irish Fusilier's case rests on the standard 7lb fillies' allowance and one unverified half-sibling line; nothing yard- or race-specific was found. Hilarion has the same weight and the yard evidence.
+- Against Hilarion: unraced, Flat-bred (Frankel, dam a 7f winner) so jumping is unknown, inexperienced claimer, and a non-runner at Wexford on soft (reason not found).
+
+| Role | Horse | Win | Place (3) | Fair price | Confidence |
+|---|---|---|---|---|---|
+| WIN | Quatre Saison | 0.21 | 0.50 | 3.8/1 | low |
+| EACH-WAY | Hilarion | 0.11 | 0.33 | 8/1 | low |
+| DANGER | Garrison Gold | 0.12 | 0.35 | 7.3/1 | low |
+
+Rest: Lakeshore 0.11, Irish Fusilier 0.09, Dublinia 0.06, Klaus 0.06, Rich Treasure 0.05, Carvoiero 0.05, Unwanted 0.03, Ard Roisin 0.03, Lead By Example 0.03, Bay City Boy 0.03, Downings Bay 0.02. Total 1.00.
+The Win still rests on yard, booking and jumping pedigree only (12 of 14 unraced); nothing found improves or weakens it. Confidence low.

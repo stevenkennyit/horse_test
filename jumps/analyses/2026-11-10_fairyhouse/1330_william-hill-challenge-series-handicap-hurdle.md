@@ -137,3 +137,24 @@ Verified at source this pass (Sporting Life result pages read in full unless not
 Changes: Fuusland nudged up to 0.16 win / 0.43 place (Elliott hot); Well Bud down to 0.08 (McCarthy 0/18 recently, trip +6f); Pilgrims Walk 0.07. Warmer Days Ahead stays Win at 0.18 (McKiernan cold 2/38 is a mild negative, not enough to overturn a 3lb head-to-head edge over Live To Laugh 0.17). Selections unchanged.
 
 Still gaps: Racing Post card/results, ATR Smart Stats/pace, weather and rail, Friday Man's 2025 May/June runs, Well Bud's NH flat runs and Moonovercloon's older runs not opened (not relied on).
+
+## Update 08:36 (coordinator critical review, before the off)
+Non-runners/going re-checked 08:36 on Sporting Life: 13 runners, none out; hurdle good to yielding.
+
+**Selections changed: Win is now Fuusland (was Each-Way); Each-Way is now Pilgrims Walk; Danger stays Live To Laugh. Warmer Days Ahead drops out of the three.**
+
+Why (Sporting Life result and profile pages, verified):
+1. **Fuusland's Sligo run is much stronger than a maiden second.** Union Station, 8L behind him at level weights (11-4 each, no claim), is not a maiden-grade horse: hurdle OR 120 on the day, and over fences he was 2nd off 123 at Leopardstown (Dec 2025), 4th of 17 in the National Hunt Challenge Cup at Cheltenham off 131 and 4th of 17 at Fairyhouse off 126. Even allowing Union Station 7-10lb for a first run in 174 days, Fuusland ran to about 115-120. He runs off 101 today, carrying 9lb less than at Sligo. The fourth was 54L back. The winner Rememberwhat had a 7lb claim.
+2. That makes him a handicap debutant with a stronger independent figure than the exposed handicappers (the pattern logged as error type O when ranked below them). He has also been 2nd by 1 1/4L over 2m5f180y on good, so the quicker ground is covered; stays 3m1f; made or disputed the running at Sligo (front-runners hold an edge over jumps); four clean rounds since the debut unseat; Elliott 8 wins from 50 runs in the last 11 days.
+3. **The Warmer Days Ahead case was thinner than stated.** The 3lb edge over Live To Laugh comes from converting a 10L defeat at 1lb a length, but the comment on the winner is "asserted going easily before last, canter". An eased 10L is worth more than 10lb, so the single head-to-head does not put Warmer Days Ahead ahead. Live To Laugh also won handicap chases off 94 and 104 in March, so a hurdle mark of 108 is in line with his chase form. Warmer Days Ahead was "outpaced after 2 out", has no run at 3m+, and his yard is 2 from 38.
+4. **Pilgrims Walk is the better each-way pick at a longer fair price:** last four handicap runs 2nd (1/2L, 3m100y), 3rd (2L), 4th (2 1/2L), 3rd of 18; stays 3m; carries 9-11 after the 7lb claim, the lowest weight; unchanged mark of 98; dead level with Live To Laugh on the 13 Oct form at today's weights. Against: 0 wins from 7 and may lack a finishing kick.
+
+Case against Fuusland: 0 wins from 5 (beaten a nose and 1 1/4L); first handicap; the Sligo race had 5 finishers and Union Station may simply have needed the run badly; no course form; 18 days since a hard 3m1f race on yielding to soft.
+
+| Role | Horse | Win | Place (3) | Fair price | Confidence |
+|---|---|---|---|---|---|
+| WIN | Fuusland | 0.22 | 0.50 | 7/2 | low-medium |
+| EACH-WAY | Pilgrims Walk | 0.08 | 0.32 | 11.5/1 | low |
+| DANGER | Live To Laugh | 0.17 | 0.42 | 5/1 | low |
+
+Rest: Warmer Days Ahead 0.14, Well Bud 0.08, West Is Awake 0.06, My Trump Card 0.06, Knocknagoran Lady 0.05, Rich Belief 0.04, Siege Of Carthage 0.03, The Friday Man 0.03, Moonovercloon 0.02, Scotty Joe 0.02. Total 1.00. Win 0.22 is under the 25% ceiling for a 13-runner handicap.
