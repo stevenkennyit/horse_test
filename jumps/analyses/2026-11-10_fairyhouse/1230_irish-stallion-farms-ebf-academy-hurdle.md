@@ -9,7 +9,7 @@
 ## Data picture
 Only two runners have raced over hurdles (verified from profiles, result pages):
 - **Bay City Boy** (Gibney): Wexford 25 Oct, 2m2f50y soft, 8 ran, unseated rider at the last, tailed off. "Mistake 1st... not fluent 4 out and 3 out... pushed along after 3 out, tailed off." Poor jumper on that evidence.
-- **Rich Treasure** (A D Leahy): Punchestown 14 Oct, 2m2f190y good, 6 ran, 5th (1.5L behind 4th Hansel The Purse). "Disputed lead, hampered 1st, mistake and headed 4 out... mistake 3 out... no extra." Winner Lunar Stride, 2nd Juarileo, 3rd Green Heritage. Hansel The Purse (4th there) then went 2nd at Wexford to The Two Degrees (mistakes 7th, 2 out and last), so Rich Treasure's form is modest (collateral, asserted). Ran on good ground, jumped untidily.
+- **Rich Treasure** (A D Leahy): Punchestown 14 Oct, 2m2f190y good, 6 ran, 5th (1.5L behind 4th Hansel The Purse; about 15.5L behind the winner by summing the page's finish_distance figures). "Disputed lead, hampered 1st, mistake and headed 4 out... mistake 3 out... no extra." Winner Lunar Stride, 2nd Juarileo, 3rd Green Heritage. Hansel The Purse (4th there) then went 2nd at Wexford to The Two Degrees (mistakes 7th, 2 out and last), so Rich Treasure's form is modest (collateral, asserted). Ran on good ground, jumped untidily.
 - Dublinia (Punchestown) and Hilarion (Wexford) were declared for those earlier races but are marked NonRunner on the result pages (verified); neither has run. Way Horn (reserve, 6th at Punchestown, 12L behind the horse in front) is not in the 14.
 
 All other runners are unraced: jumping, stamina and form unproven.
@@ -47,11 +47,11 @@ Times: not used (not informative). Draw: not a factor. Pace: nothing to map (no 
 ## Selections
 | Role | Horse | Win | Place (top 3) | Fair price | Confidence |
 |---|---|---|---|---|---|
-| WIN | Quatre Saison | 0.22 | 0.52 | 3.5/1 | low |
+| WIN | Quatre Saison | 0.21 | 0.50 | 3.5/1 | low |
 | EACH-WAY | Irish Fusilier | 0.11 | 0.32 | 8/1 | low |
 | DANGER | Garrison Gold | 0.12 | 0.35 | 7/1 | low |
 
-Field: Lakeshore 0.11, Hilarion 0.08, Rich Treasure 0.07, Dublinia 0.06, Klaus 0.05, Carvoiero 0.04, Unwanted 0.03, Ard Roisin 0.03, Lead By Example 0.03, Bay City Boy 0.03, Downings Bay 0.02. Sum 1.00. Every runner bar one is unraced, so confidence is low throughout and no probability exceeds 0.25.
+Field (revised in gap pass): Lakeshore 0.11, Hilarion 0.09, Dublinia 0.06, Rich Treasure 0.06, Klaus 0.05, Carvoiero 0.05, Unwanted 0.03, Ard Roisin 0.03, Lead By Example 0.03, Bay City Boy 0.03, Downings Bay 0.02. Sum 1.00 (Win 0.21 + Danger 0.12 + EW 0.11 + rest 0.56). Every runner bar one is unraced, so confidence is low throughout and no probability exceeds 0.25.
 
 ## Rationale and case against
 **Quatre Saison (Win):** Elliott/Kennedy newcomer; half-brother to French hurdler/chaser Jingle Denuo and chaser King Denuo, dam maiden over hurdles/fences in France (Sporting Life commentary; asserted from the card, not read elsewhere). The French jumping family and a smart-ish hurdle debut yard is the only reason; there is no race form. Raced rivals are weak (Bay City Boy unseated, tailed off; Rich Treasure 5th), so I do not need much from it, but at 0.22 it is held under the 30% unraced cap. Case against: unraced, no weight edge, Elliott's 2025 Academy newcomer favourite was 3rd, and this race had 5 non-completers of 14 last year; a faller or surprise is always in play. Tagged: pedigree asserted, jumping not found.
@@ -78,3 +78,16 @@ Reserves Our Destiny and Way Horn come in if any of the 14 are withdrawn. Way Ho
 - https://www.sportinglife.com/racing/results/2026-10-25/wexford/945361/x
 - https://www.sportinglife.com/racing/profiles/horse/1241858 (Rich Treasure) and the other runners' profiles
 - https://www.racingpost.com/results/182/fairyhouse/2025-11-04/907312 (prior-year context)
+
+## Update 08:45 (gap pass, before the off)
+Newly verified / corrected:
+- Rich Treasure's Punchestown 14 Oct run: finish distances read in full (2nd 4 3/4, 3rd +4 1/2, 4th +4 3/4, Rich Treasure +1 1/2, Way Horn +12): Rich Treasure about 15.5L behind the winner, Way Horn about 27.5L. Poorer form than first stated; it was also a slow-ish, untidy run (mistakes 4 out and 3 out, "no extra"). Not a form angle.
+- Wexford 25 Oct (full page read): winner The Two Degrees (Nolan) from Hansel The Purse (Mulvany) 2 1/4, Toll Road 3 1/2 further; Noon Blu Dodville fell last, Ten Gears (Cromwell newcomer) PU, Bay City Boy unseated last after "mistake 1st... not fluent 4 out and 3 out", tailed off. Jumping errors were common among the debutants.
+- Sporting Life profiles show no earlier runs for any runner except Bay City Boy and Rich Treasure (Way Horn, reserve, also ran at Punchestown). Dublinia and Hilarion are NonRunner on those earlier result pages. Rules form elsewhere: none found on profiles (a Flat or point run could be missing; the Academy eligibility wording is from a search snippet).
+- Yesterday's (9 Nov) Punchestown Fillies Academy Hurdle (good to yielding, 9 ran, Sporting Life): Ciaran Murphy had 2nd (Choir Girl, 7lb claim) and 4th (Why Wait, 5lb claim; also 3rd at Cork 11 Oct); Ms M Mullins' Ophelia Hall 3rd (slight mistake last, kept on); Elliott's Silk's Legacy pulled up ("slight mistakes 1st and 2nd"); A D Leahy's Destinedforhistory (also fell at Cork 11 Oct) pulled up. Trainer samples are tiny (a handful of runs) and not a debut record; small points for Murphy (Hilarion/Klaus) and Mullins, a small mark against Elliott newcomers and A D Leahy.
+- Trainer debut-hurdle records for Elliott, Harrington, Cooper, Murphy: not found. Sporting Life trainer pages carry only the last 50 runs, and no earlier Academy-race rows for Harrington or Cooper appear in them.
+- Pedigree: sire/dam verified on profiles (Quatre Saison: Castle Du Berlais out of Saison Des Pluies; Irish Fusilier: Latrobe out of Rime De Boitron). The half-sibling claims (Jingle Denuo / King Denuo; Shuttle Diplomacy) remain Sporting Life card commentary only; a web search found nothing. Asserted.
+- Racing Post card still 404; At The Races not retried.
+
+Revised probabilities: Quatre Saison 0.21 (place 0.50), Garrison Gold 0.12, Lakeshore 0.11, Irish Fusilier 0.11, Hilarion 0.09, Dublinia 0.06, Rich Treasure 0.06, Klaus 0.05, Carvoiero 0.05, Unwanted/Ard Roisin/Lead By Example/Bay City Boy 0.03 each, Downings Bay 0.02.
+Selections unchanged: Win Quatre Saison, Each-Way Irish Fusilier, Danger Garrison Gold; Win probability trimmed 0.22 to 0.21 on Elliott's yesterday pulled-up newcomer and Rich Treasure's form being weaker than first read.

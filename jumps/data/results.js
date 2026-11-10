@@ -65,6 +65,51 @@
       ],
       "races": [
         {
+          "time": "12:30",
+          "name": "Irish Stallion Farms EBF Academy Hurdle",
+          "type": "hurdle",
+          "distance": "2m110y",
+          "going": "Good to Yielding",
+          "runners": 14,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-10_fairyhouse/1230_irish-stallion-farms-ebf-academy-hurdle.md",
+          "updated": "08:45 Tue 10 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Quatre Saison",
+              "prob": 0.21,
+              "placeProb": 0.50,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Elliott/Kennedy newcomer from a French jumping family, with only two weak raced rivals; win chance capped as an unraced horse.",
+              "against": "Unraced, no weight edge; an Elliott runner was pulled up in yesterday's Punchestown Academy fillies' hurdle and last year's edition had 5 non-completers from 14."
+            },
+            {
+              "role": "ew",
+              "horse": "Irish Fusilier",
+              "prob": 0.11,
+              "placeProb": 0.32,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Filly receiving 7lb from the colts (10-7 v 11-0); Latrobe breeding.",
+              "against": "Unraced, Cooper's juvenile-hurdle debut record not found; the allowance is standard."
+            },
+            {
+              "role": "danger",
+              "horse": "Garrison Gold",
+              "prob": 0.12,
+              "placeProb": 0.35,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Stamina-bred (Yeats, dam a 2m4f hurdle winner) from the Mullins family yard with D Mullins up.",
+              "against": "Unraced; may lack gears over 2m."
+            }
+          ]
+        },
+        {
           "time": "16:00",
           "name": "Fairyhouse Christmas Party December 12th Point-To-Point Flat Race",
           "type": "bumper",
