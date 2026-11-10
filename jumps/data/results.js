@@ -487,6 +487,51 @@
               "against": "No win in a year, 'not easiest to catch right', races off the pace against the track's handy bias."
             }
           ]
+        },
+        {
+          "time": "15:20",
+          "name": "Tips For Every Race At raceday-ready.com Handicap Hurdle",
+          "type": "hurdle",
+          "distance": "2m7f",
+          "going": "Good",
+          "runners": 5,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-10_lingfield/1520_tips-for-every-race-handicap-hurdle.md",
+          "updated": "15:00 Tue 10 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Cinnodin",
+              "prob": 0.34,
+              "placeProb": 0.58,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Proven stayer in winning form (won 3m1f LTO) dropping to a trip he has won over (2m7f); all form on Good; hot Snowden yard (~30% season, positive 14-day) + Sheehan.",
+              "against": "Raised 4lb to near-top weight 11-13, and 'unsuited making the running' last time so may be forced to force the pace."
+            },
+            {
+              "role": "ew",
+              "horse": "Robber's Bridge",
+              "prob": 0.19,
+              "placeProb": 0.42,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "7lb amateur claim nets 11-7, getting 6lb from Cinnodin off a higher mark; proven C5 winner back in grade who has won fresh; longer-priced genuine place chance.",
+              "against": "233-day layoff (longer than any break he has won off), amateur rider in a likely tight finish, recurring 'not fluent' jumping."
+            },
+            {
+              "role": "danger",
+              "horse": "Betty's Tiara",
+              "prob": 0.22,
+              "placeProb": 0.52,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Honest, race-fit front-running stayer who won this 2m7f trip, handles Good and suits the track's prominent-pace bias.",
+              "against": "Repeatedly 'no extra'/outpaced late, so a place horse more than a winner; left as Danger not EW in a 2-place race."
+            }
+          ]
         }
       ]
     }
