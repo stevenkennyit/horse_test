@@ -427,6 +427,68 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-11-10",
+      "course": "Lingfield",
+      "country": "GB",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Good (Turf); checked 14:24 (Sporting Life racecard)",
+      "dataErrors": [
+        "Sporting Life direct download blocked by bot-check in this session; cards read via WebFetch (markdown) and racecard JSON",
+        "Nathan Andrews (Raffles Nobu) claim: fact pack said 10lb; GB conditional claims cap at 7lb, so 7lb used (net 11-3); 11-0 unverified",
+        "No Lingfield hurdles-specific pace/draw bias data found; handy-runner tendency inferred from Flat/AW course character",
+        "Course direction discrepancy (Sporting Life right-handed vs a 2019 RP guide left-handed) unresolved; immaterial to picks",
+        "Going/non-runners not re-checked in the final minutes before the 14:50 off"
+      ],
+      "races": [
+        {
+          "time": "14:50",
+          "name": "Careersinracing Step On Track Programme Handicap Hurdle",
+          "type": "hurdle",
+          "distance": "2m",
+          "going": "Good",
+          "runners": 9,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-10_lingfield/1450_careersinracing-step-on-track-programme-handicap-hurdle.md",
+          "updated": "14:40 Tue 10 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Zaraquelle",
+              "prob": 0.25,
+              "placeProb": 0.55,
+              "finish": "-",
+              "confidence": "low-medium",
+              "reason": "Only clearly progressive, lightly-raced runner (4 hdl starts, all completed, 2nd then kept-on 4th last two); in-form James Owen yard; 3lb amateur claim nets 11-10.",
+              "against": "Still a hurdles maiden, 'took keen hold' last time, top weight, and a hold-up/keen style is a mild negative on a sharp handy track."
+            },
+            {
+              "role": "ew",
+              "horse": "Castle Quarter",
+              "prob": 0.13,
+              "placeProb": 0.47,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Placed both last two (3rd beaten 1.5l, 2nd) off today's exact mark 82; prominent style suits the handy track; sound jumper (1 PU in 20).",
+              "against": "10yo with just 1 win from 20 hurdle runs - a reliable placer, not a likely winner; the EW pays mainly on the place."
+            },
+            {
+              "role": "danger",
+              "horse": "Western Soldier",
+              "prob": 0.17,
+              "placeProb": 0.5,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Genuinely well-handicapped - OR 82 is 7lb below his last-win mark - and shaped okay last time (5th beaten 3/4l).",
+              "against": "No win in a year, 'not easiest to catch right', races off the pace against the track's handy bias."
+            }
+          ]
+        }
+      ]
     }
   ]
 });
