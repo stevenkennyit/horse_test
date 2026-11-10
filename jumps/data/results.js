@@ -532,6 +532,51 @@
               "against": "Repeatedly 'no extra'/outpaced late, so a place horse more than a winner; left as Danger not EW in a 2-place race."
             }
           ]
+        },
+        {
+          "time": "15:50",
+          "name": "Download The Racecourse App Raceday Ready Handicap Hurdle",
+          "type": "hurdle",
+          "distance": "2m7f",
+          "going": "Good",
+          "runners": 5,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-10_lingfield/1550_download-the-racecourse-app-raceday-ready-handicap-hurdle.md",
+          "updated": "15:05 Tue 10 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Rebel Tribesman",
+              "prob": 0.44,
+              "placeProb": 0.7,
+              "finish": "-",
+              "confidence": "medium-high",
+              "reason": "9/9 completions, form 1-2-3-1-2-1, proven 2m7f (2nd Hexham a month ago), progressive, prominent front-runner suits sharp Lingfield on good ground; hot trainer + jockey (SL insights).",
+              "against": "Top weight 12-0 off a career-high rising mark giving 8-20lb all round; 'not fluent' at times last few runs."
+            },
+            {
+              "role": "ew",
+              "horse": "D'jo Dela Barriere",
+              "prob": 0.18,
+              "placeProb": 0.42,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Won last time (Hereford 3m1f) 15 days ago, feasibly treated off 104 (+5), stays well and won at 2m7f before; genuine top-2 chance at a price longer than the Win.",
+              "against": "Weak C5 field last time, one-run upturn, hold-up style on a front-runner track, 7lb amateur claim (nets 10-9)."
+            },
+            {
+              "role": "danger",
+              "horse": "Spike Jones",
+              "prob": 0.2,
+              "placeProb": 0.46,
+              "finish": "-",
+              "confidence": "medium",
+              "reason": "Standout course-and-distance form and runs huge fresh here (won off a 339-day break, 2nd off 296 days); now 3-4lb lower off 110 after 264 days - the layoff is his winning pattern, not a worry.",
+              "against": "Hold-up style on a sharp track, genuine class decline, age 9; EW/Danger split with D'jo is close."
+            }
+          ]
         }
       ]
     }
