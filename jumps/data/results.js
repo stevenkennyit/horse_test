@@ -155,6 +155,51 @@
           ]
         },
         {
+          "time": "14:30",
+          "name": "Michael O'Sullivan & Lorna Brooke Ireland V Britain (Q.R.) Challenge Handicap Chase",
+          "type": "chase",
+          "distance": "3m65y",
+          "going": "Good to Yielding in places",
+          "runners": 6,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-10_fairyhouse/1430_ireland-v-britain-challenge-handicap-chase.md",
+          "updated": "08:55 Tue 10 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Urbs Intacta Manet",
+              "prob": 0.30,
+              "placeProb": 0.56,
+              "finish": "-",
+              "confidence": "low-medium",
+              "reason": "Improving chaser (8th, 3rd, 2nd, all completed); lost a head at Fairyhouse over 3m90y on 3 Nov and was about 33L clear of Kilkee Bay at Killarney; gets 8-18lb from three rivals on net weights.",
+              "against": "No win in 10 runs; 7lb-claiming rider has 1 win from 13 chase rides; his OR is 84 on the card but 78 on the 3 Nov result page (unresolved)."
+            },
+            {
+              "role": "ew",
+              "horse": "Attaboyarchie",
+              "prob": 0.22,
+              "placeProb": 0.45,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "OR 100 less the 7lb claim is a net 93-equivalent; was 2L clear when the saddle slipped at Limerick in May; 5 places from 31 runs; claimer Crow has 6 wins from 10 chase rides.",
+              "against": "No win in 31 runs, 3 non-completions in 10 chases, and top net weight."
+            },
+            {
+              "role": "danger",
+              "horse": "A Year Older",
+              "prob": 0.25,
+              "placeProb": 0.50,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Best proven ability (3m 2nd, Limerick chase win) with a no-claim amateur.",
+              "against": "Pulled up at Hexham and 11th of 12 over hurdles on 3 Nov; 18lb worse off than Urbs at net weights; 2 pulled up and 1 fall in 5 chases."
+            }
+          ]
+        },
+        {
           "time": "16:00",
           "name": "Fairyhouse Christmas Party December 12th Point-To-Point Flat Race",
           "type": "bumper",

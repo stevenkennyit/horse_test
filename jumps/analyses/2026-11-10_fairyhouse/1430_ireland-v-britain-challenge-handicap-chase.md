@@ -51,19 +51,19 @@ Scale used: about 1lb per length at 3m. Weight scale in this race differs from t
 
 | Role | Horse | Win | Place (top 2) | Fair price | Confidence |
 |---|---|---|---|---|---|
-| WIN | Urbs Intacta Manet | 0.33 | 0.60 | 2/1 | low-medium |
-| EACH-WAY | Attaboyarchie | 0.20 | 0.40 | 4/1 | low |
+| WIN | Urbs Intacta Manet | 0.30 | 0.56 | 2/1 | low-medium |
+| EACH-WAY | Attaboyarchie | 0.22 | 0.45 | 4/1 | low |
 | DANGER | A Year Older | 0.25 | 0.50 | 3/1 | - |
-| rest | Kilkee Bay 0.09, Heroes Of Renown 0.09, Revolut Ned 0.04 | 0.22 | | | |
+| rest | Kilkee Bay 0.09, Heroes Of Renown 0.10, Revolut Ned 0.04 | 0.23 | | | |
 
-Total = 1.00. Place probabilities across the field sum to 2.0: Urbs 0.60, A Year Older 0.50, Attaboyarchie 0.40, Kilkee Bay 0.20, Heroes 0.20, Revolut 0.10.
+Total = 1.00. Place probabilities across the field sum to 2.0: Urbs 0.56, A Year Older 0.50, Attaboyarchie 0.45, Kilkee Bay 0.20, Heroes 0.20, Revolut 0.10.
 
 ## Rationale and strongest case against
 
-**WIN Urbs Intacta Manet (0.33).** (1) Improving chaser: 8th, 3rd, 2nd in three chases and lost by a head last week at essentially the same course and trip (3m90y v 3m65y; verified). (2) On net weights he is 13lb worse off than that run in absolute terms, but the weight scale in this race is different; vs rivals he receives 16lb from Attaboyarchie, 18lb from A Year Older and 8lb from Kilkee Bay (verified from card). (3) Single head-to-head: beat Kilkee Bay by about 33L on 4 Oct with 18lb in hand; the gap to Kilkee Bay closes 10lb but is still large (verified). (4) Jumped soundly in all three chases (completed all three; one "bad mistake" Killarney, "slight mistake 7 out" last time). Also, the mark of 84 is 6lb higher than 78 but the rating changed after he was 5lb out of the handicap, so his true last-run level was about 81-83 (asserted by calculation).
+**WIN Urbs Intacta Manet (0.30; revised from 0.33 in the gap pass, see Update).** (1) Improving chaser: 8th, 3rd, 2nd in three chases and lost by a head last week at essentially the same course and trip (3m90y v 3m65y; verified). (2) On net weights he is 13lb worse off than that run in absolute terms, but the weight scale in this race is different; vs rivals he receives 16lb from Attaboyarchie, 18lb from A Year Older and 8lb from Kilkee Bay (verified from card). (3) Single head-to-head: beat Kilkee Bay by about 33L on 4 Oct with 18lb in hand; the gap to Kilkee Bay closes 10lb but is still large (verified). (4) Jumped soundly in all three chases (completed all three; one "bad mistake" Killarney, "slight mistake 7 out" last time). Also, the mark of 84 is 6lb higher than 78 but the rating changed after he was 5lb out of the handicap, so his true last-run level was about 81-83 (asserted by calculation).
 - **Against:** 0 wins from 10 starts; 7lb claim means Ms Callwood, an amateur whose record I did not find, is riding Racing Post claim not checked; the rise to 84 is 6lb on a run in which he was beaten; the Sporting Life commentary says "4 lb higher now", conflicting with the 78 to 84 shown (not resolved). He raced in a tactical, slow race last time (6m17.9s) so his finishing kick may have flattered him. A fall or mistake from a hard-ridden 5yo in a race with a 7lb-claiming amateur remains plausible.
 
-**EACH-WAY Attaboyarchie (0.20 win / 0.40 place).** Net top weight but an OR 100 horse with 7lb off a likely 93-equivalent; ran to roughly that level on 31 Oct against a 120 winner (asserted calculation) and was 2L clear and about to win in May when the saddle slipped (verified comment). 5 places from 31 shows he gets close; 3m and 3m2f 2nd at Down Royal prove the trip.
+**EACH-WAY Attaboyarchie (0.22 win / 0.45 place; revised from 0.20/0.40, see Update).** Net top weight but an OR 100 horse with 7lb off a likely 93-equivalent; ran to roughly that level on 31 Oct against a 120 winner (asserted calculation) and was 2L clear and about to win in May when the saddle slipped (verified comment). 5 places from 31 shows he gets close; 3m and 3m2f 2nd at Down Royal prove the trip.
 - **Against:** 0 wins from 31, 3 non-completions in 10 chases (two U, one PU), "not fluent 4 out" last time, hold-up style, top net weight, and 10 days since a run where he was beaten about 11L. A genuine each-way proposition only if the place price is bigger than my fair price; no price was consulted.
 
 **DANGER A Year Older (0.25 / 0.50).** Highest-rated on a no-claim basis (OR 95; no claim), won over fences at Limerick, 2nd at 3m and won a 3m2f hurdle at Fairyhouse; ridden by a seasoned amateur (Maguire, no claim). Not selected as Win because (a) PU at Hexham and 11th/12 hurdle run last week suggest form lapse, (b) he is 18lb worse off than Urbs net (167 v 149) with a claimless rider and an OR 8lb above his winning mark, (c) fell 4 out in April.
@@ -92,3 +92,20 @@ Total = 1.00. Place probabilities across the field sum to 2.0: Urbs 0.60, A Year
 - https://www.sportinglife.com/racing/results/2026-10-31/down-royal/946526/x
 - https://www.sportinglife.com/racing/results/2026-06-06/punchestown/921167/x
 - https://www.sportinglife.com/racing/profiles/horse/1207018 (Urbs), /1141232 (A Year Older), /1049912 (Attaboyarchie), /1135063 (Kilkee Bay), /920258 (Heroes), /1142624 (Revolut Ned)
+
+## Update 08:55 (gap-filling pass, before the off; body probabilities revised in place)
+
+Verified this pass (Sporting Life profile / result / jockey and trainer pages):
+- **Urbs OR:** profile run list shows OR 78 on 3 Nov (and 76, 77, 80 earlier). The card shows OR 84 and weight 156 (84+72, same constant as all six runners), so the card is internally consistent; the "4lb higher" in the Sporting Life commentary does not match the 78-to-84 move (+6). Not resolved at source; I rely on the card OR/weight (84). If the true mark were 82 he would be 2lb better off than assumed (small favourable change).
+- **11 Nov 2025 renewal:** the Sporting Life result page lists the runners (6) with no finishing positions or margins, so no result read. Not found.
+- **Killarney 4 Oct margins:** re-read in full from the Sporting Life result (margins are to the horse in front): Urbs 3rd, then +3/4, +17, +3/4, +12, +3 to Kilkee Bay 8th = about 33.5L. Consistent with the other margins on the page, but single-sourced (Racing Post / IrishRacing could not be used). Treat as "about 30L+".
+- **Claims:** card `jockey_claim` 7 for Crow, Barlow, Quail, Callwood and Coonan again confirmed; Racing Post card still unavailable, so single-sourced. Maguire has none.
+- **Amateur records (from the 50 most recent listed rides each, since Nov 2025, list may be truncated):**
+  - Henry Crow (Attaboyarchie): 10 rides, all chases, 6 wins, 8 completed (2 PU). British-based, strong record, though mostly hunter/novice-type races. Supports Attaboyarchie.
+  - Ellie Callwood (Urbs): 26 rides, 2 wins; 13 chase rides, 1 win, 10 completed (2 PU, 1 U). Britain-based, mostly hurdle/chase handicaps with 5 placings. A mild negative for Urbs.
+  - Coonan (Revolut Ned): 50 rides, 4 wins; 9 chase rides, 0 wins (1 PU, 1 U).
+  - Quail (Heroes): 2 wins from 50 rides, 0 chase rides listed; weakest record. Barlow (Kilkee Bay): 5 rides, none over fences, 0 wins. Both negatives for their horses.
+  - Maguire (A Year Older): 4 chase rides, 0 wins, 1 F (Fairyhouse Apr); finished 3rd (Punchestow 14 Oct) and 5th. No claim, so decent not proven.
+- **Trainers (last 50 rides only, since 1 Jun):** K Thornton 5 wins from 46 runs, 0 from 3 chases; J P Flavin 2 from 28 runs, 0 wins from 13 chases (3 placed). The "HOT_TRAINER" tag on Urbs's card is not supported by this sample; no weight given to it. E McNamara 1 from 16 chases, J J Hanlon 0 from 9 chases (11 runs, no wins in the last fortnight), W P Murphy 0 from 3 chases.
+
+Selection change: none in who is picked (Win Urbs, Each-Way Attaboyarchie, Danger A Year Older). Numbers moved slightly: Urbs 0.33 to 0.30 (Callwood's 3 non-completions in 13 chase rides, no support for the hot-trainer tag), Attaboyarchie 0.20 to 0.22 (Crow's record). A Year Older 0.25, Kilkee Bay 0.09, Heroes 0.10, Revolut Ned 0.04. Still gaps: going recheck and non-runners near the off, Racing Post card, pace, fluency data.
