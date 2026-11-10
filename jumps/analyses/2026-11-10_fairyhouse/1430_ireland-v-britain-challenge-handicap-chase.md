@@ -109,3 +109,21 @@ Verified this pass (Sporting Life profile / result / jockey and trainer pages):
 - **Trainers (last 50 rides only, since 1 Jun):** K Thornton 5 wins from 46 runs, 0 from 3 chases; J P Flavin 2 from 28 runs, 0 wins from 13 chases (3 placed). The "HOT_TRAINER" tag on Urbs's card is not supported by this sample; no weight given to it. E McNamara 1 from 16 chases, J J Hanlon 0 from 9 chases (11 runs, no wins in the last fortnight), W P Murphy 0 from 3 chases.
 
 Selection change: none in who is picked (Win Urbs, Each-Way Attaboyarchie, Danger A Year Older). Numbers moved slightly: Urbs 0.33 to 0.30 (Callwood's 3 non-completions in 13 chase rides, no support for the hot-trainer tag), Attaboyarchie 0.20 to 0.22 (Crow's record). A Year Older 0.25, Kilkee Bay 0.09, Heroes 0.10, Revolut Ned 0.04. Still gaps: going recheck and non-runners near the off, Racing Post card, pace, fluency data.
+
+## Update 08:43 (coordinator critical review, before the off)
+Non-runners/going re-checked 08:43 on Sporting Life: hurdle good to yielding; chase good, good to yielding in places. 6 runners, none out.
+
+**Selections unchanged; Urbs Intacta Manet's win chance raised from 0.30 to 0.35.**
+
+- The first pass treated his rise from 78 to 84 as a 6lb penalty for being beaten. On 3 Nov he was 5lb out of the handicap: Ceroc (OR 109) carried 11-12, which puts a 78-rated horse on 9-9, and he carried 10-0. So he ran as if rated 83 and lost by a head; the new mark is only about 1lb above what he effectively ran off (verified by arithmetic from the Sporting Life result weights). His rider claims 7lb today against 4lb that day.
+- Recomputed beaten distances (Sporting Life result pages): Urbs last two chase runs beaten 0.2L (7 ran) and 0.8L (15 ran). Every rival's last run was poor: Attaboyarchie 11L, A Year Older 30L in a hurdle after a pull-up, Kilkee Bay 34L, Heroes Of Renown pulled up, Revolut Ned 46L. He is the only runner in form.
+- Six runners with a clear form standout supports about 0.35; kept there because he has no win in 10 and the rider's chase record is modest (1 win, 3 non-completions in 13).
+- Each-Way stays Attaboyarchie (ran to about his mark 10 days ago; rider 6 wins from 10 chase rides). His fair price is not much longer than the Win's, so this is a thin each-way proposition in a 6-runner race. Danger stays A Year Older on his June form.
+
+| Role | Horse | Win | Place (2) | Fair price | Confidence |
+|---|---|---|---|---|---|
+| WIN | Urbs Intacta Manet | 0.35 | 0.60 | 15/8 | low-medium |
+| EACH-WAY | Attaboyarchie | 0.21 | 0.44 | 3.8/1 | low |
+| DANGER | A Year Older | 0.22 | 0.46 | 3.5/1 | low |
+
+Rest: Kilkee Bay 0.10, Heroes Of Renown 0.08, Revolut Ned 0.04. Total 1.00.

@@ -96,3 +96,6 @@ Case against Glen Kiln: no chase run beyond 2m110y; beaten 16.5L at 2m3f180y on 
 | DANGER | Storm Heart | 0.18 | 0.46 | 9/2 | low |
 
 Rest: Ballyfad 0.16, Hiddenvalley Lake 0.08, Stede Bonnet 0.08, Kel Histoire 0.05, He Can't Dance 0.05, Franciscan Rock 0.04, Accustomed 0.03, Largy Hill 0.02, Sound As A Bell 0.01. Total 1.00.
+
+## Update 08:43 (non-runner, before the off)
+Non-runners/going re-checked 08:43 on Sporting Life: hurdle good to yielding; chase good, good to yielding in places. **Non-runner: He Can't Dance** (rated 0.05). 11 run; 3 places. He was one of the likely pace-setters, so Ballyfad (led in his hurdles) is more likely to get an easy lead. Selections unchanged; revised: Glen Kiln 0.23 (place 0.53), Storm Heart 0.19 (0.47), Ballyfad 0.18, Kainsbourg 0.08 (0.34), Hiddenvalley Lake 0.08, Stede Bonnet 0.09, Kel Histoire 0.05, Franciscan Rock 0.04, Accustomed 0.03, Largy Hill 0.02, Sound As A Bell 0.01. Total 1.00.

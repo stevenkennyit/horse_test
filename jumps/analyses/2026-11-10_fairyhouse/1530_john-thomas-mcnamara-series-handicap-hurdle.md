@@ -129,3 +129,22 @@ Tuckmill 0.18/0.46, Granville Street 0.11/0.33, West Of Carrig 0.11/0.29, Getawa
 
 ### Still not found
 Racing Post card (406), At The Races (failed), rail/weather, fluency data, Fairyhouse course-character data (asserted only), Forbes' record, full trainer strike rates beyond the partial profile lists, claims after the 8 Nov rides for riders whose lists are partial.
+
+## Update 08:43 (coordinator critical review, before the off)
+Non-runners/going re-checked 08:43 on Sporting Life: hurdle good to yielding; chase good, good to yielding in places. **Non-runner: Calzaghi** (rated 0.02). 13 run; 3 places at a quarter the odds.
+
+**Each-Way changed: West Of Carrig replaces Joya Del Mar. Win (Tuckmill) and Danger (Granville Street) unchanged.**
+
+- West Of Carrig runs off a hurdle mark of 89 that dates from May 2025. Since then he has won a 14-runner handicap chase at this course over 2m5f off 104 (15 Jan) and been rated 110 over fences. On his last hurdle run off this same 89 he was 3rd of 11 over 2m6f on good, "clear approaching 2 out, idled from last, headed final 100 yards" (Sporting Life profile, verified). He is 15-21lb lower over hurdles than over fences: the classic well-handicapped jumps angle.
+- He leads in his races (led in all of his last five completed runs) and no other confirmed front-runner was found, so he should get his own way in front. He ran 2nd of 9 here on his first run back after 176 days last November, so he goes well fresh. Net 10-9 after a 2lb claim; the regular rider is on.
+- Against: 234 days off; pulled up last time (led, weakened 3 out in a 2m7f novice handicap chase on soft off 110); no win in 11 hurdle runs; has taken a keen hold; small yard with no runners since October.
+- Joya Del Mar's last three runs are 12th of 13 (beaten 46L), pulled up and 5th; the March head-to-head with Tuckmill is eight months old. Demoted to 0.06.
+- Tuckmill stays the Win: his 8L win "easily" was franked when the third, King Of The Greys, won an 19-runner handicap over course and distance by 6.5L on 3 Nov. A 10lb rise and the smaller claim keep him at 0.18.
+
+| Role | Horse | Win | Place (3) | Fair price | Confidence |
+|---|---|---|---|---|---|
+| WIN | Tuckmill | 0.18 | 0.46 | 4.6/1 | low-medium |
+| EACH-WAY | West Of Carrig | 0.14 | 0.35 | 6/1 | low |
+| DANGER | Granville Street | 0.11 | 0.33 | 8/1 | low |
+
+Rest: Getaway Charlie 0.10, Annie Button 0.09, Boola Times 0.08, Cahirdown Boy 0.07, Joya Del Mar 0.06, Jerisk Star 0.04, Annie's Belle 0.04, The Bosses Order 0.03, Futurum Regem 0.03, Hidalgo Des Mottes 0.03. Total 1.00.

@@ -158,3 +158,6 @@ Case against Fuusland: 0 wins from 5 (beaten a nose and 1 1/4L); first handicap;
 | DANGER | Live To Laugh | 0.17 | 0.42 | 5/1 | low |
 
 Rest: Warmer Days Ahead 0.14, Well Bud 0.08, West Is Awake 0.06, My Trump Card 0.06, Knocknagoran Lady 0.05, Rich Belief 0.04, Siege Of Carthage 0.03, The Friday Man 0.03, Moonovercloon 0.02, Scotty Joe 0.02. Total 1.00. Win 0.22 is under the 25% ceiling for a 13-runner handicap.
+
+## Update 08:43 (non-runner, before the off)
+Non-runners/going re-checked 08:43 on Sporting Life: hurdle good to yielding; chase good, good to yielding in places. **Non-runner: Scotty Joe** (rated 0.02). 12 run; still 3 places at a quarter the odds. Selections unchanged (Win Fuusland 0.22, Each-Way Pilgrims Walk 0.08, Danger Live To Laugh 0.17); his 0.02 goes to Warmer Days Ahead (0.15) and Well Bud (0.09).

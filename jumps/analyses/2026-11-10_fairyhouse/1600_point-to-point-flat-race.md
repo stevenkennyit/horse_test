@@ -64,3 +64,20 @@ Others: Heron Hill 0.22 (place 0.46), The Supersonic Kid 0.08, Ballyeagle 0.04, 
 - Kilbeggan 21 Aug re-read in full from the Sporting Life result JSON: Hill Silver won, Bellahill 2nd by a neck (verified), In Around Thehouse (2lb claim, fell in its only point) 3rd with the margin printed as 15, Baymount 4th 5 1/2, Long Story 5th 1/2. The 15-length figure could not be checked against Racing Post; unverified. Bellahill's rivals that day: none of the 11 appears in today's field.
 - Point-to-point form: pointpointing.ie does not resolve in this session (host not in the allowed network list); web search found nothing for any runner. Still not found for all runners.
 - No change to selections or probabilities.
+
+## Update 08:43 (coordinator critical review, before the off)
+Non-runners/going re-checked 08:43 on Sporting Life: hurdle good to yielding; chase good, good to yielding in places. **Non-runner: Chanson Du Jury** (the Danger, rated 0.26). 6 run; 2 places.
+
+**Win unchanged (Bellahill). Danger is now Heron Hill. Each-Way stays Unfastened.**
+
+- New evidence on the race type (Sporting Life results, verified): in the six Irish point-to-point bumpers found since Nov 2025, five were won by horses having their first run under Rules. Gordon Elliott's four runners finished 1st, 2nd, 1st, 2nd and Gavin Cromwell's only runner won. Stuart Crawford's one runner was 4th. So an unraced-under-Rules point winner from a big yard is a serious rival here, not a guess; with the Elliott horse out, that is Heron Hill (Cromwell, won his only point, 226 days off).
+- Bellahill's form holds up: beaten a neck at Kilbeggan with the third 15L back, and the winner Hill Silver was then beaten 0.3L when 3rd of 11 in a Graduation Series bumper at Punchestown. He stays the Win because he is the only runner with proven Rules form and Heron Hill has no weight edge (the playbook's unraced rule), but the gap is small.
+- Unfastened keeps the Each-Way: a mare getting 7lb, point winner 9 days ago (race-fit), from a winning family. With six runners and two places it is a modest proposition.
+
+| Role | Horse | Win | Place (2) | Fair price | Confidence |
+|---|---|---|---|---|---|
+| WIN | Bellahill | 0.36 | 0.66 | 7/4 | low-medium |
+| EACH-WAY | Unfastened | 0.12 | 0.30 | 7.3/1 | low |
+| DANGER | Heron Hill | 0.30 | 0.60 | 2.3/1 | low |
+
+Rest: The Supersonic Kid 0.11, Ballyeagle 0.06, Aint Over Yet 0.05. Total 1.00.

@@ -62,7 +62,8 @@
       "dataErrors": [
         "At The Races Smart Stats, weather and rail not found at 08:06",
         "Racing Post cards/results return 406/404 in this session; claims taken from Sporting Life JSON only",
-        "13:00 first pass reported no beaten distances; Sporting Life result rides carry finish_distance (gap to the horse in front), which sums to the distance behind the winner. Corrected in the 08:36 review."
+        "13:00 first pass reported no beaten distances; Sporting Life result rides carry finish_distance (gap to the horse in front), which sums to the distance behind the winner. Corrected in the 08:36 review.",
+        "Non-runners at 08:43: Scotty Joe (13:30), He Can't Dance (14:00), Calzaghi (15:30), Chanson Du Jury (16:00, was the Danger)"
       ],
       "races": [
         {
@@ -161,12 +162,12 @@
           "type": "hurdle",
           "distance": "3m110y",
           "going": "Good to Yielding",
-          "runners": 13,
+          "runners": 12,
           "source": "full",
           "status": "pending",
           "grade": "pending",
           "writeup": "jumps/analyses/2026-11-10_fairyhouse/1330_william-hill-challenge-series-handicap-hurdle.md",
-          "updated": "08:36 Tue 10 Nov",
+          "updated": "08:43 Tue 10 Nov",
           "picks": [
             {
               "role": "win",
@@ -206,18 +207,18 @@
           "type": "chase",
           "distance": "2m4f",
           "going": "Good (Good to Yielding in places)",
-          "runners": 12,
+          "runners": 11,
           "source": "full",
           "status": "pending",
           "grade": "pending",
           "writeup": "jumps/analyses/2026-11-10_fairyhouse/1400_irish-national-hunt-chase-beginners-chase.md",
-          "updated": "08:36 Tue 10 Nov",
+          "updated": "08:43 Tue 10 Nov",
           "picks": [
             {
               "role": "win",
               "horse": "Glen Kiln",
-              "prob": 0.22,
-              "placeProb": 0.52,
+              "prob": 0.23,
+              "placeProb": 0.53,
               "finish": "-",
               "confidence": "low",
               "reason": "Best completed chase run in the field: short-head 2nd here on 10 Oct giving 9lb to a 125-rated winner, 10L clear of the third, clean round; fit (31 days); debutants cannot be the Win (Elliott chase debutants 2 from 48, Mullins 10 from 56).",
@@ -227,7 +228,7 @@
               "role": "ew",
               "horse": "Kainsbourg",
               "prob": 0.08,
-              "placeProb": 0.33,
+              "placeProb": 0.34,
               "finish": "-",
               "confidence": "low",
               "reason": "2nd of 6 over 2m5f55y here 31 days ago, beaten 3/4L with a clean round, 9L ahead of the next Cork National runner-up.",
@@ -236,8 +237,8 @@
             {
               "role": "danger",
               "horse": "Storm Heart",
-              "prob": 0.18,
-              "placeProb": 0.46,
+              "prob": 0.19,
+              "placeProb": 0.47,
               "finish": "-",
               "confidence": "low",
               "reason": "Hurdle OR 147-151, beat Glen Kiln 8.7L at level weights at this course in April; Townend up; Mullins chase debutants win 18% and place 48% in the sample.",
@@ -256,37 +257,37 @@
           "status": "pending",
           "grade": "pending",
           "writeup": "jumps/analyses/2026-11-10_fairyhouse/1430_ireland-v-britain-challenge-handicap-chase.md",
-          "updated": "08:55 Tue 10 Nov",
+          "updated": "08:43 Tue 10 Nov",
           "picks": [
             {
               "role": "win",
               "horse": "Urbs Intacta Manet",
-              "prob": 0.3,
-              "placeProb": 0.56,
+              "prob": 0.35,
+              "placeProb": 0.6,
               "finish": "-",
               "confidence": "low-medium",
-              "reason": "Improving chaser (8th, 3rd, 2nd, all completed); lost a head at Fairyhouse over 3m90y on 3 Nov and was about 33L clear of Kilkee Bay at Killarney; gets 8-18lb from three rivals on net weights.",
-              "against": "No win in 10 runs; 7lb-claiming rider has 1 win from 13 chase rides; his OR is 84 on the card but 78 on the 3 Nov result page (unresolved)."
+              "reason": "Only runner in form: beaten a head here on 3 Nov and 0.8L at Killarney; he was 5lb out of the handicap last time, so the new mark of 84 is only about 1lb above what he ran off, and his rider claims 3lb more.",
+              "against": "No win in 10 runs; 7lb-claiming rider has 1 win and 3 non-completions from 13 chase rides."
             },
             {
               "role": "ew",
               "horse": "Attaboyarchie",
-              "prob": 0.22,
-              "placeProb": 0.45,
+              "prob": 0.21,
+              "placeProb": 0.44,
               "finish": "-",
               "confidence": "low",
-              "reason": "OR 100 less the 7lb claim is a net 93-equivalent; was 2L clear when the saddle slipped at Limerick in May; 5 places from 31 runs; claimer Crow has 6 wins from 10 chase rides.",
-              "against": "No win in 31 runs, 3 non-completions in 10 chases, and top net weight."
+              "reason": "Ran to about his mark 10 days ago (6th, beaten 11L, behind a 120-rated winner); 2L clear when the saddle slipped at Limerick in May; rider Crow has 6 wins from 10 chase rides.",
+              "against": "No win in 31 runs, 3 non-completions in 10 chases, top net weight; fair price not much longer than the Win's."
             },
             {
               "role": "danger",
               "horse": "A Year Older",
-              "prob": 0.25,
-              "placeProb": 0.5,
+              "prob": 0.22,
+              "placeProb": 0.46,
               "finish": "-",
               "confidence": "low",
-              "reason": "Best proven ability (3m 2nd, Limerick chase win) with a no-claim amateur.",
-              "against": "Pulled up at Hexham and 11th of 12 over hurdles on 3 Nov; 18lb worse off than Urbs at net weights; 2 pulled up and 1 fall in 5 chases."
+              "reason": "Best proven ability on his May-June form (Limerick chase win, 2nd over 3m157y) with a no-claim amateur.",
+              "against": "Pulled up at Hexham and beaten 30L over hurdles last week; 18lb worse off than Urbs at net weights."
             }
           ]
         },
@@ -301,37 +302,37 @@
           "status": "pending",
           "grade": "pending",
           "writeup": "jumps/analyses/2026-11-10_fairyhouse/1500_inhsc-hunters-chase.md",
-          "updated": "08:25 Tue 10 Nov",
+          "updated": "08:43 Tue 10 Nov",
           "picks": [
             {
               "role": "win",
               "horse": "Hearts And Spades",
-              "prob": 0.21,
-              "placeProb": 0.54,
+              "prob": 0.26,
+              "placeProb": 0.58,
               "finish": "-",
-              "confidence": "low",
-              "reason": "Net 10-11 (11-4 listed less Mahon's 7lb claim, two sources) against 12-0 with no claim when 3rd at Cork over 3m100y on good to yielding (verified); placed in both Rules chases and won a point 9 days ago.",
-              "against": "No win in 6 Rules runs, 11L behind Jetbob at Punchestown, and collateral form puts Cold Old Fire level with him at today's weights."
+              "confidence": "low-medium",
+              "reason": "Best recent form and the fittest: 3rd, beaten 0.7L, of 16 over 3m100y on good to soft under 12-0, now a net 10-11; won a point 9 days ago (three in a row) while most rivals have been off 150+ days.",
+              "against": "No win in 6 Rules runs; 11L behind Jetbob at Punchestown; collateral lines put Cold Old Fire close to him."
             },
             {
               "role": "ew",
-              "horse": "Cold Old Fire",
-              "prob": 0.14,
-              "placeProb": 0.42,
-              "finish": "-",
-              "confidence": "low",
-              "reason": "Completed all 6 Rules chases, won at Thurles and was 3rd at Gowran over 3m+ on heavy; net 11-2 is 5lb less than at Gowran; collateral form has him about level with Hearts And Spades.",
-              "against": "204 days off, all wins and places on soft or heavy, and beaten 25L at Tramore on good to yielding."
-            },
-            {
-              "role": "danger",
-              "horse": "Everest The Brave",
+              "horse": "My Life Be Like",
               "prob": 0.16,
               "placeProb": 0.42,
               "finish": "-",
               "confidence": "low",
-              "reason": "Won a maiden hunter by 8L over 2m7f150y on good to yielding and a point on 9 May; Cromwell yard.",
-              "against": "One Rules run, 172 days off, jockey called him raw; point history conflicts between sources."
+              "reason": "4th, beaten 2.5L, of 16 in an open hunters' chase over 3m on good to soft; carries 8lb less today and won a point by 10L 23 days ago, so race-fit.",
+              "against": "Pulled up in two of three Rules runs and weakened on the run-in at Down Royal."
+            },
+            {
+              "role": "danger",
+              "horse": "Everest The Brave",
+              "prob": 0.17,
+              "placeProb": 0.43,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Won a maiden hunter by 8L over 2m7f150y on good to yielding; lightly raced 6yo for Cromwell.",
+              "against": "One Rules run, 172 days off; point history conflicts between sources."
             }
           ]
         },
@@ -341,12 +342,12 @@
           "type": "hurdle",
           "distance": "2m4f",
           "going": "Good to Yielding",
-          "runners": 14,
+          "runners": 13,
           "source": "full",
           "status": "pending",
           "grade": "pending",
           "writeup": "jumps/analyses/2026-11-10_fairyhouse/1530_john-thomas-mcnamara-series-handicap-hurdle.md",
-          "updated": "08:17 Tue 10 Nov",
+          "updated": "08:43 Tue 10 Nov",
           "picks": [
             {
               "role": "win",
@@ -355,18 +356,18 @@
               "placeProb": 0.46,
               "finish": "-",
               "confidence": "low-medium",
-              "reason": "Easy 8L winner over 2m4f on good at Punchestown on 13 Oct (verified), clean round; stablemate King Of The Greys, 8.75L behind him that day, then won easily at Fairyhouse; Fahey yard in form (4 from 17 since 1 Oct).",
-              "against": "10yo up 10lb to a career-high hurdle mark, claim drops from 7lb to 2lb; rider Mr McParland has 1 win from 25 listed rides (that win was Tuckmill); slow time on 13 Oct."
+              "reason": "Won an 18-runner 2m4f handicap easily by 8L on 13 Oct; the third, King Of The Greys, then won over course and distance by 6.5L; Fahey yard in form.",
+              "against": "10yo up 10lb to a career-high hurdle mark with a smaller claim; rider has 1 win from 25 listed rides."
             },
             {
               "role": "ew",
-              "horse": "Joya Del Mar",
-              "prob": 0.09,
-              "placeProb": 0.3,
+              "horse": "West Of Carrig",
+              "prob": 0.14,
+              "placeProb": 0.35,
               "finish": "-",
               "confidence": "low",
-              "reason": "Level with Tuckmill on a verified March head-to-head at Down Royal; 2nd of 23 and 5th over Fairyhouse 2m4f on soft; won twice over 2m5f on good; regular rider Mr Sutton won on him in June.",
-              "against": "12th of 13 at 3m on 5 Oct (stamina fail), pulled up over fences, 2 wins from 25 hurdles."
+              "reason": "Hurdle mark of 89 dates from May 2025; since rated 104-110 over fences and won a 2m5f handicap chase here in January; nearly made all over hurdles off 89; likely to get an uncontested lead; ran 2nd first time back last season.",
+              "against": "234 days off, pulled up last time, no win in 11 hurdle runs, can be keen."
             },
             {
               "role": "danger",
@@ -375,8 +376,8 @@
               "placeProb": 0.33,
               "finish": "-",
               "confidence": "low",
-              "reason": "Top-rated and top weight; ran to about 105 on good at Galway on 29 Jul; 4lb claim.",
-              "against": "Beaten 26L-54L in heavy-ground hurdles, first-time blinkers, rider Mr Love 0 from 25."
+              "reason": "Top-rated; ran to about 105 on good at Galway in July and placed twice on the Flat in October, so fit.",
+              "against": "Poor heavy-ground hurdle runs, first-time blinkers, rider 0 from 25."
             }
           ]
         },
@@ -386,42 +387,42 @@
           "type": "bumper",
           "distance": "2m",
           "going": "Good to Yielding",
-          "runners": 7,
+          "runners": 6,
           "source": "full",
           "status": "pending",
           "grade": "pending",
           "writeup": "jumps/analyses/2026-11-10_fairyhouse/1600_point-to-point-flat-race.md",
-          "updated": "08:40 Tue 10 Nov",
+          "updated": "08:43 Tue 10 Nov",
           "picks": [
             {
               "role": "win",
               "horse": "Bellahill",
-              "prob": 0.3,
-              "placeProb": 0.58,
+              "prob": 0.36,
+              "placeProb": 0.66,
               "finish": "-",
               "confidence": "low-medium",
-              "reason": "Only runner with a good Rules run: 2nd by a neck of 11 in a 2m Kilbeggan bumper on good to yielding (verified), closed from 9th at halfway.",
-              "against": "81 days off, small yard, one Rules run; unraced Elliott/Cromwell point winners may simply be better."
+              "reason": "Only runner with proven Rules form: 2nd by a neck of 11 at Kilbeggan with the third 15L back, and the winner was beaten 0.3L in a Graduation Series bumper next time.",
+              "against": "81 days off, one Rules run; Rules debutants won 5 of the last 6 Irish point-to-point bumpers found."
             },
             {
               "role": "ew",
               "horse": "Unfastened",
-              "prob": 0.08,
-              "placeProb": 0.27,
+              "prob": 0.12,
+              "placeProb": 0.3,
               "finish": "-",
               "confidence": "low",
-              "reason": "Mare getting 7lb from the geldings, won her point 9 days ago, dam a bumper/hurdle winner.",
-              "against": "Unraced under Rules; level of her point form not found."
+              "reason": "Mare getting 7lb from the geldings, won her point 9 days ago so race-fit, dam a bumper/hurdle winner.",
+              "against": "Unraced under Rules; level of her point form not found; only two places."
             },
             {
               "role": "danger",
-              "horse": "Chanson Du Jury",
-              "prob": 0.26,
-              "placeProb": 0.52,
+              "horse": "Heron Hill",
+              "prob": 0.3,
+              "placeProb": 0.6,
               "finish": "-",
               "confidence": "low",
-              "reason": "Elliott point winner; Elliott's Unflinching won last year's renewal.",
-              "against": "Unraced under Rules, 212 days off."
+              "reason": "Point winner for Cromwell, whose only runner in these point-to-point bumpers in the past year won; debutants from big yards have a strong record in the race type.",
+              "against": "Unraced under Rules, 226 days off, no weight edge on Bellahill."
             }
           ]
         }

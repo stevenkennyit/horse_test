@@ -133,3 +133,21 @@ The three lines disagree by more than 10lb, so the honest figure is "COF about l
 **Pre-send checklist re-run (08:25):** counts re-derived from the run lists (Bartlemy 6 chases: 5 completed, 1 U; Cold Old Fire 6 chases, 6 completed; Big Interest 6: 2 completed, 3 PU, 1 U; MLBL 3: 1 completed, 2 PU; Yewtree 6: 5 completed, 1 PU; H&S 2 chases, both placed); superlatives checked (the earlier "only"/"best" lines corrected); no pick rests on a time; each pick has a case against; the outsider check stands with Cold Old Fire now promoted; claims and weights verified from two sources.
 
 Final selections: WIN Hearts And Spades 0.21 / place 0.54; EACH-WAY Cold Old Fire 0.14 / 0.42; DANGER Everest The Brave 0.16 / 0.42.
+
+## Update 08:43 (coordinator critical review, before the off)
+Non-runners/going re-checked 08:43 on Sporting Life: hurdle good to yielding; chase good, good to yielding in places. 10 runners, none out.
+
+**Each-Way changed: My Life Be Like replaces Cold Old Fire. Win (Hearts And Spades) and Danger (Everest The Brave) unchanged; the Win's chance raised from 0.21 to 0.26.**
+
+- Fitness is the separating factor in a November hunters' chase and the first passes under-weighted it. Days since a run of any kind: Hearts And Spades 9 (won a point), My Life Be Like 23 (won a point by 10L), Yewtree Hill and Big Interest 23, Gale Force Jet 16; against Bartlemy Boy 155, Everest The Brave 172, Cold Old Fire 204, Bower House Boy 171+, Grageen 536.
+- Hearts And Spades: 3rd, beaten 0.7L, in a 16-runner maiden hunter over 3m100y on good to soft carrying 12-0 with no claim; today a net 10-11 on the same sort of ground, off three straight point wins. The best recent form and the best fitness sit with the same horse, so 0.26.
+- My Life Be Like: 4th, beaten 2.5L, in a 16-runner open hunters' chase over 3m at Down Royal on good to soft (recomputed from the result page) carrying 12-0; carries 11-4 today, 8lb less, and is race-fit. That is a better run on today's sort of ground than anything Cold Old Fire has: his wins and places are on heavy, he was beaten 25L on good to soft at Tramore, and he has been off 204 days.
+- Against My Life Be Like: pulled up in two of three Rules runs (heavy over 2m4f; good over 2m7f as a 5yo) and "weakened run-in" at Down Royal, so the place chance carries completion risk.
+
+| Role | Horse | Win | Place (3) | Fair price | Confidence |
+|---|---|---|---|---|---|
+| WIN | Hearts And Spades | 0.26 | 0.58 | 2.8/1 | low-medium |
+| EACH-WAY | My Life Be Like | 0.16 | 0.42 | 5.3/1 | low |
+| DANGER | Everest The Brave | 0.17 | 0.43 | 4.9/1 | low |
+
+Rest: Bartlemy Boy 0.11, Cold Old Fire 0.10, Grageen 0.05, Big Interest 0.04, Gale Force Jet 0.04, Yewtree Hill 0.04, Bower House Boy 0.03. Total 1.00.
