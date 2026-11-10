@@ -110,6 +110,51 @@
           ]
         },
         {
+          "time": "13:00",
+          "name": "Sign Up To GavinLynchRacing.com Mares Maiden Hurdle",
+          "type": "hurdle",
+          "distance": "2m4f",
+          "going": "Good to Yielding",
+          "runners": 10,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-10_fairyhouse/1300_mares-maiden-hurdle.md",
+          "updated": "08:50 Tue 10 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Rebel Reba",
+              "prob": 0.27,
+              "placeProb": 0.62,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Clean in both hurdle runs, has run 2m4f at this course (6th of 10) and 2m5f100y on soft (7th of 12, verified); point winner from the Mullins yard with room to progress.",
+              "against": "Never closer than 6th and made no impression in either run; weak open race with little to separate the field."
+            },
+            {
+              "role": "ew",
+              "horse": "Gratitudeforgrace",
+              "prob": 0.11,
+              "placeProb": 0.33,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Completed all 3 hurdle starts (6th-8th), has run 2m4f (7th of 11), 11-6 for a 4yo, Elliott yard in form.",
+              "against": "Mistakes in 2 of 3 hurdle runs and no place in 5 runs."
+            },
+            {
+              "role": "danger",
+              "horse": "Western Shores",
+              "prob": 0.22,
+              "placeProb": 0.52,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Six clean completions at 2m3f-2m6f, Kennedy up for Elliott.",
+              "against": "Never placed and tailed off last time in a handicap."
+            }
+          ]
+        },
+        {
           "time": "16:00",
           "name": "Fairyhouse Christmas Party December 12th Point-To-Point Flat Race",
           "type": "bumper",

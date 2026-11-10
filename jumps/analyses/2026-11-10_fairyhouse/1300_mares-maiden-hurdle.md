@@ -83,3 +83,29 @@ No non-runner at 08:10. Rebel Reba has Galway soft form so would not mind any ea
 - https://www.sportinglife.com/racing/results/2026-10-05/fairyhouse/941933/x (Leading Rose Fairyhouse)
 - https://www.sportinglife.com/racing/results/2026-10-23/sligo/945536/x and /2026-09-28/roscommon/940717/x (Gratitudeforgrace)
 - https://www.sportinglife.com/racing/results/2026-10-06/galway/942147/x, /2026-09-03/kilbeggan/936190/x, /2026-08-10/ballinrobe/932429/x, /2026-07-04/ballinrobe/926243/x (Western Shores)
+
+## Update 08:50 (gaps pass, Irish time; off 13:00; no re-check of non-runners/going since 08:10)
+
+**Newly verified / corrected (Sporting Life profiles, race pages and trainer pages read in full)**
+- Older results now read in full (top to bottom): Punchestown 6 Jun Div 1 and Div 2 (921168/921169), Wexford 28 Aug (935999), Downpatrick 13 Jun mares maiden (922743), 14 Jun Randox maiden (922365), Tramore 30 May (919931), Sligo 23 Oct 3m1f (945200). Nothing changes the earlier reads. Notes: Bethpage Theatre 6th/18 finishers at Punchestown (slight mistake 3 out), PU at Downpatrick 13 Jun ("ridden and no extra before 3 out, weakened"). Western Shores' 14 Jun and 30 May runs were 5th ("kept on same pace") with no errors. Cool As A Cat's Punchestown Div 2 run "mistake 5th, never a factor". Out West tailed off at Wexford. Jukebox Jolene and Bethpage Theatre both finished behind each other's field level; no form line between them of use.
+- Beaten distances: Sporting Life profile JSON gives `result_between_distance`, which is the gap to the horse immediately AHEAD, not to the winner, so cumulative beaten-lengths are still NOT available (correct the earlier "no margins" line to "only gaps to the horse in front"). Examples: Rebel Reba 7th Galway 3/4 length behind 6th; 6th Fairyhouse a short head behind 5th. Western Shores, oldest to latest: 3/4 length, neck, 5 1/2l, 1/2 length, 1 1/4 lengths, then 22l (last run) behind the horse in front. Gratitudeforgrace: Sligo 8th 3 3/4l behind 7th, Roscommon 6th neck, Wexford 7th 4 3/4l. Leading Rose: Fairyhouse 9th 2 1/4l behind 8th, Sligo 5th 11l behind 4th. Bethpage: 10th 4 3/4l, 6th 10l, 9th 13l (gaps ahead). Senorita Diana 10th 17l and 13th 12l gaps ahead (verified).
+- Leading Rose: claim 5lb on the card (verified), first-time blinkers (SL insight FIRST_TIME_BLINKERS; she wore cheek pieces at Sligo per profile ride_tackle, so first blinkers, not first headgear). Only 2 hurdle runs on profile (points runs not listed).
+- Bethpage Theatre jumping from full profile (6 hurdle runs): 1 F (Cork, 5th, mid-division), 2 PU (Downpatrick, Punchestown), 3 completions (6th, 9th, 10th); recent jockey Sam Ewing, who rides Alberta Rose today; Ethan O'Sullivan (7lb claim) takes the ride. Confirmed.
+- Pedigree (asserted-grade, from profile names only): Rebel Reba by Workforce out of Castlelost, damsire Flemensfirth (stamina-leaning damsire); Western Shores by Feel Like Dancing, damsire Stowaway; Gratitudeforgrace by Goliath Du Berlais.
+- Trainer samples (SL trainer profile, last 50 runs only; window short, not a season record):
+  - Elliott: 12 maiden-hurdle runs in the 10-day window 30 Oct-9 Nov: 4 wins (Huntin Boots, Unflinching, Marco Du Seuil, Skerry Hill), 2 seconds; mares' maiden: Rock On Suzie 7th/11 (Punchestown 9 Nov). Supports Western Shores/Gratitudeforgrace slightly; Kennedy on Western Shores.
+  - Mullins: 9 maiden-hurdle runs in the window 10 Oct-9 Nov: 2 wins (Sharkeyboy 3yo, Kimi De Mai Limerick mares 1st/7), Zara's Dream 2nd, Katie Can't Count 3rd (Clonmel mares), Rebel Reba 7th, Cosmic Front 9th/19 (mares). Not hot enough to treat as an edge.
+  - Dreaper: 27 maiden-hurdle runs on the profile sample (Dec 2024-Sep 2026): 0 wins, best 4th (Shirleynightingale 4th/12, Midfield Magic 4th/25), 1 F, 1 PU, 1 U. Weak - confirms downgrading Cool As A Cat and Jukebox Jolene.
+  - Fahey: 10 maiden-hurdle runs Aug-Nov: 1 win (Astelia, mares 1st/8 Killarney), 3 seconds; Bethpage Theatre 10th. Yard has mares' maiden placers but not this horse.
+
+**Revised numbers (Elliott/Kennedy booking and trainer stats nudge Western Shores up; Rebel Reba stays Win on stamina pedigree and Mullins/Hayes, still low confidence)**
+
+| Role | Horse | Win | Place (3) |
+|---|---|---|---|
+| WIN | Rebel Reba | 0.27 | 0.62 |
+| EACH-WAY | Gratitudeforgrace | 0.11 | 0.33 |
+| DANGER | Western Shores | 0.22 | 0.52 |
+
+Rest 0.40: Alberta Rose 0.08, Leading Rose 0.07, Jukebox Jolene 0.07, Cool As A Cat 0.06, Bethpage Theatre 0.05, Senorita Diana 0.04, Out West 0.03. Win remains highest, but only just (0.27 vs 0.22); if forced I would treat Rebel Reba/Western Shores as close to level.
+
+**Selections unchanged** (same three horses): nothing new moved the order apart from narrowing the Win/Danger gap. Still unfound: cumulative beaten distances, Racing Post card, going/rail beyond Sporting Life, Smart Stats/pace, points race results. Earlier line "Gratitudeforgrace only four-year-old to have run 2m4f" had already been corrected in the body (Senorita Diana also).
