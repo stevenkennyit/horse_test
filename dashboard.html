@@ -174,6 +174,12 @@
       <div id="chart-cal"></div>
     </section>
     <section class="card">
+      <h2>How often each pick type wins</h2>
+      <p class="desc">Strike rate of the Win, Each-Way and Danger selections: the share that won outright (darker) and the share that placed, including the winner (lighter). Each-Way and Danger are also credited with a win here. Hover a group for the counts.</p>
+      <div class="legend"><span><i style="background:var(--series-1)"></i>Won</span><span><i style="background:var(--series-2)"></i>Placed (incl. won)</span></div>
+      <div id="chart-roles"></div>
+    </section>
+    <section class="card">
       <h2>Reasoning grade</h2>
       <p class="desc">Judged on whether the reasoning was true and checked, not on the result.</p>
       <div id="chart-grade"></div>
@@ -211,6 +217,13 @@
     <p class="desc">Running share of settled races where the Win pick won and the Each-Way pick placed (a win counts), in date order. The Danger is not counted. Respects the filters above; hover a race for the running counts.</p>
     <div class="legend"><span><i style="background:var(--series-1)"></i>Win pick won</span><span><i style="background:var(--series-2)"></i>Each-Way placed</span></div>
     <div id="chart-hits"></div>
+  </section>
+
+  <section class="card" style="margin-top:12px">
+    <h2>Performance by racecourse</h2>
+    <p class="desc">Average pick score per race (Win + Each-Way at SP) at each course, best at the top. A short bar on few races swings easily — the race count is shown on each bar and in the tooltip. Respects the filters above.</p>
+    <div class="legend"><span><i style="background:var(--pos)"></i>Profit per race</span><span><i style="background:var(--neg)"></i>Loss per race</span></div>
+    <div id="chart-courses"></div>
   </section>
 
   <section class="card" style="margin-top:12px" id="changelog-card">
@@ -723,6 +736,107 @@
     el.innerHTML = s; bindTips(el);
   }
 
+  // ---- how often each pick type (Win / Each-Way / Danger) wins and places ----
+  function renderRoleHits(races) {
+    const settled = races.filter((r) => r.status === "settled");
+    const done = (p) => p && p.finish && p.finish !== "-";
+    const roles = [["win", "Win", winPick], ["ew", "Each-Way", ewPick], ["danger", "Danger", dangerPick]];
+    const rows = roles.map(([k, label, pick]) => {
+      const items = settled.map((r) => ({ r, p: pick(r) })).filter((x) => done(x.p));
+      const n = items.length;
+      const won = items.filter((x) => String(x.p.finish) === "1").length;
+      const placed = items.filter((x) => isPlaced(x.r, x.p)).length;
+      return { k, label, n, won, placed, winRate: n ? won / n : null, placeRate: n ? placed / n : null };
+    });
+    const el = $("chart-roles");
+    if (!rows.some((d) => d.n)) { el.innerHTML = '<p class="muted">No settled selections.</p>'; return; }
+    const W = Math.max(320, el.clientWidth || 520), H = 230, m = { t: 18, r: 8, b: 44, l: 40 };
+    const iw = W - m.l - m.r, ih = H - m.t - m.b;
+    const mx = niceMax(Math.max(...rows.map((d) => d.placeRate || 0), 0.1));
+    const y = (v) => m.t + ih - (v / mx) * ih;
+    const band = iw / rows.length, bw = Math.min(22, band * 0.26), gap = 3;
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Strike rate of Win, Each-Way and Danger picks">`;
+    for (let k = 0; k <= 4; k++) {
+      const v = (mx / 4) * k;
+      s += `<line x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}" stroke="${k === 0 ? "var(--axis)" : "var(--grid)"}" stroke-width="1"/>`;
+      s += `<text class="tick" x="${m.l - 6}" y="${y(v) + 4}" text-anchor="end">${Math.round(v * 100)}%</text>`;
+    }
+    rows.forEach((d, i) => {
+      const cx = m.l + band * i + band / 2;
+      const xw = cx - bw - gap / 2, xp = cx + gap / 2;
+      if (d.n) {
+        s += `<path d="${barPath(xw, y(0), bw, y(d.winRate))}" fill="var(--series-1)"/>`;
+        s += `<text class="lbl" x="${xw + bw / 2}" y="${y(d.winRate) - 4}" text-anchor="middle">${pct(d.winRate)}</text>`;
+        if (d.placeRate > 0) s += `<path d="${barPath(xp, y(0), bw, y(d.placeRate))}" fill="var(--series-2)"/>`;
+        s += `<text class="lbl" x="${xp + bw / 2}" y="${y(d.placeRate) - 4}" text-anchor="middle">${pct(d.placeRate)}</text>`;
+      } else {
+        s += `<text class="tick" x="${cx}" y="${y(0) - 6}" text-anchor="middle">none</text>`;
+      }
+      s += `<text class="tick" x="${cx}" y="${H - 24}" text-anchor="middle">${esc(d.label)}</text>`;
+      s += `<text class="tick" x="${cx}" y="${H - 11}" text-anchor="middle">n=${d.n}</text>`;
+      const tipHtml = `<b>${esc(d.label)} picks: ${d.n} settled</b>` + (d.n
+        ? `Won ${d.won} (${pct(d.winRate)})<br>Placed, incl. won ${d.placed} (${pct(d.placeRate)})`
+        : "none issued");
+      s += `<rect class="hit" x="${m.l + band * i}" y="${m.t}" width="${band}" height="${ih}" data-tip="${esc(tipHtml)}"/>`;
+    });
+    s += "</svg>";
+    el.innerHTML = s; bindTips(el);
+  }
+
+  // ---- performance by racecourse: average pick score per race, diverging horizontal bars ----
+  function renderCourses(races) {
+    const settled = races.filter((r) => r.status === "settled");
+    const by = {};
+    settled.forEach((r) => {
+      const sc = raceScore(r); if (sc == null) return;
+      const c = r.meeting.course;
+      const g = (by[c] = by[c] || { course: c, scores: [], won: 0, wn: 0 });
+      g.scores.push(sc);
+      const w = winPick(r);
+      if (w && w.finish && w.finish !== "-") { g.wn++; if (String(w.finish) === "1") g.won++; }
+    });
+    const rows = Object.values(by).map((g) => ({
+      course: g.course, n: g.scores.length,
+      total: g.scores.reduce((a, x) => a + x, 0),
+      avg: g.scores.reduce((a, x) => a + x, 0) / g.scores.length,
+      won: g.won, wn: g.wn
+    })).sort((a, b) => b.avg - a.avg);
+    const el = $("chart-courses");
+    if (!rows.length) { el.innerHTML = '<p class="muted">No settled races.</p>'; return; }
+    const W = Math.max(320, el.clientWidth || 960), rowH = 30, lw = 110, m = { t: 6, r: 48, b: 20 };
+    const H = rows.length * rowH + m.t + m.b;
+    const iw = W - lw - m.r;
+    const mx = Math.max(0.5, ...rows.map((d) => Math.abs(d.avg)));
+    const axisMax = mx * 1.18; // headroom so end-of-bar labels never collide with the course names
+    const zx = lw + iw / 2;
+    const x = (v) => zx + (v / axisMax) * (iw / 2);
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Average pick score per race by racecourse">`;
+    [-mx, -mx / 2, 0, mx / 2, mx].forEach((v) => {
+      s += `<line x1="${x(v)}" x2="${x(v)}" y1="${m.t}" y2="${H - m.b}" stroke="${Math.abs(v) < 1e-9 ? "var(--axis)" : "var(--grid)"}" stroke-width="1"/>`;
+      s += `<text class="tick" x="${x(v)}" y="${H - 6}" text-anchor="middle">${v > 0 ? "+" : ""}${+v.toFixed(2)}</text>`;
+    });
+    rows.forEach((d, i) => {
+      const yy = m.t + i * rowH, bh = 15, by = yy + (rowH - bh) / 2 - 2;
+      const col = d.avg >= 0 ? "var(--pos)" : "var(--neg)";
+      const x0 = x(0), x1 = x(d.avg), bx = Math.min(x0, x1), bwd = Math.abs(x1 - x0);
+      s += `<text class="lbl" x="${lw - 8}" y="${by + 12}" text-anchor="end" style="fill:var(--text-primary)">${esc(d.course)}</text>`;
+      if (bwd > 0.5) {
+        const r = Math.min(4, bwd);
+        s += d.avg >= 0
+          ? `<path d="M${bx},${by}H${bx + bwd - r}Q${bx + bwd},${by} ${bx + bwd},${by + r}V${by + bh - r}Q${bx + bwd},${by + bh} ${bx + bwd - r},${by + bh}H${bx}Z" fill="${col}"/>`
+          : `<path d="M${bx + r},${by}H${bx + bwd}V${by + bh}H${bx + r}Q${bx},${by + bh} ${bx},${by + bh - r}V${by + r}Q${bx},${by} ${bx + r},${by}Z" fill="${col}"/>`;
+      }
+      const lx = d.avg >= 0 ? x1 + 6 : x1 - 6;
+      s += `<text class="lbl" x="${lx}" y="${by + 12}" text-anchor="${d.avg >= 0 ? "start" : "end"}">${d.avg > 0 ? "+" : ""}${d.avg.toFixed(2)} · ${d.n}r</text>`;
+      const tipHtml = `<b>${esc(d.course)}: ${d.n} settled race${d.n === 1 ? "" : "s"}</b>` +
+        `Average pick score ${d.avg > 0 ? "+" : ""}${d.avg.toFixed(2)}/race · total ${d.total > 0 ? "+" : ""}${d.total.toFixed(2)}` +
+        (d.wn ? `<br>Win pick won ${d.won} of ${d.wn} (${pct(d.won / d.wn)})` : "");
+      s += `<rect class="hit" x="0" y="${yy}" width="${W}" height="${rowH}" data-tip="${esc(tipHtml)}"/>`;
+    });
+    s += "</svg>";
+    el.innerHTML = s; bindTips(el);
+  }
+
   // ---- grade distribution (status colours with icon + label) ----
   const GRADES = [
     { k: "held", label: "Held", icon: "✓", color: "var(--good)" },
@@ -860,6 +974,8 @@
     renderBankroll(races);
     renderHitTimeline(races);
     renderMerit(races);
+    renderRoleHits(races);
+    renderCourses(races);
     renderProb(races);
     renderCal(races);
     renderGrades(races);
