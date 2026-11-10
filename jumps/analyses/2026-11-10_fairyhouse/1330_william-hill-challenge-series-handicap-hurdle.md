@@ -58,7 +58,7 @@ Scale 1lb per length (3m hurdles).
 ## Outsider check (every runner outside Win / Each-Way / Danger)
 
 Provisional selections: Win Warmer Days Ahead; Each-Way Fuusland; Danger Live To Laugh.
-- **Well Bud:** unexposed, course winner, jockey Kennedy on a 5yo; but trip +6f unproven, handicap debut at 110. Real chance (win 10%) but not at a price over WDA/Fuusland, and the 3m stamina is untested.
+- **Well Bud:** unexposed, course winner, jockey Kennedy on a 5yo; but trip +6f unproven, handicap debut at 110. Real chance (win 8% after gap pass) but not at a price over WDA/Fuusland, and the 3m stamina is untested.
 - **Pilgrims Walk:** on the only repeated H2H, level with LTL at 9-11 effective with a 0.25L gap, finished 3rd of 18 off 7 claim; 3m 2nd at Kilbeggan; would run a place a good third of the time. Never won in 7. Considered for Each-Way over Fuusland; kept below because its win chance is only ~6%.
 - **West Is Awake:** 3m specialist, Fairyhouse CD winner, 5lb lighter than Cork (2nd in Apr) via the 7lb claim; the one worry is 8th 15L last time and age 10. Place chance real (22%).
 - **My Trump Card:** top weight on OR, claim reduces to 11-5; 3m form beaten 6-11L. Place only.
@@ -72,10 +72,10 @@ Provisional selections: Win Warmer Days Ahead; Each-Way Fuusland; Danger Live To
 | Role | Horse | Win prob | Place prob (3 places) | Fair price | Confidence |
 |---|---|---|---|---|---|
 | WIN | Warmer Days Ahead | 0.18 | 0.45 | 4.6/1 | low-medium |
-| EACH-WAY | Fuusland | 0.15 | 0.42 | 5.7/1 | low |
+| EACH-WAY | Fuusland | 0.16 | 0.43 | 5.3/1 | low |
 | DANGER | Live To Laugh | 0.17 | 0.42 | 4.9/1 | low |
 
-Remainder of field (win): Well Bud 0.10, My Trump Card 0.06, Pilgrims Walk 0.06, West Is Awake 0.06, Knocknagoran Lady 0.05, Rich Belief 0.04, Siege Of Carthage 0.03, The Friday Man 0.02, Moonovercloon 0.015, Scotty Joe 0.01 = about 0.435. Total about 0.98 (rounding slack). Win highest at 0.18, consistent with a 13-runner handicap's ceiling of about 25%.
+Remainder of field (win): Well Bud 0.08, My Trump Card 0.06, Pilgrims Walk 0.07, West Is Awake 0.06, Knocknagoran Lady 0.05, Rich Belief 0.04, Siege Of Carthage 0.03, The Friday Man 0.02, Moonovercloon 0.015, Scotty Joe 0.01 = about 0.435. Total about 0.98 (rounding slack). Win highest at 0.18, consistent with a 13-runner handicap's ceiling of about 25%.
 
 Note: the Danger (LTL, 0.17) is almost level with the Win on my numbers; the call between them is the 3lb H2H gap and the 14lb rise. The Each-Way: I chose Fuusland on the evidence (a nose-beaten 3m1f yielding/soft run carrying 9lb more, stays, mark 101 on a 5yo still improving) rather than as a second favourite; the playbook asks for a longer fair price than the Win, which it has (5.7/1 v 4.6/1), but the margin is small, and Pilgrims Walk (fair about 16/1, place 0.30) is the alternative if the user wants a bigger price. Place fraction is a quarter of odds (handicap of 12+).
 
@@ -106,8 +106,8 @@ Won 18-runner Pun handicap by 10L (verified), dual chase winner, stays 3m on sof
 - Trainer and jockey course/season stats (Elliott, Fahey, McKiernan, McCarthy) not found; At The Races Smart Stats not loaded.
 - Pace/jumping fluency (ATR) and Geegeez fence data not obtained; pace map is own reading of in-running comments (asserted).
 - Weather, rail, and final going confirmation beyond Sporting Life (good to yielding) not found; non-runner recheck due near the off.
-- Well Bud pedigree stamina (Kingston Hill / Winged Love) asserted from memory.
-- Not opened: result pages for Rich Belief's Clonmel/Ballinrobe runs, Well Bud's Lismullen/Kilbeggan flat runs, Pilgrims Walk's Kilbeggan 2nd, MTC Listowel/Ballinrobe, Friday Man 2025 runs, WDA Fairyhouse Nov 2024 and Pun Dec 2025 (run lines from Sporting Life profile only).
+- Well Bud pedigree names verified on profile (sire Kingston Hill, dam Andrea's Answer, damsire Winged Love); the stamina influence of those sires is still asserted.
+- Not opened: Well Bud's NH flat/Killarney runs, Rich Belief and Friday Man older runs, Friday Man 2025 Jun/May runs, Racing Post pages.
 - Racing Post result pages and Timeform not opened.
 - Siege Of Carthage OR shown as 117 on the card and 118 on result pages (both quoted).
 
@@ -121,3 +121,19 @@ Won 18-runner Pun handicap by 10L (verified), dual chase winner, stays 3m on sof
 - Gowran 3 Oct (My Trump Card, Moonovercloon): https://www.sportinglife.com/racing/results/2026-10-03/gowran-park/941737/x
 - Going: https://www.sportinglife.com/racing/going
 - Profiles via https://www.sportinglife.com/racing/profiles/horse/<id> (all 13)
+
+## Gap-filling pass (09:15 Irish time; clock check showed 08:13 GMT)
+
+Verified at source this pass (Sporting Life result pages read in full unless noted):
+- **Weights are before claims:** Punchestown 13 Oct listed weights track OR exactly (lb = OR + 46 that day: LTL 140 = 94+46, WDA 147 = 101+46, PW 142 = 98+46 with Donnie Devito 166 = 120+46). Claims shown separately: LTL 7, PW 7, Donnie Devito 3, WDA none. Today lb = OR + 48 (118 = 166 lb, 108 = 156 lb, 102 = 150 lb, 98 = 146 lb). So head-to-head arithmetic stands: LTL carried 133 lb, WDA 147, PW 135 on 13 Oct; today LTL 149 (10-9), WDA 150, PW 137 (9-11). LTL v WDA: +14lb received, won by 10L, so WDA +4 level, +3 today. WDA v PW: gave 12, won 4 1/4, so +16.25 level, today gives 13, +3.25. LTL v PW: received 2, won by 14 1/4, +12.25 level; today gives 12, +0.25. Confirmed.
+- **WDA staying:** Fairyhouse 12 Nov 2024 (2m7f110y good, 14 ran): 3rd, 3rd of 14 at OR 100 (10-12), beaten 1/2L by the 2nd after kept on to regain 3rd close home, chased leader. Punchestown 11 Dec 2025 (2m7f207y soft to heavy, 11 ran, 0-100 hurdle): 3rd beaten 5L carrying 11-13 with 7lb claim, "one paced closing stages". Course form at Fairyhouse is a place at 2m7f110y; no 3m110y run.
+- **Rich Belief:** Clonmel 1 Oct (2m3f145y good, claiming): 5th, badly hampered 5th, no impression, beaten 10L. Ballinrobe 26 Aug (2m4f110y claimer): 2nd beaten 8L by Rocky's Howya, no impression before last. Nothing at 3m recently: confirmed.
+- **Pilgrims Walk:** Kilbeggan 15 Jun (3m100y good, 0-100 handicap, 15 ran): 2nd beaten 1/2L, "stayed on well final furlong" at OR 92; Ballinrobe 10 Aug 3rd 1 1/2L (0-100); Ballinrobe 11 Sep 4th 1/2L (2m5f208y) in a 111-116 field at 10-0. His best runs are in 0-100/low company, 13 Oct was the highest level; confirms stays 3m, still 0 from 7.
+- **My Trump Card:** Listowel 23 Sep (3m, 14 ran): 6th beaten 11L, "mistake and badly hampered 2 out, mistake last", carrying 11-1; Ballinrobe 10 Aug (3m1f194y, 7 ran): 6th beaten about a head behind the 5th, ~a few lengths off; mid-division, no impression. Confirms no 3m win and no close finish.
+- **The Friday Man:** Kilbeggan Aug 2025 (3m1f, 4 ran, OR 122): 4th beaten 7L, led then dropped back, no extra. Cork 1 Nov PU hampered (verified). Last two runs were at 2m4f.
+- **Well Bud pedigree:** sire Kingston Hill, dam Andrea's Answer, damsire Winged Love (profile). Fuusland: sire Jet Away, damsire Turtle Island.
+- **Trainer samples (Sporting Life trainer pages, last 50 runs only, to 10 Nov):** G Elliott 8 wins / 22 placed from 50 runs 30 Oct to 9 Nov, 5 wins from 31 hurdle runs (hot); at Fairyhouse 0 wins from 5 in the sample. P Fahey: 3/20 last 30 days, 4/41 last 60; Fairyhouse 1/2. O McKiernan: 1/8 last 14 days, 2/22 30 days, 2/38 60 days; Fairyhouse 0/6 (cold). E McCarthy: 0/18 last 30 days (2 placed), 2/50 over about 50 days; Fairyhouse 1/3 (the Well Bud win). Small samples, a guide only.
+
+Changes: Fuusland nudged up to 0.16 win / 0.43 place (Elliott hot); Well Bud down to 0.08 (McCarthy 0/18 recently, trip +6f); Pilgrims Walk 0.07. Warmer Days Ahead stays Win at 0.18 (McKiernan cold 2/38 is a mild negative, not enough to overturn a 3lb head-to-head edge over Live To Laugh 0.17). Selections unchanged.
+
+Still gaps: Racing Post card/results, ATR Smart Stats/pace, weather and rail, Friday Man's 2025 May/June runs, Well Bud's NH flat runs and Moonovercloon's older runs not opened (not relied on).

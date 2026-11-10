@@ -155,6 +155,51 @@
           ]
         },
         {
+          "time": "13:30",
+          "name": "William Hill Challenge Series Handicap Hurdle",
+          "type": "hurdle",
+          "distance": "3m110y",
+          "going": "Good to Yielding",
+          "runners": 13,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-10_fairyhouse/1330_william-hill-challenge-series-handicap-hurdle.md",
+          "updated": "09:15 Tue 10 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Warmer Days Ahead",
+              "prob": 0.18,
+              "placeProb": 0.45,
+              "finish": "-",
+              "confidence": "low-medium",
+              "reason": "On the 13 Oct Punchestown head-to-head (same series, 2m7f95y good, verified) he is about 3lb better than Live To Laugh and Pilgrims Walk at today's claim-adjusted weights; improving in a visor and has placed at 2m7f+.",
+              "against": "Single head-to-head only, 28 days off, Live To Laugh's win was eased and may understate him; no hurdle run at 3m+; McKiernan cold (2 from 38 in 60 days)."
+            },
+            {
+              "role": "ew",
+              "horse": "Fuusland",
+              "prob": 0.16,
+              "placeProb": 0.43,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Beaten a nose over 3m1f164y on yielding to soft at Sligo carrying 11-4; today 10-9, 9lb less, and the winner had a 7lb claim; Elliott yard in form.",
+              "against": "No win in 5, first handicap on a maiden-form mark, no course form; unseated on debut."
+            },
+            {
+              "role": "danger",
+              "horse": "Live To Laugh",
+              "prob": 0.17,
+              "placeProb": 0.42,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Won the 13 Oct Punchestown handicap by 10L, dual chase winner who stays 3m, 7lb claimer up.",
+              "against": "Up 14lb in the ratings and carries 16lb more than last time; head-to-head puts him about 3lb behind Warmer Days Ahead; pulled up at Kilbeggan over 3m154y."
+            }
+          ]
+        },
+        {
           "time": "14:30",
           "name": "Michael O'Sullivan & Lorna Brooke Ireland V Britain (Q.R.) Challenge Handicap Chase",
           "type": "chase",
