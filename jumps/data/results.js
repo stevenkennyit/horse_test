@@ -51,5 +51,65 @@
     "N": "A horse dropping sharply in class and/or fitted with first-time headgear left under-ranked on its beaten form at the higher level, below exposed, modest or long-absent rivals",
     "O": "A handicap debutant from maiden company (unexposed, with a stronger independent figure) ranked below exposed handicappers on our own collateral lines, with a single non-completion used as the tie-break against it"
   },
-  "meetings": []
+  "meetings": [
+    {
+      "date": "2026-11-10",
+      "course": "Fairyhouse",
+      "country": "IRE",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Hurdles good to yielding; chase good to good-to-yielding in places (Sporting Life, 08:06)",
+      "dataErrors": [
+        "At The Races Smart Stats, weather and rail not found at 08:06",
+        "Racing Post cards/results return 406/404 in this session; claims taken from Sporting Life JSON only"
+      ],
+      "races": [
+        {
+          "time": "16:00",
+          "name": "Fairyhouse Christmas Party December 12th Point-To-Point Flat Race",
+          "type": "bumper",
+          "distance": "2m",
+          "going": "Good to Yielding",
+          "runners": 7,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-10_fairyhouse/1600_point-to-point-flat-race.md",
+          "updated": "08:40 Tue 10 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Bellahill",
+              "prob": 0.30,
+              "placeProb": 0.58,
+              "finish": "-",
+              "confidence": "low-medium",
+              "reason": "Only runner with a good Rules run: 2nd by a neck of 11 in a 2m Kilbeggan bumper on good to yielding (verified), closed from 9th at halfway.",
+              "against": "81 days off, small yard, one Rules run; unraced Elliott/Cromwell point winners may simply be better."
+            },
+            {
+              "role": "ew",
+              "horse": "Unfastened",
+              "prob": 0.08,
+              "placeProb": 0.27,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Mare getting 7lb from the geldings, won her point 9 days ago, dam a bumper/hurdle winner.",
+              "against": "Unraced under Rules; level of her point form not found."
+            },
+            {
+              "role": "danger",
+              "horse": "Chanson Du Jury",
+              "prob": 0.26,
+              "placeProb": 0.52,
+              "finish": "-",
+              "confidence": "low",
+              "reason": "Elliott point winner; Elliott's Unflinching won last year's renewal.",
+              "against": "Unraced under Rules, 212 days off."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 });

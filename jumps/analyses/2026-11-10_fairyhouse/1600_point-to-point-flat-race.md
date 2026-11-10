@@ -58,3 +58,9 @@ Others: Heron Hill 0.22 (place 0.46), The Supersonic Kid 0.08, Ballyeagle 0.04, 
 - https://www.sportinglife.com/racing/profiles/horse/1222993 (Hill Silver)
 - https://www.sportinglife.com/racing/profiles/horse/1211863 (Aint Over Yet)
 - https://www.sportinglife.com/racing/racecards/2025-11-21/fairyhouse/racecard/890699/x
+
+## Gap-filling pass (first pass, pre-off) - 08:35
+- Racing Post racecard and Kilbeggan result: HTTP 406, blocked. Claims remain from Sporting Life JSON only (Ballyeagle 2lb, Aint Over Yet 4lb); asserted.
+- Kilbeggan 21 Aug re-read in full from the Sporting Life result JSON: Hill Silver won, Bellahill 2nd by a neck (verified), In Around Thehouse (2lb claim, fell in its only point) 3rd with the margin printed as 15, Baymount 4th 5 1/2, Long Story 5th 1/2. The 15-length figure could not be checked against Racing Post; unverified. Bellahill's rivals that day: none of the 11 appears in today's field.
+- Point-to-point form: pointpointing.ie does not resolve in this session (host not in the allowed network list); web search found nothing for any runner. Still not found for all runners.
+- No change to selections or probabilities.
