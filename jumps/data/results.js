@@ -340,6 +340,45 @@
               "against": "0 from 11 over hurdles; usually runs to 85-89 against a mark of 93; faded late at 3m on good in 2 of her last 3; off 186 days."
             }
           ]
+        },
+        {
+          "time": "15:36",
+          "name": "PricedUp Bet Handicap Hurdle",
+          "type": "hurdle",
+          "distance": "2m 125y",
+          "going": "Good to Soft, Good in places (hurdles GoingStick 6.0, asserted)",
+          "runners": 7,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-12_market-rasen/1536_pricedup-bet-handicap-hurdle.md",
+          "updated": "21:40 Wed 11 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Trust House",
+              "prob": 0.23,
+              "placeProb": 0.44,
+              "finish": "-",
+              "price": "11/4",
+              "priceAt": "21:15 Wed 11 Nov",
+              "confidence": "low",
+              "reason": "C&D winner with the best recent form in the field: 5 of his last 6 in the first three, completed all 11 hurdle starts, ran to about 115-118 against an effective 117 today. The Caelan line puts him about 4-5lb ahead of Ballygeary at today's weights, on SL's 10lb claim figure.",
+              "against": "Off 153 days; first run for a new small yard under a first-time 3lb claimer; neither earlier comeback run placed; career-high mark; beaten 4/7 favourite here in June; Sean Bowen, who rode all 3 of his hurdle wins, is on Tilehurst."
+            },
+            {
+              "role": "danger",
+              "horse": "Ballygeary",
+              "prob": 0.21,
+              "placeProb": 0.42,
+              "finish": "-",
+              "price": "10/3",
+              "priceAt": "21:15 Wed 11 Nov",
+              "confidence": null,
+              "reason": "Race-fit (26 days); won over C&D on 8 Oct and 2nd here on 17 Oct after being short of room; a strong pace suits his midfield style.",
+              "against": "Quirky 9yo with 6 wins from 32; beaten 2/1 favourite last time; his last two runs rate about 105 and 98-100, below Trust House's level."
+            }
+          ]
         }
       ]
     }
