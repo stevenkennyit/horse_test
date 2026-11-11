@@ -301,6 +301,45 @@
               "against": "Keen in 9 of 11 comments; that run came from a 22L lead after the 11/8 favourite fell; 12-0 over his furthest trip, a quick reappearance, and faded late in both 2m4f runs."
             }
           ]
+        },
+        {
+          "time": "15:01",
+          "name": "PricedUp Boosts And BOG Mares' Handicap Hurdle",
+          "type": "hurdle",
+          "distance": "2m 7f 16y",
+          "going": "Good to Soft, Good in places (hurdles GoingStick 6.0, asserted)",
+          "runners": 8,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-12_market-rasen/1501_pricedup-boosts-and-bog-mares-handicap-hurdle.md",
+          "updated": "21:30 Wed 11 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Burning Embers",
+              "prob": 0.18,
+              "placeProb": 0.45,
+              "finish": "-",
+              "price": "7/2",
+              "priceAt": "21:02 Wed 11 Nov",
+              "confidence": "low",
+              "reason": "Beaten 31-50L in all four 2m hurdles, then stepped up to 3m1f in first-time cheekpieces and ran a 1½L 2nd at Plumpton despite trouble before 2 out; through Stamina Chope about 4lb ahead of Briery Butterfly at today's weights (asserted); lightly raced 5yo, the likeliest improver; completed all 5 hurdle starts.",
+              "against": "That is her only form figure, in a 5-runner race, rated about 86-87 and now 2lb higher on 90; keen and jumped left at Kempton and Plumpton; untested on GS at the trip."
+            },
+            {
+              "role": "danger",
+              "horse": "Briery Butterfly",
+              "prob": 0.14,
+              "placeProb": 0.42,
+              "finish": "-",
+              "price": "11/2",
+              "priceAt": "21:02 Wed 11 Nov",
+              "confidence": null,
+              "reason": "Most repeated proven level in the field: about 92 when 1L 2nd over 3m1f on soft at Huntingdon off today's mark; top-3 in 4 of her last 7; completed 10 of 11 hurdle starts.",
+              "against": "0 from 11 over hurdles; usually runs to 85-89 against a mark of 93; faded late at 3m on good in 2 of her last 3; off 186 days."
+            }
+          ]
         }
       ]
     }
