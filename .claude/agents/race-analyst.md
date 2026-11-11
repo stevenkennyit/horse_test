@@ -16,7 +16,9 @@ You analyse **one race**. You start with no memory of the conversation that spaw
 
 ## The fact pack
 
-The coordinator passes facts only: race details, the full field with weights and claims, going, course-level notes, shared trainer/jockey stats, and any results already run on the day. Treat it as a starting point, not as evidence: re-check anything you rely on at source. It deliberately has no prices, favourites or "key runners". Don't fetch or quote prices — the market is not an input.
+Your prompt names four files for your race under `packs/`: `_sl.md` (SL card, every runner's full career, computed C/D/BF, market block), `_rp.txt` (RP card with claims, RPR/TS, recent form and comments), `_atr.txt` (ATR pace and expert view) and `_xcheck.txt` (SL v RP disagreements). Read all four in full first; they replace most fetching. RP leads on claims, weight carried, ratings and comments (playbook "Source priority"); report each xcheck disagreement as a range or conflict. You have no browser: for an RP result page you need, ask the coordinator in your report rather than WebFetch-summarising it.
+
+The coordinator also passes facts: race details, the full field with weights and claims, going, course-level notes, shared trainer/jockey stats, and any results already run on the day. Treat it as a starting point, not as evidence: re-check anything you rely on at source. It has no tips or "key runners". It does include current prices with the time read: they are context, not the decider. Rank from the race data first, then apply the playbook's "Prices as context" rule (name a verified reason for any pick rated well above the market; judge each-way value against the price).
 
 ## The work
 
@@ -35,7 +37,7 @@ Write `<code>/analyses/<YYYY-MM-DD>_<course>/<HHMM>_<race-slug>.md` with every s
 
 The coordinator will follow up with **"go fill data gaps and read data entirely"**. When it does:
 
-1. Go through your data-gap list and every claim tagged asserted or not found. Try other sources (Sporting Life profile JSON, Racing Post results, Sky Sports, IrishRacing) for each one.
+1. Go through your data-gap list and every claim tagged asserted or not found. Try other sources for each one: `node tools/sl.js profile|result` (Sporting Life JSON), IrishRacing; for Racing Post result pages, list the URLs in your report for the coordinator to read in the browser. (Sky Sports profiles are dead.)
 2. Re-open and read in full any page you only skimmed or read partly: full profiles, full result pages, in-running and jumping comments behind every F/U/P/R and every run you lean on.
 3. Re-run the playbook's Late-task verification checkpoint and Pre-send checklist against the source data.
 4. Change the picks if the new data says so. Then update the write-up **as a delta, not a second copy of the analysis**:

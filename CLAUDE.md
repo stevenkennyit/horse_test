@@ -29,7 +29,8 @@ Read the chosen playbook **in full** before analysing, including its Post-race r
 
 ## Standing rules
 
-- **Picks only, no bets.** The agent ranks 2–3 picks with win probabilities; the user decides whether and how to bet. Don't recommend bets, stakes or bet types, and don't fetch or quote prices before the off — the market is not an input. Never log in to a bookmaker, enter account details or place a bet.
+- **Picks only, no bets.** The agent ranks 2–3 picks with win probabilities; the user decides whether and how to bet. Don't recommend bets, stakes or bet types. Never log in to a bookmaker, enter account details or place a bet.
+- **Prices are context, not the decider.** The analyse run reads current prices (with the time read) in the same single pass. Rank from the race data; use the market only as a check on big disagreements and to judge each-way value. See the playbook's "Prices as context" rule.
 - **Picks are scored on price after the race** (see the playbook's "How picks are scored"): a winner earns its odds, a placer a fifth of them, a loser −1. Check every outsider properly before ranking; never rank on rating, form figures or stable alone.
 - **Check the clock first.** Racing times are local (Ireland/UK). Say how long is left to the off, and flag any race that has already run.
 - **Re-check non-runners and going close to the off,** and quote the time they were checked.

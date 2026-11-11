@@ -30,7 +30,7 @@ Three factors carry the most weight in every analysis:
 2. **Finishing times**: the horse's actual times in similar races, adjusted for weight.
 3. **Consistency**: how reliably the horse runs to its level across recent runs.
 
-Ratings (RPR, Topspeed), draw and connections are secondary. **Prices and market moves are not inputs** — the agent ranks on the race data alone and does not fetch or quote odds. Use them to support or challenge the core picture, not to override it.
+Ratings (RPR, Topspeed), draw and connections are secondary. **Prices are context, not the decider** — the agent ranks on the race data and reads current prices only as a check (Step 13, "Prices as context"). Use them to support or challenge the core picture, not to override it.
 
 **Head-to-heads are the strongest single evidence when they repeat.** When the same horses have met in several races and the weight-adjusted results agree, trust that over any single time figure or rating. Repeated head-to-heads have held in results where a top pick chosen on one fast time from another course has not.
 
@@ -200,7 +200,7 @@ Treat a weak bias as a tiebreaker, not a deciding factor. Note the date range of
 
 ## Step 10: Non-runners and going
 
-Prices are not used (see Core factors). Instead, close to the off:
+Close to the off:
 
 - Re-check non-runners and re-rank if one changes the pace or the weights picture.
 - Re-check the going or surface report; note any change from the card and which runners it helps or hurts.
@@ -229,7 +229,7 @@ List everything you couldn't verify.
 
 ## Step 13: Issue the selections — Win, Each-Way, Danger
 
-The agent's job ends at the selections. It does not recommend bets, stakes or bet types, and does not check prices; the user decides how to bet. Issue up to **three named selections, each a different horse**:
+The agent's job ends at the selections. It does not recommend bets, stakes or bet types; the user decides how to bet. It may read current prices as context (below). Issue up to **three named selections, each a different horse**:
 
 - **WIN (required):** the single most-likely winner.
 - **EACH-WAY (optional):** a different horse to run into a place — the best each-way proposition *on the agent's own numbers*, normally at a longer fair price than the Win. Choose it to maximise each-way expectation (a genuine place chance at a price), **not** as "second-most-likely winner." Omit it when no runner is a worthwhile each-way proposition — a short win-only field (under 5 runners), or nothing with a place chance at a price.
@@ -242,7 +242,11 @@ For every selection give:
 
 The win probabilities across the field must be realistic: the three selections' win chances plus the rest of the field add up to about 100%. The **Win must hold the highest win probability**; the Each-Way usually has a lower win chance but a place chance strong enough to make it the better each-way call. **Two horses clear of the rest only on ratings is not enough** — the evidence (head-to-heads) must separate them.
 
-- **Prices and the market are still not inputs.** "Each-way value" here means the agent's own place expectation at a longer fair price, **not** a comparison with bookmakers' odds (never seen before the off). The after-the-race SP reveals whether the Each-Way was genuinely underrated.
+- **Prices as context, not the decider.** The fact pack includes current prices with the time read (`tools/sl.js`). Look at them only after the form-based ranking is done, in the same pass:
+  - **Check, don't follow.** Never shortlist, rank or drop a horse because of its price, and never move a pick towards the favourite without a form reason.
+  - **Big disagreements need a named reason.** If a pick's win chance is more than about 1.25× the market's (e.g. 30% on a 4/1 shot, which the market rates 20%), state the specific, verified thing the market may be missing (claim, weight, draw, pace, trip, ground). With no such reason, re-check the case before keeping the number. *(Audit 11 Nov 2026 of 263 logged picks: those rated more than 25% above their SP won 4 of 82, −41 points; SP-implied chances were better calibrated than the agent's.)*
+  - **Each-Way:** judge it on the agent's own place chance against the current price and place terms.
+  - Morning prices are not the SP; picks are still scored at SP after the race. Record the price seen for each pick as `price` and `priceAt`.
 
 ### How the selections are scored
 
@@ -337,6 +341,20 @@ Once results are published, judge the reasoning, not the result.
 
 ## Data sources
 
+### Source priority (audit 11 Nov 2026)
+Read each source with its tool (`tools/README.md`), not WebFetch: WebFetch summaries of RP and ATR pages dropped comments and invented details. When sources disagree, the lead source wins on its fields; anywhere else, report both as a range or a conflict.
+
+| Data | Lead source | Check against |
+|---|---|---|
+| Jockey claims, weight carried | **Racing Post** (`rp-card.js`) | SL weights are before claims; SL has no claim field |
+| RPR, Topspeed, time vs standard | **Racing Post** | Only RP has them |
+| Results: margins, in-running comments, draw | **Racing Post** result pages | SL result (margins can be misprinted) |
+| Non-runners, going close to the off | **Racing Post + At The Races** | SL can lag |
+| Full career, older runs (beyond RP's last 5–7) | **Sporting Life** (`sl.js pack`) | RP for the overlapping runs (`xcheck.js`); treat RP profile rows missing from SL as suspect |
+| C / D / CD / BF | **Computed by `sl.js pack`** from the full career | Not ATR card pills (they are not the standard symbols) |
+| Pace, draw advantage | **At The Races** (`atr-card.js`) | Run-style comments in both RP and SL |
+| Prices | Sporting Life market block | Context only |
+
 Re-tested 23 Oct 2026 by opening a real page from each site; notes updated 24 Oct 2026. Pages can only be opened once they appear in a search result (Sporting Life and Racing Post result URLs can also be built directly once the race ID is known).
 
 | Source | Use it for | Tested result |
@@ -360,7 +378,7 @@ Re-tested 23 Oct 2026 by opening a real page from each site; notes updated 24 Oc
 | BHA / Weatherbys, Timeform | Official ratings; paid ratings | Partial (Timeform horse-form page loads some data) |
 
 ### Data-gathering routine
-1. **Racecard:** Racing Post race page and Sporting Life racecard; At The Races card for draw advantage and course/distance records. Ignore the odds.
+1. **Racecard:** Racing Post race page and Sporting Life racecard; At The Races card for draw advantage and pace (its C/D pills are not the standard symbols; use the flags `tools/sl.js pack` computes). Note the current prices and the time read, as context only.
 2. **Run history and weights:** Sporting Life profile (or Sky Sports). Record result link paths for each run.
 3. **Finishing times:** open the Racing Post result first (time against standard, cumulative beaten distances, OR, claims), then Sporting Life for in-running comments.
 4. **Draw and pace:** Geegeez course article, once per course; At The Races draw advantage label.

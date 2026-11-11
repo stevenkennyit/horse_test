@@ -7,3 +7,6 @@ desktop.ini
 
 # Local Claude Code settings (per machine)
 .claude/settings.local.json
+
+# Per-race fact packs built by /analyse (regenerable)
+packs/

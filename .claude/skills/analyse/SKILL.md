@@ -14,14 +14,20 @@ You are the **coordinator**: gather the meeting's shared facts, hand each race t
 
 2. **Pick the playbook for each race** (see `CLAUDE.md`): hurdle, chase or NH flat race → `jumps/AGENTS-jumps.md`; otherwise `flat/AGENTS-flat-v2.md`.
 
-3. **Build the meeting fact pack once.** Facts only — no prices, favourites, tips or "key runners":
+3. **Build the fact pack from three sources** (see `tools/README.md`; source priority is in the playbook's "Data sources"). Save files to `packs/<YYYY-MM-DD>_<course>/<HHMM>_*` (git-ignored). No tips or "key runners"; prices are context only (playbook "Prices as context"). Per race:
+   - **Sporting Life:** `node tools/sl.js meetings <date> --uk` once for race IDs, then `node tools/sl.js pack <date> <slRaceId> --out packs/…/<HHMM>_sl.md` (card, full careers, computed C/D/CD/BF, market block).
+   - **Racing Post (lead source for claims, weight carried, RPR/TS, comments):** in the built-in browser open the RP race page (meeting page `racingpost.com/racecards/<courseId>/<course>/<date>` gives the race IDs), run `tools/browser/rp-card.js` with `javascript_tool`, and save the returned text as `<HHMM>_rp.txt`.
+   - **At The Races (pace):** open the ATR race page, run `tools/browser/atr-card.js`, save as `<HHMM>_atr.txt`.
+   - **Cross-check:** `node tools/xcheck.js <date> <slRaceId> packs/…/<HHMM>_rp.txt > packs/…/<HHMM>_xcheck.txt`. Each disagreement goes into the fact pack; RP wins on the fields it leads, otherwise report a range.
+   - If the browser is unavailable, say so, run SL only, and mark claims and RPR/TS as not verified.
+   Meeting level, once:
    - Going by course (jumps: hurdle and chase tracks separately), with source and time checked; read the row under today's date. Weather, rail movements.
    - Course character and pace/draw bias (At The Races course guide, Geegeez).
    - At The Races Smart Stats for the meeting (pull early: it loads intermittently): trainer/jockey course records, hot/cold form, first-time headgear, stable switchers.
-   - Per race: off time, name, type, class, distance, field size, non-runners, and the full field — number, horse, age, weight as listed, whether weights are before or after claims, claim, OR, jockey, trainer, draw, headgear.
+   - Per race (from the files above): off time, name, type, class, distance, field size, non-runners (RP/ATR and SL can differ: note each), and the full field — number, horse, age, weight as listed, claim (RP), weight after claim, OR, jockey, trainer, draw, headgear.
    - Results of races already run today (as bias evidence for later races).
 
-4. **Spawn one `race-analyst` per race**, in the background, in off-time order; run them in parallel so later races still finish before their off. Each prompt includes: the race's slice of the fact pack plus the meeting-level notes, the playbook path and code, the write-up path to use, the current time, the off time and a deadline (the off minus 15 minutes for the first pass). Don't paste in the playbook or your own opinions.
+4. **Spawn one `race-analyst` per race**, in the background, in off-time order; run them in parallel so later races still finish before their off. Each prompt includes: the paths of the race's four pack files (`_sl.md`, `_rp.txt`, `_atr.txt`, `_xcheck.txt`) plus the meeting-level notes, the playbook path and code, the write-up path to use, the current time, the off time and a deadline (the off minus 15 minutes for the first pass). Don't paste in the playbook or your own opinions.
 
 5. **Gap-filling pass — required for every race.** When a race-analyst returns its first report, send it (SendMessage to the same agent, so it keeps that race's context) exactly:
 
@@ -36,6 +42,6 @@ You are the **coordinator**: gather the meeting's shared facts, hand each race t
    - Every race in the results file must have its write-up on disk; commit both together and push straight away after each race (see `CLAUDE.md`), so finished races survive while others are still running.
    - If the race is already recorded (a re-run or "recheck"), the race-analyst appends a `## Update HH:MM` section and you update the data entry — only before the off.
 
-8. **Reply** with a compact table per race: the Win, the Each-Way (if any) and the Danger (if any), each with win chance, place chance, fair price, confidence and the key reason. Then an outsider worth noting and anything unverified. No bets, stakes or prices.
+8. **Reply** with a compact table per race: the Win, the Each-Way (if any) and the Danger (if any), each with win chance, place chance, fair price, confidence and the key reason. Add the price seen (and time) beside each pick, and record it as `price` / `priceAt`. Then an outsider worth noting and anything unverified. No bets or stakes.
 
 9. **Close** by offering a non-runner and going re-check closer to the off. For a recheck, message the same race-analyst (it keeps that race's context) with the new non-runners and going, and record its `## Update HH:MM`.
