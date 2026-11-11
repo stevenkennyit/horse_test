@@ -53,5 +53,76 @@
     "O": "A handicap debutant from maiden company (unexposed, with a stronger independent figure) ranked below exposed handicappers on our own collateral lines, with a single non-completion used as the tie-break against it",
     "P": "Proven class or in-form horse (top figures, a recent dominant or eased win, or a code-switcher from a top yard) demoted to the Danger slot on a soft doubt \u2014 a weight rise, a late \u2018no extra\u2019, or a blanket \u2018debutants cannot win\u2019 rule \u2014 and it won while the shape-based Win pick finished behind it"
   },
-  "meetings": []
+  "meetings": [
+    {
+      "date": "2026-11-12",
+      "course": "Market Rasen",
+      "country": "GB",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Good to Soft, Good in places; checked 18:53 Wed 11 Nov (Sporting Life going page; course page GoingStick 6.0 at 07:30 10 Nov)",
+      "dataErrors": [
+        "ATR Smart Stats blocked by a bot check at 18:56 Wed 11 Nov; trainer/jockey course and current-form stats not found",
+        "Ballydine Boy's two Irish points (BCL 8 Mar 2026, BLD 30 Nov 2025) on Racing Post only; no second source",
+        "Northern Olympian's German Flat form: one win (Hamburg 5 Jul 2025) and two runs confirmed by a second source; RP's 'three-time winner' only partly verified",
+        "ATR says Yafaarr's tongue-tie is first time; RP and SL show it worn since 2026 (ATR wrong, or means first time over hurdles)",
+        "ATR says Treshnish Point has had a wind op; RP shows no flag (unresolved, immaterial)",
+        "Market Rasen course character asserted from course guides; no quantified pace bias",
+        "Non-runners and going checked 18:53-18:55 the evening before; to re-check on the day"
+      ],
+      "races": [
+        {
+          "time": "12:06",
+          "name": "PricedUp Bet Maiden Hurdle (GBB Race)",
+          "type": "hurdle",
+          "distance": "2m 125y",
+          "going": "Good to Soft, Good in places",
+          "runners": 10,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-12_market-rasen/1206_pricedup-bet-maiden-hurdle.md",
+          "updated": "19:03 Wed 11 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Ballydine Boy",
+              "prob": 0.43,
+              "placeProb": 0.75,
+              "finish": "-",
+              "price": "4/5",
+              "priceAt": "18:53 Wed 11 Nov",
+              "confidence": "medium",
+              "reason": "Bumper RPR 110 twice, the best single-run figure in the field; made all at Worcester and is the likely leader (ATR pace bar 90%) in a race forecast as weakly run, on a sharp track; stays further (3m point win) and handles soft.",
+              "against": "Hurdling debut; the Worcester bumper (6 ran, C5) is unfranked and he had a 3lb claim; RP's card RPR rates Northern Olympian top (117); his point form is RP-only."
+            },
+            {
+              "role": "ew",
+              "horse": "Yafaarr",
+              "prob": 0.08,
+              "placeProb": 0.34,
+              "finish": "-",
+              "price": "10/1",
+              "priceAt": "18:53 Wed 11 Nov",
+              "confidence": "low",
+              "reason": "In-form Flat OR 74 4yo (4 wins from 25 runs); the yard's similar ex-Flat 4yo Military Cross went to hurdles OR105 and was beaten only ½L at this C&D on 25 Oct under the same jockey.",
+              "against": "Has never jumped in public; 2m is a stamina question for a 1m-1m2f winner; held up and often starts slowly; cheekpieces off today."
+            },
+            {
+              "role": "danger",
+              "horse": "Northern Olympian",
+              "prob": 0.25,
+              "placeProb": 0.65,
+              "finish": "-",
+              "price": "3/1",
+              "priceAt": "18:53 Wed 11 Nov",
+              "confidence": null,
+              "reason": "Best-franked hurdle form: on debut he was ½L behind Cowboy Casanova (who has won since) and 7½L behind Spanish Darling (since beaten 3½L in a Cheltenham Grade 2), with Murphy's 5/6 favourite 1½L behind him.",
+              "against": "Keen in all 4 of his RP runs with a comment ('ran too free' at Worcester), held up, and the pace forecast is weak; he also has a Wetherby entry on Sat 14 Nov."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 });
