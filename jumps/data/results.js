@@ -262,6 +262,45 @@
               "against": "Erratic (top-3 in 2 of last 6); poor over fences on good to soft (PU, and beaten 65L when he bled)."
             }
           ]
+        },
+        {
+          "time": "14:26",
+          "name": "NFU Mutual Agriculture Raceday Novices' Handicap Hurdle",
+          "type": "hurdle",
+          "distance": "2m 4f 139y",
+          "going": "Good to Soft, Good in places (hurdles GoingStick 6.0, asserted)",
+          "runners": 6,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-12_market-rasen/1426_nfu-mutual-agriculture-raceday-novices-handicap-hurdle.md",
+          "updated": "21:20 Wed 11 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "This Sway",
+              "prob": 0.30,
+              "placeProb": 0.55,
+              "finish": "-",
+              "price": "5/2",
+              "priceAt": "20:45 Wed 11 Nov",
+              "confidence": "low",
+              "reason": "Completed his last 8 starts with no falls; 2nd in his last two at 2m4f on good (1¼L at Ffos Las, 3L at Southwell giving 12lb to an 8/13 winner); a front-runner on a sharp track, and Teofimo's keenness will meet two other pace horses.",
+              "against": "Off 163 days; cheekpieces left off after 4 runs in them; recurring untidy jumps; 1 win in 12."
+            },
+            {
+              "role": "danger",
+              "horse": "Teofimo",
+              "prob": 0.29,
+              "placeProb": 0.51,
+              "finish": "-",
+              "price": "15/8",
+              "priceAt": "20:45 Wed 11 Nov",
+              "confidence": null,
+              "reason": "Best form in the race: C4 Newcastle 2nd 7 days ago, 1¼L behind the winner and 5L clear of the 3rd, and he drops to C5 off the same mark of 100.",
+              "against": "Keen in 9 of 11 comments; that run came from a 22L lead after the 11/8 favourite fell; 12-0 over his furthest trip, a quick reappearance, and faded late in both 2m4f runs."
+            }
+          ]
         }
       ]
     }
