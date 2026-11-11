@@ -172,6 +172,45 @@
               "against": "Haydock flattered (the leader fell 2 out); chase debut after 226 days; never run beyond 2m6f and weakened late there; errors in three of four hurdle runs."
             }
           ]
+        },
+        {
+          "time": "13:51",
+          "name": "Lincolnshire Rural Support Network Handicap Chase",
+          "type": "chase",
+          "distance": "2m 5f 89y",
+          "going": "Good to Soft, Good in places (chase GoingStick 5.8, asserted)",
+          "runners": 7,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-12_market-rasen/1351_lincolnshire-rural-support-network-handicap-chase.md",
+          "updated": "19:24 Wed 11 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Noble Recall",
+              "prob": 0.31,
+              "placeProb": 0.55,
+              "finish": "-",
+              "price": "9/4",
+              "priceAt": "19:09 Wed 11 Nov",
+              "confidence": "medium",
+              "reason": "Placed in all three recent C5 chases (3rd, won, 2nd); chase RPRs 83 and 83 against an effective mark of 76 after Isabelle Ryder's 5lb claim, the widest margin in the field; 2nd over 2m3f here on GS off the same mark; no fall or unseat in 17 runs.",
+              "against": "Lines through rivals put him only around his mark; 2m5f89y is about 1f beyond his proven trip; up 8lb since 12 Oct."
+            },
+            {
+              "role": "danger",
+              "horse": "Crac De Megaudais",
+              "prob": 0.22,
+              "placeProb": 0.42,
+              "finish": "-",
+              "price": "3/1",
+              "priceAt": "19:09 Wed 11 Nov",
+              "confidence": null,
+              "reason": "Best stamina in the field (won 2m6f125y last time, rallying), which a strongly-run 2m5f suits; up only 4lb; Gretton 2/6 and O'Farrell 8/30 in current form.",
+              "against": "Erratic (top-3 in 2 of last 6); poor over fences on good to soft (PU, and beaten 65L when he bled)."
+            }
+          ]
         }
       ]
     }
