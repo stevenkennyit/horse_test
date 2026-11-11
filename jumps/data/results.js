@@ -123,6 +123,57 @@
           ]
         },
         {
+          "time": "12:41",
+          "name": "PricedUp Now With Best Odds 'National Hunt' Maiden Hurdle (GBB Race)",
+          "type": "hurdle",
+          "distance": "2m 4f 139y",
+          "going": "Good to Soft, Good in places",
+          "runners": 9,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-12_market-rasen/1241_pricedup-now-with-best-odds-national-hunt-maiden-hurdle.md",
+          "updated": "19:45 Wed 11 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Ivor Bear",
+              "prob": 0.32,
+              "placeProb": 0.70,
+              "finish": "-",
+              "price": "11/8",
+              "priceAt": "19:09 Wed 11 Nov",
+              "confidence": "medium",
+              "reason": "Most advertised bumper form in the field (Listed 4th at Cheltenham; beaten by since-winners); 6L 2nd to Hold The Throw here on hurdle debut, 12L clear of Whin Cover (since about 93-96); likely leader in a weakly-run race on a sharp track that favours handy types; yard won this race last year.",
+              "against": "Never tried beyond 2m1f, with 'no extra' late in 3 of 4 runs; novicey jumping on hurdle debut; beaten favourite 3 times."
+            },
+            {
+              "role": "ew",
+              "horse": "Supreme Force",
+              "prob": 0.18,
+              "placeProb": 0.53,
+              "finish": "-",
+              "price": "4/1",
+              "priceAt": "19:09 Wed 11 Nov",
+              "confidence": "low",
+              "reason": "Won three 3m Irish points (one a winners-of-two) with good jumping comments; Longsdon 6/14 in 14 days and Brian Hughes 12/47; a genuine place chance against a weak tail.",
+              "against": "Rules and hurdle debut (Longsdon's hurdle Rules debutants 0/2 in the sample); raced near the rear in points, which doesn't suit a weak pace on a sharp track; points form RP-only; each-way about fair, not value."
+            },
+            {
+              "role": "danger",
+              "horse": "Eastern Rock",
+              "prob": 0.22,
+              "placeProb": 0.60,
+              "finish": "-",
+              "price": "3/1",
+              "priceAt": "19:09 Wed 11 Nov",
+              "confidence": null,
+              "reason": "Top RP card figures (RPR 116, TS 109); proven 3m point stamina; beat Ink Black Heart 10L in a bumper, and that horse has since run to about 105-108 over hurdles.",
+              "against": "Keen in both runs under Rules and held up, with a weak pace forecast (playbook rule C keeps him off the Win); 17½L 4th on hurdle debut."
+            }
+          ]
+        },
+        {
           "time": "13:16",
           "name": "PricedUp Boosted Prices Daily Novices' Handicap Chase (GBB Race)",
           "type": "chase",
