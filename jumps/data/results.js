@@ -121,6 +121,57 @@
               "against": "Keen in all 4 of his RP runs with a comment ('ran too free' at Worcester), held up, and the pace forecast is weak; he also has a Wetherby entry on Sat 14 Nov."
             }
           ]
+        },
+        {
+          "time": "13:16",
+          "name": "PricedUp Boosted Prices Daily Novices' Handicap Chase (GBB Race)",
+          "type": "chase",
+          "distance": "2m 7f 191y",
+          "going": "Good to Soft, Good in places",
+          "runners": 6,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-12_market-rasen/1316_pricedup-boosted-prices-daily-novices-handicap-chase.md",
+          "updated": "19:20 Wed 11 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Tell The Tale",
+              "prob": 0.30,
+              "placeProb": 0.52,
+              "finish": "-",
+              "price": "9/4",
+              "priceAt": "19:09 Wed 11 Nov",
+              "confidence": "medium",
+              "reason": "One of two runners proven over fences at the trip (won 2m7f177y chase on good to soft at Ffos Las on debut); fittest in the field (29 days); races prominently on a sharp track; bottom weight 11-2.",
+              "against": "Ffos Las form is weak: Wannabe was in touch when unseating at the last, the runner-up is rated 88; on beaten lengths he ran to about 100 and is now rated 101 (+6lb); pecked at the last."
+            },
+            {
+              "role": "ew",
+              "horse": "Catwalk Girl",
+              "prob": 0.20,
+              "placeProb": 0.41,
+              "finish": "-",
+              "price": "9/2",
+              "priceAt": "19:09 Wed 11 Nov",
+              "confidence": "low",
+              "reason": "The other chase winner at the trip (12L at Huntingdon 2m7f129y); likeliest leader (ATR pace bar 90%); 3lb claim takes her to 11-8 off 110; right-handed completions all in the first three.",
+              "against": "Off 184 days; Huntingdon was a weak 4-runner race in which the 10/11 favourite fell; one hurdle fall while leading; best form on good; each-way only about break-even on our numbers (2 places at 1/4)."
+            },
+            {
+              "role": "danger",
+              "horse": "Chemoulin",
+              "prob": 0.18,
+              "placeProb": 0.35,
+              "finish": "-",
+              "price": "3/1",
+              "priceAt": "19:09 Wed 11 Nov",
+              "confidence": null,
+              "reason": "Best-looking hurdle form in the race: beat Ballyeaston (OR115, since a winner) 2L at Haydock, with the third since rated 121; in-form Longsdon yard (6/14 in 14 days).",
+              "against": "Haydock flattered (the leader fell 2 out); chase debut after 226 days; never run beyond 2m6f and weakened late there; errors in three of four hurdle runs."
+            }
+          ]
         }
       ]
     }
