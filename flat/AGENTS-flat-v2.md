@@ -244,7 +244,7 @@ The win probabilities across the field must be realistic: the three selections' 
 
 - **Prices as context, not the decider.** The fact pack includes current prices with the time read (`tools/sl.js`). Look at them only after the form-based ranking is done, in the same pass:
   - **Check, don't follow.** Never shortlist, rank or drop a horse because of its price, and never move a pick towards the favourite without a form reason.
-  - **Big disagreements need a named reason.** If a pick's win chance is more than about 1.25× the market's (e.g. 30% on a 4/1 shot, which the market rates 20%), state the specific, verified thing the market may be missing (claim, weight, draw, pace, trip, ground). With no such reason, re-check the case before keeping the number. *(Audit 11 Nov 2026 of 263 logged picks: those rated more than 25% above their SP won 4 of 82, −41 points; SP-implied chances were better calibrated than the agent's.)*
+  - **Big disagreements need a named reason.** If a pick's win chance is more than about 1.25× the market's (e.g. 30% on a 4/1 shot, which the market rates 20%), state the specific, verified thing the market may be missing (claim, weight, draw, pace, trip, ground). With no such reason, re-check the case before keeping the number. *(Audit 11 Nov 2026 of 379 logged picks, 18 meetings to 10 Nov: those rated more than 25% above their SP won 8 of 119, −31 points; SP-implied chances were better calibrated than the agent's.)*
   - **Each-Way:** judge it on the agent's own place chance against the current price and place terms.
   - Morning prices are not the SP; picks are still scored at SP after the race. Record the price seen for each pick as `price` and `priceAt`.
 
