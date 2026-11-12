@@ -156,3 +156,19 @@ None flagged. If Catwalk Girl came out, Firm But Fair would become the Each-Way 
 **Fair-price note:** Tell The Tale at 0.30 is 7/3, about 9/4–5/2. The other fair prices are unchanged: Catwalk Girl 4/1, Chemoulin 9/2.
 
 **Selections unchanged:** Win Tell The Tale (0.30 / 0.52), Each-Way Catwalk Girl (0.20 / 0.41), Danger Chemoulin (0.18 / 0.35). The new data confirms the debutant caps and slightly strengthens Catwalk Girl's case (right-handed record, yard in form), but not enough to change the numbers.
+
+## Result
+
+| Pick | Finish | SP | Comment |
+|---|---|---|---|
+| **Win: Tell The Tale** | **1st** | 13/8 | Chased leaders, rallied to lead before 2 out, pressed after last, kept on gamely |
+| **EW: Catwalk Girl** | 6th (last), btn 25L | 16/1 | Led, headed before 3 out, weakened quickly |
+| **Danger: Chemoulin** | 5th, btn 6½L | 7/2 | Midfield, minor headway before 3 out, beaten before 2 out, weakened after last |
+
+**Winner:** Tell The Tale (13/8F) — our Win pick.
+
+**What held:** Tell The Tale's fitness (29 days), proven chase form at the trip, and handy racing style were the decisive factors. Chemoulin's chase debut after 226 days was correctly identified as a risk — he faded from 3 out.
+
+**What failed:** EW pick Catwalk Girl's 184-day layoff and weak form were underestimated; she drifted from 9/2 to 16/1 in the market.
+
+**Grade: held**

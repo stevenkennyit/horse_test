@@ -152,3 +152,19 @@ He has the highest RP card figures (RPR 116, TS 109), and after the gaps pass th
 - SL going: https://www.sportinglife.com/racing/going (re-read 19:16)
 - Course character: https://britishracecourses.org/market-rasen/ (read at source, gaps pass); https://www.attheraces.com/course-guides/Market-Rasen (search only)
 - Gaps-pass result pages (SL, read in full): https://www.sportinglife.com/racing/results/2025-11-13/x/889746/x (last year's race), …/2026-11-09/x/947677/x (Whin Cover), …/2026-11-08/x/947501/x (Ink Black Heart), …/2026-10-25/x/945181/x (Running Happy), …/2026-11-01/x/946335/x, …/2026-11-02/x/946561/x, …/2026-10-31/x/946353/x, …/2026-10-07/x/942191/x, …/2026-11-02/x/946559/x
+
+## Result
+
+| Pick | Finish | SP | Comment |
+|---|---|---|---|
+| **Win: Ivor Bear** | 4th, btn nk from 3rd | 6/4 | Chased leaders, ridden 2 out, plugged on, no extra, lost 3rd near line |
+| **EW: Supreme Force** | 2nd, btn 6L | 9/2 | Chased leader, led before 4th, pressed on, headed after last, no extra |
+| **Danger: Eastern Rock** | **1st** | 11/8 | Towards rear, progress after 3 out, untidy 2 out, led after last, drew clear cosily |
+
+**Winner:** Eastern Rock (11/8F) — our Danger pick.
+
+**What held:** EW pick Supreme Force ran a sound race in 2nd. Ivor Bear's stamina doubt ("no extra late in 3 of 4 runs") was validated — he faded and lost 3rd near the line.
+
+**What failed:** Eastern Rock had the top card figures (RPR 116, TS 109) and proven stamina, but was kept as Danger for being keen (error C). He won cosily coming from off the pace — the keenness didn't prevent him finishing strongly. **Error P** — proven form horse demoted to Danger on a soft doubt.
+
+**Grade: mixed**

@@ -115,3 +115,18 @@ At 4/7 the Win is priced shorter than my fair price of 9/11; that is a note on v
 - RP card: https://www.racingpost.com/racecards/24/hereford/2026-11-12/930594/
 - SL results read via `tools/sl.js result`: 941583 (Fontwell 3 Oct), 940381 (Ripon 26 Sep), 945377 (Hereford 26 Oct), 931638 (Newmarket 6 Aug), 928247 (Newbury 17 Jul), 923186 (Goodwood 19 Jun), 917301 (Newmarket 16 May), 894805 (Wolverhampton 20 Dec 2025), 932249 (Kempton 10 Aug), 921394 (Nancy 5 Jun), 918589 (Compiegne 20 May), 912223 (Fontainebleau 11 Apr), 909133 (Strasbourg 22 Mar)
 - SL card and market, race 948181, re-read 09:13; SL going page 09:13
+
+## Result
+
+| Pick | Finish | SP | Comment |
+|---|---|---|---|
+| **Win: Koala Rose** | **1st** | 1/2 | Made all, wandered and green approaching 2nd, well clear after 2 out, coasted home |
+| **Danger: Princess Of Habo** | 2nd | 2/1 | Raced in second, outpaced after 4 out, eased after 2 out |
+
+NR: Echo Valley.
+
+**Winner:** Koala Rose (1/2F) — our Win pick.
+
+**What held:** Koala Rose's Flat form was the best in a small field and she won making all as expected. Princess Of Habo ran to her position as the clear second choice.
+
+**Grade: held**

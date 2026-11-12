@@ -134,3 +134,16 @@ That edge is a lean, not a gap, so confidence stays low. I don't swap the Win an
 - SL results read via `tools/sl.js result`: Newcastle 2026-11-05 r947088, Southwell 2026-06-02 r920102, Ffos Las 2026-05-05 r915390, Newcastle 2026-10-27 r945554, Wetherby 2026-01-22 r899409, Wetherby 2026-02-26 r904713, Uttoxeter 2025-05-17 r857965, Plumpton 2025-04-03 r850959, Hereford 2026-10-26 r945375
 - SL going page (`tools/sl.js going 2026-11-12`), read 20:50
 - Gaps pass: SL results Hexham 2026-06-21 r923497, Exeter 2026-04-17 r912523, Kempton 2026-02-02 r901508, Southwell 2026-03-02 r905245; SL Fontwell card 2026-11-15 r948557; SL profile JSON for runners (current OR fields); web search for a Market Rasen course guide (https://www.attheraces.com/course-guides/Market-Rasen failed to load)
+
+## Result
+
+| Pick | Finish | SP | Comment |
+|---|---|---|---|
+| **Win: This Sway** | **Fell** 2 out | 11/4 | Chased leader, lost position after 3 out, beaten when fell 2 out |
+| **Danger: Teofimo** | **1st** | 9/4 | Made all, drew clear after 3 out, unchallenged, comfortably |
+
+**Winner:** Teofimo (9/4F) — our Danger pick.
+
+**What failed:** This Sway's recurring jumping doubts ("recurring untidy jumps") were flagged but he was still made Win — he fell 2 out after already losing position. Teofimo's keenness concern was unfounded; he made all unchallenged and the sharp track suited front-runners. **Error I** — jumping doubt on win pick underweighted. **Error P** — in-form horse demoted to Danger on a soft doubt.
+
+**Grade: failed**

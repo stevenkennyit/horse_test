@@ -118,3 +118,21 @@ Lone front-runner on quick ground at a sharp track, placed in every completed hu
 - At The Races card: https://www.attheraces.com/racecard/Hereford/12-November-2026/1415 (via pack, read 09:11)
 - Sporting Life card and market, race 948184 (`node tools/sl.js card 2026-11-12 948184`, 09:14); going page 09:14
 - Sporting Life results read in full (`node tools/sl.js result <date> <id>`): 946340 (Huntingdon 1 Nov), 946100 (Hereford 26 Oct, C&D), 946099 (Hereford 26 Oct), 943985 (Market Rasen 17 Oct), 941758 (Stratford 5 Oct), 919373 (Huntingdon 25 May), 940117 (Worcester 25 Sep), 933815 (Worcester 19 Aug), 928591 (Market Rasen 18 Jul), 926995 (Worcester 10 Jul), 901900 (Catterick 9 Feb), 940382 (Market Rasen 26 Sep), 936648 (Worcester 4 Sep), 933814 (Worcester 19 Aug), 925779 (Newton Abbot 3 Jul), 921528 (Fontwell 10 Jun), 913279 (Ludlow 22 Apr), 903801 (Warwick 20 Feb)
+
+## Result
+
+| Pick | Finish | SP | Comment |
+|---|---|---|---|
+| **Win: Alan Bresil** | **UR** at 4th | 4/1 | Blundered and unseated rider at the 4th |
+| **EW: Oneinthewell** | **PU** after 2 out | 1/1 | Tracked leaders, clipped 7th, dropped away, pulled up |
+| **Danger: Elated** | 2nd | 9/2 | Led, headed 2 out, well held |
+
+NR: Cinnodin.
+
+**Winner:** Lord Cauvelliere (5/1) — unranked.
+
+**What held:** Elated's stamina doubt (never beyond 2m3f, today about 3m1f) was correctly identified — she led but weakened. Oneinthewell's stamina concern and jumping-left doubt were validated.
+
+**What failed:** All three picks failed to complete or finish close. The market reversed dramatically between analysis and race (Oneinthewell 9/2 to Evens, Elated Evens to 9/2), suggesting strong late intelligence we missed by analysing the night before. Lord Cauvelliere was not assessed. Alan Bresil's UR is a random jumping casualty.
+
+**Grade: failed**

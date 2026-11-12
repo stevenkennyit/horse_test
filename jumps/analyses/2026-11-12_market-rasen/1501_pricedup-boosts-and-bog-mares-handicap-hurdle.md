@@ -202,3 +202,18 @@ None declared at 21:03. Fireball Frenzy holds a Windsor entry on Sat 14 Nov (SL)
 - RP card: https://www.racingpost.com/racecards/35/market-rasen/2026-11-12/930604 (pack 1501_rp.txt, read 21:02)
 - ATR card and pace: https://www.attheraces.com/racecard/Market-Rasen/12-November-2026/1501 (pack 1501_atr.txt, read 21:03)
 - SL results read via `tools/sl.js result`: Huntingdon 2026-02-05 (901878), Plumpton 2026-10-19 (944231), Newcastle 2026-04-11 (911679), Sedgefield 2026-03-19 (908031), Hexham 2026-05-02 (915103), Perth 2026-09-24 (939988), Musselburgh 2026-02-01 (900775) and 2025-12-22 (894953), Ludlow 2026-05-10 (916907) and 2025-10-23 (885851), Hereford 2026-10-26 (946100), Newton Abbot 2026-09-28 (940566), Ffos Las 2026-10-22 (945339), Uttoxeter 2026-07-15 (927823), Stratford 2026-08-25 (934789), Huntingdon 2025-02-20 (844645), Market Rasen 2023-12-07 (772527), 2024-05-23 (798830), 2025-11-26 (891248); gap-fill: Southwell 2026-04-01 (910044), Ayr 2026-03-07 (906200), Ludlow 2025-11-24 (890888), Carlisle 2026-02-16 (903781), Catterick 2026-02-24 (904315), Newcastle 2026-01-27 (900075) and 2025-11-14 (889370), Bangor 2024-10-29 (826765), Chepstow 2026-10-09 (942545), Kempton 2026-03-14 (907339), Market Rasen 2024-11-14 (829412), Newton Abbot 2026-06-12 (921945), Stratford 2025-03-10 (847226), Exeter 2026-03-22 (908360)
+
+## Result
+
+| Pick | Finish | SP | Comment |
+|---|---|---|---|
+| **Win: Burning Embers** | 4th, btn 1¾L | 9/2 | Towards rear, kept on at one pace, no extra, lost 3rd near finish |
+| **Danger: Briery Butterfly** | 3rd, btn 1½L | 11/2 | Midfield, headway before 2 out, outpaced before last, stayed on for 3rd |
+
+**Winner:** Diamond Grace (17/2) — unranked.
+
+**What held:** Low confidence was correctly flagged. Both picks ran close to the frame (3rd and 4th within 1¾L of the winner).
+
+**What failed:** Diamond Grace (O'Neill/O'Neill Jr, 17/2) was not assessed. Both picks were outpaced by the front two (Diamond Grace and Fireball Frenzy 7/2F), who raced more prominently.
+
+**Grade: failed**

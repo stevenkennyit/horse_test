@@ -112,3 +112,19 @@ Rest of the field: Show Your Hand 8% / 38%, Wyrley Birch 5% / 25%, Silver Salver
 **Probabilities:** unchanged (Ballydine Boy 43 / 75, Yafaarr 8 / 34, Northern Olympian 25 / 65; the rest as above).
 
 **Selections:** unchanged. The new data confirms Northern Olympian's stamina and class on the Flat, but it doesn't touch the keen-in-a-weak-pace reason for keeping him as the Danger rather than the Win.
+
+## Result
+
+| Pick | Finish | SP | Comment |
+|---|---|---|---|
+| **Win: Ballydine Boy** | 2nd, btn 4¼L | 11/10 | Chased leader, headway before 2 out, untidy last, kept on but no chance with winner |
+| **EW: Yafaarr** | 8th | 40/1 | Towards rear, never involved |
+| **Danger: Northern Olympian** | **1st** | 6/4 | Made all, unchallenged, untidy last, ridden out |
+
+**Winner:** Northern Olympian (6/4) — our Danger pick.
+
+**What held:** Correctly identified the three principals. Northern Olympian's franked form was the strongest signal. Ballydine Boy's pace advantage did get him into contention.
+
+**What failed:** Northern Olympian was kept as Danger on a keenness concern (error C), but he made all unchallenged on a sharp track — the concern didn't materialise because he controlled the race. Ballydine Boy's hurdling debut was the bigger risk than acknowledged. **Error P** — proven form horse demoted to Danger on a soft doubt.
+
+**Grade: mixed**

@@ -101,3 +101,21 @@ The least exposed runner: two handicap runs, an eased 5L win and a neck second u
 - At The Races card: https://www.attheraces.com/racecard/Hereford/12-November-2026/1340 (read by the coordinator 09:11)
 - Sporting Life results read this session with `tools/sl.js result` (date, race id): 2026-10-25 945186 (Market Rasen, Lightning Flash); 2026-09-28 940564 (Newton Abbot); 2025-09-25 880905 (Perth); 2026-04-24 913682 and 913683 (Perth, Mr Jukebox and Dublinofficecallin); 2026-04-17 912523 (Exeter); 2026-04-22 913277, 2026-03-19 908026, 2026-02-04 901681 (Ludlow, Windsor Blue); 2026-04-01 910069 (Wincanton), 2026-02-11 902309 and 2026-03-18 907845 (Hereford, Lydeard Girl); 2026-10-09 942543 (Chepstow) and 2025-11-28 891621 (Musselburgh, City Of Diamonds); 2026-09-08 937222 (Bangor), 2026-07-12 927312 (Stratford, Person Of Interest); 2026-06-16 922560 (Stratford), 2026-05-13 916708 (Perth, Dublinofficecallin)
 - Sporting Life card and going, re-read 09:14: `node tools/sl.js card 2026-11-12 948183`, `node tools/sl.js going 2026-11-12`
+
+## Result
+
+| Pick | Finish | SP | Comment |
+|---|---|---|---|
+| **Win: Lightning Flash** | 6th (last finisher) | 6/1 | Handy early, lost position before 2 out, beaten |
+| **EW: Lydeard Girl** | 5th, btn 9L | 6/1 | Tracked leaders, mistake at 6th, weakened on home turn |
+| **Danger: Mr Jukebox** | **1st** | 11/8 | Held up towards rear, led at 2 out, drew clear on the bridle |
+
+1 fell: City Of Diamonds (fell 3 out).
+
+**Winner:** Mr Jukebox (11/8F) — our Danger pick.
+
+**What held:** Mr Jukebox was correctly identified as having the best recent form.
+
+**What failed:** Mr Jukebox's 202-day layoff was used to demote him to Danger, but the market made him clear favourite. Lightning Flash's lone-leader thesis didn't work — he couldn't sustain the pace at about 2m6f (never raced beyond 2m4f35y, correctly flagged as a doubt). Lydeard Girl's jumping errors recurred. **Error P** — proven form horse demoted to Danger on a soft doubt (layoff).
+
+**Grade: failed**

@@ -174,3 +174,18 @@ He is race-fit and has won here twice, including 8 Oct; on 17 Oct he was 2nd aft
 - SL results (via `tools/sl.js result`): 2026-10-17 race 943988, 2026-10-08 942376, 2026-06-12 921936, 2026-03-15 907331, 2026-04-21 913089, 2026-05-14 916936, 2026-09-04 936649, 2026-07-22 929086, 2026-09-22 939558, 2026-09-15 938408, 2026-03-23 908542, 2026-11-01 946334, 2026-07-18 928587
 - Gaps pass (21:23 Wed): SL result JSON `jockey_claim` field for 2026-04-21 913089, 2026-10-17 943988, 2026-10-08 942376, 2026-06-12 921936, 2026-05-14 916936, 2026-07-22 929086, 2026-09-04 936649. SL profiles: Caelan 1114194, Ip Up 1047842, Saint Polo 1140118. SL results: 2025-09-20 Navan 880264, 2025-12-20 Thurles 894919
 - RP result pages still to check (coordinator's browser): rp916272 (Ffos Las 21 Apr, Caelan's claim), rp928437 (17 Oct), rp928352 (8 Oct), rp919933 (12 Jun)
+
+## Result
+
+| Pick | Finish | SP | Comment |
+|---|---|---|---|
+| **Win: Trust House** | **PU** before 2 out | 40/1 | Towards rear, weakened, pulled up |
+| **Danger: Ballygeary** | 2nd, btn 8½L | 5/2 | Raced freely, midfield, headway before 2 out, battled but no chance with winner |
+
+**Winner:** Moutarde (11/1) — unranked.
+
+**What held:** Ballygeary ran a competitive race as expected (2nd).
+
+**What failed:** Trust House drifted from 11/4 to 40/1 and was PU. The 153-day layoff, new small yard, and first-time claimer were all flagged as doubts but not weighted heavily enough. The market collapse suggests the horse was not ready. Moutarde was not assessed. **Error F** — a standout figure ranked above its own stated layoff and stable-form warning.
+
+**Grade: failed**

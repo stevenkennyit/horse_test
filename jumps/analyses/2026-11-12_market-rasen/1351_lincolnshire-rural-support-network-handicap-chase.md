@@ -146,3 +146,16 @@ He has the best stamina profile in the field: won over 2m6f125y on his latest st
 - SL profiles of the rivals from the Worcester, Market Rasen, Stratford and Hereford races (to see what those races have produced since)
 - Jockey Club going page: https://www.thejockeyclub.co.uk/marketrasen/owners-and-trainers/the-going
 - Course guides: https://britishracecourses.org/market-rasen/ ; https://www.attheraces.com/course-guides/Market-Rasen
+
+## Result
+
+| Pick | Finish | SP | Comment |
+|---|---|---|---|
+| **Win: Noble Recall** | **1st** | 5/2 | Rear of midfield, led before 3 out, went clear before 2 out, kept on |
+| **Danger: Crac De Megaudais** | 5th | 9/2 | Midfield, outpaced after 11th, moderate late headway |
+
+**Winner:** Noble Recall (5/2F) — our Win pick.
+
+**What held:** Noble Recall's wide handicap margin (RPRs of 83 against an effective mark of 76) and consistent recent form were the key factors. The 5lb claim was decisive. Crac De Megaudais was outpaced as feared.
+
+**Grade: held**

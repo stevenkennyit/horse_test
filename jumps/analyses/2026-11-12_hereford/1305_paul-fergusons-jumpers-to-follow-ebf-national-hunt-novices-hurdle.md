@@ -124,3 +124,19 @@ None flagged. Ground is quick (watered); no runner has a recorded soft-ground de
 - Racing Post card (coordinator extract, 09:09): https://www.racingpost.com/racecards/24/hereford/2026-11-12/930593/
 - Sporting Life results read in full (https://www.sportinglife.com/racing/results/<date>/x/<id>/x): 2026-10-04/941608 (Uttoxeter, Governors Rock), 2026-10-23/944907 (Cheltenham G2), 2026-10-18/944008 (Sedgefield, Moscow Star), 2026-09-10/937615 and 2026-08-23/934497 (Worcester bumpers), 2026-10-07/942191 (Spanish Darling's hurdle win), 2026-09-20/939255 (Plumpton), 2026-06-30/925078, 2026-07-24/929550, 2026-05-06/915603, 2026-04-02/910251, 2025-05-14/857350, 2025-04-23/853953, 2025-03-20/848863, 2026-10-26/945375, 2026-10-26/945379, 2025-12-10/893245, 2025-09-30/881693, 2026-10-29/945939, 2026-10-29/945940, 2026-10-13/943167
 - Sporting Life profiles: Spanish Darling 1224190, Delulu 1236025, I've Got A Friend 1236026, Turbogeist 1224299, Whin Cover 1185930, Venezuelan 1161988, Analogical 1160928, Hay Max 1178905, Codger's Rock 1218127, Can't Resist It 1109042, One Dimensional 1208549, Premier Fantasy 1186090
+
+## Result
+
+| Pick | Finish | SP | Comment |
+|---|---|---|---|
+| **Win: Governors Rock** | **1st** | 1/2 | Made all, drew clear after 2 out, won easily |
+| **EW: Jaunty Trooper** | 5th, btn ~11L | 10/1 | Chased leaders, hesitant at 2nd, weakened before 2 out |
+| **Danger: Moscow Star** | 2nd, btn 3¼L | 2/1 | Close up, pushed along before 2 out, no answer to winner |
+
+**Winner:** Governors Rock (1/2F) — our Win pick.
+
+**What held:** Governors Rock's superior form (RPR 123, 109) and front-running style on a sharp track were decisive. Moscow Star ran to his position as the clear second. The first-time hood and rider change flagged as doubts didn't materialise.
+
+**What failed:** EW pick Jaunty Trooper weakened on his hurdle debut. The collateral chain through Spanish Darling was too thin a case for the each-way.
+
+**Grade: held**
