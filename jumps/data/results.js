@@ -381,6 +381,217 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-11-12",
+      "course": "Hereford",
+      "country": "GB",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Good, Good to Firm in places (GoingStick 6.4, watered); checked 09:07 Thu 12 Nov (Racing Post meeting header; Sporting Life going page agrees at 09:14)",
+      "dataErrors": [
+        "Gap-filling pass skipped at the user's request: all four races recorded from the race-analysts' first reports",
+        "No Racing Post result page was read by the analysts; RP comments and RPR/TS come from the card's recent-form lines only",
+        "Only the first four races of the card were analysed (14:50 and 15:25 left out at the user's request)",
+        "Hereford course character (sharp, right-handed, suits handy racers) asserted; no quantified pace bias",
+        "Whether listed distances already include the rail movements (+85yds, +108yds, +120yds) not confirmed",
+        "Princess Of Habo's three German runs (Hoppegarten, Dortmund, Munich) and Thetype Istitle's Irish point on Racing Post only",
+        "Non-runners and going read 09:07-09:14; to re-check close to the off"
+      ],
+      "races": [
+        {
+          "time": "12:30",
+          "name": "CopyBet Back Again At Hereford Fillies' Juvenile Hurdle (GBB Race)",
+          "type": "hurdle",
+          "distance": "2m 53y",
+          "going": "Good, Good to Firm in places",
+          "runners": 3,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-12_hereford/1230_copybet-back-again-at-hereford-fillies-juvenile-hurdle.md",
+          "updated": "09:15 Thu 12 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Koala Rose",
+              "prob": 0.55,
+              "placeProb": 0.88,
+              "finish": "-",
+              "price": "4/7",
+              "priceAt": "09:13 Thu 12 Nov",
+              "confidence": "medium",
+              "reason": "Best verified Flat form in the field (OR 77-78, RPR 84; twice beaten a neck with 10L and 12L back to the third); proven on Good and Good to Firm, stays 1m6f and is the likely leader; first run for Dan Skelton.",
+              "against": "Hurdling debut, jumping unproven; beaten at 9/4 or shorter five times from six runs and headed late twice; her two Good to Firm runs were her weaker ones; 4/7 is shorter than our fair 9/11."
+            },
+            {
+              "role": "danger",
+              "horse": "Princess Of Habo",
+              "prob": 0.38,
+              "placeProb": 0.82,
+              "finish": "-",
+              "price": "13/8",
+              "priceAt": "09:13 Thu 12 Nov",
+              "confidence": null,
+              "reason": "Improving German recruit (Nancy maiden win, then two narrow seconds over 1m6f) for the hottest yard and jockey at the meeting (Snowden 16/46, Sheehan 19/62 in the last month).",
+              "against": "Also a hurdling debutant; her verified form is on Soft or Heavy; 116 days off; only one RP figure (RPR 79); three of her runs are on Racing Post only."
+            }
+          ]
+        },
+        {
+          "time": "13:05",
+          "name": "Paul Fergusons Jumpers To Follow EBF 'National Hunt' Novices' Hurdle (Qualifier) (GBB Race)",
+          "type": "hurdle",
+          "distance": "2m 53y",
+          "going": "Good, Good to Firm in places",
+          "runners": 12,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-12_hereford/1305_paul-fergusons-jumpers-to-follow-ebf-national-hunt-novices-hurdle.md",
+          "updated": "09:15 Thu 12 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Governors Rock",
+              "prob": 0.44,
+              "placeProb": 0.75,
+              "finish": "-",
+              "price": "10/11",
+              "priceAt": "09:14 Thu 12 Nov",
+              "confidence": "medium",
+              "reason": "Clear best form: RPR 123 in the Cheltenham Grade 2 and 109 for an easy 9L Uttoxeter win (next best in the field 103); proven at 2m on good, 'jumped well, made all'; a front-runner on a sharp right-handed track.",
+              "against": "Gives 6lb to the geldings and 13lb to the mares; weakened on the run-in at Cheltenham after contesting the lead, and Moscow Star also led last time; first-time hood with a rider new to him; two tailed-off bumper runs."
+            },
+            {
+              "role": "ew",
+              "horse": "Jaunty Trooper",
+              "prob": 0.14,
+              "placeProb": 0.43,
+              "finish": "-",
+              "price": "6/1",
+              "priceAt": "09:14 Thu 12 Nov",
+              "confidence": "low",
+              "reason": "Beaten 1¼L at level weights in a Worcester bumper by Spanish Darling, who has since won a maiden hurdle by 7L and finished about 10L ahead of Governors Rock in the Cheltenham Grade 2; gets 6lb from the favourite and races prominently.",
+              "against": "Hurdle debut; bucked and unseated on debut; 63 days off; small yard and a jockey 19 rides without a winner; the collateral is one horse's chain from a bumper; each-way marginal at 6/1."
+            },
+            {
+              "role": "danger",
+              "horse": "Moscow Star",
+              "prob": 0.17,
+              "placeProb": 0.50,
+              "finish": "-",
+              "price": "4/1",
+              "priceAt": "09:14 Thu 12 Nov",
+              "confidence": null,
+              "reason": "The only rival with solid hurdle form: 2nd of 8 at Sedgefield (RPR 103), rallying after mistakes 4 out and 2 out; Sheehan in form; likely on or near the lead.",
+              "against": "Mistakes last time; the yard is 23 runners without a winner; could take on Governors Rock for the lead."
+            }
+          ]
+        },
+        {
+          "time": "13:40",
+          "name": "CopyBet For Nations League Profit Boosts Handicap Hurdle",
+          "type": "hurdle",
+          "distance": "2m 5f 163y",
+          "going": "Good, Good to Firm in places",
+          "runners": 7,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-12_hereford/1340_copybet-for-nations-league-profit-boosts-handicap-hurdle.md",
+          "updated": "09:15 Thu 12 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Lightning Flash",
+              "prob": 0.29,
+              "placeProb": 0.50,
+              "finish": "-",
+              "price": "7/4",
+              "priceAt": "09:14 Thu 12 Nov",
+              "confidence": "low",
+              "reason": "Likely lone leader (made all 25 Oct; ATR pace bar 90%, nothing else above 60%); race-fit at 18 days; the 7lb claim (12-0 down to 11-7) cancels his 7lb rise; yard 11/58 in the last month.",
+              "against": "Never raced beyond 2m 4f 35y and today is about 2m 6f with the rail movement; his win was a 6-runner Class 5 three weeks after an 8¼L defeat in a seller; error-prone; amateur rider 34 rides since a win."
+            },
+            {
+              "role": "ew",
+              "horse": "Lydeard Girl",
+              "prob": 0.12,
+              "placeProb": 0.30,
+              "finish": "-",
+              "price": "8/1",
+              "priceAt": "09:14 Thu 12 Nov",
+              "confidence": "low",
+              "reason": "Proven stayer (2nd at 3m 150y on Good, beaten 2¼L, up only 2lb); gets 14lb from Mr Jukebox and 8lb from Lightning Flash after his claim, and both market leaders are untried at the trip; trainer 7/22 at Hereford.",
+              "against": "Maiden after 8 runs; jumping errors in 4 of 6 hurdle runs (unseated at the last here in March); 225 days off; may lack pace on a sharp track on quick ground; each-way terms (2 places) thin at 8/1."
+            },
+            {
+              "role": "danger",
+              "horse": "Mr Jukebox",
+              "prob": 0.25,
+              "placeProb": 0.45,
+              "finish": "-",
+              "price": "5/2",
+              "priceAt": "09:14 Thu 12 Nov",
+              "confidence": null,
+              "reason": "Least exposed runner: eased 5L win off 97, then a neck second off 104 with 7½L to the third; no jumping error on record.",
+              "against": "Off 202 days with no evidence he goes well fresh; in effect top weight; caught close home at 2m 4f before going further."
+            }
+          ]
+        },
+        {
+          "time": "14:15",
+          "name": "CopyBet BOG Now For Cheltenham Tomorrow Novices' Handicap Hurdle (GBB Race)",
+          "type": "hurdle",
+          "distance": "3m 1f 119y",
+          "going": "Good, Good to Firm in places",
+          "runners": 5,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "writeup": "jumps/analyses/2026-11-12_hereford/1415_copybet-bog-now-for-cheltenham-tomorrow-novices-handicap-hurdle.md",
+          "updated": "09:15 Thu 12 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Alan Bresil",
+              "prob": 0.34,
+              "placeProb": 0.63,
+              "finish": "-",
+              "price": "2/1",
+              "priceAt": "09:14 Thu 12 Nov",
+              "confidence": "low",
+              "reason": "Only runner proven at 3m1f+ on good or faster ground: 3rd over C&D 26 Oct (9¼L, good to firm) and 3rd at Huntingdon 1 Nov (2L, good); carries 10-2 after the 10lb claim, 10lb and 13lb less than in those runs; 14 completions from 14.",
+              "against": "0 from 14; both thirds were Class 5 and he was outpaced 2 out before staying on; a 5-runner race on a sharp track may not test stamina; yard 48 runners since a winner; fourth run in 38 days."
+            },
+            {
+              "role": "ew",
+              "horse": "Oneinthewell",
+              "prob": 0.25,
+              "placeProb": 0.54,
+              "finish": "-",
+              "price": "9/2",
+              "priceAt": "09:14 Thu 12 Nov",
+              "confidence": "low",
+              "reason": "Best form in the field: 3rd of 15, beaten 10L, in a Class 2 novices' handicap final off 110; last five hurdle runs all within 10L of the winner; stays 2m7f on good (2nd, 2L); a place opens up if Elated fails to stay.",
+              "against": "Top weight 12-0; about 3f beyond his proven good-ground trip and beaten 21¾L on his only 3m1f run (soft); jumps left on a right-handed track; also entered at Windsor on Saturday; rated about 1.5x the market."
+            },
+            {
+              "role": "danger",
+              "horse": "Elated",
+              "prob": 0.32,
+              "placeProb": 0.55,
+              "finish": "-",
+              "price": "Evens",
+              "priceAt": "09:14 Thu 12 Nov",
+              "confidence": null,
+              "reason": "Lone front-runner on quick ground at a sharp track; placed in every completed hurdle start; first run for a new yard.",
+              "against": "Never run beyond 2m3f, where she weakened after the last, and today is about 9f further than her last run; RPRs of 92-100 do not put her ahead of a mark of 99; no verified reason found for her even-money price."
+            }
+          ]
+        }
+      ]
     }
   ]
 });
