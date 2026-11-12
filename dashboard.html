@@ -155,9 +155,9 @@
   <section class="tiles" id="tiles" aria-label="Headline figures"></section>
 
   <section class="card" style="margin-top:12px">
-    <h2>Selection value over time</h2>
-    <p class="desc">Running total of selection value (every named pick — Win, Each-Way <em>and</em> Danger — scored as a 1pt each-way bet at SP). <strong>Line rises</strong> when any pick wins (returns full SP odds) or places (returns the place fraction of the odds). <strong>Line falls</strong> when a pick does not win or place (−1pt per pick). A rising line means the selections are finding value; a flat or falling line means they are not. Hover a point for the race detail.</p>
-    <div class="legend"><span><i style="background:var(--series-1)"></i>Cumulative selection value</span></div>
+    <h2>EW value over time</h2>
+    <p class="desc">Running total scoring every named pick (Win, Each-Way <em>and</em> Danger) as a 1pt each-way bet at SP. <strong>Line rises</strong> when any pick wins (returns full SP odds) or places (returns the place fraction of the odds). <strong>Line falls</strong> when a pick does not win or place (−1pt per pick). A rising line means the selections are finding value; a flat or falling line means they are not. Hover a point for the race detail.</p>
+    <div class="legend"><span><i style="background:var(--series-1)"></i>Cumulative EW value</span></div>
     <div id="chart-selval"></div>
   </section>
 
@@ -581,7 +581,7 @@
     el.innerHTML = s; bindTips(el);
   }
 
-  // ---- selection value over time: cumulative line (all picks scored each-way at SP) ----
+  // ---- EW value over time: cumulative line (all picks scored each-way at SP) ----
   function renderSelVal(races) {
     const settled = races.filter((r) => r.status === "settled")
       .sort((a, b) => (a.meeting.date + a.time).localeCompare(b.meeting.date + b.time));
@@ -604,7 +604,7 @@
     const ylo = lo - (lo < 0 ? pad : 0), yhi = hi + pad;
     const y = (v) => m.t + ih - ((v - ylo) / (yhi - ylo)) * ih;
     const x = data.length === 1 ? () => m.l + iw / 2 : (i) => m.l + (iw * i) / (data.length - 1);
-    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Cumulative selection value over time">`;
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Cumulative EW value over time">`;
     const steps = 4;
     for (let k = 0; k <= steps; k++) {
       const v = ylo + ((yhi - ylo) * k) / steps;
