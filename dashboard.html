@@ -156,9 +156,16 @@
 
   <section class="card" style="margin-top:12px">
     <h2>Selection value over time</h2>
-    <p class="desc">Running total of selection value (every named pick — Win, Each-Way <em>and</em> Danger — scored as a 1pt each-way bet at SP: winner returns full win odds, placer returns the place fraction, else −1). A rising line means the selections are finding value; a flat or falling line means they are not. Hover a point for the race detail.</p>
+    <p class="desc">Running total of selection value (every named pick — Win, Each-Way <em>and</em> Danger — scored as a 1pt each-way bet at SP). <strong>Line rises</strong> when any pick wins (returns full SP odds) or places (returns the place fraction of the odds). <strong>Line falls</strong> when a pick does not win or place (−1pt per pick). A rising line means the selections are finding value; a flat or falling line means they are not. Hover a point for the race detail.</p>
     <div class="legend"><span><i style="background:var(--series-1)"></i>Cumulative selection value</span></div>
     <div id="chart-selval"></div>
+  </section>
+
+  <section class="card" style="margin-top:12px">
+    <h2>Winner strike value over time</h2>
+    <p class="desc">Running total scoring every named pick (Win, Each-Way <em>and</em> Danger) as a 1pt win-only bet at SP. <strong>Line rises</strong> when any pick wins (returns full SP odds). <strong>Line falls</strong> when a pick does not win (−1pt per losing pick). Measures whether our selections are finding winners at value prices, ignoring place returns. Hover a point for the race detail.</p>
+    <div class="legend"><span><i style="background:var(--series-2)"></i>Cumulative winner value</span></div>
+    <div id="chart-winval"></div>
   </section>
 
   <div class="grid2">
@@ -619,6 +626,63 @@
     el.innerHTML = s; bindTips(el);
   }
 
+  // ---- winner strike value: cumulative line (all picks scored win-only at SP) ----
+  function renderWinVal(races) {
+    const settled = races.filter((r) => r.status === "settled")
+      .sort((a, b) => (a.meeting.date + a.time).localeCompare(b.meeting.date + b.time));
+    const el = $("chart-winval");
+    if (!settled.length) { el.innerHTML = '<p class="muted">No settled races.</p>'; return; }
+    let run = 0, data = [];
+    settled.forEach((r) => {
+      let raceVal = 0, cnt = 0;
+      r.picks.forEach((p) => {
+        if (!p || !p.sp || p.finish === "-") return;
+        const dec = toDec(p.sp); if (dec == null) return;
+        cnt++;
+        raceVal += String(p.finish) === "1" ? (dec - 1) : -1;
+      });
+      if (!cnt) return;
+      run += raceVal;
+      data.push({ r, raceVal, picks: cnt, cum: run });
+    });
+    if (!data.length) { el.innerHTML = '<p class="muted">No scored selections.</p>'; return; }
+    const multi = new Set(data.map((d) => d.r.meeting)).size > 1;
+    const W = Math.max(320, el.clientWidth || 960), H = 240, m = { t: 18, r: 14, b: 40, l: 44 };
+    const iw = W - m.l - m.r, ih = H - m.t - m.b;
+    const lo = Math.min(0, ...data.map((d) => d.cum)), hi = Math.max(0, ...data.map((d) => d.cum));
+    const pad = (hi - lo) * 0.12 || 1;
+    const ylo = lo - (lo < 0 ? pad : 0), yhi = hi + pad;
+    const y = (v) => m.t + ih - ((v - ylo) / (yhi - ylo)) * ih;
+    const x = data.length === 1 ? () => m.l + iw / 2 : (i) => m.l + (iw * i) / (data.length - 1);
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Cumulative winner value over time">`;
+    const steps = 4;
+    for (let k = 0; k <= steps; k++) {
+      const v = ylo + ((yhi - ylo) * k) / steps;
+      const zero = Math.abs(v) < 1e-9;
+      s += `<line x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}" stroke="${zero ? "var(--axis)" : "var(--grid)"}" stroke-width="1"/>`;
+      s += `<text class="tick" x="${m.l - 6}" y="${y(v) + 4}" text-anchor="end">${v > 0 ? "+" : ""}${v.toFixed(1)}</text>`;
+    }
+    if (ylo < 0 && yhi > 0) s += `<line x1="${m.l}" x2="${W - m.r}" y1="${y(0)}" y2="${y(0)}" stroke="var(--axis)" stroke-width="1"/>`;
+    const line = data.map((d, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(d.cum).toFixed(1)}`).join("");
+    s += `<path d="${line}" fill="none" stroke="var(--series-2)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+    const labelEvery = Math.ceil(data.length / Math.max(2, Math.min(8, Math.floor(iw / 80))));
+    data.forEach((d, i) => {
+      const cx = x(i), cy = y(d.cum);
+      s += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="3" fill="var(--series-2)"/>`;
+      if (i % labelEvery === 0 || i === data.length - 1) {
+        const lab = (multi ? d.r.meeting.date.slice(5) + " " : "") + d.r.time;
+        s += `<text class="tick" x="${cx.toFixed(1)}" y="${H - 10}" text-anchor="middle">${esc(lab)}</text>`;
+      }
+      const tipHtml = `<b>${esc(d.r.meeting.date)} ${esc(d.r.time)} ${esc(d.r.meeting.course)}</b>Race value ${d.raceVal > 0 ? "+" : ""}${d.raceVal.toFixed(2)} (${d.picks} picks) · running total ${d.cum > 0 ? "+" : ""}${d.cum.toFixed(2)}`;
+      const hw = iw / data.length;
+      s += `<rect class="hit" x="${(cx - hw / 2).toFixed(1)}" y="${m.t}" width="${hw.toFixed(1)}" height="${ih}" data-tip="${esc(tipHtml)}"/>`;
+    });
+    const last = data[data.length - 1];
+    s += `<text class="lbl" x="${x(data.length - 1).toFixed(1)}" y="${(y(last.cum) - 8).toFixed(1)}" text-anchor="end" style="fill:var(--text-primary);font-weight:650">${last.cum > 0 ? "+" : ""}${last.cum.toFixed(2)}pt</text>`;
+    s += "</svg>";
+    el.innerHTML = s; bindTips(el);
+  }
+
   // ---- money won/lost in euros: cumulative (growing) bars over time ----
   function renderBankroll(races) {
     const rows = races.filter((r) => r.status === "settled")
@@ -1029,6 +1093,7 @@
     const races = selectedRaces(), meetings = selectedMeetings();
     renderTiles(races, meetings);
     renderSelVal(races);
+    renderWinVal(races);
     renderPL(races);
     renderTimeline(races);
     renderBankroll(races);
