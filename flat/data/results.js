@@ -34,6 +34,59 @@
       "dataErrors": [],
       "races": [
         {
+          "time": "18:00",
+          "name": "Christmas Party Nights At Dundalk Stadium Handicap",
+          "type": "handicap",
+          "distance": "6f",
+          "going": "Standard",
+          "runners": 10,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "",
+          "winner": null,
+          "writeup": "flat/analyses/2026-11-13_dundalk/1800_6f-handicap.md",
+          "updated": "16:45 Fri 13 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Firewalker",
+              "prob": 0.24,
+              "placeProb": 0.52,
+              "finish": "-",
+              "confidence": "medium",
+              "price": "10/3",
+              "priceAt": "16:26 Fri 13 Nov",
+              "reason": "Last-time Dundalk 6f maiden winner making all; 25 Sep direct h2h with Caffu Zafeen reruns 13lb better off on real weight (beaten 1½L then, projects ~3½L ahead today). Wayne Lordan upgrade — he rode the 2nd on 16 Oct and now switches onto the winner.",
+              "against": "Up 6lb into first handicap off a maiden-grade win; likely contested pace from Chicago Pope (ATR 80) and Frescobaldi could blunt the make-all angle."
+            },
+            {
+              "role": "ew",
+              "horse": "Chicago Pope",
+              "prob": 0.09,
+              "placeProb": 0.25,
+              "finish": "-",
+              "confidence": "low",
+              "price": "16/1",
+              "priceAt": "16:26 Fri 13 Nov",
+              "reason": "Naas 6f 3yo Premier Handicap winner 9 May off OR85 carrying 9-9, today same OR 85 carrying 8-13 (10lb lighter real weight); 13 Jun York 6f Class 2 4/22 off OR89 is strong 3yo-form backup; Ben Coen retained for AW debut after two soft-ground Curragh runs.",
+              "against": "AW debut and two consecutive poor Curragh runs; the York form line is five months old; needs a one-off bounce."
+            },
+            {
+              "role": "danger",
+              "horse": "Sir Les Patterson",
+              "prob": 0.16,
+              "placeProb": 0.45,
+              "finish": "-",
+              "confidence": "medium",
+              "price": "5/1",
+              "priceAt": "16:26 Fri 13 Nov",
+              "reason": "Group-3 class last time at 5f, dropping to C&D 6f at essentially the OR he won off here Feb 20 (OR99 10-0 then / OR100 10-0 today); Jack Kearney retained."
+            }
+          ]
+        },
+        {
           "time": "18:30",
           "name": "View Restaurant At Dundalk Stadium Nursery Handicap",
           "type": "nursery",
