@@ -11,7 +11,8 @@
 //   picks[].placeProb agent's stated chance (0-1) the horse finishes within the each-way places for the field size
 //   picks[].finish    official finishing position, or "F", "PU", "UR", "BD", "R"; "-" while pending
 //   picks[].sp        starting price (fractional, e.g. "5/2", "Evens"), added at review from the result page
-//   picks[].price, .priceAt   price seen at analysis (fractional, e.g. "7/2") and when ("08:40 Thu 12 Nov"); context only, since 11 Nov 2026
+//   picks[].price, .priceAt   LEGACY (11 Nov 2026 only; prices-as-context reverted 13 Nov 2026). Dashboard still reads
+//                     them where present in the archive, but new picks don't record them — the agent is price-blind again.
 //   picks[].confidence, .reason, .against   "low"|"medium"|"high"; one-line case for and against (shown on upcoming.html)
 //   picks[].rank      LEGACY ordering (1,2,3) used by meetings before 27 Oct 2026; .danger true marked the danger.
 //                     The dashboard maps legacy rows: rank 1 -> Win, rank 2 -> Each-Way, danger -> Danger.

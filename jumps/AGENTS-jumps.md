@@ -31,7 +31,7 @@ The flat playbook's core trio is weight / times / consistency. Over jumps, **jum
 3. **Weight change / well-handicapped**: what the horse carried in its key past runs versus today, and whether it is running off a lenient or outdated mark.
 4. **Consistency**: how reliably the horse runs to its level — and completes — across recent runs.
 
-Finishing times, ratings (RPR, Topspeed) and connections are secondary. **Prices are context, not the decider** — the agent ranks on the race data and reads current prices only as a check (Step 14, "Prices as context"). Use them to support or challenge the core picture, not to override it. **The draw is not a factor over jumps** — see Step 9.
+Finishing times, ratings (RPR, Topspeed) and connections are secondary. **Prices and market moves are not inputs** — the agent ranks on the race data alone and does not fetch or quote odds. Use them to support or challenge the core picture, not to override it. **The draw is not a factor over jumps** — see Step 9.
 
 **Head-to-heads are the strongest single evidence when they repeat.** When the same horses have met in several races and the weight-adjusted results agree, trust that over any single time figure or rating. This is *more* true over jumps than on the flat, because jumps times are so noisy — repeated meetings on the track are the cleanest signal you have.
 
@@ -228,7 +228,7 @@ List everything you couldn't verify.
 
 ## Step 14: Issue the selections — Win, Each-Way, Danger
 
-The agent's job ends at the selections. It does not recommend bets, stakes or bet types; the user decides how to bet. It may read current prices as context (below). Issue up to **three named selections, each a different horse**:
+The agent's job ends at the selections. It does not recommend bets, stakes or bet types, and does not check prices; the user decides how to bet. Issue up to **three named selections, each a different horse**:
 
 - **WIN (required):** the single most-likely winner.
 - **EACH-WAY (optional):** a different horse to run into a place — the best each-way proposition *on the agent's own numbers*, normally at a longer fair price than the Win. Choose it to maximise each-way expectation (a genuine place chance at a price), **not** as "second-most-likely winner." Omit it when no runner is a worthwhile each-way proposition — a short win-only field (under 5 runners), or nothing with a place chance at a price.
@@ -241,11 +241,7 @@ For every selection give:
 
 The win probabilities across the field must be realistic: the three selections' win chances plus the rest of the field add up to about 100%. The **Win must hold the highest win probability**; the Each-Way usually has a lower win chance but a place chance strong enough to make it the better each-way call.
 
-- **Prices as context, not the decider.** The fact pack includes current prices with the time read (`tools/sl.js`). Look at them only after the form-based ranking is done, in the same pass:
-  - **Check, don't follow.** Never shortlist, rank or drop a horse because of its price, and never move a pick towards the favourite without a form reason.
-  - **Big disagreements need a named reason.** If a pick's win chance is more than about 1.25× the market's (e.g. 30% on a 4/1 shot, which the market rates 20%), state the specific, verified thing the market may be missing (claim, weight carried, wind op, going, trip, pace, jumping). With no such reason, re-check the case before keeping the number. *(Audit 11 Nov 2026 of 379 logged picks, 18 meetings to 10 Nov: those rated more than 25% above their SP won 8 of 119, −31 points; SP-implied chances were better calibrated than the agent's.)*
-  - **Each-Way:** judge it on the agent's own place chance against the current price and place terms.
-  - Morning prices are not the SP; picks are still scored at SP after the race. Record the price seen for each pick as `price` and `priceAt`.
+- **Prices and the market are still not inputs.** "Each-way value" here means the agent's own place expectation at a longer fair price, **not** a comparison with bookmakers' odds (never seen before the off). The after-the-race SP reveals whether the Each-Way was genuinely underrated.
 - **Unraced horses in bumpers need evidence, not a price tag.** An unraced horse may not be the Win, or be rated above about 30% win chance, over raced rivals unless it has a weight-adjusted edge on them, claims included. Purchase price, pedigree and jockey booking are not evidence on their own. If every contender is unraced, mark confidence low. *(Added after Galway 25 Oct 2026: unraced Moscovite (40%) finished last in the 16:30 bumper; raced fillies getting 7lb filled 1st, 3rd, 4th and 5th.)*
 - **Note likely non-runners** (ground-dependent withdrawals are common over jumps) and how each would change the selections.
 
@@ -344,20 +340,6 @@ Once results are published, judge the reasoning, not the result.
 
 ## Data sources
 
-### Source priority (audit 11 Nov 2026)
-Read each source with its tool (`tools/README.md`), not WebFetch: WebFetch summaries of RP and ATR pages dropped comments and invented details. When sources disagree, the lead source wins on its fields; anywhere else, report both as a range or a conflict.
-
-| Data | Lead source | Check against |
-|---|---|---|
-| Jockey claims, weight carried | **Racing Post** (`rp-card.js`) | SL weights are before claims; SL has no claim field |
-| RPR, Topspeed, time vs standard | **Racing Post** | Only RP has them |
-| Results: margins, in-running / jumping comments | **Racing Post** result pages | SL result (margins can be misprinted) |
-| Non-runners, going close to the off | **Racing Post + At The Races** | SL lagged (showed "DOUBTFUL" for an RP/ATR non-runner) |
-| Full career, older runs (beyond RP's last 5–7) | **Sporting Life** (`sl.js pack`) | RP for the overlapping runs (`xcheck.js`); treat RP profile rows missing from SL as suspect |
-| C / D / CD / BF | **Computed by `sl.js pack`** from the full career | Not ATR card pills (they are not the standard symbols) |
-| Pace | **At The Races** (`atr-card.js`) | Run-style comments in both RP and SL |
-| Prices | Sporting Life market block | Context only |
-
 Carried over from the flat playbook, with jumps-specific additions. Pages can only be opened once they appear in a search result (Sporting Life and Racing Post result URLs can also be built directly once the race ID is known).
 
 | Source | Use it for | Notes |
@@ -378,7 +360,7 @@ Carried over from the flat playbook, with jumps-specific additions. Pages can on
 | BHA / Weatherbys, Timeform | Official ratings; paid ratings | Partial |
 
 ### Data-gathering routine
-1. **Racecard:** Racing Post race page and Sporting Life racecard; At The Races card for pace and track character (its C/D pills are not the standard symbols; use the flags `tools/sl.js pack` computes). Note the current prices and the time read, as context only.
+1. **Racecard:** Racing Post race page and Sporting Life racecard; At The Races card for course/distance records and track character. Ignore the odds.
 2. **Run history, weights, jumping:** Sporting Life profile (or Sky Sports); record result link paths for each run.
 3. **Jumping & in-running:** open each key Racing Post result and read the jumping/in-running comment; log any fluency figure.
 4. **Stamina & ground:** build each horse's trip-and-going record from the run list.
