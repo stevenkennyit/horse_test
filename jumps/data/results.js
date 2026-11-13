@@ -158,6 +158,59 @@
           ]
         },
         {
+          "time": "14:55",
+          "name": "Jilly Cooper Veterans' Handicap Chase",
+          "type": "chase",
+          "distance": "2m 4f 44y",
+          "going": "Good (Good to Soft in places)",
+          "runners": 8,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Class 2 Veterans' Handicap Chase (10yo+); 8 runners, no NRs; very hot pace with 6-of-8 forward (Outlaw Peter, Thunder Rock, Glengouly, Mahons Glory, Time To Bite, Ga Law) — favours hold-up Triple Trade.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-13_cheltenham/1455_jilly-cooper-veterans-handicap-chase.md",
+          "updated": "11:31 Fri 13 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Thunder Rock",
+              "prob": 0.22,
+              "placeProb": 0.50,
+              "finish": "-",
+              "confidence": "medium",
+              "price": "9/2",
+              "priceAt": "10:42 Fri 13 Nov",
+              "reason": "Perth 15 Oct reappearance win verified at source (7L off OR128 vs real C3 field, RPR140); today's OR134 sits 12-16lb below his 2023-24 peak chase marks (OR146-150); pace 8 flexible for a hot shape; Sean Bowen regular partner.",
+              "against": "Peak RPR was 2-3 seasons back; Cheltenham 2m4f record is one PU + one 3rd + one 6th; stepping back from 2m7f to 2m4f on a stiff galloping track in a hot pace."
+            },
+            {
+              "role": "ew",
+              "horse": "Triple Trade",
+              "prob": 0.20,
+              "placeProb": 0.52,
+              "finish": "-",
+              "confidence": "medium",
+              "price": "4/1",
+              "priceAt": "10:42 Fri 13 Nov",
+              "reason": "Only dedicated hold-up (ATR pace 2) in a 6-of-8 front-running field; Market Rasen vets' win 25 Oct from off the pace in the same shape; direct H2H beat Glengouly 4¾L at Cheltenham Nov 25 and is now 5lb better off; two Cheltenham wins verified (though at 2m, not 2m4f).",
+              "against": "Both verified Cheltenham wins at 1m7f199y, not today's 2m4f44y; CHL 2m4f form is only a dead-heat 3rd beaten 10L; hold-up tactics up the stiff Cheltenham hill can leave too much to do."
+            },
+            {
+              "role": "danger",
+              "horse": "Outlaw Peter",
+              "prob": 0.17,
+              "placeProb": 0.40,
+              "finish": "-",
+              "confidence": "medium",
+              "price": "3/1",
+              "priceAt": "10:42 Fri 13 Nov",
+              "reason": "Peak RPR 145 (HAY Grade 2 vets Series Final win Apr 26); market fav. But 212-day layoff, Cheltenham course debut, first ride for Sam Twiston-Davies (Cobden rode in April) and up 5lb on his winning mark — four live negatives."
+            }
+          ]
+        },
+        {
           "time": "14:20",
           "name": "Shloer Chase (Grade 2)",
           "type": "chase",
