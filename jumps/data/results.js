@@ -64,6 +64,100 @@
       "dataErrors": [],
       "races": [
         {
+          "time": "13:10",
+          "name": "AIS Conditional Jockeys' Handicap Hurdle",
+          "type": "hurdle",
+          "distance": "2m 5f",
+          "going": "Good (Good to Soft in places)",
+          "runners": 18,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Class 3 conditional jockeys' handicap hurdle; 20 declared, 2 NR (Diamatiste #8, That's It Paddy #11); strong-gallop forecast with Khafre, Diamatiste (NR), Chutzpal and Norman Fletcher all forward, which suits hold-up types.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-13_cheltenham/1310_ais-conditional-jockeys-handicap-hurdle.md",
+          "updated": "11:14 Fri 13 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Keno Black",
+              "prob": 0.15,
+              "placeProb": 0.38,
+              "finish": "-",
+              "confidence": "medium",
+              "price": "8/1",
+              "priceAt": "10:42 Fri 13 Nov",
+              "reason": "Plumpton 2m4f win 11 days ago verified at source (beat OR110 by 6.5L in 7-runner C4); hold-up style suits a strong forecast gallop at a stiff galloping track; +7lb penalty but weight-carried actually drops to 11-3.",
+              "against": "2m5f not yet completed (one fall from rear at Wetherby); course and class step up from sharp-track Plumpton; 1st ride for conditional Bradley Harris (no claim listed)."
+            },
+            {
+              "role": "ew",
+              "horse": "Step Ahead",
+              "prob": 0.09,
+              "placeProb": 0.38,
+              "finish": "-",
+              "confidence": "low",
+              "price": "10/1",
+              "priceAt": "10:42 Fri 13 Nov",
+              "reason": "1/1 at Cheltenham at 2m4f on good (Jan 2026 C2 win, RPR121); 10lb claim brings weight carried to 11-0, ~10lb better in than when he won here; last-time 7/15 Chepstow reads as a warm-up.",
+              "against": "10lb claim means Aamilah Aswat is very junior in an 18-runner Cheltenham handicap; Chepstow regression could be real rather than needing the run."
+            },
+            {
+              "role": "danger",
+              "horse": "Glancing Jack",
+              "prob": 0.14,
+              "placeProb": 0.42,
+              "finish": "-",
+              "confidence": "medium",
+              "price": "7/4",
+              "priceAt": "10:42 Fri 13 Nov",
+              "reason": "Newbury 2nd 3.25L behind OR125 top-weight Storming George in March (RPR123); Dan Skelton new-yard booking; 3lb claim to 11-8; 2m5f range from prior 2m3f form is natural step up."
+            }
+          ]
+        },
+        {
+          "time": "13:45",
+          "name": "Mucking Brilliant Paddy Power Novices' Chase (Listed)",
+          "type": "chase",
+          "distance": "3m 1f",
+          "going": "Good (Good to Soft in places)",
+          "runners": 6,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Class 1 Listed novice chase; 7 declared, 1 NR (Derryhassen Paddy #3); level weights 11-4; strong-pace with Bill Joyce, D Art D Art and Follow Your Luck all forward; EW omitted (no runner at value on our place numbers).",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-13_cheltenham/1345_mucking-brilliant-paddy-power-novices-chase.md",
+          "updated": "11:14 Fri 13 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Follow Your Luck",
+              "prob": 0.27,
+              "placeProb": 0.55,
+              "finish": "-",
+              "confidence": "medium",
+              "price": "8/1",
+              "priceAt": "10:42 Fri 13 Nov",
+              "reason": "Only runner with a verified 3m1f Cheltenham chase line on today's ground (2/6 behind Butch Cassidy at the C&D 20 days ago, carrying 11-7); clean chase record (3/3 completed); progressive 5yo; -3lb today.",
+              "against": "His 2nd was partly 'left clear of the rest' (leader UR last); OR123 lowest in the field; up to Listed at level weights; 'took keen hold' at the C&D and today's pace will be hot."
+            },
+            {
+              "role": "danger",
+              "horse": "King's Bucks",
+              "prob": 0.22,
+              "placeProb": 0.46,
+              "finish": "-",
+              "confidence": "medium",
+              "price": "2/1",
+              "priceAt": "10:42 Fri 13 Nov",
+              "reason": "De Bromhead sends one; Galway 2m2f heavy chase debut 2nd outstayed on soft-slog; +9f on his chase trip today — stamina asserted not proven; Cheltenham Albert Bartlett PU over 2m7f hurdles is the against."
+            }
+          ]
+        },
+        {
           "time": "14:20",
           "name": "Shloer Chase (Grade 2)",
           "type": "chase",
