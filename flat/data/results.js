@@ -34,6 +34,59 @@
       "dataErrors": [],
       "races": [
         {
+          "time": "18:30",
+          "name": "View Restaurant At Dundalk Stadium Nursery Handicap",
+          "type": "nursery",
+          "distance": "1m",
+          "going": "Standard",
+          "runners": 6,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Mutamarid Lsk NR (field 6 after NR). EW 2 places at 1/4.",
+          "winner": null,
+          "writeup": "flat/analyses/2026-11-13_dundalk/1830_1m-nursery.md",
+          "updated": "16:47 Fri 13 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Closefield Beau",
+              "prob": 0.40,
+              "placeProb": 0.65,
+              "finish": "-",
+              "confidence": "medium",
+              "price": "15/8",
+              "priceAt": "16:26 Fri 13 Nov",
+              "reason": "Made all winning here 9 days ago, direct head-to-head over Mutamarid Lsk (NR) and Scarlet Dream, inside draw stall 2 on 1m with mild low-draw bias, first-time cheekpieces.",
+              "against": "9-day turnaround, 3lb rise on a single narrow win; winning time 1:28.25s was slow of a Dundalk 7f sample; Dundalk's front-running edge weakens at 1m+ (Geegeez); pedigree (Nando Parrado × Tamayuz) is sprinter-miler — 1m is upper end."
+            },
+            {
+              "role": "ew",
+              "horse": "Shenata",
+              "prob": 0.23,
+              "placeProb": 0.55,
+              "finish": "-",
+              "confidence": "medium",
+              "price": "9/2",
+              "priceAt": "16:26 Fri 13 Nov",
+              "reason": "3rd of 16 at Gowran (RPR 62/TS 45) clearly second-best form line; Saxon Warrior progeny effective at 1m, so handicap/AW debut at 1m should suit from prominent stall 3.",
+              "against": "66-day break combined with AW debut; top weight 10-0 off OR 72 she has never run off and 15lb more than her best run; only 3 career runs."
+            },
+            {
+              "role": "danger",
+              "horse": "Green Sparkle",
+              "prob": 0.13,
+              "placeProb": 0.33,
+              "finish": "-",
+              "confidence": "low",
+              "price": "8/1",
+              "priceAt": "16:26 Fri 13 Nov",
+              "reason": "Lightly raced Joseph O'Brien filly from stall 5 with a part-excuse on testing ground last time (12½L cumulative beaten at Bellewstown, verified) and OR dropped 1lb on AW debut."
+            }
+          ]
+        },
+        {
           "time": "17:30",
           "name": "Irish Stallion Farms EBF Race",
           "type": "conditions",
