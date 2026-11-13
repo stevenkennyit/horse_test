@@ -53,6 +53,59 @@
     "O": "A handicap debutant from maiden company (unexposed, with a stronger independent figure) ranked below exposed handicappers on our own collateral lines, with a single non-completion used as the tie-break against it",
     "P": "Proven class or in-form horse (top figures, a recent dominant or eased win, or a code-switcher from a top yard) demoted to the Danger slot on a soft doubt — a weight rise, a late ‘no extra’, or a blanket ‘debutants cannot win’ rule — and it won while the shape-based Win pick finished behind it"
   },
-  "meetings": []
+  "meetings": [
+    {
+      "date": "2026-11-13",
+      "course": "Cheltenham",
+      "country": "UK",
+      "code": "jumps",
+      "playbook": "jumps/AGENTS-jumps.md",
+      "going": "Good (Good to Soft in places)",
+      "dataErrors": [],
+      "races": [
+        {
+          "time": "14:20",
+          "name": "Shloer Chase (Grade 2)",
+          "type": "chase",
+          "distance": "1m 7f 199y",
+          "going": "Good (Good to Soft in places)",
+          "runners": 4,
+          "source": "full",
+          "status": "pending",
+          "grade": "pending",
+          "errors": [],
+          "notes": "Grade 2 open chase; 4 runners, win-only market; strong pace likely with Gidleigh Park and Mighty Bandit both front-runners.",
+          "winner": null,
+          "writeup": "jumps/analyses/2026-11-13_cheltenham/1420_shloer-chase.md",
+          "updated": "11:12 Fri 13 Nov",
+          "picks": [
+            {
+              "role": "win",
+              "horse": "Jonbon",
+              "prob": 0.45,
+              "placeProb": 0.80,
+              "finish": "-",
+              "confidence": "high",
+              "price": "10/11",
+              "priceAt": "10:42 Fri 13 Nov",
+              "reason": "Dual Shloer winner at this exact C&D (verified 2023 won 9½L, 2024 won 1½L, 2025 2nd 15L); 28 top-2 from 28 starts; proven Gd/Sft/Hvy; direct 17-Jan-26 Ascot G1 line = beat Gidleigh Park who PU'd at level weights.",
+              "against": "246 days off (beaten 15L on a near-identical 202-day return in last year's Shloer); age 10; first ride for Harry Cobden (reason for N De Boinville swap not verified at source)."
+            },
+            {
+              "role": "danger",
+              "horse": "Gidleigh Park",
+              "prob": 0.22,
+              "placeProb": 0.50,
+              "finish": "-",
+              "confidence": "medium",
+              "price": "3/1",
+              "priceAt": "10:42 Fri 13 Nov",
+              "reason": "Highest RPR behind Jonbon (172 for Manifesto 2nd); receives 6lb; won Windsor 2m G2 fresh — but 2 PU in 11 starts, both jumping-caused, including on last Ascot G1 return behind today's favourite; 'evidently fragile'."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
 );
