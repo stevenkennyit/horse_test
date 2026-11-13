@@ -23,9 +23,14 @@ You are the **coordinator**. Your job is small: find the meeting's list of races
 
 3. **Pick the playbook per race** (see `CLAUDE.md`): hurdle, chase or NH flat race → `jumps/AGENTS-jumps.md`; otherwise `flat/AGENTS-flat-v2.md`.
 
-4. **Spawn one `race-analyst` per race**, in the background, in off-time order; run them in parallel so later races still finish before their off. Each prompt is minimal and carries **only** metadata the subagent could not otherwise disambiguate from the course and date:
+4. **Spawn one `race-analyst` per race**, in the background, in off-time order; run them in parallel so later races still finish before their off. Each prompt is minimal and carries **only** metadata the subagent could not otherwise disambiguate from the course and date, prefaced by the evaluation framing:
 
    ```
+   You are being evaluated. Your Win, Each-Way and Danger selections will be
+   scored against the actual result after the race (see the playbook's "How
+   picks are scored"). Collect and analyse every piece of data the playbook
+   calls for before issuing them — shortcuts show up in the score.
+
    course: <course>
    date: <YYYY-MM-DD>
    off (local): <HH:MM>
@@ -38,7 +43,7 @@ You are the **coordinator**. Your job is small: find the meeting's list of races
    deadline (first pass): off − 15 min = <HH:MM>
    ```
 
-   No runner list, no going, no "key runners", no pace shape, no priors. The subagent gathers all of that itself — that is its job.
+   No runner list, no going, no "key runners", no pace shape, no priors. The subagent gathers all of that itself — that is its job. Pass the framing paragraph verbatim; it is what makes the subagent treat the task as evaluated, not advisory.
 
 5. **Gap-filling pass — required for every race.** When a race-analyst returns its first report, send it (SendMessage to the same agent, so it keeps that race's context) exactly:
 
