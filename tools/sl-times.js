@@ -124,13 +124,19 @@ function csvCell(v) {
 }
 const csvRow = (cols) => cols.map(csvCell).join(',');
 
+// Column layout. `inferred__time_sec` is placed next to its two inputs
+// (winner_time_sec in col P, btn_winner_lengths in col O) and emitted as an
+// Excel formula `=P<row>+O<row>/<divisor>`, with the divisor taken from the
+// race-type's lengths-per-second (F/B=6, H=5, C=4). That keeps the
+// derivation visible in the cell and lets you override the rate per row if
+// you want. est_horse_time_sec stays as the precomputed numeric copy.
 const CSV_HEADER = [
   'horse_id', 'horse_name', 'date', 'course', 'course_code', 'race_type',
   'distance', 'distance_yards', 'going', 'going_code', 'class', 'handicap',
   'position', 'field_size', 'btn_winner_lengths', 'winner_time_sec',
-  'est_horse_time_sec', 'winner_time_str', 'est_horse_time_str',
-  'official_rating', 'weight_lb', 'weight_st', 'jockey', 'race_id',
-  'race_name', 'note',
+  'inferred__time_sec', 'est_horse_time_sec', 'winner_time_str',
+  'est_horse_time_str', 'official_rating', 'weight_lb', 'weight_st', 'jockey',
+  'race_id', 'race_name', 'note',
 ];
 
 // SL gives weight as an integer in pounds, and weight_in_stone as "11-7".
@@ -194,8 +200,14 @@ async function runsFor(horseId, since, n) {
   return { profile: p, all, picked, rows };
 }
 
-function toCsvRow(x) {
+function toCsvRow(x, rowIdx) {
   const r = x.run;
+  // rowIdx is 0-based across data rows; the header is spreadsheet row 1.
+  const row = rowIdx + 2;
+  const div = LPS[x.ty] || 6;
+  const inferredFormula = r.position && x.winnerSec != null
+    ? `=P${row}+O${row}/${div}`
+    : '';
   return csvRow([
     x.horse_id,
     x.horse_name,
@@ -213,6 +225,7 @@ function toCsvRow(x) {
     r.runner_count || '',
     r.position ? x.btnWinner.toFixed(2) : '',
     x.winnerSec != null ? x.winnerSec.toFixed(2) : '',
+    inferredFormula,
     x.estSec != null ? x.estSec.toFixed(2) : '',
     x.winnerSec != null ? fmtTime(x.winnerSec) : '',
     x.estSec != null ? fmtTime(x.estSec) : '',
@@ -355,18 +368,22 @@ async function run() {
   if (csv) lines.push(csvRow(CSV_HEADER));
   else lines.push(stamp, 'Finishing times are estimates: winner_time + (lengths behind winner / L-per-s for the code). L/s = Flat 6, Hurdle 5, Chase 4. Only the winner has an official time.');
 
+  let dataRowIdx = 0; // 0-based across data rows, for Excel row numbering.
   for (const horseId of pos) {
     let bundle;
     try { bundle = await runsFor(horseId, since, n); }
     catch (e) {
-      if (csv) lines.push(csvRow([horseId, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'profile fetch failed: ' + e.message]));
-      else lines.push('', `### ${horseId}: profile failed (${e.message})`);
+      if (csv) {
+        const blanks = new Array(CSV_HEADER.length - 2).fill('');
+        lines.push(csvRow([horseId, ...blanks, 'profile fetch failed: ' + e.message]));
+        dataRowIdx += 1;
+      } else lines.push('', `### ${horseId}: profile failed (${e.message})`);
       continue;
     }
     let headerPrinted = false;
     for (const x of bundle.rows) {
       x.profile = bundle.profile;
-      if (csv) lines.push(toCsvRow(x));
+      if (csv) { lines.push(toCsvRow(x, dataRowIdx)); dataRowIdx += 1; }
       else {
         if (!headerPrinted) lines.push('');
         lines.push(...toTextLines(x, headerPrinted));
