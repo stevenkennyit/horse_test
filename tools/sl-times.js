@@ -368,28 +368,41 @@ async function run() {
   if (csv) lines.push(csvRow(CSV_HEADER));
   else lines.push(stamp, 'Finishing times are estimates: winner_time + (lengths behind winner / L-per-s for the code). L/s = Flat 6, Hurdle 5, Chase 4. Only the winner has an official time.');
 
-  let dataRowIdx = 0; // 0-based across data rows, for Excel row numbering.
+  // Collect everything first, then (for CSV) sort by inferred time ascending
+  // before writing — the inferred__time_sec cell is a formula referencing its
+  // own row number (`=P<row>+O<row>/...`), so the row index must be computed
+  // against the final sorted position.
+  const csvItems = []; // { x, sortKey } for CSV; sortKey = inferred seconds or +Infinity
+  const errorRows = []; // profile-fetch-failed rows go at the bottom of the CSV
   for (const horseId of pos) {
     let bundle;
     try { bundle = await runsFor(horseId, since, n); }
     catch (e) {
       if (csv) {
         const blanks = new Array(CSV_HEADER.length - 2).fill('');
-        lines.push(csvRow([horseId, ...blanks, 'profile fetch failed: ' + e.message]));
-        dataRowIdx += 1;
+        errorRows.push(csvRow([horseId, ...blanks, 'profile fetch failed: ' + e.message]));
       } else lines.push('', `### ${horseId}: profile failed (${e.message})`);
       continue;
     }
     let headerPrinted = false;
     for (const x of bundle.rows) {
       x.profile = bundle.profile;
-      if (csv) { lines.push(toCsvRow(x, dataRowIdx)); dataRowIdx += 1; }
-      else {
+      if (csv) {
+        const sortKey = (x.run.position && x.estSec != null) ? x.estSec : Infinity;
+        csvItems.push({ x, sortKey });
+      } else {
         if (!headerPrinted) lines.push('');
         lines.push(...toTextLines(x, headerPrinted));
         headerPrinted = true;
       }
     }
+  }
+  if (csv) {
+    csvItems.sort((a, b) => a.sortKey - b.sortKey || a.x.horse_name.localeCompare(b.x.horse_name));
+    for (let i = 0; i < csvItems.length; i++) {
+      lines.push(toCsvRow(csvItems[i].x, i));
+    }
+    for (const row of errorRows) lines.push(row);
   }
 
   const output = lines.join('\n') + '\n';
