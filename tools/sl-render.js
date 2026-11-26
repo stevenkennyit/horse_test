@@ -173,6 +173,14 @@ function filterBar(ctx) {
     <span class="chip" data-val="2641-3520">Stay 13-16f</span>
     <span class="chip" data-val="3521-99999">Marathon 17f+</span>
   </span>
+  <span class="chip-group" data-field="position">
+    <span class="chip-group-label">Position</span>
+    <span class="chip on" data-val="">Any</span>
+    <span class="chip" data-val="won">Won</span>
+    <span class="chip" data-val="placed">Placed 1-3</span>
+    <span class="chip" data-val="top6">Top 6</span>
+    <span class="chip" data-val="dnf">DNF</span>
+  </span>
   <span class="count" id="count"></span>
 </div>`;
 }
@@ -380,7 +388,7 @@ const CLIENT_JS = [
   "    { k:'jockey', label:'Jockey' }",
   "  ];",
   "  var sortKey = 'est_horse_time_sec', sortDir = 1;",
-  "  var q = '', race_type = '', going_band = '', distance = '';",
+  "  var q = '', race_type = '', going_band = '', distance = '', position = '';",
   "  var hdr = document.getElementById('hdr');",
   "  cols.forEach(function(c){",
   "    var th = document.createElement('th');",
@@ -410,12 +418,23 @@ const CLIENT_JS = [
   "    var lo = parseFloat(parts[0]), hi = parseFloat(parts[1]);",
   "    return y >= lo && y <= hi;",
   "  }",
+  "  function inPosition(r){",
+  "    if (!position) return true;",
+  "    var p = r.position, hasP = (typeof p === 'number' && !isNaN(p) && p > 0);",
+  "    if (position === 'dnf') return !hasP;",
+  "    if (!hasP) return false;",
+  "    if (position === 'won') return p === 1;",
+  "    if (position === 'placed') return p <= 3;",
+  "    if (position === 'top6') return p <= 6;",
+  "    return true;",
+  "  }",
   "  function filtered(){",
   "    var ql = q.toLowerCase();",
   "    return data.filter(function(r){",
   "      if (race_type && r.race_type !== race_type) return false;",
   "      if (going_band && r.going_band !== going_band) return false;",
   "      if (!inDistance(r)) return false;",
+  "      if (!inPosition(r)) return false;",
   "      if (!ql) return true;",
   "      return [r.horse_name, r.course, r.jockey, r.race_name].some(function(v){ return String(v||'').toLowerCase().indexOf(ql) >= 0; });",
   "    });",
@@ -463,6 +482,7 @@ const CLIENT_JS = [
   "      if (field === 'race_type') race_type = val;",
   "      if (field === 'going_band') going_band = val;",
   "      if (field === 'distance') distance = val;",
+  "      if (field === 'position') position = val;",
   "      render();",
   "    });",
   "  });",
