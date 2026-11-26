@@ -167,11 +167,17 @@ function filterBar(ctx) {
     <span class="chip-group-label">Distance</span>
     <span class="chip on" data-val="">Any</span>
     ${nearChip}
-    <span class="chip" data-val="0-1320">Sprint ≤6f</span>
-    <span class="chip" data-val="1321-1980">Mile 7-9f</span>
-    <span class="chip" data-val="1981-2640">Mid 10-12f</span>
-    <span class="chip" data-val="2641-3520">Stay 13-16f</span>
-    <span class="chip" data-val="3521-99999">Marathon 17f+</span>
+    <span class="chip" data-val="0-1210">5f</span>
+    <span class="chip" data-val="1211-1430">6f</span>
+    <span class="chip" data-val="1431-1650">7f</span>
+    <span class="chip" data-val="1651-1980">1m</span>
+    <span class="chip" data-val="1981-2420">1m 2f</span>
+    <span class="chip" data-val="2421-2860">1m 4f</span>
+    <span class="chip" data-val="2861-3960">2m</span>
+    <span class="chip" data-val="3961-4840">2m 4f</span>
+    <span class="chip" data-val="4841-5720">3m</span>
+    <span class="chip" data-val="5721-6600">3m 4f</span>
+    <span class="chip" data-val="6601-99999">4m+</span>
   </span>
   <span class="chip-group" data-field="position">
     <span class="chip-group-label">Position</span>
