@@ -119,8 +119,17 @@ const CSV_HEADER = [
   'distance', 'distance_yards', 'going', 'going_code', 'class', 'handicap',
   'position', 'field_size', 'btn_winner_lengths', 'winner_time_sec',
   'est_horse_time_sec', 'winner_time_str', 'est_horse_time_str',
-  'official_rating', 'weight_stone', 'jockey', 'race_id', 'race_name', 'note',
+  'official_rating', 'weight_lb', 'weight_st', 'jockey', 'race_id',
+  'race_name', 'note',
 ];
+
+// SL gives weight as an integer in pounds, and weight_in_stone as "11-7".
+// Excel reads "9-2" as a date, so emit weight_lb (pounds) for filtering and
+// re-format the stone/pound string without the hyphen (e.g. "11st 7").
+function stoneStr(s) {
+  const m = String(s || '').match(/^(\d+)-(\d+)$/);
+  return m ? `${m[1]}st ${m[2]}` : (s || '');
+}
 
 async function runsFor(horseId, since, n) {
   const prof = await page(`/racing/profiles/horse/${horseId}`);
@@ -198,7 +207,8 @@ function toCsvRow(x) {
     x.winnerSec != null ? fmtTime(x.winnerSec) : '',
     x.estSec != null ? fmtTime(x.estSec) : '',
     r.or ?? r.bha ?? '',
-    r.weight_in_stone || '',
+    r.weight ?? '',
+    stoneStr(r.weight_in_stone),
     r.jockey_name || '',
     r.race_id,
     r.race_name || '',
