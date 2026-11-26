@@ -4,6 +4,7 @@
 //
 //   node tools/sl-times.js <horseId> [horseId ...] [--n N] [--since YYYY-MM-DD]
 //                                    [--csv] [--out file.csv]
+//                                    [--verify YYYY-MM-DD:slRaceId]
 //
 // SL stores no per-horse times. It stores the race's winning_time and each
 // ride's beaten distance between the horse in front. We walk the profile's
@@ -18,6 +19,15 @@
 //
 // --csv prints one header row plus one row per run across every horse;
 // --out writes the CSV to a file instead of stdout.
+//
+// --verify <date>:<slRaceId> auto-populates the horse list from SL's
+// racecard (RUNNERs only) AND cross-checks the live field count against
+// Racing Post for the same race. Use it when the field may have changed
+// late (non-runners replaced by reserves): SL's racecard endpoint has
+// been seen to lag reserve promotions until after the off, so an SL-only
+// view can miss horses. Explicit positional horse IDs still win over the
+// auto-populated list; the verify just prints a warning when the two
+// sources disagree.
 
 const BASE = 'https://www.sportinglife.com';
 const UA = 'horse-agent/1.0 (personal race analysis; plain page fetch)';
@@ -25,7 +35,7 @@ const UA = 'horse-agent/1.0 (personal race analysis; plain page fetch)';
 const args = process.argv.slice(2);
 const flag = (n) => args.includes('--' + n);
 const opt = (n, d) => { const i = args.indexOf('--' + n); return i >= 0 ? args[i + 1] : d; };
-const VALUED = ['--n', '--since', '--out'];
+const VALUED = ['--n', '--since', '--out', '--verify'];
 const pos = args.filter((a, i) => !a.startsWith('--') && !VALUED.includes(args[i - 1]));
 
 async function page(path) {
@@ -240,9 +250,99 @@ function toTextLines(x, horseHeaderPrinted) {
   return out;
 }
 
+// --verify support. SL card shape: /racing/racecards/<date>/x/racecard/<id>/x
+// yields d.race.rides with ride_status RUNNER or NONRUNNER and
+// race_summary.{course_name, time}. Racing Post's listing page
+// /racecards/<date> embeds __NEXT_DATA__.initialState.raceCards.meetings,
+// each race carrying numberOfRunners (live count, excluding non-runners).
+// We match the SL race to an RP race by course (first word, case-insensitive)
+// and off time "HH:MM".
+async function slRaceInfo(date, slRaceId) {
+  const d = await page(`/racing/racecards/${date}/x/racecard/${slRaceId}/x`);
+  const r = d.race;
+  const runners = r.rides.filter((x) => x.ride_status === 'RUNNER');
+  return {
+    course: r.race_summary.course_name,
+    time: String(r.race_summary.time).slice(0, 5),
+    stage: r.race_summary.race_stage,
+    runners: runners.map((x) => ({
+      cloth: x.cloth_number,
+      name: x.horse.name,
+      id: String(x.horse.horse_reference.id),
+    })),
+    nonRunners: r.rides.filter((x) => x.ride_status !== 'RUNNER').map((x) => x.horse.name),
+  };
+}
+
+async function rpRaceCount(date, slCourse, slTime) {
+  // RP occasionally returns 406/429 transiently; retry a couple of times.
+  const headers = {
+    'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 Safari/604.1',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'en-GB,en;q=0.9',
+  };
+  let res, lastStatus;
+  for (let i = 0; i < 3; i++) {
+    res = await fetch(`https://www.racingpost.com/racecards/${date}`, { headers });
+    lastStatus = res.status;
+    if (res.ok) break;
+    if (![406, 429, 500, 502, 503, 504].includes(res.status)) break;
+    await new Promise((r) => setTimeout(r, 400 * (i + 1)));
+  }
+  if (!res.ok) throw new Error(`RP /racecards/${date} -> HTTP ${lastStatus}`);
+  const html = await res.text();
+  const m = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+  if (!m) throw new Error('RP: no __NEXT_DATA__ (layout changed?)');
+  const data = JSON.parse(m[1]);
+  const meetings = data.props.pageProps.initialState.raceCards.meetings;
+  const firstWord = String(slCourse).split(/\s+/)[0].toLowerCase();
+  for (const mk of Object.keys(meetings)) {
+    const mm = meetings[mk];
+    if (!mm.name.toLowerCase().includes(firstWord)) continue;
+    for (const r of mm.races) {
+      if (r.raceStart === slTime) return { rpCount: r.numberOfRunners, rpMeeting: mm.name, rpRaceId: r.raceId };
+    }
+  }
+  throw new Error(`no RP race matched for ${slCourse} ${slTime}`);
+}
+
 async function run() {
+  const verifyArg = opt('verify');
+  let verifyInfo = null;
+  if (verifyArg) {
+    const m = String(verifyArg).match(/^(\d{4}-\d{2}-\d{2}):(\d+)$/);
+    if (!m) { console.error('--verify value must be YYYY-MM-DD:slRaceId'); process.exit(2); }
+    const [, vDate, vRaceId] = m;
+    try {
+      const sl = await slRaceInfo(vDate, vRaceId);
+      let rp = null, rpErr = null;
+      try { rp = await rpRaceCount(vDate, sl.course, sl.time); }
+      catch (e) { rpErr = e.message; }
+      verifyInfo = { date: vDate, raceId: vRaceId, sl, rp, rpErr };
+      // Auto-populate horse IDs from SL card if user didn't pass any.
+      if (!pos.length) pos.push(...sl.runners.map((x) => x.id));
+      // Print verify banner on stderr so CSV on stdout stays clean.
+      const slN = sl.runners.length, rpN = rp && rp.rpCount;
+      const agree = rpN != null && rpN === slN;
+      const banner = [
+        `[verify] ${sl.course} ${sl.time} (SL race ${vRaceId}, stage ${sl.stage})`,
+        `[verify]   SL runners: ${slN}${sl.nonRunners.length ? ` (NR: ${sl.nonRunners.join(', ')})` : ''}`,
+        rp
+          ? `[verify]   RP runners: ${rpN} (${rp.rpMeeting}, rpId ${rp.rpRaceId})`
+          : `[verify]   RP lookup failed: ${rpErr}`,
+        rp
+          ? (agree ? `[verify]   MATCH — SL and RP agree on ${slN} live runners.` : `[verify]   *** MISMATCH *** SL=${slN} vs RP=${rpN}. SL may be missing reserves; cross-check the field before trusting the CSV.`)
+          : `[verify]   proceeding on SL data only.`,
+      ];
+      for (const line of banner) console.error(line);
+    } catch (e) {
+      console.error(`[verify] failed: ${e.message}`);
+      if (!pos.length) process.exit(2);
+    }
+  }
+
   if (!pos.length) {
-    console.error('usage: sl-times.js <horseId> [horseId ...] [--n N] [--since YYYY-MM-DD] [--csv] [--out file.csv]');
+    console.error('usage: sl-times.js <horseId> [horseId ...] [--n N] [--since YYYY-MM-DD] [--csv] [--out file.csv] [--verify YYYY-MM-DD:slRaceId]');
     process.exit(2);
   }
   const n = +opt('n', 0);
