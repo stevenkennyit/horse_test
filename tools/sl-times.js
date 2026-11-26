@@ -287,36 +287,54 @@ async function slRaceInfo(date, slRaceId) {
   };
 }
 
-async function rpRaceCount(date, slCourse, slTime) {
+const RP_HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 Safari/604.1',
+  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'Accept-Language': 'en-GB,en;q=0.9',
+};
+async function rpFetch(url) {
   // RP occasionally returns 406/429 transiently; retry a couple of times.
-  const headers = {
-    'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 Safari/604.1',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    'Accept-Language': 'en-GB,en;q=0.9',
-  };
   let res, lastStatus;
   for (let i = 0; i < 3; i++) {
-    res = await fetch(`https://www.racingpost.com/racecards/${date}`, { headers });
+    res = await fetch(url, { headers: RP_HEADERS });
     lastStatus = res.status;
     if (res.ok) break;
     if (![406, 429, 500, 502, 503, 504].includes(res.status)) break;
     await new Promise((r) => setTimeout(r, 400 * (i + 1)));
   }
-  if (!res.ok) throw new Error(`RP /racecards/${date} -> HTTP ${lastStatus}`);
+  if (!res.ok) throw new Error(`${url} -> HTTP ${lastStatus}`);
   const html = await res.text();
   const m = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
-  if (!m) throw new Error('RP: no __NEXT_DATA__ (layout changed?)');
-  const data = JSON.parse(m[1]);
+  if (!m) throw new Error(`${url}: no __NEXT_DATA__`);
+  return JSON.parse(m[1]);
+}
+async function rpRaceCount(date, slCourse, slTime) {
+  const data = await rpFetch(`https://www.racingpost.com/racecards/${date}`);
   const meetings = data.props.pageProps.initialState.raceCards.meetings;
   const firstWord = String(slCourse).split(/\s+/)[0].toLowerCase();
   for (const mk of Object.keys(meetings)) {
     const mm = meetings[mk];
     if (!mm.name.toLowerCase().includes(firstWord)) continue;
     for (const r of mm.races) {
-      if (r.raceStart === slTime) return { rpCount: r.numberOfRunners, rpMeeting: mm.name, rpRaceId: r.raceId };
+      if (r.raceStart === slTime) {
+        return {
+          rpCount: r.numberOfRunners,
+          rpMeeting: mm.name,
+          rpRaceId: r.raceId,
+          rpRaceUrl: r.raceUrl,
+        };
+      }
     }
   }
   throw new Error(`no RP race matched for ${slCourse} ${slTime}`);
+}
+// Second-opinion check when the listing disagrees with SL: RP's own
+// per-race page sometimes still has the full field even when the listing
+// count lags. Returns live-runner count from racePage.data.runners.
+async function rpPerRaceCount(raceUrl) {
+  const data = await rpFetch(`https://www.racingpost.com${raceUrl}`);
+  const runners = data.props.pageProps.initialState.racePage.data.runners || [];
+  return runners.filter((h) => !h.nonRunner).length;
 }
 
 async function run() {
@@ -336,17 +354,37 @@ async function run() {
       if (!pos.length) pos.push(...sl.runners.map((x) => x.id));
       // Print verify banner on stderr so CSV on stdout stays clean.
       const slN = sl.runners.length, rpN = rp && rp.rpCount;
-      const agree = rpN != null && rpN === slN;
+      let agree = rpN != null && rpN === slN;
+      // Listing-level disagreement → check RP's per-race page as a tiebreaker
+      // (RP's listing numberOfRunners sometimes lags its own per-race data).
+      let perRaceN = null, perRaceErr = null;
+      if (rp && rp.rpRaceUrl && !agree) {
+        try { perRaceN = await rpPerRaceCount(rp.rpRaceUrl); }
+        catch (e) { perRaceErr = e.message; }
+      }
       const banner = [
         `[verify] ${sl.course} ${sl.time} (SL race ${vRaceId}, stage ${sl.stage})`,
         `[verify]   SL runners: ${slN}${sl.nonRunners.length ? ` (NR: ${sl.nonRunners.join(', ')})` : ''}`,
         rp
-          ? `[verify]   RP runners: ${rpN} (${rp.rpMeeting}, rpId ${rp.rpRaceId})`
+          ? `[verify]   RP listing: ${rpN} runners (${rp.rpMeeting}, rpId ${rp.rpRaceId})`
           : `[verify]   RP lookup failed: ${rpErr}`,
-        rp
-          ? (agree ? `[verify]   MATCH — SL and RP agree on ${slN} live runners.` : `[verify]   *** MISMATCH *** SL=${slN} vs RP=${rpN}. SL may be missing reserves; cross-check the field before trusting the CSV.`)
-          : `[verify]   proceeding on SL data only.`,
       ];
+      if (!rp) {
+        banner.push(`[verify]   proceeding on SL data only.`);
+      } else if (agree) {
+        banner.push(`[verify]   MATCH — SL and RP agree on ${slN} live runners.`);
+      } else if (perRaceN != null) {
+        banner.push(`[verify]   RP per-race page: ${perRaceN} live runners (tiebreaker)`);
+        if (perRaceN === slN) {
+          banner.push(`[verify]   MATCH — SL and RP per-race agree on ${slN} runners (RP listing is stale).`);
+          agree = true;
+        } else {
+          banner.push(`[verify]   *** MISMATCH *** SL=${slN} vs RP per-race=${perRaceN}. Cross-check the field before trusting the CSV.`);
+        }
+      } else {
+        banner.push(`[verify]   RP per-race lookup failed${perRaceErr ? ': ' + perRaceErr : ''}`);
+        banner.push(`[verify]   *** MISMATCH *** SL=${slN} vs RP listing=${rpN}. Cross-check the field before trusting the CSV.`);
+      }
       for (const line of banner) console.error(line);
     } catch (e) {
       console.error(`[verify] failed: ${e.message}`);
