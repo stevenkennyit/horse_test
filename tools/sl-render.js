@@ -111,8 +111,14 @@ function htmlEsc(s) {
   console.log(`wrote ${outPath} (${data.length} rows${ctx ? `, race ctx ${ctx.course} ${ctx.time}` : ''})`);
 })().catch((e) => { console.error('ERROR: ' + e.message); process.exit(1); });
 
+function yardsForDistance(distStr) {
+  const m = String(distStr || '').match(/(?:(\d+)m)?\s*(?:(\d+)f)?\s*(?:(\d+)y)?/);
+  return m ? (+m[1] || 0) * 1760 + (+m[2] || 0) * 220 + (+m[3] || 0) : 0;
+}
+
 function renderHtml({ title, ctx, data }) {
-  const json = JSON.stringify(data).replace(/</g, '\\u003c');
+  const targetYards = ctx ? yardsForDistance(ctx.distance) : null;
+  const payload = JSON.stringify({ data, targetYards }).replace(/</g, '\\u003c');
   const metaCtx = ctx ? `
       <span><strong>${htmlEsc(ctx.course)}</strong> · ${htmlEsc(ctx.date)} ${htmlEsc(ctx.time)}</span>
       <span>${htmlEsc(ctx.distance)} · ${htmlEsc(ctx.going)} · Class ${htmlEsc(ctx.raceClass || '-')}</span>
@@ -127,12 +133,48 @@ function renderHtml({ title, ctx, data }) {
     '<main>',
     '  <h1>' + htmlEsc(title) + '</h1>',
     '  <div class="meta">' + metaCtx + '<span>' + data.length + ' past runs</span></div>',
-    FILTER_BAR,
+    filterBar(ctx),
     '  <div class="tablewrap"><table><thead><tr id="hdr"></tr></thead><tbody id="tbody"></tbody></table></div>',
     '</main>',
-    '<script type="application/json" id="data">' + json + '</script>',
+    '<script type="application/json" id="payload">' + payload + '</script>',
     '<script>' + CLIENT_JS + '</script>',
   ].join('\n');
+}
+
+function filterBar(ctx) {
+  const nearChip = ctx
+    ? `<span class="chip" data-val="near">Near today ±2f</span>`
+    : '';
+  return `<div class="filters">
+  <input id="q" type="search" placeholder="Search horse, course, jockey, race">
+  <span class="chip-group" data-field="race_type">
+    <span class="chip-group-label">Code</span>
+    <span class="chip on" data-val="">All</span>
+    <span class="chip" data-val="F">Flat</span>
+    <span class="chip" data-val="H">Hurdle</span>
+    <span class="chip" data-val="C">Chase</span>
+    <span class="chip" data-val="B">Bumper</span>
+  </span>
+  <span class="chip-group" data-field="going_band">
+    <span class="chip-group-label">Going</span>
+    <span class="chip on" data-val="">Any</span>
+    <span class="chip" data-val="Fast">Fast</span>
+    <span class="chip" data-val="Good">Good</span>
+    <span class="chip" data-val="Soft">Soft</span>
+    <span class="chip" data-val="Std">Standard</span>
+  </span>
+  <span class="chip-group" data-field="distance">
+    <span class="chip-group-label">Distance</span>
+    <span class="chip on" data-val="">Any</span>
+    ${nearChip}
+    <span class="chip" data-val="0-1320">Sprint ≤6f</span>
+    <span class="chip" data-val="1321-1980">Mile 7-9f</span>
+    <span class="chip" data-val="1981-2640">Mid 10-12f</span>
+    <span class="chip" data-val="2641-3520">Stay 13-16f</span>
+    <span class="chip" data-val="3521-99999">Marathon 17f+</span>
+  </span>
+  <span class="count" id="count"></span>
+</div>`;
 }
 
 const STYLE = `<style>
@@ -304,7 +346,9 @@ const FILTER_BAR = `<div class="filters">
 // backtick escaping is needed when embedded inside the page template.
 const CLIENT_JS = [
   "(function(){",
-  "  var data = JSON.parse(document.getElementById('data').textContent);",
+  "  var payload = JSON.parse(document.getElementById('payload').textContent);",
+  "  var data = payload.data;",
+  "  var targetYards = payload.targetYards;",
   "  var GOING_BAND = {",
   "    GF:'Fast', Firm:'Fast', 'Good to Firm':'Fast',",
   "    Gd:'Good', Good:'Good', GS:'Good', 'Good to Soft':'Good',",
@@ -336,7 +380,7 @@ const CLIENT_JS = [
   "    { k:'jockey', label:'Jockey' }",
   "  ];",
   "  var sortKey = 'est_horse_time_sec', sortDir = 1;",
-  "  var q = '', race_type = '', going_band = '';",
+  "  var q = '', race_type = '', going_band = '', distance = '';",
   "  var hdr = document.getElementById('hdr');",
   "  cols.forEach(function(c){",
   "    var th = document.createElement('th');",
@@ -354,11 +398,24 @@ const CLIENT_JS = [
   "    if (typeof va === 'number' && typeof vb === 'number') return (va - vb) * sortDir;",
   "    return String(va).localeCompare(String(vb)) * sortDir;",
   "  }",
+  "  function inDistance(r){",
+  "    if (!distance) return true;",
+  "    var y = r.distance_yards;",
+  "    if (typeof y !== 'number' || isNaN(y)) return false;",
+  "    if (distance === 'near') {",
+  "      if (targetYards == null) return true;",
+  "      return Math.abs(y - targetYards) <= 440;",   // 2f = 440 yards
+  "    }",
+  "    var parts = distance.split('-');",
+  "    var lo = parseFloat(parts[0]), hi = parseFloat(parts[1]);",
+  "    return y >= lo && y <= hi;",
+  "  }",
   "  function filtered(){",
   "    var ql = q.toLowerCase();",
   "    return data.filter(function(r){",
   "      if (race_type && r.race_type !== race_type) return false;",
   "      if (going_band && r.going_band !== going_band) return false;",
+  "      if (!inDistance(r)) return false;",
   "      if (!ql) return true;",
   "      return [r.horse_name, r.course, r.jockey, r.race_name].some(function(v){ return String(v||'').toLowerCase().indexOf(ql) >= 0; });",
   "    });",
@@ -405,6 +462,7 @@ const CLIENT_JS = [
   "      var field = group.dataset.field, val = chip.dataset.val;",
   "      if (field === 'race_type') race_type = val;",
   "      if (field === 'going_band') going_band = val;",
+  "      if (field === 'distance') distance = val;",
   "      render();",
   "    });",
   "  });",
